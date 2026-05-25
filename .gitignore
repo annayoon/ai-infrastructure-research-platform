@@ -7,3 +7,4 @@ vector_db/
 logs/
 *.pyc
 .DS_Store
+metadata/*.backup.csv
