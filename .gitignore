@@ -9,3 +9,4 @@ logs/
 .DS_Store
 metadata/*.backup.csv
 *.docx
+*.docx
