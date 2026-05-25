@@ -1,0 +1,40 @@
+category,country,query,priority
+AI_factory,US,"AI factory infrastructure data center power cooling GPU",high
+AI_factory,US,"AI gigafactory data center power demand",high
+AI_factory,US,"GPU factory infrastructure AI compute campus",medium
+sovereign_AI,Global,"sovereign AI infrastructure national compute capacity",high
+sovereign_AI,Korea,"Korea sovereign AI infrastructure GPU cloud data center",high
+sovereign_AI,Japan,"Japan sovereign AI infrastructure GPU cloud data center",medium
+sovereign_AI,EU,"EU sovereign AI cloud infrastructure data centers",medium
+GPU_cloud,US,"GPU cloud provider data center power infrastructure",high
+GPU_cloud,US,"neocloud GPU data center power demand",high
+GPU_cloud,US,"CoreWeave data center power infrastructure",high
+GPU_cloud,US,"Lambda GPU cloud infrastructure data center",medium
+GPU_cloud,US,"Crusoe AI data center power generation",medium
+behind_meter_power,US,"behind the meter data center power generation",high
+behind_meter_power,US,"co-located power generation data center campus",high
+behind_meter_power,US,"off-grid AI data center power infrastructure",high
+SMR_nuclear,US,"SMR data center power AI infrastructure",high
+SMR_nuclear,US,"nuclear power AI data center electricity demand",high
+SMR_nuclear,US,"small modular reactor data center hyperscale",medium
+dispatchable_power,US,"dispatchable power data center AI infrastructure",high
+dispatchable_power,US,"firm power supply data center electricity demand",high
+dispatchable_power,US,"natural gas power data center AI campus",medium
+energy_procurement,US,"hyperscaler energy procurement data center power purchase agreement",high
+energy_procurement,US,"AI data center power purchase agreement",high
+energy_procurement,US,"corporate PPA data center renewable energy",medium
+grid_interconnection,US,"large load interconnection data center delay",high
+grid_interconnection,US,"AI data center grid interconnection constraints",high
+grid_interconnection,US,"transmission queue data center power demand",medium
+site_selection,US,"data center site selection criteria power cooling fiber",high
+site_selection,US,"hyperscale data center location factors power availability",high
+site_selection,US,"AI data center campus site requirements",medium
+water_cooling,US,"data center water consumption cooling AI",high
+water_cooling,US,"AI data center water risk cooling demand",medium
+water_cooling,US,"liquid cooling water demand data center",medium
+liquid_cooling,US,"liquid cooling data center GPU rack density",high
+liquid_cooling,US,"immersion cooling AI data center infrastructure",medium
+liquid_cooling,US,"direct to chip cooling GPU data center",medium
+workload_positioning,US,"AI training workload data center location power latency",high
+workload_positioning,US,"batch AI compute infrastructure data center",medium
+workload_positioning,US,"AI training vs inference data center requirements",medium
