@@ -10,3 +10,4 @@ logs/
 metadata/*.backup.csv
 *.docx
 *.docx
+*.docx
