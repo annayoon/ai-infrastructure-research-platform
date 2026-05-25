@@ -1,12 +1,129 @@
 import streamlit as st
+import pandas as pd
+import chromadb
+from openai import OpenAI
+
+# =====================
+# Page Config
+# =====================
+
+st.set_page_config(
+    page_title="AI Infrastructure Research Portal",
+    layout="wide"
+)
+
+st.title("AI Infrastructure Research Portal")
+
+# =====================
+# Source Index
+# =====================
+
+st.header("Source Index")
+
+try:
+    df = pd.read_csv("metadata/source_index.csv")
+    st.dataframe(df)
+
+except Exception as e:
+    st.error(e)
+
+# =====================
+# Summaries
+# =====================
+
+st.header("Document Summaries")
+
+try:
+    summaries = pd.read_csv("metadata/summaries.csv")
+    st.dataframe(summaries)
+
+except Exception as e:
+    st.error(e)
+
+# =====================
+# Insights
+# =====================
+
+st.header("Strategic Insights")
+
+try:
+    insights = pd.read_csv("metadata/insights.csv")
+    st.dataframe(insights)
+
+except Exception as e:
+    st.error(e)
+
+# =====================
+# Knowledge Graph
+# =====================
+
+st.header("Knowledge Graph")
+
+try:
+    kg = pd.read_csv("metadata/knowledge_graph.csv")
+    st.dataframe(kg)
+
+except Exception as e:
+    st.error(e)
+
+# =====================
+# Semantic Search
+# =====================
+
+st.header("Semantic Search")
+
+query = st.text_input(
+    "Search your research corpus"
+)
+
+if query:
+
+    try:
+
+        db = chromadb.PersistentClient(
+            path="vector_db"
+        )
+
+        collection = db.get_collection(
+            "research_corpus"
+        )
+
+        results = collection.query(
+            query_texts=[query],
+            n_results=5
+        )
+
+        for i in range(len(results["documents"][0])):
+
+            st.subheader(
+                results["metadatas"][0][i]["file"]
+            )
+
+            st.write(
+                results["documents"][0][i][:2000]
+            )
+
+    except Exception as e:
+        st.error(e)
+
+# =====================
+# AI Research Analyst
+# =====================
+
+st.header("AI Research Analyst")
+
+question = st.text_area(
+    "Ask a strategic infrastructure question"
+)
+
 if question:
 
     try:
 
-        # OpenAI client 생성 (lazy loading)
+        # OpenAI client lazy loading
         client = OpenAI()
 
-        # Vector DB 연결
+        # Vector DB
         db = chromadb.PersistentClient(
             path="vector_db"
         )
