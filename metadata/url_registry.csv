@@ -1,27 +1,59 @@
 ﻿url,title,domain,country,category,subcategory,query,priority,status,notes
 https://eta-publications.lbl.gov/publications/2024-united-states-data-center-energy,2024 United States Data Center Energy Usage Report,eta-publications.lbl.gov,US,data_center,energy usage,LBNL data center energy usage report,high,new,
 https://www.eia.gov/todayinenergy/detail.php?id=62084,Electricity demand and data centers,EIA,US,power,electricity demand,EIA data center electricity demand,high,new,
-https://www.iea.org/reports/electricity-2025,Electricity 2025,iea.org,International,power,electricity forecast,IEA electricity demand data centers AI,high,new,
-https://www.datacenterdynamics.com/en/analysis/,Data Center Dynamics analysis page,datacenterdynamics.com,International,data_center,market analysis,data center market power constraint,medium,new,
 https://www.nrel.gov/grid/renewable-portfolio-standards.html,Renewable portfolio standards,NREL,US,power,renewable policy,NREL renewable portfolio standards,medium,new,
 https://www.commerce.gov/news,Department of Commerce news,commerce.gov,US,government,industrial policy,Commerce advanced manufacturing AI infrastructure,medium,new,
-https://www.iea.org/reports/energy-and-ai,Energy and AI,iea.org,International,AI,energy demand,IEA energy and AI,high,new,
 https://www.iea.org/reports/data-centres-and-data-transmission-networks,Data Centres and Data Transmission Networks,iea.org,International,data_center,energy efficiency,IEA data centres and networks,high,new,
-https://www.iea.org/reports/electricity-2024,Electricity 2024,iea.org,International,power,electricity forecast,IEA electricity 2024,high,new,
-https://www.eia.gov/outlooks/aeo/,Annual Energy Outlook,eia.gov,US,power,energy outlook,EIA annual energy outlook,high,new,
-https://www.eia.gov/electricity/monthly/,Electric Power Monthly,eia.gov,US,power,electricity statistics,EIA electric power monthly,high,new,
-https://www.energy.gov/gdo/grid-deployment-office,Grid Deployment Office,energy.gov,US,power,grid deployment,DOE grid deployment office,high,new,
-https://www.energy.gov/oe/office-electricity,Office of Electricity,energy.gov,US,power,grid reliability,DOE office of electricity,high,new,
-https://www.energy.gov/eere/buildings/data-centers-and-servers,Data Centers and Servers,energy.gov,US,cooling,energy efficiency,DOE data centers and servers,high,new,
-https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers,DOE report on data center electricity demand,energy.gov,US,power,data center electricity demand,DOE data center electricity demand,high,new,
-https://www.energy.gov/gdo/national-transmission-needs-study,National Transmission Needs Study,energy.gov,US,power,transmission,DOE national transmission needs study,high,new,
-https://www.nrel.gov/grid/,NREL Grid Modernization,nrel.gov,US,power,grid modernization,NREL grid modernization,medium,new,
-https://www.nrel.gov/buildings/data-centers.html,NREL Data Centers,nrel.gov,US,cooling,energy efficiency,NREL data centers,medium,new,
-https://www.nist.gov/artificial-intelligence,NIST Artificial Intelligence,nist.gov,US,AI,standards,NIST AI,medium,new,
-https://www.commerce.gov/issues/artificial-intelligence,Commerce Artificial Intelligence,commerce.gov,US,government,AI policy,Commerce AI policy,medium,new,
-https://www.defense.gov/News/Releases/,Department of Defense News Releases,defense.gov,US,government,defense AI,DoD AI infrastructure,medium,new,
-https://www.cto.mil/ai/,DoD Chief Digital and Artificial Intelligence Office,cto.mil,US,government,defense AI,DoD CDAO AI,medium,new,
-https://www.whitehouse.gov/briefing-room/statements-releases/,White House Statements and Releases,whitehouse.gov,US,government,AI policy,White House AI infrastructure,medium,new,
-https://digital-strategy.ec.europa.eu/en/policies/data-centres,EU Data Centres Policy,europa.eu,EU,policy,data centers,EU data center policy,medium,new,
-https://digital-strategy.ec.europa.eu/en/policies/artificial-intelligence,EU Artificial Intelligence Policy,europa.eu,EU,policy,AI regulation,EU AI policy,medium,new,
-https://digital-strategy.ec.europa.eu/en/policies/cloud-computing,EU Cloud Computing Policy,europa.eu,EU,policy,cloud infrastructure,EU cloud policy,medium,new,
+https://www.iea.org/reports/energy-and-ai,Energy and AI,iea.org,International,AI,energy demand,IEA energy and AI,high,new,official source
+https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai,Energy demand from AI,iea.org,International,AI,energy demand,IEA AI electricity demand,high,new,official source
+https://www.iea.org/reports/energy-and-ai/executive-summary,Energy and AI executive summary,iea.org,International,AI,executive summary,IEA AI data center demand,high,new,official source
+https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks,Data centres and data transmission networks,iea.org,International,data_center,energy efficiency,IEA data centres networks,high,new,official source
+https://www.iea.org/reports/electricity-2025,Electricity 2025,iea.org,International,power,electricity forecast,IEA electricity 2025,high,new,official source
+https://www.iea.org/reports/electricity-2024,Electricity 2024,iea.org,International,power,electricity forecast,IEA electricity 2024,high,new,official source
+https://www.eia.gov/todayinenergy/detail.php?id=67704,Data center server energy use grows,EIA,US,power,data center electricity,EIA data center server electricity use,high,new,official source
+https://www.eia.gov/todayinenergy/detail.php?id=65564,Commercial computing electricity use,EIA,US,power,commercial computing,EIA computing electricity demand,high,new,official source
+https://www.eia.gov/todayinenergy/detail.php?id=63344,Texas data centers and crypto mining,EIA,US,power,large load,EIA data centers power demand,high,new,official source
+https://www.eia.gov/todayinenergy/detail.php?id=65264,US electricity consumption growth,EIA,US,power,electricity demand,EIA electricity growth,high,new,official source
+https://www.eia.gov/outlooks/aeo/,Annual Energy Outlook,EIA,US,power,energy outlook,EIA annual energy outlook,high,new,official source
+https://www.eia.gov/electricity/monthly/,Electric Power Monthly,EIA,US,power,electricity statistics,EIA electric power monthly,high,new,official source
+https://www.eia.gov/pressroom/releases/press582.php,EIA electricity demand forecast,EIA,US,power,demand forecast,EIA data center electricity forecast,high,new,official source
+https://www.eia.gov/pressroom/releases/press585.php,EIA data center pilot survey,EIA,US,power,data center survey,EIA data center energy survey,medium,new,official source
+https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers,DOE report on data center electricity demand,energy.gov,US,power,data center demand,DOE data center electricity demand,high,new,official source
+https://www.energy.gov/gdo/grid-deployment-office,Grid Deployment Office,energy.gov,US,power,grid deployment,DOE grid deployment office,high,new,official source
+https://www.energy.gov/gdo/national-transmission-needs-study,National Transmission Needs Study,energy.gov,US,power,transmission,DOE national transmission needs study,high,new,official source
+https://www.energy.gov/oe/office-electricity,Office of Electricity,energy.gov,US,power,grid reliability,DOE office of electricity,high,new,official source
+https://www.energy.gov/eere/buildings/data-centers-and-servers,Data centers and servers,energy.gov,US,cooling,energy efficiency,DOE data centers servers,high,new,official source
+https://www.energy.gov/eere/amo/advanced-materials-manufacturing-technologies-office,Advanced Materials and Manufacturing Technologies Office,energy.gov,US,manufacturing,advanced manufacturing,DOE advanced manufacturing,medium,new,official source
+https://eta.lbl.gov/publications,Lawrence Berkeley Lab publications,LBNL,US,data_center,research publications,LBNL data center energy,medium,new,official source
+https://eta-publications.lbl.gov/,LBNL publications portal,LBNL,US,data_center,research portal,LBNL energy publications,medium,new,official source
+https://www.nrel.gov/grid/,NREL grid modernization,NREL,US,power,grid modernization,NREL grid modernization,medium,new,official source
+https://www.nrel.gov/buildings/data-centers.html,NREL data centers,NREL,US,cooling,energy efficiency,NREL data center efficiency,medium,new,official source
+https://www.nrel.gov/research/re-grid-integration.html,NREL grid integration,NREL,US,power,grid integration,NREL grid integration,medium,new,official source
+https://www.nist.gov/artificial-intelligence,NIST artificial intelligence,nist.gov,US,AI,standards,NIST AI standards,medium,new,official source
+https://www.nist.gov/itl,NIST information technology laboratory,nist.gov,US,AI,IT standards,NIST IT AI infrastructure,medium,new,official source
+https://www.commerce.gov/issues/artificial-intelligence,Commerce artificial intelligence,commerce.gov,US,government,AI policy,Commerce AI policy,medium,new,official source
+https://www.defense.gov/News/Releases/,Department of Defense news releases,defense.gov,US,government,defense AI,DoD AI infrastructure,medium,new,official source
+https://www.cto.mil/ai/,DoD chief digital and artificial intelligence office,cto.mil,US,government,defense AI,DoD CDAO AI,medium,new,official source
+https://www.whitehouse.gov/briefing-room/statements-releases/,White House statements and releases,whitehouse.gov,US,government,AI policy,White House AI infrastructure,medium,new,official source
+https://digital-strategy.ec.europa.eu/en/policies/data-centres,EU data centres policy,europa.eu,EU,policy,data centers,EU data center policy,medium,new,official source
+https://digital-strategy.ec.europa.eu/en/policies/artificial-intelligence,EU artificial intelligence policy,europa.eu,EU,policy,AI regulation,EU AI policy,medium,new,official source
+https://digital-strategy.ec.europa.eu/en/policies/cloud-computing,EU cloud computing policy,europa.eu,EU,policy,cloud infrastructure,EU cloud computing,medium,new,official source
+https://www.akenergyauthority.org/What-We-Do/Railbelt-Energy/Railbelt-Transmission-Organization,Railbelt Transmission Organization,akenergyauthority.org,US-Alaska,power,Railbelt transmission,Alaska Railbelt transmission,high,new,official source
+https://www.akenergyauthority.org/What-We-Do/Railbelt-Energy,Railbelt energy,akenergyauthority.org,US-Alaska,power,Railbelt energy,Alaska Railbelt energy,high,new,official source
+https://storymaps.arcgis.com/stories/5311a23d5b7c46cdae3e622fb6961e14,What is the Railbelt,arcgis.com,US-Alaska,power,Railbelt overview,Alaska Railbelt overview,medium,new,public info
+https://zenodo.org/records/14908275,Electrifying Alaska Railbelt,zenodo.org,US-Alaska,power,Railbelt research,Alaska Railbelt generation transmission,medium,new,research source
+https://www.alaska.gov/,State of Alaska,alaska.gov,US-Alaska,government,state government,Alaska government infrastructure,medium,new,official source
+https://www.commerce.alaska.gov/web/,Alaska commerce department,alaska.gov,US-Alaska,government,economic development,Alaska economic development,medium,new,official source
+https://www.arlis.org/,Alaska resources library and information services,arlis.org,US-Alaska,Arctic,research library,Alaska infrastructure research,medium,new,research source
+https://www.datacenterdynamics.com/en/analysis/,Data Center Dynamics analysis,datacenterdynamics.com,International,data_center,market analysis,data center market analysis,medium,new,industry source
+https://www.datacenterdynamics.com/en/news/,Data Center Dynamics news,datacenterdynamics.com,International,data_center,market news,data center market news,medium,new,industry source
+https://uptimeinstitute.com/resources,Uptime Institute resources,uptimeinstitute.com,International,data_center,reliability,Uptime data center resources,medium,new,industry source
+https://www.cbre.com/insights,CBRE insights,cbre.com,International,data_center,market research,CBRE data center market,medium,new,industry source
+https://www.jll.com/en-us/insights,JLL insights,jll.com,International,data_center,market research,JLL data center market,medium,new,industry source
+https://www.coreweave.com/blog,CoreWeave blog,coreweave.com,US,GPU_cloud,GPU cloud,CoreWeave GPU infrastructure,medium,new,company source
+https://www.crusoe.ai/blog,Crusoe blog,crusoe.ai,US,behind_meter_power,energy compute,Crusoe AI data center power,medium,new,company source
+https://lambdalabs.com/blog,Lambda blog,lambdalabs.com,US,GPU_cloud,GPU cloud,Lambda GPU cloud infrastructure,medium,new,company source
+https://www.oracle.com/cloud/data-center-regions/,Oracle cloud data center regions,oracle.com,International,data_center,cloud regions,Oracle cloud data centers,medium,new,company source
+https://aws.amazon.com/about-aws/global-infrastructure/,AWS global infrastructure,aws.amazon.com,International,data_center,cloud infrastructure,AWS data center infrastructure,medium,new,company source
+https://azure.microsoft.com/en-us/explore/global-infrastructure,Microsoft Azure global infrastructure,microsoft.com,International,data_center,cloud infrastructure,Azure data center infrastructure,medium,new,company source
+https://cloud.google.com/about/locations,Google Cloud locations,google.com,International,data_center,cloud infrastructure,Google Cloud data centers,medium,new,company source
