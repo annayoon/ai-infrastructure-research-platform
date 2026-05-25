@@ -9,7 +9,15 @@ st.set_page_config(
 )
 
 st.title("AI Infrastructure Research Portal")
-client = OpenAI()
+if question:
+
+    try:
+
+        client = OpenAI()
+
+        db = chromadb.PersistentClient(
+            path="vector_db"
+        )
 # =====================
 # Metadata
 # =====================
