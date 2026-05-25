@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.env
+downloads/
+corpus_text/
+vector_db/
+logs/
+*.pyc
+.DS_Store
