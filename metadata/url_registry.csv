@@ -1,0 +1,11 @@
+url,title,domain,country,category,subcategory,query,priority,status,notes
+https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers,DOE releases new report evaluating increase in electricity demand from data centers,energy.gov,US,power,data center electricity demand,DOE data center electricity demand,high,new,
+https://eta-publications.lbl.gov/publications/2024-united-states-data-center-energy,2024 United States Data Center Energy Usage Report,eta-publications.lbl.gov,US,data_center,energy usage,LBNL data center energy usage report,high,new,
+https://www.energy.gov/gdo/national-transmission-needs-study,National Transmission Needs Study,energy.gov,US,power,transmission,DOE national transmission needs Alaska,high,new,
+https://www.eia.gov/todayinenergy/detail.php?id=62084,Electricity demand and data centers,EIA,US,power,electricity demand,EIA data center electricity demand,high,new,
+https://www.iea.org/reports/electricity-2025,Electricity 2025,iea.org,International,power,electricity forecast,IEA electricity demand data centers AI,high,new,
+https://www.datacenterdynamics.com/en/analysis/,Data Center Dynamics analysis page,datacenterdynamics.com,International,data_center,market analysis,data center market power constraint,medium,new,
+https://www.energy.gov/eere/buildings/data-centers-and-servers,Data centers and servers,energy.gov,US,cooling,energy efficiency,DOE data centers servers energy efficiency,medium,new,
+https://www.nrel.gov/grid/renewable-portfolio-standards.html,Renewable portfolio standards,NREL,US,power,renewable policy,NREL renewable portfolio standards,medium,new,
+https://www.whitehouse.gov/briefing-room/statements-releases/,White House statements and releases,whitehouse.gov,US,government,policy,AI infrastructure federal policy,medium,new,
+https://www.commerce.gov/news,Department of Commerce news,commerce.gov,US,government,industrial policy,Commerce advanced manufacturing AI infrastructure,medium,new,
