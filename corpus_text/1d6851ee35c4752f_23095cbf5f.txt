@@ -1,0 +1,1495 @@
+       Evaluating the Impact of Tidal Energy
+       in the Cook Inlet on Alaska’s Railbelt
+       Electrical Grid
+       Marty Schwarz, Ben McGilton, Levi Kilcher, Kelly
+       Gjestvang, and Greg Stark
+       National Renewable Energy Laboratory
+
+
+
+
+NREL is a national laboratory of the U.S. Department of Energy           Technical Report
+Office of Energy Efficiency & Renewable Energy                           NREL/TP-5700-85943
+Operated by the Alliance for Sustainable Energy, LLC                     April 2024
+This report is available at no cost from the National Renewable Energy
+Laboratory (NREL) at www.nrel.gov/publications.
+
+Contract No. DE-AC36-08GO28308
+       Evaluating the Impact of Tidal Energy
+       in the Cook Inlet on Alaska’s Railbelt
+       Electrical Grid
+       Marty Schwarz, Ben McGilton, Levi Kilcher, Kelly
+       Gjestvang, and Greg Stark
+       National Renewable Energy Laboratory
+
+
+       Suggested Citation
+       Schwarz, Marty, Ben McGilton, Levi Kilcher, Kelly Gjestvang, and Greg Stark. 2024.
+       Evaluating the Impact of Tidal Energy in the Cook Inlet on Alaska’s Railbelt Electrical
+       Grid. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5700-85943.
+       https://www.nrel.gov/docs/fy24osti/85943.pdf.
+
+
+
+
+NREL is a national laboratory of the U.S. Department of Energy              Technical Report
+Office of Energy Efficiency & Renewable Energy                              NREL/TP-5700-85943
+Operated by the Alliance for Sustainable Energy, LLC                        April 2024
+This report is available at no cost from the National Renewable Energy      National Renewable Energy Laboratory
+Laboratory (NREL) at www.nrel.gov/publications.                             15013 Denver West Parkway
+                                                                            Golden, CO 80401
+Contract No. DE-AC36-08GO28308                                              303-275-3000 • www.nrel.gov
+                                                            NOTICE
+
+This work was authored by the National Renewable Energy Laboratory, operated by Alliance for Sustainable
+Energy, LLC, for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding
+provided by U.S. Department of Energy Office of Energy Efficiency and Renewable Energy Water Power
+Technologies Office. The views expressed herein do not necessarily represent the views of the DOE or the U.S.
+Government.
+
+                              This report is available at no cost from the National Renewable
+                              Energy Laboratory (NREL) at www.nrel.gov/publications.
+
+                              U.S. Department of Energy (DOE) reports produced after 1991
+                              and a growing number of pre-1991 documents are available
+                              free via www.OSTI.gov.
+
+Cover Photos by Dennis Schroeder: (clockwise, left to right) NREL 51934, NREL 45897, NREL 42160, NREL 45891, NREL 48097,
+NREL 46526.
+
+NREL prints on paper that contains recycled content.
+   Acknowledgments
+   The authors would like to thank Homer Electric Association for their assistance with the
+   development of the Alaska Railbelt production cost model and for supporting this investigation
+   and report. The authors also thank the U.S. Department of Energy’s Water Power Technologies
+   Office for their support of this analysis and report.
+
+   The authors would also like to thank the following individuals from the National Renewable
+   Energy Laboratory: Katie Peterson, David Palchak, Tessa Greco, and Mike Lawson for their
+   helpful review and comments; Billy J. Roberts for generating the maps; and Amy Brice for
+   editing.
+
+
+
+
+                                                      iii
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   List of Acronyms
+   AEP                     annual energy production
+   BESS                    battery energy storage system
+   CH4                     methane
+   CO2                     carbon dioxide
+   DOE                     U.S. Department of Energy
+   EPA                     U.S. Environmental Protection Agency
+   GVEA                    Golden Valley Electric Association
+   GWh                     gigawatt-hour
+   HEA                     Homer Electric Association
+   kV                      kilovolt
+   kWh                     kilowatt-hour
+   m/s                     meters per second
+   mg/L                    milligrams per liter
+   MW                      megawatt
+   N2O                     nitrous oxide
+   NOAA                    National Oceanic and Atmospheric Administration
+   NREL                    National Renewable Energy Laboratory
+   PV                      photovoltaic
+   TWh/yr                  terawatt-hours per year
+   Tx                      thermal rating
+
+
+
+
+                                                      iv
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Executive Summary
+   This report presents the findings of a case study that evaluates the impact of integrating
+   significant tidal energy generation in the Cook Inlet in Alaska. The case study is part of a series
+   within the “Quantifying the Grid Value of MRE [Marine Renewable Energy] in Early U.S.
+   Markets” project funded by the U.S. Department of Energy (DOE). 1
+
+   The Cook Inlet represents approximately 30% of the total tidal energy in the United States. It is
+   located alongside the Kenai Peninsula, a region serviced by the Homer Electric Association
+   (HEA). HEA constitutes the southernmost portion of Alaska’s Railbelt electricity grid, which in
+   its entirety serves approximately 75% of the state’s population and stretches across southcentral
+   Alaska from Homer in the south to Fairbanks in the north. The Railbelt utilities sold 4,408
+   gigawatt-hours (GWh) of electricity in 2020, and HEA’s sales were 11% of that (496 GWh).
+   Despite significant natural resources, Alaska is among the states with the highest energy prices.
+   Increasing renewable energy in the region has been proposed to address these high prices.
+   Because of the substantial and highly predictable tidal flow rate in the inlet, along with its
+   proximity to the majority of Alaska’s population, tidal energy generation has been proposed;
+   however, there have been no studies to date that evaluate its potential as part of a mixed energy
+   portfolio from a grid integration perspective.
+
+   This study takes a scenario-based approach to evaluate the tidal energy potential in the Cook
+   Inlet, in which 100–500 megawatts (MW) of tidal energy are integrated into the grid under
+   different infrastructure scenarios. These scenarios include increased energy storage and
+   transmission line upgrades, a “Basecase” scenario with no additional upgrades, and a reference
+   case with no tidal energy.
+
+   The project team worked with HEA to develop a model of the entire Railbelt grid in the price-
+   maker production cost modeling software PLEXOS by Energy Exemplar. 2 The final model
+   closely aligns with the utility’s models. The model simulates 2035 by scaling load and adding
+   new wind, solar photovoltaic (PV), and battery storage plants already undergoing feasibility
+   studies. Table ES-1 lists the plants included at the time of modeling in November 2022. Because
+   of scheduling and review conflicts associated with the DOE Funding Opportunity
+   Announcement for U.S. Tidal Energy Advancement (DE-FOA-0002845), the publication of this
+   report was delayed, and some of these assumptions may require updating in any subsequent
+   modeling and analysis.
+
+
+
+
+   1
+     As a first-of-its-kind case-study for the challenges and opportunities of tidal energy in a utility-scale power system,
+   this work is not an engineering study or a detailed financial feasibility analysis. Its purpose is to identify the upper
+   limit of value, from a production cost modeling perspective, that tidal energy could supply to the Railbelt power
+   system. It simplifies the Railbelt system into a three-zone model, ignores existing contractual obligations, and does
+   not capture tidal capital costs or electrical engineering integration challenges beyond energy balancing. A complete
+   interconnection study would need to be completed before the tidal energy could be safely integrated to the Railbelt
+   system.
+   2
+     https://energyexemplar.com/solutions/plexos/
+
+
+                                                              v
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+                Table ES-1. List of Planned New Renewable Energy and Storage Projects
+
+        Plant name                Technology            Capacity                 Location
+        Delta Wind Farm           Wind                  90 MW (currently 1.9     Golden Valley
+                                                        MW)                      Electric Association
+                                                                                 (GVEA)
+        Eva Creek Wind Farm       Wind                  25 MW                    GVEA
+        HEA Wind Farm 1           Wind                  31 MW                    HEA
+        Nenana Solar              Solar utility PV      16 MW                    GVEA
+        Homer Utility Solar       Solar utility PV      30 MW                    HEA
+        Homer Residential         Solar distributed     3 MW                     HEA
+        Solar                     PV
+        Chugach Battery           Battery storage       70 MW, 4-hour            Central
+        Energy Storage
+        System (BESS)
+        GVEA BESS                 Battery storage       100 MW, 2-hour           GVEA
+        HEA BESS                  Battery storage       46 MW, 2-hour            HEA
+
+
+
+   The tidal energy generation was modeled with actual tidal flow rate data obtained from the
+   National Oceanic and Atmospheric Administration current meter stations and extrapolated for
+   extended time periods with a representative tidal energy converter power curve. This analysis
+   and the key findings should be viewed as a starting point for additional research and used to
+   inform investment and policy options. There are three key findings from the work:
+
+   Key Finding 1: While the reported theoretical tidal resource is greater than 18,000 MW in the
+   inlet, this study found that the existing electrical transmission constraints along the Kenai Intertie
+   impose a practical limit of approximately 200 MW on installed capacity. Potential transmission
+   upgrades may extend this limit to nearly 300 MW, but capacity expansion beyond that would
+   require either (1) additional transmission upgrades or (2) additional dispatchable load near the
+   site of the tidal generation.
+
+   Key Finding 2: By doubling the rating of the Kenai Intertie, tidal energy could contribute up to
+   25% of the total Railbelt electrical load, reduce annual carbon dioxide emissions by more than
+   29%, and lower annual fuel cost by more than 16% without significant curtailment.
+
+   Key Finding 3: By distributing the tidal array along the inlet and capitalizing on the fact that the
+   tidal currents peak at different times along the inlet, it is possible to increase the capacity of tidal
+   energy that the grid could handle without major transmission upgrades.
+
+   With these findings, we concluded that tidal energy at an installed capacity of 200–300 MW has
+   the potential to reduce fuel costs in Alaska while also reducing carbon emissions and increasing
+   the energy independence of the state.
+
+
+
+                                                      vi
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Caveats:
+   While this study simulates the hourly unit commitment and economic dispatch of every power
+   plant and both high-voltage transmission lines in the Railbelt power system, it is not a prediction
+   for the realistic hourly operation of the Railbelt in a future year. The findings in this paper should
+   be considered with the following caveats in mind:
+
+       •   This study does not attempt to predict an accurate power system infrastructure in 2035.
+       •   Tidal energy technology is a precommercial technology.
+       •   This is an idealized view of Railbelt operation.
+       •   We do not model the complex power purchase agreements that would be required to
+           absorb all the non-curtailed tidal energy.
+       •   We assume that tidal energy could take priority on the Kenai Intertie.
+   The purpose of this study was to identify whether tidal energy could be an opportunity for the
+   Railbelt, and the results show that tidal energy could supply a significant portion of the Railbelt’s
+   electrical demand. However, much more analysis is needed before actual tidal energy integration
+   could take place, such as detailed engineering studies that investigate sub-second dynamic
+   response of the new technology, interconnection studies, financial feasibility studies, and more.
+
+
+
+
+                                                      vii
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Table of Contents
+   Executive Summary .................................................................................................................................... v
+   1 Introduction ........................................................................................................................................... 1
+   2 Methodology ......................................................................................................................................... 6
+         2.1     Basecase Formulation ................................................................................................................... 6
+         2.2     Tidal Energy Data ......................................................................................................................... 7
+         2.3     Tidal Power Model ........................................................................................................................ 8
+   3     Scenario Outline, Results, and Analysis.......................................................................................... 10
+   4     Results ................................................................................................................................................. 12
+         4.1     Total Generation .......................................................................................................................... 12
+         4.2     Curtailment .................................................................................................................................. 14
+         4.3     Impact of Tidal Energy on Systemwide Generation Cost ........................................................... 16
+         4.4     Impact of Tidal Energy on Thermal Power Plant Emissions ...................................................... 19
+         4.5     Impact of Tidal Energy on Transmission Utilization .................................................................. 20
+   5 Investigation of Tidal Array Placement Along the Cook Inlet ........................................................ 24
+   6 Summary and Conclusion ................................................................................................................. 28
+   References ................................................................................................................................................. 29
+   Appendix A.         Device and Array Sizing .............................................................................................. 31
+   Appendix B.         Full Set of Generation Results .................................................................................... 35
+
+
+
+
+                                                                                 viii
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   List of Figures
+   Figure 1. Map of Alaska's Railbelt power system with four service territories: Golden Valley Electric
+                Association, Matanuska Electric Association, Chugach Electric Association, and Homer
+                Electric Association. ................................................................................................................ 2
+   Figure 2. Total generation capacity, by region, for the Basecase system in 2035 ........................................ 7
+   Figure 3. A comparison of measurements from NREL’s 2021 resource characterization project (green)
+                with a tidal harmonic fit to that data (black) for East Foreland, and an extrapolation of a
+                harmonic fit to data collected by NOAA at a nearby site in 2005 ........................................... 8
+   Figure 4. Total annual generation stacks for a representative subset of scenarios. The full set of total
+                generation results can be found in Appendix B. .................................................................... 12
+   Figure 5. Total annual generation stacks for a representative subset of scenarios, compared to the
+                Basecase infrastructure with no tidal energy capacity. The full set can be found in the
+                Appendix. ............................................................................................................................... 13
+   Figure 6. Total annual tidal energy curtailment as a function of both installed capacity and infrastructure
+                upgrade scenario. The black dashed line represents 5% curtailment. Note the “Tx” values are
+                almost identical to the “Tx-BESS” values. ............................................................................ 15
+   Figure 7. Total systemwide fuel cost, as a function of installed tidal capacity and infrastructure upgrade
+                scenario. The black dashed line shows the cost with no tidal energy deployment. ............... 16
+   Figure 8. Total systemwide fuel cost as a function of total tidal energy injected (i.e., tidal energy that was
+                not curtailed). The oval highlights the impact of various infrastructure upgrades on fuel cost
+                reduction, while keeping the total tidal energy injected constant. Upgrading the Kenai
+                Intertie has the largest impact on fuel cost reduction. ............................................................ 17
+   Figure 9. Similar to Figure 7, but showing the fuel cost savings from the no-infrastructure-upgrades
+                Basecase. The x-axis shows tidal energy deployment, rather than tidal energy injection...... 18
+   Figure 10. Total systemwide startup and shutdown costs (also referred to as cycling costs) as a function of
+                tidal energy injected and infrastructure upgrade scenario for 2035 infrastructure with no new
+                wind or solar PV. The black dashed line shows the value for the scenario with no tidal
+                energy. Consistent with other metrics, the copperplate scenarios have the highest impact on
+                this cost category. However, the impact is an order of magnitude smaller than that for fuel
+                cost. ........................................................................................................................................ 19
+   Figure 11. Total power plant emissions under each tidal energy and infrastructure upgrade scenario. As
+                before, the black dashed line represents the value in a system with no tidal energy. From left
+                to right, the panels show CO2, CH4, and N2O emissions. The y-axis lower limit of zero is
+                removed to increase clarity. ................................................................................................... 20
+   Figure 12. Flow duration curves for the Kenai Intertie in the 150-MW tidal deployment scenarios. Note
+                the “Tx” values (purple) are almost identical to the “Tx-BESS” values (red). Additionally,
+                the “BESS” values (green) are almost identical to the “Basecase” values (blue). ................. 21
+   Figure 13. Similar to Figure 12, but showing flow duration curves for all tidal capacity scenarios .......... 22
+   Figure 14. Map showing four theoretical locations for tidal energy throughout the Cook Inlet................. 25
+   Figure 15. Tidal current speed profiles (upper panel) for the three southern Cook Inlet sites. The phase
+                difference in tidal cycles means that the combined power output from the three sites (lower
+                panel) is never zero. In this case, each site has 33 MW of capacity, for a total of 99 MW. .. 25
+   Figure 16. Total annual tidal energy curtailment with capacity all placed at each of the three southern
+                Cook Inlet sites, and an even split between the three sites. The flat black dashed line
+                represents 5% curtailment. Above this number, the curtailment technology may lose
+                economic viability. ................................................................................................................. 26
+   Figure 17. Correlogram between tidal energy profiles for all four sites studied and total Railbelt-wide net
+                load. The Kennedy Entrance site is the most negatively correlated with the other sites. It is
+                also the site most negatively correlated with net load, though this value is near-negligible. 27
+
+
+
+                                                                                ix
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Figure A-1. The generator power curve (right axis), and probability density function (pdf) of ocean
+                velocity at the East Foreland (bars, left axis). The power curve is plotted for three different
+                generator sizes, with three different capacity factors. ............................................................ 32
+   Figure A-2. Total power captured at the East Foreland site for a single device (left, blue axis), the
+                capacity factor for the device (right, red axis), and Urated versus generator capacity (Prated).
+                The square and triangle markers indicate the AEP and capacity factor, respectively, for the
+                generator sizes in Figure A-1. Dotted lines indicate the values for sizing the generator to
+                capture 95% of the power available to the rotor. In this case, 95% of the maximum AEP can
+                be captured with a 1.17-MW generator.................................................................................. 33
+   Figure A-3. Array layout diagram in plan view (i.e., from above looking down) ...................................... 34
+   Figure B-1. Total generation stacks for all scenarios studied. Results plotted are Railbelt-wide. .............. 35
+   Figure B-2. Total generation stacks, differenced from the Basecase with no tidal energy, for all scenarios
+                studied. Results plotted are Railbelt-wide. ............................................................................. 35
+
+
+
+   List of Tables
+   Table ES-1. List of Planned New Renewable Energy and Storage Projects................................................ vi
+   Table 1. List of Planned New Renewable Energy and Storage Projects....................................................... 7
+   Table 2. Tidal Turbine Device and Array Sizing for Several Sites in Cook Inlet ........................................ 9
+   Table 3. Scenario Description ..................................................................................................................... 11
+   Table 4. Emissions Rates for Different Thermal Power Plant Technologies in Alaska ............................. 20
+
+
+
+
+                                                                             x
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   1 Introduction
+   Despite its wealth of energy resources, both renewable and conventional, Alaska is among the
+   states with the highest energy prices. In Alaska’s Railbelt electricity grid—which serves
+   approximately 75% of the state’s population and stretches across southcentral Alaska from
+   Homer in the south to Fairbanks in the north (Figure 1)—residential rates are as high as $0.25
+   per kilowatt-hour (kWh). Rural Alaska energy prices are the highest in the nation, often more
+   than $1/kWh. These high prices create attractive market conditions for emerging energy
+   technologies, such as tidal energy, whose costs are currently too high and uncertain to compete
+   in lower-price markets. Furthermore, declining natural gas supplies in Cook Inlet and declining
+   North Slope oil production are forcing the state to reassess its long-term energy strategies for
+   both domestic use and export (DeMarban 2022; Marohl 2021; Alyeska Pipeline 2023).
+
+   Approximately one-third of the nation’s tidal energy resource is estimated to be in Alaska’s
+   Cook Inlet, and more than 90% of the nation’s tidal resource is distributed throughout Alaska
+   (Kilcher, Fogarty, and Lawson 2021). The technical resource potential of Cook Inlet is estimated
+   to be 80 terawatt-hours per year (TWh/yr)—more than 15 times the present-day Railbelt
+   electricity consumption of approximately 5.2 TWh/yr (U.S. Energy Information Administration
+   2023). The most promising tidal energy sites in Cook Inlet are located alongside the Kenai
+   Peninsula, where Homer Electric Association (HEA) operates the southernmost portion of
+   Alaska’s Railbelt electricity grid. HEA has a customer base of approximately 33,000 customers
+   and sold 496 gigawatt-hours (GWh) of power in 2020—with an average load of approximately
+   56 megawatts (MW) (HEA 2020). As the sole grid operator south of the Kenai Intertie, HEA has
+   a unique stake in and responsibility for the integration of tidal energy into the Railbelt grid.
+   Furthermore, HEA plays a critical role in the Railbelt grid as the operator of the Bradley Lake
+   hydroelectric facility—the largest hydroelectric power station in the state (Homer Electric
+   Association Inc. n.d.).
+
+   Tidal energy provides unique opportunities to the HEA system and Railbelt grid. In particular,
+   the channel just offshore of the East Foreland, near Nikiski Alaska, contains high quality tidal
+   energy resources near the transmission network (see Figure 14 for a map of the Cook Inlet with
+   the East Foreland identified). An existing high-voltage substation located near the project site
+   could be used to interconnect tidal energy to the HEA system. Additionally, unlike most
+   renewables, tidal energy is highly predictable and has the potential to provide baseload when
+   combined with energy storage.
+
+
+
+
+                                                      1
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+      Figure 1. Map of Alaska's Railbelt power system with four service territories: Golden Valley
+    Electric Association, Matanuska Electric Association, Chugach Electric Association, and Homer
+                                          Electric Association.
+                                         Map by Billy J. Roberts, NREL
+
+
+
+
+                                                      2
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Despite the clear advantages and economic potential, relatively little research is available to
+   support tidal energy integration in Alaska. This work seeks to address the knowledge gaps
+   regarding the impacts of marine renewable energy to grids by modeling large capacities of tidal
+   energy in a detailed production cost model, using the Alaskan Railbelt power system as a case
+   study. The output of this work is designed to be useful for both tidal energy and marine
+   renewable energy developers when scoping and proposing potential projects, and for utility
+   stakeholders when considering proposals and planning future investment and grid operation
+   strategies.
+
+   In late 2021, researchers at the National Renewable Energy Laboratory (NREL) collected
+   velocity, turbulence, and sediment measurements at the East Foreland site. These data show that
+   the East Foreland has (1) the potential for at least 100 MW of tidal energy capacity, (2) peak
+   currents of more than 3 meters per second (m/s), and (3) sediment concentrations exceeding 200
+   milligrams per liter (mg/L). Data from these measurements are available on the Marine and
+   Hydrokinetic Data Repository (Kilcher and McVey 2021). There are very few U.S. sites outside
+   of Alaska capable of supporting projects of this scale, and the sites that could support these
+   projects have much slower tidal current speeds. Other energetic sites within Alaska are located
+   much farther from the transmission grid.
+
+   Denholm et al. (2022) conducted the first known production cost study of the entire Railbelt
+   system. In that work, researchers investigated the costs and operational impacts of serving 80%
+   of Railbelt-wide electrical load with renewable sources by 2040. They analyzed five different
+   portfolios of electricity generation technologies, which included various new builds of wind,
+   solar, hydropower (conventional dam storage and run-of-river), geothermal, biomass, landfill
+   gas, and tidal energy. In two of the five scenarios, tidal energy served 3% and 5% of the total
+   electrical demand.
+
+   Building on that previous study, this report investigates the impact of integrating new tidal
+   energy plants in the Cook Inlet in the year 2035. However, rather than model various mixes of
+   renewable energy in the future Railbelt grid, our analysis focuses solely on tidal energy. To this
+   end, we only include new wind and solar photovoltaic (PV) builds associated with likely
+   projects, such as a 90-MW wind plant in the Fairbanks region. Refer to Table 1 in the next
+   section for the full list of planned new renewable energy and storage projects included in the
+   model. The analysis was performed with the leading market simulation platform PLEXOS, 3
+   which is used by HEA and other regional utilities in energy portfolio planning. Through a
+   subcontract with HEA, the project team was able to develop a PLEXOS model of the Railbelt
+   that directly aligns with utility models. While this alignment allows for a high-fidelity analysis, it
+   is not necessarily meant to represent a realistic build-out of the Railbelt system; rather, it is an
+   exploratory study designed to elucidate the limits of tidal energy contribution to the electrical
+   demands of the Railbelt power system.
+
+   With a number of full-scale deployments, tidal energy systems have reached a high technology
+   readiness level and precommercial status. This work is intended to evaluate the technology from
+
+
+
+   3
+       https://energyexemplar.com/solutions/plexos/
+
+
+                                                      3
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   a grid integration perspective and be a starting point for additional research and consideration of
+   investment or policy options.
+
+   Caveats:
+
+   As a first-of-its-kind case-study for the opportunities and challenges of tidal energy in a utility-
+   scale power system, this work is not an engineering study or a detailed financial feasibility
+   analysis. Its purpose is to identify the upper limit of value that tidal energy could supply to the
+   Railbelt power system. While this study simulates the hourly unit commitment and economic
+   dispatch of every power plant and both high-voltage transmission lines in the Railbelt power
+   system, it is not a prediction for the realistic hourly operation of the Railbelt in a future year. The
+   findings in this paper should be considered with the following caveats in mind:
+
+       •   This study does not attempt to predict a least-cost power system infrastructure in 2035.
+           In particular, it does not determine the cost-optimal build-out based on a holistic
+           comparison of cost projections for all electricity generation technologies (for such an
+           analysis, see Denholm, Schwarz, and Streitmatter [2024]). Rather, this work represents
+           an upper limit for the opportunities for tidal energy on the Railbelt power system,
+           assuming no other technologies are deployed beyond those already in the pipeline.
+
+       •   This study assumes megawatt-scale tidal energy will be available in large quantities by
+           2035. Tidal energy technology is still in its nascency. The hourly power production
+           profiles used to model tidal energy in this study are based on the best available
+           understanding of the power conversion technology and direct measurements of the tidal
+           resource in the Cook Inlet. However, tidal power plants of the scale modeled in this
+           paper have not yet been built, and the supply chain required to build them in Alaska has
+           not yet been developed. Our choice to model the Railbelt in 2035 relies on the
+           assumption that such a supply chain will be developed by then.
+
+       •   This is an idealized view of Railbelt operation. At present, each utility within the Railbelt
+           power system (Homer Electric Association, Chugach Electric Association, Golden Valley
+           Electric Association, Matanuska Electric Association, and the City of Seward municipal
+           utility) operates relatively independently. This means that electricity may not always be
+           freely traded between service regions, the utilities procure their own reserves, and power
+           from Bradley Lake is contractually divided between utilities. By contrast, this study
+           assumes the entire Railbelt operates as a single balancing area. While we still procure
+           reserves separately for each of the three zones, we do not enforce any contractual
+           obligations surrounding the partitioning of power from Bradley Lake, flow along either
+           the Alaska or Kenai interties, or the cost of renewable energy curtailment, which refers to
+           extra available renewable energy that could not be injected into the grid due to
+           transmission constraints or insufficient demand, within current power purchase
+           agreements. There is interest among the utilities to move closer to such an operational
+           paradigm, and we assume that by 2035 existing contractual arrangements could be
+           amended to allow for more coordinated and flexible systemwide operations.
+
+       •   We do not model the complex power purchase agreements that would be required to
+           absorb all the non-curtailed tidal energy. At the higher capacities we modeled, HEA
+
+
+                                                      4
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+           would not be able to absorb all the tidal energy, so other utilities would be required to
+           buy it. We assume that the Railbelt will operate in such a manner that minimizes the total
+           systemwide cost, rather than each utility independently maximizing revenue. In general,
+           NREL’s integration studies do not model power purchase agreements for any electrical
+           generation technology.
+
+       •   We assume that tidal energy could take priority on the Kenai Intertie. Cost-optimal
+           systemwide operation means the cheapest energy source on the Railbelt will serve load
+           anywhere in the system. This means that the transmission system—particularly the Kenai
+           Intertie—will operate in any physically feasible manner necessary to transport cheap
+           energy to load centers. In reality, however, the transmission lines are strictly partitioned;
+           for instance, the Kenai Intertie currently exports more than 372 GWh per year from
+           Bradley Lake hydropower to the Anchorage region. This leaves little room for tidal
+           energy exports. We assume that the contracts denoting such operation of the Kenai
+           Intertie and Bradley Lake power partitioning could be amended by 2035 to accommodate
+           the influx of cheap tidal energy. However, this study is not meant to evaluate the detailed
+           financial arrangements that would be required to integrate significant portions of tidal
+           energy on the Railbelt power system.
+
+       The purpose of this study was to identify whether tidal could be an opportunity for the
+       Railbelt—and the results show that tidal energy could, indeed, supply a significant portion of
+       the Railbelt’s electrical demand. However, much more analysis is needed before actual tidal
+       energy integration could take place, such as detailed engineering studies that investigate sub-
+       second dynamic response of the new technology, interconnection studies, financial feasibility
+       studies, and more.
+
+
+
+
+                                                      5
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   2 Methodology
+   In this section, we briefly characterize the tidal energy data used in the model, describe the
+   development of the Railbelt power system operational model, and highlight the production cost
+   modeling approaches used to evaluate tidal energy integration.
+
+   2.1 Basecase Formulation
+   The model used in our analysis expands on the production cost model developed by Denholm et
+   al. (2022) to evaluate serving 80% of the Railbelt electrical load with renewable energy by 2040.
+   We use the commercial production cost modeling tool PLEXOS by Energy Exemplar to run
+   hourly unit commitment and economic dispatch simulations for a future year. The model ingests
+   generator properties such as maximum nameplate capacities, heat rates, fuel costs, and seasonal
+   water budgets for hydropower, as well as hourly time series like electrical load, wind, and solar
+   PV production. It then runs an optimization procedure to determine the least-cost combination of
+   all generator set points in each hour. This optimization produces an hourly time series for a wide
+   variety of grid operation metrics like generation, fuel cost, and emissions by plant; curtailment of
+   renewable resources; flow along transmission lines; and battery energy storage state of charge.
+
+   As in the previous renewable portfolio standard study (Denholm et al. 2022), we simplify the
+   transmission topology of the Railbelt power system to a three-zone system. The zones are
+   defined by the only two transmission bottlenecks in the system: the Alaska Intertie, which
+   connects Fairbanks to the Anchorage region, and the Kenai Intertie, which connects the
+   Anchorage region to the Kenai Peninsula. The GVEA zone is the Golden Valley Electric
+   Association service territory on the north end of the Alaska Intertie. The Central zone includes
+   the service areas of Chugach Electric Association, Matanuska Electric Association, the City of
+   Seward municipal electric utility, and what was known as Municipal Light and Power until
+   October 2020. This zone sits between the southern terminus of the Alaskan Intertie and the
+   northern terminus of the Kenai Intertie and makes up 64% of the Railbelt’s total electrical
+   demand. The HEA zone is the service territory of the Homer Electric Association on the southern
+   end of the Kenai Intertie. This zone also contains the interconnection points for the tidal energy
+   studied in this report.
+
+   After extensive discussion with staff members at each Railbelt utility, we added the technical
+   parameters of every thermal power plant in the model. The parameters include seasonal capacity,
+   minimum stable level, heat rates, fuel costs, maintenance schedules, forced outage rates,
+   emissions rates, and must-run statuses. Monthly energy budgets were incorporated for the
+   hydropower plants at Bradley Lake, Cooper Lake, and Eklutna using publicly available data
+   from the U.S. Energy Information Administration. Finally, we included existing or very likely to
+   be built renewable energy plants and battery energy storage systems (BESS). These are listed in
+   Table 1.
+
+
+
+
+                                                      6
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+                  Table 1. List of Planned New Renewable Energy and Storage Projects
+
+         Plant name                   Technology             Capacity                 Location
+         Delta Wind Farm              Wind                   90 MW (currently 1.9     GVEA
+                                                             MW)
+         Eva Creek Wind Farm          Wind                   25 MW                    GVEA
+         HEA Wind Farm 1              Wind                   31 MW                    HEA
+         Nenana Solar                 Solar utility PV       16 MW                    GVEA
+         Homer Utility Solar          Solar utility PV       30 MW                    HEA
+         Homer Residential Solar      Solar distributed PV   3 MW                     HEA
+         Chugach BESS                 Battery storage        70 MW, 4-hour            Central
+         GVEA BESS                    Battery storage        100 MW, 2-hour           GVEA
+         HEA BESS                     Battery storage        46 MW, 2-hour            HEA
+
+
+
+   Together with the thermal power plants throughout the Railbelt, these improvements constitute
+   the Basecase scenario. Any gaps, such as monthly energy availability for the hydropower
+   reservoirs, were filled with data from the U.S. Energy Information Administration. The 2035
+   Basecase electrical generation infrastructure for each zone, before adding any tidal capacity, is
+   shown in Figure 2. All existing coal generation is assumed to be retired by 2035.
+
+   For more details on the Railbelt power system model, please reference Denholm et al. (2022).
+
+
+
+
+             Figure 2. Total generation capacity, by region, for the Basecase system in 2035
+
+   2.2 Tidal Energy Data
+   Tidal energy resource data used in this study came from both the 2021 NREL measurements
+   (Kilcher and McVey 2021) and from the NOAA C-MIST database (NOAA 2023)—a public
+   repository of ocean current velocity data collected by NOAA. A comparison of the data from
+   these two independent measurements, shown in Figure 3, highlights the predictability of tidal
+   energy. The tidal harmonic fits are computed using the Python UTide package (Bowman 2022)
+
+                                                         7
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   with no linear trend term. Both fits have high accuracy, explaining nearly 96% (independent,
+   NOAA-fit) and 99% (concurrent, NREL-fit) of the variance in the 2021 measurements. In the
+   case of the concurrent fit (black), the observed deviations from the “pure tidal signal” are most
+   likely due to turbulence. Even more notable is the agreement between the NOAA-fit data (red)
+   and the 2021 data (green). The fact that a harmonic fit to one month of data from 2005
+   predicts—with 96% accuracy—the timing and amplitude of the velocities 16 years later speaks
+   to the remarkable predictability of tidal energy.
+
+
+
+
+     Figure 3. A comparison of measurements from NREL’s 2021 resource characterization project
+     (green) with a tidal harmonic fit to that data (black) for East Foreland, and an extrapolation of a
+                      harmonic fit to data collected by NOAA at a nearby site in 2005
+
+   2.3 Tidal Power Model
+   We employed a three-region power curve to estimate power output for a single tidal energy
+   device:
+
+                                   0                     𝑈𝑈(𝑡𝑡) < 𝑈𝑈𝑐𝑐𝑐𝑐𝑐𝑐−𝑖𝑖𝑖𝑖
+           𝑃𝑃(𝑈𝑈(𝑡𝑡)) = �   1
+                            2
+                              𝜌𝜌𝜌𝜌𝐶𝐶𝑝𝑝 𝑈𝑈(𝑡𝑡)3   𝑈𝑈𝑐𝑐𝑐𝑐𝑐𝑐−𝑖𝑖𝑖𝑖 < 𝑈𝑈(𝑡𝑡) < 𝑈𝑈𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟                     (1)
+                               𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟               𝑈𝑈𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 < 𝑈𝑈(𝑡𝑡)
+
+   where 𝑈𝑈(t) is the inflow speed, 𝐴𝐴 = (𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 )2 𝜋𝜋/4 is the device capture area (drotor is the rotor
+   diameter), 𝜌𝜌 is the density of seawater, and 𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 is the generator capacity. 𝑈𝑈𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 is the inflow
+   speed where the power output reaches 𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 . For all scenarios we assumed that the device
+   efficiency is 𝐶𝐶𝑝𝑝 = 0.42, and we assumed that the cut-in speed, 𝑈𝑈𝑐𝑐𝑐𝑐𝑐𝑐−𝑖𝑖𝑖𝑖 = 0.1 ⋅ 𝑈𝑈𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 (Lewis et
+   al. 2021). Both assumptions are somewhat optimistic for the state of tidal energy technologies
+   today, but this work is intended to be forward-looking.
+
+   We then assumed that the measured inflow 𝑈𝑈(t) was representative of flow across an array of 𝑁𝑁
+   devices so that we could estimate array power output according to:
+
+
+
+                                                                      8
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+           𝒫𝒫array (𝑈𝑈(𝑡𝑡), 𝑡𝑡) = 𝑁𝑁 ∗ (𝑡𝑡) ⋅ (1 − 𝛽𝛽) ⋅ 𝑃𝑃(𝑈𝑈(𝑡𝑡))                                        (2)
+
+   where 𝑁𝑁 ∗ (𝑡𝑡) is the availability of the 𝑁𝑁 devices in the array (i.e., the number of operational
+   devices vs. time), and we assumed array-wide losses—including wake losses, electrical losses,
+   and other losses—of 𝛽𝛽 = 0.2.
+
+   The assumption that 𝑈𝑈(𝑡𝑡) will apply to all devices in the array is a convenient simplification. Not
+   only does the naturally occurring flow vary spatially in the channel, but—after turbines are
+   installed—there will also be wake effects and flow diversion (i.e., flow around turbines and the
+   entire array) that will create significant variability in the output of individual devices within the
+   array. However, because a detailed array layout study and project cost estimates were beyond the
+   scope of this study, we simply accounted for these wake losses as one of the major sources of
+   energy loss included in 𝛽𝛽.
+
+   At present, there are no large-𝑁𝑁 tidal energy projects on which to base our assumption of 𝛽𝛽 =
+   0.2. Instead, we note that wind energy resource assessments have calculated or used loss values
+   from 8.8% to 23% (Musial et al. 2016; Stanley et al. 2022). We also note that, in the absence of
+   cost or land-use constraints, array losses can be engineered by adjusting, for example, device
+   spacing (wake losses) and transmission cable conductivity (electrical losses). In other words, we
+   assume it is technically possible to design 𝛽𝛽 = 0.2 tidal arrays up to 500 MW at each site in
+   Cook Inlet, and we leave the assessment of the economic feasibility of these concepts for future
+   work.
+
+   Tidal turbine rotors are sized to fit water depth constraints of the site, and the generators are
+   sized to capture 95% of the energy (𝑃𝑃rated@95% ) that the rotor can generate at the site of interest
+   (i.e., depending on the velocity distribution). The inflow speed at which the generator reaches
+   this value of output is 𝑈𝑈rated@95% . We then assumed that arrays of these devices are deployed to
+   create the array capacity of interest—i.e., power from a single device is scaled to match desired
+   array capacity. We also assumed that N*(t) has a few devices going offline semi-randomly
+   (preferentially in winter months) and that they are brought back online during summer months.
+   When estimating array dimensions (shown in the last two columns of Table 2), we assumed
+   simple rectangular grids with device spacing of 3 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 and 10 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 in the across-channel
+   and along-channel directions, respectively. Additional details of device and array sizing can be
+   found in Appendix A.
+
+                  Table 2. Tidal Turbine Device and Array Sizing for Several Sites in Cook Inlet
+
+                     drotor   Ucut-in     Urated@95%    Prated@95%    N (100 MW)        CF1    Array Dimensions
+    Site             [m]      [m/s]       [m/s]         [MW]          [Ncols × Nrows]          (100 MW)
+                                                                                               W × L [km]
+    Fire Island      12       0.18        1.76          0.13          770 [70 × 11]     0.31   2.5 × 1.2
+    East             20       0.26        2.59          1.17          86 [22 × 4]       0.34   1.3 × 0.6
+    Foreland
+    Anchor           20       0.16        1.58          0.26          384 [48 × 8]      0.19   2.8 × 1.4
+    Point
+    Kennedy          100      0.11        1.13          2.41          41 [14 × 3]       0.18   4×2
+    Entrance
+
+
+                                                               9
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   3 Scenario Outline, Results, and Analysis
+   Taking a scenario-based approach, we demonstrate the impact of installing between 100 MW
+   and 500 MW of tidal energy at the East Foreland in the HEA utility service territory. This is the
+   most studied location by researchers and developers (Kilcher, Fogarty, and Lawson 2021). Once
+   we built and validated a base case model of the Railbelt power system (as described in Section
+   2.1), we added theoretical tidal energy arrays and investigated the impacts. The method for
+   producing the tidal energy generation profiles is outlined in Section 2.3.
+
+   To study the impact of injecting incrementally more tidal energy, simulations were run with tidal
+   arrays of 100 MW, 150 MW, 175 MW, 200 MW, 250 MW, 300 MW, 400 MW, and 500 MW
+   installed nameplate capacity. We chose a model analysis year of 2035 to allow sufficient lead
+   time for these plants to be built, 13 years at the point of this analysis. Load profiles were
+   calculated for each of the three Railbelt zones by scaling actual 2018 load profiles according to
+   the Alaska Department of Labor’s countywide population growth projections (Howell and
+   Sandberg 2022). Changing load shapes due to increased electrification of the energy sector (like
+   household heating switching from gas to electric) as well as increased energy efficiency, are
+   beyond the scope of this study. The projected peak loads in 2035 are 516 MW, 206 MW, and 83
+   MW in the Central, GVEA, and HEA zones, respectively. The projected peak loads occur
+   between 6 and 8 p.m. in late January. Significant infrastructure improvements on the Kenai
+   Peninsula would be necessary to incorporate the higher capacities of tidal energy while avoiding
+   substantial curtailment of the energy production from the arrays. In this study we simulate two
+   such improvements:
+
+       1. The upgrade of the Kenai Intertie from 115 to 230 kilovolts (kV), thereby increasing the
+          line’s thermal rating (Tx) from 75 to roughly 150 MW. 4 The map in Figure 1 shows the
+          Kenai Intertie, which connects HEA to the rest of the Railbelt power system in the north.
+       2. The addition of a larger BESS at Soldotna on the Kenai Peninsula, for a total
+          charge/discharge power of 150 MW. This power was chosen to match the assumed
+          maximum transfer capacity of the Kenai Intertie, such that both pieces of infrastructure
+          could offtake the same instantaneous tidal power at any given time.
+   In addition to the two improvements listed, we also studied a “copperplate” scenario that assigns
+   unlimited transfer capacity to both Railbelt transmission lines (the Alaska and Kenai interties).
+   These scenarios would require an extreme investment in the transmission corridor that is likely
+   uneconomic; therefore, this scenario is simply meant to demonstrate the ideal utilization of the
+   corridor while ignoring capital cost.
+
+   Table 3 summarizes the scenarios studied, and provides the prefixes used in all the plots in this
+   report. The three-digit number after the underscore refers to the installed tidal energy capacity
+   modeled in the scenario. For instance, “Tx-BESS_300” represents the power system
+
+
+   4
+     The Kenai Intertie is, and will continue to be, stability-limited rather than thermally limited. While initial estimates
+   project that the new limit of the line will be 185 MW, this true value will not be known until a transfer capability
+   study is completed around the time of construction. It will depend on the other generation and transmission
+   resources available on the Railbelt system at that time. For the purposes of this exploratory study, we assume the
+   more conservative value of 150 MW.
+
+
+                                                              10
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   infrastructure as it existed in 2018, with load profiles scaled to 2035, Basecase infrastructure
+   upgrades, the upgrade of both the BESS on the Kenai Peninsula and the Kenai Intertie, and the
+   addition of 300 MW of tidal energy capacity at the East Foreland in the Cook Inlet. In addition,
+   we included a single scenario with no tidal energy capacity to provide a Basecase.
+
+                                           Table 3. Scenario Description
+
+       Scenario Description                                                          Scenario Abbreviation
+       Existing 2018 system electricity generation infrastructure with 2035 load     Basecase
+       and expected upgrades.
+       Doubling the voltage of the Kenai Intertie from 115 to 230 kV. This           Tx
+       assumes a doubling of the line’s thermal rating from 75 to 150 MW.
+       Upgrading the BESS on the Kenai Peninsula to a total                          BESS
+       charge/discharge power of 150 MW and total capacity of 300 MWh. 5
+       Upgrading both the BESS and the Kenai Intertie.                               Tx-BESS
+       Both the Kenai and Alaska interties are given unlimited transfer              Copperplate
+       capacity.
+
+
+
+
+   5
+    The upgraded BESS would likely have to involve a new construction in addition to HEA’s current BESS. The
+   existing BESS is required to support system reliability standards and contractual energy transfer from Bradley Lake
+   hydropower.
+
+
+                                                           11
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   4 Results
+   4.1 Total Generation
+   Figure 4 illustrates the annual power generation broken down by technology type for select
+   scenario combinations of tidal energy nameplate capacities and infrastructure upgrades within
+   the Kenai Peninsula. Only the lowest and highest tidal capacities (100 MW and 500 MW) are
+   shown for each scenario in the figure; see Appendix B for the full suite of results. The solid
+   black line represents the Railbelt-wide native electrical load, while the dashed black line is native
+   load plus the total energy used to charge the batteries. The total battery charging load (the
+   difference between the solid and dashed black lines) is larger than the total battery discharge
+   energy (the solid pink blocks in the generation stacks) because the round-trip efficiency is
+   assumed to be 80%, not 100%. Tidal energy represents between 7% and 29% of the total power
+   generation, depending on the installed tidal capacity and assumed upgrades. Landfill gas and
+   geothermal provide consistent base load power, as their total output is identical across all
+   scenarios. At the time of modeling (November 2022), all coal plants were assumed to be retired
+   by 2035.
+
+
+
+
+    Figure 4. Total annual generation stacks for a representative subset of scenarios. The full set of
+                          total generation results can be found in Appendix B.
+   Figure 5 visualizes the results like Figure 4 but with a difference plot. Here, we subtract the total
+   generation mix from the Basecase infrastructure from each scenario. Increased tidal energy
+   injection largely displaces oil and gas generation across the Railbelt. However, at higher
+   capacities, tidal energy also displaces hydropower. This is because the tidal energy is integrated
+   into HEA’s power grid on the Kenai Peninsula where thermal (oil and gas) generation is limited,
+   and the Bradley Lake hydropower plant provides most of the electrical energy. Currently, local
+   consumption of this plant’s power is limited to HEA’s capacity share of 14 MW. For tidal energy
+
+
+                                                      12
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   to displace hydropower, the present-day financial contracts that govern the operation of Bradley
+   Lake would have to change significantly. Because this study is concerned with techno-economic
+   feasibility and not with capturing all current contractual capacity share obligations, we assume
+   these changes happen by 2035.
+
+
+
+
+   Figure 5. Total annual generation stacks for a representative subset of scenarios, compared to the
+    Basecase infrastructure with no tidal energy capacity. The full set can be found in the Appendix.
+   Without expansion of the Kenai Intertie, large amounts of instantaneous tidal power cannot serve
+   loads in the Central and GVEA regions, which contain more thermal generators. The system
+   must instead curtail some of the zero-marginal-cost energy 6 produced by the tidal and
+   hydropower facilities. Because the Bradley Lake plant can store its energy for a time when tidal
+   energy is minimal, the model values the variable, inflexible tidal energy more highly and strives
+   to curtail it last. Therefore, to minimize curtailment of tidal energy, the system reduces
+   hydropower generation. This can be seen in the “Basecase_100” and “Basecase_500” stacked
+   bars in Figure 5, which compares total annual generation of each scenario relative to the
+   Basecase with no tidal energy installed. In the Basecase_100 scenario, 97% of the additional
+   tidal energy displaces oil and gas generation, 1% displaces hydropower, and 2% leads to
+   increased battery charging. However, the system only has so much thermal generation that can
+   be displaced, so in the Basecase_500 scenario, these numbers shift to 77% oil and gas
+   displacement, 20% hydropower displacement, and 3% increased battery charging.
+
+
+
+
+   6
+     Zero-marginal-cost energy implies that unused energy does not increase systemwide production cost. However,
+   individual utilities may still have to pay for unused (curtailed) energy based on their existing “take-or-pay”
+   contracts.
+
+
+                                                          13
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Figure 5 also shows some wind curtailment and a small amount of solar PV curtailment,
+   primarily in the high tidal capacity scenarios. We assume zero variable costs for these
+   technologies, so the model generally treats curtailment of wind, solar PV, and tidal energy as
+   equivalent. 7 This means that, absent other constraints, the optimization model sees no difference
+   between curtailing any of these resources. However, the upgrade of the BESS in HEA does
+   increase wind curtailment, which can be seen by comparing the “Tx_100” and “Tx-BESS_100”
+   bars in Figure 5. This is likely because the extra flexibility provided by the larger battery allows
+   for more periods of direct competition between tidal energy in HEA and wind energy elsewhere
+   on the Railbelt.
+
+   By contrast, when the Kenai Intertie is upgraded, the injected tidal energy has more opportunity
+   to displace thermal generation outside of HEA. This is because the additional transfer capacity
+   allows more export of tidal energy from the Kenai Peninsula to the Central region, which
+   contains the majority of the Railbelt’s thermal generation. Consequently, the stacks in Figure 5
+   for all scenarios with “Tx” or “Tx-BESS” upgrades show little to no change in hydropower
+   generation.
+
+   The value of upgrading the transfer capacity of the Kenai Intertie is a major theme in these
+   findings. Beyond allowing significantly more tidal energy to displace thermal generators outside
+   of HEA, it greatly impacts curtailment of the tidal resource.
+
+   4.2 Curtailment
+   Figure 6 shows how higher tidal energy deployment leads to increasing levels of curtailment.
+   (Because the purple “Tx” values are almost identical to the red “Tx-BESS” values, the line is
+   difficult to see.) As stated previously, curtailment refers to extra available renewable energy that
+   could not be injected into the grid due to transmission constraints or insufficient demand. The
+   black dashed line denotes 5% curtailment; curtailment above this number may lead a given
+   technology to lose economic viability. However, many countries have recorded a wide range of
+   renewable energy curtailment between 0% and 30% (Bird et al. 2016), and an “acceptable level”
+   of curtailment depends on the marginal cost of generation in each system. Therefore, the 5%
+   value chosen here is meant to be used as a benchmark to aid comparison of the study scenarios
+   and does not reflect a techno-economic finding from this study.
+
+
+
+
+   7
+    The various power purchase agreements associated with zero-marginal-cost resources like hydro, tidal, wind and
+   solar PV may affect the order in which resources are curtailed. Because this study does not attempt to capture
+   existing contracts that may change by 2035, we only assign costs associated with physical production of electricity.
+
+
+                                                            14
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+        Figure 6. Total annual tidal energy curtailment as a function of both installed capacity and
+    infrastructure upgrade scenario. The black dashed line represents 5% curtailment. Note the “Tx”
+                           values are almost identical to the “Tx-BESS” values.
+   Without any infrastructure upgrades (the Basecase, or the blue line in Figure 6), the system
+   barely surpasses 5% tidal energy curtailment at 200-MW deployment. Keep in mind that the
+   average capacity factor of the East Foreland tidal energy project is 41%. That means that a 200-
+   MW deployment injects only ~81 MW on average, which matches HEA’s current peak demand.
+
+   The upgrades of BESS in both the HEA and the Kenai Intertie increase the amount of tidal
+   energy that can be deployed while keeping tidal energy curtailment below 5%. When the power
+   of the BESS in HEA is increased, the system can accommodate between 250 and 300 MW of
+   tidal energy without experiencing more than 5% curtailment. Doubling the transfer capacity of
+   the Kenai Intertie has a slightly greater impact on curtailment reduction, but the system still
+   surpasses 5% tidal energy curtailment at 300-MW tidal energy capacity. Adding both the
+   upgraded BESS and doubling the Kenai Intertie was found to have very similar results to just
+   doubling the Kenai Intertie scenario. Again, while integrating these levels of capacities would
+   likely require changes to how Bradley Lake and the Kenai Intertie are operated, such contractual
+   changes would be advisable if they reduced systemwide production costs.
+
+   The copperplate scenarios (unlimited transfer capacity for both the Alaska and Kenai interties)
+   show little to no curtailment across all tidal energy capacities. This suggests that transmission
+   limits are almost solely responsible for tidal energy curtailment. In addition to transmission
+   expansion, more flexible thermal units could also reduce curtailment. However, we keep the
+   technical characteristics of thermal units constant across all scenarios. These characteristics
+   include quadratic heat rate curves that capture the lower efficiencies thermal units experience
+   during partial loading. Higher variable renewable deployment leads to lower capacity factors for
+   thermal units, meaning they operate in lower-efficiency states more often than in the Basecase
+   scenario.
+
+
+                                                      15
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   4.3 Impact of Tidal Energy on Systemwide Generation Cost
+   As shown in Figure 7 and Figure 8, fuel cost savings are directly proportional to tidal energy
+   injected into the Railbelt grid. The black dashed line in both figures represents the annual fuel
+   cost of the system in 2035 with no tidal energy deployment. However, fuel cost savings are
+   determined by more than the quantity of tidal energy that serves load somewhere in the Railbelt.
+   For a given level of tidal energy injection, the fuel cost savings vary widely depending on the
+   infrastructure scenario. For instance, even though the system successfully injects 633 GWh of
+   tidal energy in the scenario with 175 MW of tidal energy and the HEA BESS upgrade, fuel costs
+   still total $524 million. By contrast, in the scenario with the Kenai Intertie upgrade, the system
+   results in a 5% lower total fuel cost ($496 million) with a similar amount of tidal energy
+   injection (634 GWh). These points are emphasized with the oval in Figure 8. The additional
+   transfer capacity of the Kenai Intertie allows the tidal energy to displace more thermal generation
+   in the Central region, thus lowering fuel costs.
+
+
+
+
+     Figure 7. Total systemwide fuel cost, as a function of installed tidal capacity and infrastructure
+       upgrade scenario. The black dashed line shows the cost with no tidal energy deployment.
+
+
+
+
+                                                      16
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+     Figure 8. Total systemwide fuel cost as a function of total tidal energy injected (i.e., tidal energy
+    that was not curtailed). The oval highlights the impact of various infrastructure upgrades on fuel
+   cost reduction, while keeping the total tidal energy injected constant. Upgrading the Kenai Intertie
+                              has the largest impact on fuel cost reduction.
+   Investigating the difference in fuel costs between scenarios further highlights the importance of
+   the Kenai Intertie upgrade in reducing fuel costs. Figure 9 shows the annual fuel cost savings for
+   each infrastructure upgrade scenario relative to the tidal Basecase with no upgrades. While a
+   larger battery in HEA slightly reduces fuel costs, this effect is capped at around $3.3 million, and
+   it actually reverses at 250-MW tidal capacity deployment. A monotonic increase in fuel cost
+   savings with increasing tidal capacity would be expected and is what we observe for the other
+   infrastructure scenarios. The decrease in fuel cost savings for the BESS case may indicate a quirk
+   of the simulation in which certain thermal units are committed during more hours in the higher
+   tidal capacity scenarios. More analysis would need to be done to determine the exact reason for
+   the decrease. However, this pattern is quite small relative to the other scenarios.
+
+   Note that in this section—and in the entire study—we model only variable operational costs.
+   Capital and fixed operations and maintenance costs associated with the deployment of new
+   generation resources or transmission upgrades are outside the scope of a production cost
+   modeling study. For an assessment of these costs in the context of an 80% by 2040 renewable
+   portfolio standard for the Alaskan Railbelt, see Denholm, Schwarz, and Streitmatter (2024).
+
+
+
+
+                                                      17
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+      Figure 9. Similar to Figure 7, but showing the fuel cost savings from the no-infrastructure-
+   upgrades Basecase. The x-axis shows tidal energy deployment, rather than tidal energy injection.
+
+
+   By contrast, upgrading the Kenai Intertie saves over $40 million annually at 200-MW tidal
+   energy deployment, and $81 million annually at 500-MW deployment. HEA has a limited
+   thermal power plant fleet and therefore limited opportunities for tidal energy to displace fossil
+   fuel on the Kenai Peninsula. The more tidal energy that can reach the central and northern
+   Railbelt utility regions, the more total fuel it can displace. In summary, the transmission upgrade
+   has two important effects: (1) it reduces tidal energy curtailment and (2) for a given level of
+   curtailment, it displaces more thermal generation by transporting tidal energy to Anchorage and
+   the Mat-Su valley.
+
+   The other significant component to systemwide production cost, besides fuel, is the startup and
+   shutdown costs of thermal generators. These are the major costs associated with cycling thermal
+   plants. Increasing the variable generation on a system sometimes increases startup and shutdown
+   costs, as natural gas plants may have to cycle more to accommodate larger fluctuations in net
+   load (Lew et al. 2013). Net load refers to raw electrical demand with variable generation like
+   wind, solar, and tidal subtracted. As shown in Figure 10, Basecase tidal energy injections below
+   700 GWh lead to higher cycling costs compared to the Basecase with no tidal energy capacity,
+   but this effect reverses above 700 GWh. Once again, the black dashed line shows the startup and
+   shutdown cost for the Basecase scenario with no tidal energy. The cycling costs are lower in all
+   copperplate scenarios, as the elimination of all transmission bottlenecks reduces the need for
+   flexible operation of thermal plants. However, higher tidal capacities require more flexible
+   thermal plants. This is because we simulate larger arrays by scaling the same diurnal tidal
+   profiles, so the ramps in available tidal energy become steeper, and a larger capacity of quick-
+   response, dispatchable thermal and battery capacity becomes necessary to fill in the gaps.
+   Interestingly, at the highest tidal energy injection, the cycling costs in the copperplate scenario
+   match the Basecase with no tidal energy almost exactly. There is no clear pattern between total
+   tidal energy injected and cycling costs for the other scenarios. These effects are relatively small,
+
+
+                                                      18
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   however, as the startup and shutdown costs are roughly a full order of magnitude lower than the
+   fuel costs.
+
+
+
+
+    Figure 10. Total systemwide startup and shutdown costs (also referred to as cycling costs) as a
+   function of tidal energy injected and infrastructure upgrade scenario for 2035 infrastructure with
+     no new wind or solar PV. The black dashed line shows the value for the scenario with no tidal
+   energy. Consistent with other metrics, the copperplate scenarios have the highest impact on this
+      cost category. However, the impact is an order of magnitude smaller than that for fuel cost.
+
+   4.4 Impact of Tidal Energy on Thermal Power Plant Emissions
+   Figure 11 plots the annual power plant emissions (carbon dioxide [CO2], ammonia [CH4], and
+   nitrous oxide [N2O]) across all studied scenarios. As emissions produced are a direct
+   consequence of fuel burned, the trends follow similar patterns to the fuel costs shown in Figure
+   9. As expected, as more tidal energy enters the Railbelt grid—via larger installed tidal plants,
+   infrastructure upgrades, or both—the system emits less pollution. However, due to differential
+   fuel prices and differences in emissions rates for each technology, the trends in emissions
+   reduction differ for each pollutant. The emissions rates used in this study, measured in tons of
+   pollutant emitted for each unit of electricity produced, are shown in Table 4.
+
+
+
+
+                                                      19
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+       Figure 11. Total power plant emissions under each tidal energy and infrastructure upgrade
+    scenario. As before, the black dashed line represents the value in a system with no tidal energy.
+    From left to right, the panels show CO2, CH4, and N2O emissions. The y-axis lower limit of zero is
+                                       removed to increase clarity.
+
+
+
+           Table 4. Emissions Rates for Different Thermal Power Plant Technologies in Alaska
+   All values are in kg/MWh. Emissions rates for thermal generators in Alaska were drawn from the U.S. Environmental
+                                 Protection Agency’s (EPA’s) eGRID 2005 (EPA 2023).
+
+                      Pollutant                   Gas                         Oil
+                      CO2                         576                         747
+                      CH4                         0.01143                     0.3234
+                      N2O                         0.00113                     0.01379
+
+
+
+   The Kenai Intertie upgrade has a larger impact on emissions than the BESS upgrades, and the
+   copperplate scenario leads to the lowest emissions of all. Upgrades to the Kenai Intertie will
+   allow southern Cook Inlet tidal energy to displace more thermal generation in the central and
+   northern regions of the Railbelt. Conversely, the BESS upgrade has a limited impact on further
+   emissions reduction (as shown by the near-identical values of the green and blue lines in all three
+   panels of Figure 11).
+
+   4.5 Impact of Tidal Energy on Transmission Utilization
+   Figure 12 shows a flow duration curve for the Kenai Intertie for all tidal deployment scenarios
+   with tidal capacity fixed at 150 MW. To create such a curve, the annual chronological 8,760-
+   hour time series is sorted from highest to lowest individually for each scenario. The x-axis
+   represents the portion of the year that the Kenai Intertie flow is greater than or equal to the value
+   on the y-axis. As a reminder, the “Basecase” and “BESS” scenarios model the existing line limit
+   of 75 MW, the “Tx” and “Tx-BESS” scenarios model the line with a limit of 150 MW, and the
+   line has unlimited transfer capacity in the “Copperplate” scenario. Once again, values for the
+   “Tx” and “Tx-BESS” scenarios are nearly identical, so the purple line is hidden. Similarly, the
+   green line is mostly hidden behind the blue line, since the Kenai Intertie flows are almost the
+   same in the “BESS” and “Basecase” scenarios. The differences arise when we incorporate
+
+
+                                                          20
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   expansion of the line. This means that additional BESS capacity does not alleviate congestion
+   along the line.
+
+
+
+
+   Figure 12. Flow duration curves for the Kenai Intertie in the 150-MW tidal deployment scenarios.
+   Note the “Tx” values (purple) are almost identical to the “Tx-BESS” values (red). Additionally, the
+              “BESS” values (green) are almost identical to the “Basecase” values (blue).
+   The Kenai Intertie is congested during 75% of the year (6,573 hours) when the line is not
+   upgraded, and 39% of the year (3,435 hours) when the line is upgraded. Recall from Figure 6
+   that the system curtails little to no tidal energy in the 150-MW cases across all scenarios. This
+   means that all the tidal energy is either consumed locally on the Kenai Peninsula, stored in the
+   HEA battery, or exported along the Kenai Intertie up to the Central region. Even at this relatively
+   low tidal capacity, however, the larger capacity line leads to significantly fewer hours of line
+   congestion. For less than 1% of the year (30–67 hours), the intertie shows a negative flow. This
+   represents HEA importing power from the Central region and most likely occurs during slack-
+   tide events. These negative flows would likely only occur if the contracted use of Bradley Lake
+   hydropower was changed, so more of its energy was used locally rather than exported north
+   along the Kenai Intertie.
+
+   Figure 13 shows the Kenai Intertie flow duration curves for all tidal capacity scenarios. The
+   number of congested hours increases with increasing tidal capacity, as the amount of available
+   tidal energy surpasses the line’s transfer limits and the load on the Kenai Peninsula. At 200-MW
+   tidal capacity, the intertie is congested during 89% of hours in the “Basecase” scenario; this
+   value reaches 99% at 250 MW and higher capacities. When the intertie is upgraded, it is only
+   congested for about half the year at 250-MW tidal capacity and reaches a maximum of 78%
+   congestion hours at 500-MW tidal capacity.
+
+
+
+
+                                                      21
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+    Figure 13. Similar to Figure 12, but showing flow duration curves for all tidal capacity scenarios
+   Interestingly, the 200-MW scenarios are where we see the largest difference between the
+   “Basecase” and “BESS” scenarios (blue and green lines, respectively). The system uses the
+   intertie’s export capability more heavily during more hours in the BESS scenario. This is
+   because the battery can store tidal energy and discharge it during periods that exhibit non-
+   congestion along the intertie and slack tide. The difference diminishes at higher tidal capacities
+   because there is enough tidal energy available to fill the entire export capability of the line during
+   most hours, regardless of the BESS capacity.
+
+   Finally, the utilization of the intertie in the copperplate scenarios illustrates what transfer
+   capacity would lead to the cheapest operations at each level of tidal capacity. The maximum
+   export value is roughly 423 MW at 300-MW tidal capacity and below, and it reaches 579 MW in
+
+
+                                                      22
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   the 500-MW tidal capacity scenario. Of course, developing the transmission corridor to this
+   extent would not likely be economic, so some tidal energy curtailment would be expected at
+   these high capacities. This highlights the earlier finding that the difficulty in exporting tidal
+   energy out of the Kenai Peninsula is the greatest barrier to large-scale tidal deployment in the
+   Cook Inlet.
+
+
+
+
+                                                      23
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   5 Investigation of Tidal Array Placement Along the
+     Cook Inlet
+   While tidal energy is fully predictable, the fact that it drops to zero twice a day means it is a
+   highly variable resource that still must be managed by other, dispatchable resources. One key
+   method to reduce the variability of energy sources like tidal is to take advantage of
+   geographically diverse resources (Klima and Apt 2015). Spreading out variable generation plants
+   across a utility’s footprint often leads to a smoother aggregate output that is easier to manage
+   with dispatchable thermal resources. The process of using spatial heterogeneity to combine
+   individual variable resources into a less variable aggregate output is often referred to as
+   geographic smoothing.
+
+   The differential timing of tidal cycles in the Cook Inlet provides opportunities for geographic
+   smoothing, even within its relatively small footprint. Figure 14 shows three theoretical locations
+   for tidal energy plants (East Foreland, Anchor Point, and Kennedy Entrance), scattered across the
+   Cook Inlet, that would both maximize geographic heterogeneity and allow for relatively short
+   interconnections 8 to the existing power system. A fourth site (Fire Island) is also shown and
+   discussed in a later analysis. Even in the relatively small area of Cook Inlet, the phase difference
+   between tidal cycles allows for geographic smoothing. This phase difference is illustrated with
+   tidal current speed profiles for each site in Figure 15. These phase differences are consistent over
+   the course of a given year and over decadal timescales.
+
+
+
+
+   8
+    The Kennedy Entrance site would require 40+ miles of subsea cables to reach the HEA transmission system.
+   Therefore, tidal energy deployment at this site would likely cost significantly more than at the other locations
+   mentioned.
+
+
+                                                            24
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+      Figure 14. Map showing four theoretical locations for tidal energy throughout the Cook Inlet.
+                                         Map by Billy J. Roberts, NREL
+
+
+
+
+    Figure 15. Tidal current speed profiles (upper panel) for the three southern Cook Inlet sites. The
+   phase difference in tidal cycles means that the combined power output from the three sites (lower
+        panel) is never zero. In this case, each site has 33 MW of capacity, for a total of 99 MW.
+
+
+
+
+                                                      25
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   The previous analysis assumed all tidal energy would be placed off the East Foreland near Port
+   Nikiski, as this location has been most significantly studied by researchers and developers
+   (Kilcher, Fogarty, and Lawson 2021). In this section, we investigate how spreading capacity
+   across these sites allows the Railbelt power system to integrate more tidal energy with less
+   curtailment.
+
+   Figure 16 shows the total annual tidal energy curtailment when capacity is distributed evenly
+   between the three sites. Unsurprisingly, when the three profiles are combined, the Railbelt power
+   system can absorb significantly more tidal energy. At an installed capacity of 250 MW, the
+   three-way split scenario experiences 3.5% tidal energy curtailment, whereas curtailment reaches
+   above 15% in the scenarios with all 250 MW placed at a single site; that is, the Railbelt power
+   system can integrate more than 250 MW of tidal energy while keeping tidal curtailment below
+   5% when all three sites are combined. However, this value drops to less than 200 MW of
+   installed tidal capacity when only Anchor Point or East Foreland are used, and around 175 MW
+   when only the Kennedy Entrance location is used. The Kennedy Entrance location appears to
+   line up least often with peak net load, as the system reaches higher levels of tidal curtailment
+   when the capacity is installed there—although, this is due to the historical tidal data year chosen.
+   In this year, the tidal cycles at the East Foreland happened to serve net load peaks slightly better
+   than those at Kennedy Entrance. Figure 17 characterizes the correlation between the four tidal
+   energy sites studied and total net load across the Railbelt. As shown, the correlation values
+   between all tidal sites and net load are near zero. However, the correlations and anti-correlations
+   between tidal energy profiles are significant.
+
+
+
+
+       Figure 16. Total annual tidal energy curtailment with capacity all placed at each of the three
+     southern Cook Inlet sites, and an even split between the three sites. The flat black dashed line
+     represents 5% curtailment. Above this number, the curtailment technology may lose economic
+                                                 viability.
+
+
+
+
+                                                      26
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+    Figure 17. Correlogram between tidal energy profiles for all four sites studied and total Railbelt-
+   wide net load. The Kennedy Entrance site is the most negatively correlated with the other sites. It
+     is also the site most negatively correlated with net load, though this value is near-negligible.
+   With further investigation and analysis, it was found that distributing capacity to a location near
+   Fire Island near the Port of Anchorage at the head of the Cook Inlet has a more significant
+   impact on curtailment reduction. A tidal energy plant located near Fire Island would inject its
+   power directly into the central region of the Railbelt, thereby bypassing the Kenai Intertie.
+   Avoiding this transmission limitation by placing all capacity at Fire Island would allow
+   significantly more tidal capacity to be integrated while maintaining curtailment below 5% with
+   up to 500 MW, as opposed to 175 MW if all were placed at the East Foreland location, as
+   assumed in the previous section. Splitting the capacity evenly four ways between Fire Island and
+   three sites in the southern Cook Inlet results in moderate curtailment values between the
+   extremes of 500 MW or 175 MW. This solution is limited, however, as this amount of installed
+   capacity near the Port of Anchorage may not be feasible because of the depth in the upper inlet
+   and the conflict with vessel traffic. It remains an interesting solution to congestion on the intertie
+   and is worthy of further investigation in the effort to optimally position tidal arrays for maximum
+   cost benefit.
+
+
+
+
+                                                      27
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   6 Summary and Conclusion
+   This is the first study to investigate the value of substantial, megawatt-scale tidal energy
+   development in Alaska’s Cook Inlet. We found that there are significant opportunities to capture
+   the resource available in the region. While the reported theoretical resource is >18,000 MW, this
+   study found that the existing electrical transmission constraints—specifically, those associated
+   with the Kenai Intertie—impose a practical limit of approximately 200 MW. These levels of tidal
+   energy capacity have the potential to reduce fuel costs in Alaska while also reducing carbon
+   emissions and increasing the energy independence of the state.
+
+   This study also highlights the need for transmission line upgrades. These upgrades would allow
+   for the energy produced by the tidal arrays to be used at locations further north along Alaska’s
+   Railbelt electrical grid. By doubling the current transmission line rating, the tidal energy capacity
+   could be increased nearly 50% to 300 MW with similar curtailment values, contributing just
+   under 20% of the total Railbelt load and reducing annual CO2 emissions by more than 20%.
+   Further investment into transmission line upgrades, as demonstrated by the copperplate
+   scenarios, show a corresponding value in decreasing both energy costs and CO2 emissions.
+   Additional dispatchable load near the site of the tidal generation would also allow the Railbelt
+   system to integrate larger capacities of tidal energy.
+
+   This work also shows that it is possible to increase the total installed capacity—without major
+   transmission upgrades—by distributing tidal arrays along the inlet. This approach takes
+   advantage of the fact that the tidal currents peak at different times along the inlet. While a study
+   of the costs of these different approaches is beyond the scope of this work, these initial results
+   suggest an optimized geographic layout could have significant value in terms of installed
+   capacity limits and techno-economic viability.
+
+   Unfortunately, this study was not able to fully evaluate and properly demonstrate one of tidal
+   energy’s major benefits that sets it apart from other variable energy technologies: its
+   predictability. Doing so would require modeling wind and solar PV forecast error in a two-stage,
+   day-ahead/real-time modeling framework, which would in turn require accurate forecast data for
+   wind and solar PV in Alaska. In this framework, tidal energy would be assigned its appropriate
+   advantage from perfect forecasting; currently, all variable generation is assumed to have perfect
+   forecasts. Unfortunately, such forecast data are not yet available in the region.
+
+   Taken together, this work provides a basis for understanding the grid constraints for developing
+   tidal energy in the Cook Inlet. The 200-MW “practical limit” suggests that >100 MW of tidal
+   energy capacity can be installed in Cook Inlet without major disruptions to system operations.
+   However, this amount of power is greater than HEA’s average (50 MW in 2020) and projected
+   peak load (83 MW), so projects at this scale would need to involve contracts with other utilities
+   or industrial power consumers (Denholm et al. 2022). Finally, the question of capital investment
+   costs is beyond the scope of this study. For a proper evaluation of the long-term planning costs
+   associated with decarbonizing Alaska’s Railbelt power grid, see Denholm, Schwarz, and
+   Streitmatter (2024) and Cicilio et al. (2024).
+
+
+
+
+                                                      28
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   References
+   Alyeska Pipeline. 2023. “Monthly Throughput.” Accessed May 19, 2023. https://www.alyeska-
+   pipe.com/historic-throughput/.
+
+   Bird, Lori, Debra Lew, Michael Milligan, E. Maria Carlini, Ana Estanqueiro, Damian Flynn,
+   Emilio Gomez-Lazaro, et al. 2016. “Wind and Solar Energy Curtailment: A Review of
+   International Experience.” Renewable and Sustainable Energy Reviews 65: 577–586.
+   https://doi.org/10.1016/j.rser.2016.06.082.
+
+   Bowman, Wesley. 2022. “UTide.” GitHub. https://github.com/wesleybowman/Utide.
+
+   Cicilio, Phylicia, Jeremy VanderMeer, Steve Colt, Alexis Francisco, Emilia Sakai Hernandez,
+   Cameron Morelli, Michelle Wilber, et al. 2024. Alaska’s Railbelt Electric System:
+   Decarbonization Scenarios for 2050. Alaska Center for Energy and Power, University of Alaska,
+   Fairbanks. UAF/ACEP/TP-01-0003.
+   https://www.uaf.edu/acep/files/media/ACEP_Railbelt_Decarbonization_Study_Final_Report.pdf
+
+   DeMarban, Alex. 2022. “Hilcorp Warns Alaska Utilities About Uncertain Cook Inlet Natural
+   Gas Supplies.” Anchorage Daily News. Accessed May 19, 2023. https://www.adn.com/business-
+   economy/energy/2022/05/17/hilcorp-warns-alaska-utilities-about-uncertain-cook-inlet-natural-
+   gas-supplies/.
+
+   Denholm, Paul, Marty Schwarz, and Lauren Streitmatter. 2024. Achieving an 80% Renewable
+   Portfolio in Alaska’s Railbelt: Cost Analysis. Golden, CO: National Renewable Energy
+   Laboratory. NREL/TP-6A40-85879. https://www.nrel.gov/docs/fy24osti/85879.pdf.
+
+   Denholm, Paul, Marty Schwarz, Elise DeGeorge, Sherry Stout, and Nathan Wiltse. 2022.
+   Renewable Portfolio Standard Assessment for Alaska’s Railbelt. Golden, CO: National
+   Renewable Energy Laboratory. NREL/TP-5700-81698.
+   https://www.nrel.gov/docs/fy22osti/81698.pdf.
+
+   Homer Electric Association Inc. 2020. “2020 Annual Report.”
+   https://www.homerelectric.com/wp-content/uploads/HEA-Ann-rpt-2020_printable.pdf.
+
+   Homer Electric Association Inc. No date. “Bradley Lake Hydroelectric Plant.” Accessed May 25,
+   2023. https://www.homerelectric.com/my-cooperative/power-generation/bradley-lake-project/.
+
+   Howell, David, and Eric Sandberg. 2022. “Alaska Population Projections: 2021 to 2050.”
+   Juneau, AK: Alaska Department of Labor and Workforce Development.
+   https://live.laborstats.alaska.gov/pop/projections/pub/popproj.pdf.
+
+   International Electrotechnical Commission (IEC). 2015. “IEC TS 62600-101:2015 “Marine
+   energy – Wave, tidal and other water current converters – Part 101: Wave energy resource
+   assessment and characterization.” https://webstore.iec.ch/publication/22593.
+
+   Kilcher, Levi, and James McVey. 2021. “2021 Cook Inlet Tidal Energy Resource
+   Characterization Bottom Lander Measurements.” https://dx.doi.org/10.15473/1876584.
+
+
+                                                      29
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Kilcher, Levi, Michelle Fogarty, and Michael Lawson. 2021. Marine Energy in the United
+   States: An Overview of Opportunities. Golden, CO: National Renewable Energy
+   Laboratory. NREL/TP-5700-78773. https://www.nrel.gov/docs/fy21osti/78773.pdf.
+
+   Klima, Kelly, and Jay Apt. 2015. “Geographic Smoothing of Solar PV: Results from Gujarat.”
+   Environmental Research Letters 10: 104001. DOI 10.1088/1748-9326/10/10/104001.
+
+   Lew, D., G. Brinkman, E. Ibanez, A. Florita, M. Heaney, B.-M. Hodge, M. Hummon, et al. 2013.
+   The Western Wind and Solar Integration Study Phase 2. Golden, CO: National Renewable
+   Energy Laboratory. NREL/TP-5500-55588. https://www.nrel.gov/docs/fy13osti/55588.pdf.
+
+   Lewis, Matt, Rory O’Hara Murray, Sam Fredriksson, John Maskell, Anton de Fockert, Simon P.
+   Neill, and Peter E. Robins. 2021. “A Standardized Tidal-Stream Power Curve, Optimised for the
+   Global Resource.” Renewable Energy 170: 1308–1323.
+   https://doi.org/10.1016/j.renene.2021.02.032.
+
+   Marohl, Brett. 2021. “Oil Production in Alaska Reaches Lowest Level in More Than 40 Years.”
+   U.S. Energy Information Administration, Today in Energy. Accessed May 19, 2023.
+   https://www.eia.gov/todayinenergy/detail.php?id=47696.
+
+   Musial, Walt, Donna Heimiller, Philipp Beiter, George Scott, and Caroline Draxl. 2016. 2016
+   Offshore Wind Energy Resource Assessment for the United States. Golden, CO: National
+   Renewable Energy Laboratory. NREL/TP-5000-66599.
+   https://www.nrel.gov/docs/fy16osti/66599.pdf.
+
+   National Oceanic and Atmospheric Administration (NOAA). 2023. “Current Meter Stations.” C-
+   MIST. https://cmist.noaa.gov/cmist/ssl/welcome.do.
+
+   Rodrigue, Jean-Paul. 2020. The Geography of Transport Systems. New York: Routledge.
+   https://doi.org/10.4324/9780429346323.
+
+   Stanley, Andrew P. J., Owen Roberts, Anthony Lopez, Travis Williams, and Aaron Barker.
+   2022. “Turbine Scale and Siting Considerations in Wind Plant Layout Optimization and
+   Implications for Capacity Density.” Energy Reports 8: 3507–3525.
+   https://doi.org/10.1016/j.egyr.2022.02.226.
+
+   U.S. Energy Information Administration. 2023. “Alaska State Energy Profile.” Accessed May
+   25, 2023. https://www.eia.gov/state/print.php?sid=AK.
+
+   U.S. Environmental Protection Agency (EPA). 2023. “Emissions & Generation Resource
+   Integrated Database (eGRID).” https://www.epa.gov/egrid.
+
+
+
+
+                                                      30
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Appendix A. Device and Array Sizing
+   The annual energy production (AEP) of the array can be computed via different yet equivalent
+   equations per International Electrotechnical Commission (IEC) Technical Standard 62600-
+   101:2015 (IEC 2015):
+
+                    ����∗ (1 − 𝛽𝛽) ∑𝑈𝑈 𝑃𝑃(𝑈𝑈) ⋅ 𝐻𝐻(𝑈𝑈) = Δ𝑡𝑡 ∑1–year 𝒫𝒫array (𝑈𝑈(𝑡𝑡), 𝑡𝑡)
+           𝐴𝐴𝐴𝐴𝐴𝐴 = 𝑁𝑁                                                                                 (A-1)
+                                      bins
+
+
+   Here, 𝐻𝐻(𝑈𝑈) is the amount of time in a year (a histogram) that the site has an inflow speed that
+   falls within each speed bin, and 𝑈𝑈bins is the set of inflow speed bins that span the inflow speeds
+                         ����∗ is the time-averaged availability of devices within the array. In this
+   observed at the site. 𝑁𝑁
+   approach, 𝑈𝑈 is the speed at the center of the bin, and we use speed bins that are spaced 0.1 m/s
+   apart. In the second approach, we use a time-step spacing (Δ𝑡𝑡) equal to 5 minutes. To improve
+   the accuracy of the AEP estimate, we use the tidal harmonic fits—to the measured data—to
+   extrapolate the measurements to a full year. We then estimate the capacity factor according to:
+                          𝐴𝐴𝐴𝐴𝐴𝐴array
+           𝐶𝐶𝐶𝐶 =                                                                                      (A-2)
+                    𝑁𝑁⋅𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 ⋅(1–year)
+
+   Sizing the device for each site starts by identifying the size of the rotor that can reasonably fit in
+   the water column. In this work, we assume that container ships will need to be able to pass over
+   the tidal array without risk of collision, and that the bottom of the rotor will need to be at least 5
+   m above the seafloor. At present, the largest container ships have a draft less than 18 m
+   (Rodrigue 2020). At the East Foreland site, for example, the channel has a maximum depth of
+   approximately 60 m and is more than 43 m deep over a large area. Therefore, a turbine with
+   𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 20 m could be deployed in this channel without interfering with vessel traffic (𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 +
+   𝐷𝐷𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 + ℎ𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏𝑏 = 20 m + 18 m + 5 m = 43 m).
+
+   There is an inherent trade-off between increasing project cost by increasing the size of the
+   generator (and increasing transmission capacity to match) versus maximizing power production.
+   To size the device generator for each site, we calculate a single-device AEP (𝐴𝐴𝐴𝐴𝐴𝐴1 ) and capacity
+   factor (𝐶𝐶𝐶𝐶1 ) by letting 𝑁𝑁 ∗ = 𝑁𝑁 = 1 and 𝛽𝛽 = 0. For example, a generator size 𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0.6 MW
+   (Figure A-1) deployed at the East Foreland site (with 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 20 m) will produce 𝐴𝐴𝐴𝐴𝐴𝐴1 =
+   2,695 MWh/yr and have a capacity factor 𝐶𝐶𝐶𝐶1 = 51%. A device rated to be nearly twice as big
+   (𝑃𝑃𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 1.17 MW) will produce an additional 769 MWh/yr (3,464 MWh/yr total) and have a
+   capacity factor of 34%. Further increasing the generator size to 1.7 MW will generate an
+   additional 146 MWh/yr (3,610 MWh/yr total) and have a capacity factor of 24%, as shown in
+   Figure A-1. This indicates the diminishing returns on increasing generator capacity.
+
+
+
+
+                                                          31
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Figure A-1. The generator power curve (right axis), and probability density function (pdf) of ocean
+      velocity at the East Foreland (bars, left axis). The power curve is plotted for three different
+                         generator sizes, with three different capacity factors.
+   Rather than sizing the generator based on economics—because cost is beyond the scope of this
+   work—we size the generator to capture 95% of the maximum energy available at the site with
+   the selected turbine. In the case of the resource at the East Foreland site (Figure A-2), for a
+   turbine with 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 20 m and 𝐶𝐶𝑝𝑝 = 42%, 95% of the energy can be captured with the 1.17-
+   MW generator. As discussed above (the red power curve in Figure A-1), this will generate 3,464
+   MWh/yr, have a 𝐶𝐶𝐶𝐶1@95% = 34%, and have a 𝑈𝑈rated@95% = 2.59 m/s.
+
+
+
+
+                                                      32
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Figure A-2. Total power captured at the East Foreland site for a single device (left, blue axis), the
+     capacity factor for the device (right, red axis), and Urated versus generator capacity (Prated). The
+   square and triangle markers indicate the AEP and capacity factor, respectively, for the generator
+   sizes in Figure A-1. Dotted lines indicate the values for sizing the generator to capture 95% of the
+    power available to the rotor. In this case, 95% of the maximum AEP can be captured with a 1.17-
+                                               MW generator.
+   This approach to device sizing is repeated for the other sites we consider (Kennedy Entrance,
+   Anchor Point, and Fire Island), and the results are shown in Table 2. We also estimate the
+   number of turbines required for an array with 100 MW of capacity. To estimate the spatial
+   dimensions of these arrays, we follow best practices of the wind industry and assume that
+   turbines are spaced 10 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 in the streamwise direction 3 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 across the channel (Figure
+   A-3). With these assumptions the array width is 𝑊𝑊 = 3 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 ⋅ (𝑁𝑁cols − 1) + 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 , and the
+   length is 𝐿𝐿 = 10 ⋅ 𝑑𝑑𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 ⋅ (𝑁𝑁rows − 1). We then assume that the arrays will be approximately
+   twice as wide as they are long to get a final estimate of the array dimensions (Figure A-3).
+
+
+
+
+                                                         33
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+              Figure A-3. Array layout diagram in plan view (i.e., from above looking down)
+
+
+
+
+                                                      34
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+   Appendix B. Full Set of Generation Results
+   Figure B-1 and Figure B-2 plot the annual total generation stacks for all scenarios studied,
+   aggregated by technology, for the entire Railbelt. The latter figure plots the total generation
+   stacks less the Basecase stack, which includes no tidal energy. These plots are equivalent to
+   Figure 4 and Figure 5, respectively, in the main body of the text; except those plots removed the
+   intermediate tidal energy capacities (150, 175, 200, 300, and 400 MW) for clarity. The plots
+   presented here better highlight the impact of gradually increasing tidal capacity for a given
+   infrastructure scenario.
+
+
+
+
+     Figure B-1. Total generation stacks for all scenarios studied. Results plotted are Railbelt-wide.
+
+
+
+
+     Figure B-2. Total generation stacks, differenced from the Basecase with no tidal energy, for all
+                          scenarios studied. Results plotted are Railbelt-wide.
+
+
+
+
+                                                      35
+This report is available at no cost from the National Renewable Energy Laboratory at www.nrel.gov/publications.
+

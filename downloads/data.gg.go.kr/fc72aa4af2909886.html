@@ -1,0 +1,1163 @@
+
+
+
+
+
+
+
+
+
+<!-- 1022 : 이벤트 -->
+
+
+
+
+<!-- 1022 : end -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+				<title>경기데이터드림</title>
+				<meta property="og:title" content="경기데이터드림">
+				<meta name="twitter:title" content="경기데이터드림">
+			
+			
+			
+			
+			
+	
+	
+
+
+<meta charset="UTF-8" />
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" /> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- ,chrome=1 -->
+<!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Gyeonggi Province. All Rights Reserved." />
+
+	
+	
+		<meta name="description" content="경기도의 모든 공공데이터를 개방합니다." />
+		<meta property="og:description" content="경기도의 모든 공공데이터를 개방합니다." />
+		<meta name="twitter:description" content="경기도의 모든 공공데이터를 개방합니다." />
+	
+
+
+	
+	
+		<meta name="keywords" content="경기도, 데이터, data, 데이터셋, 멀티미디어, 데이터 시각화, 활용갤러리, 개방데이터 요청, 개발자 공간, 공공데이터 개방, 공공데이터 통계, 오픈데이터, 공공데이터, 공공api, 오픈api, 공공포털" />
+	
+
+
+<meta property="og:type" content="website">
+<meta property="og:image:secure_url" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta property="og:image" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta name="twitter:image:width" content="300">
+<meta name="twitter:image:height" content="300">
+
+<meta name="naver-site-verification" content="c7828cb0c4915c186fb66beb8c7a572b9f2b4c1e"/>
+ 
+<!-- For old IEs -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<!-- For new browsers - multisize ico  -->
+<link rel="icon" href="/favicon.ico">
+
+<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+<!-- For iPhone 6+ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon" href="/favicon-57.png">
+<!-- For Old Chrome -->
+<link rel="icon" href="/favicon-32.png" sizes="32x32">
+<!-- For IE10 Metro -->
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/favicon-144.png">
+<!-- Chrome for Android -->
+<link rel="icon" sizes="192x192" href="/favicon-192.png">
+ 
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/ggportal/event.css?ver=1.4" />
+
+<meta name="google-site-verification" content="PjZkz6EHGF8RRvvOB_xLxoFylxeCMF1M95qVI7TRVTg" />
+<meta name="naver-site-verification" content="308a7dbeabf69f27b82c154f2c4a56fbae03be37" />
+<link rel="canonical" href="https://data.gg.go.kr" />
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/ggportal/main.css?ver=1.5" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/ggportal/add.css?ver=1.4" />
+<link rel="stylesheet" type="text/css" href="/css/ggportal/style.css?ver=1.4" />
+<link rel="stylesheet" type="text/css" href="/css/ggportal/popup.css?ver=1.5" />
+<link rel="stylesheet" type="text/css" href="/css/ggportal/data.css?ver=1.4" />
+
+
+
+<script type="text/javascript" src="/js/ggportal/jquery-2.2.4.min.js?ver=1.5"></script>
+<script type="text/javascript" src="/js/ggportal/base-by-developer.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/ggportal/jquery.bx.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/ggportal/bxslider-by-developer.js?ver=1.4"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/ggportal/respond.src.js?ver=1.3"></script>
+<script type="text/javascript" src="/js/ggportal/html5.js?ver=1.3"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/js/jquery/json.min.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/jquery/jquery.form.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/jquery/jquery.cookie.js?ver=1.4"></script>
+
+<script type="text/javascript" src="/js/jquery/jquery.meio.mask.js?ver=1.4" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="/js/ibsheetinfo.js"></script>
+<script type="text/javascript" src="/js/ibsheet_patch_chrome61.js"></script>
+
+<script type="text/javascript" src="/js/chart/ibchartinfo.js"></script>
+<script type="text/javascript" src="/js/commonchart.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/common/base/commonness.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/common/base/delegation.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/ggportal/data/service/jquery.fileDownload.js?ver=1.4"></script>
+<!-- 테마,생애주기 js -->
+<script type="text/javascript" src="/js/ggportal/lifeData/data/lifeData.js?ver=1.4"></script>
+
+
+<script type="text/javascript" src="/js/cipher/tripledes.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/cipher/mode-ecb.js?ver=1.4"></script>
+<script type="text/javascript" src="/js/cipher/encrypt.js?ver=1.4"></script>
+
+
+<!-- sns공유 스크립트 20180808 -->
+<script type="text/javascript" src="/js/ggportal/data/service/snsShare.js?ver=1.0"></script>
+<!-- <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script> -->
+        
+<!-- 2021.03.29 메인 디자인 변경 -->
+<link rel="stylesheet" type="text/css" href="/css/ggportal/main3.css?ver=1.0" />
+<link rel="stylesheet" type="text/css" href="/css/ggportal/fullPage.css?ver=2.9.7" />
+
+
+<!-- 2023.09.19 메인 디자인 변경 -->
+<link rel="stylesheet" type="text/css" href="/css/ggportal/main_common.css?ver=20250110_2">
+<link rel="stylesheet" type="text/css" href="/css/ggportal/partialviewslider.css">
+<link rel="stylesheet" type="text/css" href="/css/ggportal/main_layout.css">
+<link rel="stylesheet" type="text/css" href="/css/ggportal/slick.css">
+<style type="text/css">
+	*{box-sizing:border-box;}
+	a, a:link, a:visited{text-decoration:none;color: #060606;}
+	a:active, a:hover{text-decoration:none;color: #0AA3B5;}
+</style>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/ggportal/mainNew/main.js"></script>
+<script type="text/javascript" src="/js/ggportal/mainNew/partialviewslider.js"></script>
+
+<script type="text/javascript" src="/js/ggportal/mainNew/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/js/ggportal/mainNew/slick.js"></script>
+
+
+<script type="text/javascript">
+    var getContextPath = "";
+</script>
+
+
+<script>
+//   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//   })(window,document,'script','//www.google-analytics.com/analytics.js?ver=1.3','ga');
+//   ga('create', 'UA-66786815-1', 'auto');
+//   ga('send', 'pageview');
+</script>
+
+
+
+<!-- <script type="text/javascript" src="https://wcs.naver.net/wcslog.js?ver=1.4"></script>  -->
+<script type="text/javascript">
+// 	if(!wcs_add) var wcs_add = {};
+// 	wcs_add["wa"] = "e3e3ef78216a94";
+// 	wcs_do();
+</script>
+
+
+
+<!-- 페이지참조 확인용 -->
+<!-- 
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	    var badge = document.createElement("div");
+	    badge.style.cssText = `
+	        position:fixed;
+	        top:10px;
+	        right:10px;
+	        width:100px;
+	        height:100px;
+	        background:red;
+	        color:white;
+	        font-weight:bold;
+	        font-size:14px;
+	        text-align:center;
+	        line-height:30px;
+	        z-index:999999;
+	    `;
+	    badge.innerText = "공통확인";
+	    document.body.appendChild(badge);
+	}); 
+</script>
+ -->
+ 
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-79C85RHP0C"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', 'G-79C85RHP0C');
+</script>
+ 
+
+<script>
+
+
+ </script>
+
+
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+</head>
+<body>
+<div id="skipNavi">
+    <ul>
+        <li><a href="#content" tabindex="0">본문 바로가기</a></li>
+    </ul>
+</div>
+
+<!-- 상단 팝업 -->
+<div class="topBanner on"  style="display: none;">
+	<div class="banner">
+		<div class="topBanner-direction"><a class="bx-prev" href=""></a><a class="bx-next" href=""></a></div>
+		<ul  id="topBannerUl">
+			
+				
+			
+		</ul>
+	</div>
+	<div class="topBannerBtn">
+		<div class="inner">
+			<button type="button"  class="on" id="topBannerBtn">팝업닫기</button>
+		</div>
+	</div>
+</div>
+<!-- 상단 팝업 끝 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+jQuery(function($){
+
+	// List Tab Navigation
+	var $tab_list = $('.tab.list');
+	$tab_list.removeClass('jx').find('ul ul').hide();
+	$tab_list.find('li li.active').parents('li').addClass('active');
+	$tab_list.find('li.active>ul').show();
+
+	$tab_list.each(function(){
+		var $this = $(this);
+		$this.height($this.find('li.active>ul').height()+40);
+	});
+
+	function listTabMenuToggle(event){
+		var $this = $(this);
+		$this.next('ul').show().parent('li').addClass('active').siblings('li').removeClass('active').find('>ul').hide();
+		$this.closest('.tab.list').height($this.next('ul').height()+40);
+		if($this.attr('href') === '#'){
+			return false;
+		}
+	}
+
+	$tab_list.find('>ul>li>a').click(listTabMenuToggle).focus(listTabMenuToggle);
+	
+});
+
+// 메뉴
+$(document).ready(function() {
+
+	//모바일에서 탭이동 관련 추가 start
+	let $state = $('.nmnb-marea');
+	$(document).on('keydown', function (e) {
+		 if ($state.css('display') === 'block' ) {
+			var focuse_elements = $('.nmnb-box').find("a").toArray();
+			var first_element = focuse_elements[0];
+			var last_element = focuse_elements[focuse_elements.length-1];
+					
+			// 포커스가 현재에 없으면 목록의 맨처음 배열로 돌림
+			if (!focuse_elements.includes(document.activeElement)){
+				event.preventDefault();
+				first_element.focus();
+			}
+			if(event.shiftKey){ // 쉬프트+탭 : 역방향
+				if(document.activeElement ===first_element){
+					event.preventDefault();
+					last_element.focus();
+				}
+			}else{	//탭 : 순방향
+				if(document.activeElement ===last_element){
+					event.preventDefault();
+					first_element.focus();
+				}
+			}
+        }
+    });
+	//모바일에서 탭이동 관련 추가 end
+	
+	
+	var gnb = $('#gnb');
+	
+	// 마우스 over 시
+	gnb.mouseenter(function() {
+		$('.inner_menu').show();
+		// menu bg
+		var menuHeight = $('#header').outerHeight();
+		var inmeHegiht = $('.inner_menu').outerHeight();
+		$('.hd_bg').css({
+			'top': menuHeight + 'px',
+			height: inmeHegiht + 'px'
+		});
+	});
+	
+	// 마우스  leave 시
+	gnb.mouseleave(function() {
+		$('.inner_menu').hide();
+		$('.hd_bg').css('height', '0')
+	});
+
+	// 모바일 전체메뉴
+	$('.nmnb-area a').click(function(){
+		$('.nmnb-marea').slideToggle();
+	});
+	$('#allMenu .close').click(function(){
+		$('.nmnb-marea').slideToggle();
+	});
+
+	//dept2 hover시 dept1 active
+	$('.dept1').mouseenter(function() {
+		$(this).children().addClass('active');
+		$(this).siblings().children().removeClass('active')
+	});
+	$('.dept1').mouseleave(function() {
+		$(this).children().removeClass('active');
+	});
+
+	/* 햄버거 메뉴 */
+	$('.menu_bar').click(function(){
+		$(this).toggleClass('active');
+		$('.menu_open').slideToggle();
+	});
+
+	// 데이터분류체계
+	$("#datacategory ul.menu li").click(function(){
+		$("ul",this).slideToggle("fast");
+	});
+	
+	
+	//검색창 열고/닫기
+	$(".Rcont_search .search").mouseover(function(){
+		$(".Rcont_ipt").slideToggle("fast");
+	});
+	$(".Rcont_ipt").mouseleave(function(){
+		/* if ($(':focus').attr('name') != 'searchWord_main') { */
+			$(this).css('display','none');
+		/* } */
+	});
+
+	$(".Rcont_search .search").focus(function(){
+		$(".Rcont_ipt").slideToggle("fast");
+		$(".Rcont_ipt input[name=searchWord_main]").focus();
+	});
+	/* $(".Rcont_ipt").blur(function(){
+		$(this).css('display','none');
+	}); */
+	$(".Rcont_ipt button").blur(function(){
+		$(".Rcont_ipt").css('display','none');
+	});
+
+});
+</script>
+
+<form id="dataset-sub-search-form" name="dataset-sub-search-form" method="get">
+	<input type="hidden" name="cateId" />
+</form>
+
+<form id="global-search-form" name="global-search-form" method="get">
+	<input type="hidden" name="searchWord" />
+</form>
+
+<!-- 모바일 메뉴 -->
+<div class="nmnb-marea">
+
+	<div id="allMenu" class="nmnb-box" style="">
+		<a href="#content" class="close" tabindex="0">닫기</a>
+
+		<ul class="nmmenu shadow2">
+				<li>
+	                <a href="javascript:btn_view_nmmenu('0');" class="on" tabindex="0">데이터</a>
+	                <ul class="nmsub" style="display:block;">
+		                <li><a href="/portal/data/dataset/searchDatasetPage.do" tabindex="0">데이터셋</a></li>
+				        <li><a href="/portal/data/idata/searchIdataPage.do" tabindex="0">AI학습 데이터</a></li>
+				        <li><a href="/portal/data/pdata/searchPdataPage.do" tabindex="0">민간공익 데이터</a></li>
+				        <li><a href="/portal/data/multimedia/searchMultimediaPage.do" tabindex="0">멀티미디어 데이터</a></li>
+				        <li><a href="/portal/data/ggstat/searchGgStatPage.do" tabindex="0">경기도 통계데이터</a></li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="javascript:btn_view_nmmenu('1');" tabindex="0">맞춤형 데이터</a>
+	                <ul class="nmsub">
+	                    <li><a href="/portal/adjust/lifeDataPage.do?svcId=0" tabindex="0">생애주기 맞춤형 데이터</a></li>
+				        <li><a href="/portal/adjust/themeDataPage.do" tabindex="0">테마 맞춤형 데이터</a></li>
+				        <li><a href="/portal/data/village/searchVillagePage.do" tabindex="0">우리 지역 데이터 찾기</a></li>
+				        <li><a href="/portal/adjust/map/mapSearchPage.do" tabindex="0">위치기반 데이터 찾기</a></li>		
+						<li><a href="/portal/adjust/datasethis/searchDatasetHisPage.do" tabindex="0">과거 데이터 보기</a></li>
+	                </ul>
+	            </li>
+	            <li>
+	            	<a href="javascript:btn_view_nmmenu('2');" tabindex="0">경기통계</a>
+					<ul class="nmsub">
+						<li><a href="https://stat.gg.go.kr/statgg/kr/dataMng/PublicationForm.html?pub_seq=2" target="new" tabindex="0">통계보고서</a></li>
+						<li><a href="https://stat.gg.go.kr/statgg/tblInfo/TblInfoList.html?vw_cd=MT_ZTITLE" target="new" tabindex="0">통계 DB</a></li>
+						<li><a href="https://stat.gg.go.kr/statgg/ggday/ggdayInfo.html" target="new" tabindex="0">이달의 경기통계</a></li>		
+						<li><a href="https://stat.gg.go.kr/statgg/board/introduce.html" target="new" tabindex="0">경기통계의 이해</a></li>
+					</ul>
+	            </li>
+	            <li>
+	                <a href="javascript:btn_view_nmmenu('3');" tabindex="0">활용</a>
+	                <ul class="nmsub">
+	                    <li><a href="/portal/adjust/lifeIndicatorPage.do" tabindex="0">생활밀착형 지표 비교</a></li>
+				        <li><a href="/portal/useful/analysis/searchBulletinPage.do" tabindex="0">분석갤러리</a></li>
+				        <li><a href="/portal/useful/gallery/searchBulletinPage.do" tabindex="0">활용갤러리</a></li>
+						<li><a href="/portal/intro/relationSitePage.do" tabindex="0">관련 사이트</a></li>
+						<li><a href="javascript:btn_view_nmmenu_go('11');" tabindex="0">경기도  생활이동소비 분석 상황판</a></li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="javascript:btn_view_nmmenu('4');" tabindex="0">참여 소통</a>
+	                <ul class="nmsub">
+	                    <li><a href="/portal/bbs/blog/searchBulletinPage.do" tabindex="0">데이터 관련 소식</a></li>
+				        <li><a href="/portal/bbs/faq01/searchBulletinPage.do" tabindex="0">자주하는 질문</a></li>
+				        <li><a href="/portal/bbs/qna01/searchBulletinPage.do" tabindex="0">묻고답하기</a></li>
+				        <li><a href="/portal/bbs/notice/searchBulletinPage.do" tabindex="0">공지사항</a></li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="javascript:btn_view_nmmenu('5');" tabindex="0">소개</a>
+	                <ul class="nmsub">
+	                    <li><a href="/portal/intro/intro/selectIntroPage.do" tabindex="0">사이트 소개</a></li>
+				        <li><a href="/portal/intro/develop/searchBulletinPage.do" tabindex="0">Open API 소개</a></li>
+				        <li><a href="/portal/bbs/stats/selectStatsPage.do" tabindex="0">개방 통계</a></li>
+						<li><a href="/portal/intro/promotionPage.do" tabindex="0">홍보관</a></li>
+						<li><a href="/portal/intro/apply/selectApplyPage.do" tabindex="0">공공데이터 제공 신청</a></li>
+	                </ul>
+	            </li>
+	            <li>
+	                <a href="javascript:btn_view_nmmenu('6');" class="mypage on" tabindex="0">마이페이지</a>
+	                <ul class="nmsub" style="display:block;">
+	                    <li><a href="/portal/myPage/actKeyPage.do" tabindex="0">인증키 발급</a></li>
+				        <li><a href="/portal/myPage/myQnaPage.do" tabindex="0">나의 질문 내역</a></li>
+				        <li><a href="/portal/myPage/utilGalleryPage.do" tabindex="0">활용갤러리</a></li>
+				        <li><a href="/portal/myPage/deleteUserInfoPage.do" tabindex="0">회원탈퇴</a></li>
+	                </ul>
+	            </li>
+		</ul>
+		
+    </div>
+</div>
+<!-- //모바일 메뉴 -->
+<!--  header (S)-->
+<div class="Re_header">
+	<div class="headerTop">
+	    <div class="ReInner" style="display:flex;justify-content: space-between;">
+	    	<ul style="align-items:center;">
+	    		<li style="width:24px;height:16px;background-image: url('/img/ggportal/desktop/main4/eg_logo.png');background-size: contain;background-repeat: no-repeat;background-position: center;" ></li>
+				<li><div style="align-items:center;font-size: 13px !important;color:white !important;font-family: 'GyeonggiTitleM', 'notosanskr', 'Nanum Gothic', '나눔고딕', Dotum, '돋움', Gulim, '굴림', sans-serif;">이 누리집은 대한민국 공식 전자정부 누리집입니다.</div></li>
+	        </ul>
+	    
+	        <ul>
+	            <li>
+	                <div class="dropdown">
+	                    <a href="#none" class="dropbtn">경기데이터드림</a>
+	                        <div class="dropdown_box">
+		                        <a href="https://www.gg.go.kr" target="_blank" class="" title="새창열림">경기도청</a>
+		                        <a href="https://insight.gg.go.kr" target="_blank" class="bar" title="새창열림">경기데이터분석포털</a>
+	                        </div>
+	                  </div>
+	            </li>
+	            
+				    
+			    
+	            <li><a href="/portal/myPage/myPage.do">마이페이지</a></li>
+	            <li><a href="/portal/sitemapPage.do">사이트맵</a></li>
+	        </ul>
+	    </div>
+	</div>
+	<div class="headerMenu">
+		<div class="ReInner">
+	    <div class="Lcontents">
+	        <h1><a href="/portal/mainPage.do"><img src="../../img/ggportal/desktop/main4/top_logo.png" alt="경기데이터드림"></a></h1>
+	    	<ul class="gnbmenu">
+	        <li>
+	        	<a href="#none">데이터</a>
+	            <ul class="sub_menu">
+	                <li><a href="/portal/data/dataset/searchDatasetPage.do">데이터셋</a></li>
+	                <li><a href="/portal/data/idata/searchIdataPage.do">AI학습 데이터</a></li>
+	                <li><a href="/portal/data/pdata/searchPdataPage.do">민간공익 데이터</a></li>
+	                <li><a href="/portal/data/multimedia/searchMultimediaPage.do">멀티미디어 데이터</a></li>
+	                <li><a href="/portal/data/ggstat/searchGgStatPage.do">경기도 통계데이터</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	        	<a href="#none">맞춤형데이터</a>
+	            <ul class="sub_menu">
+	                <li><a href="/portal/adjust/lifeDataPage.do?svcId=0">생애주기 맞춤형 데이터</a></li>
+	                <li><a href="/portal/adjust/themeDataPage.do">테마 맞춤형 데이터</a></li>
+	                <li><a href="/portal/data/village/searchVillagePage.do">우리 지역 데이터 찾기</a></li>
+	                <li><a href="/portal/adjust/map/mapSearchPage.do">위치기반 데이터 찾기</a></li>
+	                <li><a href="/portal/adjust/datasethis/searchDatasetHisPage.do">과거 데이터 보기</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	        	<a href="#none">경기통계</a>
+	            <ul class="sub_menu">
+	                <li><a href="https://stat.gg.go.kr/statgg/kr/dataMng/PublicationForm.html?pub_seq=2" target="new">통계보고서</a></li>
+					<li><a href="https://stat.gg.go.kr/statgg/tblInfo/TblInfoList.html?vw_cd=MT_ZTITLE" target="new">통계 DB</a></li>
+					<li><a href="https://stat.gg.go.kr/statgg/ggday/ggdayInfo.html" target="new">이달의 경기통계</a></li>		
+					<li><a href="https://stat.gg.go.kr/statgg/board/introduce.html" target="new">경기통계의 이해</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	        	<a href="#none">활용</a>
+	            <ul class="sub_menu">
+	                <li><a href="/portal/adjust/lifeIndicatorPage.do">생활밀착형 지표 비교</a></li>
+					<li><a href="/portal/useful/analysis/searchBulletinPage.do">분석갤러리</a></li>
+					<li><a href="/portal/useful/gallery/searchBulletinPage.do">활용갤러리</a></li>
+	                <li><a href="/portal/useful/visual/searchVisualMainPage.do">데이터 시각화</a></li>
+	                <li><a href="/portal/intro/top15Page.do" >데이터활용 TOP15</a></li>
+					<li><a href="/portal/intro/relationSitePage.do">관련 사이트</a></li>
+					<li><a href="javascript:btn_view_nmmenu_go('11');" tabindex="0">경기도  생활이동소비 분석 상황판</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	        	<a href="#none">참여소통</a>
+	            <ul class="sub_menu">
+	                <li><a href="/portal/bbs/blog/searchBulletinPage.do">데이터 관련 소식</a></li>
+					<li><a href="/portal/bbs/faq01/searchBulletinPage.do">자주하는 질문</a></li>
+					<li><a href="/portal/bbs/qna01/searchBulletinPage.do">묻고답하기</a></li>
+					<li><a href="/portal/bbs/notice/searchBulletinPage.do">공지사항</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	        	<a href="#none">소개</a>
+	            <ul class="sub_menu">
+	                <li><a href="/portal/intro/intro/selectIntroPage.do">사이트 소개</a></li>
+					<li><a href="/portal/intro/develop/searchBulletinPage.do">Open API 소개</a></li>
+					<li><a href="/portal/bbs/stats/selectStatsPage.do">개방 통계</a></li>
+					<li><a href="/portal/intro/promotionPage.do">홍보관</a></li>
+					<li><a href="/portal/intro/apply/selectApplyPage.do">공공데이터 제공 신청</a></li>
+	            </ul>
+	        </li>
+	    </ul>
+	    </div>
+	    
+	    <div class="Rcontents">
+	        <div class="Rcont_search">
+	        	<button class="search"><span class="blind">검색</span></button>
+	        	<div class="Rcont_ipt">
+	        		<input name="searchWord_main" type="text" title="검색어 입력">
+	        		<button type="button" onclick="goTotalSch($(this).parent().find('input[name=searchWord_main]').val());">검색</button>
+	        	</div>
+	        </div>
+	        <div id="datacategory">
+	            <ul class="menu">
+	                <li><a href="#none" class="categorymenu" title="데이터분류체계"><span class="blind">데이터분류체계</span></a>
+	                    <ul class="category" style="display: none;">
+	                        <li><a href='#none' onclick='goDataSetSub(this);' name='GG01'>교통건설환경</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG05'>가족보건복지</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG09'>관광문화체육</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG13'>소방재난안전</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG16'>농림축산해양</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG20'>산업경제</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG23'>교육취업</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG26'>도시주택</a></li>
+					        <li><a href='#none' onclick='goDataSetSub(this);' name='GG29'>조세법무행정</a></li>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	    
+	    <!-- mobile (s)-->
+	    <div class="nmnb-area">
+			<a href="#"><span class="blind">전체메뉴</span></a>
+	    </div>
+	    <!-- mobile (e)-->
+	</div>
+	</div>
+</div>
+<!-- //header (E) -->
+
+<!--  main top search div (S)-->
+    <div class="SearchCategory">
+     <!-- 검색 -->
+     <div class="SearchDiv">
+		<div class="search_box search2">
+            <input type="text" onclick="" placeholder="경기도 공공데이터 개방포털" name="searchWord_main" title="경기도 공공데이터 검색" id="content" maxlength="50" tabindex="0">
+            <button type="button" onclick="goTotalSch($(this).parent().find('input[name=searchWord_main]').val());"><span class="blind">검색</span></button>
+        </div>
+        
+        <a href="javascript:btn_view_nmmenu_go('22');"><!-- 98/22 -->
+              <img src="/img/admin/ai_search_dream2.png" alt="찾아드림"  class="simsimi">
+         </a>
+                    
+        <div class="tag" id="tag-list">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div> 
+    </div>
+     <!-- //검색 -->
+     <!-- 카테고리 -->
+     <ul class="categorymneu">
+        <li class="menu01"><a href='#none' onclick='goDataSetSub(this);' name='GG01'><span>교통건설환경</span></a></li>
+        <li class="menu02"><a href='#none' onclick='goDataSetSub(this);' name='GG05'><span>가족보건복지</span></a></li>
+        <li class="menu03"><a href='#none' onclick='goDataSetSub(this);' name='GG09'><span>관광문화체육</span></a></li>
+        <li class="menu04"><a href='#none' onclick='goDataSetSub(this);' name='GG13'><span>소방재난안전</span></a></li>
+        <li class="menu05"><a href='#none' onclick='goDataSetSub(this);' name='GG16'><span>농림축산해양</span></a></li>
+        <li class="menu06"><a href='#none' onclick='goDataSetSub(this);' name='GG20'><span>산업경제</span></a></li>
+        <li class="menu07"><a href='#none' onclick='goDataSetSub(this);' name='GG23'><span>교육취업</span></a></li>
+        <li class="menu08"><a href='#none' onclick='goDataSetSub(this);' name='GG26'><span>도시주택</span></a></li>
+        <li class="menu09"><a href='#none' onclick='goDataSetSub(this);' name='GG29'><span>조세법무행정</span></a></li>
+     </ul>
+     <!-- //카테고리 -->
+    </div>
+<!--  //main top search div (E)-->
+
+<!--  main contents div (S)-->
+<div class="Re_mainContaner">
+<div class="ReInner">
+    <!-- 주요서비스 (s) -->
+    <div class="ReServiceDiv">
+
+        <div class="container">
+           <div class="main_slide_btn">
+                <div class="btn">
+                    <button type="button" class="btn_pause on">재생/정지</button>
+                </div>
+            </div>
+          <ul class="new_main_slide">
+               <li>
+                    <a href="https://egbiz.or.kr/pd/53954.do" target="_self"><!-- 이벤트배너 -->
+                        <div class="partial_txt">
+                        	<div>
+	                            <h3>경기도 공공데이터·AI 활용 창업경진대회</h3>
+	                            <p>2026년 경기도 공공데이터·AI 활용 창업경진대회를 개최하오니 많은 관심과 참여를 바랍니다.</p>
+                           </div>
+                         </div>
+                        <img src="../../img/ggportal/desktop/main4/test03.jpg" alt=""/>
+                    </a>
+                </li>
+          <!-- 1022 : 이벤트 -->
+
+           		<li>
+                    <a href="javascript:btn_view_nmmenu_go('33');"><!-- 97 / 33 -->
+                        <div class="partial_txt">
+                            <div>
+                                <h3>경기도 실시간 방문소비 현황지도</h3>
+                                <p>경기도 주요지점의 실시간 방문자수 및 소비금액 현황을 확인해보세요.</p>
+                            </div>
+                         </div>
+                        <img src="../../img/ggportal/desktop/main4/main_test09.jpg" alt=""/>
+                    </a>
+                </li>
+                
+          		<li>
+                    <a href="javascript:btn_view_nmmenu_go('11');"><!-- 99 / 11-->
+                        <div class="partial_txt">
+                            <div>
+                                <h3>경기도  생활이동소비 분석 상황판</h3>
+                                <p>경기도 월별 생활이동인구, 소비 통계정보를 확인해보세요.</p>
+                            </div>
+                         </div>
+                        <img src="../../img/ggportal/desktop/main4/main_test07.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/portal/adjust/lifeIndicatorPage.do">
+                        <div class="partial_txt">
+                           <div>
+                            <h3>생활밀착형 지표비교</h3>
+                            <p>경기도민의 생활밀착형 지표를 비교할 수 있는 맞춤형서비스입니다.</p>
+                           </div>
+                        </div>
+                        <img src="../../img/ggportal/desktop/main4/main_test02.jpg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/portal/adjust/lifeDataPage.do">
+                        <div class="partial_txt">
+                            <div>
+                                <h3>생애주기 맞춤형 데이터</h3>
+	                            <p>생애주기별로 필요한 공공데이터를 맞춤형서비스로 제공합니다.</p>
+                            </div>
+                         </div>
+                         <img src="../../img/ggportal/desktop/main4/main_test06.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/portal/adjust/map/mapSearchPage.do">
+                        <div class="partial_txt">
+                            <div>
+                                <h3>위치기반 데이터찾기</h3>
+                                <p>지도를 이용하여 지역과 관련된 공공데이터를 찾아보세요.</p>
+                            </div>
+                         </div>
+                        <img src="../../img/ggportal/desktop/main4/main_test04.jpg" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/portal/data/idata/searchIdataPage.do">
+                        <div class="partial_txt">
+                            <div>
+                                <h3>AI학습 데이터</h3>
+                                <p>인공지능 학습데이터를 이용해 보세요.</p>
+                            </div>
+                         </div>
+                        <img src="../../img/ggportal/desktop/main4/main_test05.jpg" alt=""/>
+                    </a>
+                </li>
+          </ul>
+          
+        </div>
+
+    </div>
+    <!-- //주요서비스 (e) -->
+
+    <!-- 공지및 이슈영역 (s) -->
+    <div class="ReSection01_Div">
+        <article class="ReNotice">
+            <div class="title"><h3>데이터 드림 알림</h3> </div>
+	<div class="tab list">
+	<ul>
+		<li class="tabmenu active"><a href="#"><span>공지사항</span></a>
+			<ul class="newslist" id="notice-current-list" >
+                <li class="more"><a href="/portal/bbs/notice/searchBulletinPage.do" title="공지사항 더보기"><span class="blind">공지사항 더보기</span></a></li>
+				<li> <a href="#">2023년 경기도 공공데이터포털(경기데이터드림)경기도 터널 방재시설 데이터 개방 안내</a> <span class="time">2023.07.14</span></li>
+				<li><a href="#">민간데이터카탈로그 서비스 안내</a> <span class="time">2023.07.14</span></li>
+				<li><a href="#">경기도 터널 방재시설 데이터 개방 안내</a> <span class="time">2023.07.14</span></li>
+				<li> <a href="#">테마 맞춤형 데이터 '반려동물' 테마 추가 안내</a> <span class="time">2023.07.14</span></li>
+			</ul>
+		</li>
+		<li class="tabmenu"><a href="#"><span>데이터소식</span></a>
+			<ul class="newslist" id="blog-list" style="display: none;">
+                <li class="more"><a href="/portal/bbs/blog/searchBulletinPage.do" title="데이터소식 더보기"><span class="blind">데이터소식 더보기</span></a></li>
+				<li> <a href="#">데이터소식</a> <span class="time">2023.07.14</span></li>
+				<li> <a href="#">민간데이터카탈로그 서비스 안내</a> <span class="time">2023.07.14</span></li>
+				<li> <a href="#"> 데이터 개방 안내</a> <span class="time">2023.07.14</span></li>
+				<li> <a href="#">테마 맞춤형 데이터 '반려동물' 테마 추가 안내</a> <span class="time">2023.07.14</span></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+   <!--  -->
+        </article>
+
+   
+
+        <article class="ReData">
+            <div class="title"><h3>새로 개방한 데이터</h3></div>
+            <div class="contentsBox">
+                <ul class="list" id="data-list">
+                    <li>
+                        <span class="category01">문화/관광</span>
+                        <a href="">서울시 실시간 연구데이터</a>
+                    </li>
+                    <li>
+                        <span class="category02">복지</span>
+                        <a href="">2023년 경기도 공공데이터포털(경기데이터드림)</a>
+                    </li>
+                    <li>
+                        <span class="category03">일반행정</span>
+                        <a href="">육류 섭취 빈도율</a>
+                    </li>
+                    <li>
+                        <span class="category01">문화/관광</span>
+                        <a href="">서울시 실시간 연구데이터</a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="ReIssue">
+            <div class="title"><h3>이슈 및 추천데이터</h3> </div>
+            <div class="contentsBox">
+                <div class="slider-wrapper" id="slider">
+                    <ul class="slider-img" id="issue-list">
+                    </ul>
+                  </div>
+            </div>
+        </article>
+    </div>
+    <!-- //공지및 이슈영역 (e) -->
+
+
+     <!-- FAQ 참여소통 (s) -->
+     <div class="ReSection02_Div">
+        <article class="FaqDiv">
+            <div class="title"><h3>자주하는 질문</h3> <p class="moreBtn"><a href="/portal/bbs/faq01/searchBulletinPage.do" title="자주하는 질문 더보기"><span class="blind">자주하는 질문 더보기</span></a></p></div>
+            <div class="contentsBox">
+                <ul id="faq-list">
+                    <li><span>01</span><a href='#none'>시군별 시군코드는 어떻게 되나요?</a></li>
+                    <li><span>02</span><a href='#none'>경기데이터드림의 자료는 항상 업데이트가 되는 건가요?</a></li>
+                    <li><span>03</span><a href='#none'>공공데이터의 이용조건은 어떻게 됩니까?</a></li>
+                    <li><span>04</span><a href='#none'>회원가입은 어떻게 하나요?</a></li>
+                    <li><span>05</span><a href='#none'>제공하는 데이터셋을 Open API로 제공받고 싶습니다.</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="bannerlinkDiv">
+            <div class="title"><h3>참여소통</h3> </div>
+            <div class="contentsBox">
+                <ul>
+                    <li><a href="/portal/intro/apply/selectApplyPage.do">
+                        <dl>
+                            <dt><img src="../../img/ggportal/desktop/main4/main_imgbtn01.png" alt=""></dt>
+                            <dd>공공데이터 제공신청</dd>
+                        </dl>
+                    </a></li>
+                    <li><a href="/portal/bbs/qna01/searchBulletinPage.do">
+                        <dl>
+                            <dt><img src="../../img/ggportal/desktop/main4/main_imgbtn02.png" alt=""></dt>
+                            <dd>묻고답하기</dd>
+                        </dl>
+                    </a></li>
+                </ul>
+            </div>
+        </article>
+
+     </div>
+     <!-- //FAQ 참여소통 (e) -->   
+
+</div>
+</div>
+<!--  //main contents div (E)-->
+
+<!-- 푸터 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(function() {
+        // 관련 사이트를 검색한다.
+        searchFamilySite();
+        
+        $("#family-site-sect").bind("mouseleave", function(event) {
+            $("#view_familySite").hide("slide", {
+                direction:"down"
+            }, "slow");
+        });
+    });
+    
+    /**
+     * 관련 사이트를 검색한다.
+     */
+    function searchFamilySite() {
+        // 데이터를 검색한다.
+        doSearch({
+            url:"/portal/settings.do",
+            before:beforeSearchFamilySite,
+            after:afterSearchFamilySite
+        });
+    }
+    
+    /**
+     * 관련사이트를 검색 전처리를 실행한다.
+     * 
+     * @param options {Object} 옵션
+     * @returns {Object} 데이터
+     */
+    function beforeSearchFamilySite(options) {
+        var data = {
+            homeTagCd:"FLINK"
+        };
+        
+        return data;
+    }
+    
+    /**
+     * 관련사이트를 검색 후처리를 실행한다.
+     * 
+     * @param data {Array} 데이터
+     */
+    function afterSearchFamilySite(data) {
+        var list = $("#global-family-list");
+        
+        list.find("li").each(function(index, element) {
+            $(this).remove();
+        });
+        
+        for (var i = 0; i < data.length; i++) {
+            var item = $("<li><a href=\"#\"></a></li>");
+            
+            item.find("a").text(data[i].srvTit);
+            
+            // 관련사이트 링크에 클릭 이벤트를 바인딩한다.
+            item.find("a").bind("click", {
+                srvTit:data[i].srvTit,
+                linkUrl:data[i].linkUrl
+            }, function(event) {
+                // 관련사이트를 설정한다.
+                setFamilySite(event.data);
+                return false;
+            });
+            
+            // 관련사이트 링크에 키다운 이벤트를 바인딩한다.
+            item.find("a").bind("keydown", {
+                srvTit:data[i].srvTit,
+                linkUrl:data[i].linkUrl
+            }, function(event) {
+                if (event.which == 13) {
+                    // 관련사이트를 설정한다.
+                    setFamilySite(event.data);
+                    return false;
+                }
+            });
+            
+            list.append(item);
+        }
+        
+        $("#global-family-list").find("a").click(function(event){
+        	$("#global-family-link").focus();
+        });
+        
+        $("#global-family-list").find("a").keydown(function(event){
+        	if(event.keyCode == 13){
+         	$("#global-family-link").focus();
+        	}
+        });
+    }
+    
+    /**
+     * 관련사이트를 설정한다.
+     * 
+     * @param data {Object} 데이터
+     */
+    function setFamilySite(data) {
+        $("#global-family-link").text(data.srvTit).click();
+
+        var button = $("#global-family-button");
+
+        button.attr("href", data.linkUrl);
+        button.attr("target", "_blank");
+        button.attr("title", "새창으로 이동");
+    }
+</script>
+
+
+<form id="global-request-form" name="global-request-form" method="post" action="/portal/mainPage.do">
+    
+</form>
+
+
+
+<!-- footer -->
+<div class="nfooter-area">
+    <div class="nfooter-box">
+        <div class="logo"><img src="../../img/ggportal/nmain/nfooter_logo.png" alt="경기데이터 드림"></div>
+        <ul class="menu">
+            <li><a href="https://www.gg.go.kr/contents/contents.do?ciIdx=1077&menuId=2771">개인정보처리방침</a></li>
+            <li><a href="/portal/emailPolicyPage.do">이메일무단수집거부</a></li>
+            <li><a href="/portal/userAgreementPage.do">서비스이용약관</a></li>
+            
+        </ul>
+        <div class="txt">
+            경기도 수원시 영통구 도청로 30 <br>
+            관리부서 : AI데이터행정과, 031-8008-3954/5589 <br>
+            © Gyeonggi Province. All Rights Reserved. 
+        </div>
+        
+        <ul class="quick">
+            <li><a href="https://gg.go.kr/contents/contents.do?ciIdx=1015&menuId=2698" target="_blank" title="새창열림"><img src="../../img/ggportal/nmain/logo_footer_1.png" alt="(031)120 경기도 콜센터"></a></li>
+            <li><a href="https://www.gg.go.kr" target="_blank" title="새창열림"><img src="../../img/ggportal/nmain/logo_footer_8.png" alt="변화의 중심 기회의 경기"></a></li>
+            <li><a href="http://www.wa.or.kr/" target="_blank" title="새창열림"><img src="../../img/ggportal/nmain/logo_footer_3.png" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" width="84" height="60"></a></li>
+            <!-- <li>
+	            <a href="https://kdata.or.kr/kr/certi/list.do" target="_blank" title="새창열림">
+	            <img style="height:55px;" src="../../img/ggportal/nmain/logo_footer_7.png" alt="데이터 품질인증">
+	            </a>
+            </li> -->
+        </ul>
+    </div>
+</div>
+<!-- // footer -->
+
+
+
+<iframe id="global-process-iframe" name="global-process-iframe"  title="프로그램 처리 영역" height="0" style="width:100%; display:none;"></iframe>
+
+<!-- 보안조치사항 검사까지 임시주석
+<script type="text/javascript" src="https://ds4.webtalks.co.kr:444/voicemonJs.do?userlicenseKey=c554132c5e3efa65e1e6120cee4f2bde5c733d087993301ca3ab5ad216aa6f697b9991303e002ef97ece335230392406&voicelanguage=KW1&skinColor=0054FF"></script> -->
+<!-- <script type="text/javascript">
+setTimeout(function() {
+	// 초기에 하이라이트를 끔
+	if(_voicemonjs.core.getTtsMode()) {
+ 		_voicemonjs.option.optionChange();
+ 		_voicemonjs.ui.highlightObject(_voicemonjs.void_execute_object, false);
+ 		_voicemonjs.option.setControlbarHighlight(0);
+ 		_voicemonjs.ui.panelImageInit();
+ 		_voicemonjs.guide_message_flag=true;
+ 		_voicemonjs.core.setSpeechText(voicemonjs_message.highlight_off_msg[_voicemonjs.languageIdx], true);
+ 		_voicemonjs.tts_timer=setTimeout(_voicemonjs.coremakeTts, _voicemonjs.voice_dealytime);
+	}
+}, 2000);
+</script> -->		
+
+
+<!-- //푸터 -->
+
+<!-- 공지사항 팝업 HTML 시작 -->
+ <div id="eventPopLayer" class="eventPopLayer" style="position: absolute; top: 28%; left: 15%; z-index: 2000;  ">
+    <div id="eventPop1" class="eventPop" style="display: inline-block; text-align: center; padding: 0; margin: 0; border: 1px solid #ddd; display: none;">
+        <div class="cont" style="display: inline-block; padding: 0; margin: 0;">
+            <div class="img" style="display: inline-block; padding: 0; margin: 0;">
+                <a id="link" href="" target="_blank">
+                    <img id="img" src="" alt="Event Image" style="width: auto; height: auto; max-width: 800px; max-height: 800px;">
+                </a>
+            </div>
+        </div>
+        <div class="notToday" style="display: flex; align-items: center; padding: 10px;">
+            <label style="margin-left: 10px;">
+                <input type="checkbox" name="todatyclose" value="OK" onclick="javascript:closeWinAt00('eventPop1', 1);"/> 오늘만 이 창을 열지 않음
+            </label>
+            <label style="margin-left: 10px;">
+                <input type="checkbox" name="todatyclose" value="OK" onclick="javascript:closeWinAt00('eventPop1', 7);"/> 일주일동안 이 창을 열지 않음
+            </label>
+            <label style="margin-left: auto;">
+                <input type="button" style="display: inline-block; background-color: #000000; color: #ffffff;" name="todatyclose" value="닫기" onclick="javascript:closeWinAt00('eventPop1', 0);"/>
+            </label>
+            <a href="#eventPopClose" class="btn_close"><span>레이어 팝업 닫기</span></a>
+        </div>
+    </div>
+</div> 
+
+	
+	
+	<script type="text/javascript">
+		let CONFIG_JSON = [{"seqceNo":5,"homeTagCd":"FLINK","srvTit":"경기도","srvCont":null,"linkUrl":"http://www.gg.go.kr/","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":6,"homeTagCd":"FLINK","srvTit":"경기도 블로그","srvCont":null,"linkUrl":"http://blog.naver.com/prologue/PrologueList.nhn?blogId=gyeonggi_gov","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":7,"homeTagCd":"FLINK","srvTit":"경기소셜락커","srvCont":null,"linkUrl":"http://www.gg.go.kr/ggrocker","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":8,"homeTagCd":"FLINK","srvTit":"경기통계","srvCont":null,"linkUrl":"http://stat.gg.go.kr","saveFileNm":"201709251658177380.png","subSaveFileNm":"201709251658177481.png","popupYn":"N"},{"seqceNo":9,"homeTagCd":"FLINK","srvTit":"경기콘텐츠진흥원","srvCont":null,"linkUrl":"http://www.gcon.or.kr","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":11,"homeTagCd":"FLINK","srvTit":"공공데이터포털","srvCont":null,"linkUrl":"https://www.data.go.kr","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":13,"homeTagCd":"FLINK","srvTit":"성남 공공데이터넷","srvCont":null,"linkUrl":"http://data.seongnam.go.kr","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":12,"homeTagCd":"FLINK","srvTit":"수원 공공데이터포털","srvCont":null,"linkUrl":"http://data.suwon.go.kr/","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":106,"homeTagCd":"FLINK","srvTit":"안양시 공공데이터 포털","srvCont":null,"linkUrl":"http://www.anyang.go.kr/opendata/main.do","saveFileNm":null,"subSaveFileNm":null,"popupYn":"Y"},{"seqceNo":14,"homeTagCd":"FLINK","srvTit":"오산 공공데이터개방","srvCont":null,"linkUrl":"http://data.osan.go.kr/","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":101,"homeTagCd":"FLINK","srvTit":"화성시 공공데이터 포털","srvCont":null,"linkUrl":"http://data.hscity.go.kr/main.do","saveFileNm":null,"subSaveFileNm":null,"popupYn":"N"},{"seqceNo":280,"homeTagCd":"FLINK","srvTit":"광명나눔데이터","srvCont":null,"linkUrl":"http://data.gm.go.kr","saveFileNm":null,"subSaveFileNm":null,"popupYn":"Y"},{"seqceNo":1114,"homeTagCd":"PROMT","srvTit":"경기데이터드림 통합 개편 안내","srvCont":null,"linkUrl":"https://data.gg.go.kr/portal/bbs/notice/selectBulletinPage.do?bbsCd=NOTICE&seq=2657","saveFileNm":"202605211319569320.png","subSaveFileNm":"202605211319569361.png","popupYn":"Y"}];
+		let DOMAIN = 'https://data.gg.go.kr';
+	</script>
+	
+<!-- 공지사항 팝업 HTML 끝-->
+		
+<!-- 설문조사 Append 시작 -->
+
+<!-- 1022 : 이벤트  -->
+
+
+
+<!-- 설문조사 Append 끝 -->
+
+
+<!-- 데이터활용TOP15 숨기는 제이쿼리 start -->
+<!-- 	<script type="text/javascript">
+	const target = document.querySelector(".ReIssue");
+	if (!target) {
+	} else {
+	  const obs = new MutationObserver(() => {
+	    
+	    $(" img[alt*='데이터활용TOP15']").each(function () {
+	      const $t = $(" img[alt*='데이터활용TOP15']");
+	      $(".ReIssue img[alt*='데이터활용TOP15']").closest("li").hide();
+	    });
+	  });
+	  obs.observe(target, { childList: true, subtree: true });
+	}
+	</script> -->
+<!-- 데이터활용TOP15 숨기는 제이쿼리 end-->
+</body>
+</html>

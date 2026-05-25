@@ -1,0 +1,438 @@
+2025 Data Center Power Report
+From Gridlock To Growth: How Power Bottlenecks
+Are Reshaping Data Center Strategies
+
+
+
+
+January 2025
+Executive Summary
+The fourth industrial revolution is underway, fueled by rapid advancements in
+AI and cloud computing. In the US, the rapid deployment of new data center
+capacity is a strategic priority, but there is a major bottleneck: power availability.
+Demand for power is only growing, while the electricity grid is aging and new
+grid projects face permitting and supply chain challenges.
+While these challenges have received significant attention, there has been
+comparatively less discussion about potential solutions. Bloom Energy, a leader
+in power solutions, explains in this 2025 Data Center Power Report how
+data center leaders are shifting paradigms and adopting innovative solutions
+to meet their strategic goals and economic imperatives.
+In April and November 2024, we surveyed data center leaders directly involved
+in making power architecture decisions. Survey respondents represented
+a variety of hyperscaler and colocation developer companies and ranged
+from managers to C-suite executives.1 To supplement findings from these
+quantitative surveys, we also commissioned in-depth qualitative interviews
+with decision makers for data center power architecture and referenced
+multiple external data sources, including research by the Lawrence Berkeley
+National Laboratory, McKinsey & Company, and Goldman Sachs.
+
+Summary of findings
+
+1. Data center leaders expect power availability to get worse
+    Demand for power in the US is growing at an unprecedented rate, with
+    data centers being the largest driver of this growth. The US grid has not
+    been able to keep pace with this demand, and new data center projects
+    will struggle to get timely access to power.
+
+2. Leaders are increasingly turning to onsite power as a solution
+    Data center leaders expect approximately 30% of all data center sites to
+    use some onsite power as a primary energy source supplemental to the
+    grid by 2030, 2.3 times more than just seven months prior. We find that
+    new data center announcements corroborate this expectation.
+
+3. Leaders see value differently as they balance priorities
+    New data centers are balancing more priorities, and time to power is
+    playing an increasingly important role in the value equation. Our surveys
+    and interviews with data center leaders have surfaced seven key criteria
+    for choosing onsite power technology.
+
+4. Looking ahead, leaders expect a paradigm shift in 2025
+    Based on what we have heard from data center leaders, we have identified
+    three key trends we expect to continue in 2025.
+
+
+
+1   Surveys were commissioned to enable a double-blind process between Bloom Energy and survey respondents
+2025 Data Center Power Report                                                                                2
+1. Data center leaders expect
+   power availability to get worse
+Demand for power in the US is growing at an unprecedented rate
+                                                                                                             Transmission:
+After 20 years of flat demand,2 US power needs are predicted to rise by
+                                                                                                             High-voltage
+83 terawatt-hours (TWh) in 20253 – equivalent to powering an additional
+                                                                                                             transportation of
+7.7 million homes.4
+                                                                                                             energy across longer
+Data centers are the largest driver of this growth                                                           distances, from power
+The US is expected to see the highest share of new data centers outside China.                               generation sources to
+Since 2020, the US colocation data center market alone has doubled, driven                                   substations
+by digitization, cloud, and AI.5
+To power this, data centers by 2030 could require 8-12% of the total US                                      Distribution:
+demand compared to 3-4% today.6                                                                              Lower-voltage
+
+The US grid has not been able to keep pace with this demand                                                  transportation of
+                                                                                                             energy across shorter
+While utilities can likely generate sufficient power to meet data center needs,
+they face bottlenecks with transporting that power via transmission and                                      distances, from
+distribution infrastructure. As a result, grid interconnection takes longer, there                           substations to end
+is more congestion on the network, and capacity is increasingly expensive.                                   customers
+If the US continues to build high-voltage transmission infrastructure at its
+current rate, it will take at least 80 years to deliver what we need over the next
+decade.7
+
+New data center projects will struggle to get timely access to power
+In the US, 55 GW of data center IT capacity is expected to come online in the
+next five years. For comparison, this is 10 times the average power capacity
+used by New York City8 – and does not include the additional power needed
+for cooling systems.
+We are already seeing data center IT capacity buildout ramp up with ~20 GW
+of capacity announced so far, and we expect it to continue growing.
+We expect that at least another 35 GW of data center capacity will be
+announced within the next five years to meet projected data center demand.
+
+
+
+
+2   Grid Strategies, “Strategic Industries Surging: Driving US Power Demand”
+3   International Energy Agency, “Electricity Mid-Year Update”
+4   U.S. Energy Information Administration, “How much electricity does an American home use?”
+5   Forbes, “Data Centers At The Heart Of The AI And Digital Economy Surge”
+6   Lawrence Berkeley National Laboratory, “2024 United States Data Center Energy”; Goldman Sachs, “Generational growth: AI, data centers and
+    the coming US power demand surge”; McKinsey & Company, “How data centers and the energy sector can sate AI’s hunger for power”
+7   U.S. Department of Energy, “National Transmission Needs Study”; Americans for a Clean Energy Grid, “Transmission Projects Ready to Go:
+    Plugging Into America’s Untapped Renewable Resources”; C Three Group via Robert Bryce, “Out of Transmission”
+8   NYC Mayor’s Office of Climate & Environmental Justice, “Systems”
+2025 Data Center Power Report                                                                                                               3
+20 GW of upcoming data center IT capacity has been announced in the US
+GW of cumulative data center IT capacity in the US
+
+     Gzkuvkpi"ecrcekv{    Cppqwpegf"ecrcekv{
+                                                                                                             67                 67
+                                                                                            65
+                                                                           5;
+                                                          57
+                                                                                            39               3;                 42
+                    -42'"r0c0            52                                35
+                                                           ;
+                         47               7
+        43
+
+
+                                         47               47               47               47               47                 47
+
+
+
+
+      4245               46              47               48               49               4:               4;                4252
+ Uqwteg<"Rwdnken{"cxckncdng"fcvc"egpvgt"cppqwpegogpvu="OeMkpug{"("Eqorcp{."“Jqy"fcvc"egpvgtu"cpf"vjg"gpgti{"ugevqt"ecp"ucvg"
+ CK’u"jwpigt"hqt"rqygt”="Tgwvgtu."“WU"gngevtke"wvknkvkgu"dtceg"hqt"uwtig"kp"rqygt"fgocpf"htqo"fcvc"egpvgtu”
+
+
+
+
+35 GW of data center IT capacity announcements are expected in the next five years
+GW of data center IT capacity in the US
+IY"qh"fcvc"egpvgt"KV"ecrcekv{"kp"vjg"WU
+
+                                                    -77"cffkvkqpcn"rqygt"fgocpf
+
+                                                                                                                   :2-
+
+
+
+
+                                                                                  57
+
+
+
+
+                                                 42
+                 47
+
+
+
+
+    Gzkuvkpi"ecrcekv{"cu"qh"4246         Cppqwpegf"ecrcekv{"           Cffkvkqpcn"cppqwpegogpvu"         Vqvcn"rtqlgevgf"ecrcekv{"
+                                         vq"dg"cffgf"d{"4252           gzrgevgf"kp"pgzv"hkxg"{gctu           pggfgf"d{"4252
+
+ Uqwteg<"Rwdnken{"cxckncdng"fcvc"egpvgt"cppqwpegogpvu="OeMkpug{"("Eqorcp{."“Jqy"fcvc"egpvgtu"cpf"vjg"gpgti{"ugevqt"ecp"ucvg"
+ CK’u"jwpigt"hqt"rqygt”="Tgwvgtu."“WU"gngevtke"wvknkvkgu"dtceg"hqt"uwtig"kp"rqygt"fgocpf"htqo"fcvc"egpvgtu”
+
+
+
+
+2025 Data Center Power Report                                                                                                         4
+2. Leaders are increasingly turning
+   to onsite power as a solution
+The pace of change is accelerating
+                                                                                                       Time to power:
+Our research sheds light on what data center leaders are thinking and doing
+to solve time to power challenges. In hearing from these leaders, we were                              Time it takes for a
+surprised by the pace of change and the growing expectation `that onsite                               new facility to receive
+power generation will play a greater role in powering data center projects.                            necessary power
+
+More data center leaders are taking responsibility for their power needs
+                                                                                                       Onsite power:
+They do so by generating power onsite, working in close partnership with                               Onsite power (also
+utilities to lessen the burden on the collective power grid and transmission
+                                                                                                       referred to as
+infrastructure. Historically, data centers have used onsite power mostly for
+                                                                                                       decentralized or
+backup purposes, but we are seeing a shift toward onsite power generation as
+a primary source of power.                                                                             distributed power)
+                                                                                                       means generating
+Data center leaders increasingly expect onsite power to be adopted as
+                                                                                                       electricity directly at
+a primary energy source
+                                                                                                       the location where it
+Leaders expect approximately 30% of all data center sites to use some onsite                           will be used, rather
+power by 2030, 2.3 times more than just seven months prior. We find that
+                                                                                                       than relying solely
+new data center announcements corroborate this expectation. In 2024, there
+were more announcements featuring onsite power than the previous four                                  on the grid. It can
+years combined. Total announced capacity of onsite power is now up to 8.7                              work alongside grid
+GW globally, including 4.8 GW expected before 2030.9                                                   power or operate
+                                                                                                       independently in
+                                                                                                       “islanded mode.”
+ Cxgtcig"ujctg"qh"fcvc"egpvgt"ukvgu"gzrgevgf"vq"jcxg"cv"ngcuv"                                         Common onsite
+ uqog"qpukvg"rqygt"igpgtcvkqp"kp"4252."cu"tgrqtvgf"d{"fcvc"                                            power technologies
+ egpvgt"ngcfgtu32"                                                                                     include solar panels,
+                                                                                                       small gas turbines,
+            Crtkn"4246                                                  Pqxgodgt"4246
+                                                                                                       fuel cells, and diesel
+                                                                                                       generators. Generating
+                                                                                                       power directly at the
+
+                                            405z                             52'
+                                                                                                       source of consumption
+
+              35'                                                                                      helps avoid lead
+                                                                                                       times in transmission
+                                                                                                       infrastructure
+                                                                                                       availability, enabling
+                                                                                                       data centers to come
+                                                                                                       online and begin
+
+Uqwteg<"Uwtxg{"qh"fcvc"egpvgt"rqygt"ctejkvgevwtg"fgekukqp"ocmgtu
+                                                                                                       generating revenue
+*p?52"kp"Crt"4246."p?86"kp"Pqx"4246+                                                                   sooner
+
+
+9 Based on publicly available announcements – may not be comprehensive
+10 Survey question: What percentage of data center sites do you think will have at least some onsite
+   power generation in 2030?
+
+2025 Data Center Power Report                                                                                                    5
+Data center sites around the world are adopting onsite power solutions
+Recently announced data centers using onsite power
+       wukpi"qpukvg"rqygt
+
+
+
+
+   Wpfkuenqugf"WU"fgxgnqrgt"
+                                                                  Oketquqhv"
+   kp"Ecpcfc"ykvj"MCNkPC"
+                                                                  392OY"kp"
+   Fkuvtkdwvgf"Rqygt
+                                                                  Ktgncpf
+                                           Oketquqhv"                                                   Ykpvjtqr"
+   Oketquqhv"kp"EC"                        205OY"kp"                                                    Vgejpqnqikgu"
+   ykvj"Gpejcpvgf"                         Ktgncpf"ykvj"                                                82OY"kp"Ktgncpf"
+   Tqem."WU"                               GUD                                                          ykvj"Lgpdcejgt
+   Gpgti{
+                                           Dcnkeq"522OY"
+                                           kp"XC"ykvj"                                                  EnwuvgtRqygt"
+   Ujctqp"CK"                              Okvuwdkujk                                                   422OY"kp"
+   472OY"kp"VZ"                                                                                         Tqocpkc"ykvj"
+   ykvj"Pgy"Gtc"                           Xcpvcig"                                                     Tqnnu"Tq{eg
+   Jgnkwo"Eqtr
+                                           322OY"kp"XC
+
+   Ogvc"4IY"kp"                    Xctkqwu"wr"vq"3IY"             Cfkuvc"205OY"ykvj"                    Vgnmqo"3:OY"kp"
+   NC"ykvj"                        ykvj"Dnqqo"Gpgti{"cpf"         Fcvchcto"Gpgti{"                      Kpfqpgukc"ykvj"
+   Gpvgti{                         CGR                            kp Htcpeg                             Ogfeq"Rqygt
+
+
+
+
+    Vwtdkpg       Hwgn"egnn     Tgekrtqecvkpi"gpikpg       Wpurgekhkgf"pcvwtcn"icu"igpgtcvkqp   Wpurgekhkgf"qvjgt"igpgtcvkqp
+ Uqwteg<"Rwdnken{"cxckncdng"fcvc"egpvgt"cppqwpegogpvu
+
+
+
+
+2025 Data Center Power Report                                                                                                  6
+3. Leaders see value differently
+   as they balance priorities
+New data centers need to balance more priorities                       Time to power plays a key role in the value
+Through our surveys and interviews, we asked data                      equation
+center leaders what matters when they consider                         We found that leaders are now ready to invest 50%
+different technologies and solutions. We learned                       more than seven months ago if that means they
+that decision makers use seven primary criteria to                     can access power faster for upcoming data center
+evaluate options.                                                      projects.11
+Notably, it is no longer just a cost and reliability                   This shift underscores an important insight: being
+question. Instead, they also factor in the value and                   online ahead of competitors is a strategic advantage,
+impact of time to power, sustainability, power                         particularly for AI data centers. Leaders recognize
+density, and in some cases, the ability to support                     that accelerating power access is key to securing a
+more demanding and fluctuating AI workloads.                           leading position in this rapidly evolving landscape.
+
+
+
+
+Seven key criteria for choosing onsite power technology
+
+
+ 1. Reliability                                                         4. Load flexibility
+
+Minimizing outages with reliability at par or superior                 AI data centers involve greater power demands and
+to the grid (at least 99.9% and sometimes up to                        fluctuations over short time frames, and not all power
+99.9999%) is critical to delivering on the business                    solutions can handle these load shifts
+and customer needs of a data center
+                                                                        5. Sustainability: Air quality and noise
+ 2. Time to power
+                                                                       There is increasing scrutiny of data centers’ impact
+Bringing a data center online faster can provide                       on their local communities and a need to comply with
+significant economic advantages (e.g., earlier revenue                 local permitting standards
+opportunities) and strategic advantages (e.g.,
+leadership in AI)                                                       6. Sustainability: Emissions intensity
+
+ 3. Cost                                                               Data centers must comply with companies’
+                                                                       sustainability commitments as well as carbon
+Beyond the cost of a particular technology, leaders                    emissions regulations
+consider value and return on investment more
+holistically, factoring in both economic benefits and                   7. Power density
+strategic benefits
+                                                                       Technologies with greater power density enable a
+                                                                       more efficient use of space for revenue-generating
+                                                                       IT equipment
+
+
+
+
+11 Based on a six-month acceleration in time to power compared to the grid
+2025 Data Center Power Report                                                                                               7
+Unpacking onsite power technologies
+Recent announcements feature a range of solutions as data center players balance the above criteria in the
+context of each project. Some examples include:
+
+Gas turbines                                                            and greater power density, which deliver both
+Combined-cycle gas turbines (CCGT) use a gas                            economic and strategic advantages. Since fuel cells
+turbine and a steam turbine to generate electricity.                    generate direct current (DC) electricity, they are also
+They are primarily seen in large AI training data                       poised to continue meeting power demands as data
+centers that require 500 MW or more capacity,                           centers increasingly explore DC for the reliability
+as they are cost effective at this scale. Smaller                       and efficiency benefits of its simplified power
+inferencing data centers – focused on the application                   architecture.
+of trained models – often rely on simple cycle                          Emerging technologies
+turbines, sometimes paired with batteries. While
+these technologies are currently the most common                        Data center leaders are showing growing optimism
+onsite power solution, long supply chain lead times                     about emerging technologies such as geothermal
+and higher carbon dioxide emissions are limiting                        power, small modular reactors (SMRs), and gas
+factors.                                                                generation with carbon capture and sequestration
+                                                                        (CCS). We are seeing these technologies appear
+Fuel cells                                                              in long-term roadmaps as companies work toward
+Fuel cells provide continuous electricity by converting                 sustainability commitments.
+natural gas or hydrogen into electricity. They are                      Recent announcements related to these technologies
+gaining popularity in data center projects because                      focus on data centers expected to go online after
+they are quick to deploy and produce fewer emissions                    2030, due to the technologies’ early stage of
+and less pollution than simple cycle turbines.                          development. Natural gas solutions are expected to
+While fuel cells can be more expensive than some                        bridge the gap until net zero fuel options are ready for
+other solutions, data center leaders often prioritize                   large-scale deployment.
+them for their faster deployment, easier permitting,
+
+Data centers are using several technologies to meet their onsite power needs
+GW of announced onsite power generation for data centers12
+    Rqygt"cxckncdng"dghqtg"4252      Rqygt"cxckncdng"4252"qt"ncvgt
+
+       :09
+                                                                                        Igqvjgtocn"cpf"UOT"
+       50;                                                                               uqnwvkqpu"rtkoctkn{"
+                                                                                        tgrtgugpv"rquv/4252
+                                                                                           rqygt"ecrcekv{
+                        308
+       60:                               303                                                                                 30;
+                                                            203            203
+
+
+      Vqvcn          Vwtdkpgu         Hwgn"egnnu       Tgekrtqecvkpi"     Uqnct       Igqvjgtocn      Uocnn"oqfwnct"     Wpurgekhkgf"
+                                                         gpikpgu                      rqygt"rncpvu      tgcevqtu"        igpgtcvkqp"
+                                                                                                         *UOTu+          vgejpqnqi{
+
+ Cppqwpegogpvu"qh"qpukvg"rqygt"igpgtcvkqp"hqt"fcvc"egpvgtu"cxckncdng"dghqtg"4252"rtkoctkn{"kpxqnxg"vwtdkpgu."
+ hwgn"egnnu."cpf"tgekrtqecvkpi"gpikpgu0"Qvjgt"fcvc"egpvgtu"ctg"cfqrvkpi"gogtikpi"vgejpqnqikgu"uwej"cu"
+ igqvjgtocn"rqygt"cpf"UOTu."yjkej"yg"gzrgev"yqwnf"nctign{"dgeqog"cxckncdng"chvgt"42520
+
+Uqwteg<"Rwdnken{"cxckncdng"fcvc"egpvgt"cppqwpegogpvu
+
+12. Based on publicly available announcements - may not be comprehensive. If power availability timelines were not specified, natural
+    gas‑based power was assumed to be available before 2030, and SMR-based power was assumed to be available 2030 or later. For Meta’s
+    upcoming data center in Louisiana, 1GW of the 2GW total capacity was assumed to be available before 2030, while the other 1GW was
+    assumed to be available 2030 or later.
+
+2025 Data Center Power Report                                                                                                            8
+4. Looking ahead, leaders expect
+   a paradigm shift in 2025
+These are challenging times for data centers looking to come online quickly. Yet there is also much excitement,
+with many data center leaders actively forging bold and creative partnerships with players across the power
+ecosystem. In 2025, we expect the continued growth of these three trends:
+
+1. Onsite power growth: More than 30% of data centers announced in the next 12 months will
+   include some portion of onsite power.
+    Given the projected growth in data center power capacity and increasing expectations of onsite power
+    adoption, we expect announcements to accelerate.
+
+2. Evolving buying criteria: Increasingly complex buying criteria will reshape the power technology
+   market and establish new winners and losers.
+    Decision factors will go beyond traditional factors like reliability and cost. For instance, supply chain
+    constraints for critical components should lead to greater adoption of technologies with quicker deployment
+    times, such as fuel cells.
+
+    Additionally, a small but growing number of data centers announced in 2025 are expected to run on
+    “islanded power,” operating independently of the grid. For AI data centers, the highly variable power loads
+    will require technology that can combine energy generation with fast-response energy storage.
+
+3. Minimizing adverse impacts: Successful data center developments will use new technologies to
+   minimize impact on local communities and the environment.
+    Leading organizations will actively collaborate with local communities to reduce adverse impacts from
+    data centers. Decision makers will favor technologies with lesser permitting implications and greater
+    environmental performance such as higher air quality or lower noise levels.
+
+
+
+
+2025 Data Center Power Report                                                                                9
+Next steps
+Reach out to our onsite power experts                                          About Bloom Energy
+at bloomenergy.com/contact
+                                                                               Bloom Energy empowers businesses and
+                                                                               communities to responsibly take charge of
+Explore our solutions for data centers                                         their energy. The company’s leading solid oxide
+at bloomenergy.com/industries/data-center-power                                platform for distributed generation of electricity
+                                                                               and hydrogen is changing the future of energy.
+                                                                               Fortune 100 companies around the world turn
+                                                                               to Bloom Energy as a trusted partner to deliver
+                                                                               lower carbon energy today and a net-zero
+                                                                               future.
+
+
+
+
+Forward Looking Statements
+
+This paper contains certain forward-looking statements, which are subject to the safe harbor provisions of the Private Securities Litigation Reform Act
+of 1995. Forward-looking statements generally relate to future events or our future financial or operating performance. In some cases, you can identify
+forward-looking statements because they contain words such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “should,” “will” and
+“would” or the negative of these words or similar terms or expressions that concern Bloom’s expectations, strategy, priorities, plans, or intentions. These
+forward-looking statements include, but are not limited to, expectations for power demand growth and data center power growth to continue in the
+U.S., anticipated data center IT capacity announcements, percentage of data centers expected to employ onsite power generation, and expected
+growth in adoption of decarbonization options. Readers are cautioned that these forward-looking statements are only predictions and may differ
+materially from actual future events or results due to a variety of factors including, but not limited to, risks and uncertainties detailed in Bloom’s SEC
+filings. More information on potential risks and uncertainties that may impact Bloom’s business are set forth in Bloom’s periodic reports filed with the
+SEC, including its Annual Report on Form 10-K for the year ended December 31, 2023, and Quarterly Reports on Form 10-Q for the quarters ended
+March 31, 2024, June 30, 2024, and September 30, 2024, filed with the SEC on February 15, 2024, May 9, 2024, August 8, 2024, and November 7,
+2024 respectively, as well as subsequent reports filed with or furnished to the SEC. Bloom assumes no obligation to, and does not intend to, update
+any such forward-looking statements.
+2025 Data Center Power Report                                                                                                                           10
+bloomenergy.com
+

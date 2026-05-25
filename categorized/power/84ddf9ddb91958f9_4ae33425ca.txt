@@ -1,0 +1,30 @@
+2024 United States Data Center
+Energy Usage Report
+Dr. Sarah J. Smith
+Midwest Energy Solutions
+January 30, 2025
+Total Data Center Estimates
+
+     Total electricity use 176 TWh in 2023; modeled range 325-580 TWh in 2028
+Server Data Center Estimates
+
+     Electricity use by server type based on report assumptions
+Additional considerations
+
+     • Forecasts are very uncertain
+           o Short timeline (3-4 years) can be based on orders placed for chips, facilities under
+             construction, and so on.
+           o Longer timelines are much more speculative, especially when considering local
+             demands
+     • Unit conversions can be tricky
+           o LBL reporting focuses primarily on electricity consumed (e.g. kWh, TWh)
+           o Data center industry tends to talk in terms of facility nameplate capacity (e.g. MW,
+             GW). This does not necessarily relate directly to the peak load of the facility, or the
+             peak consumption of the IT equipment, or any value that can be used to convert to
+             estimated consumption.
+     • Context is important
+           o Data center demand growth is real, and it is happening fast. But demand growth in
+             other sectors is expected. These should all be considered holistically.
+Appendix
+Berkeley Lab data center energy use modeling
+

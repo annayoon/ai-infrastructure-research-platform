@@ -1,0 +1,1199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!--  head-tag.html start -->
+<head>
+    <title>JRC Publications</title>
+    <!-- <base href="//publications.jrc.ec.europa.eu/repository/" > -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JRC">
+    <meta name="description" content="Access to Joint Research Centre's publications">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" >
+    <!-- <meta http-equiv="expires" content="300"> -->
+    <meta name="_csrf" content="MG31-kkdOYHGSTntJqPa5TqR437wMm5N2Yj3x1g7xtUlbx5UA1jEyn8uAOfrfgGJEI7u1gykzkfHBgxgv7uV9mgP_7FBWy4x">
+    <meta name="_csrf_header" content="X-CSRF-TOKEN">
+    <link rel="icon" href="/repository/assets/images/favicon.ico" type="image/x-icon" >
+
+    <!-- see also head-tag-handle.html -->
+    <link href="/repository/assets/styles/repository.css" type="text/css" rel="stylesheet" >
+ 	<link href="/repository/assets/styles/public.css" type="text/css" rel="stylesheet" >
+
+</head>
+
+<!--  head-tag.html end -->
+
+<body>
+
+<!--  module-repository/src/main/webapp/jsp/template/header.html start -->
+
+<!--  global banner (see also shared.js) -->
+<div class="globan dark logo-flag csp2" id="globan" >
+    <div class="globan-center">
+        <div class="globan-content">
+            <span>An official website of the European Union</span>
+            <a  id="globan-link" >How do you know?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div id="globan-chevron" class="chevron-down"></div>
+        </div>
+	</div>
+</div>
+
+<!--  global banner popup  -->
+<div id="globan-dropdown" class="globan-dropdown" hidden>
+	<p>All official European Union website addresses are in the <strong>europa.eu</strong> domain.</p>
+	<p><a href="//europa.eu/european-union/contact/institutions-bodies_en">See all EU institutions and bodies</a></p>
+</div>
+
+<header class="ecl-site-header-harmonised--group1 ecl-site-header-harmonised">
+
+	<!-- site header -->
+    <div class="ecl-site-header-harmonised__container ecl-container">
+
+        <!-- commission logo -->
+        <div class="ecl-site-header-harmonised__top">
+            <a class="ec-link ecl-site-header-harmonised__logo-link" href="//ec.europa.eu" aria-label="European Commission"><img alt="European Commission logo" title="EUROPEAN COMMISSION &#10;DIRECTORATE-GENERAL &#10;Directorate JRC &#10;Unit T.4" class="ecl-site-header-harmonised__logo-image" src="/repository/assets/images/logo.en.svg" ></a>
+        </div>
+
+        <!-- login button and domain label-->
+        <div class="login-div">
+            <div class="login-button">
+                <img id="login-image" src="/repository/assets/images/log-in.svg" height="15" width="15">&nbsp;
+                <a id="login-link" class="login-link" href="/repository/login">Login</a>
+            </div>
+            <div class="domain-label">European Commission staff only</div>
+        </div>
+
+        <!-- user details (always hidden) -->
+        <div class="csp1">
+            <input id="username" type="text" value=""></input>
+            <input id="firstName" type="text" value=""></input>
+            <input id="lastName" type="text" value=""></input>
+            <input id="domain" type="text" value=""></input>
+            <input id="distribution" type="text" value="Public"></input>
+        </div>
+
+    </div>
+    
+    <!--  page header -->
+    <div class="ecl-site-header-harmonised__banner ec-blue">
+        <div class="ecl-container">
+        
+        	<!--  banner (all pages) -->
+            <div class="site-name header-bar">
+                JRC Publications 
+                <span class="banner-string"></span>
+                <a class="ecl-icon-btn f-0 site-menu-toggler" href="." rel="nofollow">
+                    <svg focusable="false" class="ecl-icon ecl-icon--s" viewBox="0 0 24 24">
+                        <path d="M0 19.2h24v2.402H0zm0-8.4h24v2.4H0zm0-8.402h24v2.403H0zm0 0"></path>
+                    </svg>
+                    Menu
+                </a>
+            </div>
+
+			<!-- page menu (see bundle.js) -->
+            <nav class="nav-menu f-break ec-blue hidden" id="site-menu" aria-label="Site menu">
+                <div class="header-bar">
+                    <div class="ecl-menu__title">Menu</div>
+                    <a class="ecl-icon-btn f-0 site-menu-toggler" href="." rel="nofollow">
+                        <svg class="ecl-icon ecl-icon--s" viewBox="0 0 24 24"><path d="M15.242 16.588l-3.253-3.252-3.23 3.23-1.347-1.345 3.231-3.232-3.21-3.21L8.78 7.433l3.21 3.21 3.232-3.231 1.346 1.346-3.231 3.231 3.252 3.253-1.346 1.346zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1z"></path></svg>
+                        Close
+                    </a>
+                </div>
+                <a class="ec-link" href="/repository/home">Home</a>
+                <a class="ec-link" href="/repository/search">Search</a>
+                <a class="ec-link" href="https://joint-research-centre.ec.europa.eu/" target="_new">Joint Research Centre</a>
+                <a class="ec-link" href="/repository/help">Help</a>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- breadcrumb -->
+    <div class="ecl-container">
+    	<nav class="nav-menu hidden" id="site-breadcrumb" aria-label="Site breadcrumb">
+	        <a class="ec-link" href="http://ec.europa.eu/" target="_new">European Commission</a>
+	        <span class="bcgt">&gt;</span>
+	        <a class="ec-link" href="https://joint-research-centre.ec.europa.eu/" target="_new">Joint Research Centre</a>
+	        <span class="bcgt">&gt;</span>
+	        <a class="ec-link" href="/repository" >JRC Publications</a>
+	        <span class="bcgt">&gt;</span>
+	        <span class="ec-link path">Home</span>
+    </nav></div>
+
+</header>
+
+<!-- DEV/TEST overlay -->
+<div id="ipmEnv" class="ipmEnv"></div>
+
+<!--  module-repository/src/main/webapp/jsp/template/header.html end -->
+
+
+<!--  home.jsp -->
+<section class="site-page-container f-grow f-wrap ecl-container">
+
+	<!-- banner -->
+    <div class="page-banner f-break">
+        <img alt="Website Banner" src="assets/images/banner.jpg" class="page-banner-image" height="214" width="1500">
+        <div class="ec ec-block page-banner-panel f-break">
+            <div class="page-banner-text">
+				Joint&nbsp;Research&nbsp;Centre&nbsp;Publications<br/>
+				<span class="page-banner-text-2"></span>
+            </div>
+        </div>
+    </div>
+
+	<!--  search box -->
+    <div class="ec-block f-break">
+    	<div class="search-panel form">
+    		<div class="site-search-clone form-group search-size" id="form-facet-search" data-title="Search text" data-search="SEARCH_TEXT">
+    			<input class="search-input f-1" type="search"  data-search="SEARCH_TEXT" aria-label="SEARCH TEXT" 
+    				onFocus="javascript: fixSearchButton('focus');" 
+    				onBlur="javascript: fixSearchButton('blur');">
+   				<div id="vertical-bar" class="vertical-bar"></div>
+    			<button class="btn search-button" onMouseover="javascript: fixSearchButton('in');" 
+    				onMouseout="javascript: fixSearchButton('out');">
+    					<img src="assets/images/search.svg" height="15" width="15" alt="Search icon">
+					&nbsp;Search
+				</button>
+    			
+   			</div>
+		</div>
+    </div>
+    
+	<!-- list of publications -->
+    <div class="ec-block f-grow f-col">
+        <!--  document and page counters -->
+        <div class="ec-panel-counters">
+        	<!-- currently hidden -->
+	        <div class="page-counters">
+	        	<span class="ec-band-top ecl-title h4" id="search-total"></span><br>
+				<span id="search-report" class="h3" >Showing results 1 to 10</span>
+			</div>
+			<!-- visible -->
+			<div class="home-title">
+	        	<h1 class="bold h3" id="latest-pub">Latest publications</h1>
+	       	</div>
+       	</div>
+        <div class="ec-panel">
+            <div id="search-results">
+				<!-- the format of a search results entry is defined in home.js-->
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- pager -->
+<div class="ec-panel">
+    <div class="h5 ec-band-top f-fixed f-wrap">
+        <ul class="pagination">
+        </ul>
+    </div>
+</div>
+
+<!-- footer.html (ECL 4.5.0 Standardised site footer) start -->
+<footer class="ec-block site-footer ec-blue padding-top-20" id="site-footer" >
+    <div class="site-identity f-base ecl-container f-wrap">
+        <div class="site-owner f-grow f-col padding-btm-20">
+            <div class="">
+                <a href="#" class="ec-title ec-link f-link">JRC Publications</a>
+                <br>
+                <span class="ec-block ec-description-f">
+                	This site is managed by:<br> Joint Research Centre
+               	</span>
+               	<br>
+            	<a class="ec-link f-link " href="accessibility">Accessibility</a>
+            </div>
+        </div>
+        <div class="site-services f-grow f-col">
+            <div class="site-contact">
+                <div class="ec-title padding-btm-20">Contact us</div>
+                <div class="footer-list" >
+                	<a class="ec-link f-link icon-social" href="mailto:jrc-publications@ec.europa.eu">Contact JRC Publications</a>
+               	</div>
+            </div>
+        </div>
+        <div class="site-navigation  f-grow f-col">
+            <div class="site-about">
+                <div class="ec-title padding-btm-20">About us</div>
+                <div class="footer-list">
+                	<a class="ec-link f-link" href="/repository/about">About page</a>
+               	</div>
+            </div>
+        </div>
+    </div>
+    <div class="site-corporate f-base ecl-container f-wrap padding-top-20">
+        <div class="corporate-owner f-grow f-col">
+            <div>
+                <a class="ec-link f-link ecl-site-footer-harmonised__logo-link" href="//ec.europa.eu" aria-label="European Commission"><img alt="European Commission logo" title="European Commission" class="ecl-site-footer-harmonised__logo-image" src="/repository/assets/images/logo-ec--en.10f5072b.svg"></a>
+            </div>
+        </div>
+        <div class="corporate-services f-grow f-col">
+            <div class="site-links"><div class="footer-list">
+                <a class="ec-link f-link" href="https://ec.europa.eu/info/about-european-commission/contact_en">Contact the European Commission</a>
+                <a class="ec-link f-link" href="https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s:">Follow the European Commission on social media</a>
+                <a class="ec-link f-link" href="https://ec.europa.eu/info/resources-partners_en">Resources for partners</a>
+            </div></div>
+        </div>
+        <div class="corporate-navigation f-grow f-col">
+            <div class="site-links">
+            	<div class="footer-list">
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/language-policy_en">Language policy</a>
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/cookies_en">Cookies</a>
+	                <a class="ec-link f-link" href="/repository/assets/JPR_privacy_statement.pdf">Privacy statement (JRC Publications)</a>
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/legal-notice_en">Legal notice</a>
+	                <a class="ec-link f-link" href="/repository/gsmap">Sitemap</a>
+            	</div>
+           	</div>
+        </div>
+    </div>
+</footer>
+<!-- footer.html end -->
+
+
+<!--  standard_scripts.html start ...-->
+<script src="/repository/assets/libs/jquery-3.6.0.min.js" ></script>
+<script src="/repository/assets/libs/bundle.js" ></script>
+
+<!-- supports cookies consent and Europa Analytics -->
+<script nonce="6e3a9baf-678c-4d26-b14c-249f8229acbb" defer="defer" src="https://webtools.europa.eu/load.js" ></script>
+
+<!-- cookies consent -->
+<!-- <script defer type="application/json"> -->
+<script nonce="6e3a9baf-678c-4d26-b14c-249f8229acbb" type="application/json">
+    {"utility":"cck","url":"https://ec.europa.eu/info/cookies_en"}
+</script>
+
+<!-- Europa Analytics -->
+<script nonce="6e3a9baf-678c-4d26-b14c-249f8229acbb" type="application/json">
+{
+  "utility": "analytics",
+  "siteID": "59b15b62-e452-43f2-a022-b4370c9a66a8",
+  "siteSection": "publications",
+  "sitePath": [
+    "publications.jrc.ec.europa.eu"
+  ],
+  "instance": "ec",
+  "dimensions": [{ "id": 3, "value": "DOCUMENT_NUMBER"}]
+}
+</script>
+
+<!--  standard_scripts.html end -->
+
+
+
+<script nonce="6e3a9baf-678c-4d26-b14c-249f8229acbb">window._search={
+  "empty" : false,
+  "end" : 10,
+  "error" : false,
+  "exitCode" : "SUCCESS",
+  "filters" : {
+    "collection.portfolio" : {
+      "empty" : false,
+      "entries" : {
+        "/PORTFOLIO/P000" : 38549,
+        "/PORTFOLIO/P001" : 53,
+        "/PORTFOLIO/P002" : 113,
+        "/PORTFOLIO/P003" : 142,
+        "/PORTFOLIO/P004" : 55,
+        "/PORTFOLIO/P005" : 27,
+        "/PORTFOLIO/P006" : 88,
+        "/PORTFOLIO/P007" : 61,
+        "/PORTFOLIO/P008" : 137,
+        "/PORTFOLIO/P009" : 187,
+        "/PORTFOLIO/P010" : 65,
+        "/PORTFOLIO/P011" : 128,
+        "/PORTFOLIO/P012" : 67,
+        "/PORTFOLIO/P013" : 94,
+        "/PORTFOLIO/P014" : 178,
+        "/PORTFOLIO/P015" : 48,
+        "/PORTFOLIO/P016" : 12,
+        "/PORTFOLIO/P017" : 67,
+        "/PORTFOLIO/P018" : 91,
+        "/PORTFOLIO/P019" : 210
+      },
+      "keySet" : [ "/PORTFOLIO/P000", "/PORTFOLIO/P001", "/PORTFOLIO/P002", "/PORTFOLIO/P003", "/PORTFOLIO/P004", "/PORTFOLIO/P005", "/PORTFOLIO/P006", "/PORTFOLIO/P007", "/PORTFOLIO/P008", "/PORTFOLIO/P009", "/PORTFOLIO/P010", "/PORTFOLIO/P011", "/PORTFOLIO/P012", "/PORTFOLIO/P013", "/PORTFOLIO/P014", "/PORTFOLIO/P015", "/PORTFOLIO/P016", "/PORTFOLIO/P017", "/PORTFOLIO/P018", "/PORTFOLIO/P019" ],
+      "name" : "collection.portfolio"
+    },
+    "collection.science_area" : {
+      "empty" : false,
+      "entries" : {
+        "/SCIENCE_AREA/S001" : 5280,
+        "/SCIENCE_AREA/S002" : 2763,
+        "/SCIENCE_AREA/S003" : 5424,
+        "/SCIENCE_AREA/S004" : 13546,
+        "/SCIENCE_AREA/S005" : 7241,
+        "/SCIENCE_AREA/S006" : 3797,
+        "/SCIENCE_AREA/S007" : 7765,
+        "/SCIENCE_AREA/S008" : 6305,
+        "/SCIENCE_AREA/S009" : 8160,
+        "/SCIENCE_AREA/S010" : 3609,
+        "/SCIENCE_AREA/S011" : 1878,
+        "/SCIENCE_AREA/S012" : 6867
+      },
+      "keySet" : [ "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S002", "/SCIENCE_AREA/S003", "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005", "/SCIENCE_AREA/S006", "/SCIENCE_AREA/S007", "/SCIENCE_AREA/S008", "/SCIENCE_AREA/S009", "/SCIENCE_AREA/S010", "/SCIENCE_AREA/S011", "/SCIENCE_AREA/S012" ],
+      "name" : "collection.science_area"
+    },
+    "collection.year_range" : {
+      "empty" : false,
+      "entries" : {
+        "1980" : 489,
+        "1990" : 2117,
+        "2000" : 9831,
+        "2010" : 17658,
+        "2020" : 9489
+      },
+      "keySet" : [ "1980", "1990", "2000", "2010", "2020" ],
+      "name" : "collection.year_range"
+    },
+    "collection.year" : {
+      "empty" : false,
+      "entries" : {
+        "1984" : 3,
+        "1985" : 22,
+        "1986" : 61,
+        "1987" : 105,
+        "1988" : 146,
+        "1989" : 152,
+        "1990" : 137,
+        "1991" : 181,
+        "1992" : 107,
+        "1993" : 111,
+        "1994" : 94,
+        "1995" : 186,
+        "1996" : 251,
+        "1997" : 333,
+        "1998" : 364,
+        "1999" : 353,
+        "2000" : 464,
+        "2001" : 414,
+        "2002" : 519,
+        "2003" : 521
+      },
+      "keySet" : [ "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003" ],
+      "name" : "collection.year"
+    },
+    "collection.group" : {
+      "empty" : false,
+      "entries" : {
+        "/GROUP/G001" : 3800,
+        "/GROUP/G002" : 27899,
+        "/GROUP/G003" : 5720,
+        "/GROUP/G004" : 775,
+        "/GROUP/G005" : 1390
+      },
+      "keySet" : [ "/GROUP/G001", "/GROUP/G002", "/GROUP/G003", "/GROUP/G004", "/GROUP/G005" ],
+      "name" : "collection.group"
+    },
+    "collection.contributors" : {
+      "empty" : false,
+      "entries" : {
+        "ANKLAM Elke;;;" : 207,
+        "BALDINI Gianmarco;;;" : 200,
+        "BARUTH Bettina;;;" : 253,
+        "BERTOLDI Paolo;0000-0002-2797-7941;;" : 331,
+        "BRUCHERTSEIFER Frank;;;" : 324,
+        "COLINEAU Eric;;;" : 230,
+        "HAMBSCH Franz-Josef;;;" : 198,
+        "HULT Mikael;0000-0002-9248-6786;;" : 227,
+        "KONINGS Rudy;0000-0001-6113-2128;;" : 287,
+        "MONTANARELLA Luca;;;" : 283,
+        "MORGENSTERN Alfred;;;" : 377,
+        "OBERSTEDT Stephan;0000-0003-3457-7222;;" : 227,
+        "PANAGOS Panagiotis;0000-0003-1484-2738;;" : 246,
+        "PLOMPEN Arjan;0000-0001-9465-9639;;" : 336,
+        "REBIZANT Jean;;;" : 218,
+        "ROSSI Francois;;;" : 232,
+        "SALA Serenella;0000-0003-1919-9948;;" : 258,
+        "SCHILLEBEECKX Peter;;;" : 307,
+        "TORETI Andrea;0000-0002-1983-2523;;" : 218,
+        "WORTH Andrew;0000-0002-5303-0452;;" : 274
+      },
+      "keySet" : [ "ANKLAM Elke;;;", "BALDINI Gianmarco;;;", "BARUTH Bettina;;;", "BERTOLDI Paolo;0000-0002-2797-7941;;", "BRUCHERTSEIFER Frank;;;", "COLINEAU Eric;;;", "HAMBSCH Franz-Josef;;;", "HULT Mikael;0000-0002-9248-6786;;", "KONINGS Rudy;0000-0001-6113-2128;;", "MONTANARELLA Luca;;;", "MORGENSTERN Alfred;;;", "OBERSTEDT Stephan;0000-0003-3457-7222;;", "PANAGOS Panagiotis;0000-0003-1484-2738;;", "PLOMPEN Arjan;0000-0001-9465-9639;;", "REBIZANT Jean;;;", "ROSSI Francois;;;", "SALA Serenella;0000-0003-1919-9948;;", "SCHILLEBEECKX Peter;;;", "TORETI Andrea;0000-0002-1983-2523;;", "WORTH Andrew;0000-0002-5303-0452;;" ],
+      "name" : "collection.contributors"
+    }
+  },
+  "items" : [ {
+    "id" : "JRC146496",
+    "dc.publisher" : "Publications Office of the European Union",
+    "dataset.1487978.url" : "https://data.jrc.ec.europa.eu/dataset/86c9ba3f-a18d-4fbb-acbf-6ecb1b806910",
+    "data.id.datasets" : [ "1487978" ],
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "document.281151.main" : "Y",
+    "document.names" : "Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422 - A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014",
+    "dataset.1487978.acronym" : "null",
+    "document.281151.type" : "DOCUMENT",
+    "document.281151.checksumAlgorithm" : "MD5",
+    "dc.subtitle" : "A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC146496",
+    "dc.description.sponsorship" : "JRC.D.6 - Nature Conservation and Observations",
+    "search.contributors" : [ "MAGLIOZZI Chiara", "0000-0002-7975-5320", "BRUGNONI Fulvio", "CARDOSO Ana Cristina", "0000-0002-0350-0727" ],
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/GROUP/G001", "/PORTFOLIO/P019" ],
+    "distribution.subtype" : "8",
+    "dataset.1487978.title" : "Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422",
+    "stream.document.281151" : "1",
+    "id" : "JRC146496",
+    "collection.group" : "/GROUP/G001",
+    "data.bibtex" : "@techreport{JRC146496,\n\tnumber = {KJ-01-26-233-EN-N },\n\taddress = {Luxembourg (Luxembourg)},\n\tissn = {1831-9424 },\n\tyear = {2026},\n\tauthor = {Magliozzi, C. and Brugnoni, F. and Cardoso, A.C.},\n\tisbn = {978-92-68-39949-1 },\n\tpublisher = {Publications Office of the European Union},\n\tabstract = {Commission Implementing Regulation 2025/1422/EC added 26 invasive alien species of Union concern (IAS of UC) to the Union List set under EU Regulation 1143/2014/EC (IAS Regulation). IAS of UC are alien species whose adverse impact has been judged sufficiently severe to require coordinated action at Union level. For this purpose, high-quality, up-to-date data on the newly listed IAS of UC are essential for their management. This report presents the baseline distribution of 21 of the 26 IAS of UC that are currently present in the EU territory and to which the IAS Regulation applies. The data constitute the European-wide reference baseline. Competent Authorities from 23 EU Member States (MS) contributed to the baseline by reviewing and supplementing spatial data harvested from the European Alien Species Information Network (EASIN). In addition to the spatial distribution of each IAS of UC, the report provides information on the taxo-nomic group, origin, first introduction in the EU, main pathway of introduction into the EU, habitat, and ecosystem impact. Accordingly, the pressure caused by the 21 IAS of UC on terrestrial and fresh-water ecosystems across the EU is assessed. Results show that 70% of these IAS of UC are from the Kingdom Animalia and the Classes Malacos-traca and Mammalia (33% combined). The most common primary introduction pathway for the new listed species was \"Escape from confinement\" (45%), often through botanical gardens, zoos, aquaria, pet trade, and ornamental purposes. Other unintentional pathways, such as \"Transport - Contaminant\" (18%) and \"Transport - Stowaway\" (13%), also played a significant role, while intentional introductions accounted for 16% of records, particularly \"Other intentional release\" (7%). The assessment of cumulative pressure on European ecosystems shows that urban areas are the most invaded (51%), followed by rivers and lakes (20%), forest ecosystems (18%), and agroecosys-tems (5%). The highest cumulative pressure values are found in Southern and Eastern Europe, as well as in specific regions such as Southern Sweden and Finland, and Belgium and the Netherlands. The baseline established in this report will support MS in the implementation of the IAS Regulation. It will aid the adaption of surveillance and monitoring systems, serve as an essential reference to the application of “Early detection Notifications” and inform forthcoming evaluations under the IAS Regulation. Moreover, the data provide a solid basis for fostering MS cooperation and coordination among MS, both across borders and within shared biogeographical regions.},\n\ttitle = {Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422},\n\ttype = {},\n\turl = {},\n\tdoi = {10.2760/5794871 }\n}",
+    "extra.collection.science_area" : "Environment and climate change",
+    "dc.description.abstract" : "Commission Implementing Regulation 2025/1422/EC added 26 invasive alien species of Union concern (IAS of UC) to the Union List set under EU Regulation 1143/2014/EC (IAS Regulation). IAS of UC are alien species whose adverse impact has been judged sufficiently severe to require coordinated action at Union level. For this purpose, high-quality, up-to-date data on the newly listed IAS of UC are essential for their management.\nThis report presents the baseline distribution of 21 of the 26 IAS of UC that are currently present in the EU territory and to which the IAS Regulation applies. The data constitute the European-wide reference baseline. Competent Authorities from 23 EU Member States (MS) contributed to the baseline by reviewing and supplementing spatial data harvested from the European Alien Species Information Network (EASIN).\nIn addition to the spatial distribution of each IAS of UC, the report provides information on the taxo-nomic group, origin, first introduction in the EU, main pathway of introduction into the EU, habitat, and ecosystem impact. Accordingly, the pressure caused by the 21 IAS of UC on terrestrial and fresh-water ecosystems across the EU is assessed.\nResults show that 70% of these IAS of UC are from the Kingdom Animalia and the Classes Malacos-traca and Mammalia (33% combined). The most common primary introduction pathway for the new listed species was \"Escape from confinement\" (45%), often through botanical gardens, zoos, aquaria, pet trade, and ornamental purposes. Other unintentional pathways, such as \"Transport - Contaminant\" (18%) and \"Transport - Stowaway\" (13%), also played a significant role, while intentional introductions accounted for 16% of records, particularly \"Other intentional release\" (7%).\nThe assessment of cumulative pressure on European ecosystems shows that urban areas are the most invaded (51%), followed by rivers and lakes (20%), forest ecosystems (18%), and agroecosys-tems (5%). The highest cumulative pressure values are found in Southern and Eastern Europe, as well as in specific regions such as Southern Sweden and Finland, and Belgium and the Netherlands.\nThe baseline established in this report will support MS in the implementation of the IAS Regulation. It will aid the adaption of surveillance and monitoring systems, serve as an essential reference to the application of “Early detection Notifications” and inform forthcoming evaluations under the IAS Regulation. Moreover, the data provide a solid basis for fostering MS cooperation and coordination among MS, both across borders and within shared biogeographical regions.",
+    "dc.contributor.author" : [ "MAGLIOZZI Chiara", "BRUGNONI Fulvio", "CARDOSO Ana Cristina" ],
+    "document.281151.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "data.citation.146496.language" : "ENG",
+    "dc.date.submitted" : "2026-03-27",
+    "dc.identifier.citation" : "MAGLIOZZI, C., BRUGNONI, F. and CARDOSO, A.C., Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422 - A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5794871 (online), JRC146496.",
+    "dc.date.accessioned" : "2026-05-21",
+    "dc.date.created" : "2026-05-19",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "MAGLIOZZI Chiara;0000-0002-7975-5320;;", "BRUGNONI Fulvio;;ARHS Developments Italia S.r.l.;", "CARDOSO Ana Cristina;0000-0002-0350-0727;;" ],
+    "dc.identifier.isbn" : "978-92-68-39949-1 (online)",
+    "dc.identifier.doi" : "10.2760/5794871 (online)",
+    "data.citation.30439.text" : "MAGLIOZZI, C., BRUGNONI, F. and CARDOSO, A.C., Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422 - A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5794871, JRC146496.",
+    "item.handle" : 146496,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-21T13:00:28",
+    "document.281151.filename" : "JRC146496_01.pdf",
+    "dc.title" : "Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422",
+    "dc.identifier.issn" : "1831-9424 (online)",
+    "ids" : [ "1831-9424", "978-92-68-39949-1", "10.2760/5794871", "OP KJ-01-26-233-EN-N" ],
+    "data.citation.30439.type" : "ONLINE",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 146496,
+    "dc.identifier.other" : [ "EUR 40734", "OP KJ-01-26-233-EN-N (online)" ],
+    "document.281151.size" : 7846077,
+    "dc.relation.ispartofseries" : "JRC146496",
+    "collection.portfolio" : "/PORTFOLIO/P019",
+    "dataset.1487978.id" : "86c9ba3f-a18d-4fbb-acbf-6ecb1b806910",
+    "data.id.citations" : [ "146496", "30439" ],
+    "document.281151.cover" : "JRC146496_281151_cover.jpg",
+    "data.citation.146496.text" : "MAGLIOZZI, C., BRUGNONI, F. and CARDOSO, A.C., Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422 - A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5794871 (online), JRC146496.",
+    "document.281151.disk" : "JRC146496_281151",
+    "distribution.description" : "EU Publications Portal",
+    "data.citation.146496.type" : "GENERIC",
+    "suggest.contributors" : [ "MAGLIOZZI CHIARA", "0000-0002-7975-5320", "BRUGNONI FULVIO", "CARDOSO ANA CRISTINA", "0000-0002-0350-0727" ],
+    "collection.year_range" : 2020,
+    "extra.collection.group" : "Science for policy",
+    "data.citation.30439.language" : "ENG",
+    "document.281151.mimetype" : "application/pdf",
+    "document.mainCover" : "JRC146496_281151_cover.jpg",
+    "distribution.group" : "Public",
+    "document.id" : [ "281151" ],
+    "dc.date.available" : "2026-05-21",
+    "document.281151.name" : "Baseline distribution of invasive alien species added to the Union list by Comm. Impl. Reg. (EU) 2025/1422 - A benchmark for monitoring the continued impact of Regulation (EU) 1143/2014"
+  }, {
+    "id" : "JRC144459",
+    "dc.publisher" : "WILEY-V C H VERLAG GMBH",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC144459",
+    "data.citation.30477.language" : "ENG",
+    "journal.title" : "ANGEWANDTE CHEMIE-INTERNATIONAL EDITION",
+    "collection.portfolio" : [ "/PORTFOLIO/P002", "/PORTFOLIO/P004", "/PORTFOLIO/P012" ],
+    "dc.identifier.uri" : [ "https://onlinelibrary.wiley.com/doi/10.1002/anie.202524282", "https://publications.jrc.ec.europa.eu/repository/handle/JRC144459" ],
+    "dc.description.sponsorship" : "JRC.G.5 - Nuclear Science and Innovation for Energy and Health",
+    "search.contributors" : [ "MENG Dejing", "POPESCU Radian", "ANDREI Carmen M.", "HIMBERT Jerome", "MADIROV Eduard", "BRANSON Jacob A.", "REYNOLDS Emily", "PRÜSSMANN Tim", "GÖTTLICHER Jörg", "VITOVA Tonya", "HILDEBRANDT Niko", "EGGELER Yolita", "RICHARDS Bryce S.", "WALTER Olaf", "0000-0002-2679-1715", "HUDRY Damien" ],
+    "collection.science_area" : "/SCIENCE_AREA/S008",
+    "collections" : [ "2026", "/PORTFOLIO/P002", "/PORTFOLIO/P004", "/PORTFOLIO/P012", "/SCIENCE_AREA/S008", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.id.citations" : [ "144459", "30477" ],
+    "id" : "JRC144459",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC144459,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Meng, D. and Popescu, R. and Andrei, C.M. and Himbert, J. and Madirov, E. and Branson, J.A. and Reynolds, E. and Prüssmann, T. and Göttlicher, J. and Vitova, T. and Hildebrandt, N. and Eggeler, Y. and Richards, B.S. and Walter, O. and Hudry, D.},\n\tabstract = {Heterostructured nanocrystals (NCs) integrating chemically and/or structurally distinct materials are of significant interest due to their potential to exhibit multiple functionalities or unconventional properties. However, the development of such materials remains limited, primarily due to crystallographic incompatibilities and synthesis challenges. Here, we report the synthesis and structural characterization of a new class of metal oxide-based (Ce, Th, or U) heterostructures with calcium fluoride featuring core-shell architectures with precise control over both morphology and shell thickness. Powder x-ray diffraction (PXRD) and high-resolution scanning/transmission electron microscopy techniques confirm the formation of high-quality single-crystalline particles coupling metal oxide (Ce, Th, or U) and calcium fluoride domains through a structurally coherent but chemically complex intermixed oxide-fluoride interface—an unprecedented observation in cerium and actinide nanochemistry. These novel materials have been designed to anticipate their future doping with therapeutic alpha particle-emitting radionuclides ( α-emitters) such as 227 Th or230 U for locoregional targeted alpha therapy (TAT). It is anticipated that the reported heterostructured core-shell NCs will offer a promising platform for preclinical investigations to determine the full potential and interest of inorganic core-shell NCs, especially CeO2 / CaF2 , for TAT application.},\n\ttitle = {Controlled Synthesis of a New Class of Heterostructured Metal Oxides (Cerium, Thorium, Uranium)/Calcium Fluoride Core-Shell Nanocrystals With Atomically Coherent Interfaces},\n\ttype = {},\n\turl = {https://onlinelibrary.wiley.com/doi/10.1002/anie.202524282},\n\tvolume = {65},\n\tnumber = {12},\n\tjournal = {ANGEWANDTE CHEMIE-INTERNATIONAL EDITION},\n\tpages = {e24282},\n\tissn = {1521-3773 },\n\tpublisher = {WILEY-V C H VERLAG GMBH},\n\tdoi = {10.1002/anie.202524282 }\n}",
+    "extra.collection.science_area" : "Nuclear safety and security",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "Heterostructured nanocrystals (NCs) integrating chemically and/or structurally distinct materials are of significant interest due to their potential to exhibit multiple functionalities or unconventional properties. However, the development of such materials remains limited, primarily due to crystallographic incompatibilities and synthesis challenges. Here, we report the synthesis and structural characterization of a new class of metal oxide-based (Ce, Th, or U) heterostructures with calcium fluoride featuring core-shell architectures with precise control over both morphology and shell thickness. Powder x-ray diffraction (PXRD) and high-resolution scanning/transmission electron microscopy techniques confirm the formation of high-quality single-crystalline particles coupling metal oxide (Ce, Th, or U) and calcium fluoride domains through a structurally coherent but chemically complex intermixed oxide-fluoride interface—an unprecedented observation in cerium and actinide nanochemistry. These novel materials have been designed to anticipate their future doping with therapeutic alpha particle-emitting radionuclides ( α-emitters) such as 227 Th or230 U for locoregional targeted alpha therapy (TAT). It is anticipated that the reported heterostructured core-shell NCs will offer a promising platform for preclinical investigations to determine the full potential and interest of inorganic core-shell NCs, especially CeO2 / CaF2 , for TAT application.",
+    "dc.contributor.author" : [ "MENG Dejing", "POPESCU Radian", "ANDREI Carmen M.", "HIMBERT Jerome", "MADIROV Eduard", "BRANSON Jacob A.", "REYNOLDS Emily", "PRÜSSMANN Tim", "GÖTTLICHER Jörg", "VITOVA Tonya", "HILDEBRANDT Niko", "EGGELER Yolita", "RICHARDS Bryce S.", "WALTER Olaf", "HUDRY Damien" ],
+    "data.citation.30477.text" : "MENG, D., POPESCU, R., ANDREI, C.M., HIMBERT, J., MADIROV, E. et al., Controlled Synthesis of a New Class of Heterostructured Metal Oxides (Cerium, Thorium, Uranium)/Calcium Fluoride Core-Shell Nanocrystals With Atomically Coherent Interfaces, ANGEWANDTE CHEMIE-INTERNATIONAL EDITION, 65, 12, 2026, p. e24282, WILEY-V C H VERLAG GMBH, https://data.europa.eu/doi/10.1002/anie.202524282, JRC144459.",
+    "suggest.contributors" : [ "MENG DEJING", "POPESCU RADIAN", "ANDREI CARMEN M.", "HIMBERT JEROME", "MADIROV EDUARD", "BRANSON JACOB A.", "REYNOLDS EMILY", "PRÜSSMANN TIM", "GÖTTLICHER JÖRG", "VITOVA TONYA", "HILDEBRANDT NIKO", "EGGELER YOLITA", "RICHARDS BRYCE S.", "WALTER OLAF", "0000-0002-2679-1715", "HUDRY DAMIEN" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2025-11-03",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "MENG, D., POPESCU, R., ANDREI, C.M., HIMBERT, J., MADIROV, E. et al., Controlled Synthesis of a New Class of Heterostructured Metal Oxides (Cerium, Thorium, Uranium)/Calcium Fluoride Core-Shell Nanocrystals With Atomically Coherent Interfaces, ANGEWANDTE CHEMIE-INTERNATIONAL EDITION, 65, 12, 2026, p. e24282, WILEY-V C H VERLAG GMBH, https://data.europa.eu/doi/10.1002/anie.202524282 (online), JRC144459.",
+    "dc.date.accessioned" : "2026-05-21",
+    "dc.date.created" : "2026-03-16",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "MENG Dejing;;Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT);Institut für Mikrostrukturtechnologie (IMT), Karlsruher Institut für Technologie (KIT)", "POPESCU Radian;;Laboratory for Electron Microscopy (LEM), Karlsruhe Institute of Technology (KIT);Laboratorium für Elektronenmikroskopie (LEM), Karlsruher Institut für Technologie (KIT)", "ANDREI Carmen M.;;McMaster University;", "HIMBERT Jerome;;;", "MADIROV Eduard;;McMaster University;", "BRANSON Jacob A.;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "REYNOLDS Emily;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "PRÜSSMANN Tim;;Karlsruhe Institute of Technology (KIT);Karlsruher Institut für Technologie (KIT)", "GÖTTLICHER Jörg;;Karlsruhe Institute of Technology (KIT);Karlsruher Institut für Technologie (KIT)", "VITOVA Tonya;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "HILDEBRANDT Niko;;McMaster University;", "EGGELER Yolita;;Laboratory for Electron Microscopy (LEM), Karlsruhe Institute of Technology (KIT);Laboratorium für Elektronenmikroskopie (LEM), Karlsruher Institut für Technologie (KIT)", "RICHARDS Bryce S.;;Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT);Institut für Mikrostrukturtechnologie (IMT), Karlsruher Institut für Technologie (KIT)", "WALTER Olaf;0000-0002-2679-1715;;", "HUDRY Damien;;Institute of Microstructure Technology (IMT), Karlsruhe Institute of Technology (KIT);Institut für Mikrostrukturtechnologie (IMT), Karlsruher Institut für Technologie (KIT)" ],
+    "dc.identifier.doi" : "10.1002/anie.202524282 (online)",
+    "data.citation.144459.text" : "MENG, D., POPESCU, R., ANDREI, C.M., HIMBERT, J., MADIROV, E. et al., Controlled Synthesis of a New Class of Heterostructured Metal Oxides (Cerium, Thorium, Uranium)/Calcium Fluoride Core-Shell Nanocrystals With Atomically Coherent Interfaces, ANGEWANDTE CHEMIE-INTERNATIONAL EDITION, 65, 12, 2026, p. e24282, WILEY-V C H VERLAG GMBH, https://data.europa.eu/doi/10.1002/anie.202524282 (online), JRC144459.",
+    "data.citation.30477.type" : "ONLINE",
+    "item.handle" : 144459,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-21T14:23:32",
+    "dc.title" : "Controlled Synthesis of a New Class of Heterostructured Metal Oxides (Cerium, Thorium, Uranium)/Calcium Fluoride Core-Shell Nanocrystals With Atomically Coherent Interfaces",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "1521-3773 (online)",
+    "ids" : [ "1521-3773", "10.1002/anie.202524282" ],
+    "data.citation.144459.language" : "ENG",
+    "dc.language" : "ENG",
+    "data.citation.144459.type" : "GENERIC",
+    "item.pubsy_id" : 144459,
+    "dc.date.available" : "2026-05-21"
+  }, {
+    "id" : "JRC144501",
+    "dc.publisher" : "ELSEVIER SCIENCE SA",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC144501",
+    "journal.title" : "NUCLEAR ENGINEERING AND DESIGN",
+    "data.citation.30462.type" : "ONLINE",
+    "collection.portfolio" : "/PORTFOLIO/P000",
+    "dc.identifier.uri" : [ "https://www.sciencedirect.com/science/article/pii/S0029549325008933", "https://publications.jrc.ec.europa.eu/repository/handle/JRC144501" ],
+    "dc.description.sponsorship" : "JRC.G.4 - Reactor Safety and Components",
+    "search.contributors" : [ "DE LA ROSA BLUL Juan Carlos", "0000-0002-6884-6366", "HERNÁNDEZ CEBALLOS Miguel Ángel", "PARERA VILLACAMPA O.", "MAGROTTI Giovanni", "GUGLIELMELLI Antonio", "FAZIO Concetta" ],
+    "collection.science_area" : "/SCIENCE_AREA/S008",
+    "collections" : [ "2026", "/PORTFOLIO/P000", "/SCIENCE_AREA/S008", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.id.citations" : [ "144501", "30462" ],
+    "id" : "JRC144501",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC144501,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {De La Rosa Blul, J.C. and Hernández Ceballos, M.Á. and Parera Villacampa, O. and Magrotti, G. and Guglielmelli, A. and Fazio, C.},\n\tabstract = {In situations where radiological risk does not originate from a single ongoing accident but from a widespread degradation of the operational context conditions affecting several nuclear installations, traditional event-oriented emergency preparedness may become insufficient. Under such conflict-related circumstances, protective planning requires a broader framework capable of capturing the aggregated and latent risk arising from multiple facilities and locations. This paper presents the Diagnosis And Prognosis of Hazards in Nuclear Emergencies (DAPHNE) methodology (developed by the European Commission's Joint Research Centre), designed to support European Commission services and EU Member States in nuclear emergency preparedness and response. The methodology integrates MAAP, HYSPLIT, and the JRODOS decision-support system—together with dedicated in-house release models where appropriate—to provide a coherent assessment of both onsite accident progression and offsite radiological consequences. Building on the conceptual framework introduced in Part I, this paper applies DAPHNE to a conflict-scenario case study to quantify integrated latent radiological risk and illustrate how the methodology enhances the identification of geographical areas where risk accumulates. By providing a harmonised numerical workflow for scenario selection, source-term calculation, dispersion modelling, and risk mapping, DAPHNE improves upon other methodologies and offers a scientifically grounded basis for designing conflict-related Emergency Planning Zones that complement existing site-specific arrangements. Through its capacity to integrate multiple risk sources and their aggregated contribution to radiological exposure, DAPHNE strengthens preparedness planning under complex conflict scenarios and supports more informed decision-making across affected territories.},\n\ttitle = {Integrated latent risk of radiological damage under conflict situation – Part II: Application and results},\n\ttype = {},\n\turl = {https://www.sciencedirect.com/science/article/pii/S0029549325008933},\n\tvolume = {450},\n\tnumber = {N/A},\n\tjournal = {NUCLEAR ENGINEERING AND DESIGN},\n\tpages = {114716},\n\tissn = {1872-759X },\n\tpublisher = {ELSEVIER SCIENCE SA},\n\tdoi = {10.1016/j.nucengdes.2025.114716 }\n}",
+    "data.citation.144501.type" : "GENERIC",
+    "extra.collection.science_area" : "Nuclear safety and security",
+    "data.citation.30462.text" : "DE LA ROSA BLUL, J.C., HERNÁNDEZ CEBALLOS, M.Á., PARERA VILLACAMPA, O., MAGROTTI, G., GUGLIELMELLI, A. et al., Integrated latent risk of radiological damage under conflict situation – Part II: Application and results, NUCLEAR ENGINEERING AND DESIGN, 450, N/A, 2026, p. 114716, ELSEVIER SCIENCE SA, https://data.europa.eu/doi/10.1016/j.nucengdes.2025.114716, JRC144501.",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "In situations where radiological risk does not originate from a single ongoing accident but from a widespread degradation of the operational context conditions affecting several nuclear installations, traditional event-oriented emergency preparedness may become insufficient. Under such conflict-related circumstances, protective planning requires a broader framework capable of capturing the aggregated and latent risk arising from multiple facilities and locations. This paper presents the Diagnosis And Prognosis of Hazards in Nuclear Emergencies (DAPHNE) methodology (developed by the European Commission's Joint Research Centre), designed to support European Commission services and EU Member States in nuclear emergency preparedness and response. The methodology integrates MAAP, HYSPLIT, and the JRODOS decision-support system—together with dedicated in-house release models where appropriate—to provide a coherent assessment of both onsite accident progression and offsite radiological consequences. Building on the conceptual framework introduced in Part I, this paper applies DAPHNE to a conflict-scenario case study to quantify integrated latent radiological risk and illustrate how the methodology enhances the identification of geographical areas where risk accumulates. By providing a harmonised numerical workflow for scenario selection, source-term calculation, dispersion modelling, and risk mapping, DAPHNE improves upon other methodologies and offers a scientifically grounded basis for designing conflict-related Emergency Planning Zones that complement existing site-specific arrangements. Through its capacity to integrate multiple risk sources and their aggregated contribution to radiological exposure, DAPHNE strengthens preparedness planning under complex conflict scenarios and supports more informed decision-making across affected territories.",
+    "dc.contributor.author" : [ "DE LA ROSA BLUL Juan Carlos", "HERNÁNDEZ CEBALLOS Miguel Ángel", "PARERA VILLACAMPA O.", "MAGROTTI Giovanni", "GUGLIELMELLI Antonio", "FAZIO Concetta" ],
+    "suggest.contributors" : [ "DE LA ROSA BLUL JUAN CARLOS", "0000-0002-6884-6366", "HERNÁNDEZ CEBALLOS MIGUEL ÁNGEL", "PARERA VILLACAMPA O.", "MAGROTTI GIOVANNI", "GUGLIELMELLI ANTONIO", "FAZIO CONCETTA" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2025-11-06",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "DE LA ROSA BLUL, J.C., HERNÁNDEZ CEBALLOS, M.Á., PARERA VILLACAMPA, O., MAGROTTI, G., GUGLIELMELLI, A. et al., Integrated latent risk of radiological damage under conflict situation – Part II: Application and results, NUCLEAR ENGINEERING AND DESIGN, 450, N/A, 2026, p. 114716, ELSEVIER SCIENCE SA, https://data.europa.eu/doi/10.1016/j.nucengdes.2025.114716 (online), JRC144501.",
+    "dc.date.accessioned" : "2026-05-21",
+    "dc.date.created" : "2025-12-12",
+    "data.citation.144501.language" : "ENG",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "DE LA ROSA BLUL Juan Carlos;0000-0002-6884-6366;;", "HERNÁNDEZ CEBALLOS Miguel Ángel;;University of Córdoba;Universidad de Córdoba", "PARERA VILLACAMPA O.;;International Atomic Energy Agency (IAEA);", "MAGROTTI Giovanni;;;", "GUGLIELMELLI Antonio;;;", "FAZIO Concetta;;;" ],
+    "data.citation.144501.text" : "DE LA ROSA BLUL, J.C., HERNÁNDEZ CEBALLOS, M.Á., PARERA VILLACAMPA, O., MAGROTTI, G., GUGLIELMELLI, A. et al., Integrated latent risk of radiological damage under conflict situation – Part II: Application and results, NUCLEAR ENGINEERING AND DESIGN, 450, N/A, 2026, p. 114716, ELSEVIER SCIENCE SA, https://data.europa.eu/doi/10.1016/j.nucengdes.2025.114716 (online), JRC144501.",
+    "dc.identifier.doi" : "10.1016/j.nucengdes.2025.114716 (online)",
+    "item.handle" : 144501,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-21T07:27:16",
+    "dc.title" : "Integrated latent risk of radiological damage under conflict situation – Part II: Application and results",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "1872-759X (online)",
+    "ids" : [ "1872-759X", "10.1016/j.nucengdes.2025.114716" ],
+    "data.citation.30462.language" : "ENG",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 144501,
+    "dc.date.available" : "2026-05-21"
+  }, {
+    "id" : "JRC144456",
+    "dc.publisher" : "JOHN WILEY AND SONS LTD",
+    "data.citation.144456.type" : "GENERIC",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC144456",
+    "journal.title" : "ANGEWANDTE CHEMIE",
+    "collection.portfolio" : [ "/PORTFOLIO/P002", "/PORTFOLIO/P004", "/PORTFOLIO/P012" ],
+    "dc.identifier.uri" : [ "https://onlinelibrary.wiley.com/doi/10.1002/anov.70018", "https://publications.jrc.ec.europa.eu/repository/handle/JRC144456" ],
+    "dc.description.sponsorship" : "JRC.G.5 - Nuclear Science and Innovation for Energy and Health",
+    "search.contributors" : [ "FELLHAUER David", "WALTER Olaf", "0000-0002-2679-1715", "ROTHE Jorg", "0000-0001-5366-2129", "DARDENNE Kathy", "SCHILD Dieter", "MEIER Roland", "MÜLLER Philipp", "JO Yongheum", "GAONA Xavier", "ALTMAIER Marcus", "GECKEIS Horst" ],
+    "collection.science_area" : "/SCIENCE_AREA/S008",
+    "collections" : [ "2026", "/PORTFOLIO/P002", "/PORTFOLIO/P004", "/PORTFOLIO/P012", "/SCIENCE_AREA/S008", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.citation.30478.language" : "ENG",
+    "data.id.citations" : [ "144456", "30478" ],
+    "id" : "JRC144456",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC144456,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Fellhauer, D. and Walter, O. and Rothe, J. and Dardenne, K. and Schild, D. and Meier, R. and Müller, P. and Jo, Y. and Gaona, X. and Altmaier, M. and Geckeis, H.},\n\tabstract = {Plutonium (Pu), a prominent representative of the 5f-block actinides, is a redox active element. Pu(III)-Pu(VI) are the four thermodynamically stable redox states in aqueous solution. For Pu(VI), hydrolysis reactions in NaCl solutions start in weakly acidic conditions (pHc ≈ 5); increasing the alkalinity typically yields supersaturated solutions that are metastable with respect to the formation of Pu(VI)-oxido-hydroxide solid-phases. We show that needle- and platelet-like crystals of Pu(VI) form in strongly alkaline NaCl-NaOH solutions. Detailed characterization reveals that both are built from surprisingly novel, spherical [(PuO2)60O20(OH)120]40− cage clusters that are interlinked by sodium ions. The topology of the [Pu60] units resembles a truncated dodecahedron (Archimedean solid), representing a rather uncommon case in structural chemistry. Each cage contains 20 identical trimeric subunits that correspond closely to the trimeric Pu(VI) solution complex predominant under the crystallization conditions. This indicates that both solids form by a self-assembly from the precursor solution species, highlighting the trimer as a hitherto not considered principal building block in actinide cage cluster chemistry. The present study also addresses an open issue dating back to one of the earliest studies on Pu(VI) hydrolysis from 1949, which first described the two crystal types without a clear structural interpretation.},\n\ttitle = {Unexpected [Pu60] cage cluster units in new plutonium(VI) oxido-hydroxides},\n\ttype = {},\n\turl = {https://onlinelibrary.wiley.com/doi/10.1002/anov.70018},\n\tvolume = {2},\n\tnumber = {1},\n\tjournal = {ANGEWANDTE CHEMIE},\n\tpages = {e70018},\n\tissn = {1521-3757 },\n\tpublisher = {JOHN WILEY AND SONS LTD},\n\tdoi = {10.1002/anov.70018 }\n}",
+    "extra.collection.science_area" : "Nuclear safety and security",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "Plutonium (Pu), a prominent representative of the 5f-block actinides, is a redox active element. Pu(III)-Pu(VI) are the four thermodynamically stable redox states in aqueous solution. For Pu(VI), hydrolysis reactions in NaCl solutions start in weakly acidic conditions (pHc ≈ 5); increasing the alkalinity typically yields supersaturated solutions that are metastable with respect to the formation of Pu(VI)-oxido-hydroxide solid-phases. We show that needle- and platelet-like crystals of Pu(VI) form in strongly alkaline NaCl-NaOH solutions. Detailed characterization reveals that both are built from surprisingly novel, spherical [(PuO2)60O20(OH)120]40− cage clusters that are interlinked by sodium ions. The topology of the {Pu60} units resembles a truncated dodecahedron (Archimedean solid), representing a rather uncommon case in structural chemistry. Each cage contains 20 identical trimeric subunits that correspond closely to the trimeric Pu(VI) solution complex predominant under the crystallization conditions. This indicates that both solids form by a self-assembly from the precursor solution species, highlighting the trimer as a hitherto not considered principal building block in actinide cage cluster chemistry. The present study also addresses an open issue dating back to one of the earliest studies on Pu(VI) hydrolysis from 1949, which first described the two crystal types without a clear structural interpretation.",
+    "dc.contributor.author" : [ "FELLHAUER David", "WALTER Olaf", "ROTHE Jorg", "DARDENNE Kathy", "SCHILD Dieter", "MEIER Roland", "MÜLLER Philipp", "JO Yongheum", "GAONA Xavier", "ALTMAIER Marcus", "GECKEIS Horst" ],
+    "suggest.contributors" : [ "FELLHAUER DAVID", "WALTER OLAF", "0000-0002-2679-1715", "ROTHE JORG", "0000-0001-5366-2129", "DARDENNE KATHY", "SCHILD DIETER", "MEIER ROLAND", "MÜLLER PHILIPP", "JO YONGHEUM", "GAONA XAVIER", "ALTMAIER MARCUS", "GECKEIS HORST" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2025-11-03",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "FELLHAUER, D., WALTER, O., ROTHE, J., DARDENNE, K., SCHILD, D. et al., Unexpected {Pu60} cage cluster units in new plutonium(VI) oxido-hydroxides, ANGEWANDTE CHEMIE, 2, 1, 2026, p. e70018, JOHN WILEY AND SONS LTD, https://data.europa.eu/doi/10.1002/anov.70018 (online), JRC144456.",
+    "dc.date.accessioned" : "2026-05-21",
+    "dc.date.created" : "2026-05-21",
+    "data.citation.30478.type" : "ONLINE",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "FELLHAUER David;;Institut für Nukleare Entsorgung, Karlsruhe Institut für Technologie (KIT);", "WALTER Olaf;0000-0002-2679-1715;;", "ROTHE Jorg;0000-0001-5366-2129;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "DARDENNE Kathy;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "SCHILD Dieter;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "MEIER Roland;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "MÜLLER Philipp;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "JO Yongheum;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "GAONA Xavier;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "ALTMAIER Marcus;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)", "GECKEIS Horst;;Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology (KIT);Institut für Nukleare Entsorgung (INE), Karlsruher Institut für Technologie (KIT)" ],
+    "dc.identifier.doi" : "10.1002/anov.70018 (online)",
+    "data.citation.144456.language" : "ENG",
+    "item.handle" : 144456,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-21T14:28:35",
+    "data.citation.144456.text" : "FELLHAUER, D., WALTER, O., ROTHE, J., DARDENNE, K., SCHILD, D. et al., Unexpected {Pu60} cage cluster units in new plutonium(VI) oxido-hydroxides, ANGEWANDTE CHEMIE, 2, 1, 2026, p. e70018, JOHN WILEY AND SONS LTD, https://data.europa.eu/doi/10.1002/anov.70018 (online), JRC144456.",
+    "dc.title" : "Unexpected {Pu60} cage cluster units in new plutonium(VI) oxido-hydroxides",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "1521-3757 (online)",
+    "ids" : [ "1521-3757", "10.1002/anov.70018" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 144456,
+    "dc.date.available" : "2026-05-21",
+    "data.citation.30478.text" : "FELLHAUER, D., WALTER, O., ROTHE, J., DARDENNE, K., SCHILD, D. et al., Unexpected {Pu60} cage cluster units in new plutonium(VI) oxido-hydroxides, ANGEWANDTE CHEMIE, 2, 1, 2026, p. e70018, JOHN WILEY AND SONS LTD, https://data.europa.eu/doi/10.1002/anov.70018, JRC144456."
+  }, {
+    "id" : "JRC143317",
+    "dc.publisher" : "SPRINGERNATURE",
+    "data.citation.29085.text" : "NAZZARI, S., ZULIAN, G., GRUMI, S., PISONI, E., BERGAMASCHI, R. et al., How nature nurtures: prenatal exposure to green space buffers the effects of maternal stress on neonatal BDNF methylation, MOLECULAR PSYCHIATRY, 31, 5, 2026, p. 2418–2426, SPRINGERNATURE, https://data.europa.eu/doi/10.1038/s41380-025-03379-1, JRC143317.",
+    "data.citation.143317.type" : "GENERIC",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC143317",
+    "journal.title" : "MOLECULAR PSYCHIATRY",
+    "collection.portfolio" : [ "/PORTFOLIO/P003", "/PORTFOLIO/P009", "/PORTFOLIO/P018", "/PORTFOLIO/P019", "/PORTFOLIO/P021" ],
+    "dc.identifier.uri" : [ "https://www.nature.com/articles/s41380-025-03379-1", "https://publications.jrc.ec.europa.eu/repository/handle/JRC143317" ],
+    "dc.description.sponsorship" : "JRC.C.5 - Clean Air and Climate",
+    "search.contributors" : [ "NAZZARI Sarah", "ZULIAN Grazia", "0000-0002-9951-6765", "GRUMI Serena", "PISONI Enrico", "0000-0001-5484-5744", "BERGAMASCHI Roberto", "GIORDA Roberto", "BORGATTI Renato", "PROVENZI Livio" ],
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "collections" : [ "2026", "/PORTFOLIO/P003", "/PORTFOLIO/P009", "/PORTFOLIO/P018", "/PORTFOLIO/P019", "/PORTFOLIO/P021", "/SCIENCE_AREA/S004", "/GROUP/G002" ],
+    "data.citation.143317.text" : "NAZZARI, S., ZULIAN, G., GRUMI, S., PISONI, E., BERGAMASCHI, R. et al., How nature nurtures: prenatal exposure to green space buffers the effects of maternal stress on neonatal BDNF methylation, MOLECULAR PSYCHIATRY, 31, 5, 2026, p. 2418–2426, SPRINGERNATURE, https://data.europa.eu/doi/10.1038/s41380-025-03379-1 (online), JRC143317.",
+    "distribution.subtype" : "6",
+    "data.id.citations" : [ "143317", "29085" ],
+    "id" : "JRC143317",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC143317,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Nazzari, S. and Zulian, G. and Grumi, S. and Pisoni, E. and Bergamaschi, R. and Giorda, R. and Borgatti, R. and Provenzi, L.},\n\tabstract = {Pregnancy constitutes a critical window of vulnerability during which maternal and environmental exposures may shape fetal development through epigenetic mechanisms. While prenatal maternal anxiety and exposure to green spaces have been independently associated with child neurodevelopment, their potential interactive effects on neonatal epigenetic profiles remain largely unexplored. This study examined the independent and interactive effects of maternal trait anxiety and residential green space exposure during pregnancy on neonatal DNA methylation (DNAm) of the brain-derived neurotrophic factor (BDNF) gene. A sample of 110 mother-infant dyads was enrolled at delivery. Maternal trait anxiety was assessed using the Stait-Trait Anxiety Inventory (STAI-Y) and infants’ BDNF DNAm at birth was assessed in 11 CpG sites in buccal cells. Prenatal residential addresses were geocoded and green space availability within 300, 500, and 1000 m buffers was calculated using the CLCplus Backbone 2021 land cover dataset. Hierarchical linear regression models were adjusted for infant sex and prenatal exposure to PM2.5. Results indicated that higher maternal trait anxiety was associated with increased BDNF DNAm at four CpG sites only among infants with lower exposure to green space within a 300 m buffer. This association was not significant at higher levels of greenness, suggesting a neuroprotective effect of natural environments during gestation. Findings provide novel evidence that urban green space may buffer the biological impact of maternal anxiety on neonatal BDNF methylation. This highlights the importance of integrating psychological and environmental-level exposures to elucidate early-life determinants of neurodevelopment.},\n\ttitle = {How nature nurtures: prenatal exposure to green space buffers the effects of maternal stress on neonatal BDNF methylation},\n\ttype = {},\n\turl = {https://www.nature.com/articles/s41380-025-03379-1},\n\tvolume = {31},\n\tnumber = {5},\n\tjournal = {MOLECULAR PSYCHIATRY},\n\tpages = {2418–2426},\n\tissn = {1476-5578 },\n\tpublisher = {SPRINGERNATURE},\n\tdoi = {10.1038/s41380-025-03379-1 }\n}",
+    "extra.collection.science_area" : "Environment and climate change",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "Pregnancy constitutes a critical window of vulnerability during which maternal and environmental exposures may shape fetal development through epigenetic mechanisms. While prenatal maternal anxiety and exposure to green spaces have been independently associated with child neurodevelopment, their potential interactive effects on neonatal epigenetic profiles remain largely unexplored. This study examined the independent and interactive effects of maternal trait anxiety and residential green space exposure during pregnancy on neonatal DNA methylation (DNAm) of the brain-derived neurotrophic factor (BDNF) gene. A sample of 110 mother-infant dyads was enrolled at delivery. Maternal trait anxiety was assessed using the Stait-Trait Anxiety Inventory (STAI-Y) and infants’ BDNF DNAm at birth was assessed in 11 CpG sites in buccal cells. Prenatal residential addresses were geocoded and green space availability within 300, 500, and 1000 m buffers was calculated using the CLCplus Backbone 2021 land cover dataset. Hierarchical linear regression models were adjusted for infant sex and prenatal exposure to PM2.5. Results indicated that higher maternal trait anxiety was associated with increased BDNF DNAm at four CpG sites only among infants with lower exposure to green space within a 300 m buffer. This association was not significant at higher levels of greenness, suggesting a neuroprotective effect of natural environments during gestation. Findings provide novel evidence that urban green space may buffer the biological impact of maternal anxiety on neonatal BDNF methylation. This highlights the importance of integrating psychological and environmental-level exposures to elucidate early-life determinants of neurodevelopment.",
+    "dc.contributor.author" : [ "NAZZARI Sarah", "ZULIAN Grazia", "GRUMI Serena", "PISONI Enrico", "BERGAMASCHI Roberto", "GIORDA Roberto", "BORGATTI Renato", "PROVENZI Livio" ],
+    "suggest.contributors" : [ "NAZZARI SARAH", "ZULIAN GRAZIA", "0000-0002-9951-6765", "GRUMI SERENA", "PISONI ENRICO", "0000-0001-5484-5744", "BERGAMASCHI ROBERTO", "GIORDA ROBERTO", "BORGATTI RENATO", "PROVENZI LIVIO" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2025-07-25",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "NAZZARI, S., ZULIAN, G., GRUMI, S., PISONI, E., BERGAMASCHI, R. et al., How nature nurtures: prenatal exposure to green space buffers the effects of maternal stress on neonatal BDNF methylation, MOLECULAR PSYCHIATRY, 31, 5, 2026, p. 2418–2426, SPRINGERNATURE, https://data.europa.eu/doi/10.1038/s41380-025-03379-1 (online), JRC143317.",
+    "dc.date.accessioned" : "2026-05-21",
+    "dc.date.created" : "2026-02-10",
+    "data.citation.29085.language" : "ENG",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "NAZZARI Sarah;;University of Pavia;Università degli Studi di Pavia (UNIPV)", "ZULIAN Grazia;0000-0002-9951-6765;Leibniz University Hannover;Leibniz Universität Hannover", "GRUMI Serena;;Research Hospital Mondino;IRCCS - Fondazione Mondino", "PISONI Enrico;0000-0001-5484-5744;;", "BERGAMASCHI Roberto;;Research Hospital Mondino;IRCCS - Fondazione Mondino", "GIORDA Roberto;;Istituto di Ricerca (IRCCS) Eugenio Medea;Eugenio Medea Scientific Institute", "BORGATTI Renato;;University of Pavia;Università degli Studi di Pavia (UNIPV)", "PROVENZI Livio;;Research Hospital Mondino;IRCCS - Fondazione Mondino" ],
+    "dc.identifier.doi" : "10.1038/s41380-025-03379-1 (online)",
+    "item.handle" : 143317,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-21T14:35:14",
+    "data.citation.143317.language" : "ENG",
+    "dc.title" : "How nature nurtures: prenatal exposure to green space buffers the effects of maternal stress on neonatal BDNF methylation",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "1476-5578 (online)",
+    "ids" : [ "1476-5578", "10.1038/s41380-025-03379-1" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 143317,
+    "dc.date.available" : "2026-05-21",
+    "data.citation.29085.type" : "ONLINE"
+  }, {
+    "id" : "JRC146777",
+    "dc.publisher" : "Publications Office of the European Union",
+    "data.citation.146777.text" : "TORETI, A., BAVERA, D., ACOSTA NAVARRO, J., MAGNI, D., HRAST ESSENFELDER, A. et al., Drought in East Africa and Middle East / Central Asia April 2026 - GDO Analytical Report, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8763155 (online), JRC146777.",
+    "dc.format.medium" : "Online PDF",
+    "data.citation.146777.language" : "ENG",
+    "collection.year" : 2026,
+    "document.names" : "Drought in East Africa and Middle East / Central Asia April 2026",
+    "dc.subtitle" : "GDO Analytical Report",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC146777",
+    "dc.description.sponsorship" : "JRC.E.1 - Disaster Risk Management",
+    "search.contributors" : [ "TORETI Andrea", "0000-0002-1983-2523", "BAVERA Davide", "ACOSTA NAVARRO Juan", "MAGNI Diego", "HRAST ESSENFELDER Arthur", "0000-0001-9396-6928", "SANTOS NUNES Sergio", "MAZZESCHI Marco", "KERDILES Herve", "REMBOLD Felix", "SCHAFFHAUSER Timo", "SALAMON Peter", "0000-0002-5419-5398", "GRIMALDI Stefania", "0000-0002-7025-7624" ],
+    "document.281105.filename" : "JRC146777_01.pdf",
+    "collection.science_area" : [ "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004" ],
+    "collections" : [ "2026", "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004", "/GROUP/G003", "/PORTFOLIO/P014", "/PORTFOLIO/P022" ],
+    "distribution.subtype" : "8",
+    "id" : "JRC146777",
+    "document.281105.mimetype" : "application/pdf",
+    "collection.group" : "/GROUP/G003",
+    "data.bibtex" : "@article{JRC146777,\n\tnumber = {KJ-01-26-200-EN-N },\n\taddress = {Luxembourg (Luxembourg)},\n\tissn = {1831-9424 },\n\tyear = {2026},\n\tauthor = {Toreti, A. and Bavera, D. and Acosta Navarro, J. and Magni, D. and Hrast Essenfelder, A. and Santos Nunes, S. and Mazzeschi, M. and Kerdiles, H. and Rembold, F. and Schaffhauser, T. and Salamon, P. and Grimaldi, S.},\n\tisbn = {978-92-68-39795-4 },\n\tpublisher = {Publications Office of the European Union},\n\tabstract = {A sequence of drought events has been affecting East Africa and the Middle East/Central Asia since 2021. Warmer temperatures and heatwaves compounded with precipitation deficits and contributed to shape these climate extremes. Large‑scale climate drivers, such as El Niño Southern Oscillation and the Indian Ocean Dipole, have contributed to reinforce precipitation deficits and enhance atmospheric evaporative demand in the most severe drought episodes observed in East Africa (2021‑2022, 2025) and the Middle East/Central Asia region (2021‑2022, 2025). Rising temperatures due to anthropogenic climate change, evident in the time series of temperature anomalies, contribute to increase atmospheric water demand and exacerbate soil moisture depletion across both regions.   In East Africa, the drought is gripping Somalia, south‑eastern Ethiopia and eastern Kenya, leading to historic low soil moisture levels and severe vegetation stress.   In the Middle East/Central Asia region, persistent dry conditions are observed in northern Iran, Turan Depression, Afghanistan and parts of Central Asia, with runoff and river discharge anomalies remaining negative.   Agricultural impacts of the drought events are here evaluated by using FAOSTAT data from 2016 – 2024. The production of sorghum decreased in Kenya, Ethiopia and especially in Somalia (~40 %) from 2016-2020 to 2021-2024. Maize production remained stable in Somalia and Kenya and even increased in Ethiopia and Tanzania. In Central Asia, wheat production declined only in Turkmenistan, while it remained stable in Afghanistan and even increased in Iran, Uzbekistan, Pakistan. These changes are clearly influenced by irrigation. In some cases, e.g. in Iran, these changes are associated with unsustainable water resource management and overexploitation.  The analysis of hydrological impacts shows prolonged negative runoff anomalies in the Ethiopian Highlands, the Upper Nile basin and the Middle East, reducing water availability for irrigation and domestic use.   The humanitarian situation in East Africa is worsening, with 4.6 million people affected, over 135 000 displaced in Somalia, and acute malnutrition threatening ~2 million children.   Seasonal forecasts from the multi‑system ensemble predict only marginally wetter conditions for southern Somalia and south‑eastern Kenya, with high uncertainty and limited expected relief before the next rainy season.   Funding shortfalls compound the crisis: by early 2026 only €370 million of the €1.4 billion required for humanitarian response had been secured, jeopardising life‑saving assistance.},\n\ttitle = {Drought in East Africa and Middle East / Central Asia April 2026},\n\turl = {},\n\tdoi = {10.2760/8763155 }\n}",
+    "extra.collection.science_area" : [ "Agriculture and food security", "Environment and climate change" ],
+    "dc.description.abstract" : "A sequence of drought events has been affecting East Africa and the Middle East/Central Asia since 2021. Warmer temperatures and heatwaves compounded with precipitation deficits and contributed to shape these climate extremes.\nLarge‑scale climate drivers, such as El Niño Southern Oscillation and the Indian Ocean Dipole, have contributed to reinforce precipitation deficits and enhance atmospheric evaporative demand in the most severe drought episodes observed in East Africa (2021‑2022, 2025) and the Middle East/Central Asia region (2021‑2022, 2025). Rising temperatures due to anthropogenic climate change, evident in the time series of temperature anomalies, contribute to increase atmospheric water demand and exacerbate soil moisture depletion across both regions.  \nIn East Africa, the drought is gripping Somalia, south‑eastern Ethiopia and eastern Kenya, leading to historic low soil moisture levels and severe vegetation stress.  \nIn the Middle East/Central Asia region, persistent dry conditions are observed in northern Iran, Turan Depression, Afghanistan and parts of Central Asia, with runoff and river discharge anomalies remaining negative.  \nAgricultural impacts of the drought events are here evaluated by using FAOSTAT data from 2016 – 2024. The production of sorghum decreased in Kenya, Ethiopia and especially in Somalia (~40 %) from 2016-2020 to 2021-2024. Maize production remained stable in Somalia and Kenya and even increased in Ethiopia and Tanzania. In Central Asia, wheat production declined only in Turkmenistan, while it remained stable in Afghanistan and even increased in Iran, Uzbekistan, Pakistan. These changes are clearly influenced by irrigation. In some cases, e.g. in Iran, these changes are associated with unsustainable water resource management and overexploitation. \nThe analysis of hydrological impacts shows prolonged negative runoff anomalies in the Ethiopian Highlands, the Upper Nile basin and the Middle East, reducing water availability for irrigation and domestic use.  \nThe humanitarian situation in East Africa is worsening, with 4.6 million people affected, over 135 000 displaced in Somalia, and acute malnutrition threatening ~2 million children.  \nSeasonal forecasts from the multi‑system ensemble predict only marginally wetter conditions for southern Somalia and south‑eastern Kenya, with high uncertainty and limited expected relief before the next rainy season.  \nFunding shortfalls compound the crisis: by early 2026 only €370 million of the €1.4 billion required for humanitarian response had been secured, jeopardising life‑saving assistance.",
+    "dc.contributor.author" : [ "TORETI Andrea", "BAVERA Davide", "ACOSTA NAVARRO Juan", "MAGNI Diego", "HRAST ESSENFELDER Arthur", "SANTOS NUNES Sergio", "MAZZESCHI Marco", "KERDILES Herve", "REMBOLD Felix", "SCHAFFHAUSER Timo", "SALAMON Peter", "GRIMALDI Stefania" ],
+    "dc.date.submitted" : "2026-04-22",
+    "dc.identifier.citation" : "TORETI, A., BAVERA, D., ACOSTA NAVARRO, J., MAGNI, D., HRAST ESSENFELDER, A. et al., Drought in East Africa and Middle East / Central Asia April 2026 - GDO Analytical Report, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8763155 (online), JRC146777.",
+    "document.281105.main" : "Y",
+    "dc.date.accessioned" : "2026-05-19",
+    "dc.date.created" : "2026-05-15",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "TORETI Andrea;0000-0002-1983-2523;;", "BAVERA Davide;;Arcadia SIT srl;", "ACOSTA NAVARRO Juan;;;", "MAGNI Diego;;Arcadia SIT srl;", "HRAST ESSENFELDER Arthur;0000-0001-9396-6928;;", "SANTOS NUNES Sergio;;SEIDOR Italy;", "MAZZESCHI Marco;;UniSystems Luxembourg Sàrl;", "KERDILES Herve;;;", "REMBOLD Felix;;;", "SCHAFFHAUSER Timo;;;", "SALAMON Peter;0000-0002-5419-5398;;", "GRIMALDI Stefania;0000-0002-7025-7624;;" ],
+    "dc.identifier.isbn" : "978-92-68-39795-4 (online)",
+    "dc.identifier.doi" : "10.2760/8763155 (online)",
+    "data.citation.30058.text" : "TORETI, A., BAVERA, D., ACOSTA NAVARRO, J., MAGNI, D., HRAST ESSENFELDER, A. et al., Drought in East Africa and Middle East / Central Asia April 2026 - GDO Analytical Report, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8763155, JRC146777.",
+    "data.citation.146777.type" : "GENERIC",
+    "item.handle" : 146777,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-19T13:30:37",
+    "dc.title" : "Drought in East Africa and Middle East / Central Asia April 2026",
+    "dc.identifier.issn" : "1831-9424 (online)",
+    "ids" : [ "1831-9424", "978-92-68-39795-4", "10.2760/8763155", "OP KJ-01-26-200-EN-N" ],
+    "document.281105.type" : "DOCUMENT",
+    "dc.language" : "ENG",
+    "data.citation.30058.type" : "ONLINE",
+    "item.pubsy_id" : 146777,
+    "dc.identifier.other" : [ "EUR 40717", "OP KJ-01-26-200-EN-N (online)" ],
+    "document.281105.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "document.281105.disk" : "JRC146777_281105",
+    "dc.relation.ispartofseries" : "JRC146777",
+    "collection.portfolio" : [ "/PORTFOLIO/P014", "/PORTFOLIO/P022" ],
+    "data.id.citations" : [ "146777", "30058" ],
+    "document.281105.size" : 9297304,
+    "distribution.description" : "EU Publications Portal",
+    "document.281105.checksumAlgorithm" : "MD5",
+    "suggest.contributors" : [ "TORETI ANDREA", "0000-0002-1983-2523", "BAVERA DAVIDE", "ACOSTA NAVARRO JUAN", "MAGNI DIEGO", "HRAST ESSENFELDER ARTHUR", "0000-0001-9396-6928", "SANTOS NUNES SERGIO", "MAZZESCHI MARCO", "KERDILES HERVE", "REMBOLD FELIX", "SCHAFFHAUSER TIMO", "SALAMON PETER", "0000-0002-5419-5398", "GRIMALDI STEFANIA", "0000-0002-7025-7624" ],
+    "collection.year_range" : 2020,
+    "extra.collection.group" : "Technical reports",
+    "data.citation.30058.language" : "ENG",
+    "stream.document.281105" : "1",
+    "document.mainCover" : "JRC146777_281105_cover.jpg",
+    "document.281105.name" : "Drought in East Africa and Middle East / Central Asia April 2026",
+    "distribution.group" : "Public",
+    "document.id" : [ "281105" ],
+    "dc.date.available" : "2026-05-20",
+    "document.281105.cover" : "JRC146777_281105_cover.jpg"
+  }, {
+    "id" : "JRC145127",
+    "dc.publisher" : "ELSEVIER SCI LTD",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC145127",
+    "journal.title" : "MARINE POLICY",
+    "data.citation.30446.type" : "ONLINE",
+    "collection.portfolio" : [ "/PORTFOLIO/P019", "/PORTFOLIO/P020", "/PORTFOLIO/P024" ],
+    "dc.identifier.uri" : [ "https://www.sciencedirect.com/science/article/pii/S0308597X26001429", "https://publications.jrc.ec.europa.eu/repository/handle/JRC145127" ],
+    "dc.description.sponsorship" : "JRC.D.2 - Ocean and Water",
+    "search.contributors" : [ "ALONSO ALLER Elisa", "0000-0002-3973-1703", "ZUPAN Mirta", "0000-0001-5781-1718", "GORJANC Sašo", "MUNARI Joëlle", "STROSSER Pierre", "SALVO Vanessa Sarah", "GARCES Esther", "PIERA Jaume", "TOPOUZELIS Konstantinos", "MARKANTONATOU Vasiliki", "MARTIN Georg", "TORN Kaire", "HALL Jack Royd", "LIQUETE Camino", "0009-0006-8894-2044", "HANKE Georg" ],
+    "data.citation.145127.text" : "ALONSO ALLER, E., ZUPAN, M., GORJANC, S., MUNARI, J., STROSSER, P. et al., Strengthening marine biodiversity monitoring and data pathways in Europe: Challenges and recommendations, MARINE POLICY, 191, 2026, p. 107172, ELSEVIER SCI LTD, https://data.europa.eu/doi/10.1016/j.marpol.2026.107172 (online), JRC145127.",
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "collections" : [ "2026", "/PORTFOLIO/P019", "/PORTFOLIO/P020", "/PORTFOLIO/P024", "/SCIENCE_AREA/S004", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.citation.30446.language" : "ENG",
+    "data.id.citations" : [ "145127", "30446" ],
+    "data.citation.30446.text" : "ALONSO ALLER, E., ZUPAN, M., GORJANC, S., MUNARI, J., STROSSER, P. et al., Strengthening marine biodiversity monitoring and data pathways in Europe: Challenges and recommendations, MARINE POLICY, 191, 2026, p. 107172, ELSEVIER SCI LTD, https://data.europa.eu/doi/10.1016/j.marpol.2026.107172, JRC145127.",
+    "id" : "JRC145127",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC145127,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Alonso Aller, E. and Zupan, M. and Gorjanc, S. and Munari, J. and Strosser, P. and Salvo, V.S. and Garces, E. and Piera, J. and Topouzelis, K. and Markantonatou, V. and Martin, G. and Torn, K. and Hall, J.R. and Liquete, C. and Hanke, G.},\n\tabstract = {Marine biodiversity data are essential for effective ocean governance and underpin the implementation of key European and international environmental policy frameworks to deliver healthier marine ecosystems. Despite extensive monitoring efforts, inconsistencies in methodologies, data standards, and reporting practices continue to limit the comparability and policy relevance of biodiversity information. To address these challenges, the European Commission launched a Marine Biodiversity Monitoring Harmonisation initiative that: assessed the state of play of marine biodiversity monitoring in Europe; identified technical and institutional barriers to improvements in marine biodiversity knowledge; and proposed recommendations for addressing these barriers in a cost-effective and coordinated manner. The initiative combined desk research, surveys, interviews, and workshops for engaging Member States, EU agencies, Regional Sea Conventions, scientists and key ocean stakeholders. This helped identifying key challenges spanning data acquisition, management, and accessibility. While technical tools for carrying out marine biodiversity monitoring are largely available, institutional fragmentation remains the main barrier to strengthen marine biodiversity knowledge. The need for harmonised monitoring standards, enforced data-sharing obligations, long-term funding for biodiversity data infrastructures, better recognition and traceability of data providers, clarified governance roles and stronger communication between scientific and policy actors were all identified as priorities. Addressing these institutional and cultural barriers is critical to establish a coherent, sustainable, and policy-responsive marine biodiversity monitoring system that supports evidence-based decision-making, aligns with EU environmental objectives, and contributes to global biodiversity commitments.},\n\ttitle = {Strengthening marine biodiversity monitoring and data pathways in Europe: Challenges and recommendations},\n\ttype = {},\n\turl = {https://www.sciencedirect.com/science/article/pii/S0308597X26001429},\n\tvolume = {191},\n\tnumber = {},\n\tjournal = {MARINE POLICY},\n\tpages = {107172},\n\tissn = {1872-9460 },\n\tpublisher = {ELSEVIER SCI LTD},\n\tdoi = {10.1016/j.marpol.2026.107172 }\n}",
+    "extra.collection.science_area" : "Environment and climate change",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "Marine biodiversity data are essential for effective ocean governance and underpin the implementation of key European and international environmental policy frameworks to deliver healthier marine ecosystems. Despite extensive monitoring efforts, inconsistencies in methodologies, data standards, and reporting practices continue to limit the comparability and policy relevance of biodiversity information. To address these challenges, the European Commission launched a Marine Biodiversity Monitoring Harmonisation initiative that: assessed the state of play of marine biodiversity monitoring in Europe; identified technical and institutional barriers to improvements in marine biodiversity knowledge; and proposed recommendations for addressing these barriers in a cost-effective and coordinated manner. The initiative combined desk research, surveys, interviews, and workshops for engaging Member States, EU agencies, Regional Sea Conventions, scientists and key ocean stakeholders. This helped identifying key challenges spanning data acquisition, management, and accessibility. While technical tools for carrying out marine biodiversity monitoring are largely available, institutional fragmentation remains the main barrier to strengthen marine biodiversity knowledge. The need for harmonised monitoring standards, enforced data-sharing obligations, long-term funding for biodiversity data infrastructures, better recognition and traceability of data providers, clarified governance roles and stronger communication between scientific and policy actors were all identified as priorities. Addressing these institutional and cultural barriers is critical to establish a coherent, sustainable, and policy-responsive marine biodiversity monitoring system that supports evidence-based decision-making, aligns with EU environmental objectives, and contributes to global biodiversity commitments.",
+    "dc.contributor.author" : [ "ALONSO ALLER Elisa", "ZUPAN Mirta", "GORJANC Sašo", "MUNARI Joëlle", "STROSSER Pierre", "SALVO Vanessa Sarah", "GARCES Esther", "PIERA Jaume", "TOPOUZELIS Konstantinos", "MARKANTONATOU Vasiliki", "MARTIN Georg", "TORN Kaire", "HALL Jack Royd", "LIQUETE Camino", "HANKE Georg" ],
+    "suggest.contributors" : [ "ALONSO ALLER ELISA", "0000-0002-3973-1703", "ZUPAN MIRTA", "0000-0001-5781-1718", "GORJANC SAŠO", "MUNARI JOËLLE", "STROSSER PIERRE", "SALVO VANESSA SARAH", "GARCES ESTHER", "PIERA JAUME", "TOPOUZELIS KONSTANTINOS", "MARKANTONATOU VASILIKI", "MARTIN GEORG", "TORN KAIRE", "HALL JACK ROYD", "LIQUETE CAMINO", "0009-0006-8894-2044", "HANKE GEORG" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2025-12-15",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "ALONSO ALLER, E., ZUPAN, M., GORJANC, S., MUNARI, J., STROSSER, P. et al., Strengthening marine biodiversity monitoring and data pathways in Europe: Challenges and recommendations, MARINE POLICY, 191, 2026, p. 107172, ELSEVIER SCI LTD, https://data.europa.eu/doi/10.1016/j.marpol.2026.107172 (online), JRC145127.",
+    "data.citation.145127.type" : "GENERIC",
+    "dc.date.accessioned" : "2026-05-20",
+    "dc.date.created" : "2026-05-18",
+    "data.citation.145127.language" : "ENG",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "ALONSO ALLER Elisa;0000-0002-3973-1703;;", "ZUPAN Mirta;0000-0001-5781-1718;;", "GORJANC Sašo;;ACTeon Environment;", "MUNARI Joëlle;;ACTeon Environment;", "STROSSER Pierre;;ACTeon Environment;", "SALVO Vanessa Sarah;;Institute of Marine Sciences (CSIC - ICM);Institut de Ciències del Mar (CSIC - ICM)", "GARCES Esther;;Institute of Marine Sciences (CSIC - ICM);Institut de Ciències del Mar (CSIC - ICM)", "PIERA Jaume;;Institute of Marine Sciences (CSIC - ICM);Institut de Ciències del Mar (CSIC - ICM)", "TOPOUZELIS Konstantinos;;University of the Aegean (UA);Πανεπιστήμιο Αιγαίου", "MARKANTONATOU Vasiliki;;University of the Aegean (UA);Πανεπιστήμιο Αιγαίου", "MARTIN Georg;;University of Tartu (UT);Tartu Ülikool", "TORN Kaire;;University of Tartu (UT);Tartu Ülikool", "HALL Jack Royd;;University of Tartu (UT);Tartu Ülikool", "LIQUETE Camino;0009-0006-8894-2044;;", "HANKE Georg;;;" ],
+    "dc.identifier.doi" : "10.1016/j.marpol.2026.107172 (online)",
+    "item.handle" : 145127,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-20T10:07:51",
+    "dc.title" : "Strengthening marine biodiversity monitoring and data pathways in Europe: Challenges and recommendations",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "1872-9460 (online)",
+    "ids" : [ "1872-9460", "10.1016/j.marpol.2026.107172" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 145127,
+    "dc.date.available" : "2026-05-20"
+  }, {
+    "id" : "JRC138440",
+    "dc.publisher" : "JOHN WILEY AND SONS INC",
+    "data.citation.138440.type" : "GENERIC",
+    "dc.format.medium" : "Online PDF",
+    "data.citation.30040.type" : "ONLINE",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC138440",
+    "journal.title" : "JOURNAL OF SUSTAINABLE AGRICULTURE AND ENVIRONMENT",
+    "collection.portfolio" : "/PORTFOLIO/P000",
+    "dc.identifier.uri" : [ "https://onlinelibrary.wiley.com/doi/10.1002/sae2.70163", "https://onlinelibrary.wiley.com/doi/abs/10.1002/sae2.70163", "https://publications.jrc.ec.europa.eu/repository/handle/JRC138440" ],
+    "dc.description.sponsorship" : "JRC.D.3 - Sustainable Supply Chains and Bioeconomy",
+    "search.contributors" : [ "CALDERÓN-SANOU Irene", "BALLABIO Cristiano", "0000-0001-7452-9271", "BREITKREUZ Claudia", "EISENHAUER Nico", "JONES Arwyn", "KÖNINGER Julia", "KÜSEL Kirsten", "ORGIAZZI Alberto", "PANAGOS Panos", "0000-0003-1484-2738", "REITZ Thomas", "SI-MOUSSI Sara", "SINGAVARAPU Bala", "GUERRA Carlos" ],
+    "data.citation.30040.language" : "ENG",
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "data.citation.30040.text" : "CALDERÓN-SANOU, I., BALLABIO, C., BREITKREUZ, C., EISENHAUER, N., JONES, A. et al., An integrated assessment of European soil health and restoration potential, JOURNAL OF SUSTAINABLE AGRICULTURE AND ENVIRONMENT, 5, 2, 2026, p. e70163, JOHN WILEY AND SONS INC, https://data.europa.eu/doi/10.1002/sae2.70163, JRC138440.",
+    "collections" : [ "2026", "/PORTFOLIO/P000", "/SCIENCE_AREA/S004", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.id.citations" : [ "138440", "30040" ],
+    "id" : "JRC138440",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC138440,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Calderón-Sanou, I. and Ballabio, C. and Breitkreuz, C. and Eisenhauer, N. and Jones, A. and Köninger, J. and Küsel, K. and Orgiazzi, A. and Panagos, P. and Reitz, T. and Si-Moussi, S. and Singavarapu, B. and Guerra, C.},\n\tabstract = {Soils host a significant proportion of biodiversity on Earth providing ecosystem functions vital to human well-being, making it imperative to include them and their ecological features when addressing sustainability goals. We performed a comprehensive assessment of soil health across Europe by explicitly integrating biotic and abiotic indicators alongside soil degradation processes. We further identified areas with high restoration potential, quantifying the potential positive changes achievable when mitigating degradation processes. Our results show that 93\\% of soils in Europe are either degraded (62\\%) or in a moderate state (31\\%), with only 7\\% having a good (6.5\\%) or high (0.5\\%) health status. We found Southeast Europe to have the highest restoration potential, particularly for forests and annual crops. By providing spatially explicit indicators of soil health and restoration potential, our approach offers valuable guidance to support sustainable soil management and inform policies aimed at enhancing soil health across Europe.},\n\ttitle = {An integrated assessment of European soil health and restoration potential},\n\ttype = {},\n\turl = {https://onlinelibrary.wiley.com/doi/10.1002/sae2.70163,https://onlinelibrary.wiley.com/doi/abs/10.1002/sae2.70163},\n\tvolume = {5},\n\tnumber = {2},\n\tjournal = {JOURNAL OF SUSTAINABLE AGRICULTURE AND ENVIRONMENT},\n\tpages = {e70163},\n\tissn = {2767-035X },\n\tpublisher = {JOHN WILEY AND SONS INC},\n\tdoi = {10.1002/sae2.70163 }\n}",
+    "extra.collection.science_area" : "Environment and climate change",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "Soils host a significant proportion of biodiversity on Earth providing ecosystem functions vital to human well-being, making it imperative to include them and their ecological features when addressing sustainability goals. We performed a comprehensive assessment of soil health across Europe by explicitly integrating biotic and abiotic indicators alongside soil degradation processes. We further identified areas with high restoration potential, quantifying the potential positive changes achievable when mitigating degradation processes. Our results show that 93\\% of soils in Europe are either degraded (62\\%) or in a moderate state (31\\%), with only 7\\% having a good (6.5\\%) or high (0.5\\%) health status. We found Southeast Europe to have the highest restoration potential, particularly for forests and annual crops. By providing spatially explicit indicators of soil health and restoration potential, our approach offers valuable guidance to support sustainable soil management and inform policies aimed at enhancing soil health across Europe.",
+    "dc.contributor.author" : [ "CALDERÓN-SANOU Irene", "BALLABIO Cristiano", "BREITKREUZ Claudia", "EISENHAUER Nico", "JONES Arwyn", "KÖNINGER Julia", "KÜSEL Kirsten", "ORGIAZZI Alberto", "PANAGOS Panos", "REITZ Thomas", "SI-MOUSSI Sara", "SINGAVARAPU Bala", "GUERRA Carlos" ],
+    "suggest.contributors" : [ "CALDERÓN-SANOU IRENE", "BALLABIO CRISTIANO", "0000-0001-7452-9271", "BREITKREUZ CLAUDIA", "EISENHAUER NICO", "JONES ARWYN", "KÖNINGER JULIA", "KÜSEL KIRSTEN", "ORGIAZZI ALBERTO", "PANAGOS PANOS", "0000-0003-1484-2738", "REITZ THOMAS", "SI-MOUSSI SARA", "SINGAVARAPU BALA", "GUERRA CARLOS" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2024-06-06",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "CALDERÓN-SANOU, I., BALLABIO, C., BREITKREUZ, C., EISENHAUER, N., JONES, A. et al., An integrated assessment of European soil health and restoration potential, JOURNAL OF SUSTAINABLE AGRICULTURE AND ENVIRONMENT, 5, 2, 2026, p. e70163, JOHN WILEY AND SONS INC, https://data.europa.eu/doi/10.1002/sae2.70163 (online), JRC138440.",
+    "dc.date.accessioned" : "2026-05-20",
+    "dc.date.created" : "2026-05-06",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "CALDERÓN-SANOU Irene;;German Centre for Integrative Biodiversity Research (iDiv);Deutsche Zentrum für integrative Biodiversitätsforschung (iDiv)", "BALLABIO Cristiano;0000-0001-7452-9271;;", "BREITKREUZ Claudia;;Helmholtz Association of German Research Centres;Helmholtz-Gemeinschaft Deutscher Forschungszentren", "EISENHAUER Nico;;German Centre for Integrative Biodiversity Research (iDiv);Deutsche Zentrum für integrative Biodiversitätsforschung (iDiv)", "JONES Arwyn;;;", "KÖNINGER Julia;;University of Vigo;Universidade de Vigo", "KÜSEL Kirsten;;Friedrich Schiller University Jena;Friedrich-Schiller-Universität Jena (FSU)", "ORGIAZZI Alberto;;;", "PANAGOS Panos;0000-0003-1484-2738;;", "REITZ Thomas;;German Centre for Integrative Biodiversity Research (iDiv);Deutsche Zentrum für integrative Biodiversitätsforschung (iDiv)", "SI-MOUSSI Sara;;University of Grenoble Alpes (UGA);Université Grenoble Alpes (UGA)", "SINGAVARAPU Bala;;German Centre for Integrative Biodiversity Research (iDiv);Deutsche Zentrum für integrative Biodiversitätsforschung (iDiv)", "GUERRA Carlos;;German Centre for Integrative Biodiversity Research (iDiv);Deutsche Zentrum für integrative Biodiversitätsforschung (iDiv)" ],
+    "dc.identifier.doi" : "10.1002/sae2.70163 (online)",
+    "data.citation.138440.language" : "ENG",
+    "item.handle" : 138440,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-20T08:27:41",
+    "data.citation.138440.text" : "CALDERÓN-SANOU, I., BALLABIO, C., BREITKREUZ, C., EISENHAUER, N., JONES, A. et al., An integrated assessment of European soil health and restoration potential, JOURNAL OF SUSTAINABLE AGRICULTURE AND ENVIRONMENT, 5, 2, 2026, p. e70163, JOHN WILEY AND SONS INC, https://data.europa.eu/doi/10.1002/sae2.70163 (online), JRC138440.",
+    "dc.title" : "An integrated assessment of European soil health and restoration potential",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "2767-035X (online)",
+    "ids" : [ "2767-035X", "10.1002/sae2.70163" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 138440,
+    "dc.date.available" : "2026-05-20"
+  }, {
+    "id" : "JRC146144",
+    "dc.publisher" : "ELSEVIER B.V.",
+    "data.citation.146144.text" : "GOOK, A., MATEI, C., OBERSTEDT, S., GEERTS, W., PLOMPEN, A. et al., A fast ionization chamber dedicated to gamma-ray beam intensity measurements at ELI-NP, NUCLEAR INSTRUMENTS AND METHODS IN PHYSICS RESEARCH, SECTION A: ACCELERATORS, SPECTROMETERS, DETECTORS AND ASSOCIATED EQUIPMENT, 1090, 2026, p. 171662, ELSEVIER B.V., https://data.europa.eu/doi/10.1016/j.nima.2026.171662 (online), JRC146144.",
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC146144",
+    "journal.title" : "NUCLEAR INSTRUMENTS AND METHODS IN PHYSICS RESEARCH, SECTION A: ACCELERATORS, SPECTROMETERS, DETECTORS AND ASSOCIATED EQUIPMENT",
+    "collection.portfolio" : [ "/PORTFOLIO/P004", "/PORTFOLIO/P005" ],
+    "dc.identifier.uri" : [ "https://www.sciencedirect.com/science/article/pii/S0168900226003888", "https://publications.jrc.ec.europa.eu/repository/handle/JRC146144" ],
+    "dc.description.sponsorship" : "JRC.G.6 - Nuclear Data and Measurement  Standards",
+    "search.contributors" : [ "GOOK Alf", "MATEI Catalin", "OBERSTEDT Stephan", "0000-0003-3457-7222", "GEERTS Wouter", "PLOMPEN Arjan", "0000-0001-9465-9639", "VIDALI Marzio", "OBERSTEDT Andreas" ],
+    "collection.science_area" : "/SCIENCE_AREA/S008",
+    "collections" : [ "2026", "/PORTFOLIO/P004", "/PORTFOLIO/P005", "/SCIENCE_AREA/S008", "/GROUP/G002" ],
+    "distribution.subtype" : "6",
+    "data.id.citations" : [ "146144", "30441" ],
+    "id" : "JRC146144",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC146144,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Gook, A. and Matei, C. and Oberstedt, S. and Geerts, W. and Plompen, A. and Vidali, M. and Oberstedt, A.},\n\tabstract = {The γ-ray beam system under implementation at the Extreme Light Infrastructure – Nuclear Physics facility in Romania will deliver brilliant γ-ray beams with energies up to 20 MeV. Several instruments for measuring the parameters of the γ-ray beam have already been implemented for use at ELI-NP. Here we investigate the use of a fast ionization chamber to continuously monitor the γ-ray beam intensity at ELI-NP by measuring fission fragments from the photofission of 238U. The fast ionization chamber has been successfully tested at the GELINA facility at EC JRC-Geel using neutrons.},\n\ttitle = {A fast ionization chamber dedicated to gamma-ray beam intensity measurements at ELI-NP},\n\ttype = {},\n\turl = {https://www.sciencedirect.com/science/article/pii/S0168900226003888},\n\tvolume = {1090},\n\tnumber = {},\n\tjournal = {NUCLEAR INSTRUMENTS AND METHODS IN PHYSICS RESEARCH, SECTION A: ACCELERATORS, SPECTROMETERS, DETECTORS AND ASSOCIATED EQUIPMENT},\n\tpages = {171662},\n\tissn = {0168-9002 },\n\tpublisher = {ELSEVIER B.V.},\n\tdoi = {10.1016/j.nima.2026.171662 }\n}",
+    "extra.collection.science_area" : "Nuclear safety and security",
+    "distribution.description" : "JRC Publications Repository",
+    "dc.description.abstract" : "The γ-ray beam system under implementation at the Extreme Light Infrastructure – Nuclear Physics facility in Romania will deliver brilliant γ-ray beams with energies up to 20 MeV. Several instruments for measuring the parameters of the γ-ray beam have already been implemented for use at ELI-NP. Here we investigate the use of a fast ionization chamber to continuously monitor the γ-ray beam intensity at ELI-NP by measuring fission fragments from the photofission of 238U. The fast ionization chamber has been successfully tested at the GELINA facility at EC JRC-Geel using neutrons.",
+    "dc.contributor.author" : [ "GOOK Alf", "MATEI Catalin", "OBERSTEDT Stephan", "GEERTS Wouter", "PLOMPEN Arjan", "VIDALI Marzio", "OBERSTEDT Andreas" ],
+    "data.citation.146144.language" : "ENG",
+    "data.citation.30441.type" : "ONLINE",
+    "suggest.contributors" : [ "GOOK ALF", "MATEI CATALIN", "OBERSTEDT STEPHAN", "0000-0003-3457-7222", "GEERTS WOUTER", "PLOMPEN ARJAN", "0000-0001-9465-9639", "VIDALI MARZIO", "OBERSTEDT ANDREAS" ],
+    "collection.year_range" : 2020,
+    "dc.date.submitted" : "2026-03-04",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "GOOK, A., MATEI, C., OBERSTEDT, S., GEERTS, W., PLOMPEN, A. et al., A fast ionization chamber dedicated to gamma-ray beam intensity measurements at ELI-NP, NUCLEAR INSTRUMENTS AND METHODS IN PHYSICS RESEARCH, SECTION A: ACCELERATORS, SPECTROMETERS, DETECTORS AND ASSOCIATED EQUIPMENT, 1090, 2026, p. 171662, ELSEVIER B.V., https://data.europa.eu/doi/10.1016/j.nima.2026.171662 (online), JRC146144.",
+    "dc.date.accessioned" : "2026-05-20",
+    "dc.date.created" : "2026-05-19",
+    "data.citation.30441.language" : "ENG",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "GOOK Alf;;European Commission, Joint Research Centre (JRC);", "MATEI Catalin;;Extreme Light Infrastructure (ELI ERIC);", "OBERSTEDT Stephan;0000-0003-3457-7222;;", "GEERTS Wouter;;;", "PLOMPEN Arjan;0000-0001-9465-9639;;", "VIDALI Marzio;;;", "OBERSTEDT Andreas;;Extreme Light Infrastructure (ELI ERIC);" ],
+    "dc.identifier.doi" : "10.1016/j.nima.2026.171662 (online)",
+    "item.handle" : 146144,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-20T08:37:16",
+    "dc.title" : "A fast ionization chamber dedicated to gamma-ray beam intensity measurements at ELI-NP",
+    "distribution.group" : "Public",
+    "dc.identifier.issn" : "0168-9002 (online)",
+    "ids" : [ "0168-9002", "10.1016/j.nima.2026.171662" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 146144,
+    "dc.date.available" : "2026-05-20",
+    "data.citation.146144.type" : "GENERIC",
+    "data.citation.30441.text" : "GOOK, A., MATEI, C., OBERSTEDT, S., GEERTS, W., PLOMPEN, A. et al., A fast ionization chamber dedicated to gamma-ray beam intensity measurements at ELI-NP, NUCLEAR INSTRUMENTS AND METHODS IN PHYSICS RESEARCH, SECTION A: ACCELERATORS, SPECTROMETERS, DETECTORS AND ASSOCIATED EQUIPMENT, 1090, 2026, p. 171662, ELSEVIER B.V., https://data.europa.eu/doi/10.1016/j.nima.2026.171662, JRC146144."
+  }, {
+    "id" : "JRC143152",
+    "dc.publisher" : "SPRINGER FRANCE",
+    "data.id.datasets" : [ "1488815" ],
+    "dc.format.medium" : "Online PDF",
+    "collection.year" : 2026,
+    "data.citation.30401.type" : "ONLINE",
+    "journal.title" : "ANNALS OF FOREST SCIENCE",
+    "dc.identifier.uri" : [ "https://link.springer.com/article/10.1186/s13595-026-01332-y", "https://publications.jrc.ec.europa.eu/repository/handle/JRC143152" ],
+    "dc.description.sponsorship" : "JRC.D.1 - Land and Climate",
+    "search.contributors" : [ "CAUDULLO Giovanni", "0000-0003-4061-1204", "VOGT Peter", "0000-0002-1030-4492" ],
+    "data.citation.143152.text" : "CAUDULLO, G. and VOGT, P., Global Forest Attribute Dataset (GFAD): high-resolution spatial layers and statistics for monitoring forest morphology, connectivity, and accounting, ANNALS OF FOREST SCIENCE, 83, 1, 2026, p. 13, SPRINGER FRANCE, https://data.europa.eu/doi/10.1186/s13595-026-01332-y (online), JRC143152.",
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/GROUP/G002", "/PORTFOLIO/P000" ],
+    "distribution.subtype" : "6",
+    "id" : "JRC143152",
+    "dataset.1488815.acronym" : "null",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC143152,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Caudullo, G. and Vogt, P.},\n\tabstract = {We present the Global Forest Attribute Dataset (GFAD), a comprehensive set of spatial layers and quantitative indicators derived from the “Global Forest Cover 2020” (GFC2020). GFAD characterizes the connectivity, morphology, and spatial arrangement of forest land cover at a global scale. Central to the development of this dataset is the introduction of pyguidos, a new open-source Python module designed to automate complex image processing for landscape analysis within a Python environment. By leveraging this automated processing chain, we generated global spatial forest attribute layers, which are color-coded with standard ramps. The layers allow for intuitive visualization as well as precise identification of spatial forest attributes. All indicators are normalized on a scale of [0–100] and aggregated by country, facilitating neutral reporting and direct cross-country comparisons of forest conditions. By providing a standardized set of layers and indicators, GFAD and the underlying pyguidos framework address key forest monitoring components that can be applied in various fields, such as conservation, management, and policymaking. The versatility of these tools makes them a robust reference for a wide range of applications, allowing end-users to adapt the analysis to their specific reporting priorities. The entire dataset is publicly available on Zenodo at: https://doi.org/10.5281/zenodo.18924625, and the metadata are available at: https://metadata-afs.nancy.inra.fr/geonetwork/srv/fre/catalog.search#/metadata/7937a918-c80c-4879-b20e-24081c56ae0b.},\n\ttitle = {Global Forest Attribute Dataset (GFAD): high-resolution spatial layers and statistics for monitoring forest morphology, connectivity, and accounting},\n\ttype = {},\n\turl = {https://link.springer.com/article/10.1186/s13595-026-01332-y},\n\tvolume = {83},\n\tnumber = {1},\n\tjournal = {ANNALS OF FOREST SCIENCE},\n\tpages = {13},\n\tissn = {1297-966X },\n\tpublisher = {SPRINGER FRANCE},\n\tdoi = {10.1186/s13595-026-01332-y }\n}",
+    "data.citation.30401.text" : "CAUDULLO, G. and VOGT, P., Global Forest Attribute Dataset (GFAD): high-resolution spatial layers and statistics for monitoring forest morphology, connectivity, and accounting, ANNALS OF FOREST SCIENCE, 83, 1, 2026, p. 13, SPRINGER FRANCE, https://data.europa.eu/doi/10.1186/s13595-026-01332-y, JRC143152.",
+    "extra.collection.science_area" : "Environment and climate change",
+    "dc.description.abstract" : "We present the Global Forest Attribute Dataset (GFAD), a comprehensive set of spatial layers and quantitative indicators derived from the “Global Forest Cover 2020” (GFC2020). GFAD characterizes the connectivity, morphology, and spatial arrangement of forest land cover at a global scale. Central to the development of this dataset is the introduction of pyguidos, a new open-source Python module designed to automate complex image processing for landscape analysis within a Python environment. By leveraging this automated processing chain, we generated global spatial forest attribute layers, which are color-coded with standard ramps. The layers allow for intuitive visualization as well as precise identification of spatial forest attributes. All indicators are normalized on a scale of [0–100] and aggregated by country, facilitating neutral reporting and direct cross-country comparisons of forest conditions. By providing a standardized set of layers and indicators, GFAD and the underlying pyguidos framework address key forest monitoring components that can be applied in various fields, such as conservation, management, and policymaking. The versatility of these tools makes them a robust reference for a wide range of applications, allowing end-users to adapt the analysis to their specific reporting priorities. The entire dataset is publicly available on Zenodo at: https://doi.org/10.5281/zenodo.18924625, and the metadata are available at: https://metadata-afs.nancy.inra.fr/geonetwork/srv/fre/catalog.search#/metadata/7937a918-c80c-4879-b20e-24081c56ae0b.",
+    "dc.contributor.author" : [ "CAUDULLO Giovanni", "VOGT Peter" ],
+    "dc.date.submitted" : "2025-07-11",
+    "dc.identifier.citation" : "CAUDULLO, G. and VOGT, P., Global Forest Attribute Dataset (GFAD): high-resolution spatial layers and statistics for monitoring forest morphology, connectivity, and accounting, ANNALS OF FOREST SCIENCE, 83, 1, 2026, p. 13, SPRINGER FRANCE, https://data.europa.eu/doi/10.1186/s13595-026-01332-y (online), JRC143152.",
+    "dc.date.accessioned" : "2026-05-20",
+    "data.citation.143152.language" : "ENG",
+    "dataset.1488815.id" : "ba9bc3a3-739e-49ae-8ce6-9aa577e8cd16",
+    "dc.date.created" : "2026-05-18",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "CAUDULLO Giovanni;0000-0003-4061-1204;Arcadia SIT S.r.l.;", "VOGT Peter;0000-0002-1030-4492;;" ],
+    "dc.identifier.doi" : "10.1186/s13595-026-01332-y (online)",
+    "item.handle" : 143152,
+    "distribution.level" : "P",
+    "item.updateTime" : "2026-05-20T15:19:40",
+    "data.citation.30401.language" : "ENG",
+    "dc.title" : "Global Forest Attribute Dataset (GFAD): high-resolution spatial layers and statistics for monitoring forest morphology, connectivity, and accounting",
+    "dc.identifier.issn" : "1297-966X (online)",
+    "ids" : [ "1297-966X", "10.1186/s13595-026-01332-y" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 143152,
+    "dc.relation.ispartofseries" : "JRC143152",
+    "collection.portfolio" : "/PORTFOLIO/P000",
+    "data.id.citations" : [ "143152", "30401" ],
+    "distribution.description" : "JRC Publications Repository",
+    "suggest.contributors" : [ "CAUDULLO GIOVANNI", "0000-0003-4061-1204", "VOGT PETER", "0000-0002-1030-4492" ],
+    "collection.year_range" : 2020,
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "data.citation.143152.type" : "GENERIC",
+    "dataset.1488815.url" : "https://data.jrc.ec.europa.eu/dataset/ba9bc3a3-739e-49ae-8ce6-9aa577e8cd16",
+    "dataset.1488815.title" : "Global Forest Attribute Dataset",
+    "distribution.group" : "Public",
+    "dc.date.available" : "2026-05-20"
+  } ],
+  "params" : {
+    "criteria" : { },
+    "order" : "desc",
+    "page" : 1,
+    "pageSize" : 10,
+    "query" : "*",
+    "sort" : "dc.date.available"
+  },
+  "start" : 1,
+  "totalItems" : 39584,
+  "valid" : true
+};</script>
+<script nonce="6e3a9baf-678c-4d26-b14c-249f8229acbb">window._dictionaries=[ {
+  "code" : "CONTRIBUTOR",
+  "codes" : "/CONTRIBUTOR",
+  "label" : "Author",
+  "type" : "CONTRIBUTOR"
+}, {
+  "code" : "G001",
+  "codes" : "/GROUP/G001",
+  "label" : "Science for policy",
+  "type" : "GROUP"
+}, {
+  "code" : "G002",
+  "codes" : "/GROUP/G002",
+  "label" : "Scientific articles and academic literature",
+  "type" : "GROUP"
+}, {
+  "code" : "G003",
+  "codes" : "/GROUP/G003",
+  "label" : "Technical reports",
+  "type" : "GROUP"
+}, {
+  "code" : "G004",
+  "codes" : "/GROUP/G004",
+  "label" : "Scientific methods, data and information",
+  "type" : "GROUP"
+}, {
+  "code" : "G005",
+  "codes" : "/GROUP/G005",
+  "label" : "Presentations and science dissemination",
+  "type" : "GROUP"
+}, {
+  "code" : "GROUP",
+  "codes" : "/GROUP",
+  "label" : "Publication group",
+  "type" : "GROUP"
+}, {
+  "code" : "P000",
+  "codes" : "/PORTFOLIO/P000",
+  "label" : "Earlier Work Programmes",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P001",
+  "codes" : "/PORTFOLIO/P001",
+  "label" : "Just, competitive and sustainable green transition",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P002",
+  "codes" : "/PORTFOLIO/P002",
+  "label" : "Energy solutions",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P003",
+  "codes" : "/PORTFOLIO/P003",
+  "label" : "Pathways to climate neutrality",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P004",
+  "codes" : "/PORTFOLIO/P004",
+  "label" : "Nuclear safety - technology and skills",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P005",
+  "codes" : "/PORTFOLIO/P005",
+  "label" : "Small Modular Reactors and innovative reactor systems",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P006",
+  "codes" : "/PORTFOLIO/P006",
+  "label" : "Future Transport, Mobility and related Infrastructure",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P007",
+  "codes" : "/PORTFOLIO/P007",
+  "label" : "Sustainable materials and products for a circular, resilient and competitive Europe",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P008",
+  "codes" : "/PORTFOLIO/P008",
+  "label" : "Digital transformation: technologies, cybersecurity, and socio-economic impact",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P009",
+  "codes" : "/PORTFOLIO/P009",
+  "label" : "Embracing the AI data-driven era​",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P010",
+  "codes" : "/PORTFOLIO/P010",
+  "label" : "Drivers of competitiveness",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P011",
+  "codes" : "/PORTFOLIO/P011",
+  "label" : "Strategic technologies for economic security and innovative industrial ecosystems",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P012",
+  "codes" : "/PORTFOLIO/P012",
+  "label" : "Blueprints for a strong European Health Union",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P013",
+  "codes" : "/PORTFOLIO/P013",
+  "label" : "Synergies for a stronger EU in space, security and defence (ESSENCE)",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P014",
+  "codes" : "/PORTFOLIO/P014",
+  "label" : "Societal Resilience, Systemic Disruptive Events &amp; Risks: Enhancing Anticipation, Preparedness, and Response",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P015",
+  "codes" : "/PORTFOLIO/P015",
+  "label" : "Science for security and law enforcement",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P016",
+  "codes" : "/PORTFOLIO/P016",
+  "label" : "Nuclear Safeguards",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P017",
+  "codes" : "/PORTFOLIO/P017",
+  "label" : "Demographic Resilience and Effective Migration Strategies",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P018",
+  "codes" : "/PORTFOLIO/P018",
+  "label" : "(PT 23 + PT 34) Economic, social and territorial intelligence and impact",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P019",
+  "codes" : "/PORTFOLIO/P019",
+  "label" : "ZEro Pollution, Biodiversity  Restoration and Natural Capital Accounting",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P020",
+  "codes" : "/PORTFOLIO/P020",
+  "label" : "Transition to more resilient and sustainable food systems in a EU and global context",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P021",
+  "codes" : "/PORTFOLIO/P021",
+  "label" : "Coherent policies through Earth observation intelligence",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P022",
+  "codes" : "/PORTFOLIO/P022",
+  "label" : "Climate Adaptation and Water Resilience",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P023",
+  "codes" : "/PORTFOLIO/P023",
+  "label" : "Innovation for Democracy and Public Governance",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P024",
+  "codes" : "/PORTFOLIO/P024",
+  "label" : "Science for Global Gateway and neighbourhood policy, including enlargement",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "P025",
+  "codes" : "/PORTFOLIO/P025",
+  "label" : "Foresight, support to science and innovative policymaking",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "PORTFOLIO",
+  "codes" : "/PORTFOLIO",
+  "label" : "Portfolio",
+  "type" : "PORTFOLIO"
+}, {
+  "code" : "S001",
+  "codes" : "/SCIENCE_AREA/S001",
+  "label" : "Agriculture and food security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S002",
+  "codes" : "/SCIENCE_AREA/S002",
+  "label" : "Economic and monetary Union",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S003",
+  "codes" : "/SCIENCE_AREA/S003",
+  "label" : "Energy and transport",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S004",
+  "codes" : "/SCIENCE_AREA/S004",
+  "label" : "Environment and climate change",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S005",
+  "codes" : "/SCIENCE_AREA/S005",
+  "label" : "Health and consumer protection",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S006",
+  "codes" : "/SCIENCE_AREA/S006",
+  "label" : "Information society",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S007",
+  "codes" : "/SCIENCE_AREA/S007",
+  "label" : "Innovation and growth",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S008",
+  "codes" : "/SCIENCE_AREA/S008",
+  "label" : "Nuclear safety and security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S009",
+  "codes" : "/SCIENCE_AREA/S009",
+  "label" : "Safety and security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S010",
+  "codes" : "/SCIENCE_AREA/S010",
+  "label" : "Standards",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S011",
+  "codes" : "/SCIENCE_AREA/S011",
+  "label" : "JRC corporate",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S012",
+  "codes" : "/SCIENCE_AREA/S012",
+  "label" : "JRC historical",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "SCIENCE_AREA",
+  "codes" : "/SCIENCE_AREA",
+  "label" : "Science area",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "YEAR",
+  "codes" : "/YEAR",
+  "label" : "Publication year",
+  "type" : "YEAR"
+} ];</script>
+
+<script defer src="/repository/assets/scripts/shared.js"></script>
+<script defer src="/repository/assets/scripts/pager.js"></script>
+<script defer src="/repository/assets/scripts/home.js"></script>
+
+</body>
+</html>

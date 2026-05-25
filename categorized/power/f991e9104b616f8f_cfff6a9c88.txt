@@ -1,0 +1,214 @@
+                                           In-Confidence
+
+
+
+
+Terms of Use: Provider access to Oranga Tamariki client record system (CYRAS).
+
+Context
+
+Oranga Tamariki enables a small number of social service providers to have limited access to its
+client record system to support Oranga Tamariki work or to work on behalf of Oranga Tamariki.
+These Terms of Use apply to those social service providers as part of their contract with Oranga
+Tamariki.
+
+Definitions
+
+1    CAPP means CYRAS-Approved Provider Personnel, who are Personnel who have been
+     approved by Oranga Tamariki to access CYRAS.
+
+2    CYRAS (Care and Protection, Youth Justice, Residences, Adoptions System) means the
+     Oranga Tamariki electronic case management system designed to record information
+     about children, young people and their families who come to the attention of Oranga
+     Tamariki.
+
+3    CYRAS Agency Approval means formal written approval for a Provider or a Provider’s
+     Personnel to access CYRAS.
+
+4    Speciﬁed Policy or Procedure means policies or procedures for CYRAS use or use of
+     Oranga Tamariki hardware speciﬁed by Oranga Tamariki to the Provider from time to
+     time.
+
+5    Speciﬁed Purpose means the purpose for CYRAS use speciﬁed in a CAPP’s application
+     for CYRAS use.
+
+6    Provider means an organisation that has been contracted by Oranga Tamariki to
+     provide services, and which has been granted CYRAS Agency Approval by Oranga
+     Tamariki.
+
+General.
+
+7    Oranga Tamariki may amend the Speciﬁed Policies or Procedures at any time.
+
+8    Any information on CYRAS, including any information recorded on CYRAS by the
+     Provider:
+
+     8.1 is conﬁdential to Oranga Tamariki;
+
+     8.2 may be accessed and used for lawful purposes by the Chief Executive of Oranga
+         Tamariki and by people holding delegations of the Chief Executive’s statutory and
+         other functions and powers;
+
+     8.3 where it is personal information, is ‘held’ by Oranga Tamariki in terms of the
+         Privacy Act 2020, meaning that unless speciﬁcally provided for in contract,
+
+
+                                                                                                   1
+                                        In-Confidence
+
+
+
+          personal information collected, held or processed by the Provider on CYRAS is to
+          be treated as being held by Oranga Tamariki and not the Provider, in accordance
+          with section 11(2) Privacy Act 2020;
+
+     8.4 is a public record ‘maintained’ by Oranga Tamariki in terms of the Public Records
+         Act 2005; and
+
+     8.5 is ‘oﬃcial information’ in terms of the Oﬃcial Information Act 1982.
+
+CYRAS Agency Approval
+
+9    CYRAS Agency Approval can be suspended or revoked by Oranga Tamariki:
+
+     9.1 for breach of these Terms of Use;
+
+     9.2 for breach of a Speciﬁed Policy or Procedure by the Provider or the Provider’s
+         Personnel;
+
+     9.3 for breach of relevant laws or practice standards by the Provider or the Provider’s
+         Personnel;
+
+     9.4 otherwise for a good cause relating to CYRAS use by the Provider or their
+         Personnel; or
+
+     9.5 for a period while investigating the above.
+
+Approval for new CYRAS users.
+
+10   CYRAS may only be used by CYRAS-Approved Provider Personnel (CAPPs).
+
+11   The Provider:
+
+     11.1 will apply for CYRAS access for a prospective CYRAS user in the manner speciﬁed
+          by Oranga Tamariki;
+
+     11.2 will, in that application, deﬁne the speciﬁed purposes for the prospective CYRAS
+          user’s CYRAS access;
+
+     11.3 will ensure that the prospective CYRAS user provides any information or consent
+          requested by Oranga Tamariki; and
+
+     11.4 will conduct any initial safety checks or vetting of the prospective CYRAS user
+          required by law or by the Speciﬁed Policies and Procedures.
+
+12   Oranga Tamariki:
+
+     12.1 will review its own records about each prospective CYRAS user;
+
+     12.2 will conduct any vetting required under the Speciﬁed Policies and Procedures;
+
+
+
+                                                                                               2
+                                        In-Confidence
+
+
+
+     12.3 has absolute discretion whether to approve an application for CYRAS access; and
+
+     12.4 may grant approval subject to any conditions that must be met by the prospective
+          CYRAS user in order to receive or maintain CYRAS access.
+
+Onboarding new CYRAS users:
+
+13   The Provider will ensure that CAPPs:
+
+     13.1 complete all training required by Oranga Tamariki on the Speciﬁed Policies and
+          Procedures; and
+
+     13.2 fulﬁl any other preconditions for CYRAS use imposed by Oranga Tamariki.
+
+14   Oranga Tamariki will train CAPPs on all Speciﬁed Policies and Procedures. Once all
+     training has been completed and any other conditions have been met, Oranga Tamariki
+     will:
+
+     14.1 provide any hardware needed for CAPPs to access CYRAS; and
+
+     14.2 enable CYRAS access to the extent needed for the speciﬁed purposes.
+
+15   Hardware provided by Oranga Tamariki remains the property of Oranga Tamariki.
+
+Day-to-day responsibilities:
+
+16   The Provider will ensure that:
+
+     16.1 CYRAS will only be used by CAPPs, and only for the speciﬁed purposes;
+
+     16.2 CAPPs agree to and follow the Speciﬁed Policies and Procedures, including by
+          undertaking any additional training required from time to time;
+
+     16.3 CAPPs access no technological or other support for CYRAS use except as
+          provided by Oranga Tamariki; and
+
+     16.4 safety checks or police vetting of the CAPP are carried out periodically, to the
+          extent required by law or otherwise every three years.
+
+17   Oranga Tamariki:
+
+     17.1 will notify the Provider whenever the Speciﬁed Policies or Procedures change;
+
+     17.2 will record all CYRAS usage under each CAPP’s account;
+
+     17.3 may review a CAPP’s CYRAS use on its own initiative at any time;
+
+     17.4 may undertake periodic audits of the Provider’s use of CYRAS in addition to any
+          other audit rights under contract; and
+
+
+
+
+                                                                                             3
+                                        In-Confidence
+
+
+
+     17.5 will provide, during regular oﬃce hours, technological and other support for
+          CYRAS use to CAPPs.
+
+Removing CYRAS users:
+
+18   The Provider will notify Oranga Tamariki as soon as it knows that a CAPP:
+
+     18.1 will cease using CYRAS for the speciﬁed purpose;
+
+     18.2 will not use CYRAS for the speciﬁed purpose because of disciplinary concerns;
+
+     18.3 is involved in any incident which would reasonably cause Oranga Tamariki to
+          consider whether to suspend or revoke the CAPP’s CYRAS access; or
+
+     18.4 will not use CYRAS for a period of greater than 3 months.
+
+19   Oranga Tamariki may, of its own initiative, suspend or revoke a CAPP’s CYRAS access:
+
+     19.1 for breach of a policy or procedure for CYRAS use or use of Oranga Tamariki
+          hardware;
+
+     19.2 for breach of relevant Laws or practice standards;
+
+     19.3 otherwise for a good cause relating to CYRAS use by the Provider or their
+          Personnel; or
+
+     19.4 for a period while investigating the above.
+
+20   Hardware provided by Oranga Tamariki for CYRAS use by a CAPP must be returned to
+     Oranga Tamariki when that CAPP’s CYRAS access ends, or is suspended or revoked.
+
+21   The Provider is liable for the cost of any hardware provided by Oranga Tamariki for
+     CYRAS use if it is not returned in accordance with clause 20.
+
+
+
+
+                                                                                            4
+

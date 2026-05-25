@@ -1,0 +1,206 @@
+DOE Operator’s Panel
+  ARPA-E COOLERCHIPS
+
+
+
+
+                          Arman Shehabi
+                                  Staff Scientist
+                       Energy Technologies Area
+                                   Oct 18, 2023
+NERSC - Shyh Wang Hall - Building 59 - LBNL
+NERSC - TTM PUE
+
+
+ Four-Story 150,000 GSF
+      –   Two 20k sf office floors, 300
+          offices
+      –   28k sf HPC floor
+      –   21.5 MW Service Capacity
+ Energy Efficient
+      –   Year-round compressor-
+          free air and water cooling
+      –   LEED Gold Rated Building
+      –   High resolution monitoring
+      –   TTM PUE 1.05
+ Room Air & Cooling Water
+      –   Most hours, single pass air
+      –   Cooling Towers can provide
+          75oF (24oC) or colder water
+          all hours of year
+Center of Expertise (CoE)
+                                     Use CoE’s            Choose from live webinars, pre-       Filter CoE’s
+                                     Energy Efficiency    recorded trainings, and in-           many resources
+                                     Toolkit, including   person Data Center Energy             by type and
+ • DC Pro Software and Assessment    simulation tools.    Practitioner (DCEP) trainings.        topic.
+  Tool Suite
+ • Data Center Energy Practitioner                                                                                       Search
+  (DCEP) certificate program                                                                                             resources
+                                                                                                                         by topics
+ • Better Building Challenge                                                                                             of
+                                                                                                                         interest.
+ • Data Center Programming Guide
+ • Technology Case Study Bulletins
+ • Best Practices Guide
+ • Procurement Specifications
+ • Benchmarking Guide
+ • Report Templates
+ • Process Manuals
+ • Quick-Start Guide
+                                                                                       Visit us at http://datacenters.lbl.gov
+         NREL HPC Data Center
+Energy Systems Integration Facility (ESIF)
+                                  NREL HPC Data Center
+•   Showcase Facility                          •   Data Center Features
+     –   ESIF 182,000 ft.2 research facility        •   Direct, component-level liquid cooling, 24ºC
+     –   10,000 ft.2 data center                        (75ºF) cooling water supply
+     –   10 MW at full buildout                     •   35ºC–40ºC (95ºF–104ºF) return water
+     –   LEED Platinum facility, PUE ≤ 1.04             (waste heat), captured and used to heat
+     –   No mechanical cooling (eliminates              offices and lab space
+         expensive and inefficient chillers)        •   Pumps more efficient than fans
+                                                    •   High voltage 480 VAC power distribution
+                                                        directly to high power density 60kW–80 kW
+                                                        compute racks
+                                               •   Compared to a Typical Data Center
+                                                    –   Lower CapEx—costs less to build
+                                                    –   Lower OpEx—costs less to operate
+
+                                               •   Data Centers often largest load on campuses
+                                                    –   NREL current and projected in the 30-50% range
+
+                                                                                                NREL | 2
+• National Renewable Energy Lab                                                                                         Thank You
+     – https://www.nrel.gov
+• NREL High Performance Computing
+     – https://www.nrel.gov/hpc
+• NREL HPC Data Center
+     – https://www.nrel.gov/computational-science/hpc-data-center.html
+• NREL Data Center Contacts
+         Aaron Andersen                                    aaron.andersen@nrel.gov
+         David Sickinger                                   david.sickinger@nrel.gov
+
+This work was authored by the National Renewable Energy Laboratory, operated by Alliance for Sustainable Energy,
+LLC, for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. Funding provided by U.S.             NREL/PR-2C00-87806
+Department of Energy Office of Energy Efficiency and Renewable Energy. The views expressed in the article do not
+necessarily represent the views of the DOE or the U.S. Government. The U.S. Government retains and the publisher,
+by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up,
+irrevocable, worldwide license to publish or reproduce the published form of this work, or allow others to do so, for
+U.S. Government purposes.
+
+
+
+                                                                                                                                       NREL | 3
+NWSC Introduction
+
+
+
+
+     Michael Kercher - NWSC Operations Manager
+NWSC Specifications
+                      ●   NSF Funded FFRDC
+                      ●   Constructed in 2011
+                            ○   Tier II Data Center
+                      ●   Ten Foot Raised Floor
+                      ●   Site Location: Cheyenne Wyoming
+                            ○   6800 feet of elevation
+                            ○   Temps: -7°C to 28°C
+                            ○   Relative Humidity Range: 45% to 65%
+                      ●   Mechanical System Config
+                            ○   HX Free Cooling with Chiller Back-up
+                            ○   Class W2 Chilled Water System: 18°C Setpoint
+                      ●   20,000 sq feet of white space
+                      ●   4.2 - 4.5 MW of Current Load
+                      ●   PUE - 1.08
+                 ●   Ease of serviceability for new designs and
+                     technologies is critical for adoption
+                       ○   PPE Requirements
+                       ○   Operational Requirements
+
+
+
+
+                 ●   Understand the availability and expense of spare
+Project Advice       parts
+                       ○   Supply chains and part availability is being scrutinized
+                           more and more
+
+
+
+                 ●   Software User Interfaces should be designed for
+                     entry level or beginning users
+                       ○   Operations rely on lower level technicians to monitor
+                           and interface with these products.
+Contact info   Michael Kercher
+               Cheyenne Operations Section Manager
+               NCAR Wyoming Supercomputing Center
+               o- 307-996-4337
+               c- 307-421-4819
+               michaelk@ucar.edu
+  DOE Operator’s Panel                                                          35.6°C
+                                                                                12.9 °C
+                                                                      29.33°C
+                                                                      12.8 °C
+  ARPA-E COOLERCHIPS
+
+
+   David Grant, PE, CEM, DCEP
+   HPC Mechanical Engineer
+   Oak Ridge National Laboratory
+
+
+
+
+ORNL is managed by UT-Battelle, LLC for the US Department of Energy
+    Oak Ridge Leadership Computing Facility
+                                                                  CHW
+                                                                  42°F
+                                                        HTW       20MW
+                                                        <89.6°F
+                                                        40MW MTW
+                                                                  69-71°F
+                                                                  20MW
+
+
+
+
+       CHW CEP
+       (0.8kW/ton)
+
+
+                     MTW CEP
+                     (0.4kW/ton)
+                                                        CHW CEP
+                                                        (0.8kW/ton)
+      36.5MW
+        CHW
+                                          HTW CEP
+                                          (0.2kW/ton)
+           MTW
+     HTW
+
+2
+    Project Advice
+
+
+    • Small decisions add up to big things at the facility level
+    • Working up against a ceiling thermally, but still try to minimize
+     flow
+    • Simple fluids, savvy piping, series vs. parallel components
+    • Don’t operate a razor’s edge control envelope
+    • Maintainability
+
+
+
+
+3
+Contact-
+David Grant
+Oak Ridge National Laboratory
+865.241.9724
+grantdr@ornl.gov
+
+
+
+
+4
+

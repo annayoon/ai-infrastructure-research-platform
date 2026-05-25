@@ -1,0 +1,256 @@
+                           Working Document of the NPC Study:
+        Arctic Potential: Realizing the Promise of U.S. Arctic Oil and Gas Resources
+                               Made Available March 27, 2015
+
+
+
+
+                                   Paper #7-10
+
+       COMMUNICATIONS SOLUTIONS IN
+              THE ARCTIC
+
+
+
+
+                                   Prepared for the
+                      Technology & Operations Subgroup
+
+                                              	  
+
+On March 27, 2015, the National Petroleum Council (NPC) in approving its report,
+Arctic Potential: Realizing the Promise of U.S. Arctic Oil and Gas Resources, also
+approved the making available of certain materials used in the study process, including
+detailed, specific subject matter papers prepared or used by the study’s Technology
+& Operations Subgroup. These Topic Papers were working documents that were part
+of the analyses that led to development of the summary results presented in the report’s
+Executive Summary and Chapters.
+
+These Topic Papers represent the views and conclusions of the authors. The
+National Petroleum Council has not endorsed or approved the statements and
+conclusions contained in these documents, but approved the publication of these
+materials as part of the study process.
+
+The NPC believes that these papers will be of interest to the readers of the report and
+will help them better understand the results. These materials are being made available
+in the interest of transparency.
+
+The attached paper is one of 46 such working documents used in the study analyses.
+Appendix D of the final NPC report provides a complete list of the 46 Topic Papers.
+The full papers can be viewed and downloaded from the report section of the NPC
+website (www.npc.org).
+
+
+	  
+       This page is intentionally left blank.
+
+
+
+
+	  
+Topic Paper
+(Prepared for the National Petroleum Council Study on Research to Facilitate Prudent Arctic Development)
+
+
+
+   7-10           Communications Solutions in the Arctic
+
+Author(s)         Martin Stewart (DESIT)
+
+              Dale Farmer (ExxonMobil)
+Reviewers     Mitch Winkler (Shell)
+              Dennis Warth (Cynergy)
+Date: August 13, 2014                  Revision: Final
+SUMMARY
+Northern Alaska telecommunication capabilities currently include , constraints and technological
+recommendations for the future to support Alaskan Arctic OCS explorations and development.
+
+
+
+PURPOSE
+
+To provide information on the demand for telecommunications services and bandwidth to
+facilitate the technological requirements of today’s resource developments, and the social
+and economic needs of communities (education and Health Services) served.
+
+
+
+BACKGROUND/ONGOING RESEARCH
+
+There are three primary telecommunications transport methods being utilized in northern Alaska.
+These telecommunications facilities or infrastructure make up the backbone of the connections to
+the main communication centers in Alaska and the rest of the US.
+
+              •   Satellite - The primary means of transport to the outside world throughout the
+                  communities of the Arctic and the OCS, with the exception of the Prudhoe Bay
+                  operating area and its associated pipeline corridor. Satellite technology is the
+                  primary means of telecommunication transport for the local phone companies,
+                  and remote facilities of the resource exploration projects, including the offshore
+                  activities. Satellite technologies have improved at a tremendous rate, analogous
+                  to the cell phone becoming a smart phone, and satellite capabilities and
+                  bandwidth efficiencies have kept pace with demand, which have enhanced and
+                  delivered quality services to the exploration offshore activities and will continue
+                  to do so.
+
+
+
+
+Logistics and Infrastructure                                                                               1	  
+            •   Point to Point Radio (Microwave) - supports the extension of the footprint of
+                services from the Satellite earth station or fiber optic facilities to areas requiring
+                telecommunication services. This is generally referred to as “last mile
+                connectivity”, however where other infrastructure (Roads and Power) are
+                available it may be utilized for long hall transport. For example, the Alyeska
+                Pipeline supports such a system.
+            •   Fiber Optic Connectivity - Currently this method is available via the Pipeline
+                corridor and supports the Prudhoe Bay operating areas with much greater
+                capacities and speed to satisfy the increasing technological demands for
+                telecommunication services.
+
+Outside the Prudhoe Bay operating area Fiber connectivity does not currently exist, nor does
+extensive backbones of Microwave radio systems. The communities are not linked together due
+to the large expanses of geography between them and the lack of infrastructure (Power, Roads)
+to make these connections feasible, therefore the satellite earth station is the primary
+telecommunications infrastructure. Off shore, the Satellite (VSAT) technologies supply
+untethered IT capabilities that are required in a moving marine environment, and the VSAT does
+so with ever increasing efficiencies.
+
+DISCUSSION/POTENTIAL AREAS OF FURTHER RESEARCH
+
+Which technology is utilized in these more remote areas is dependent on many criteria,
+economics, time (duration of the telecom requirements), availability of infrastructure (power
+utilities) and transport methods (road, marine, aircraft) for accessing the area.
+
+   •   The life cycle of the telecommunication/IT requirement generally has strong influence on
+       technologies utilized and the investments made to satisfy either the long term or short
+       term needs. As infrastructure develops in a community or demands from a resource
+       development project increase the telecommunications technologies deployed will become
+       more robust and reliable.
+   •   These technologies require forethought and planning as construction cycles are long in
+       the Arctic, very seasonal, and with short windows of opportunities to accomplish physical
+       construction and implementation of telecommunication facilities. This timing constraint
+       is profoundly evident in the offshore drilling were Weather, Ice, and Regulation dictate a
+       short seasonal cycle(100 days or less), and robust and redundant VSAT systems are
+       deployed for reliable delivery and safe operations.
+
+The Telecommunications Industry has strived to provide “ubiquitous” services throughout the
+US and the world, and the technologies deployed have for the most part delivered this and
+become what we expect in today’s world.
+
+
+
+
+Logistics and Infrastructure                                                                             2	  
+   •   The current communications infrastructure in the Arctic does not integrate well into this
+       modern broadband world as the infrastructure to support them is limited (exception-
+       Prudhoe Bay OA), and the opportunities for further development of Telecommunication
+       facilities (Fiber Optic connectivity, Long hall Microwave networks) are economically
+       challenging and require significant infrastructure to support.
+   •   The efficient integration of these technologies linking the Arctic communities to each
+       other and resource projects to the broadband world are challenged not only by regulatory
+       and fiscal constraints, but also by physical constraints of the arctic environment.
+
+Key considerations for improvement include:
+
+           •   Power. A subject by itself, but telecommunications facilities require power
+               (sustained, and reliable) for both permanent (long term) and temporary
+               (seasonal/short term) requirements.
+                   o When there is a requirement for facilities to link projects or communities
+                        in the Artic that span vast amounts of geography, the ability to provide
+                        sustained power at remote sites (relay/repeater towers etc) is usually the
+                        show-stopper for the development of such a system. The ability to
+                        provide sustained power is not feasible without infrastructure (roads
+                        and/or utilities).
+           •   Transportation Corridors. Significantly aid in the development of communication
+               facilities, a good example being the Prudhoe Bay OA.
+                   o These corridors generally lead to and connect to the facilities requiring
+                        telecommunication services, and these facilities meet the sustained power
+                        requirement as well.
+                   o Corridors also ease access requirements for the construction and
+                        deployment of the various telecommunication technologies and facilities.
+                   o Corridors generally are a pathway for utility distribution (power, and
+                        telecommunications )
+                   o Corridors generally indicate long term requirements versus seasonal or
+                        temporary activities.
+           •   All three Telecommunication transport methodologies described above have
+               similar and unique environmental hurdles in the Arctic.
+                   o Fiber Optic cable, being the least mature in its application and deployment
+                        in both the Arctic waters and terrestrially across lands of permafrost,
+                        provide for unique challenges.
+                   o Microwave and Satellite have similar issues terrestrially, but have been
+                        dealt with and engineered for many years, however they both have
+                        technological issues unique to the Arctic as well to include
+                        electromagnetic variations affecting performance, more pronounced sun
+                        spot outages, and satellite grazing (look) angles.
+
+
+Logistics and Infrastructure                                                                     3	  
+                   o Satellite usage off shore, especially as we operate in the far northern
+                     latitudes, begins to degrade in its reliability(up time) due to extreme low
+                     look angle to the satellite itself.
+                   o Satellite low look angle and the ever present fog (high moisture) effects
+                     signal efficiencies (degradation of through put), although somewhat rare
+                     when it happens there is little that can be done about it.
+                   o The Arctic is only supported by a few satellites that have spot beams
+                     (footprints) that provide coverage. Generally the Arctic is on the outer
+                     edge of these coverage areas and this limits available bandwidth both
+                     technologically and the number of satellite transponder providers.
+                     Transponder coverage also affects the satellite antenna size utilized on the
+                     vessels and as this coverage improves the ability to utilize smaller
+                     antennas (dishes) becomes feasible; important where precious deck space
+                     is typically an issue.
+
+While these challenges present a few of the obstacles facing the provisioning of the integrated
+telecommunications model “ubiquitous services” there is movement towards solutions on the
+horizon. Several Telecommunications providers are promoting plans to extend services from
+Anchorage and Fairbanks to the Arctic coast. One provider has extended their Fiber network
+from Anchorage to Alaska’s west Coast (Bristol Bay) and extended its broadband services
+further up the west coast utilizing long hall microwave facilities to Kotzebue. Others are
+planning to lay Fiber optic cables up the west arctic coast and across the NW passage.
+
+The satellite industry continues to make significant improvements in both the availability of
+spectrum and the technologies to facilitate maximizing the amount of information that can be
+transferred. VSATs today provide the ability to supply real time information from offshore
+operations such as real time drilling information, operational video, etc., while simultaneously
+delivering voice (telephone), data and internet functionality safely and with unprecedented
+reliability. In the not too distant past a couple of 64kbps circuits for telephone and facsimile
+were a luxury to operators. Today’s VSAT delivers upwards of 2-3Mbps of
+bandwidth/throughput, and as spectrum and coverage in the Arctic increase we can expect the
+VSAT technologies to deliver an ever increasing amount service supporting the technological
+demands of modern exploration activities safely and efficiently.
+
+RECOMMENDATIONS
+
+Enhanced telecommunications capabilities in northern Alaska would benefit from:
+
+   •   The availability of the broadband services.
+          o The development of these telecommunication facilities will link communities and
+              bring the necessary broadband bandwidth to enable them to participate in
+              capabilities similar to the rest of the US.
+
+
+
+Logistics and Infrastructure                                                                       4	  
+            o Economically. The development of a suitable Telecommunications infrastructure
+                will require a “coordinated (Industry, Federal, State and Local) investment
+                decisions”.
+    •   Prudent investment in Arctic Telecommunication Solutions will provide the linking of
+        communities across the Arctic coast to the broadband networks in Anchorage and the rest
+        of the US.
+            o The Arctic Telecommunications challenge provides opportunities to Industry,
+                Federal, State and Local Governments and Academia to develop, test, and utilize
+                modern, cutting edge and exploratory technologies.
+            o This investment would enhance operational safety during exploration and
+                development phases of OCS oil and gas activity and the peoples of Alaska while
+                enhancing the protection of the Arctic environment.
+Prepared by: Martin Stewart
+Organization: DESIT ,LLC Anchorage Alaska
+Mjspa18@gmail.com
+Martin.stewart@shell.com
+Office Phone: 907-646-7102
+
+
+
+
+Logistics and Infrastructure                                                                  5	  
+

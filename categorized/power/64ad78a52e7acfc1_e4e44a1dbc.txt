@@ -1,0 +1,472 @@
+Sustainable Cooling Technologies
+           for Data Centers
+
+
+  IIR, Vice Chair of Air Conditioning (E1) Commission
+                                   Tsinghua University
+                                      Baolong WANG
+                                            2025.7.7
+           1   Background
+
+           2   Principle
+Contents   3   Sustainable Cooling Technologies
+
+           4   Conclusion
+
+
+
+
+                                                  2/27
+           1   Background
+
+           2   Principle
+Contents   3   Sustainable Cooling Technology
+
+           4   Conclusions
+
+
+
+
+                                                3/27
+   1              Rapid growth of data center market
+
+     ⚫ Data center supports artificial intelligence, IoT, big data analysis……
+                           Artificial intelligence                      Data center market composition
+                                                                    Hardware    Software   Services
+
+
+
+
+                Industrial IoT              Big data analysis   2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030
+
+
+     ⚫ Market projections indicate a compound annual growth rate of 11.2%
+
+Data Center Market Size, Share, & Trends Analysis Report
+                                                                                                                  4/27
+   1             Fast expansion of DC cooling demand and emission
+       Global data center cooling market size                         Global carbon emissions from data centers
+
+
+
+
+        Increased utilization of data centers →
+                             Elevated energy consumption and carbon emissions
+China Data Center Industry Development White Paper (2023) and Data Centers and Data Transmission Networks
+                                                                                                            5/27
+1   Background
+
+2   Principle
+
+3   Sustainable Cooling Technology
+
+4   Conclusions
+
+
+
+
+                                     6/27
+2   Typical Configurations of Data Center Cooling Systems
+
+
+
+                                      Refrigeration unit
+
+
+
+                         CRAC                               Cooling
+                                                             tower
+
+
+                                   Evaporator   Condenser
+
+
+
+         Heat           Heat                      Heat
+        capture        Transfer                  release
+
+
+
+                                                                      7/27
+2     Principle
+    ⚫ Pathways for sustainable cooling of data centers
+
+
+                         ①:Heat capturing
+
+
+
+       Optimal                 ②:Heat                Intelligent
+       Design               transporting             operation
+
+
+                              ③:Heat
+                            dissipating
+
+
+
+                                                                   8/27
+           1   Background
+
+           2   Principle
+Contents   3   Sustainable Cooling Technology
+
+           4   Conclusions
+
+
+
+
+                                                9/27
+  3            Sustainable Cooling Technology
+      3.1 Heat capturing
+          Target: 1) Decrease the heat exergy degradation (by heat transfer or mixture), and
+                  2) Enhance the heat transfer intensity
+
+
+
+
+Room-level air conditioning   Row-level air conditioning   Rear-door air conditioning    Server/Chip/Liquid cooling technology of
+                                                                                                       Data centers
+PUE
+1.6
+       PUE:1.40~1.65
+1.4                              PUE:1.30~1.45
+
+                                                            PUE:1.20~1.35                    Server
+1.2
+                                                                                        PUE:1.15~1.30                 Chip
+
+                                                                                                               PUE:1.05~1.25
+1.0
+                                                 Development of cooling technology
+                                                                                                                          10/27
+3.1          Heat capturing
+
+        ①Room-level air conditioning                            ②Row-level air conditioning
+
+
+
+
+                           Underfloor air supply
+  Hot aisle/cold aisle
+                           with hot aisle closure
+  without containment
+
+
+
+
+                                                    minimizes airflow distance, enables precise demand-driven cooling,
+                         Underfloor air supply
+Airflow management                                  and consequently enhances energy efficiency
+                         with cold aisle closure
+
+
+
+                                                                                                            11/27
+3.1     Heat capturing
+ ③Liquid cooling technology of data centers
+
+          cold plate liquid cooling      immersion liquid cooling        spray/jet liquid cooling
+
+
+         Single-phase    Phase-change    Single-phase   Phase-change   Single-phase    Phase-change
+
+
+
+
+                  Cold plate            Immersion liquid cooling         Spray liquid cooling
+
+
+
+                                                                                                      12/27
+3.1    Heat capturing
+
+ Two-phase immersion liquid cooling
+                     Condenser
+
+                     Condenses back to liquid state
+                     and returns to the immersion tank
+                     Vapor rises to the top
+
+
+
+
+                     Heat from chips
+                     vaporizes the liquid
+
+
+
+
+        ◼ Eliminating airflow-dependent cooling infrastructure
+        ◼ Achieving near-theoretical energy efficiency limits
+        ◼ Supporting ultra-high power density deployments
+
+                                                                 13/27
+3.1       Heat capturing
+                                 ◼ Targeted spraying based on localized
+      Spray/Jet liquid cooling
+                                   heat flux density
+                                 ◼ Reduces coolant consumption
+                                 ◼ Decreases structural floor loading
+
+
+
+
+                                                                    14/27
+3.1   Heat capturing
+          Comparison of different Liquid cooling technologies
+
+
+
+
+                                                                15/27
+3.2           Heat transporting
+
+            AHU,   Chiller,
+                                   Cooling      Target: 1) Minimize transport power required, and
+                                   Tower,
+            33%     28%
+                                     5%                 2) Use environmental friendly coolant
+
+                                                  𝑚𝐶𝑝(𝑇𝑖 − 𝑇𝑜 ሻ
+                                                𝑄= ሶ                                 𝑃= ሶ
+                                                                                       𝑚∆𝐻
+  Chilled                     Cooling
+                               water
+  water                                                                        → Refrigerants' lower
+  pupm,                       pump,
+                               17%                                             viscosity versus water,
+   18%
+                                             → Larger heat transfer            coupled with vapor-liquid
+                                             temperature differentials         density differences, enable
+The energy consumption
+proportion of Heat transport                 increase exergy destruction       reduced transport energy
+ within data centers' annual                 → Lower flow rates reduce fluid   → Higher fluid density
+total energy usage is                        transport energy consumption      permits smaller piping
+continuously rising                                                            diameters, conserving space
+
+
+
+                                                                                                     16/27
+3.2    Heat transporting
+
+Heat pipe loop
+
+                           Gravity-driven(thermosyphon)
+                           Utilizes gravity potential and density
+                           differential as circulation driving force.
+                           Liquid pump driven
+                           Utilizes liquid pump as circulation
+                           driving force; cavitation prevention
+                           required.
+                           Gas pump driven
+                           Utilizes vapor compressor as
+                           circulation driving force; liquid
+                           slugging prevention required.
+
+
+
+                                                               17/27
+3.3        Heat dissipating
+Integrated system architecture
+                                                                         ② Thermal Energy Storage
+            ⑤ High-Efficiency Chillers
+                                                                         →Ice-based thermal energy storage
+            →Magnetic bearing variable frequency drive chillers
+                                                                         →Water-based sensible thermal energy storage
+            →Water/air-cooled VFD chillers
+            →Low condenser water temperature operation
+⑥High-Efficiency Customized Terminal Units
+→Electronically commutated (EC) fans
+→Fresh air / full recirculation mode
+
+            ⑦ Packaged Cooling Plant System
+            → Prefabricated modular units                 ① Natural
+            → Unitary integrated cooling plant            Cooling
+            → Integrated building management system       → Water-Side
+                                                          → Air-Side
+⑧ AI-Driven Energy Management Platform
+→ All-variable speed drive configuration
+→ Free cooling; redundant hot standby
+
+            ③ Evaporative cooling                                              ④ Waste Heat Recovery
+            → reduction of cooling source temperature                          → Condenser Heat Recovery System
+                                                                               → Total Heat Recovery
+
+
+                                                                                                           18/27
+3.3              Heat dissipating
+                                                         Advantages:
+  ① Natural cooling
+                                                                 • Environmental Sustainability
+                                                                 • Economic Viability
+ Types of natural cooling system
+
+
+  Classification           Type
+                           Direct
+      Air-side
+                          Indirect
+                   Direct water-cooling
+                        Air-cooling
+   Water-side
+                      Cooling tower
+                   /evaporative cooling
+                      By driving force
+   Heat pipe             By system
+                     By outdoor cooling
+                                           Air-cooled chillers             Chiller + Direct         Chiller + Indirect
+                                          Dry-bulb temperature           evaporative cooling       evaporative cooling
+                                                                        Wet-bulb temperature      Dew-point temperature
+
+                                                           Active/natural cooling integrated systems
+                                                                                                                19/27
+3.3      Heat dissipating
+ ② Data Center Cooling Thermal Storage
+
+                                                                     Advantages:
+                CH-01         CH-02         CH-03         CH-04      • Increasing Cooling
+                                                                       Capacity: Enhances the
+                                                                       operational resilience of data
+                                                                       center cooling systems
+                                                                     • Customer-Side Energy
+                                                                       Storage: Improves grid
+                                                                       reliability and increases
+                                                                       renewable energy utilization
+                                                                       rate
+                                                                     • Time-of-Use Electricity
+              Controller
+                 for
+                            Controller
+                               for
+                                          Controller
+                                             for
+                                                        Controller
+                                                           for
+                                                                       Pricing: Reduces
+               Chiller1      Chiller2      Chiller3      Chiller4
+                                                                       operational costs
+             1#Cooling     2#Cooling     3#Cooling     4#Cooling
+              Module        Module        Module        Module
+
+
+
+
+                                                                                             20/27
+3.3        Heat dissipating
+
+③ Evaporative cooling: reduction of cooling source temperature
+ Typical Evaporative Cooling Heat Transfer Process
+
+
+
+
+                                                 Internally-cooled indirect         Externally-cooled indirect
+                                                 evaporative air handling unit      evaporative air handling unit
+
+
+
+  → Heat removal via water evaporation
+  → Direct evaporative cooling (ts) /
+  Dew-point evaporative cooling (tl)
+  → Generates chilled air/water or
+  condenses refrigerant (evaporative
+  condensation)
+                                                     Indirect evaporative chiller   Evaporative condenser unit
+
+
+                                                                                                              21/27
+3.3         Heat dissipating
+④ Data Center Waste Heat Recovery Technologies
+  Various heat sources                            Various heat sinks
+      Air Cooling Thermal Sources: High-          District Heating: Supplies hot water/space heating
+      temperature exhaust air, condenser water,   Organic Rankine Cycle (ORC) Power Generation:
+      chilled water                               Directly offsets electricity consumption
+      Liquid Cooling Thermal Sources: Coolant     Supplementary Cooling: Waste heat-driven refrigeration
+                                                  compensating cooling load
+      return flow, process cooling liquid
+
+
+
+
+            Air Cooling Thermal Sources                                District Heating
+
+
+                                                                                                 22/27
+3.4         Case Study
+Integrated Cooling Plant- Qingpu, Shanghai
+
+Cooling System Architecture：
+→ Dual-loop system design with two cooling plants
+operating in parallel to provide mutual hot standby
+capability
+→ Implementation of closed-circuit cooling towers
+enabling valve-free free cooling operation
+→ Customized rack-level cooling terminals with 22 C
+elevated supply temperature and balanced hot aisle
+closure
+
+Global Coefficient of Performance (GCOP) for the entire
+cooling system and Annual Coefficient of Performance
+(ACOP) for the integrated cooling plants are 6.95 and
+8.77
+
+
+                                                          23/27
+3.4        Case Study
+Magnetic Bearing Centrifugal Chillers - Beijing
+                                                                       Cooling tower   Condenser                  Evaporator
+ Cooling System Architecture：                                                                      Chiller Unit
+ → The cooling system employs two magnetic bearing                           Pump
+
+ centrifugal chillers
+ → Rack-level cooling terminals minimizing indoor                                                                              Tank
+
+                                                                                       Condenser                  Evaporator
+ energy consumption
+ → A custom-engineered oil-based heat transfer fluid
+                                                                                                   Chiller Unit
+ with enhanced thermal efficiency and IT equipment
+ safety
+
+Magnetic bearing chillers achieved significant noise
+                                                         Chiller COP
+reduction (≤75 dB(A)) .The calculated seasonal average
+Coefficient of Performance (COP) reached 12.69
+
+
+                                                                           Condenser Water Supply Temperature(℃)
+
+                                                                                                                                      24/27
+1   Background
+
+2   Principle
+
+3   Sustainable Cooling Technology
+
+4   Conclusions
+
+
+
+
+                                     25/27
+4   Conclusions
+
+    ➢The rapid expansion of data centers drives massive
+     electricity consumption, ​resulting in​ significant
+     greenhouse gas (GHG) emissions
+    ➢To address​ the intensified heat generation from super
+     servers, more powerful cooling systems ​are
+     imperative
+    ➢Developing sustainable cooling solutions demands ​a
+     comprehensive approach​ — ​from​ efficient heat
+     capturing ​to​ low-energy heat transport ​and​ optimized
+     heat dissipation mechanisms
+
+
+                                                                26/27
+Thanks
+
+
+         27/27
+

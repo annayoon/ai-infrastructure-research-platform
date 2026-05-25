@@ -1,0 +1,2191 @@
+                                                  Coalition for Disaster Resilient Infrastructure
+
+
+
+
+EXECUTIVE SUMMARY
+
+
+
+Global
+Infrastructure
+Resilience 2025
+Capturing the Resilience Dividend
+
+
+A Biennial Report from the
+Coalition for Disaster Resilient Infrastructure
+This Work is a product of the Coalition for Disaster Resilient Infrastructure (CDRI) as part of the second Global
+Infrastructure Resilience report (GIR 2025) and features external contributions from multiple organizations. The full
+report and the executive summary may be accessed at https://cdri.world/resilience-dividend/global-infrastructure-
+resilience-report-second-edition/. All working papers for this report (GIR 2025 Working Paper Series) are available
+on the official website of CDRI, accessible on the web link mentioned above. They provide detailed background
+material, methodologies, analyses, and case studies for each chapter of the report. The papers will be released
+sequentially starting November 2025 through 2026.
+
+
+An online data platform enabling visualization, analyses, and downloading provisions for the results of the Global
+Infrastructure Risk Model and Resilience Index (GIRI) is available at https://cdri.world/giri. Updates incorporating
+the GIR 2025 results will be available on this platform in early 2026.
+
+
+
+Disclaimer                                 Rights and Permissions                  responsibility of the author or
+The findings, analyses,                                                            authors of the adaptation and are
+interpretations, and conclusions                                                   not endorsed by CDRI.”
+expressed in this Work by
+partners/contributors do not               This work is available under            Third-party content: CDRI
+necessarily reflect the views of           the Creative Commons                    does not necessarily own each
+CDRI, its executive committee,             Attribution 4.0 International           component of the content
+or the Members of the Coalition.           Licence (CC BY-NC 4.0) (https://        contained within the Work. CDRI
+The boundaries and names shown             creativecommons.org/licenses/           therefore does not warrant that
+on the maps and graphs and the             by-nc/4.0/). Under this Creative        the use of any third party-owned
+designations used in this report           Commons Attribution licence, you        individual component or part
+do not imply official endorsement          are free to copy, remix, transform,     contained in the Work will not
+or acceptance by the CDRI. The             redistribute the material or            infringe on the rights of those
+designations employed and                  adapt the material, only for non-       third parties. The risk of claims
+the presentation of material on            commercial purposes under the           resulting from such infringement
+the maps herein do not imply               following licence conditions:           rests solely with you. If you wish
+the expression of any opinion                                                      to re-use a component of the
+whatsoever on the part of the              Attribution: Every time the ‘Work’      Work, it is your responsibility to
+Secretariat of the United Nations          is either distributed, transmitted,     determine whether permission
+concerning the legal status of any         adapted, or in any other manner         is needed for that reuse and,
+country, territory, city, or area, or      used, the same has to be cited          consequently, obtain permission
+of its authorities, or concerning          as follows: “CDRI (2025). Global        from the copyright owner.
+the delimitation of its frontiers or       Infrastructure Resilience 2025          Examples of components can
+boundaries. Nothing herein shall           Report. Coalition for Disaster          include, but are not limited to,
+constitute or be considered a              Resilient Infrastructure, New           tables, figures, or images.
+limitation upon or waiver of any           Delhi.”
+legal, proprietary rights, privileges,                                             Any adaptation, distribution,
+and immunities of CDRI, all of             Translations: If a translation of       publication, transmission, or any
+which are specifically reserved.           this work is created, the following     other use of the Work through
+                                           disclaimer must be added in             this license by you shall not
+ISBN: 978-81-965011-1-2                    addition to the attribution: “This      violate any law in force in the
+                                           translation was not created             territory of use.
+                                           by CDRI and should not be
+                                           considered an official CDRI             All queries should be addressed
+                                           translation. CDRI shall not be          to: Global Infrastructure Resilience
+                                           liable for any content or error in      (GIR) report team, CDRI
+                                           this translation.”                      Secretariat, Coalition for Disaster
+Cover                                                                              Resilient Infrastructure, India
+The cover image shows annual test          Adaptations: If you adapt the           e-mail: biennialreport@cdri.world
+of the Ramspol inflatable rubber           Work, the following disclaimer
+surge barrier near the village of Ens in
+Kampen, The Netherlands. It can be         must be added along with the
+inflated during storms, stopping water     attribution: “This is an adaptation
+from the Ketlemeer from going into
+                                           of an original Work by CDRI.
+the Zwarte Meer between Flevoland
+and Overijssel. It captures innovation     Views and opinions expressed
+and resilience in infrastructure.          in the adaptation are the sole
+Source: Getty Images
+EXECUTIVE SUMMARY
+
+
+Global Infrastructure Resilience 2025
+Capturing the Resilience Dividend
+
+
+
+
+A Biennial Report from the Coalition for Disaster Resilient Infrastructure
+Testimonials
+
+
+Suman Bery               As escalating risks and the increasing intensity of disasters redefine global
+Vice Chairman, NITI      development, the need for collective action to forge stable and scalable
+Aayog, Government of     pathways to sustainable growth has become more indispensable than ever.
+India                    CDRI’s second Global Infrastructure Resilience report (GIR 2025) arrives at
+                         a crucial moment, offering practical insights and thoughtful guidance for
+                         countries striving for growth that is both resilient and equitable.
+
+                         Providing compelling evidence on the magnitude of indirect economic losses
+                         from infrastructure disruptions, it underscores that faster, comprehensive,
+                         and well-financed reconstruction, supported by strong institutional readiness,
+                         is key to shaping a world that learns to thrive through resilience. Ensuring
+                         dedicated budgets for maintenance, transparent rules for resilience financing,
+                         and targeted retrofitting of vulnerable assets is equally critical. Infrastructure
+                         agencies must be empowered with clear mandates, adequate contingency
+                         funds, and appropriate financial instruments to enable swift and complete
+                         reconstruction after disasters. Furthermore, by advancing nuanced risk
+                         assessment and leveraging technological innovation and novel approaches to
+                         scale resilience, the report outlines pathways for tangible outcomes that can
+                         drive sustained and collective progress.
+
+                         Building resilience is a shared responsibility, globally and within countries.
+                         It calls for coherence between science, policy, finance, and implementation,
+                         and for deeper global cooperation and partnerships. This report provides
+                         both the evidence and the vision needed to make resilience a cornerstone of
+                         sustainable development and collective progress.
+
+
+
+Rosa Galvez              Building on the foundation of its inaugural edition, the second Global
+Senator, Independent     Infrastructure Resilience report (GIR 2025) reaffirms that resilience is not an
+Senators Group, Senate   afterthought but is central to the global adaptation agenda. By placing resilient
+of Canada                infrastructure at the heart of this collective ambition, the report envisions a
+                         future that is equitable, inclusive, and grounded in protecting those most at
+                         risk. Its renewed focus on coordinated and forward-looking policies, innovative
+                         engineering and technological solutions, and clear standards and regulations
+                         that embed resilience across all stages of planning and implementation, sets
+                         a clear direction towards stronger and more adaptive systems.
+
+                         Equally important are the often-overlooked investments in maintenance,
+                         retrofitting, data systems, and capacity building, which quietly but powerfully
+                         reinforce the infrastructure that sustains communities and economies. These
+                         are reminders that infrastructure resilience must follow a collaborative and
+                         systemic approach, evolving with foresight and guided by the principles of
+                         inclusion and justice, to ensure that knowledge translates into meaningful
+                         action.
+
+                         CDRI’s leadership through this report exemplifies the power of shared
+                         purpose and vision. I strongly commend this effort, which stands as a
+                         powerful testament to how policy, innovation, and collective resolve can drive
+                         transformative change and secure a resilient and sustainable future for all.
+
+
+
+
+                                                 4
+                                            Testimonials
+Kamal Kishore               Resilient infrastructure not only saves lives and livelihoods, but it is the
+Special Representative      backbone of sustainable development. As countries face larger and more
+of the United Nations       expensive disasters, it is critical that all infrastructure investment decisions be
+Secretary-General           guided by an understanding of current and future disaster risks. The second
+(SRSG) for Disaster Risk    Global Infrastructure Resilience report (GIR 2025) is a valuable contribution to
+Reduction, and Head
+                            ensuring that all infrastructure is built to last.
+of the United Nations
+Office for Disaster Risk
+Reduction (UNDRR)
+
+
+
+Rachel Kyte                 Infrastructure sits at the intersection of climate ambition, economic stability,
+UK Special                  and our overall well-being. It determines whether communities can withstand
+Representative for          disruption, recover with dignity, and continue to thrive amid rising climate and
+Climate, and Professor      disaster adversities. CDRI’s second Global Infrastructure Resilience report
+of Practice in Climate      (GIR 2025) deepens this understanding by demonstrating how resilience can
+Policy, Blavatnik School
+                            be built into infrastructure systems, policies, and finance—not as a secondary
+of Government, University
+of Oxford
+                            consideration but as a central pillar of development strategy.
+
+                            The report advances the global dialogue on how governments and financial
+                            institutions can embed resilience within fiscal and investment frameworks.
+                            It sets out a layered approach that integrates public finance, concessional
+                            resources, private capital, and coherent planning and policy to strengthen
+                            systemic preparedness. In doing so, it reinforces the priorities of the COP30
+                            Presidency—to close the adaptation finance gap, foster stronger multilateral
+                            cooperation, and ensure that climate finance reaches the most vulnerable
+                            communities without adding fiscal strain. Equally, its focus on enhancing
+                            the resilience of renewable energy systems is critical to sustaining net-zero
+                            transitions and ensuring reliable, equitable access to essential services.
+
+                            At a time when resilience is emerging as the nucleus of the global adaptation
+                            agenda, GIR 2025 report distinguishes itself by turning complex deliberations
+                            into clear, actionable insights. It reinforces that resilient infrastructure is not
+                            only about withstanding shocks but about enabling progress, equity, and
+                            stability in a world committed to sustainable growth.
+
+
+
+Meike Van                   Rainfall has changed. Temperatures are rising. We need to adapt now. CDRI’s
+Ginneken                    GIR 2025 report provides data, analysis, and solutions. It shows the urgency
+Water Envoy, Government
+                            of proactive prevention, resilient new infrastructure, and asset management.
+of the Netherlands          I recommend the GIR 2025 to help prioritize adaptation investments because
+                            we need to get the biggest bang for every buck of climate finance.
+
+
+
+
+                                                     5
+                                                Testimonials
+Maria Netto                 The GIR 2025 report plays a crucial role in advancing the next generation
+Executive Director,         of finance innovation—one that connects rigorous assessment, investment
+Instituto Clima e           strategy, and policy vision. By providing data-driven insights and a framework
+Sociedade, Brazil           for evaluating resilience, it helps governments, investors, and development
+                            institutions understand where and how capital can most effectively support
+                            adaptive infrastructure.
+
+                            Financing resilience requires a new generation of innovation—one that
+                            integrates rigorous risk assessment, financial instruments, and long-term
+                            planning to align investment flows with adaptation needs. By linking data,
+                            technology, and governance, we can transform infrastructure from a source of
+                            vulnerability into a driver of stability and opportunity. The resilience dividend is
+                            not abstract—it is the economic, social, and environmental return that comes
+                            from embedding adaptation at the core of development finance.
+
+
+
+Stephane                    In just a few years, CDRI has firmly established its position as an essential
+Hallegatte                  actor in economic resilience and infrastructure development, helping
+Chief Climate Economist,
+                            government, international organizations, and private actors better understand
+The World Bank              and quantify the value of more resilient infrastructure. They have done it
+                            with robust analytics for risk-informed investments, strong collaborations,
+                            and innovative initiatives, and this new report is an important and actionable
+                            addition to global knowledge on the opportunities from resilient infrastructure.
+
+
+
+Eduardo A.                  The GIR 2025 report marks a vital shift from risk management to reliability,
+Cavallo                     placing resilience and equity at the heart of global infrastructure strategies.
+Principal Economic
+                            By emphasizing actionable recommendations and innovative financing,
+Advisor of the              this report addresses the sector’s most urgent priorities—ensuring that
+Infrastructure and Energy   infrastructure systems can withstand shocks, adapt to changing conditions,
+Sector, Inter-American      and continue delivering essential services for all.
+Development Bank
+                            GIR 2025 recognizes that resilience is not only about minimizing losses but
+                            also about unlocking long-term economic, social, and environmental benefits.
+                            Its focus on practical solutions, inclusive approaches, and new financial
+                            instruments will help guide policymakers and practitioners as they work to
+                            close investment gaps and build a more sustainable future.
+
+                            This work is an important contribution to the global agenda, helping move us
+                            decisively from risk to reliability and inspiring collaboration across regions
+                            and sectors.
+
+
+
+Alexandra                   The second edition of the landmark Global Infrastructure Resilience Report
+Galperin                    demonstrates convincingly that both the failing and delayed recovery
+Former Unit Head,
+                            of critical infrastructure sets back economies significantly, and that
+Disaster Risk               these costs - especially those related to the loss of function and service
+Management, ADB             continuity - are both socially and economically unsustainable. As such, it
+                            is required reading for development policymakers, financing institutions,
+                            and operators of infrastructure, and provides a holistic framework to avert
+                            or reduce losses by investing in smart strategies to absorb, respond to,
+                            and recover from disasters.
+
+
+
+
+                                                     6
+                                                Testimonials
+Foreword
+
+
+
+
+Governments across the world invest heavily in infrastructure. The provision of
+infrastructure remains one of the most visible and essential indicators of development. Be
+it roads, energy, telecom, or water supply, countries are keen to augment their infrastructure
+assets and improve the quality of life for their citizens. As these assets and services are
+being planned and expanded, resilience has become an indispensable consideration in
+every stage of infrastructure design, construction, and operation.
+
+This imperative further calls for systematic investments in risk reduction, risk transfer,
+and risk management. The mounting losses experienced across the infrastructure
+sector underscore the cost of inaction. Disasters—whether floods, storms, heatwaves,
+or earthquakes—can wipe out decades of progress. Building resilience in infrastructure
+systems helps nations reduce these losses, protect their development gains, and strengthen
+long-term fiscal stability.
+
+The Coalition for Disaster Resilient Infrastructure (CDRI) was established with the mandate
+to promote the resilience of infrastructure systems globally. It unites governments,
+international organizations, financial institutions, the private sector, and research entities
+to foster a shared understanding of risks and advance practical solutions for resilient
+infrastructure. Through technical cooperation, capacity building, and the generation of
+evidence and tools, CDRI advocates for infrastructure systems that can withstand, adapt to,
+and recover from disasters and climate change.
+
+
+
+
+                                               7
+                                            Foreword
+CDRI’s Global Infrastructure Resilience (GIR 2023) report marked the beginning of this
+advocacy. It presented the first comprehensive analysis of global infrastructure risk through
+the Global Infrastructure Risk Model and Resilience Index (GIRI), quantifying how much
+countries stand to lose—and gain—by investing in resilience. The report introduced the
+concept of the ‘resilience dividend’, showing that resilience is not only about avoided losses
+but also about broader co-benefits, such as improved service continuity, productivity, and
+social well-being.
+
+The GIR 2025 report builds on this foundation. It moves the global dialogue from simply
+understanding risks towards actively managing and reducing them through concrete
+actions. While the GIRI model remains a powerful analytical tool, the next step is to develop
+clear, practical methodologies for risk assessment at the national and subnational levels.
+
+Risk modelling and assessment are indispensable for identifying vulnerabilities and
+prioritizing investments. Yet, they must not remain solely analytical exercises. The findings
+must be followed by cost-effective and implementable solutions, ranging from improved
+design standards and asset maintenance to resilient reconstruction and risk-informed
+planning. National databases on infrastructure losses and damages should be strengthened
+to improve decision-making and enable more precise quantification of risk.
+
+This report broadens the scope of risk assessment by including emerging hazards, such as
+heatwaves and cold waves, and infrastructure related to irrigation, which are increasingly
+relevant in a changing climate. However, the focus remains on translating data and analytics
+into practical guidance for infrastructure agencies and ministries of finance, planning, and
+disaster management—aiming to help them embed resilience within national frameworks.
+
+Resilience begins with governance. Weak enforcement of codes, outdated standards, and
+fragmented responsibilities often compound infrastructure risks. Strengthening regulatory
+compliance and institutional capacity must, therefore, be at the core of national resilience
+strategies.
+
+The report highlights that countries with effective governance structures, trained
+professionals, and coordinated institutions recover faster and sustain growth longer after
+disasters. It also underscores the importance of embedding resilience across the entire
+infrastructure life cycle—from planning and procurement to maintenance and reconstruction—
+and fostering a culture of compliance supported by both public and private sectors.
+
+A critical question before governments is how to finance resilient infrastructure. The GIR
+2025 report offers a pragmatic way forward through a layered approach to financing. This
+involves a combination of budgetary allocations for resilience, contingency funds, credit
+lines, insurance, and access to international risk pools. No single instrument can address
+all risks—together, these tools can provide comprehensive protection against fiscal shocks.
+Within the financial world, innovations in insurance and risk financing are transforming how
+countries manage disaster-related fiscal risks. International risk pooling mechanisms are
+emerging as effective means to spread risk and enhance insurance coverage for critical
+assets. These instruments, complemented by sovereign risk financing and public–private
+partnerships, can provide faster access to recovery funds and ensure that reconstruction is
+not only rapid but also resilient.
+
+
+
+
+                                              8
+                                           Foreword
+Governments should prioritize the development of national financial protection strategies
+that allocate resources across the full disaster cycle—mitigation, preparedness, response,
+and recovery—and strengthen subnational access to resilience financing.
+
+The GIR 2025 report advances the agenda for resilient infrastructure by combining robust
+risk analytics, governance reforms, and innovative financing. It provides a roadmap for
+countries to enhance their institutional capacities and align infrastructure development with
+long-term resilience goals.
+
+Resilience is no longer an optional consideration—it is a strategic and economic imperative.
+Countries that invest in resilience not only safeguard their citizens and economies but also
+create the conditions for sustained, inclusive, and climate-resilient growth. This report calls
+upon policymakers, planners, financial institutions, and private investors to act collectively
+and systematically to embed resilience in every stage of infrastructure development.
+
+I would like to commend the authors of this report for their exemplary work in distilling
+insights from a wide range of global and national research and in presenting them in a clear,
+coherent, and actionable manner. The report admirably integrates all stages of the risk
+management cycle—from risk identification and reduction to preparedness, response, and
+recovery—and offers a comprehensive framework for resilience building. It is a significant
+contribution to global knowledge and will serve as a valuable guide for infrastructure
+planners, policymakers, and financial institutions alike.
+
+Krishna Vatsa
+Member, National Disaster Management Authority (NDMA)
+and India Co-chair, Executive Committee, CDRI
+
+
+
+
+                                               9
+                                            Foreword
+Preface
+
+
+
+
+This year, 2025, saw several disastrous events—including Cyclone Remal in South Asia,
+floods in Bolivia, an earthquake in Myanmar, and Hurricane Melissa in the Caribbean—which
+devastated communities, damaged infrastructure, and affected lives and livelihoods. As
+per the United Nations Office for Disaster Risk Reduction’s (UNDRR) Global Assessment
+Report 2025, global disaster costs now exceed $2.3 trillion. Two years ago, the Coalition for
+Disaster Resilient Infrastructure (CDRI) launched the Global Infrastructure Resilience Report
+2023, estimating that global average annual losses related to buildings and infrastructure
+due to multiple geophysical and hydrometeorological hazards exceed $700 billion, or
+approximately 14 percent of the annual global GDP growth. Climate change is expected
+to intensify these losses. Disasters have an even greater impact in countries where the
+infrastructure asset base is low, such as Small Island Developing States or regions such as
+Africa, where much infrastructure remains to be built. In these places, the loss of a crucial
+bridge or a hospital can debilitate a community if services are disrupted for long durations.
+
+Infrastructure underpins the development aspirations of nations and is essential to meeting
+Sustainable Development Goals. With significant infrastructure yet to be built across
+most of the developing world, and efforts ongoing to retrofit existing infrastructure to
+address newer challenges in the developed world, a focus on resilient infrastructure can
+yield significant economic and social benefits. CDRI’s research shows that damage and
+disruption to infrastructure from an event such as a cyclone, flood, heatwave, landslide, or
+earthquake have a multiplier loss effect on the economy—sometimes as much as ten times
+the cost of damage. Furthermore, communities that bounce back faster after a disastrous
+
+
+
+
+                                              10
+                                            Preface
+event face reduced economic losses compared with those where devastation lingers for a
+longer period.
+
+In this context, resilience is an opportunity to integrate a preparedness lens in infrastructure
+decisions such that damages are reduced, service disruptions minimized, recovery
+hastened, and communities are able to withstand and recover from disasters. But how
+do we do this? In its second Global Infrastructure Resilience Report 2025, CDRI examines
+this question through four key dimensions that are important to increase the resilience of
+infrastructure systems: technology, finance, institutions and governance, and nature-based
+solutions. Furthermore, the report features close to 75 case studies to help illustrate what
+communities are already working towards so that others can learn and adapt.
+
+Resilient infrastructure should be everyone’s agenda—infrastructure ministries, finance
+agencies, disaster management authorities, research institutions, multilateral partners, and
+the private sector. Each brings a unique perspective and, in collaboration with others, can
+ensure that disasters do not wipe out generations of progress because infrastructure failed
+to perform when the community needed it the most.
+
+Amit Prothi
+Director General, CDRI
+
+
+
+
+                                               11
+                                             Preface
+Aerial view of India’s Longest Sea Bridge
+Mumbai Trans Harbour Sea Link
+Source: Shutterstock
+
+
+
+
+                                                   12
+                                            Executive Summary
+                    EXECUTIVE SUMMARY
+
+
+
+
+                    Key Messages
+
+
+
+
+       13
+Executive Summary
+                                                         Buildings in Kathmandu, Nepal Source: Floris Boogaard
+
+I                          1. Risk assessments are invaluable tools to prioritize resilient
+    Assessing                 investments, including maintenance, retrofitting, constructing
+    infrastructure risks      cost-effective and resilient new assets, and rebuilding damaged
+    and measuring             assets more efficiently after a disaster.
+    the benefits of
+                           2. Localized infrastructure risk assessments at national and
+    resilience are            subnational levels are needed to inform resilience investment
+    key to resilient          decisions. National-level risk assessments can help
+    infrastructure            governments obtain an aggregated overview of risks across
+    planning.                 various infrastructure sectors, thereby informing national
+                              policies more effectively. However, translating policies into
+                              action requires a more granular analysis.
+
+                           3. CDRI’s Global Infrastructure Risk Model and Resilience Index
+                              (GIRI), developed to conduct infrastructure risk assessments, is
+                              not only global—it can also be applied at regional, national, and
+                              subnational levels, leveraging better data and local knowledge.
+                              The standardized financial risk metrics generated by GIRI
+                              represent a common language for identifying, understanding,
+                              visualizing, and estimating physical risk to infrastructure.
+
+                           4. Infrastructure agencies, regulators, ministries of planning and
+                              finance, and infrastructure asset operators should mainstream
+                              the use of risk assessment and cost-benefit analysis tools
+                              to make new infrastructure investment decisions. The
+                              quantification of direct and indirect resilience benefits is
+                              indispensable for allocating limited funds to maintenance and
+                              retrofitting; building new, stronger assets; and rapidly and fully
+                              reconstructing after disasters.
+
+
+
+                                               14
+                                          Key Messages
+II                          5. CDRI’s economic impact modelling in eight diverse countries
+      Recovery-                shows that the economic costs associated with infrastructure
+      readiness                failures due to disasters are, on average, 7.4 times the cost of
+      and faster               direct damage to infrastructure assets. When roads and ports
+      reconstruction           fail, products do not reach the market. If electricity and water
+      reduce the               services are interrupted, businesses and households suffer.
+      economic impacts      6. Faster and comprehensive reconstruction after disasters
+      of disasters.            significantly reduces economic losses. If a country is able to
+                               execute a full reconstruction over 10 years—instead of the
+                               usual long, partial reconstruction processes—the average gross
+                               domestic product (GDP) impact in 2050 may decline by more
+                               than half, from 7.4 percent to 3 percent. Faster reconstruction
+                               reduces the economic impacts even further. Financial and
+                               institutional readiness for fast reconstruction is key.
+
+
+
+
+III                         7. According to CDRI’s global survey of more than 500 businesses,
+      Businesses that          over three-quarters of respondents believe that clearer policies
+      build end-to-            and stronger enforcement of resilient infrastructure are
+      end resilience           necessary to protect companies from the impacts of disasters.
+      capabilities can         The ability to withstand and recover from disasters depends
+      better absorb,           not only on the businesses’ internal continuity planning and
+      respond to, and          response but also on the timely recovery of the infrastructure
+                               services they rely on.
+      recover from
+      disasters, and have   8. The vulnerability of businesses is determined not only by
+      shorter downtime         the hazards faced by a company’s own sites but also by the
+      and faster market-       resilience of suppliers, logistics, and customers. For many
+      share recovery.          industries, value-chain risks—such as disrupted inputs and
+                               blocked logistics nodes—may be more important than direct
+                               damage to their facilities. According to the survey, 85 percent
+                               of large firms do not consider supplier resilience during vendor
+                               selection.
+
+                            9. To build their resilience, businesses need to test their business
+                               continuity plans and support them with detailed standard
+                               operating procedures, agreements with reliable vendors and
+                               suppliers, and insurance packages to protect their assets and
+                               revenues. While insurance penetration is high among large
+                               businesses, more than 40 percent recognize they do not have
+                               sufficient coverage for disasters.
+
+
+
+
+                                               15
+                                           Key Messages
+IV                          10. New technologies hold immense promise for transforming the
+     New technologies           resilience of infrastructure systems. They can help improve the
+     are radically              data value chain, communication, and the robustness of the
+     changing the way           infrastructure system.
+     infrastructure
+                            11. The cost of new technologies is a fraction of the cost of
+     becomes resilient.         infrastructure service interruptions. However, the benefits of new
+                                technologies for resilience can be short-lived if infrastructure
+                                agencies and asset operators do not establish strong standards,
+                                incentives, and an organizational culture that fosters innovation
+                                and learning. Furthermore, the most cost-effective technologies
+                                do not necessarily require high-tech solutions at the forefront of
+                                innovation.
+
+                            12. With clear policies, guidance and incentives, the private sector can
+                                be an ally in the technological transformation for infrastructure
+                                resilience.
+
+                            13. Technology is evolving rapidly — its integration into resilience
+                                efforts should too. New infrastructure should be designed in a
+                                manner that can easily accommodate evolving technologies.
+
+
+V                           14. Infrastructure failures not only have significant economic impacts
+     Resilient                  but also increase a country’s public debt burden and lower its
+     infrastructure             credit ratings.
+     financing requires
+                            15. No single instrument can fully cover all disaster-related risks.
+     a layered approach,
+                                A combination of financial instruments, including dedicated
+     with a range               resilience budget lines, contingent budgets, loans, insurance, and
+     of instruments             fast access to international grants and soft credit, is needed. Each
+     available to absorb,       of these can be used at different times before, during, and after a
+     respond to, and            disaster.
+     recover from
+     the impacts of         16. Risk transfer through insurance instruments can provide
+                                resources faster than emergency appeals to external donors in
+     disasters.
+                                a post-disaster situation. Ministries of finance and infrastructure
+                                agencies can consider a range of insurance products as part of
+                                an overall disaster financing strategy. These products include
+                                property and asset insurance, public asset insurance, sector-wide
+                                insurance, and catastrophic risk products.
+
+                            17. Systematic investments in maintenance, retrofitting, data
+                                systems, and capacity building for infrastructure professionals
+                                are indispensable to building infrastructure resilience.
+                                These resilience measures are less visible than building new
+                                infrastructure or rebuilding after disasters. However, these
+                                ‘invisible’ measures can bring immense benefits. The survey
+                                shows that these actions receive inadequate funding across
+                                countries of all income levels.
+
+                            18. Poorer regions within a country and small, low-income countries
+                                cannot ignored. Even small investments to strengthen resilience
+                                in areas with a high infrastructure deficit will yield enormous
+                                social and economic benefits.
+
+
+
+                                               16
+                                           Key Messages
+VI                          19. CDRI’s Global Infrastructure Resilience Survey received
+      Infrastructure            responses from over 3,000 professionals across more than
+      resilience requires       100 countries. A key message from the survey findings is that
+      strong coordination       strengthening policies, standards, codes, and regulations that
+      across government         adequately address resilience and consider future climate risks
+      agencies,                 is the most critical action governments can take.
+      infrastructure        20. Procurement processes are critical to embedding resilience into
+      asset owners,             infrastructure projects. Beyond applying technical codes and
+      operators,                standards, procurement documents, especially at the design and
+      businesses and            planning stages, should explicitly include resilience.
+      communities.
+                            21. Infrastructure agencies alone cannot fix the resilience challenge.
+                                They need the support of ministries of finance and planning,
+                                disaster risk management agencies, subnational governments,
+                                standard-setting bodies, and the private sector. Resilience is
+                                everybody’s business.
+
+                            22. Infrastructure agencies and disaster risk management
+                                authorities must work together to develop integrated disaster
+                                preparedness plans, organize drills, strengthen and utilize early
+                                warning systems for critical infrastructure services, and mobilize
+                                resources for faster and complete reconstruction of more
+                                resilient infrastructure.
+
+
+
+VII                         23. Nature-based Solutions (NbS) offer cost-effective, adaptive ways
+      Policies,                 to build resilient infrastructure with ecological and social co-
+      governance                benefits. Supported by strong policies and monitoring, NbS can
+      frameworks,               complement traditional infrastructure. They require proactive
+      standardized              maintenance and strong engagement across various sectors
+      technical                 (water, transport, environment, and disaster risk management),
+      guidance and              as well as among different actors, including local communities
+                                and indigenous groups. Infrastructure agencies will also need
+      well-designed
+                                to acquire technical expertise in ecology and related fields, in
+      financial
+                                addition to traditional engineering skills.
+      instruments are
+      necessary to move     24. To scale up the implementation of Nature-based Solutions for
+      NbS from pilots           resilient infrastructure, they should be embedded in master
+      to mainstream             plans, infrastructure strategies, and concession agreements,
+      infrastructure            ensuring that NbS are considered from the outset of
+      practice.                 infrastructure planning for adaptation, water security, and hazard
+                                mitigation, not as optional add-ons.
+
+                            25. The availability of financial resources and well-designed
+                                instruments is indispensable to scaling the use of NbS.
+                                Instruments such as blended finance, PPPs, and performance-
+                                based contracts align incentives for both public and private
+                                actors.
+
+
+
+
+                                               17
+                                           Key Messages
+Seafront in Gold Coast, Australia
+Source: Getty Images
+
+
+
+
+                                        18
+                                    Key Messages
+         EXECUTIVE SUMMARY
+
+
+
+         How to Make
+         Infrastructure
+         Resilience a Core
+         Economic Strategy
+
+
+
+
+    19
+Key Messages
+                                         Flooded homes in Fatikchhari, Chittagong, Bangladesh Source: Shutterstock
+
+
+
+Introduction
+
+GIR 2023 Report: The Infrastructure Resilience Challenge
+One of the world’s most pressing problems is the growing damage and destruction of roads,
+ports, dams, power grids, railways, factories, buildings, sewer systems, and countless other
+forms of critical infrastructure from the increasingly severe impacts of climate change, such
+as devastating floods and landslides, storm surges, searing heatwaves, and disasters such as
+earthquakes.
+
+Both the 2030 Agenda for Sustainable Development, endorsed by 193 countries, and the
+Sendai Framework for Disaster Risk Reduction (SFDRR), 2015–2030, recognize the urgent
+imperative of making the world’s infrastructure more resilient, especially as the number of
+disasters increases, from an annual average of 371 during 2004–2023 to 393 events in 2024.
+The latest Global Assessment Report (GAR) estimates that while the inflation-adjusted direct
+cost of disasters was around $180–$200 billion annually, the annual figure is close to $2.3
+trillion when wider social and ecosystem losses are taken into account (UNDRR, 2025).
+
+To address this challenge, the Coalition for Disaster Resilient Infrastructure (CDRI), through its
+landmark Global Infrastructure Resilience (GIR 2023) report, provided a global estimate and
+visualization of infrastructure risks and the ‘resilience dividend’, offering a solid economic and
+social imperative for investing in infrastructure resilience.
+
+The report introduced the Global Infrastructure Risk Model and Resilience Index (GIRI), the
+first-ever publicly available tool for estimating infrastructure risks and calculated that damage
+to global infrastructure from geological and climate-related disasters amounts to more than
+$700 billion per year. The indirect economic and human toll is far higher than the value of the
+direct damage from individual geological or weather events. For instance, hurricane winds
+
+
+
+
+                                                 20
+                                         Executive Summary
+not only flatten schools—they can also set back students’ education by months or years, with
+long-term economic and employment consequences. Similarly, floods that damage sewage
+systems and water treatment plants can lead to the spread of waterborne diseases, sicken or
+kill thousands of people, and devastate communities.
+
+The GIR 2023 report also highlighted that the financial consequences of infrastructure
+damage and losses from disasters and weather events are huge. This is especially true in
+low- and middle-income countries (LMICs), which already face a $3-trillion finance gap in their
+ability to invest in more resilient infrastructure. In many countries and situations, the lack of
+resilience can create a vicious economic circle: Rebuilding after disasters depletes national
+reserves, raises already high debt burdens, increases borrowing costs, and reduces economic
+output and gross domestic product (GDP). This makes it even more difficult to respond
+effectively to the next disaster or to invest more in resilience, further worsening the countries’
+financial situations.
+
+However, if making infrastructure more resilient is one of the most significant challenges of
+our time, the GIR 2023 report also highlighted a significant opportunity. Bridges, roads, ports,
+power grids, and every other type of infrastructure that are stronger and more resilient not only
+will suffer less costly damage when disasters strike than their less resilient counterparts do,
+but they also bring multiple indirect benefits, such as improved productivity, faster economic
+growth, poverty reduction, lower national debt, and greater equity. These myriad benefits add
+up to what is known as the resilience dividend.
+
+The GIR 2023 report estimated that the overall benefits of investments in resilience far
+outweigh the costs, on average, by at least four times. And for many specific infrastructure
+assets and sectors, cost–benefit ratios are much higher. When Peru rehabilitated or built
+dykes to better control flooding in the Casca River Valley, for example, the benefits were 37.5
+times higher than the costs.
+
+The GIR 2023 report was a call to action. The world is at a crossroads, it warned. Countries
+can continue to build back the same after disasters, leading to a worrisome future of
+declining growth rates, rising risks, increasing liabilities, and greater chances of stranded
+assets. Or, they can capture the resilience dividend, creating a safer, more resilient, more
+prosperous world.
+
+Taking Action: The Second Report’s Practical Guide to More Resilient
+Infrastructure
+This second report from CDRI, GIR 2025, is an answer to that call to action. It builds on the
+GIR 2023 report, providing detailed and practical ideas and roadmaps to help countries
+capture the biggest possible infrastructure resilience dividend.
+
+For the first time, the report defines and analyses in depth three specific and crucial
+capacities needed to reap the benefits of infrastructure resilience. The first is the capacity of
+infrastructure and systems to absorb the shock from a disaster. Urban rain gardens and well-
+maintained drainage systems can absorb or safely carry away water from extreme storms,
+thereby preventing devastating floods. Buildings, bridges, roads, and ports can be designed
+and built stronger to withstand the impacts of disasters more effectively, preventing them
+from entirely collapsing or being damaged and ensuring that goods continue to flow.
+
+
+
+
+                                                 21
+                                          Executive Summary
+                                              Rebuilding damaged bridges in Kedarnath, India Source: Shutterstock
+
+
+
+The second is the capacity to respond when disaster events occur. Effective early warning
+systems can alert infrastructure agencies and operators, as well as people and businesses,
+to prepare or move out of harm’s way when disasters loom. Governments can have disaster
+preparedness plans and mechanisms in place to rapidly repair railway tracks torn up by
+quakes or storms, or provide safe drinking water and sanitation in flooded cities.
+
+The third is the capacity to recover from disasters. This includes the ability not only to rebuild
+when assets are damaged or destroyed rapidly, but also to rebuild better and stronger,
+thereby increasing the capacity to absorb future events.
+
+The threats are growing as climate change intensifies floods, droughts, heatwaves, and other
+weather events. Increasing these three capacities—to absorb, to respond, and to recover
+better from disasters—therefore should be at the core of every country’s economic strategy.
+
+One of the key messages from this report is that it is critical to reconstruct as rapidly as
+possible. The macroeconomic modelling exercise undertaken as part of the report shows
+that annual economic losses from disasters can be as high as 7 percent of a country’s GDP
+when full reconstruction takes 20 years or more. Fully rebuilding in 10 years cuts the annual
+economic loss in half. Reduce that time to four years or even one year—as Japan has been
+able to do after some disasters—and the economic and human toll is even lower, preventing
+the vicious economic cycle that now affects many nations after disasters strike.
+
+Using modelling, surveys, interviews, extensive case studies, and other analyses, the GIR
+2025 report charts a path to increasing the three capacities—that is, absorb, respond, and
+recover—and maximizing the resilience dividend. It identifies significant shortfalls in crucial
+areas, such as national resilience frameworks, resilience finance, and governance, and shows
+how those gaps can be addressed. It documents how innovative technologies can help build
+resilience of infrastructure and how nature-based solutions (NbS) such as living breakwaters
+in Nigeria or green corridors in Medelin, Colombia, cost-effectively improve resilience,
+especially when carefully combined with traditional hard or ‘grey’ infrastructure.
+
+
+
+
+                                                22
+                                         Executive Summary
+In contrast to many previous reports on adaptation and resilience, where the focus is on the
+roles of disaster agencies, the core audiences for this report are those who face the threats
+of worsening disasters directly. For example, the head of airport operations, the technical
+director at the ministry of roads, city managers, ministers of finance, and the operators of
+ports, utilities, or urban services.
+
+In addition, this report broadens and deepens the analysis from the GIR 2023 report. Instead
+of focusing solely on specific infrastructure assets, such as individual bridges, roads, or
+power lines, it assesses the larger networks, services, and users that depend on those
+assets. Making networks more resilient can significantly limit the economic impacts of
+shocks even when specific assets are destroyed. For instance, a power grid that can instantly
+reroute electricity around downed transmission towers or flooded transformers will be better
+able to keep lights on and the machines humming at most local businesses, preventing
+economic disruptions from the loss of services.
+
+The GIR 2025 report’s individual chapters cover risk assessments, insights from a global
+survey with professionals and businesses, the potential contributions of innovative
+technologies, and ideas for better governance, increased finance, and the application of
+NbS for infrastructure resilience. Each chapter includes key messages and checklists for
+governments and stakeholders to assess their own capacities and needs and is supported by
+additional analyses and examples in corresponding working papers. The report thus offers
+an actionable roadmap and practical guide for increasing all three key capacities, enabling
+countries around the world to seize and maximize the infrastructure resilience dividend.
+
+
+
+A Deeper Understanding of Risks
+
+Assessing Infrastructure Risks is the Key First Step to Greater Resilience
+Only when risks are measured, they can be appropriately managed. This report conducts a
+second round of rigorous modelling exercises, which include the following:
+
+i.   expanding the GIRI model and assessing the impact of heatwaves and cold waves on
+     infrastructure assets;
+
+ii. analysing the impact of disasters and climate change on infrastructure sectors,
+    including irrigation and renewable energy within the power sector;
+
+iii. regional deep dives covering Africa and Small Island Developing States (SIDS);
+
+iv. projecting additional risk that will be accumulated if countries continue to develop new
+    infrastructure with current resilience weaknesses. Additionally, an assessment of the
+    economy-wide implications of infrastructure failures resulting from disasters has also
+    been conducted.
+
+The findings from the modelling exercise show that under different warming scenarios,
+heatwave-related losses will escalate sharply. In contrast, cold wave losses are expected
+to decline, indicating a structural shift in the global thermal risk distribution and a change
+
+
+
+
+                                                23
+                                         Executive Summary
+in the dominant drivers of climate-related infrastructure damage. It also shows that power,
+transport, and water systems will face the maximum impacts, with the highest estimated
+annual average losses (AAL) under both heatwave and cold wave scenarios, reflecting strong
+functional interlinkages and cascading effects across energy demand, mobility, and water
+service continuity.
+
+The impact on the irrigation sector is expected to be severe across South and Southeast
+Asia, Central America, and Eastern Africa, especially for countries such as Vietnam,
+Bangladesh, India, and Thailand, which have a strong agrarian base and rely heavily on
+irrigation systems.
+
+Understanding the macroeconomic implications of disasters requires integrated modelling
+approaches that capture not only direct damages to infrastructure but also the systemic,
+long-term effects of disrupted capital on productivity and production. This report presents
+the results from simulations created using the green economy model (GEM), which has been
+parametrised and calibrated to align with GIRI. The GEM was used for eight countries with
+diverse economic, geographic, and hazard characteristics—Bangladesh, Barbados, Bhutan,
+Fiji, Ghana, Kenya, Madagascar, and the Philippines—to understand the economy-wide
+implications of infrastructure failures due to disasters.
+
+The extensive amount of data enabled
+the analysts to understand the risks to
+infrastructure in unprecedented detail
+                                                      Estimated Annual GDP Loss (2025-2050)
+for the eight countries studied. For
+                                                                         GEM average annual
+example, the highest concentrations of
+                                                                         GDP loss: 2025 and
+vulnerable buildings in Kenya are found               Country            2050 (%)
+along the coast of the Indian Ocean                   Bangladesh         10.6
+and in the western regions of Lake                    Barbados           8.8
+Victoria. It was found that Bangladesh
+                                                      Bhutan             3.9
+would suffer the greatest economic
+                                                      Fiji               4.0
+damage among the eight nations, with
+                                                      Ghana              6.5
+estimated average annual losses of
+                                                      Kenya              4.4
+10.6 percent of GDP between 2025 and
+                                                      Madagascar         4.9
+2050 (see table, right).
+                                                      Philippines        10.1
+
+The analysis reinforces the conclusion                Average           6.6
+
+that the total economic damages from
+disasters (including losses of social
+and human capital) are far greater
+than the direct costs of rebuilding all the homes, bridges, and electricity grids damaged or
+wrecked by each event.
+
+A key finding from the modelling is that the indirect costs incurred by infrastructure
+failures due to disasters are more than seven times higher than the costs of the direct
+damage to the infrastructure itself. These indirect economic costs include everything from
+interruptions in trade to lost jobs and livelihood opportunities. Indeed, the economic losses
+due to disruptions of services such as electricity or water are much higher than the direct
+damage to assets.
+
+
+
+
+                                                 24
+                                          Executive Summary
+                                          Heavy rains flood a gas station in New Jersey, USA Source: Getty Images
+
+
+
+The magnitude of indirect costs can vary widely among countries depending on the strength
+of the connection between infrastructure and the economy; countries that depend heavily
+on tourism and trade suffer higher proportions of indirect costs when infrastructure breaks
+down. The total indirect costs are even higher than the model indicates, as there are health
+and educational impacts that are amplified by failures in infrastructure services due to
+disasters. For example, Hurricane Maria devastated Puerto Rico in 2017, destroying almost
+the entire electricity grid and damaging more than half of all local businesses. Power was
+still not fully restored 18 months later, causing long-term economic damage. Between 8,000
+and 10,000 small businesses were forced to close permanently. Similarly, a deadly 2011
+flood in Thailand disrupted the lives of more than 13 million people; impaired supply chains
+for products such as automobiles and electronics; reduced total household expenditures
+by up to 14 percent. The total damage and losses from the flood corresponded to 1.1
+percent of the country’s GDP. In both cases, the indirect costs were far higher than the direct
+impacts on infrastructure.
+
+It is therefore crucial to consider these significant indirect costs when making decisions
+about investments in resilience. The modelling results emphasize the importance of
+increasing the capacity of infrastructure to absorb the shocks from disasters by proactively
+strengthening roads, ports, schools, or other assets; by building them back better and
+stronger after damaging events; and by designing new infrastructure to be more resilient.
+Such steps will deliver multiple benefits, including stimulating economic growth, creating
+jobs, cutting losses, and reducing the need for reconstruction from future events.
+
+Economic Damages can be Dramatically Reduced through Increased Resilience
+and Faster Recoveries and Reconstruction
+In addition to highlighting the critical importance of building back better, the
+macroeconomic analysis demonstrates that countries can mitigate the economic impacts
+of disasters by recovering and reconstructing their economies fully and promptly. The
+
+
+
+
+                                               25
+                                        Executive Summary
+modelling indicates that the average GDP impact in 2050 across the eight countries studied
+would decline from 7.4 percent of the GDP with slow and partial reconstruction to 3 percent
+with full reconstruction over 10 years, and down to just 2.3 percent if reconstruction is
+completed in four years.
+
+Opportunities for African Nations
+For this report, CDRI conducted a first-ever comprehensive review of the risks to
+infrastructure in Africa. The analysis estimated that the current average losses from
+disasters are $12.7 billion per year, with 70 percent of those losses being caused by
+floods and most of the rest due to earthquakes. For some countries, such as Lesotho and
+Mauritius, the annual economic damages add up to more than 1 percent of their GDP.
+
+The analysis also assessed what types of
+infrastructure are most at risk. Topping             Infrastructure most at risk in Africa
+the list is power generation, followed by
+telecommunications and then roads and                                  3%
+                                                                  4%
+railways (see figure, right).                                9%                      Power
+                                                                                     Telecom
+                                                                                     Roads and
+African countries face numerous barriers                15%
+                                                                                      railways
+                                                                            46%      Water and
+to reducing these vulnerabilities. They                                               wastewater
+have limited resources for increasing the                                            Oil and gas
+                                                                                     Ports and
+resilience of existing roads, ports, water                                            airports
+                                                              23%
+supplies, and other key assets, or for
+setting aside reserves to build back after
+disasters.
+
+However, they also have three potential advantages. Much of the infrastructure needed to
+expand access to services such as electricity, water, and sanitation, and to accommodate
+growing cities and populations, is yet to be built. It is far more cost-effective to construct
+new assets with additional resilience built in than it is to retrofit existing ones.
+
+Second, Africa has abundant natural resources that could be leveraged to provide NbS that
+protect existing and future infrastructure. For example, protection for forests and wetlands
+upstream of cities can both help tame floods and ensure more sustainable water supplies.
+
+Third, African leaders fully understand the threats from climate change impacts and other
+disasters. They have demonstrated their political will to act with policies such as the African
+Union Climate Change and Resilient Development Strategy and Action Plan (2022–2032).
+
+Small Island Developing States Face Unique Challenges
+The Small Island Developing States (SIDS) are particularly vulnerable to threats such as
+tropical cyclones, storm surges, sea level rise, and droughts. Many of these nations depend
+on a single port or airport and a coastal road that encircles each island, decreasing their
+capacity to absorb shocks. If a storm impairs even one link in that infrastructure, the whole
+island transport system can fail, with serious economic and social consequences.
+
+Indeed, major storms are taking an enormous toll. In 2017, Hurricane Maria caused $182
+million in damages to the transportation infrastructure alone in Dominica. It destroyed or
+
+
+
+
+                                                26
+                                         Executive Summary
+damaged 95 percent of the island’s homes, with total estimated damages of nearly $1.5
+billion—or 225 percent of the nation’s annual GDP.
+
+The analysis in this report shows that while AALs for the SIDS are lower in absolute terms
+compared to larger countries, the countries’ relative risks are disproportionately high. Even
+small amounts of damage to infrastructure can exceed the capacity of their economies to
+recover from disasters.
+
+The report proposes several practical steps to close the resilience gap and boost the
+nations’ capacities to absorb, recover from, and reconstruct after devastating events.
+They include covering all islands and communities with advanced early warning systems,
+developing SIDS-specific building codes, and training engineers, contractors, and
+government leaders to use resilient designs and technologies. CDRI is supporting specific
+projects to implement these recommendations (see box, below).
+
+
+
+
+                                        Construction and installation of new water pipes in Havana, Cuba Source: iStock
+
+
+
+Building Resilience Capabilities in SIDS
+
+At COP26, CDRI launched a flagship programme              and developing drainage and irrigation systems
+to build capacity and offer financial and                 in Guyana to reduce vulnerability to floods.
+technical aid to all 57 SIDS. Called the                  Others focus on improving responses to and
+Infrastructure for Resilient Island States (IRIS),        recoveries after disasters, including building an
+the programme supports 24 projects in 25                  early warning system in the Dominican Republic
+countries. Some work towards increasing the               and improving the resilience of subsea telecom
+capacity to absorb shocks, such as revising               connections for Tonga and Palau.
+Haiti’s national building code to strengthen roofs
+
+
+
+
+                                                     27
+                                            Executive Summary
+Why Infrastructure Resilience is Currently Insufficient
+
+Insights from Infrastructure Experts, Professionals and other relevant
+Stakeholders around the World
+A Global Infrastructure Resilience Survey of more than 3,000 professionals in over 100
+countries, combined with 75 interviews with experts, reveals a worrying picture of countries
+lagging far behind in the increasingly urgent race to strengthen infrastructure systems in the
+face of the accelerating impacts of disasters and climate change.
+
+Only 15 percent of the respondents believe that governments have the institutional capacities
+needed to meet the resilience challenge. Even when national policies and frameworks are
+more advanced, as in many high- and upper-middle-income countries, implementing those
+policies at the local level is being crippled by shortages of skilled staff, limited financial
+resources, and fragmented responsibilities. And while the private sector is seen as having
+greater capacities and expertise than government agencies do, only about one-third of the
+respondents think that those private sector capacities and resources are adequate. Moreover,
+expertise is typically concentrated in large firms and international consultancies, creating
+systemic resilience gaps. As one expert describes, relying on a few isolated pockets of
+excellence cannot deliver resilience at the scale that is required.
+
+It is not surprising, then, that only 26 percent of the respondents say that hazard and risk
+assessments are performed consistently. Only 12 percent report the consistent use of advanced
+technologies, such as sensors and satellite imagery, for real-time disaster warnings and damage
+assessments. Only 15 percent say that proven NbS are consistently mandated or applied.
+
+The experts also believe that available resources are too focused simply on building back the
+same structures after the floodwaters recede or the hurricane passes, and that far more effort
+is being put into responding to and recovering from disasters than in working to reduce risks
+before floods or other disasters strike. In addition, there is systematic underinvestment in so-
+called ‘invisible’ resilience measures, such as better maintenance, retrofitting, data systems,
+and capacity building, which can be some of the most cost-effective approaches.
+
+The survey and interviews confirm what other research has suggested: that infrastructure
+resilience is constrained not by the availability of technical solutions, but by shortfalls
+in governance and institutional capacities. In particular, half of the respondents say that
+standards, regulations, and policies must be at the core of resilience strategies, yet only 22
+percent say that current policies and standards are adequate even for the risks that the world
+faces today, let alone the increasing future risks on a warming planet.
+
+Businesses Face Enormous Losses, but Leaders Warn that Resilience
+Investments and Capacities Fall Far Short of What is Needed
+As countries experience increasingly severe impacts of climate change, along with geological
+events, so do businesses around the world. Disasters cause cascading impacts that often
+extend far beyond the direct damage to factories, stores, power grids, pipelines, and other
+infrastructure. Floods that damage manufacturers’ machinery can also halt operations for
+weeks; for example, the lost production slashes profits and puts people out of work. Supply
+chains can be cut, affecting every downstream business and retail outlet that depends on the
+goods being shipped.
+
+
+                                               28
+                                        Executive Summary
+                            Winter Storm Uri covered the Tesla Giga Texas facility outside in Austin Source: Shutterstock
+
+
+
+In 2021, Winter Storm Uri caused major power outages and water supply disruptions
+across Texas, United States, forcing Samsung’s semiconductor plant in Austin to shut
+down for a month. Not only were thousands of silicon wafers ruined, resulting in an
+estimated $270–$360 million loss for Samsung, but the lost production also contributed
+to an existing global chip shortage, affecting the production and delivery of products such
+as smartphones and automobiles. Following an earthquake in Japan in March 2011, 656
+small- to medium-sized enterprises (SMEs) went bankrupt within a year, resulting in the loss
+of more than 10,000 jobs.
+
+Already, disasters are reducing annual profits for businesses by an estimated 15 percent. If
+global temperatures rise to 3°C above pre-industrial levels, corporate profits are projected to
+fall by 25 percent by 2050.
+
+These threats underscore the urgent need for businesses to invest in the capacity to absorb
+shocks and recover and reconstruct quickly. The good news is that these investments can
+be enormously cost-effective, with benefits shown to be up to 35 times the costs.
+
+To understand whether businesses currently perceive the threats and the opportunities, and
+to assess their current levels of preparedness, CDRI conducted the first-ever global survey
+focusing on the impacts of infrastructure failures and service disruptions on businesses.
+More than 500 high-level executives (including CEOs and chief sustainability officers)
+answered questions about how disasters affect their operations, how their companies are
+responding, and what help they need from the governments. The survey targeted three
+groups of businesses: private infrastructure companies and state-owned enterprises, such
+as utilities, railways, and ports; large companies, such as manufacturers, agribusinesses,
+real estate, and logistics; and SMEs, including suppliers and service providers. It focused
+on six sectors: food; chemicals and pharmaceuticals; consumer goods; heavy industry;
+logistics and transportation; and real estate. The responses from the survey were also
+bolstered by interviews, focus groups, and case studies.
+
+
+
+
+                                                     29
+                                             Executive Summary
+The results reinforce the massive benefits of investing in resilience. In one particularly
+striking example, Toyota responded to severe disruptions in its supply chains and
+a major dip in profits after a 2011 earthquake by diversifying its suppliers, building
+strategic inventories, and implementing new risk management protocols. When floods hit
+western Japan in 2018, causing $10 billion in business losses overall and forcing other
+car manufacturers to reduce production for two months, Toyota was able to restore its
+operations within three days and suffered no material losses.
+
+However, the survey shows that such successes are still rare and that current investments
+are falling far short of what is needed. In the large business group, 82 percent of the
+respondents have continuity plans for disasters, but only 39 percent of those plans have
+been tested. Similarly, 78 percent have disaster risk management policies, but 40 percent
+lack detailed operating procedures. Around 60 percent still rely on ad-hoc responses, with
+52 percent reporting that they lack a dedicated crisis response team. Further, 77 percent
+say that government policies designed to improve resilience are either entirely absent or
+poorly enforced. The survey shows that the key challenges in restoring critical operations
+after disasters include delays in external support, poor internal coordination, and shortages
+of skilled personnel.
+
+Infrastructure companies face similar challenges as large businesses, though they are
+more likely to have disaster risk management policies and use technologies that enhance
+resilience, such as risk analysis and early warning systems.
+
+The SMEs are the least able to cope with disasters, the survey shows. Only 35 percent
+report that they have detailed continuity plans, and 54 percent say that they lack access
+to affordable finance, real-time climate information, and insurance products. With limited
+financial capacity, most SMEs treat resilience spending as discretionary, leaving them
+vulnerable to even moderate shocks and forcing them to spend their limited resources trying
+to rebuild and recover from disasters rather than trying to prevent damage from occurring.
+
+The results highlight the critical importance of embedding adaptation and resilience at
+every stage in the business lifecycle—from strategy and planning to operations and end-of-
+life—rather than simply making isolated interventions. The report recommends actions in
+five critical areas: (i) implementing supportive policies, such as tax incentives and subsidies
+for resilience, post-disaster support, and resilience requirements; (ii) adopting technologies,
+such as early warning systems, remote sensing, and supply chain mapping; (iii) increasing
+finance through insurance, budgeting, liquidity tools, and others; (iv) improving governance,
+such as through better standards, crisis response protocols; and (v) building capacity
+through training, education, and regular emergency drills.
+
+
+
+
+                                               30
+                                        Executive Summary
+Technologies for Resilient Infrastructure
+
+Advanced Technologies Pay Back Their Costs Many Times Over
+Even as threats to infrastructure grow due to the increasing severity of climate change
+impacts, existing and new technologies offer transformative opportunities to make the
+world’s built assets more resilient, helping to absorb shocks better and respond and recover
+more quickly and effectively.
+
+CDRI reviewed more than 35 types of technologies and several case studies from around the
+world demonstrating their use. The review shows that these technologies typically pay for
+themselves many times over by reducing the costs of building and maintaining infrastructure
+assets; helping to increase the capacity to absorb shocks and thus avoid billions of dollars in
+losses; and enabling faster recovery and reconstruction after events occur.
+
+These technologies fall into three main functional categories (see figure, below). The first is
+improving the collection, processing, and use of information. Remote or embedded sensors
+can report in real time when river levels climb past a dangerous threshold or when power
+lines or bridges begin to fail, providing crucial early warnings and enabling authorities and
+operators to take actions to save lives and to better absorb the impacts of shocks.
+
+Drones can be dispatched to assess damage to buildings or measure the spread of
+floodwater, as well as to monitor everything from roads to crops (see box, next page).
+
+
+
+
+  Remote sensing, sensor networks,
+  drones, 360 imagery, IoT, social         Virtual reality, AI, social media,   Batteries, construction materials,
+  media, smart devices, cloud              platforms, satellites, 5G, digital   3D printing, robotics, drones, AI
+  computing, digital twins, AI+, VR+,      twins, blockchain etc.               software, etc.
+  BIM, big data, AMS, etc.
+
+
+
+                                                                                • Improved asset performance
+                                           • Digital collaboration tools
+  • Data collection                                                             • Improved construction practices
+                                           • Effective alert systems and
+  • Data processing                                                             • Increased redundancy in systems
+                                             processes
+  • Decision support                                                            • Improved operating and
+                                           • Targeted communication
+                                                                                  maintenance processes
+
+
+
+
+                                               Improving connectivity,
+     Improving the data value                                                      Strengthening asset and
+                                                communication, and
+              chain                                                                 network performance
+                                                   collaboration
+
+
+
+
+                                        Resilient Infrastructure
+                                                            31
+                                                   Executive Summary
+                                                                      Drones help fight wildfires Source: Shutterstock
+
+
+
+Drones Improve Capacities to Absorb and Recover from Shocks
+
+In the United Kingdom, drones regularly fly               infrastructure before disasters occur, limiting
+above the country’s railway tracks, spotting              damage from the shocks.
+tiny cracks or shifts in the rails that human
+inspectors might miss. In addition, the Humber            Drones have also been used to accurately map
+Bridge in Yorkshire is the first suspension bridge        damage to buildings and roads after the 2016
+in the world to be inspected for corrosion,               earthquake in Muisne, Ecuador; to monitor
+cracks, and cable wear by a fleet of drones using         and fight wildfires in the United States; and to
+high-resolution cameras and LiDAR sensors—                create a precise 3D model of the Notre Dame
+at a cost savings of £1 million over human                Cathedral after the devastating fire. Such data
+inspectors. In both cases, the information                then enables faster and better response and
+enables operators to fix weak spots in the                reconstruction.
+
+
+
+
+Sophisticated virtual representations of physical systems, called digital twins, enable
+real-time monitoring and control of vital assets. In California, for example, the Yuba Water
+Agency uses drones, sensors, and a digital twin of its New Bullards Bar Dam to regularly
+monitor the system’s health and performance and to respond more quickly and effectively
+to threatening weather events. Similarly, Lisbon, Portugal, used a digital twin to design a
+drainage system that will significantly reduce flood risks in the city.
+
+The second group contains technologies that improve connectivity and communication.
+Satellite internet services can instantly send data and other key information to and from
+systems or communities in remote areas, while GPS allows locations to be precisely mapped.
+Mobile apps and social media can alert people, businesses, and emergency personnel to
+looming events, helping to guarantee that early warning systems reach everyone at risk.
+
+Tools such as blockchain can assure security and privacy in communications, as Vanuatu
+has done in giving each household a secure digital identity, with all transactions recorded
+on a tamper-proof ledger. This enables faster and more accurate delivery of relief funds,
+thus speeding up recovery and reconstruction. Similarly, AI-powered systems can tailor
+warnings to individual households based on location, type of dwelling, and level of risk, as
+was done in India when Cyclone Yaas loomed in 2021.
+
+
+
+
+                                                     32
+                                            Executive Summary
+The third category includes technologies that strengthen or improve the performance and
+resilience of infrastructure or enable more rapid reconstruction. Among the many examples
+are: solar microgrids or other distributed energy systems that withstand hurricanes better
+than vulnerable long-distance transmission lines; high-performance concrete that is less
+susceptive to buckling under stresses; 3D-printed or modular homes that can be built
+rapidly at a fraction of typical construction costs in case communities are destroyed; and
+portable water treatment plants that can be rushed to a flooded community to reduce the
+threat of water-borne diseases.
+
+Taken together, these technologies enable governments to make better, more informed
+decisions about which assets to rebuild. They also embed greater resilience into
+both reconstruction after disasters and the design of new systems, reducing future
+vulnerabilities. By lowering infrastructure life cycle costs and improving monitoring,
+tracking, and financial accountability, they allow recovery funds to stretch further and have
+greater impacts.
+
+To accelerate the deployment of these technologies wisely and equitably, CDRI is now
+developing a data and technology strategy that will identify the key players and the
+pathways towards a strong enabling environment. The GIR 2025 report also provides a
+technology readiness checklist that uses targeted questions to diagnose strengths and
+weaknesses; identify areas where technologies and actions would have the greatest
+impacts; create comprehensive roadmaps for achievable and sustainable actions; and track
+progress and capture lessons learned.
+
+
+
+Financing Resilient Infrastructure
+
+Boosting Finance for Resilience—and Using it More Cost-Effectively
+Implementing the strategies and recommendations outlined in this report requires access
+to the necessary resources to support the efforts. However, the surveys, interviews, and
+macroeconomic modelling all point to the same conclusion: the resilience financing gap is
+a serious problem. The Organisation for Economic Co-operation and Development (OECD),
+the World Bank, and the United Nations Environment Programme estimate that the total
+investment needed to improve infrastructure resilience will be $6.9 trillion per year by 2030.
+For LMICs alone, that adds up to a gap of $3 trillion per year.
+
+Moreover, most current spending is simply reactive, kicking in only after floods,
+earthquakes, and other disasters cause widespread damage rather than being used to
+reduce risks before shocks occur. Even this type of financing is seriously inadequate.
+The Swiss Re Institute estimates that the so-called protection gap (the disparity between
+insured losses and actual damage) was $1.8 trillion in 2022. One example is the aftermath
+of a devastating earthquake in Indonesia (see box, next page).
+
+The shortfall in financing for simply replacing what has been damaged has serious long-
+lasting consequences, especially for LMICs. It lowers their GDPs, depletes often-limited
+reserves, harms credit ratings, and raises their public debt and borrowing costs.
+
+
+
+
+                                               33
+                                        Executive Summary
+                                                           Damage from the Mamuju earthquake Source: Shutterstock
+
+
+Financing Instruments Often Fall Short
+
+Facing an average of 289 natural disasters per           strategy’s first test came after the Mamuju
+year, with annual direct costs of $1.4 billion,          earthquake in 2021, which collapsed homes,
+Indonesia created a National Disaster Risk               hotels, and hospitals, damaged the airport, and
+Financing and Insurance Strategy in 2018,                caused widespread blackouts. The finance
+which uses government budgets, risk pooling,             strategy paid only $3.95 million—only a fraction
+contingency loans, insurance, and other tools            of the replacement costs of the damaged
+to pay for rebuilding after disasters occur. The         infrastructure.
+
+
+
+
+For example, models estimate that a 1-in-100-year flood event in Bangladesh would cause
+$54 billion in infrastructure damage, mainly to housing, roads, and power generation. This,
+in turn, would reduce real GDP by 6.0 percent due to permanent damage to capital and
+productivity losses across sectors and, consequently, increase public debt significantly.
+
+Similarly, research shows that a 1-in-100 flood event in Thailand could cause GDP losses
+of 3–4.5 percent, triggering a sovereign credit downgrade and raising annual interest
+payments by $1.9 billion. However, the analysis also highlights the vital importance of
+investing in resilience before disasters strike. Modelling shows that by bolstering flood
+defences and the capacity to absorb shocks at a relatively low cost, Thailand could avoid
+$30 billion in losses in a 1-in-100-year flood event.
+
+These results emphasize the urgent need for a paradigm shift in infrastructure resilience
+finance. Instead of being reactive and concentrating on building back just what was lost or
+damaged in disasters, greater investments must be made both in making existing and new
+infrastructure more resilient before disasters occur and building back better, which also
+includes sufficient investments in maintenance and operations. As part of this paradigm
+shift, governments will need to carefully and judiciously balance their resources to ensure
+sufficient support for all four key resilience-enhancing measures: improved maintenance,
+retrofits to make existing assets more robust, building stronger new infrastructure, and
+faster reconstruction and recovery of services after disasters.
+
+
+
+
+                                                    34
+                                             Executive Summary
+Making this shift and striking the right balance will not be easy. Some of the key challenges
+involve governance improvements. One example is defining and implementing infrastructure
+resilience standards for all types of disasters, following the model of increasingly stringent
+earthquake building codes, such as Japan’s Building Standard Law of 1950, revised in
+1981, that have dramatically reduced devastation from earthquakes. Other crucial changes
+include mainstreaming the awareness and consideration of disaster resilience into policies
+and decisions at all levels of government, in the private sector, and in public–private
+partnerships (PPPs), covering everything from construction standards and insurance
+requirements to contingency plans and reliability standards.
+
+In particular, ministries of finance and economics, as well as other government institutions,
+require expertise to quantify, allocate, and monetize the financial benefits of increased
+infrastructure resilience. In many cases, this would show that investing in resilience is often
+the most financially sound option. For instance, allocating limited road funds to drainage
+systems for reducing flood damage could yield a significantly higher economic return than
+using the money to widen a stretch of highway. Similarly, a rigorous analysis of building
+standards or utility regulations that boost resilience would confirm that they offer high
+cost–benefit ratios, helping to overcome potential opposition to their upfront costs.
+
+However, to close the resilience finance gap, it is also critical to make more funds available
+for all three resilience capacities: absorbing, responding to, and recovering from shocks.
+Possible financial instruments for increasing the capacity to absorb shocks include
+sustainable bonds or dedicated funds. For example, Brazil issued its first sovereign
+sustainable bonds in 2023, raising $2 billion. Those resources have been used to finance
+a network of rain gardens and parks along waterways to reduce flooding risk in Campinas.
+Similarly, in Brazil, the National Land Transport Agency (ANTT) added a 2 percent tariff
+on road tolls to fund a sustainability programme for increasing the resilience of federal
+highways and railways.
+
+For responding to disasters, financing can come from such instruments as contingency
+funds, credit lines, or catastrophe deferred drawdown options (Cat-DDOs). A Cat-DDO
+is a form of contingent credit offered by development banks that provides pre-approved
+funds, which become available when a country declares a state of emergency. DDOs have
+been used successfully by the World Bank and the government of Colombia to respond to
+economic harm from the 2011 La Niña weather event and COVID-19.
+
+For recovery and reconstruction, effective financial strategies include regional risk pools,
+budget allocations, and dedicated reconstruction funds. For instance, 40 percent of India’s
+National Disaster Response Fund (NDRF) is dedicated to response and relief, while 30
+percent is allocated to recovery and reconstruction.
+
+Insurance can also play a major role. Studies show that every percentage point increase
+in insurance penetration (measured as the ratio of non-life premiums versus GDP) can
+reduce the recovery times after disasters by nearly 12 months. However, few countries
+have developed standalone disaster risk financing strategies that rely heavily on insurance,
+creating a ‘protection gap’ that makes full recovery and reconstruction difficult.
+
+
+
+
+                                               35
+                                        Executive Summary
+As the report describes, these financial instruments may be most effective when ‘layered’,
+that is, stacking up various strategies depending on the frequency and severity of events.
+For instance, dedicated maintenance or contingency funds can help enable assets to
+better absorb or recover from frequent small shocks, while catastrophe bonds can help
+reconstruct quickly after major events (see figure, below).
+
+To help governments close the infrastructure resilience finance gap and use resources
+more cost-effectively, this report provides a financial resilience pathway for infrastructure
+agencies with a series of questions that governments can ask to improve their practices.
+For example:
+
+» Is the country’s level of funding for disaster risk reduction adequate, given the
+  vulnerability of its infrastructure?
+
+» Is the level of residual risk borne by the country’s public finances sustainable, given the
+  macroeconomic characteristics of the country?
+
+» Are governments and asset owners able to determine the most effective balance of
+  investments in maintenance, retrofits, building new, more resilient infrastructure, and
+  disaster responses that lead to full and fast reconstruction of assets and recovery of
+  services?
+
+» Do governments have the capacity to identify the weakest links in road networks, airports,
+  and other infrastructure, and the expertise to identify the most cost-effective use of the
+  available finance strategies, including the potential layering of financial instruments?
+
+The answers to these questions will help guide governments as they create detailed action
+plans for selecting and implementing the best financing options.
+
+
+
+
+ Low-frequency/                                              Residual risk
+    high-severity
+                      Funding for                Alternative risk transfer instruments
+events (Transfer)    new stronger
+                         assets,                Insurance (property, parametric, sector)
+                     maintenance,
+ High-frequency/      retrofit, and         Credit lines                          Loans
+                     early warning
+     low-severity
+                        systems          Contingency funds                   Recovery funds
+  events (Retain)
+
+
+
+                       Absorb                Respond                            Recover
+
+
+
+
+                                                36
+                                         Executive Summary
+Improving Governance
+
+Embedding Core Principles of Resilience into Every Institution
+Improving the resilience of infrastructure is fundamentally a governance challenge. Taking
+advantage of the resilience dividend requires actions to be coordinated across many
+sectors and at multiple levels.
+
+To identify the critical attributes of effective governance, CDRI reviewed a wide range
+of existing governance frameworks and looked for insights from 25 case studies (see
+examples in the box, below). The work identified common barriers to effective governance,
+
+
+
+
+                                         Japan builds back with more earthquake-resilient technology Source: Getty Images
+
+
+Case Studies of Effective Governance
+
+Japan: In addition to the tragic loss of nearly               for the relevant ministries, allowed work to begin
+20,000 lives and the massive destruction of homes             immediately, without bureaucratic delays.
+and facilities, the Great East Japan Earthquake
+ripped up railway tracks, destroyed stations and              Nepal: Decentralized governance and the use
+bridges, and flooded trains on the coastal Sanriku            of local knowledge in Nepal’s mountain roads
+Railway, bringing all operations on this vital railway        programme have enabled the successful use
+link to a halt. Yet the East Japan Railway Company            of bamboo crib walls and low-cost drainage
+(JR East) was able to restore some service in five            systems to protect roads from landslides,
+days and 90 percent of service within two weeks,              erosion, and floods. The use of local engineers,
+becoming a key symbol of the region’s ability                 labour, and materials is not only cost-effective,
+to rebound from disaster. One major reason for                but it also embeds resilience into the social fabric
+this was effective pre-disaster governance: Pre-              of rural communities, ensuring that the protective
+negotiated continuity contracts between JR East               measures will be maintained after external
+and suppliers, along with clearly defined roles               funding ends.
+
+
+
+
+                                                         37
+                                                Executive Summary
+such as information gaps, regulatory bottlenecks, and perverse incentives. In Brazil’s energy
+sector, for example, tariff regulations often prevent utilities from classifying resilience
+measures as recoverable costs, even though such measures would avoid much greater
+costs of future damage.
+
+Another major barrier is highly siloed governance, with fragmented mandates and
+overlapping authorities. CDRI’s interviews revealed that responses to crises are delayed by
+the lack of clarity about who is responsible for making decisions.
+
+To overcome these barriers, CDRI identified three key concepts. The first is institutional
+capacity: having the right institutions, people, systems, and funding in place to ensure
+that infrastructure is designed to prepare for and withstand disasters and can be quickly
+repaired if damaged. The second is integrity: making sure that institutional decisions are
+transparent, legitimate, and accountable. The third is adaptability: the ability to learn from
+past shortcomings and improve over time. In Brazil, for example, the National Electric
+Energy Agency (ANEEL) has led a climate vulnerability assessment that will help ensure that
+plans and tariff regulations are modified to promote resilience instead of being barriers.
+In Rome, the Aeroporti di Roma (ADR), which operates the Leonardo Da Vinci Airport, has
+created a ‘resilience task force’ with partners from civil protection, emergency services, and
+environmental regulators to analyse and address emerging risks and clarify the roles of
+each agency and service. That effort has paid off in times of crises, like during the terminal
+fire in 2015, where swift coordinated action reduced the potential damage and disruption.
+
+CDRI’s recommendations for improving governance include embedding core principles of
+resilience into every institution; integrating resilience throughout the entire life cycles of
+key assets (from planning to decommissioning); strengthening enforcement; improving
+coordination among agencies and institutions; and prioritizing long-term maintenance.
+Everyone in positions of authority must understand the importance of resilience before
+meaningful improvements can be made—and resilience should be everybody’s business.
+
+
+
+Harnessing the Power of Nature
+
+Scaling Up Nature-based Solutions (NbS)
+The tremendous ability of natural systems to deliver cost-effective resilience is now well
+established in both theory and practice. Successful examples are found all around the
+world, many of which demonstrate the large capacity of NbS to absorb shocks.
+
+As the report describes, permeable green spaces in schoolyards in Paris, France, and rain
+gardens in Portland, Oregon, in the United States, are capturing storm water and slowing
+runoff, thus reducing flooding threats. Replacing invasive species with olive groves,
+vineyards, orchards, and pastures under transmission lines in France and Belgium is
+reducing the risk of crippling storm damage to the lines at one-half to one-quarter the cost
+of conventional vegetation management, while providing valuable products and creating a
+more attractive landscape.
+
+
+
+
+                                                38
+                                         Executive Summary
+                                 A bamboo fence in Indonesia helps protect from water erosion Source: Getty Images
+
+
+
+In Nepal and Hong Kong, engineering solutions combined with nature-informed design is
+stabilizing the soil on steep slopes, preventing landslides and erosion that could block or
+damage roads in mountainous terrains—and providing jobs that boost local economies.
+Moving flood protection dykes back from the Middle Elbe River in Germany has given the
+river more room to spread out when rainstorms hit, rejuvenating a degraded landscape and
+significantly reducing peak water levels for dense urban centres downstream. In Quito,
+Ecuador, the water utility channels a portion of the tariff to a trust fund dedicated to the
+implementation and maintenance of upstream NbS for the resilience of its water sources.
+
+In many cases, NbS have been combined with traditional hard or grey infrastructure and
+implemented at huge scales, such as the Netherlands’ Room for the River programme. This
+successful effort uses a complex system of dykes, groynes, dams, river channels, and other
+features to protect the nation’s infrastructure from floods. Other solutions are as simple as
+planting trees or leaving rows of corn standing alongside roads in Minnesota, United States,
+to act as living snow fences, thus reducing accidents and the need for road maintenance,
+with benefits estimated at 46 times the costs.
+
+This report breaks new ground by showing that NbS can do more than absorb shocks—they
+also can play a crucial role in building the capacity to maintain critical functions during
+shocks and to recover more quickly. When hurricanes or other extreme events occur, forests
+can provide safe evacuation routes or floodwaters can be pumped into wetlands. Similarly,
+portable green barriers or temporary shading structures can be brought in as an effective
+response to flooding or heatwaves. NbS should therefore be positioned as being integral to
+emergency and response operations.
+
+
+
+
+                                                 39
+                                         Executive Summary
+Once the damaging events have passed, NbS also offer pivotal opportunities to build
+back stronger and safer, while bringing long-term economic benefits. One effective tool
+is assisted natural regeneration, where native trees and shrubs are carefully nurtured to
+grow back as quickly as possible. This method can strengthen vulnerable slopes, block
+mudslides on roads, provide natural buffers, and restore soils and ecosystems. It can also
+increase yields of crops or forest products, raise incomes and improve local economies,
+thus strengthening communities’ resilience to future shocks.
+
+Overall, NbS typically costs half as much as building grey infrastructure, such as concrete
+flood walls, while delivering equal or greater benefits. Those benefits include long-term
+economic gains, environmental improvements, and social benefits, such as improving
+health through better air quality and providing additional recreational opportunities.
+Nonetheless, the report emphasizes that the decision is not typically choosing a green or a
+grey approach but rather identifying the best hybrid grey–green solutions.
+
+The challenge now is moving from the pilot scale to widespread use. CDRI’s analysis of
+successful case studies shows that NbS are not a silver bullet. Each location is different
+and may require an approach specifically tailored for that location. Scaling up NbS,
+therefore, will require action at four different strategic levels: (i) increasing awareness and
+capacity in governments and other institutions, and embedding NbS into master plans; (ii)
+creating supportive policies; (iii) developing technical expertise at both the government
+and contractor levels to identify and build optimal designs, calculate ecological and other
+benefits, and monitor and adapt NbS when needed; and (iv) finding the necessary financial
+support, in part, by monetizing the co-benefits to strengthen the business case.
+
+To harness this vast natural potential, this report provides a roadmap that governments can
+use to select, design, implement, and maintain NbS.
+
+
+
+Conclusion
+
+Putting these ideas into action is of utmost urgency. Floods, heatwaves, droughts, hurricanes,
+and other impacts of climate change and geological hazards are becoming more extreme
+and deadly. Without redoubled efforts now to build all three capacities (absorb, respond, and
+recover) necessary for improved resilience, countries risk a downward spiral in economic and
+human capital, characterized by slowing GDP growth, increasing debt, and stumbling poverty
+reduction efforts.
+
+But countries can choose to avoid this darker future. Instead of simply rebuilding the same as
+before after floods tear through communities or earthquakes destroy buildings, nations can
+build back better and stronger. They can proactively plan, design, and build new infrastructure
+to enhance their resilience. They can harness a wide array of technologies and solutions
+that will limit or even prevent damage from disasters, while also helping to rebuild faster and
+better. By putting infrastructure resilience at the core of their economic and development
+strategies, countries can create a safer, more prosperous, and more equitable world.
+
+
+
+
+                                                40
+                                         Executive Summary
+                                                                EXECUTIVE SUMMARY
+
+
+
+
+                                                                Memorandums
+
+
+
+
+Aerial view of the Orwell bridge carrying
+the A14 road in Ipswich, Suffolk, UK
+Source: Getty Images
+
+
+
+
+                                                   41
+                                            Executive Summary
+                                           Estaiada Bridge with the city in Sao Paulo, Brazil Source: Getty Images
+
+
+
+
+Memorandum to Finance Ministers
+
+Investments in Resilience will Bring a Sounder Financial Future
+In addition to perennial problems like trade tensions and budget deficits, you and other
+finance ministers are now facing growing damage and destruction to infrastructure from
+the increasingly severe impacts of climate change and from disasters like earthquakes. The
+global annual average loss and damage from such disasters is estimated at $732 billion
+and climbing.
+
+As you well know, rebuilding after such disasters further depletes national reserves,
+raises already high debt burdens, increases borrowing costs, and reduces economic
+output and GDP—making it even harder to respond to the next disaster. The second
+Global Infrastructure Resilience (GIR 2025) report from the Coalition for Disaster Resilient
+Infrastructure (CDRI) documents disasters cause cascading economic costs that dwarf
+the direct damages to infrastructure. When roads and ports fail, products do not get to
+the market. When electricity and water services are interrupted, business and household
+activities can be crippled—often for months. The indirect costs are, on average, more than 7
+times the cost of direct damage to infrastructure assets.
+
+That’s why we hope you will find this report is both timely and useful. CDRI’s Global
+Infrastructure Risk Model and Resilience Index (GIRI) can provide you with estimated
+losses for your country and, in many cases, pinpoint the infrastructure and regions that are
+most at risk.
+
+
+                                             42
+                                         Memorandums
+More importantly, the report offers a roadmap that you can follow to significantly reduce
+your country’s future direct and indirect losses from damage to infrastructure and put the
+nation’s finances on a sounder footing, both in the near- and long-term.
+
+A key first message of this report and many others is that boosting infrastructure
+resilience brings huge pay offs, with benefit-cost ratios that are four times the investment,
+and in some cases, twenty-fold. So even as you face the usual pressing and immediate
+budget challenges, you might consider giving resilience financing a much higher priority,
+mainstreaming the goal of increasing infrastructure resilience into all financial decisions.
+
+The second key message is that improving resilience is not just a matter of building back
+better and stronger after disasters strike. It can also be remarkably cost-effective to retrofit
+existing assets or to maintain them more proactively and effectively. This report offers
+numerous examples of technologies and other solutions that can improve all types of
+resilience, from early warning systems to nature-based solutions for absorbing and reducing
+the impacts of disasters like floods or heatwaves.
+
+The third message is the critical importance of recovering and reconstructing as quickly
+as possible after disasters. The report’s economic modeling shows that that annual
+economic losses from disasters can be as high as 7 percent of a country’s GDP when
+full reconstruction takes 20 years or more, which is common. Fully rebuilding in 10 years
+cuts the annual economic damage in half, and the damages drop even more with faster
+reconstruction.
+
+There will never be sufficient funding to do everything needed for resilient infrastructure.
+However, risk assessment and cost-benefit analysis tools like those developed by CDRI and
+partners can help identify the most cost-effective investments. Moreover, GIR 2025 offers
+a guide to the financial instruments that governments can use to improve each type of
+resilience.
+
+For example, sustainable bonds or dedicated funds can be used to increase the capacity
+of existing assets to absorb shocks; for responding to disasters, financing can come from
+contingency funds, credit lines, or catastrophe deferred drawdown options (Cat-DDOs); for
+rapid recovery and reconstruction, effective financial strategies include regional risk pools,
+budget allocations, and dedicated reconstruction funds. These financial instruments may be
+most effective when ‘layered’, stacking up different strategies depending on the frequency
+and severity of events. The report provides a list of questions that can help guide you to the
+most effective strategies.
+
+The increasing threats to infrastructure assets from disasters are making your job more
+difficult than it already is. But there is an opportunity for you to put your country on a better,
+more prosperous path through investments in infrastructure resilience—and we hope that
+GIR 2025 can help you do that.
+
+
+
+
+                                                43
+                                           Memorandums
+                                                   Highway bridge construction in Thailand Source: Getty Images
+
+
+
+
+Memorandum to Ministers of Infrastructure
+and Heads of Utilities
+
+Improving the Resilience of the Infrastructure You Oversee Brings Major
+Benefits
+As the leader of your ministry of infrastructure or a key utility, you are now facing growing
+damage and destruction because of the increasingly severe impacts of climate change and
+disasters like earthquakes. The global annual average loss and damage from such disasters
+is estimated at $732 billion and climbing.
+
+The second Global Infrastructure Resilience (GIR 2025) report from the Coalition for Disaster
+Resilient Infrastructure (CDRI) documents that disasters typically cause cascading economic
+impacts that dwarf the direct damages to infrastructure. When key infrastructure like
+roads and ports fail, products do not get to market. When electricity and water services are
+interrupted, business and household activities can be crippled—often for months. The indirect
+costs are, on average, more than 7 times the cost of direct damages to infrastructure assets.
+
+It is critical, therefore, that you do everything possible to make your infrastructure better
+able to withstand the shocks from severe weather events and other disasters, to recover
+faster in the aftermath of disasters, and to design and build new infrastructure to be more
+resilient. The good news is that resilience pays. On average the benefits of investments in
+resilience are four times larger than the costs, and many interventions have much higher
+benefit-cost ratios.
+
+
+
+
+                                              44
+                                          Memorandums
+The GIR 2025 report has been carefully crafted to help you realize the many benefits
+of improved infrastructure resilience. It is based on robust evidence from CDRI’ Global
+Infrastructure Risk Model and Resilience Index (GIRI) that can help pinpoint infrastructure
+risks in your country and estimate potential losses from disasters. The report provides deep
+analysis and numerous case studies to identify practical strategies to improving all three
+key capabilities of infrastructure resilience; the abilities to better absorb shocks, to respond
+more effectively when disasters hit, and to recover faster.
+
+Your agency can promote the use risk assessments and cost-benefit analysis to quantify
+the large direct and indirect benefits of actions that improve resilience and monetize the
+savings from improved resilience. For instance, new technologies hold immense promise
+for transforming the resilience of infrastructure systems. They can help improve the data
+value chain, communication, and the robustness of infrastructure systems. Remote sensors
+can spot impending disasters before they strike and trigger more effective responses, for
+example, real-time control systems can instantly reroute power around downed transmission
+lines or flooded transformers on the electricity grid. Other strategies include harnessing
+nature’s power to mitigate shocks, the way green corridors in Brazil protect communities
+from floods, while replacing invasive species with olive groves, vineyards and orchards.
+
+Investing in retrofitting programmes and stronger new assets, and seemingly “invisible”
+measures such as maintenance, capacity building and readiness for rapidly reconstructing
+after disasters, and technical codes and standards can bring immense benefits.
+
+To fund these resilience actions, GIR 2025 recommends a layered approach that combines
+dedicated resilience budget lines, contingent budgets and loans, insurance, access to
+international grants, and other financial instruments. Each of these can be used at different
+times before, during, and after a disaster, since no single instrument can fully cover all
+disaster-related risks.
+
+CDRI recognizes that infrastructure agencies cannot meet the resilience challenge
+alone. You will need the support of the ministries of finance and planning, disaster risk
+management agencies, subnational governments, the private sector, and many others. But
+your leadership will be crucial. CDRI hopes that this report will be valuable in helping you
+to improve the resilience of the crucial infrastructure that you oversee—and to bring major
+benefits to all those who depend on your work.
+
+
+
+
+                                               45
+                                          Memorandums
+                                            Cleanup begins after a landslide in El Chaco, Ecuador Source: iStock
+
+
+
+
+Memorandum to Heads of
+Disaster Risk Management Agencies
+
+DRM Agencies Have Critical and Unique Roles in Increasing Infrastructure
+Resilience
+As the economic and human toll from the impacts of climate change and other disasters
+increases, your disaster risk management (DRM) agency is uniquely positioned to play a
+crucial and unique role in enhancing the resilience of all types of infrastructure.
+
+Your central responsibility is coordinating preparedness and emergency response services
+when disasters occur. To mount an effective response, your emergency teams need critical
+services like power, water, communications, transportation, healthcare, and shelter. This
+requires a strong engagement with utilities and infrastructure agencies.
+
+Beyond that, the DRM agency needs to work with infrastructure agencies to ensure they
+have the capacity to apply risk assessment and cost-benefit analysis tools to design
+their investment plans and projects to be more resilient. You can also make a valuable
+contribution by working with ministries of finance to set up and manage the financial
+instruments needed for effective recovery and reconstruction after disasters. In all these
+cases, early engagement and clear operational rules agreed in advance with infrastructure
+agencies are essential for success.
+
+
+
+
+                                             46
+                                        Memorandums
+As is generally observed, the capacities of infrastructure agencies at sub-national levels
+tend to be weaker than those of national agencies. But these regional or local organizations
+also typically have the best information on the hazards, exposures, and vulnerabilities of
+specific regions and communities. This information can be extremely helpful in your plans
+for preparedness and emergency responses –– so strong coordination with them is critical.
+At the same time, the DRM agency can support these local agencies in developing their own
+land use and development plans to increase infrastructure resilience.
+
+Finally, DRM agencies have a unique role in monitoring specific indicators of resilience and
+in ensuring that important data can be shared among hydrometeorological and geological
+institutions, infrastructure agencies, and local governments.
+
+The Coalition for Disaster Resilient Infrastructure (CDRI) hopes that this second Global
+Infrastructure Resilience (GIR 2025) report will help you perform these critical tasks.
+It provides deep analyses to identify and estimate risks and damages from disasters,
+describes innovative technologies that can improve resilience, offers lessons from
+numerous case studies, and provides detailed roadmaps for actions by governments,
+business, and other stakeholders. Under your direction, DRM agencies can be critical
+leaders in the urgent effort to improve the resilience of infrastructure.
+
+
+
+
+                                             47
+                                         Memorandums
+                                         Laem Chabang, a key international container port, Thailand Source: iStock
+
+
+
+
+Memorandum to CEOs
+
+Improving Infrastructure Resilience is a Critical Economic Imperative for
+Businesses
+The growing impacts of climate change and disasters like earthquakes are increasingly
+putting the world’s critical infrastructure at risk, causing estimated global annual damages
+to the tune of $732 billion.
+
+For businesses, the harm from disasters can be tremendous and far-reaching. If roads
+and ports fail, your products may not get to the market and your supply chains may be cut
+off. If the electricity grid fails, your company may not be able to operate. Your factories
+and other facilities can suffer direct damage from floods and other events. As a result, in
+the aftermath of disasters, profitability can plummet—and businesses are often forced to
+close.
+
+The second Global Infrastructure Resilience (GIR 2025) report from the Coalition for Disaster
+Resilient Infrastructure (CDRI) conducted an economic impact modelling in eight diverse
+countries. It shows that the economic costs associated with infrastructure failures due to
+disasters are, on average, more than 7 times the cost of direct damages to infrastructure
+assets. Increasing resilience is thus a critical economic imperative for businesses, and it is
+also cost-effective.
+
+
+
+
+                                               48
+                                         Memorandums
+For this report, CDRI surveyed more than 500 companies in nearly 60 countries to
+understand the impacts of infrastructure service failures caused by disasters on business
+operations and profitability.
+
+Your colleagues told us that most large businesses have prepared for disasters—82 percent
+have business continuity plans. However, close to 40 percent of them have never tested
+those plans. Moreover, 40 percent of the companies lack detailed standard operating
+procedures or execution guidelines for their disaster response plans. Nearly two-thirds of
+them lack access to reliable providers of resilience solutions.
+
+77 percent of your fellow business leaders say that government policies for resilience
+are either absent or poorly enforced. And 85 percent of large firms do not consider the
+resilience of suppliers when they select vendors. If suppliers are affected by a disaster,
+crucial inputs may not be available.
+
+As GIR 2025 describes, tackling these shortfalls and building resilience in businesses
+requires more than isolated interventions. It demands a systemic approach that embeds
+resilience across every stage of the business lifecycle, from strategy and planning to
+operations. It is also vital to improve the three key capabilities of resilience; the ability to
+better absorb shocks, to respond more effectively when disasters strike, and to recover
+faster.
+
+Firms that build these end-to-end resilience capabilities will see important economic gains
+and competitive advantages, with shorter downtimes and faster market-share recoveries.
+There are also some major market opportunities, such as expanding insurance products or
+supplying technologies and services that build resilience.
+
+As you work to build resilience in your own company and supply chains, CDRI hopes that
+this report can provide valuable guidance. It documents how innovative technologies can
+pay for themselves many times over through avoided damage and faster recovery. It also
+offers specific recommendations for businesses, such as building capacity through training
+and regular emergency drills and working with governments to craft supportive policies.
+Perhaps most importantly, we hope that the report may inspire you to make infrastructure
+resilience a top priority for your company.
+
+
+
+
+                                                49
+                                            Memorandums
+Acknowledgements
+
+Coalition for Disaster Resilient Infrastructure (CDRI)
+Co-chairs: Krishna Vatsa (Member, National Disaster Management Authority (NDMA) and India Co-chair,
+Executive Committee, CDRI); Damien Syed (Deputy Head of Mission, France and CDRI Executive Committee Co-chair)
+
+
+Director General: Amit Prothi
+
+
+                                                             International Advisory Board
+
+Coordinating Lead Author                                     Kamal Kishore (United Nations Office for Disaster Risk
+Ede Ijjasz                                                   Reduction);
+                                                             Rachel Kyte (Foreign, Commonwealth and Development
+CDRI Core Team
+                                                             Office; University of Oxford, United Kingdom);
+Ranjini Mukherjee (Director, Research, Knowledge             Rosa Galvez (Independent Senators Group, Senate of
+Management and Capacity Development);                        Canada);
+Raina Singh (Lead Specialist, Global Infrastructure          Suman Bery (NITI Aayog, Government of India)
+Resilience Report);
+Swapnil Saxena (Senior Specialist, Global
+Infrastructure Resilience Report);                           High-level Technical Advisory Group
+Aishwarya Raj (Senior Specialist, Global
+Infrastructure Resilience Report)                            Alexandra Galperin (Former Unit Head, Disaster Risk
+                                                             Management, ADB);
+Contributors                                                 Eduardo Cavallo (Inter-American Development Bank);
+Abhijit Datey                                                Krishna Vatsa (National Disaster Management Authority,
+(Lead Specialist-Research);                                  Government of India);
+Amit Tripathi                                                Meike van Ginneken (Government of the Netherlands);
+(Technical Expert, Power Sector);                            Stéphane Hallegatte (World Bank);
+Anshul Yadav                                                 Stuart Fraser (Insurance Development Forum);
+(Lead Specialist, Telecommunication Sector)                  Vikram Widge (Climate Policy Initiative)
+Raj Vikram Singh
+(Senior Specialist, Disaster Risk Financing);
+Akash Mishra                                                 Chapter Leads
+(Specialist, Financial Sector);                              Chapter 1. Introduction
+                                                             Ede Ijjasz and Raina Singh (CDRI)
+Communications
+                                                             Chapter 2. Risk Assessment: An Indispensable Tool for
+David White
+                                                             Resilience
+(Director, Advocacy and Communications);
+                                                             Andrew Maskrey (Independent Expert and Consultant);
+Mallika Srinivasan
+                                                             Gabriel Bernal, Mabel Marulanda, and Omar Darío
+(Lead Specialist, Media & Communications);
+                                                             Cardona (INGENIAR Risk Intelligence)
+Susan Thomas
+(Senior Specialist, Media);                                  Chapter 3. Economic Impacts: Downstream
+Payal Bhatnagar                                              Consequences of Infrastructure Failures
+(Senior Specialist, Communications)                          Andrea Bassi and Edvin Andreasson (KnowlEdge Srl)
+
+Copyedit                                                     Chapter 4. Views of Resilience Professionals: A Global
+Angela Takats                                                Survey
+The Clean Copy                                               Savina Carluccio, Fruzsina Csala, George Karagiannis,
+John Carey                                                   and Katie Momber (International Coalition for
+Chandrahas Choudhury                                         Sustainable Infrastructure)
+
+                                                             Chapter 5. Impacts on Businesses: The Hidden Cost of
+Design                                                       Disasters
+Brad Amburn and Tiffinbox                                    Ashish Kulkarni, Anirban Mukherjee, Annika Zawadzki,
+                                                             Nikhil Bharadwaj, Pranjal Kapoor, Tania Banerjee, and
+                                                             Vineet Vijayavargia (Boston Consulting Group)
+
+                                                             Chapter 6. Technologies: Harnessing the Full Potential
+                                                             Harriette Stone (Independent Expert and Consultant)
+
+
+
+
+                                                        50
+                                                  Acknowledgements
+Chapter 7. Financing: Closing the Gap to Capture the            Technical Advisory and Review
+Resilience Dividend
+Alexandre Chavarot (Climate Finance 2050); Akaraseth            Juliet Mian, Karen Barns (Arup); Arghya Sinha Roy
+Puranasamriddhi (University of Oxford, United Kingdom);         (Asian Development Bank); Ajay Lavakare (CDRI); Will
+Neeha Mujeeb (Harvard Kennedy School)                           Symons (Deloitte); Fouad Bendimerad (Earthquakes
+                                                                and Megacities Initiative); Thomas Maier (European
+Chapter 8. Governance and Institutions: The Backbone
+                                                                Bank for Reconstruction and Development); Juan Pablo
+of Resilience
+                                                                Sarmiento (Florida International University, United
+Ede Ijjasz (CDRI); Francine Conti (Research Consultant);
+                                                                States); Stelios Grafakos (Global Green Growth Institute);
+Mia Lott (Research Consultant)
+                                                                Karen Sudmeier-Rieux (Independent Expert); Amir Bazaz
+Chapter 9. Nature-based Solutions: Partnering with the          (Indian Institute for Human Settlements); Ravi Sinha
+Environment                                                     (Indian Institute of Technology, Bombay, India); Dora
+Floris Boogaard, Hsoc Mathai and Lakshman Srikanth              Suárez (Institute of Environmental Studies and Integrated
+(Deltares)                                                      Research on Disaster Risk, International Center of
+                                                                Excellence, National University of Colombia); Joern
+                                                                Birkmann (Institute of Spatial and Regional Planning,
+Contributors                                                    University of Stuttgart, Germany); Maria Netto (Instituto
+                                                                Clima e Sociedade, Brazil); Judy Zakreski (International
+Chapter 2: Risk Assessment: An Indispensable Tool for           Code Council); Alexandre Huet (International Committee
+Resilience
+                                                                of the Red Cross); Lino Briguglio (Islands and Small
+Akaraseth Puranasamriddhi and Jim Hall (University
+                                                                States Institute, University of Malta); Alonso Brenes
+of Oxford, United Kingdom); (Deloitte Global); Niranga
+                                                                (La Red, Costa Rica); Nancy Hey (Lloyd’s Register
+Alahacoon and Giriraj Amarnath (International Water
+                                                                Foundation); Milton Von Hesse (Former Minister of
+Management Institute); Carol Mweemba (International
+                                                                Housing, Construction and Sanitation, Peru); Ruchika
+Water Management Institute Consultant, Zambia);
+                                                                Drall (Ministry of Environment, Forest and Climate
+Leel Randeni (Climate Change Secretariat, Ministry of
+                                                                Change, Government of India); Lizeth Abril (National
+Environment, Sri Lanka); Akash Shrivastav, Madhurima
+                                                                Agency for Disaster Risk Management, Colombia); Safi
+Sarkar-Swaisgood, Naina Tanwar, Parvathy Subha,
+                                                                Ahsan Rizvi (National Disaster Management Authority,
+Prangya Gupta, Rahul Kumar Suman, and Shashwat Avi
+                                                                Government of India); Luis Donas (National Emergency
+(United Nations Economic and Social Commission for
+                                                                Office of Ministry of Interior and Public Security,
+Asia and the Pacific)
+                                                                Government of Chile); Munjurul Hannan Khan (Nature
+Chapter 3. Economic Impacts: Downstream                         Conservation Management, Bangladesh); Michael
+Consequences of Infrastructure Failures                         Mullan (Organization for Economic Co-operation and
+Akaraseth Puranasamriddhi (University of Oxford, United         Development); Liliana Carreño (Polytechnic University
+Kingdom)                                                        of Catalonia, Spain); Alvaro Fonseca (Ramboll); Cecilia
+                                                                Nonifili Yuanita Gulö (Resilience Development Initiative);
+Chapter 6. Technologies: Harnessing the Full Potential          Lasitha Perera (The Green Guarantee Company);
+(Deloitte Global)                                               Suzanne Osment (The Nature Conservancy); Jan Kellet
+                                                                (United Nations Development Programme); Helen Ng,
+Chapter 7. Financing: Closing the Gap to Capture the
+                                                                Jenty Kirsch-Wood, Mathieu Verougstraete (United
+Resilience Dividend
+                                                                Nations Office for Disaster Risk Reduction); Sanju
+Akaraseth Puranasamriddhi (University of Oxford,
+                                                                Deenapanray (Université des Mascareignes, Mauritius);
+United Kingdom); Naho Shibuya and Natalia Romero
+                                                                Bilal Ayyub (University of Maryland, United States);
+(World Bank); Ravi Seethapathy (Executive Chairman,
+                                                                Louise Comfort (University of Pittsburgh, United States);
+Biosirus Inc. and Technical Expert, CDRI); Thiago Olante
+                                                                Timon McPhearson (Urban Systems Lab); Brenden
+Casagrande (Ministry of Transport, Brazil)
+                                                                Jongman , Jayashree Srinivasan, Leonardo Garrido,
+Chapter 9. Nature-based Solutions: Partnering with the          Natalia Romero (World Bank)
+Environment
+Joanne Li, Carmen Or, Vivian Fu (WWF Hong Kong);
+Debmalya Roy Choudhury, Soma Saha, and Anamitra
+Anurag Danda (WWF India)
+
+
+
+
+                                                           51
+                                                   Acknowledgements
+Coalition for Disaster Resilient Infrastructure (CDRI)
+Telephone: +91 11 4044 5999       Website: www.cdri.world      Email: biennialreport@cdri.world; info@cdri.world
+
+
+
+
+     Twitter:                          LinkedIn:                                                 YouTube:
+     twitter.com/cdri_world            Coalition for Disaster Resilient Infrastructure           @coalitionfordri
+
+
+
+
+                                                                                                    GIR 2025
+                                                                                                Executive Summary
+This Work is a product of the Coalition for Disaster Resilient Infrastructure
+(CDRI) as part of the second Global Infrastructure Resilience report (GIR 2025)
+and features external contributions from multiple organizations. The full report
+and the executive summary may be accessed at https://cdri.world/resilience-
+dividend/global-infrastructure-resilience-report-second-edition/. All working
+papers prepared for this report (GIR 2025 Working Paper Series) are available
+on CDRI’s official website, accessible on the web link mentioned above. They
+provide detailed background material, methodologies, analyses, and case
+                                                                                                 GIR 2025 Report
+studies for each chapter of the report. The papers will be released sequentially
+starting November 2025 through 2026.
+
+
+An online data platform enabling visualization, analyses, and downloading
+provisions for the results of the Global Infrastructure Risk Model and Resilience
+Index (GIRI) is available at https://cdri.world/giri. Updates incorporating the
+GIRI 2025 results will be available on this platform in early 2026.
+
+
+
+
+This document is a launch edition and may undergo minor changes in design.
+

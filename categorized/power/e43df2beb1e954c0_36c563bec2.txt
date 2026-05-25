@@ -1,0 +1,1355 @@
+2025 public sector report
+
+
+State of AI
+infrastructure
+Executive
+summary
+While the explosion of interest in AI has sparked widespread        a cloud market undergoing a dramatic shift, where companies
+experimentation, the focus has now shifted to practical             actively investing in AI-powered cloud infrastructure are leading
+application. Agency leaders are prioritizing ‘how’ over ‘if’—       the charge in the AI era.
+how to integrate, secure, and scale gen AI to deliver sustainable
+value. This transformative phase demands a strategic approach       This report cuts through the hype, offering a clear-eyed view
+to platform management and cost-effective deployment.               of the practical hurdles and strategic opportunities. We provide
+                                                                    the research and numbers leaders need to build consensus for
+However, this transformation is far from straightforward.           essential infrastructure investments, empowering them to
+Organizations face significant challenges, including legacy         create truly AI-powered and cloud-driven organizations and
+system integration, complex migrations, and the need to             confidently navigate this transformative period.
+tailor AI solutions to their unique business contexts.
+
+Recognizing the critical need for data-driven insights, we                     Nirav Mehta
+surveyed 500+ global technology leaders. Our findings reveal                   Google Cloud Sr. Director, Product Management
+
+                                                                                                                                        02
+Key findings
+ Landscape
+                 01
+                        Gen AI adoption is                                                    02     Organizations leverage gen AI internal
+                        nearly universal                                                             efficiency and external engagement
+
+
+                       98%           of organizations are actively
+                                     experimenting with, developing,
+                                     or using gen AI in production                                   64%                    focus on both enhancing
+                                                                                                                            customer experience and
+                                                                                                                            improving internal operations
+
+
+ Challenges
+                 03
+                        Security and data are                                             04
+                                                                                                      Cost is a critical
+                        top concerns                                                                  consideration
+
+                       70%                                                                           83%
+                                     have experienced difficulties with
+                                     data governance, integrating data                                                     prioritize cost-efficiency
+                                     into AI models, and having                                                            when adopting gen AI
+                                     insufficient training data                                                            infrastructure solutions
+
+
+Infrastructure
+                      A robust AI                   Edge computing is                    07        Hybrid cloud offers                08   Most
+                      platform is                   extending AI’s reach                           flexibility and control                 organizations
+                      a leading criteria                                                                                                   rely on gen AI
+                                                    73%                                            74%
+                                                                   consider deploying
+                      when evaluating                              gen AI models in
+                                                                   distributed devices
+                                                                                                               prefer a hybrid
+                                                                                                               cloud approach              solutions from
+                      infrastructure                               or systems to be
+                                                                   important
+                                                                                                               for gen AI
+                                                                                                               deployments                 cloud providers
+     Optimized infrastructure is crucial
+     for gen AI success
+vv
+
+
+
+
+     The success of any gen AI initiative hinges on the          It needs to be scalable, performant, and reliable to handle
+     underlying infrastructure. This isn’t simply about adding   the parallel processing of large training datasets, as well as
+     another workload, it’s about building a foundation that     the extended context windows and multi-step processing
+     can support the unique and rapidly evolving demands         of inference and reasoning. And of course—it has to be
+     of AI—regardless of whether you’re aiming to increase       cost efficient.
+     constituent satisfaction or reduce operational costs.
+                                                                 Sound like an impossible task? Not if you have a plan. Gen AI is
+     This foundation needs to do some heavy lifting. It must     redefining organizations’ IT strategy, and it isn’t slowing down.
+     be secure to safeguard both intellectual property and       This research reveals where leaders across all industries are on
+     user data. It has to be distributed—providing managed       their journey. In reviewing your cloud infrastructure strategy,
+     services in the public cloud and extending into your        prioritize providers that can empower not only AI experts but
+     data center or to the network edge for latency and          also ensure accessibility and usability for all personnel, including
+     data sovereignty requirements.                              developers and agency programs.
+
+                                                                                                                                        04
+Finding 01
+
+
+
+Gen AI
+adoption is
+almost universal
+across industries
+01   02   03   04   05   06   07   08
+                                        05
+ Finding   01      02        03      04     05    06    07      08
+
+
+
+The importance of gen AI in today’s workplace simply can’t be overstated.
+
+
+
+   98%                                                                            79%
+                                                                                                   of technology leaders consider
+                                  of organizations are actively                                    gen AI to be at least very important to
+                                  experimenting with, developing,                                  their organization’s current and future
+                                  or using gen AI in production                                    business operations
+
+
+
+       At what stage is your organization in terms of                             How important is gen AI to your organization’s current
+       gen AI adoption?                                                           and future business operations?
+
+                                                   39%               39%                                          39%           40%
+                                                    Actively          Using in                                      Very         Extremely
+                                                   developing        production                                   important      important
+
+
+
+                                   20%                                                             19%
+                                    Currently                                                      Important
+
+                2%
+                                  experimenting
+                                     with dev                                          4%
+           Planning in the                                                           Somewhat
+              next year                                                              important
+
+
+
+
+                                                                                                                                             06
+ Finding   01    02    03   04    05    06    07   08
+
+
+
+
+Tech leaders in every industry agree that gen AI is essential
+to their organizations’ success.
+
+
+
+    These findings are consistent across                As might be expected, organizations
+    industries—technology leaders across                in tech-related industries have been
+    the board have overwhelmingly adopted               both quicker to move gen AI pilots to
+    gen AI in their organizations and agree             production and have higher gen AI
+    that it’s essential to their business.              adoption rates overall.
+
+    Across industries, the majority of                  However, the gen AI imperative has        While a staggering 79% of leaders
+    organizations are either actively                   pushed nearly every company,              overall believe gen AI is very or
+    developing or deploying gen AI in                   regardless of industry, to invest in      extremely important to their business,
+    production, showing that companies                  gen AI. Even industries that show lower   this percentage is even higher for
+    are already investing heavily in gen AI             in-production rates, such as financial    tech-related industries like IT
+    and are planning to continue to invest.             services and manufacturing, have strong   consulting (91%) and computer
+                                                        experimentation and development rates.    hardware/software (88%).
+
+
+
+
+                                                                                                                                           07
+  Finding   01   02   03   04   05   06   07   08
+
+
+
+
+Why it matters
+to you
+AI is no longer a futuristic concept—it’s a core driver
+and a fundamental shift in how organizations work. IT
+leaders have moved past talking about acknowledged
+potential and have turned to building an infrastructure
+that can support the growing demands of AI workloads.
+
+With most organizations either actively developing or
+using it in production, gen AI is enabling organizations
+to find efficiencies and explore new pathways to success.
+The infrastructure decisions you make today will
+determine your organization’s ability to compete in an
+AI-driven future—regardless of your industry or region.
+
+
+
+                                                            08
+Finding 02
+
+
+Organizations leverage
+gen AI internal
+efficiency and external
+engagement
+Gen AI delivers results across a number of use cases.
+While intuitively you may think ‘the more the better,’
+our research shows interesting results about where
+your gen AI efforts are best placed.
+
+
+
+  01   02   03   04   05    06   07   08
+                                                         09
+ 01     Finding   02     03   04     05   06   07    08
+
+
+
+
+Organizations are using gen AI                                               How would you primarily categorize your
+                                                                             organization’s current or planned used of gen AI?
+to improve customer interactions,
+personalize experiences, and
+create more value.                                                               64%
+Our research shows many tech          For example, integrating gen AI               Both
+leaders (64%) are striking a          with your organization’s operational      internal and
+balance between enhancing user        data enables a customer service          external-facing
+experience and improving internal     agent or chatbot to deliver
+operations. Adopting gen AI into      relevant, real-time responses that
+external-facing use cases is the      users value. Adopting gen AI into
+difference between providing a        internal-facing processes enables
+
+                                                                                                   25%
+personalized, accurate response       organizations to streamline
+to a citizen versus a generic one.    processes, boost productivity,
+                                      and optimize operational costs.
+                                                                                                    Primarily
+                                                                                                                      11%
+                                                                                                 internal-facing      Primarily
+                                                                                                                   external-facing
+
+
+
+
+                                                                                                                                     10
+01   Finding    02     03    04     05   06   07   08
+
+
+
+
+Three key use cases are driving gen AI adoption:
+
+
+       Data analysis                                    Internal process                  Customer service
+                                                        automation                        automation
+       It’s about more than generating                  Automating repetitive tasks and   Go beyond basic chatbots. Today’s
+       reports. It’s about extracting                   streamlining workflows frees up   automation is about creating intelligent
+       actionable insights from vast                    human capital for higher-value    systems that can understand nuanced
+       datasets, identifying patterns,                  activities.                       inquiries, provide accurate and
+       and enabling data-driven decision-                                                 personalized responses, and resolve
+       making at scale and speed.                                                         issues efficiently.
+
+
+
+
+       of organizations overall place                   of organizations overall place    of organizations overall place
+       data analysis as a top                           internal process automation as    customer service automation as
+       implementation priority                          a top implementation priority     a top implementation priority
+
+
+
+
+                                                                                                                                     11
+ 01    Finding   02   03    04   05   06   07    08
+
+
+
+
+Why it matters
+to you
+To fully capitalize on gen AI, organizations need to
+adopt a strategic approach, integrating AI into both
+internal workflows and customer-facing applications.
+This requires a flexible and scalable infrastructure that
+can support diverse AI workloads.
+
+
+
+
+                                                            12
+01   Finding   02   03   04   05   06   07   08
+
+
+
+
+                                                  In the financial services industry, Regnology is leveraging
+                                                  Google Cloud services to develop a regulatory reporting
+                                                  chatbot. This chatbot is designed to expedite the process
+                                                  of obtaining accurate answers to regulatory inquiries, from
+                                                  both internal and external users.
+
+                                                  Faced with rapidly growing regulatory demands and
+                                                  increasing data volumes, Regnology helps clients streamline
+                                                  their operations and stay compliant with evolving regulations.
+                                                  As a global leader in regulatory reporting, it struggled with its
+                                                  in-house infrastructure’s lack of flexibility. A new chatbot, built
+                                                  on Google Cloud services, expedites the process of obtaining
+                                                  accurate answers to regulatory inquiries, from both internal
+                                                  and external users.
+
+
+                                                    Read more
+
+
+
+
+                                                                                                                    13
+Finding 03
+
+
+Security and
+data are key
+challenges
+Safeguarding sensitive information remains a
+top priority. Organizations want to know how to
+protect proprietary data when using third-party
+AI models and ensure compliance with evolving
+data protection regulations.
+
+
+
+
+  01   02   03   04   05   06   07   08
+                                                  14
+01   02   Finding   03   04   05   06   07   08
+
+
+
+
+Which of the following                                    Security risks
+
+are the greatest
+                                                  Data privacy concerns
+challenges to your
+organization’s                                     Regulatory concerns
+
+
+gen Al adoption?                                                    Cost
+
+                                                   Difficulty integrating
+                                                            technologies
+
+                                                  Change management
+
+
+                                                      Lack of expertise
+
+
+                                                         Data readiness
+
+                                                       Ethical concerns
+                                                    (Bias, fairness, etc.)
+                                                                 Existing
+                                                          infrastructure
+                                                              limitations
+                                                          Lack of viable
+                                                             use cases
+
+
+
+
+                                                                             15
+01   02   Finding   03     04    05    06      07   08
+
+
+
+
+Our research underscores                                 The greatest concerns with gen AI adoption are:
+the critical security and
+                                                                 Security risks
+
+
+                                                                                                                       39%
+privacy concerns that
+                                                           Protecting proprietary data and intellectual property
+technical leaders face.                                    is non-negotiable. The inherent nature of gen AI,
+                                                           involving LLMs and vast datasets, introduces new
+                                                           security challenges that must be addressed proactively.
+
+
+
+
+ 62%                list security risks and/
+                    or data privacy as their                     Data privacy concerns
+
+
+                                                                                                                       36%
+                    greatest challenge
+                                                           Organizations need to ensure their gen AI
+                                                           implementations protect sensitive data and comply
+                                                           with regulations like General Data Protection
+                                                           Regulation (GDPR), California Consumer Privacy
+                                                           Act (CCPA), and more.
+
+
+
+
+                                                                 Regulatory concerns
+
+
+                                                                                                                       29%
+                                                           Regulations surrounding gen AI are increasing—the
+                                                           EU AI Act is just one—and it’s important for businesses
+                                                           to remain compliant. Some topics under increased
+                                                           regulatory scrutiny include AI explainability, protecting
+                                                           intellectual property, and protecting against
+                                                           misinformation.
+
+
+                                                                                                                             16
+01   02    Finding   03     04    05   06    07    08
+
+
+
+
+     70% of orgs adopting
+     gen AI have experienced
+     difficulties with data.
+     This includes data governance, integrating data into AI          Further exacerbating this challenge is the crucial need
+     models, and having insufficient training data, which aligns      for data lineage capabilities. Data lineage provides a
+     with key findings from An executive’s guide to delivering        comprehensive, auditable record of a dataset’s origin,
+     value from data and AI.                                          transformations, and usage rights—enabling organizations
+                                                                      to definitively assert, with legal, ethical, and policy-based
+     Across the board, organizations are eager to embrace gen         justification, their entitlement to utilize specific data for
+     AI, but face challenges in scaling from pilot projects to full   a given AI application. Without verifiable data lineage,
+     production deployments. The key bottleneck? Data. Our            organizations face significant risks, including potential
+     research found that data availability and quality, along with    legal liabilities, regulatory non-compliance, and reputational
+     the platform storing that data, are the most important           damage—effectively hindering the deployment of AI
+     factors in gen AI implementation.                                models trained on data with uncertain provenance.
+
+
+
+
+                                                                                                                                       17
+ 01    02     Finding   03     04    05    06    07    08
+
+
+
+
+Data availability and quality,
+a robust Al platform,
+                                                                What are your top 5 most important factors when choosing
+efficient scalability, and                                      gen AI tech?
+technical feasibility lead in
+overall importance for new
+gen Al tech.                                                         Robust
+                                                                 AI platform
+
+
+
+                                                            Data availability
+                                                                and quality
+
+
+
+Organizations are concerned about keeping their
+                                                                    Efficient
+customer and proprietary data private, secure, and                scalability
+compliant. We already know that to ensure quality data
+governance, organizations need to unify their data—but
+doing so can be a heavy infrastructure lift. And so it’s
+perhaps no surprise that data quality, a robust platform,         Technical
+and efficient scalability are the most important factors          feasibility
+on the minds of tech leaders when it comes to gen AI
+implementation. Data and its supporting infrastructure
+still reign supreme.
+
+
+                                                                                                                           18
+ 01    02     Finding   03     04    05      06   07   08
+
+
+
+
+A look across                                                             What are your top gen AI adoption challenges?
+
+regions                                                                                                            NORTHAM        EMEA        APAC
+
+
+                                                                         Security risk
+Security and data privacy are the greatest
+challenges to gen AI adoption, and this
+                                                                         Data privacy
+finding is consistent across regions.                                       concerns
+
+The regulation landscape varies across                                    Regulatory
+global regions, which is of particular concern                             concerns
+for companies operating multi-nationally.
+
+
+
+
+      North America                                         Europe                                        Asia-Pacific
+      State-level laws are becoming more                    GDPR maintains strict requirements about      The landscape varies, with some
+      comprehensive, such as the CCPA, which                how data is stored, collected, and deleted.   countries requiring keeping data within
+      attempts to secure consumers’ rights to               For businesses using cloud resources,         their borders, while others have a more
+      access, view, and delete data.                        in-country cloud centers are important        fragmented approach.
+                                                            for remaining compliant. The fines for
+                                                            non-compliance are up to €20 million or
+                                                            4% of global annual turnover.
+
+
+                                                                                                                                                     19
+ 01   02     Finding   03     04   05    06      07   08
+
+
+
+
+Why it matters to you
+Building a secure and compliant AI                     This allows for data access between
+infrastructure is non-negotiable. IT leaders           these systems, even with demanding
+must prioritize data security and privacy in their     transactional workloads.
+AI strategy to mitigate risks and maintain trust.
+                                                       And as more data and applications move
+No matter your industry, data is often                 out of on-premises data centers and away
+fragmented across different platforms and              from traditional security mechanisms and
+formats, making it challenging to implement            infrastructure, data security approaches
+unified security and governance policies.              must be adapted to the cloud.
+To fully capitalize on AI, it’s imperative to
+create a single source of truth with a unified         Ready to learn more?
+platform across all forms of data, including
+open formats.                                          • Accelerating Secure, Private, and
+                                                         Compliant AI Transformation
+Additionally, a highly scalable architecture           • Unlocking gen AI’s full potential
+is crucial, enabling the unification of                  with operational databases
+transactional and analytical systems                   • Building a Secure Data Platform
+without impacting performance.                           with Google Cloud
+
+                                                                                                  20
+01   02   Finding   03   04   05   06   07   08
+
+
+
+
+                                                  Keeping New York City’s digital
+                                                  services secure at scale
+                                                  New York City Cyber Command (NYC Cyber),
+                                                  responsible for safeguarding the city’s digital
+                                                  infrastructure, partnered with Google Cloud to
+                                                  enhance its cybersecurity capabilities and protect
+                                                  critical services at massive scale. By leveraging
+                                                  Google Cloud’s security solutions, including
+                                                  Chronicle Security Operations, NYC Cyber gained
+                                                  access to advanced threat intelligence, analytics,
+                                                  and automation tools, enabling them to more
+                                                  effectively identify and mitigate cyber risks.
+
+
+                                                    Read more
+
+
+
+
+                                                                                                       21
+Finding 04
+
+
+Cost efficiency
+is a critical
+consideration
+AI demands significant computational resources, and the overall
+costs for implementing and maintaining AI can vary widely
+depending on factors such as scale, model complexity, data
+requirements, infrastructure maintenance, and existing talent.
+
+
+
+
+ 01   02   03   04    05   06   07   08
+                                                                  22
+ 01   02    03      Finding   04     05    06    07     08
+
+
+
+
+While the potential of                                       How important is cost-efficiency in your decision-making
+                                                             process for gen AI infrastructure solutions?
+gen AI may be limitless,
+budgets are not.
+                                                                                            53%
+
+      83%
+                          of tech leaders say                                                   Very
+                          cost is a key factor                                                important
+                          when evaluating
+                          solutions
+
+                                                                                                          30%
+Harnessing this powerful new technology can                                                                 Extremely
+                                                                                                            important
+be a minefield of unexpected expenditures.
+
+
+                                                                               12%
+The right cloud provider can offer cost-efficient
+
+                                                                 4%
+solutions for training, fine-tuning, and inference of
+AI workloads—including options for spot instances,
+reserved instances, and pay-as-you-go.
+                                                                 Somewhat      Important
+                                                                 important
+As we saw in finding 3, the cost of gen AI solutions
+is also a significant challenge in gen AI adoption,
+ranking 4th overall.
+
+
+
+                                                                                                                        23
+ 01   02    03     Finding    04    05   06   07   08
+
+
+
+
+While the cost associated                                 Where do you expect the largest ROI from gen AI?
+with gen AI solutions is
+a leading consideration,                                 Increase employee
+                                                               productivity
+
+the benefits of gen AI                                    Improve customer
+also positively impact an                                   satisfaction and
+                                                                engagement
+
+organization’s bottom line.                                     Streamline
+                                                             workflows and
+                                                                processes
+
+                                                                   Improve
+                                                        competitiveness and
+                                                          gain market share
+
+                                                                 Accelerate
+                                                            revenue growth
+
+
+                                                          Increase sales and
+From improving productivity                                         revenue
+and increasing sales to reducing
+operational costs, many leading
+gen AI use cases directly deliver                                   Reduce
+                                                           operational costs
+cost efficiencies.
+
+
+
+
+                                                                                                             24
+ 01   02   03   Finding   04   05   06   07   08
+
+
+
+
+Why it matters
+to you
+Gen AI streamlines processes and automates tasks,
+creating efficiencies that help organizations reduce
+costs. Yet, despite the efficiencies up for grabs,
+quantifying gen AI’s business value can be challenging.
+And that’s because alongside organization-wide cost
+savings, gen AI can bring ever-increasing technology
+expenditures, including computational costs, model
+development and management, and data management.
+That’s why cost optimization is a crucial consideration.
+
+
+
+
+                                                           25
+01    02    03      Finding   04     05    06      07   08
+
+
+
+
+Improve                                                      Right-size         Avoid over-provisioning by leveraging cloud platforms that
+                                                                                offer fine-grained control over compute resources. Look
+                                                             resources with     for capabilities like auto-scaling, which dynamically adjusts
+                                                             granular control
+
+your AI cost
+                                                                                resources based on real-time workload demands, and
+                                                                                support for heterogeneous compute instances (e.g., CPUs,
+                                                                                GPUs, TPUs) to match specific model requirements. This
+
+
+efficiency
+                                                                                minimizes wasted resources and ensures you only pay for
+                                                                                what you actually use.
+
+
+
+                                                             Leverage           Choose infrastructure providers with a proven track
+                                                                                record of optimizing AI performance. This includes using
+                                                             AI-optimized       specialized hardware accelerators (like TPUs or GPUs
+                                                             hardware and       designed for AI) and leveraging highly optimized software
+                                                             software stacks    frameworks (e.g., JAX, TensorFlow, PyTorch) that maximize
+                                                                                hardware utilization. These optimizations can significantly
+Effectively managing the costs of gen AI                                        reduce training and inference times, leading to substantial
+requires a strategic approach that goes                                         cost savings.
+beyond simply choosing the lowest-priced
+services. Here are three critical areas to focus
+on for achieving optimal cost-efficiency in
+your AI infrastructure.
+                                                             Implement          Explore advanced resource management tools that
+                                                                                automate the allocation and scheduling of AI workloads.
+By carefully considering these factors and                   intelligent        Features like dynamic workload scheduling, preemptible
+selecting a cloud provider with a commitment                 resource
+to cost optimization, organizations can unlock                                  instances (where appropriate for fault-tolerant workloads),
+the full potential of gen AI without incurring               management         and intelligent caching mechanisms can significantly reduce
+unsustainable expenses.                                      and scheduling     idle resource time and optimize overall infrastructure
+                                                                                utilization, leading to lower operational costs.
+
+
+                                                                                                                                                26
+ 01   02   03    Finding   04   05   06   07   08
+
+
+
+
+How gen AI-powered
+FinOps can help you drive
+cost-effective returns on
+technology investments
+FinOps brings discipline to the cloud by aligning technology,
+finance, and business teams with an overarching operational
+framework focused on driving cost-effective returns on
+technology investments, with organizations reducing their
+cloud spend by as much as 30%.
+
+Assess your gen AI adoption readiness with the
+Cloud FinOps for Generative AI framework.
+
+
+
+
+                                                                27
+01   02   03   Finding   04   05   06   07   08
+
+
+
+
+                                                  UC Riverside and Google Public
+                                                  Sector launch new model for
+                                                  research access
+                                                  The University of California, Riverside (UC Riverside),
+                                                  a leading public research university, partnered with
+                                                  Google Public Sector to transform its research
+                                                  capabilities and expand access to cutting-edge
+                                                  tools for its researchers. Through this collaboration,
+                                                  UC Riverside gained access to Google Cloud’s high-
+                                                  performance computing (HPC) resources, scalable
+                                                  storage solutions, and advanced AI/ML tools,
+                                                  enabling researchers to tackle complex scientific
+                                                  challenges and drive breakthroughs in various fields.
+
+
+                                                    Read more
+
+
+
+
+                                                                                                            28
+Finding 05
+
+
+A robust AI platform
+is a leading criteria
+when evaluating
+infrastructure
+Respondents want it all—performance, scale, efficiency—and they
+want it all in one platform that can train, deploy, and manage their AI.
+
+
+
+  01   02   03    04   05    06   07    08
+                                                                           29
+01    02    03    04     Finding   05     06    07    08
+
+
+
+
+                         of those surveyed
+                         want a robust                              What are the most important factors when evaluating
+                         AI platform                                a gen AI infrastructure system?
+
+
+It’s no wonder that with the breathtaking rate of change                                             NORTHAM   EMEA   APAC
+in the models, applications, and architecture of gen AI,
+organizations are prioritizing platforms that can keep
+pace (see finding 3 for survey results).                         Security
+
+
+Important infrastructure factors
+                                                               Scalability
+Very few organizations are training large-scale foundation
+models. But scale and performance are top factors in every
+geography, whether you’re serving models quickly to
+thousands of internal end users or millions of customers.    Performance
+As AI platforms must handle rapid agent-to-agent
+communication and an even higher volume of inference
+requests, the demands on both performance and scalability         System
+                                                               efficiency
+intensify. A robust platform must support these types
+of workloads, regardless of whether the architecture is
+containerized or not, with constant innovation in compute,
+storage, and networking scaling, resource sharing, access,
+and routing.
+
+
+
+                                                                                                                             30
+ 01   02   03   04    Finding   05   06   07   08
+
+
+                                                    Innovative infrastructure
+                                                    AI has popularized GPUs. However, your core infrastructure should also have
+                                                    the flexibility to provide the best price-performance for every use case, including
+
+
+
+Why it matters
+                                                    CPUs and custom silicon. Data is critical for AI, so the platform must offer multiple
+                                                    storage mechanisms to ingest, store, and deliver data. For example, parallel file
+                                                    systems are the right storage for certain AI training, but object storage and block
+                                                    storage can be far more efficient when the training data is static. Networking
+
+
+
+to you
+                                                    must be considered for each host, across hosts in a cluster, and across cloud,
+                                                    cross-cloud, and private networks.
+
+
+
+
+                                                    Dynamic and integrated software
+A robust AI platform can support diverse
+                                                    As gen AI implementations evolve, the AI platform’s software must evolve as
+users, from developers to scientists to IT          well. For example, variable length context windows require smarter network
+                                                    load balancing to properly route the requests. Multi-step reasoning may require
+operators. It can scale and optimize evolving       multiple compute hosts to dynamically handle the processing. The sheer
+architectures and frameworks. And it can            infrastructure cost of large AI jobs requires the software to minimize inevitable
+                                                    interruptions with expansive observability, more sophisticated checkpointing,
+handle the full lifecycle of AI, from development   and even for AI clusters to operate in degraded mode.
+to deployment to management.
+
+                                                    Serves multiple roles
+                                                    Some organizations want full access to the AI infrastructure because they want
+                                                    to implement new techniques, frameworks, and models to maximize the hardware
+                                                    resources. Others prefer to take existing models and refine them for their specific
+                                                    use cases—infrastructure control is secondary. Yet another business simply wants
+                                                    to access pre-configured AI models via API, to integrate into an application. All of
+                                                    these organizations benefit when these different modalities operate from the
+                                                    same scalable, performant, and reliable infrastructure.
+
+
+
+                                                                                                                                            31
+01   02   03   04   Finding   05   06   07   08
+
+
+
+                                                  City of Dearborn enhances
+                                                  citizen engagement with AI
+                                                  The City of Dearborn, Michigan, sought to modernize
+                                                  its approach to citizen engagement and streamline
+                                                  internal operations to better serve its diverse population.
+                                                  By leveraging Google Cloud’s AI capabilities, Dearborn
+                                                  successfully transformed its citizen engagement strategies,
+                                                  yielding significant outcomes for both residents and
+                                                  city employees.
+
+                                                  The implementation of AI agents facilitated seamless
+                                                  communication with residents, providing timely and
+                                                  accurate information across multiple channels, while
+                                                  Google’s translation hub enabled the city to effectively
+                                                  connect with its diverse linguistic communities, ensuring
+                                                  equitable access to services and fostering inclusivity.
+
+
+                                                    Read more
+
+
+
+
+                                                                                                                32
+Finding 06
+
+
+Edge computing
+is extending AI’s
+reach
+
+01   02   03   04   05   06   07   08
+                                        33
+01    02    03    04   05     Finding    06    07    08
+
+
+
+
+Gen AI is relied upon in                                    Specific use cases:
+an increasing number of
+contexts, and many occur
+outside of traditional
+centralized data centers.                                      Local processing of patient   Real-time verification of
+                                                               vital signs from medical      personal protective
+                                                               devices for immediate         equipment (PPE) compliance
+Edge computing includes IoT devices (like smart fridges),      anomaly detection and         among healthcare personnel
+autonomous vehicles, and mobile devices. It distributes        staff notification            by deploying computer vision
+processing, reduces latency, and requires efficient                                          models at the edge
+computational resources. This computational distribution
+can also improve network performance and enhance
+adherence to data privacy regulations (e.g., GDPR, CCPA)
+by enabling local data processing and minimizing the
+transmission of sensitive information.
+
+Nearly every industry now relies on some degree of IoT
+or mobile devices to support real-time applications and        Predictive maintenance of     Real-time inventory
+keep operations running. In healthcare, manufacturing,         industrial equipment based    management using edge-
+and retail, edge computing uses and processes sensor           on sensor data analysis       based video analytics
+information to fuel analyses, maintain quality control,
+and even operate machinery autonomously.
+
+
+
+
+                                                                                                                            34
+01   02   03   04     05   Finding   06   07     08
+
+
+
+
+                                                                            of organizations say
+     How important is deploying gen AI models at the edge                   that edge computing
+     (e.g., on IoT devices, mobile devices) for your organization?          is very or extremely
+                                                                            important
+
+
+
+
+                                               Very important
+
+
+
+
+                                                                Extremely
+                                                                important
+
+
+
+
+                             Important
+
+
+
+
+          Somewhat
+          important
+
+
+
+
+                                                                                                   35
+01   02   03   04    05    Finding   06   07   08
+
+
+                                                            Challenges with multiple edge deployments:
+
+
+
+Why it matters                                                     Resource and connectivity constraints
+
+
+to you
+                                                                   Edge devices have limited compute power and often
+                                                                   face intermittent connectivity, making it hard to deploy
+                                                                   and manage complex AI models effectively. This requires
+                                                                   specialized optimization and robust offline capabilities.
+
+
+
+Despite its rising importance, modernizing and leveraging
+AI at the edge, maintaining control over mission-critical          Data security and governance
+data, and managing the complexity of multiple edge                 Protecting sensitive data at the edge, ensuring data
+deployments present significant challenges.                        quality and compliance, and maintaining control over
+                                                                   data sovereignty across distributed locations presents
+                                                                   significant security and governance hurdles.
+It’s no surprise then that there is a growing demand for
+cloud-based solutions that enable the deployment of
+gen AI models at the edge for real-time applications.
+                                                                   Deployment and management complexity
+And as customer expectations for real-time interactions            Scaling AI deployments to numerous, geographically
+continue to rise, so too will the necessity of edge                dispersed edge devices, along with monitoring, maintenance,
+                                                                   version control, and orchestration, introduces significant
+computing and the infrastructure that makes quick                  complexity that demands automation and sophisticated
+gen AI processing a reliable reality.                              management tools.
+
+
+                                                                                                                                 36
+01   02   03   04   05   Finding   06   07   08
+
+
+
+
+                                                  Google AI powers innovation at
+                                                  NARA, Air Force, and Aerospace
+                                                  Corporation
+                                                  Public sector agencies are increasingly leveraging Google
+                                                  AI to modernize operations and improve services. The
+                                                  National Archives and Records Administration (NARA)
+                                                  is using AI to enhance document processing and make
+                                                  historical records more accessible. The U.S. Air Force is
+                                                  applying AI to optimize logistics and maintenance, leading
+                                                  to more efficient operations. Similarly, the Aerospace
+                                                  Corporation is utilizing AI to accelerate space research and
+                                                  development. These examples demonstrate how Google AI
+                                                  empowers public sector entities to streamline workflows,
+                                                  gain valuable insights, and better fulfill their missions.
+
+
+                                                    Read more
+
+
+
+
+                                                                                                                 37
+Finding 07
+
+
+Hybrid cloud offers
+flexibility for gen AI
+deployments
+A hybrid approach involves combining on-premises
+infrastructure with public cloud resources.
+
+
+
+
+ 01   02   03   04   05   06   07   08
+                                                   38
+01    02    03   04    05    06    Finding    07    08
+
+
+
+
+Our research clearly indicates                                Which cloud infrastructure approach does your organization
+                                                              primarily use for gen AI workloads?
+a strong preference for a hybrid
+cloud approach (74%).
+This approach is preferred over on-premises and single          Hybrid: on-premises
+public cloud approaches alone.                                       and multicloud
+
+
+The rationale is clear:
+                                                                Hybrid: on-premises
+                                                              and single public cloud
+             Increased flexibility
+             A hybrid approach allows organizations to
+             choose the optimal environment for each                      Multicloud
+             workload, balancing performance, cost,
+             and security considerations.
+                                                                       On-premises
+
+
+             Improved data residency
+             and compliance                                       Single public cloud
+             For certain workloads, regulatory requirements
+             may necessitate keeping data on-premises.
+             A hybrid approach allows for this while still
+             leveraging the benefits of the public cloud.
+
+                                                                                                                           39
+ 01   02   03   04   05   06     Finding   07   08
+
+
+
+
+Why it matters
+to you
+The overwhelming preference for hybrid cloud means a
+tech leader must understand how to architect, implement,
+and manage such an environment. Ignoring this trend risks
+falling behind those who are already leveraging the flexibility
+and control that hybrid offers. They need to evaluate their
+existing infrastructure and cloud partnerships to see if they
+can support a hybrid approach.
+
+Flexibility in choosing the right environment for each
+workload is key. This requires thinking strategically about
+workload placement, considering factors like performance,
+cost, and security requirements on a per-application basis.
+
+
+
+                                                                  40
+01   02   03   04   05   06   Finding   07   08
+
+
+
+
+                                                  Rice University and Google
+                                                  Public Sector partner to build
+                                                  an innovation hub in Texas
+                                                  Rice University and Google Public Sector have joined
+                                                  forces to establish an innovation hub aimed at fostering
+                                                  technological advancements and economic growth in
+                                                  the state. By creating a hub for collaboration between
+                                                  academia, industry, and the public sector, this partnership
+                                                  seeks to accelerate the development and adoption of new
+                                                  technologies, create new economic opportunities, and
+                                                  strengthen Texas’s position as a leader in innovation.
+
+
+
+                                                    Read more
+
+
+
+
+                                                                                                                41
+Finding 08
+
+
+Most organizations
+rely on gen AI
+solutions from
+cloud providers
+01   02   03   04   05   06   07   08
+                                        42
+01    02      03      04      05    06      07      Finding      08
+
+
+
+Building and running AI                                                                       When building gen AI solutions, the most common approach is leveraging
+                                                                                              proprietary models like Gemini, Claude, and AI21—prioritizing speed, ease
+workloads is complex.                                                                         of use, cost-effectiveness, and scalability. Building custom in-house models
+                                                                                              is the least common approach as it requires considerably more time and
+Organizations need managed services to streamline operations                                  resources, suggesting that for many organizations, proprietary models are
+and fully leverage the cloud.                                                                 sufficiently performant for their needs.
+
+
+
+     Which approach does your organization prefer                                                 Which of the following best describes your
+     for managing gen AI infrastructure?                                                          organization’s current approach to utilizing gen AI?
+
+
+
+      of organizations prefer to
+      use managed services in
+      their gen AI infrastructure              Hybrid
+                                             (equal mix)
+
+                                                                                                                                                         Building solutions using
+                                                                                                                                                         proprietary models
+
+                                                                                                                                                         Using off-the-shelf
+                                                                Primarily                                                                                solutions
+                                                                managed
+                             Primarily                        services with                                                                              Fine-tuning open-
+                          self-managed                         some self-                                                                                source models
+                            with some                         management
+                         managed services
+                                                                                                                                                         Using a mix
+       Completely                                                             Fully managed                                                              of approaches
+      self-managed                                                                services
+                                                                                                                                                         Developing custom
+                                                                                                                                                         models in-house
+
+
+
+                                                                                                                                                                                    43
+01    02    03    04    05    06    07       Finding        08
+
+
+
+                                                                                                              Through which channels does your organization
+Cloud providers play a pivotal                                                                                primarily acquire and implement gen AI solutions?
+role in gen AI implementation.
+                                                                                                                  Directly from
+                                                                                                                cloud providers
+Architecting for long-term success       This is driving considerable increase
+requires a delicate balancing act—       in enterprise infrastructure market
+utilizing new gen AI functionality       size. As outlined in the 2025 Google
+                                                                                                                   Independent
+for productivity, optimizing core        Cloud AI Business Trends report,
+                                                                                                               software vendors
+applications for customers, and          adoption in enterprise infrastructure                                            (ISVs)
+modernizing existing infrastructure      is expected to increase by over 30%
+to keep pace. We are rapidly             by 2026.1 This rapid adoption rate
+approaching an inflection point          has created global demand for data                                     Combination of
+                                                                                                                    the above
+where traditional cloud computing        center space capable of handling
+and infrastructure will no longer be     the high computational power and
+capable of keeping up with current       power density required for AI
+                                                                                                                  Global system
+capacity and performance demands.        workloads. Demand for AI-ready                                              integrators
+                                         data center capacity is expected to                                              (GSIs)
+Given the complexity and resource        rise at an average rate of 33% per
+intensity of building and managing       year through 2030,2 and spending                                              In-house
+AI-ready infrastructure, organizations   on data centers is expected to                                            development
+are increasingly turning to cloud        double in the next five years.3
+service providers (48%) and, to a
+lesser extent, independent software      1
+                                           Credence Research (2024). All-In-One Infrastructure Market Size,
+vendors (ISVs) (36%). This shift is      Share and Forecast 2032.
+                                                                                                                 Manufacturers
+                                         2
+                                           McKinsey & Company (2024). AI power: Expanding data center
+largely about forming strategic          capacity to meet growing demand.
+partnerships to leverage specialized       National Bureau of Economic Research (2024). The Rapid
+                                         3
+
+                                         Adoption of Generative AI.
+expertise and resources.
+
+                                                                                                                                                                  44
+ 01   02    03   04    05   06    07    Finding   08
+
+
+
+
+Why it matters
+to you
+Building solid AI infrastructure is                It’s no surprise, then, that they are
+foundational for success. And so future            relying on managed service providers
+success will hinge on an organization              to manage, scale, and secure their
+having infrastructure that can provide             infrastructure. Finding the best AI
+the scale, reliability, computational              solution for your agency helps you
+performance, efficiency, security, ease of         keep ahead of the curve.
+use, and cost-effectiveness to support the
+combination of large-scale AI workloads,           Google Cloud’s global partner
+enterprise application estates, and new            ecosystem has been specially trained
+application development.                           and certified to deliver cloud solutions
+                                                   that address public sector needs.
+Many organizations and agencies lack the
+skills, time, and resources to develop these
+technologies and tools independently.
+
+
+                                                                                              45
+Cloud providers are
+strategic partners in
+the AI era
+This shift towards cloud providers isn’t    AI and data technologies to simplify
+just a trend. It’s a strategic imperative   decision-making when operating,
+for leaders who are grappling with          scaling, optimizing, and securing
+the complexities of AI development,         infrastructure.
+deployment, and management—while
+navigating budget constraints and           And as gen AI use cases proliferate,
+competitive pressures. The research         organizations will require a wide range
+confirms that gen AI is a present-day       of models to satisfy these different
+reality for many organizations.             needs. It can be overwhelming to
+Increasingly, agencies are seeking          adopt the best models for your use
+ready-to-go solutions that incorporate      case without drowning in complexity.
+
+
+
+
+                                                                                      46
+Leading organizations are leveraging the expertise of cloud providers to
+develop a comprehensive solution, addressing key considerations such as:
+
+
+
+
+  Security                           Scalability             Data quality           Cost                      Flexibility
+  Implementing robust                Designing an            Ensuring access        Capping expenditures      Choosing the right
+  security measures to               infrastructure that     to high-quality data   associated with the       environment for each
+  protect sensitive data             can scale to meet the   to train and deploy    significant               type of workload on a
+  and ensure compliance              growing demands         effective AI models    computational             per-application basis
+                                     of AI workloads                                resources and
+                                                                                    maintenance AI requires
+
+
+
+By carefully selecting the right partners, tools, and
+frameworks, organizations can position themselves
+for success in the age of AI.
+
+
+
+
+The Rearchitecting your infrastructure for generative AI
+guide helps technical leaders architect robust, scalable,
+and cost-effective gen AI systems.
+
+
+
+                                                                                                                                      47
+Google Cloud provides a
+comprehensive platform
+for gen AI success
+The imperative for technology
+leaders is clear: build an AI-ready
+infrastructure that can meet your        Our research shows that success isn’t about point    to AI companies building foundation models
+                                         solutions, but deploying a robust and integrated     on AI Hypercomputer, our full stack is ready
+business needs while supporting          AI platform.                                         for today and the rapidly evolving future.
+the demands of this transformative                                                            Google Cloud isn’t just a cloud provider, we’re
+technology.                              Integrating AI into your operations should be your   your strategic partner for AI transformation.
+                                         focus. Google Cloud can do the heavy lifting with    Our commitment to open-source principles,
+                                         AI infrastructure that offers the performance,       our continuous innovation driven by Google
+                                         scale, and efficiency already powering the most      DeepMind and serving AI technology to billions
+                                         advanced AI products in the world. We’re tuned       of users daily, and our focus on enterprise-
+                                         to the market, already running cutting-edge          grade security and governance position us as
+                                         reasoning models, serving AI at the edge, and        the preferred choice for organizations seeking
+                                         helping customers securely deploy AI in their        to achieve leadership in the era of gen AI.
+AI Hypercomputer is a fully integrated   own data centers. From enterprise data scientists
+supercomputing architecture designed     using Vertex AI, to developers incorporating AI      Let’s explore how Google Cloud can help you
+explicitly for AI workloads.             with CloudRun and Gemini endpoints,                  secure your future, and lead the way in AI.
+
+
+
+                                                                                                                                                48
+Build AI-ready
+infrastructure
+today.
+   Appendix
+
+
+
+
+Methodology
+                                                                              Companies from North America
+                                                                              and Europe have at least
+
+
+                                                                                                       employees
+This report is based on quantitative    in this study are familiar with
+                                                                                                                          technology leaders were surveyed
+research conducted in August and        several gen AI applications and                                                   for our research in the United States,
+September of 2024.                      have experimented with or             Companies from Asia-Pacific have            Canada, the United Kingdom, France,
+                                        implemented some for their            at least                                    Germany, Singapore, Australia, and
+                                        respective firms. They believe gen                                                Japan with the U.S. making up more
+Respondents have been with their                                                                                          than a quarter of the sample (29%).
+organizations for at least a year       AI is at least somewhat important
+                                        to their organization’s current and                     employees
+and have a significant influence or
+decision-making authority on the        future business operations and
+purchase or use of technology           have at least some influence on
+solutions or the selection of           decisions related to AI and           Region                     Company size          Role level
+technology vendors. The companies       machine learning (ML) technology
+represented in this research have       adoption in their organization.       North America      40%     500-999        5%     C-level executive           19%
+either a workload currently utilizing                                         Europe             30%     1,000-4,999    54%    VP/GM                       14%
+AI or they intend to leverage AI in     Respondents did not know Google
+                                                                              Asia-Pacific       30%     5,000+         41%    Sr Director/Director        33%
+the next 12 months.                     was the research sponsor and the
+                                        identity of participants was not                                                       Manager level               35%
+In addition, the technology leaders     revealed to Google.
+                                                                              Time in role               Age                   AI familiarity
+
+Technology leaders from companies in:                                         1-2 years          9%      18 to 34       32%    Intermediate                21%
+                                                                              3-5 years          41%     35 to 44       42%    Advanced                    55%
+North America               Europe                     Asia-Pacific
+United States               United Kingdom             Singapore              6-9 years          38%     45 to 54       21%    Expert                      24%
+Canada                      France                     Australia              10 years+          12%     55-64          6%
+                            Germany                    Japan
+
+                                                                                                                                                                   50
+

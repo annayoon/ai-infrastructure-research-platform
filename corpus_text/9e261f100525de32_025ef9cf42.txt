@@ -1,0 +1,2108 @@
+Implementation Plan 2025-2026
+                     for the
+
+      Arctic Research Plan
+           2022-2026
+                  Prepared by the
+   Interagency Arctic Research Policy Committee
+                       of the
+     National Science and Technology Council
+
+
+
+
+       December 2024, amended May 2025
+This page is intentionally left blank.
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+About the Office of Science and Technology Policy
+The Office of Science and Technology Policy (OSTP) was established by the National Science and
+Technology Policy, Organization, and Priorities Act of 1976 to provide the President and others within
+the Executive Office of the President with advice on the scientific, engineering, and technological
+aspects of the economy, national security, homeland security, health, foreign relations, the
+environment, and the technological recovery and use of resources, among other topics. OSTP leads
+interagency science and technology policy coordination efforts, assists the Office of Management
+and Budget with an annual review and analysis of federal research and development in budgets, and
+serves as a source of scientific and technological analysis and judgment for the President with respect
+to major policies, plans, and programs of the federal government. More information is available at
+www.whitehouse.gov/ostp.
+
+About the National Science and Technology Council
+The National Science and Technology Council (NSTC) is the principal means by which the Executive
+Branch coordinates science and technology policy across the diverse entities that make up the federal
+research and development enterprise. A primary objective of the NSTC is to ensure science and
+technology policy decisions and programs are consistent with the President’s stated goals. The NSTC
+prepares research and development strategies that are coordinated across federal agencies aimed
+at accomplishing multiple national goals. The work of the NSTC is organized under committees that
+oversee subcommittees and working groups focused on different aspects of science and technology.
+More information is available at www.whitehouse.gov/ostp/nstc.
+
+About the Interagency Arctic Research Policy Committee
+
+The Arctic Research and Policy Act of 1984 (ARPA), Public Law 98-373, July 31, 1984, as amended, pro-
+vides for a comprehensive national policy dealing with national research needs and objectives in the
+Arctic. ARPA establishes an Arctic Research Commission (USARC) and an Interagency Arctic Research
+Policy Committee (IARPC) to help implement the Act. A Presidential Memorandum issued in 2010 made
+the NSTC responsible for IARPC.
+
+About This Document
+
+This report represents the updated Implementation Plan for 2025 and 2026 under the 2022-2026 Arctic
+Research Plan. Originally published in December 2024, it was developed by IARPC and is published by
+OSTP.
+
+Copyright Information
+
+This document is a work of the United States government and is in the public domain (see 17 U.S.C.
+§105). Subject to the stipulations below, it may be distributed and copied with acknowledgment to
+OSTP. Copyrights to graphics included in this document are reserved by the original copyright holders
+or their assignees and are used here under the government’s license and by permission. Requests to
+use any images must be made to the provider identified in the image credits or to OSTP if no provider is
+identified. Re-published in the United States of America, 2025.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                          1
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+Contents
+
+Acronyms and Abbreviations                                        3
+
+Current IARPC Collaboration Teams and Communities of Practice     6
+
+Glossary of Plan Structural Terms                                 7
+
+Preface                                                            8
+
+       The Arctic Research Plan 2022-2026                          8
+
+       Overarching Principles                                      9
+
+       Implementation Approach                                     9
+
+       Implementation Plan Reporting                              10
+
+Priority Area Objectives and Deliverables                         11
+
+       Arctic Systems Interactions                                12
+
+       Community Resilience & Health                              18
+
+       Risk Management & Hazard Mitigation                        23
+
+       Sustainable Economies & Livelihoods                        28
+
+Foundational Activity Objectives and Deliverables                 32
+
+       Data Management                                            33
+
+       Education & Training                                       38
+
+       Monitoring, Observing, Modeling, & Prediction              40
+
+       Technology Innovation & Application                        47
+
+       Tribal Consultation and Effective Processes                49
+
+Appendix 1: Stewardship                                           51
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE    2
+                            ARCTIC RESEARCH PLAN 2022-2026
+                            IMPLEMENTATION PLAN 2025-2026
+
+
+             Acronyms and Abbreviations Used in This Document
+
+ARPA			              Arctic Research and Policy Act of 1984
+
+CARE			              Collective benefit, authority to control, responsibility, ethics
+
+DATA			              Data Management Foundational Activity
+
+DHS			               Department of Homeland Security
+
+DHS-CBP-USBP DHS     U.S. Border Control - Customs and Border Protection
+
+DHS-CISA		           DHS Cybersecurity and Infrastructure Security Agency
+
+DHS-FEMA		           DHS Federal Emergency Management Agency
+
+DHS-USCG		           DHS United States Coast Guard
+
+DOC			               Department of Commerce
+
+DOC-EDA		            DOC Economic Development Administration
+
+DOC-NOAA		           DOC National Oceanic and Atmospheric Administration
+
+DOC-NOAA/NCCOS       DOC NOAA National Centers for Coastal Ocean Science
+
+DOC-NOAA/NMFS        DOC NOAA National Marine Fisheries Service
+
+DOC-NOAA/OAR         DOC NOAA Office of Oceanic and Atmospheric Research
+
+DOD			               Department of Defense
+
+DOD-ONR		            DOD Office of Naval Research
+
+DOD-Ted Stevens      DOD Ted Stevens Center for Arctic Security Studies
+
+DOD-USACE		          DOD United States Army Corps of Engineers
+
+DOE			               Department of Energy
+
+DOE-SC			            DOE Office of Science
+
+DOI			               Department of the Interior
+
+DOI-BIA			           DOI Bureau of Indian Affairs
+
+DOI-BLM		            DOI Bureau of Land Management
+
+DOI-BOEM		           DOI Bureau of Ocean Energy Management
+
+DOI-BSEE		           DOI Bureau of Safety and Environmental Enforcement
+
+DOI-FWS		            DOI Fish and Wildlife Service
+
+DOI-NPS		            DOI National Park Service
+
+DOI-USGS		           DOI United States Geological Survey
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                         3
+                           ARCTIC RESEARCH PLAN 2022-2026
+                           IMPLEMENTATION PLAN 2025-2026
+
+
+DOT			              Department of Transportation
+
+EDU			              Education and Training Foundational Activity
+
+EPA			              Environmental Protection Agency
+
+FAIR			             Findable, accessible, interoperable, and reusable
+
+HEALTH		            Community Resilience and Health Priority Area
+
+HHS			              Department of Health and Human Services
+
+HHS-CDC		           HHS Centers for Disease Control and Prevention
+
+HHS-FDA		           HHS Food and Drug Administration
+
+HHS-FDA/CFSAN       HHS FDA Center for Food Safety and Applied Nutrition
+
+HHS-FDA/CFSAN/OFS HHS FDA CFSAN Office of Food Safety
+
+HHS-NIH		           HHS National Institutes of Health
+
+HHS-NIH/NIEHS       HHS NIH National Institute of Environmental Health Sciences
+
+HUD			              Department of Housing and Urban Development
+
+IARPC			            Interagency Arctic Research Policy Committee
+
+LIVELIHOODS		       Sustainable Economies and Livelihoods Priority Area
+
+MMC			              Marine Mammal Commission
+
+MOMP			             Monitoring, Observing, Modeling, and Prediction Foundational Activity
+
+NASA			             National Aeronautics and Space Administration
+
+NSF			              National Science Foundation
+
+NSTC			             National Science and Technology Council
+
+OSTP			             White House Office of Science and Technology Policy
+
+PFAS			             Perfluoroalkyl and polyfluoroalkyl substances
+
+RISK			             Risk Management and Hazard Mitigation Priority Area
+
+SAON			             Sustaining Arctic Observing Networks
+
+SI			Smithsonian Institute
+
+STEM			             Science, technology, engineering, and math
+
+SYSTEMS		           Arctic Systems Interactions Priority Area
+
+TCEP			             Tribal Consultation Effective Processes
+
+TECH			             Technology Innovation and Application Foundational Activity
+
+
+
+
+                 INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                               4
+                      ARCTIC RESEARCH PLAN 2022-2026
+                      IMPLEMENTATION PLAN 2025-2026
+
+
+US AON			       United States Arctic Observing Network
+
+USARC			        United States Arctic Research Commission
+
+USDA			         United States Department of Agriculture
+
+USDA-NRCS		     USDA Natural Resources Conservation Service
+
+USDA-RD		       USDA Rural Development
+
+USDA-USFS		     USDA United States Forest Service
+
+
+
+
+              INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE    5
+                                         ARCTIC RESEARCH PLAN 2022-2026
+                                         IMPLEMENTATION PLAN 2025-2026
+
+
+           Current IARPC Collaboration Teams and Communities of Practice1
+
+Priority Area Collaboration Teams
+
+Arctic Systems Interactions
+
+Community Resilience and Health
+
+Risk Management and Hazard Mitigation
+
+Sustainable Economies and Livelihoods
+
+Foundational Activity Collaboration Teams
+
+Data Management
+
+Education and Training2
+
+Monitoring, Observing, Modeling, and Prediction
+
+Technology Innovation and Application
+
+Tribal Consultation and Effective Processes3
+
+Communities of Practice Supporting This Implementation Plan
+
+Coastal Resilience
+
+Cold/High Anaerobic Digestion
+
+Early Career
+
+Field Operations
+
+Marine Ecosystems
+
+Modelers
+
+Observations
+
+Permafrost
+
+Physical Oceanography
+
+Sea Ice
+
+Terrestrial Ecosystems
+
+This list reflects IARPC Communities of Practice as of Februrary 2025. The current list of teams is available on the IARPC Col-
+1
+
+laborations website (https://www.iarpccollaborations.org/teams/index.html).
+2
+    Based on feedback received during the development of the Implementation Plan 2025-2026, the Education, Training, and
+    Capacity Building Foundation Activity title has been changed to Education and Training. Removing “Capacity Building”
+    reflects the strong capacity that exists within communities across the Arctic and refocuses efforts to training researchers.
+3
+    The Tribal Consultation and Effective Processes Foundational Area replaces the Participatory Research and Indigenous
+    Leadership in Research Foundational Area in this update.
+
+
+
+
+                            INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                                           6
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+                            Glossary of Plan Structural Terms
+
+Implementation Plan: Document developed every two years that outlines specific objectives and
+deliverables that will be completed in the subsequent two years.
+
+Convergence Research: Investigations driven by a specific and compelling problem that requires deep
+integration across disciplines.
+
+Deliverable: Tangible, measurable, and easily communicated research product that demonstrates
+progress made toward satisfying the objectives and goals and is made available to relevant decision-
+makers and partners. Deliverables may also include achievements resulting from the establishment of
+new relationships.
+
+Foundational Activity: Activity that relates to, supports, and informs the priority areas. Foundational
+activities are critical to improving research and better addressing each of the priority areas.
+
+Goal: Intended convergent research outcome that is realized from federal investment and non-federal
+partner efforts.
+
+Lead Agency/Agencies: The federal agency or agencies responsible for leading priority areas.
+
+Objective: Specific research action that advances the goals.
+
+Policy Driver: Underlying U.S. Arctic and research policy that guides the development of the plan.
+
+Priority Area: Broad cross-cutting theme that needs additional research, supports one or more policy
+drivers, meets the mission and interests of more than one federal agency, and engages multiple existing
+communities of practice and non-federal partners.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     7
+                                         ARCTIC RESEARCH PLAN 2022-2026
+                                         IMPLEMENTATION PLAN 2025-2026
+
+
+                                                            Preface
+
+In December 2021, the White House Office of Science and Technology Policy released the Interagency
+Arctic Research Policy Committee (IARPC)’s Arctic Research Plan 2022–2026. The Arctic Research Plan
+is a high-level research strategy to address emerging research questions about the dynamic, changing
+Arctic, presenting a research framework with thematic goals and outlining a vision for federal agencies.
+Beyond this is identifies pathways to strengthen relationships between federal agencies and Arctic com-
+munities, academia, non-federal researchers, the state of Alaska, Indian Tribes4 , nonprofits, the private
+sector (including Alaska Native Corporations), and international organizations.
+
+In order for IARPC to respond more swiftly to emerging and immediate needs, while continuing to sup-
+port U.S. Arctic policy, the Arctic Research Plan is advanced through implementation plans that are
+updated every two years. This new implementation plan is focused on 2025 and 2026. It includes objec-
+tives, which are specific research actions, as well as deliverables, which are tangible, measurable, and
+easily communicated actions and research products. Many of the objectives and deliverables identify
+interconnected and cross-cutting research and illustrate areas where it is critical for informing man-
+agement and decision-making. For example, many focus on research around infrastructure and food
+security, themes that thread throughout its priority areas and foundational activities.
+
+This Implementation Plan 2025-2026 provides specific actions that IARPC and its member agencies will
+take to pursue research aimed at improving community resilience and well-being, advancing scientific
+understanding of ongoing changes in the Arctic system, creating more sustainable economies and live-
+lihoods, and improving risk management and hazard mitigation. Results of these concerted efforts will
+yield greater predictive capabilities and improved capacity for more informed decisions and adaptation
+to other pressing environmental and societal changes. Deliverables outlined in this plan are subject to
+the availability of federal funds and agency staff capacity.
+
+The Arctic Research Plan 2022-2026
+
+The Arctic Research Plan adheres to four critical policy drivers in U.S. Arctic research policy that reflect
+long-standing and ongoing U.S. interests in the Arctic and the collective priorities of IARPC federal
+agencies: Well-Being, Stewardship, Security, and Arctic-Global Systems. The plan includes four priority
+areas with thematic goals that (1) represent broad, cross-cutting themes that need additional research;
+(2) support one or more policy drivers; (3) meet the mission and interests of more than one federal
+agency; and (4) engage multiple existing communities of practice and non-federal partners. Priority
+areas and goals are:
+
+       • Arctic Systems Interactions: Enhance the ability to observe, understand, predict, and project
+         the Arctic’s dynamic interconnected systems and their links to the Earth system.
+
+       • Community Resilience and Health: Improve community resilience and well-being by strength-
+         ening research and developing tools to increase understanding of interdependent social, natural,
+         and built systems in the Arctic.
+
+
+
+4
+    Tribes are classified as political entities because of their longstanding history as sovereign nations that existed before the
+    United States was formed. The U.S. Supreme Court has consistently recognized Congress’s special obligations toward Tribes,
+    underscoring that tribal classifications are political rather than racial. The federal government has entered into agreements
+    which established a unique trust responsibility with Indian Tribes, which include federally-recognized tribes in Alaska as
+    well as Alaska Native Corporations, Alaska Native Organizations, and Alaska Native Villages. Relevant authorities are listed at
+    https://www.fws.gov/policy-library/e3510fw1.
+
+
+
+
+                            INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                                         8
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+    • Risk Management and Hazard Mitigation: Secure and improve quality of life through research
+      that promotes an understanding of disaster risk exposure, sensitivity to hazard, and adaptive
+      capacity.
+
+    • Sustainable Economies and Livelihoods: Observe and understand the Arctic’s natural, social,
+      and built systems to promote sustainable economies and livelihoods.
+
+In addition to identifying four priority areas, the Arctic Research Plan 2022-2026 builds upon five foun-
+dational activities. These activities are critical to achieving the priority area goals and are likely to re-
+main foundational to Arctic research beyond the five-year duration of the Arctic Research Plan. Founda-
+tional activities are: Data Management; Education and Training; Monitoring, Observing, Modeling, and
+Prediction; Technology Innovation and Application; and Tribal Consultation and Effective Processes.
+
+Overarching Principles
+Progress in Arctic research will remain incomplete without training researchers and others in respectful
+and meaningful engagement with the communities that live in the Arctic. This includes listening to
+communities about how and when federal investments should be made, and celebrating with and
+learning from communities when progress is made.
+
+Throughout the development of the Arctic Research Plan 2022-2026 and its implementation plans,
+IARPC has been guided by the following overarching principles:
+
+    1. Sustained Engagement: Advance respectful, responsive, and continuous engagement with
+       Tribal organizations, Arctic communities, federal agencies, the state of Alaska, and non-federal
+       partners.
+    2. Fairness: Ensure that everyone is treated fairly and respectfully, and promote access by all to the
+       tools needed to succeed.
+    3. Transparency: Commit to activities and decisions that are transparent and communicated
+       clearly and in accessible formats.
+
+These principles are woven through the work of all Arctic Research Plan objectives and will continue to
+guide all implementation activities.
+
+
+Implementation Approach
+IARPC’s work under the Implementation Plan 2025-2026 will be carried out by IARPC priority area
+collaboration teams, foundational activity collaboration teams, and communities of practice. These
+are all open to anyone wishing to advance knowledge about the Arctic. Teams may include members
+from federal, state, academic, nonprofit, private sector, Tribal, community, and international
+organizations. IARPC collaboration teams direct and coordinate activities to reach the plan goals,
+ensure coordination and collaboration across agencies, and engage non-federal partners. These multi-
+disciplinary teams are co-led by at least two federal program managers and one non-federal partner
+and draw on federal agency and community of practice expertise to achieve their goals. As noted in
+the tables starting on page 13, agency leadership for some deliverables is pending, as of this May 2025
+update. The status of deliverables will be updated as needed on the IARPC Collaborations website
+(https://www.iarpccollaborations.org/).
+
+The IARPC Collaborations website is a critical component of IARPC and serves as a hub for building
+connections and facilitating research among federal government program managers and scientists,
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                          9
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+the non-federal research community, Arctic communities, and other collaborators to accelerate the
+pace of Arctic research and achieve priority area goals. IARPC Collaborations is used to facilitate
+implementation of the Arctic Research Plan and its periodic implementation plans. It supports the
+work of the collaboration teams and communities of practice, and provides a tool to track progress
+toward the plan deliverables.
+
+Implementation Plan Reporting
+
+Progress on objectives and deliverables will be continuously tracked using the IARPC Collaborations
+website. Any organization or individual that is a member of IARPC Collaborations may report actions
+towards a deliverable.
+
+In the fall of 2026, team leads will develop statements summarizing the impacts of the research con-
+ducted and how it ties to the goals of the Arctic Research Plan. Impact statements will be used to pro-
+duce a public report to Congress. This and future reports to Congress will help the public, research, and
+policy communities understand the progress, obstacles, and pathways toward achievement of goals in
+implementation plans. They will also demonstrate connections and responsiveness to the U.S. Arctic
+Research Commission’s Biennial Goals Report.
+
+Conclusion
+
+The IARPC implementation plans build from the strong collaboration teams and communities of prac-
+tice formed around disciplinary and multidisciplinary research areas. As implementation proceeds, and
+as future Arctic research plans are developed, these communities of practice will become increasingly
+integrated in order to best respond to the complex, dynamic, and interconnected changes occurring in
+the Arctic.
+
+IARPC recognizes the importance of working with entities across all sectors to achieve the goals of the
+Arctic Research Plan and the implementation plan objectives and deliverables. While the Arctic Re-
+search Plan and this implementation plan are developed to help guide federal research investments
+and collaboration, non-federal entities also play critical roles in Arctic research. Over the next two years,
+IARPC aims to build and strengthen relationships and to incorporate non-federal partners into research
+collaboration teams as leaders and participants.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                         10
+                 Priority Area Objectives
+                     and Deliverables
+
+                                  NOTE
+ Achievement of all deliverables is contingent on Federal funding and
+         agency staff capacity in Fiscal Years 2025 and 2026.
+For some deliverables (shown in grey), agency leadership and participa-
+tion is pending as of May 2025. Updated status for all deliverables can be
+               found at http:www.iarpccollaborations.org.
+
+
+
+
+                                                               Photo: Sean Tevebaugh/NPS
+                                                                                                      Photo: Art Howard/DOD
+
+
+
+                Arctic Systems Interactions
+                        (SYSTEMS)
+  Goal: Enhance the ability to observe, understand, predict, and
+  project the Arctic’s dynamic interconnected systems and their
+                     links to the Earth system.
+
+
+
+SYSTEMS Objective 1: Advance understanding of Arctic amplification and the
+associated connections with lower latitudes.
+
+Arctic amplification is the accelerated warming of the Arctic compared to the rest of the Earth. It is the
+result of feedbacks and interactions within the Arctic system and interactions between the Arctic and
+lower latitudes. Work under this objective will focus on increasing understanding of Arctic amplifica-
+tion, including processes that contribute to it (e.g., sea ice albedo feedback), the interactions between
+changes in the Arctic and lower latitude weather and climate (e.g., transport of heat, moisture, salinity,
+and pollutants), and changes in the Arctic that are a result of this amplification (e.g., changes in extreme
+events in the Arctic). This objective will enhance understanding of Arctic systems interactions by em-
+phasizing connections among atmospheric, oceanic, and cryospheric components of the Arctic system
+with the use of appropriate models, observations, and data. Changes in the Arctic that are of direct
+relevance to natural hazards influencing communities and the commercial sector will be considered.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                        12
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+Deliverable                                     Collaborating Agencies Practice
+SYSTEMS 1.1 Provide funding opportunities       NSF (lead);           Modelers;
+for investigator-driven modeling and obser-     DOC-NOAA;             Monitoring, Observing,
+vational studies that focus on the following    DOD-ONR;              Modeling, and Prediction;
+aspects of Arctic amplification: (1) ice-al-    NASA                  Observations;
+bedo feedback; (2) impacts of atmospheric                             Physical Oceanography;
+and oceanic circulation on Arctic amplifica-                          Sea Ice
+tion; and/or (3) transport of heat, moisture,
+and pollutants between Arctic and lower
+latitudes. Share knowledge and synthesize
+results arising from these studies.
+SYSTEMS 1.2 Hold workshops and webinars         Lead Agency Pending   Modelers;
+and produce publications to encourage           DOC-NOAA;             Monitoring, Observing,
+interagency research coordination on Arctic     NASA;                 Modeling, and Prediction;
+amplification and to share results.             NSF                   Observations;
+                                                                      Sea Ice
+SYSTEMS 1.3 Provide opportunities to sup-     NSF (lead);             Data Management;
+port and coordinate research to enhance       DOC-NOAA;               Modelers;
+the understanding of connections between NASA                         Monitoring, Observing,
+Arctic and global ocean circulation with a                            Modeling, and Prediction;
+particular focus on Atlantic Meridional Over-                         Observations;
+turning Circulation.                                                  Physical Oceanography;
+                                                                      Sea Ice
+SYSTEMS 1.4 Advance understanding of the        Lead Agency Pending   Modelers;
+role of atmospheric rivers in Arctic am-        DOC-NOAA;             Monitoring, Observing,
+plification with a specific task of hosting     NASA;                 Modeling, and Prediction
+conference sessions to facilitate knowledge     NSF
+sharing.
+SYSTEMS 1.5 Hold cross-collaboration-team Lead Agency Pending         Modelers;
+meetings and workshops, and produce pub- NSF                          Monitoring, Observing,
+lications, to explore the results of high-reso-                       Modeling, and Prediction
+lution and regional Arctic modeling. Meet-
+ings will focus on the importance of model
+resolution to capture Arctic amplification
+and its relationship with the lower latitudes.
+SYSTEMS 1.6 Quantify the contributions of       NASA (lead);          Monitoring, Observing,
+surface properties, clouds, aerosol parti-      DOC-NOAA              Modeling and Prediction;
+cles, and precipitation to the Arctic summer    DOD-ONR               Sea Ice
+surface radiation budget and sea ice melt
+during the early melt seasons.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                 13
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+SYSTEMS Objective 2: Observe, understand, predict, and project Arctic marine
+and terrestrial ecosystem change and its impacts on humans and the entire
+Earth system.
+
+Changes in the Arctic are having profound impacts on terrestrial, aquatic, and marine ecosystems. For
+example, ocean primary productivity in nearly all regions of the Arctic is higher than in the past, which
+can be linked to lower sea ice cover and increased nutrient availability. Terrestrial ecosystems are also
+experiencing changes resulting from a variety of factors such extended growing seasons, earlier snow
+melt, altered precipitation patterns, and changing disturbance regimes. These changes in Arctic ecosys-
+tems have impacts on local human populations, as well as the Earth system as a whole.
+
+
+                                                                         Contributing
+                                                                         Collaboration Teams
+                                                                         and Communities of
+ Deliverable                                      Collaborating Agencies Practice
+ SYSTEMS 2.1 Advance understanding, quan-         NSF (lead);               Data Management;
+ tification, and prediction of methane emis-      DOC-NOAA;                 Permafrost;
+ sions from permafrost changes in the Arctic      NASA                      Technology Innovation
+ through international collaborations.                                      and Application;
+                                                                            Terrestrial Ecosystems
+ SYSTEMS 2.2 Carry out and synthesize             DOI-USGS (lead);          Coastal Resilience;
+ research and monitoring to improve un-           DOI-BLM;                  Monitoring, Observing,
+ derstanding of important Arctic ecosystem        DOI-BOEM;                 Modeling, and Prediction;
+ processes and feedbacks. These processes         DOI-FWS;                  Permafrost;
+ will include responses to environmental          DOI-NPS;                  Terrestrial Ecosystems;
+ changes, such as the associated impacts          NASA;                     Tribal Consultation and
+ on wildlife and human communities and            NSF;                      Effective Processes
+ infrastructure. This work will be shared via     USDA-NRCS;
+ conference sessions and scientific publica-      USDA-USFS
+ tions.
+ SYSTEMS 2.3 Develop and update meaning-          DOC-NOAA/OAR (lead);      Monitoring, Observing,
+ ful products for delivering findings and in-     DOI-BLM;                  Modeling, and Prediction;
+ formation concerning key climate features,       DOI-BOEM;                 Sea Ice;
+ including the annual release of the peer-re-     DOI-FWS;                  Terrestrial Ecosystems
+ viewed Arctic Report Card on the current         NASA;
+ state of the Arctic relative to the historical   NSF
+ record.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     14
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+Deliverable                                      Collaborating Agencies Practice
+SYSTEMS 2.4 Continue coordinated interdis-       DOC-NOAA/OAR (lead);   Field Operations;
+ciplinary Arctic marine climate and ecosys-      NSF (lead);            Marine Ecosystems;
+tem observations, and share data and pro-        DHS-USCG;              Monitoring, Observing,
+mote synthesis of field observations. This       DOC-NOAA/NMFS;         Modeling, and Prediction;
+includes generating accessible, public-facing    DOI-BOEM;              Tribal Consultation and
+tools and products that increase awareness       DOI-FWS;               Effective Processes
+of annual research activities and assets, as     NASA
+well as supporting enhanced collaboration,
+coordination, and transparency across re-
+search, federal, and local communities.
+SYSTEMS 2.5 Convene community-wide               Lead Agency Pending;   Data Management;
+workshop highlighting how remote sensing         DHS-CBP-USBP;          Monitoring, Observing,
+data products can be used to inform multi-       DOI-BLM;               Modeling, and Prediction;
+scale land models from plot to pan-Arctic        DOI-FWS;               Permafrost;
+and inform use of remote sensing data in         DOI-NPS;               Sea Ice;
+land surface models.                             DOI-USGS               Terrestrial Ecosystems
+SYSTEMS 2.6 Continue support for research        DOC-NOAA/OAR (lead);   Marine Ecosystems;
+programs that document Arctic marine             DOD-ONR;               Monitoring, Observing,
+species distribution, abundance, biodiver-       DOI-BOEM;              Modeling, and Prediction;
+sity, health and condition, foraging ecology,    DOI-FWS;               Sea Ice;
+demography, habitat use in the Arctic, and       MMC;                   Tribal Consultation and
+basic life history information, as well as age   NASA;                  Effective Processes
+and growth rates of key links in the food        NSF
+web.
+SYSTEMS 2.7 Produce and support publica-         DOC-NOAA/OAR(lead);    Data Management;
+tions and data products (in technical and        DOD-ONR;               Marine Ecosystems;
+non-technical venues) enhancing under-           DOI-BOEM;              Monitoring, Observing,
+standing of the linkages among marine            DOI-FWS;               Modeling, and Prediction
+species, oceanographic and sea ice con-          MMC;
+ditions and changes. Specifically improve        NASA;
+understanding of mechanisms that affect          NSF
+trends in trophic interactions, abundance,
+distribution, vital rates, and behavior.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                   15
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+SYSTEMS Objective 3: Understand interactions between social, ecological,
+and physical Arctic systems, particularly in the context of coastal and
+cryospheric change.
+
+In order to understand Arctic systems interactions, it is important to focus on the spaces where these
+interactions occur. Coastal areas are important zones of interaction across a wide range of social ecolog-
+ical systems: atmosphere, ocean, sea ice, land-fast ice, land, glaciers, permafrost, animals, plants, and
+humans all interact at and around coastlines. Work carried out under this objective seeks to build better
+understanding of the interconnected pieces and processes contributing to Arctic coastal change and its
+multifaceted impacts, both proximal and relational. This objective includes short-term and long-term
+activities, and relies on a variety of observation types, including community observers and high-tech
+sensors. Deliverables will facilitate expanded connectivity and standardization of observations with the
+aim of bridging gaps between interconnecting Arctic systems and between observations and models.
+This objective focuses on building a broad, interconnected understanding of Arctic coastal change and
+working with Arctic communities to provide knowledge important for Arctic residents now, especially
+in responding to and mitigating the effects of change, and to build environmental understanding for the
+future.
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+ Deliverable                                     Collaborating Agencies Practice
+ SYSTEMS 3.1 Through conference sessions, NASA (lead);                       Observations
+ scientific and non-technical publications,     DHS-CBP-USBP
+ and IARPC Collaborations meetings, high-
+ light results from missions that contribute to
+ long-term observations of land ice.
+ SYSTEMS 3.2 Develop and assess ice sheet        NASA (lead);                Monitoring, Observing,
+ models for better prediction of sea level rise. DOC-NOAA;                   Modeling, and Prediction
+                                                 DOI-USGS;
+                                                 NSF
+ SYSTEMS 3.3 Integrate information from          Lead Agency Pending;        Community Resilience
+ field, laboratory, and remote sensing stud-     DHS-CBP-USBP;               and Health;
+ ies to examine and quantify relationships       DOI-BLM;                    Data Management;
+ among surface topography, vegetation            DOI-NPS;                    Monitoring, Observing,
+ composition, hydrology, permafrost, distur-     NASA;                       Modeling, and Prediction;
+ bance effects (including fire, thermokarst,     NSF;                        Permafrost;
+ land use change, and wildlife), geophysical     USDA-NRCS                   Risk Management and
+ processes in permafrost soils, and humans.                                  Hazard Mitigation;
+ Share results in reports, presentations, and                                Sustainable Economies
+ scientific publications.                                                    and Livelihoods;
+                                                                             Technology Innovation
+                                                                             and Application;
+                                                                             Terrestrial Ecosystems
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                       16
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                      Contributing
+                                                                      Collaboration Teams
+                                                                      and Communities of
+Deliverable                                    Collaborating Agencies Practice
+SYSTEMS 3.4 Better understand the rate of      Lead Agency Pending;   Permafrost;
+terrestrial and subsea permafrost degrada-     DOI-BLM;               Terrestrial Ecosystems
+tion and their roles in environmental and      DOI-NPS;
+ecosystems processes and services (e.g.,       NASA;
+atmospheric and terrestrial carbon, Arctic     NSF;
+greening, species invasion) by integrating     USDA-NRCS
+empirical information into modeling efforts
+at various scales and delivering results via
+publications and presentations.
+SYSTEMS 3.5 Foster continued efforts to link   NSF (lead);            Permafrost;
+multi-agency investments while expanding       DOC-NOAA;              Terrestrial Ecosystems
+empirical datasets and synthesizing infor-     DOI-BLM;
+mation that will inform the development of     DOI-NPS;
+updated essential variable maps for Alaska,    NASA;
+Greenland, and the circumpolar Arctic (e.g.,   USDA-NRCS
+permafrost ground ice content, topography,
+bathymetry, vegetation).
+SYSTEMS 3.6 Improve high-resolution            Lead Agency Pending;   Coastal Resilience;
+models’ ability to capture coastal processes   DHS-CBP-USBP;          Data Management;
+at the interface of ocean, land, and atmo-     DOC-NOAA;              Marine Ecosystems;
+sphere by supporting targeted collabora-       NASA;                  Monitoring, Observing,
+tions among model developers, users, and       NSF                    Modeling, and Prediction;
+decision-makers. Products will include an                             Permafrost;
+interagency scientific peer-reviewed publi-                           Sea Ice;
+cation (that is in compliance with the 2025                           Terrestrial Ecosystems
+Executive Order on Restoring Gold Standard
+Science) and conference sessions that ad-
+dress these models, as well as non-technical
+publications.
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                17
+                                                                                                            Photo: DOI
+
+
+
+          Community Resilience & Health
+                  (HEALTH)
+Goal: Improve community resilience and well-being by strength-
+ening research and developing tools to increase understanding of
+ interdependent social, natural, and built systems in the Arctic.
+
+
+
+HEALTH Objective 1: Support the health of Arctic residents through re-
+search on public health needs and delivery.
+
+The COVID-19 pandemic is a stark reminder of the vulnerability of rural communities in the Arctic to in-
+fectious disease. Public health resources are limited in many communities, and services such as preven-
+tive care and health education are often lacking. Cultural wellness is also a vital component of commu-
+nity resilience and health. Through this objective, IARPC seeks to support the health of Arctic residents
+with research on public health needs and delivery. This research will be driven by community priorities,
+culturally responsive and respectful, and focused foremost on improving the health of Arctic residents.
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+ Deliverable                                     Collaborating Agencies Practice
+ HEALTH 1.1 Reduce incidence of hepatitis C      HHS-CDC (lead)             Tribal Consultation and
+ virus infection among Alaskan populations                                  Effective Processes
+ by defining the epidemiology, expanding
+ screening in rural populations, and identify-
+ ing barriers affecting access to treatment.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     18
+                             ARCTIC RESEARCH PLAN 2022-2026
+                             IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                      Contributing
+                                                                      Collaboration Teams
+                                                                      and Communities of
+Deliverable                                    Collaborating Agencies Practice
+HEALTH 1.2 Conduct research on respiratory HHS-CDC (lead)            Tribal Consultation and
+viruses (e.g., influenza, respiratory syncytial                      Effective Processes
+virus, SARS-CoV-2) and support implemen-
+tation of public health interventions that
+protect remote populations.
+HEALTH 1.3 Along with local health partners, Lead Agency Pending     Coastal Resilience;
+conduct research to support understanding DOI-FWS;                   Marine Ecosystems;
+and awareness of emerging zoonotic disease HHS-CDC                   Permafrost;
+threats identified in the CDC’s One Health                           Terrestrial Ecosystems;
+Zoonotic Disease Prioritization for Alaska                           Tribal Consultation and
+workshop report.                                                     Effective Processes
+
+
+HEALTH 1.4 Along with collaborating part-      Lead Agency Pending   Coastal Resilience;
+ners, investigate concerns about human ill-    DOC-NOAA;             Marine Ecosystems;
+ness associated with harmful algal blooms,     HHS-NIH/NIEHS;        Tribal Consultation and
+develop strategies for assessing and filling   USDA                  Effective Processes
+knowledge gaps, and develop and distribute
+messaging based on what is learned.
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                19
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+HEALTH Objective 2: Address emerging threats to food safety and access,
+as well as food and nutrition security in the Arctic, through research that
+addresses how environmental change is affecting the abundance, accessibility,
+and use of traditional foods and traditional ways of life.
+
+Terrestrial and marine ecosystems are changing rapidly with implications for accessibility and availabil-
+ity of healthy, nutritious, and culturally relevant foods. Environmental toxins and novel diseases also
+pose emerging risks to food security for Arctic residents. Both traditional and commercial foods, and
+the infrastructure to store and maintain them, play key roles in meeting communities’ nutritional and
+cultural needs. Improved observations, forecasts, and models are critical for a greater understanding of
+how Arctic environmental change and other factors are affecting Arctic food safety and security, includ-
+ing traditional food abundance, access, use patterns, and cultural connections and reliance.
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+ Deliverable                                    Collaborating Agencies Practice
+ HEALTH 2.1 Provide funding opportunities       NSF (lead);                 Technology Innovation
+ for research on food systems, food safety,     DHS;                        and Application;
+ and food and nutrition security in the Arctic. USDA                        Tribal Consultation and
+                                                                            Effective Processes
+ HEALTH 2.2 Provide funding opportunities       NSF (lead);                 Marine Ecosystems;
+ and conduct studies on the impact of           DOC-NOAA/NCCOS;             Monitoring, Observing,
+ harmful algal blooms on the availability and   DOI-FWS;                    Modeling, and Prediction;
+ safety of traditional and commercial foods.    DOI-USGS;                   Technology Innovation
+                                                MMC;                        and Application;
+                                                NASA                        Tribal Consultation and
+                                                                            Effective Processes
+
+
+ HEALTH 2.3 Conduct investigations and          DOC-NOAA/NMFS (lead); Marine Ecosystems;
+ report on marine mammal unusual                DHS;                  Monitoring, Observing,
+ mortality events in the Bering, Chukchi,       DOI-FWS               Modeling, and Prediction;
+ and Beaufort seas to evaluate the severity,                          Tribal Consultation and
+ causes, ecological implications, and                                 Effective Processes
+ potential health risks to traditional users.
+ HEALTH 2.4 Conduct investigations and          DOC-NOAA/NMFS (lead);       Marine Ecosystems;
+ report trends in abundance, distribution,      DHS;                        Monitoring, Observing,
+ and condition of ice-dependent marine          DOI-FWS;                    Modeling, and Prediction;
+ mammals in the Bering, Chukchi, and            DOI-USGS                    Tribal Consultation and
+ Beaufort seas to identify and forecast                                     Effective Processes
+ changes that may impact food security and
+ the long-term sustainability of traditional
+ food supplies.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     20
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+Deliverable                                     Collaborating Agencies Practice
+HEALTH 2.5 Assess and model changes in          DOC-NOAA/OAR (lead);   Coastal Resilience;
+abundance, distribution, and harvest of         DHS;                   Marine Ecosystems;
+select marine mammals and fishes that are       DOI-BOEM;              Monitoring, Observing,
+food sources in rural Alaska.                   DOI-FWS;               Modeling, and Prediction;
+                                                DOI-NPS;               Sustainable Economies
+                                                MMC;                   and Livelihoods;
+                                                NSF;                   Technology Innovation
+                                                USDA                   and Application;
+                                                                       Tribal Consultation and
+                                                                       Effective Processes
+HEALTH 2.6 Fund and conduct research, and       DOI-USGS (lead);       Monitoring, Observing,
+produce a report, on changes in abundance       DHS;                   Modeling, and Prediction;
+and distribution of migratory caribou in        DHS-CBP-USBP;          Technology Innovation
+Arctic Alaska.                                  DOI-BLM;               and Application;
+                                                DOI-FWS;               Terrestrial Ecosystems;
+                                                DOI-NPS;               Tribal Consultation and
+                                                NASA;                  Effective Processes
+                                                NSF
+HEALTH 2.7 Provide funding opportunities,       DOI-USGS (lead);       Monitoring, Observing,
+conduct research, and produce a report, on      DHS;                   Modeling, and Prediction;
+the impacts of rapid expansion of beaver        DOI-BLM;               Technology Innovation
+habitat in the U.S. Arctic, including effects   DOI-NPS;               and Application;
+on fisheries and ecosystem services, access     NASA;                  Terrestrial Ecosystems;
+to traditional foods, and overall community     NSF                    Tribal Consultation and
+health.                                                                Effective Processes
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                               21
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+HEALTH Objective 3: Provide research and technical support for water and
+sanitation infrastructure.
+
+The characteristics of the Arctic present unique water and sanitation infrastructure challenges. Solutions
+to these challenges need to address small and remote communities, energy availability and cost, opera-
+tion and maintenance capabilities, freezing seasonal temperatures and thawing permafrost, and other
+issues. Through this objective, IARPC agencies and partners will analyze and evaluate potential impacts
+of environmental changes on infrastructure, synthesize available infrastructure solutions applicable to
+Arctic conditions and conduct research to support climate resilient and energy efficient infrastructure,
+provide a database for information on and treatment options for drinking water contaminants, and sup-
+port research on perfluoroalkyl and polyfluoroalkyl substances (PFAS) treatment of surface water and
+groundwater in Arctic conditions.
+
+
+                                                                         Contributing
+                                                                         Collaboration Teams
+                                                                         and Communities of
+ Deliverable                                      Collaborating Agencies Practice
+ HEALTH 3.1 Synthesize and expand upon            NASA (lead);               Coastal Resilience;
+ existing efforts to create data visualization    DHS-FEMA;                  Data Management;
+ maps of areas at high risk for coastal ero-      DOC-NOAA                   Permafrost;
+ sion, permafrost thaw, and flooding within                                  Risk Management and
+ specified future time periods (e.g., 10 years,                              Hazard Mitigation;
+ 50 years, 100 years) to identify at-risk areas                              Terrestrial Ecosystems
+ and inform investments in climate-resilient
+ infrastructure.
+ HEALTH 3.2 Develop a publicly accessible     Lead Agency Pending            Data Management;
+ database for information on drinking water                                  Tribal Consultation and
+ contaminants (including PFAS) and effective                                 Effective Processes
+ treatment processes. The database will be of
+ use to water treatment operators, regulatory
+ agencies, researchers, and treatment
+ process consultants and designers. It could
+ also support responses to emergency
+ contamination events.
+ HEALTH 3.3 Test the potential for anaerobic Lead Agency Pending;            Cold/High Anaerobic
+ digestion to provide sanitation options for Denali Commission;              Digestion;
+ communities where piped systems do not      NSF                             Tribal Consultation and
+ match environmental and financial settings.                                 Effective Processes
+ Document and disseminate results and
+ determine if in-situ trial is appropriate.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      22
+                                                                                                     Photo: Lisa Hupp/USFWS
+
+
+
+Risk Management & Hazard Mitigation
+             (RISK)
+ Goal: Secure and improve quality of life through research that
+promotes an understanding of disaster risk exposure, sensitivity
+               to hazard, and adaptive capacity.
+
+
+
+RISK Objective 1: Summarize currently available data and information re-
+quirements associated with hazard and risk mitigation, adaptation, and
+response efforts. Synthesize community-led activities and information to
+identify potential needs for future efforts.
+
+Work carried out under this objective will improve understanding of how data and information generat-
+ed by the Arctic research community and local communities can be applied to risks and hazards such as
+wildfire, permafrost thaw, and coastal erosion. In turn, this work will be used as a foundation to better
+address data gaps, accessibility, and other issues that often limit the use of Arctic research activities in
+risk management and hazard mitigation. Meeting this objective will require engagement and collabora-
+tion with communities, Tribes and local organizations, traditional knowledge holders, and the private
+sector, as well as cooperation across the full range of scientific and engineering disciplines, and state of
+Alaska and federal agencies working in the Arctic.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                        23
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+Deliverable                                     Collaborating Agencies Practice
+RISK 1.1 Conduct a study identifying where      Lead Agency Pending    Coastal Resilience;
+information used in decision-making and         DHS-CBP-USBP;          Data Management;
+planning around risks and hazards can be        DHS-USCG;              Monitoring, Observing,
+improved through access to new or ad-           Denali Commission;     Modeling, and Prediction;
+ditional data sources. This study should        DOC-NOAA;              Marine Ecosystems;
+consider a wide range of activities associat-   DOI-BIA;               Modelers;
+ed with ongoing responses to common and         DOI-USGS               Observations;
+emerging hazards, including risk reduction                             Permafrost;
+efforts and emergency preparedness and                                 Physical Oceanography;
+response. The scope of the study will be ex-                           Sea Ice;
+panded to include information on tsunamis                              Sustainable Economies
+and volcanoes.                                                         and Livelihoods;
+                                                                       Technology Innovation
+                                                                       and Application;
+                                                                       Terrestrial Ecosystems
+RISK 1.2 Share findings of RISK 1.1 as a        Lead Agency Pending    Coastal Resilience
+means to (1) spur additional research and       Denali Commission;     Data Management;
+science communication aimed at addressing       DHS-CBP-USBP;          Monitoring, Observing,
+unmet needs for planning, prevention,           DHS-USCG;              Modeling, and Prediction;
+response, and recovery and (2) inform time-     DOC-NOAA;              Marine Ecosystems;
+sensitive decision-making and planning          DOI-BIA;               Modelers
+processes.                                      DOI-USGS               Observations;
+                                                                       Permafrost;
+                                                                       Physical Oceanography;
+                                                                       Sea Ice;
+                                                                       Sustainable Economies
+                                                                       and Livelihoods;
+                                                                       Technology Innovation
+                                                                       and Application;
+                                                                       Terrestrial Ecosystems;
+                                                                       Tribal Consultation and
+                                                                       Effective Processes
+RISK 1.3 Develop a network that brings          Lead Agency Pending;   All communities of
+together scientists, the emergency              DOI-USGS (lead);       practice;
+management community, and key agency            DHS-CBP-USBP           All foundational activities
+contacts to share knowledge, identify
+new and emerging challenges, and inform
+decision-making and operations through
+research.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                 24
+                                       ARCTIC RESEARCH PLAN 2022-2026
+                                       IMPLEMENTATION PLAN 2025-2026
+
+
+RISK Objective 2: Update and improve the “Statewide Threat Assessment:
+Identification of Threats from Erosion, Flooding, and Thawing Permafrost
+in Remote Alaska Communities.”5
+
+Work to meet this objective will involve reviewing, updating, and building upon the 2018 Statewide
+Threat Assessment by expanding and updating the scope of hazards cataloged in the assessment and
+integrating community resilience information. Sea ice and coastal erosion will be added to this effort.
+The goal is to better understand the threats to Alaska communities from acute and long-term hazards
+as well as what level of community intervention (adaptation, mitigation, and/or other protective mea-
+sures) are in place. This will lead to identifying and developing an index of threat risk and community
+capacity for the variety of risks that Alaska’s villages face.
+
+
+                                                                                  Contributing
+                                                                                  Collaboration Teams
+                                                                                  and Communities of
+    Deliverable                                            Collaborating Agencies Practice
+    RISK 2.1 Identify the top threats/hazards              Denali Commission               Coastal Resilience;
+    to communities and critical remote state               (lead);                         Data Management;
+    and federal government infrastructure in               DHS-CBP-USBP;                   Monitoring, Observing,
+    the state of Alaska that should be included            DHS-CISA;                       Modeling, and Prediction;
+    in the Statewide Threat Assessment. This               DOC-NOAA;                       Marine Ecosystems;
+    might include coastal and river erosion,               DOI-BIA;                        Modelers;
+    flooding, thawing permafrost, and changes              DOI-USGS;                       Observations;
+    in the seasonal snowpack.                              NSF                             Permafrost;
+                                                                                           Physical Oceanography;
+                                                                                           Sea Ice;
+                                                                                           Sustainable Economies
+                                                                                           and Livelihoods;
+                                                                                           Technology Innovation
+                                                                                           and Application;
+                                                                                           Terrestrial Ecosystems;
+                                                                                           Tribal Consultation and
+                                                                                           Effective Processes
+
+
+
+
+5
+    Statewide Threat Assessment: Identification of Threats from Erosion, Flooding, and Thawing Permafrost in Remote Alaska
+    Communities. Nov 2019. https://www.denali.gov/wp-content/uploads/2019/11/Statewide-Threat-Assessment-Final-Re-
+    port-20-November-2019.pdf
+
+
+
+
+                           INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                                  25
+                             ARCTIC RESEARCH PLAN 2022-2026
+                             IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                      Contributing
+                                                                      Collaboration Teams
+                                                                      and Communities of
+Deliverable                                    Collaborating Agencies Practice
+RISK 2.2 Upon completion of RISK 2.1, estab-   Denali Commission     Coastal Resilience;
+lish a data collection and collation plan to   (lead);               Data Management;
+include mechanisms to collect threat/hazard    DHS;                  Monitoring, Observing,
+data that may not be readily available.        DOI-BIA;              Modeling, and Prediction;
+                                                                     Marine Ecosystems;
+                                                                     Modelers;
+                                                                     Observations;
+                                                                     Permafrost;
+                                                                     Physical Oceanography;
+                                                                     Sea Ice;
+                                                                     Sustainable Economies
+                                                                     and Livelihoods;
+                                                                     Technology Innovation
+                                                                     and Application;
+                                                                     Terrestrial Ecosystems;
+                                                                     Tribal Consultation and
+                                                                     Effective Processes
+RISK 2.3 Collect and integrate disparate       Denali Commission     Coastal Resilience;
+threat/hazard information and perform          (lead);               Data Management;
+modeling and analysis to understand where      DHS-CBP-USBP;         Monitoring, Observing,
+natural and human-made threats and             DHS-FEMA;             Modeling, and Prediction;
+hazards pose a risk to Arctic communities.     DOI-BIA;              Marine Ecosystems;
+                                               DOI-BSEE;             Modelers;
+                                               DOI-USGS;             Observations;
+                                                                     Permafrost;
+                                                                     Physical Oceanography;
+                                                                     Sea Ice;
+                                                                     Sustainable Economies
+                                                                     and Livelihoods;
+                                                                     Technology Innovation
+                                                                     and Application;
+                                                                     Terrestrial Ecosystems;
+                                                                     Tribal Consultation and
+                                                                     Effective Processes
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                              26
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+RISK Objective 3: Research to support more resilient and transformative
+infrastructure to withstand potential impacts from acute and long-term
+hazards.
+
+This objective seeks to identify resilient infrastructure capabilities and technologies that can minimize
+infrastructure risk and reduce the impacts of hazards.
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+ Deliverable                                    Collaborating Agencies Practice
+ RISK 3.1 Develop deliverables focused on       DOD-USACE (lead);           Cold/High Anaerobic
+ expedient and enduring cold regions infra-     DHS-CISA;                   Digestion;
+ structure, including water and wastewa-        DHS-USCG;                   Technology Innovation
+ ter, energy, and temporary and enduring        DOI-BIA;                    and Application;
+ structures. Results will be shared via mul-    USDA-NRCS                   Tribal Consultation and
+ tiple reports that will identify and provide                               Effective Processes
+ background information on the variety of
+ available and emerging water/wastewater,
+ energy, and structure technologies and best
+ practices.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      27
+                                                                                     Photo: Tanadgusix Corporation via DOE
+
+
+
+   Sustainable Economies & Livelihoods
+             (LIVELIHOODS)
+        Goal: Observe and understand the Arctic’s natural,
+ social, and built systems to promote sustainable economies and
+                            livelihoods.
+
+
+
+LIVELIHOODS Objective 1: Foster the development of Arctic infrastructure and
+institutions that improve community capacity prioritized by Arctic commu-
+nities.
+
+Arctic infrastructure needs are urgent, and communities in rural Alaska have an important role in iden-
+tifying these needs. Coordinated research can facilitate improved information sharing about funding
+resources, threats to existing infrastructure, and Arctic-relevant advances in construction and com-
+munication technology. Research efforts can support the development of models to better optimize
+decisions on cost avoidance and the use of local geography for the development of renewable energy,
+raw materials, and other human and built environment resources.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      28
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+Deliverable                                      Collaborating Agencies Practice
+LIVELIHOODS 1.1 Develop a list of where and      Denali Commission     Data Management
+how to access existing datasets on infra-        (lead);
+structure, natural resources, and institutions   DHS;
+as a prelude to constructing a comprehen-        DHS-CBP-USBP;
+sive asset map to improve understanding          DOC-EDA;
+of community resiliency. Facilitate sharing      DOC-NOAA;
+resources and improve information access.        DOD-Ted Stevens;
+                                                 DOI-USGS;
+                                                 DOT;
+                                                 NSF;
+                                                 USDA-RD
+LIVELIHOODS 1.2 Identify best practices          Denali Commission     Data Management;
+for enhancing sustainable and livable            (lead);               Technology Innovation
+communities through infrastructure, natural      DHS-CBP-USBP;         and Application
+resources variability, and institutions.         DHS-USCG;
+                                                 DOD-Ted Stevens;
+                                                 DOT;
+                                                 NSF
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                               29
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+LIVELIHOODS Objective 2: Improve local access to Arctic economic
+opportunities by identifying the linkages among economic initiatives,
+natural resources, infrastructure, socioeconomic factors, and values of rural
+Arctic communities.
+Environmental changes in the Arctic have increased global pressure to transform and expand Arctic
+economies. However, sustainable pathways for achieving such transformation are not well under-
+stood. Transitioning undeveloped and under-developed locally accessible economic opportunities
+into sustainable economies will benefit from understanding effective support mechanisms (e.g.,
+public and private funding) that can stimulate economic activity. Particularly important fast-growing
+economic sectors include healthcare and infrastructure development. Federal investment in infra-
+structure can be a valuable economic stimulus, but research is needed to support the transition to
+sustainable economies. Improved socioeconomic models, studies on the transferability of successful
+place-based economic programs, and research on community-defined priorities for sustainable live-
+lihoods can provide insights for pathways towards more sustainable local job creation and retention
+while keeping the unique values of Arctic residents at the forefront.
+
+                                                                      Contributing
+                                                                      Collaboration Teams
+                                                                      and Communities of
+Deliverable                                    Collaborating Agencies Practice
+LIVELIHOODS 2.1 Support research on fac-       Lead Agency Pending;        Community Resilience
+tors affecting economic sustainability and     DHS;                        and Health;
+quality of life, identifying components of     DOT;                        Data Management;
+community well-being.                          NSF;                        Tribal Consultation and
+                                               USDA-NRCS;                  Effective Processes
+                                               USDA-RD
+LIVELIHOODS 2.2 Support research on            Lead Agency Pending;        Data Management;
+factors affecting economic sustainability      DHS;                        Tribal Consultation and
+and quality of life, identifying components    DOT;                        Effective Processes
+of community well-being.                       USDA-NRCS;
+                                               USDA-RD
+LIVELIHOODS 2.3 Create funding                 NSF (lead)                  Tribal Consultation and
+opportunities for research into community-                                 Effective Processes
+defined priorities for sustainable livelihoods
+and economic development.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     30
+This page is intentionally left blank.
+  Foundational Activity
+Objectives and Deliverables
+
+
+
+
+                              Photo: Peter Pearsall
+                                                                                                          Photo: DOI
+
+
+
+                            Data Management
+                                 (DATA)
+
+
+
+DATA Objective 1: Encourage and implement Findable, Accessible, Interop-
+erable, and Reusable (FAIR) and Collective benefit, Authority to control,
+Responsibility, and Ethics (CARE) data management principles through
+enhanced coordination and collaboration across multiple levels in Arctic
+research.
+
+The overall Data Management goal is to create a well-coordinated and informed Arctic data manage-
+ment community committed to the FAIR and CARE data principles. Success will be measured by the
+establishment of robust networks, the integration and sharing of best practices and standards, and
+the implementation of innovative data management practices and systems. The deliverables will draw
+from three sustained lines of effort, culminating in comprehensive summaries of Arctic data manage-
+ment considerations. The first line of effort is to continue convening new and existing IARPC partners
+and members to develop a network focused on fostering and implementing FAIR and CARE data
+principles. This will build a network while also supporting new insights in data management. The Data
+Management Collaboration Team will maintain a living document to capture the community’s ideas to
+allow IARPC Collaborations members to shape team efforts. The second line of effort is to help orga-
+nize and facilitate semi-structured meetings in collaboration with IARPC communities of practice to
+share perspectives from individuals and groups on implementing FAIR and CARE. These meetings will
+help collect perspectives from data users, owners, publishers, providers, managers, and researchers
+on specific aspects of FAIR and CARE data management principles that communities care about. The
+third line of effort focuses on tracking and implementing specific funded projects and initiatives from
+different agencies on Arctic/polar data management and enhancing collaboration and engagement
+across local, national, and international levels towards Arctic data interoperability.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     33
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+Deliverable                                     Collaborating Agencies Practice
+DATA 1.1 Identify verified points of contact    DOC-NOAA lead);       All foundational activities;
+(e.g., agency champions, data practitioners,    NASA (lead);          All priority areas;
+Arctic residents, Tribal organizations) and     Denali Commission;    Coastal Resilience;
+their areas of expertise and interests, and     DHS;                  Marine Ecosystems;
+encourage them to join the Data Manage-         DHS-CBP-USBP;         Permafrost;
+ment Collaboration Team on IARPC Collab-        DOT;                  Physical Oceanography;
+orations. As part of developing the points of   NSF;                  Sea Ice;
+contact, identify and track representation      SI;                   Terrestrial Ecosystems
+across many axes (disciplines/sectors, IARPC    USDA
+experience, career stage, for example) to en-
+sure a representative group of contributors.
+DATA 1.2 In order to build community buy-in DOC-NOAA (lead);          All foundational activities;
+and promote sustained efforts, regularly    NASA;                     All priority areas;
+update and maintain the activities and      NSF                       Coastal Resilience;
+progress related to data management                                   Marine Ecosystems;
+on IARPC Collaborations. These efforts                                Permafrost;
+will ensure transparency, continuous                                  Physical Oceanography;
+engagement, and alignment with the FAIR                               Sea Ice;
+and CARE data principles.                                             Terrestrial Ecosystems
+DATA 1.3 Convene quarterly seminars,            DOC-NOAA (lead);      All priority areas;
+discussions, and training sessions              Denali Commission;    Coastal Resilience;
+on FAIR and CARE data management                DHS;                  Education and Training;
+in collaboration with other IARPC               DHS-CBP-USBP;         Marine Ecosystems;
+collaboration teams and communities             DOT;                  Permafrost;
+of practice. These sessions will address        NASA;                 Physical Oceanography;
+data-related topics that are of interest        NSF;                  Sea Ice;
+across different teams or specific to a few     SI;                   Technology Innovation
+teams, with the goal of advancing and           USDA                  and Application;
+supporting the data-related deliverables                              Terrestrial Ecosystems;
+within this implementation plan. Ensure                               Tribal Consultation and
+that presenters and contributors provide a                            Effective Processes
+broad range of perspectives and expertise.
+Develop a common format and structure
+(e.g., questions, prompts) for team meetings
+to help elicit and articulate perspectives on
+all aspects of FAIR and CARE to support work
+towards the community summary/synthesis
+products.
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                  34
+                             ARCTIC RESEARCH PLAN 2022-2026
+                             IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                    Contributing
+                                                                    Collaboration Teams
+                                                                    and Communities of
+Deliverable                                  Collaborating Agencies Practice
+DATA 1.4 Develop and share communication DOC-NOAA (lead);          All priority areas;
+products such as summaries and public-       NASA (lead);          Tribal Consultation and
+facing one-pagers of perspectives on         NSF                   Effective Processes
+implementing FAIR and CARE in Arctic
+contexts. These concise communication
+products will be designed to inform and
+educate a broader audience, including
+users, researchers, decision-makers, and the
+general public.
+DATA 1.5 Develop an end-to-end Arctic          DOC-NOAA (lead);    All priority areas;
+data management system that includes           NASA;               Marine Ecosystems;
+data submission, metadata curation, data       NSF                 Physical Oceanography;
+archival, and data access. Overall, these data                     Sea Ice;
+management services will improve Arctic                            Technology Innovation
+data FAIR compliance and interoperability,                         and Application
+as well as streamline long-term data
+preservation and archival.
+DATA 1.6 Support the development of an          DOC-NOAA (lead);   All priority areas;
+Integrated Arctic Ecosystem Toolkit that        NASA;              Marine Ecosystems;
+leverages existing data servers to allow        NSF                Physical Oceanography;
+for the synthesis of public hydrographic                           Sea Ice;
+and satellite-derived environmental                                Technology Innovation
+measurements with a diverse array of                               and Application
+biodiversity data. Building the tools to
+connect these datastreams will shorten the
+time required for each ecosystem health
+assessment, enabling rapid management
+response for resilience. By including publicly
+available observations from NOAA National
+Marine Fisheries Service, NOAA ‘Omics, and
+academic-led ocean observatories, as well
+as publicly available observations derived
+from open-source community science
+platforms, this toolkit will provide a critical
+holistic integration platform for the Arctic
+region. By further developing tools to foster
+the integration of non-public datastreams
+alongside the integrated biodiversity
+observations, this toolkit will serve a diverse
+array of federal, state, local, and community
+partners.
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                              35
+                                     ARCTIC RESEARCH PLAN 2022-2026
+                                     IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                                Contributing
+                                                                                Collaboration Teams
+                                                                                and Communities of
+ Deliverable                                             Collaborating Agencies Practice
+ DATA 1.7 Support a catalog of systems (a                DOC-NOAA (lead);                  All priority areas;
+ registry of polar observing networks) that              Denali Commission;                Coastal Resilience;
+ conduct or coordinate polar observation                 DHS;                              Education and Training;
+ and monitoring. This resource will advance              DHS-CBP-USBP;                     Marine Ecosystems;
+ beyond a proof of concept through                       DOT;                              Permafrost;
+ an iterative process with outreach,                     NASA;                             Physical Oceanography;
+ community engagement, collaboration,                    NSF;                              Sea Ice;
+ metadata curation, and web usability                    SI;                               Technology Innovation
+ testing. In concert, software design and                USDA                              and Application;
+ development will enable a scalable                                                        Terrestrial Ecosystems;
+ technology architecture, resulting in a fully                                             Tribal Consultation and
+ operational, and encompassing tool for                                                    Effective Processes
+ discovery. This project will also include
+ a polar observing site discovery tool: an
+ innovative demonstration of aggregating
+ documentation for thousands of research
+ and monitoring sites, stations, facilities,
+ observatories, supersites, buoys, moorings,
+ and community-based observations with a
+ view to interoperability. The end result will
+ be a single-window search for the discovery
+ of observing assets within and across a
+ multitude of networks.
+ DATA 1.8 Convene a series of webinars                   DOC-NOAA (lead);                  All priority areas;
+ on the incorporation of Indigenous data                 Denali Commission;                All foundational activities;
+ sovereignty6 principles into Arctic data                DHS;                              Coastal Resilience;
+ management. These sessions will aim                     DOT;                              Marine Ecosystems;
+ to embed CARE data principles in the                    NASA;                             Permafrost;
+ data management plan process and to                     NSF;                              Physical Oceanography;
+ explore and learn about the possibility                 SI;                               Sea Ice;
+ of establishing tribally managed CARE-                  USDA                              Terrestrial Ecosystems
+ structured data centers. The goal is to
+ ensure that Arctic communities have
+ authority and control over their data, with
+ an eye on future implementation plans and
+ the Arctic Research Plan.
+
+
+
+
+6 Indigenous Data Sovereignty is an internationally recognized concept; IARPC engagement facilitates international collabora-
+ tion and data sharing.
+
+
+
+
+                          INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                                   36
+                            ARCTIC RESEARCH PLAN 2022-2026
+                            IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                    Contributing
+                                                                    Collaboration Teams
+                                                                    and Communities of
+Deliverable                                  Collaborating Agencies Practice
+Data 1.9 Actively engage with and support    DOC-NOAA (lead);      All priority areas;
+expert and advisory panel work through       DHS-CBP-USBP;         All foundational activities;
+the US Arctic Observing Network (US AON),    NASA;                 Coastal Resilience;
+the Sustaining Arctic Observing Network      NSF                   Marine Ecosystems;
+(SAON)’s Arctic Roadmap for Observing                              Permafrost;
+and Data Systems (Arctic ROADS), and                               Physical Oceanography;
+the Arctic Data Committee in developing                            Sea Ice;
+Arctic observing and data systems plans.                           Terrestrial Ecosystems
+Additionally, support U.S. engagement in
+and the implementation of data-related
+recommendations from the Arctic Observing
+Summit. These efforts will ensure that the
+United States contributes to and benefits
+from international coordination and
+collaboration on Arctic data management.
+
+
+
+
+                  INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                37
+                                                                                                   Photo: Lisa Hupp/USFWS
+
+
+
+                        Education & Training
+                               (EDU)
+
+
+
+EDU Objective 1: Develop resources to support the Arctic STEM education and
+research communities.
+
+Science, technology, engineering, and math (STEM) education and training are foundational to success-
+ful research activities in the Arctic. The deliverables outlined here support existing and next generation
+practitioners in Arctic research and research-related policy careers in the U.S. Arctic.
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+ Deliverable                                     Collaborating Agencies Practice
+ EDU 1.1 Evaluate and enhance the OneSTEM Lead Agency Pending;               All priority areas
+ Hub.                                     DHS;
+                                          MMC;
+                                          SI
+ EDU 1.2 Continue to provide access to Arctic    Lead Agency Pending;        All priority areas;
+ STEM and STEM policy internships, skill         DHS;
+ development opportunities, and career           DOI-NPS;
+ pathways, for Arctic communities.               NASA;
+                                                 SI;
+                                                 USDA
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      38
+                            ARCTIC RESEARCH PLAN 2022-2026
+                            IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                    Contributing
+                                                                    Collaboration Teams
+                                                                    and Communities of
+Deliverable                                  Collaborating Agencies Practice
+EDU 1.3 Engage in ongoing and respectful     Lead Agency Pending;   All priority areas;
+dialogue with STEM professional              DHS;                   Data Management
+communities and Arctic youth organizations   NASA;
+about education and training, and            SI
+document feedback received.
+EDU 1.4 Use quarterly meetings of the        Lead Agency Pending;   All priority areas
+Education and Training Collaboration Team    DHS;
+to build a robust community of practice      MMC;
+and to share resources and best practices    NASA;
+that promote Arctic STEM and STEM policy     SI
+careers and skills.
+
+
+
+
+                  INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                            39
+                                                                                          Photo: Allyson Woodard via ARCUS
+
+
+
+                     Monitoring, Observing,
+                     Modeling, & Prediction
+                           (MOMP)
+
+
+MOMP Objective 1: Coordinate activities and communities of practice that
+bring together Arctic modeling, observing, monitoring, and prediction to
+advance Arctic research.
+
+Work under this objective will improve the synthesis of monitoring, observing, and modeling activi-
+ties to advance Arctic science and prediction. Models require observations for initialization, evaluation,
+and assimilation and can in turn provide critical information to inform the design and optimization of
+observing networks. Integrating observational and modeling output enables creation of value-added
+products and can help fill spatial and temporal gaps in analysis. Improved coordination and integration
+of observational and modeling activities will accelerate the advancement of knowledge of the dynamic
+Arctic system and lead to improved predictive capabilities.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      40
+                              ARCTIC RESEARCH PLAN 2022-2026
+                              IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+Deliverable                                     Collaborating Agencies Practice
+MOMP 1.1 Support development of synthe-         Lead Agency Pending;   Arctic Systems
+sis products, best-estimate datasets, and       DHS-USCG;              Interactions;
+model intercomparison studies using cases       DOC-NOAA;              Observations;
+from major Arctic field campaigns and long-     DOI-BSEE               Modelers;
+term observational sites to better enable the   DOI-USGS;              Permafrost;
+use of observational data in model evalua-      NASA;                  Sea Ice;
+tion.                                           NSF;                   Terrestrial Ecosystems
+                                                USDA
+MOMP 1.2 Support development of                 Lead Agency Pending;   All priority areas;
+metrics that measure key Arctic processes       DOC-NOAA;              Modelers;
+and implementation of these metrics in          DOI-BLM;               Observations
+benchmarking packages to facilitate model       USDA
+validation against observations.
+MOMP 1.3 Provide support and/or funding         NASA (lead);           Arctic Systems
+opportunities for researchers to integrate      DOC-NOAA;              Interactions;
+Arctic observational and modeling data          DOD-ONR;               Modelers;
+through data assimilation and reanalysis.       NSF                    Tribal Consultation and
+                                                                       Effective Processes
+MOMP 1.4 Support ongoing work, such as          NASA (lead);           Arctic Systems
+observing system experiments, to quantify       DOC-NOAA;              Interactions;
+the current and potential value of Arctic       DOD-ONR;               Modelers;
+ocean, atmosphere, sea ice, and land            NSF                    Observations
+observations for initialized predictions
+spanning daily to decadal timescales
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                  41
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+MOMP Objective 2: Support assessment, gaps analysis, and intercomparisons
+to understand observational and modeling needs in Arctic research.
+
+Work under this objective will identify observational and modeling capability gaps that hamper predic-
+tive skill of models of the Arctic system, barriers that hold back progress in filling these gaps, and key
+activities most critical to improving predictability, including the need to maintain critical existing MOMP
+capabilities.
+
+
+                                                                        Contributing
+                                                                        Collaboration Teams
+                                                                        and Communities of
+ Deliverable                                     Collaborating Agencies Practice
+ MOMP 2.1 Conduct observational gap anal-        DOC-NOAA (lead);             Arctic Systems
+ ysis case studies using the Benefit Assess-     DHS;                         Interactions;
+ ment methodology to inform understanding        NASA;                        Observations;
+ of the capabilities, opportunities, and gaps    NSF                          Risk Management and
+ in Arctic observing and data systems, with                                   Hazard Mitigation
+ an initial focus on risk management and
+ hazard mitigation.
+ MOMP 2.2 Provide support and/or                 Lead Agency Pending;         Arctic Systems
+ funding opportunities for researchers to        DOC-NOAA;                    Interactions;
+ participate in existing Arctic-focused model    NASA;                        Modelers;
+ intercomparison projects and explore            NSF                          Sea Ice
+ the feasibility of developing new model
+ intercomparison projects focused on the
+ Arctic system, its components, and/or its
+ coupling with the broader climate system
+ to understand gaps in modeling and
+ predictability of the Arctic system.
+ MOMP 2.3 Conduct workshops to identify          Lead Agency Pending;         All priority areas;
+ needs and priorities for improving models of    DOC-NOAA;                    Modelers
+ the Arctic system. For example, workshops       DOD-ONR;
+ could focus on improving a single model         NASA;
+ component (such as sea ice) or on improving     NSF
+ coupling across model components.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                       42
+                             ARCTIC RESEARCH PLAN 2022-2026
+                             IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                     Contributing
+                                                                     Collaboration Teams
+                                                                     and Communities of
+Deliverable                                   Collaborating Agencies Practice
+MOMP 2.4 The US AON Board will                NSF (lead);           All priority areas;
+build on the 2022 Report to Congress          DOC-NOAA;             US AON Board
+by recommending clear parameters              DOD-ONR
+for agencies to identify existing AON         DOI-BOEM;
+investments for inclusion in future budget    DOI-NPS;
+cross-cut efforts; advancing technological    NASA;
+capacity building by inviting more            SI
+participation from groups focused on data
+management and technology in US AON
+Board discussions; and evaluating agency
+policies and programs, interagency efforts,
+and community protocols.
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                            43
+                                  ARCTIC RESEARCH PLAN 2022-2026
+                                  IMPLEMENTATION PLAN 2025-2026
+
+
+MOMP Objective 3: Support coordination and engagement with federal, state,
+international, and non-federal partners who are conducting monitoring,
+observing, modeling, and prediction in the Arctic.
+
+Significant activities in monitoring, observing, modeling, and prediction of the Arctic system are con-
+ducted by both federal and non-federal entities. Additionally, the Arctic is an important component of
+the broader Earth system, and Arctic monitoring, observing, modeling, and prediction activities should
+be coordinated with other federal interagency activities focused on observation and modeling of the
+Earth system. Work under this objective will strengthen monitoring, observing, modeling, and predic-
+tion capabilities for Arctic research by improving coordination and integration of Arctic observational
+and modeling activities conducted or supported by federal agencies with those conducted or enabled
+by non-federal partners and with broader federal Earth system activities.
+
+
+                                                                           Contributing
+                                                                           Collaboration Teams
+                                                                           and Communities of
+    Deliverable                                     Collaborating Agencies Practice
+    MOMP 3.1 Support participation of U.S.          Lead Agency Pending            Arctic Systems
+    researchers in international Arctic modeling    DOC-NOAA;                      Interactions;
+    and prediction efforts in order to improve      DOD-ONR;                       Data Management;
+    the predictive capabilities of Arctic models.   NASA;                          Modelers
+    Products of this deliverable may include rel-   NSF
+    evant scientific papers, presentations, and
+    meeting sessions.
+    MOMP 3.2 Coordinate among state and             DOC-NOAA (lead);               Arctic Systems
+    federal agencies that support fieldwork and     DHS-USCG;                      Interactions;
+    share information among researchers and         DOD-ONR;                       Community Resilience
+    Alaska communities through the research         DOI-BOEM;                      and Health;
+    expedition vessel and mooring matrices and      DOI-BSEE;                      Field Operations;
+    spring and fall public meetings focused on      DOI-FWS;                       Marine Ecosystems;
+    research season activities.                     NASA;                          Sea Ice;
+                                                    NSF                            Sustainable Economies
+                                                                                   and Livelihoods;
+                                                                                   Terrestrial Ecosystems;
+                                                                                   Tribal Consultation and
+                                                                                   Effective Processes
+    MOMP 3.3 Coordinate U.S. federal Arctic         Lead Agency Pending            Arctic Systems
+    observing and modeling research efforts         DHS;                           Interactions;
+    with other relevant U.S. interagency groups     DOC-NOAA;                      Modelers;
+    to identify priority activities to support      DOD-ONR;                       Observations;
+    the Arctic component of the Earth System        NASA;                          Risk Management and
+    Predictability Research and Development         NSF                            Hazard Mitigation;
+    Strategic Framework and Roadmap7.                                              Tribal Consultation and
+                                                                                   Effective Processes
+
+7
+ Earth System Predictability Research and Development Strategic Framework and Roadmap. Oct 2020.
+https://www.icams-portal.gov/organization/researchandinnovation/esp_randd_strategic_framework_roadmap.pdf
+
+
+
+
+                       INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                          44
+                            ARCTIC RESEARCH PLAN 2022-2026
+                            IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                  Contributing
+                                                                  Collaboration Teams
+                                                                  and Communities of
+Deliverable                                Collaborating Agencies Practice
+MOMP 3.4 Support participation of U.S.        DOC-NOAA (lead)    Data Management;
+researchers in international Arctic observing                    Early Career;
+and observational planning efforts to                            Observations;
+evaluate and improve the Arctic Observing                        Technology Innovation
+Network. Progress will be tracked in                             and Application
+relevant scientific papers, presentations,
+international arrangements, and/or meeting
+sessions.
+
+
+
+
+                  INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                           45
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+MOMP Objective 4: Support best practices in field observations and modeling.
+
+The purpose of this objective is to identify, share, and implement best practices around Arctic observing
+and modeling activities and to make Arctic observational and modeling data more accessible.
+
+
+                                                                       Contributing
+                                                                       Collaboration Teams
+                                                                       and Communities of
+ Deliverable                                    Collaborating Agencies Practice
+ MOMP 4.1 Build on existing efforts within      NSF (lead);                 Early Career;
+ federal agencies to share resources and        DHS-USCG;                   Field Operations;
+ implement best practices for improving field   DOC-NOAA;                   Observations;
+ safety culture, and enforcing safe working     NASA                        Tribal Consultation and
+ environments in the field, including both                                  Effective Processes
+ physical safety while working in harsh and
+ remote Arctic environments and emotional
+ safety from harassment and hostile working
+ conditions.
+ MOMP 4.2 In coordination with the Data         Lead Agency Pending;        Data Management
+ Management Collaboration Team, promote         DOC-NOAA
+ and support FAIR and CARE principles for
+ observational and modeling data.
+ MOMP 4.3 Promote the integration of            DOC-NOAA (lead);            Early Career
+ early career students, researchers, and        NSF
+ professionals working in Arctic-related fields
+ in MOMP activities, meetings, webinars,
+ and workshops to facilitate early career
+ engagement in IARPC activities.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      46
+                                                                                           Photo: Cristina Solis via ARCUS
+
+
+
+   Technology Innovation & Application
+                (TECH)
+
+
+
+TECH Objective 1: Survey federally funded research technology.
+
+Technology is a crosscutting challenge for Arctic researchers, as the Arctic setting requires dedicated
+investments in technology support to make research activities possible. As such, many IARPC collabora-
+tion teams and communities of practice highlight technology innovation and application as part of their
+work. The Technology Innovation and Application Collaboration Team is unique in its practical insight
+and know-how about technology development that transcends jurisdictional, disciplinary, geographic
+and sectoral boundaries.
+
+Technology supports the Arctic Research Plan and implementation plan goals and objectives when
+existing technology is reconfigured and modified for the Arctic setting, or when a research objective
+necessitates research and development into new technology. Surveying technology activities of Arctic
+researchers compiles information about research activities in a novel way that may benefit the IARPC
+enterprise and will help Arctic communities be aware of the benefits of federal technology investments.
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                     47
+                             ARCTIC RESEARCH PLAN 2022-2026
+                             IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                   Contributing
+                                                                   Collaboration Teams
+                                                                   and Communities of
+Deliverable                                 Collaborating Agencies Practice
+TECH 1.1 Strategically engage externally,   DOI-BOEM (lead);      All communities of
+across IARPC, and within the Technology     DHS-CBP-USBP;         practice;
+Innovation and Application Collaboration    DOC-NOAA;             All foundational activities;
+Team.                                       DOD-ONR;              All priority areas
+                                            DOI-BSEE;
+                                            NASA;
+                                            NSF
+TECH 1.2 Use the Technology Innovation      DOI-BOEM (lead);      All communities of
+and Application Collaboration Team to       DOC-NOAA;             practice;
+support and coordinate technology-related   DOI-BSEE;             All foundational activities;
+conversations and activities throughout     NASA;                 All priority areas
+IARPC Collaborations.                       NSF
+
+
+
+
+                   INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                             48
+                                                                                                               Photo: Nicole Herman-Mercer/DOI
+
+
+
+          Tribal Consultation and Effective
+                     Processes
+                      (TCEP)
+
+
+TCEP8 Objective 1: Strengthen and streamline Tribal consultation processes
+related to Arctic research activities by enhancing coordination, transpar-
+ency, and accessibility across IARPC Agencies and those engaged in Arctic
+research.
+
+All federal agencies are required to fulfill federal consultation policies and fulfill Trust obligations with
+Indian Tribes9 , in a way that honors Tribal sovereignty and self-determination. Federal agencies, depart-
+ments, and offices have independently developed Tribal consultation approaches, which has increased
+their number and led to inefficiencies for both agencies and Tribal communities and representatives. To
+address this inefficiency, for this implementation period IARPC will reframe this Foundational Area as
+Tribal Consultation and Effective Partnerships (TCEP). While many government actions requiring con-
+sultation are not related to research, IARPC agencies do engage in both formal Consultation as well as
+partnerships with Indian Tribes and communities.
+
+
+
+
+8 This Foundational Area, previously ‘Participatory Research and Indigenous Leadership in Research’ has been adjusted to
+ focus on the statutory requirements for U.S. government Consultation and fulfillment of Trust obligations with federally
+ recognized Indian Tribes. ‘Indian Tribes’ is a broad term that includes federally recognized Tribes as well as Alaska Native
+ Corporations and other organizations designated by federally recognized Tribes.
+
+9 Relevant legislation includes the Alaska Native Claims Settlement Act (ANCSA, 1971), the Marine Mammal Protection Act
+ (1972); see also authorities listed at https://www.fws.gov/policy-library/e3510fw1.
+
+
+
+
+                         INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                                           49
+                                ARCTIC RESEARCH PLAN 2022-2026
+                                IMPLEMENTATION PLAN 2025-2026
+
+
+
+                                                                         Contributing
+                                                                         Collaboration Teams
+                                                                         and Communities of
+Deliverable                                       Collaborating Agencies Practice
+TCEP 1.1 Identify and engage with agencies        Lead Agency Pending   All communities of
+that have the largest volume of activities at     DOC-NOAA              practice;
+the intersection of Arctic research and Trust                           All foundational activities;
+obligations. Characterize the type of activi-                           All priority areas
+ties that fall into this category, and identify
+opportunities for coordination and efficien-
+cy as well as good practices and lessons
+learned.
+TCEP 1.2 Develop a Report of IARPC                Lead Agency Pending   All communities of
+agencies’ Consultation and engagement             DOC-NOAA;             practice;
+practices to fulfill Trust obligations as         MMC;                  All foundational activities;
+they relate to Arctic research. This will         USARC                 All priority areas
+include compiling a report on consultation
+practices (e.g., Federal Tribal Consultation,
+Section106, NAGPRA, NSF Tribal Nation
+Approval) across IARPC Agencies using
+consistent metrics, highlighting key
+processes, transparency measures, and
+community engagement and reporting
+expectations. The report will include
+agency-specific consultation practices, links,
+and a clear outline of how community input
+is collected and used.
+TCEP 1.3 Enhance IARPC’s Tribal                   Lead Agency Pending   All communities of
+Engagement Resources. This will include           DOC-NOAA;             practice;
+designing a strategy for leveraging the           MMC;                  All foundational activities;
+IARPC website as a centralized hub for            USARC                 All priority areas
+Tribal consultation opportunities, reporting
+mechanisms, and accessible guidance
+for Tribal Nations. It will also include
+developing resources for Arctic researchers,
+including best practices and engagement
+guidelines that support long-term
+partnerships with Tribal Nations and local
+communities.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                 50
+                                                                                              Photo: Lisa Hupp/USFWS
+
+
+
+
+                                    Appendix 1:
+                                    Stewardship
+
+
+This implementation plan is stewarded by the IARPC Principals, Staff Group, collaboration teams, and
+participating agencies and partners, with support from the IARPC Secretariat as funding and resources
+allow.
+Collaboration: Priority area and foundational activity collaboration teams collaborate on and advance
+
+
+
+
+                     Figure 1: Implementation Plan Stewardship Structure
+
+
+
+
+                    INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                   51
+                               ARCTIC RESEARCH PLAN 2022-2026
+                               IMPLEMENTATION PLAN 2025-2026
+
+
+objectives and deliverables. In addition to these teams, the communities of practice contribute expertise
+and knowledge necessary to meet the objectives and deliverables of this implementation plan.
+
+Integration: The Implementation Plan Integration Group will:
+
+•   Receive updates from collaboration teams on progress toward meeting implementation plan
+    objectives and deliverables. Input from communities of practice will be received via the collaboration
+    teams.Integrate across collaboration teams to facilitate progress toward objectives and deliverables.
+
+•   Address challenges and opportunities brought forward by collaboration teams and communities of
+    practice.
+
+•   Evaluate, encourage, identify gaps and emerging research topics, and consider adjustments to
+    implementation as necessary.
+
+•   Prepare reports on activities under the implementation plan and assist as requested with other
+    IARPC reports, such as the report to Congress.
+
+•   Evaluate, and make recommendations regarding the development of, subsequent implementation
+    plans.
+
+•   Provide implementation updates to the IARPC Staff Group as necessary.
+
+Direction: The IARPC Principals and Staff Group provide direction on this implementation plan. The
+Principals provide policy direction, suggest adjustments for future implementation plans, and, when
+needed, approve official IARPC reports. The Staff Group facilitates agency engagement in designing
+and implementing objectives, addresses issues brought forth by the Implementation Plan Integration
+Group, approves updates to new objectives and deliverables, and reviews and clears drafts of official
+IARPC reports when needed.
+
+
+
+
+                     INTERAGENCY ARCTIC RESEARCH POLICY COMMITTEE                                      52
+This page is intentionally left blank.
+This page is intentionally left blank.
+

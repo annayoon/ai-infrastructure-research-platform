@@ -1,0 +1,90 @@
+     Promotion of Watt-Bit Collaboration Project to achieve Green Transformation
+
+     ~World’s first watt-bit collaboration optimization model experiment to being
+                         at The University of Tokyo campus ~
+
+                                                                        October 8, 2025
+                                                                 The University of Tokyo
+                                                                TEPCO Power Grid, Inc.
+
+
+ The University of Tokyo (President: Teruo Fujii) and TEPCO Power Grid, Inc. (Head
+Office: Chiyoda-ku, Tokyo; President & Chief Executive Officer: Yoshinori Kaneko;
+hereinafter referred to as, “TEPCO PG”) are teaming up to trailblaze a watt-bit
+optimization model that leverages the attributes of information and communication
+technology (“bit”) to optimize power (“watt”) demand in order to promote green
+transformation at The University of Tokyo and build new sustainable society models.
+
+
+
+ The University of Tokyo has promoted the use of renewable energies and the
+spatial/temporal understanding of power consumption until then. In addition to these
+initiatives, we will promote the integrated visualization of overall power consumption on
+campus and the institution’s carbon footprint*1, and leveraging energy data from power
+grids, etc. to optimize power consumption across campus facilities/equipment through
+workload shifting*2, for example, as it examines how to further leverage renewable
+energies. Considering the power consumption issues it faces and the HPC*3 cloud
+infrastructure and various experimental facilities it has on campus, The University of
+Tokyo is the ideal location for a watt-bit collaboration experiment.
+
+
+
+  With the drastic increase in power consumption stemming from data centers, etc., and
+the increased use of distributed power sources, such as renewable energies, TEPCO PG
+must take grid management into the next generation and must find new ways to address
+these issues with the participation of its customers rather than merely building more
+facilities, as has been done conventionally. Through this initiative we will examine how
+to shift workloads over wide areas and between regions to handle inter-university
+computing processes and leverage digital twins on campus for cross-sectional
+visualization as we aim to develop next-generation transmission and distribution services
+that are linked to privately owned facilities, including distributed power sources (watt)
+and computing facilities (bit).
+
+
+
+   We hope that this collaboration between industry and academia will help to develop
+inter-regional university collaboration through watt-bit and we will continue to fulfill our
+mission of providing stable supply of power by achieving a watt-bit optimization model.
+
+
+
+*1: Carbon footprint
+
+Refers to the conversion into CO2 of the amount of greenhouse causing gasses emitted over the lifetime of an appliance
+
+or service from the procurement of raw materials to manufacturing, transportation, use, and disposal.
+
+
+
+*2: Workload Shifting
+
+Method for optimizing the management/control of computer processing (jobs and services) by actively moving them
+
+between data centers, clouds, and edges, and to different time frames, in accordance with conditions such as delays,
+
+cost, electric power (renewable energies) and failure risk, etc..
+
+
+
+*3: High Performance Computing
+
+Technologies and systems for the ultra-high-speed processing/computing of large volumes of complicated data by using
+
+computers connected to a network of multiple servers.
+
+
+
+[Reference information]
+
+The University of Tokyo Center for Strategic Promotion of GX official website (Japanese only)
+
+https://gx.u-tokyo.ac.jp/
+
+<Attachment>
+
+Watt-Bit Collaboration Project for Green Transformation
+
+
+
+                                                                                       End of announcement
+

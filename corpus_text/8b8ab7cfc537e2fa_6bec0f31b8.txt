@@ -1,0 +1,635 @@
+                   ワット・ビット連携
+              ～今後のデジタルインフラ ～
+
+                                                   2025/11/13 出版
+
+             Hiroshi Esaki, Ph.D.,
+       Professor, The University of Tokyo
+           Founder, MICHIBIKI Corp.
+Vice President, Japan Data Center Council (JDCC)
+     Director, Green Univ. of Tokyo (GUTP)
+                                                              1
+                                    特別編 半導体最前線 2024
+                                                               ①NVIDEAの次は?
+                                                               ②円安で日本は大チャンス
+                                                      ④人類は火星に行き
+                                                               ③ 車は実は5％しか仕事をしていない
+                                                               ましょ
+                                                                 う
+
+
+
+
+https://corporate.quick.co.jp/fut
+ure-forecast/
+                                                               ④人類は火星に行きましょう
+
+
+
+
+                          特別編 AI最新情報セミナー 2025
+                                                  ①チャットAIの次は フィジカルAIの時代
+                                                  ②AIはなぜ嘘をつくのか
+                                                  ③次はワットビット連携＋シャルの時代
+                                                  ④人が減る時代： AIに何を任せる !?
+                                                  ⑤DeepSeekは何がスゴいのか？
+                                                  ⑥10年後に価値が跳ね上がる意外な資産とは
+エネルギー安全保障とデジタル経済安全保障の両立へ                           3
+デジタル経済の持続的発展には、データセンター(DC)は重要であるが大量のエネルギー
+消費が必要。DCの“主要“エネルギー源を、化石燃料ではなく、非化石(脱炭素)エネル
+ギー源にするという方向性は、 日本の国家{経済}安全保障にとっても極めて重要であると
+考える。
+１．データセンターの電源を脱炭素化      脱炭素エネルギー源へ展開
+
+                       Work-Load Shift(負荷移動)の導入
+２．再生可能エネルギーの変動対策
+                       電力供給ルート＆構成&負担の見直し
+
+３．電力インフラへの民間投資の促進     DC事業者が、電力会社の設備に出資/投資
+
+                       電力xデジタルの連携による新事業の創生
+４．新たなビジネスモデルの創生
+                       e.g., e-Japan 2.0 by Yahoo BB!
+
+5．グローバル・国際インフラの整備      物理的地政学 から デジタル的地政学へ
+  デジタルインフラが主役の社会・経済へ！！
+
+
+{Computing}デジタルインフラに対して、再生可能エ
+ネルギーを含む 非化石燃料ベースのエネルギーを主
+力電源化することは、エネルギー安全保障と経済安全
+保障に資する最重要の政策となる。
+
+
+ データセンターとインターネットは最重要インフラ
+                                4
+             経済の主力基盤が、
+                    物流                 情流
+  物流                 ＋
+                    エネルギー(電)流
+
+
+      物理的 地政学                    情報
+                                デジタル
+                     交通/物流
+                    エネルギー/電力
+
+            水
+                                デジタル的
+【土地の拡張】
+物流、上下水、防衛                        地政学
+～Sharing Economy～
+                   資料２－１
+
+
+
+
+ワット・ビット連携官民懇談会
+  取りまとめ1.0（案）
+
+
+   令和７年（2025年）6月
+   総    務      省
+   経  済 産   業  省
+① デジタルインフラ有識者会合
+② GX2040ビジョン
+
+③ デジタル行政改革会議
+
+④ ワット ビット連携官民懇談会
+         地方創生2.0の実現。令和の日本列島改造に向け、AI・データセンター
+         等を繋ぐ情報通信ネットワークを、GX・DXを支える「新時代のインフラ」
+         として 整備。 村上大臣(総務省)、武藤大臣(経産省)は速やかに官民一
+         体で議論する協議体を立ち上げ、データセンターの整備が加速、電力
+         インフラと通信インフラの整備を統合し、今後の取り組みの方向性を今
+         年の6月をめどに具体化してください。
+        経済産業省
+   第７次 エネルギー基本計画 ヘ
+データセンター(DC)と半導体産業は、大きな電力需要を要
+求・消費し、地球温暖化ガスを増加させることになるが、
+日本にとって、戦略的な重要産業であり、その発展・拡大
+に向けた施策を実施しなければならない。
+
+DXは、エネルギー効率(Energy Productivity)を、全産
+業・工場・施設等において大幅に改善する(e.g., EP-100)
+ことで、結果的に社会全体の脱炭素化に貢献することにな
+る。 これが、GX(Green Innovation)への処方箋となる。
+                                       8
+          経済産業省
+        More from Less,
+   第７次i.e.,
+        エネルギー基本計画
+            EP(Energy Productivity) ヘ
+       by Bit(Digital) over Watt
+データセンター(DC)と半導体産業は、大きな電力需要を要
+求・消費し、地球温暖化ガスを増加させることになるが、
+           AS IS   & TO BE
+日本にとって、戦略的な重要産業であり、その発展・拡大
+に向けた施策を実施しなければならない。
+
+DXは、エネルギー効率(Energy Productivity)を、全産
+業・工場・施設等において大幅に改善する(e.g., EP-100)
+ことで、結果的に社会全体の脱炭素化に貢献することにな
+る。 これが、GX(Green Innovation)への処方箋となる。
+                                        9
+    Watt-Bit Collaboration for Digital Infrastructure
+➢   Report 1.0 of the Public-Private Advisory Council on Watt-Bit Collaboration
+
+     •   METI and MIC jointly held meetings of the Expert Group on the Development of Digital Infrastructures
+         (DCs, etc.) and demonstrated the need for urgent discussions on measures for developing digital
+         infrastructure in a series of reports (such as the Interim Report 3.0 released in October 2024).
+     •   Given the large amount of electricity that DCs need, their swift development requires power,
+         telecommunications, and data center operators to work together for effective
+         infrastructure collaboration between electricity and telecommunications entities (watt-bit collaboration) in
+         efforts to efficiently develop the electricity and telecommunications infrastructure, as shown in GX2040
+         Vision - Strategy for Promoting Structural Transition based on Decarbonization: Revised Version
+         (Cabinet Decision in February 2025).
+
+
+
+
+                                                                                                                  10
+      ワット・ビット連携官民懇談会取りまとめ1.0 概要（１／２）（案）
+                                                                   １
+         https://www.meti.go.jp/english/press/2025/0612_001.html
+
+
+⚫ 「地方創生2.0」の実現に向け、AIをはじめとしたデジタル技術の発展や社会実装によるDXの推
+  進に当たっては、電力と通信の効果的連携（ワット・ビット連携）により、電力・通信・データセン
+  ター（DC）事業者が一体となり、迅速かつ効率的な対応を進めていく必要がある。
+
+
+⚫ 従来、関連インフラの整備は個々の事業者の立場で進められてきたが、急速なDC需要拡大に
+  適切に対応するためには、分野横断での官民連携を進め、GXやレジリエンス等も考慮に入れ、
+  技術開発・データ連携・国際展開も念頭に大局的観点から取組を進めることが重要。
+
+
+⚫ 本官民懇談会では、DCの立地の在り方について、主に電力インフラと通信インフラの効率的な
+  活用・整備の側面から、インフラ整備や技術開発の進展等の時間軸を踏まえつつ、官民で議論
+  し、ワット・ビット連携の実現に向けた進め方を整理した。
+
+
+⚫ 今後も必要に応じて本官民懇談会を開催。技術的詳細について検討し、研究開発も見据えた関
+  係者の取組等をフォローアップする。
+• Step 1; 短期： GWクラスのDCパーク(数か所の連結も可能)
+• Step 2; 中長期； 東京・大阪以外の戦略地域
+     ✓ 再生可能エネルギー(含 脱炭素)による エネルギー
+        安全保障と経済安全保障
+• Step 3; 分散型DC, e.g., edge DC or AI-RAN
+
+
+
+
+                                     12
+【重要な考慮・配慮の条件】
+ 1. グローバル・国際インフラ
+ 2. APN(All Photonic Network) と DR(Demand Response) +WLS(Work Load Shift)
+       (*) Opticalの箱の Dis-Agregation with RODAM
+
+  3.    地域社会連携, e.g., スマートシティ, 災害対策
+  4.    新産業セグメントの創生, e.g., computing power market
+
+
+
+
+                                                                            13
+                                                                       14
+ワット・ビット連携の実現に向けた進め方のイメージ                           電力     DC      通信
+
+
+                          2030年頃        2030年代前半          2030年代後半
+
+             ウェルカムゾーンマップの活用
+  足元の                                                      その他の考慮事項
+                電力系統接続の規律確保・                               • 地域共生
+ DC需要       運用ルール見直しによる既存設備の最大限活用                          • 国際的視点
+ への対応
+          APNを活用したDC運用の
+            ユースケース拡充
+
+                    DC効率化の研究開発
+
+          新たなDC集積                   新たなDC集積地への立地
+            地選定
+新たなDC集積                通信インフラの先行的整備
+
+拠点の実現                                国際海底ケーブル・IXの整備
+
+                                  電力インフラの先行的・計画的整備
+
+                      APNの全国的整備
+
+             AI推論・負荷分散等を見据えたDCの地方分散                   将来のGPU低価格
+DC地方分散        高度なワークロードシフトの技術開発等                       化の可能性
+
+ ･高度化の
+   推進                                                          系統負荷軽減に資する
+                                                                分散DCの運用実現
+                                    蓄電池等との一体運用
+
+                    高度なワークロードシフトの技術開発
+    攻めるためにも守るためにも、
+
+     人工知能(AI)xデータが前提に!!
+～ LLM/LMM(➔SLM/SMM)によるxxが急加速中 ～
+
+   デジタルインフラ(w/ AI)の整備が
+       最重要課題に！
+Copilotに聞いてみました。NIST CSFって？
+NIST CSFは、以下の5つの基本機能(Core Functions)で構成されます
+1. Identify（識別）
+   ✓ 資産、リスク、脅威、脆弱性などを把握し、セキュリティ管理の基盤を構築。
+2. Protect（防御）
+   ✓ セキュリティ対策を実施し、脅威から資産を守る。
+3. Detect（検知）
+   ✓ セキュリティイベントや異常をリアルタイムで検知。
+4. Respond（対応）
+   ✓ インシデント発生時の対応手順を整備し、被害を最小限に抑える。
+5. Recover（復旧）
+   ✓ インシデント後の復旧活動を行い、業務を正常化。
+Copilotに聞いてみました。NIST CSFって？
+NIST CSFは、以下の5つの基本機能(Core Functions)で構成されます
+1. Identify（識別） ・・{Evidenced} Risk Based Management
+   ✓ 資産、リスク、脅威、脆弱性などを把握し、セキュリティ管理の基盤を構築。
+2. Protect（防御） ・・Pro”Active” Defense Plan with AI for Resiliency
+   ✓ セキュリティ対策を実施し、脅威から資産を守る。
+3. Detect（検知）  ・・ from Algorithm to/plus Data(=AI)
+   ✓ セキュリティイベントや異常をリアルタイムで検知。
+4. Respond（対応）
+               ・・De-Siloing many tool”s” by LLM/LMM AI
+   ✓ インシデント発生時の対応手順を整備し、被害を最小限に抑える。
+5. Recover（復旧）
+               ・・”Resilience”,
+   ✓ インシデント後の復旧活動を行い、業務を正常化。
+                    ① Recovery actions without existing plan
+                    ② Data protection is the 1st priority
+     ４段階/レベルのサイバーセキュリティー
+1.    製品・サービス
+     e.g., IoT製品に対するセキュリティー適合性評価制度
+
+2.    システム(not only オフィス, but also 工場)
+     e.g.,工場システムにおけるサイバー・フィジカル・セキュリ
+     ティ対策ガイドライン
+3.    会社・組織
+     e.g., サプライチェーンサイバーセキュリティ成熟度モデル
+
+4.    SCN(サプライチェーン・ネットワーク)
+     e.g., SBOM, ウラノスシステムによるデータのトラスト
+                                         18
+重要で明白な 江崎 の観察
+
+
+
+                19
+  重要で明白な私の観察(1/3)
+データセンターの巨大化・爆縮は継続するのか?
+
+① {汎用} Public AI の巨大化・爆縮は継続。
+② DCサービスの多様化。
+
+③ Private AI (含 オンプレ)の登場
+④ Edge AI (Physical AI, Agent AI)の登場
+                                       20
+From
+ Centralized Lock-on {Public} Cloud
+
+To
+ Distributed Edge ｛Private｝Cloud
+ with Physical/Embodied AI, Agentic AI,
+ Federated & Transfer Learning
+                                      21
+                                      Beyond
+                                    Industry 4.0
+
+
+
+
+                                                    Industry 4.0
+
+New Requirements
+1. Latency {by M2M/P2P}
+                                             Beyond
+2. Privacy & Security
+3. Resiliency{against disconnect}          Industry 4.0
+ これって、、、Webサービスで経験しましたし、CDN(Contents Delivery Network)
+From
+ でも経験しましかね。最初のWebは、完全なP2Pでした。。。 Webサービスが、
+ メッシュ形式の階層的CS＋P2Pに変化させた。
+ Centralized Lock-on {Public} Cloud
+        P2P ➔ 集中型CS ➔ 階層的CS + P2P
+
+       同じこと(Hybrid Cloud/AI) が クラウド(+AI)でも起こってきています。
+To
+【データセンター ビジネス】
+ Distributed Edge ｛Private｝Cloud
+  ① 専用利用 (自営・ハウジング)
+  ② クラウド化
+  with Physical/Embodied AI, Agentic AI,
+     ②-1 IaaS
+     ②-2 SaaS
+  Federated & Transfer Learning
+     ②-3 CaaS, Computing as a Service, (for Supply Chain, HPC&AI)
+                                                                    23
+Compute Standards Council (CSC)
+Prepared for SoftBank
+Council Organization and Members
+
+
+
+
+                        © 2025 compute.exchange | Confidential and
+                                                  Proprietary | 25
+  重要で明白な私の観察(2/3)
+• データセンターへの 投資規模が、2桁程度 大き
+  くなった ！！！
+
+• 大きなお金を持った 新しい投資プレイヤー(e.g.,
+  ファンド、不動産)が DCの産業に参入
+
+• インフラの構成要素のコスト感覚が 劇的に変化
+  しているようです。
+                               26
+                                          Asia
+
+
+                            not only 国内
+                            but also 地球
+
+
+
+
+総務省 「デジタル田園都市国家インフラ整備計画(改訂版)」 (2023年４月)
+相対的に、海底ケーブルは
+  安い 買い物(投資)
+  になってしまった?                                 Asia
+
+
+                              not only 国内
+                              but also 地球
+
+
+
+
+  総務省 「デジタル田園都市国家インフラ整備計画(改訂版)」 (2023年４月)
+～When we Think about the Earth～
+① Speed of light is not fast….
+  Moon              1,000 msec.
+  Inter-Continent: 200-300 msec.
+  Domestic:         30- 50 msec.
+  LOE satellite     3- 30 msec.
+ Intra-facility:    2- 3 msec.
+② Mal-distribution of Renewal Energy
+～When we Think about the Earth～
+① Speed of light is not fast….
+  Moon                1,000 msec.
+         3 {or 4} layered
+  Inter-Continent:   200-300  msec.
+                          global
+  Domestic: Reconfigurable
+                      30- 50 msec.
+         “Computing” Networks
+  LOE satellite        3- 30 msec.
+ Intra-facility:    2- 3 msec.
+② Mal-distribution of Renewal Energy
+Electrical Power shortage in spring and winter in Japan
+       •    ２０２２年再エネ出力制御は四国・中国・東北・北海道電力管内に拡大
+
+
+
+      Jan. to July in 2022２ 各地の出力制御回数
+
+      北海道
+
+       東北
+
+       中国
+
+       四国
+
+       九州
+                                               Large RE Area
+            0    10   20    30   40     50
+
+
+
+
+   Large RE Area
+
+
+
+   【資料】 ビットメディア 代表取締役社長 高野 雅晴 氏
+     第４回イベント (2022年9月28日)
+    「データセンターの地域エネルギー貢献」                                        31
+Electrical Power shortage in spring and winter in Japan
+       •    ２０２２年再エネ出力制御は四国・中国・東北・北海道電力管内に拡大
+
+
+
+      Jan. to July in 2022２ 各地の出力制御回数
+
+      北海道
+
+       東北
+
+       中国
+
+       四国
+
+       九州
+                                                  Large RE Area
+            0    10   20    30   40     50
+
+
+
+
+   Large RE Area
+
+                                             Large Demand Area
+   【資料】 ビットメディア 代表取締役社長 高野 雅晴 氏
+     第４回イベント (2022年9月28日)
+    「データセンターの地域エネルギー貢献」                                           32
+         Data Center in rural area can help !!!
+                                                                    DC RE Micro-Grid
+                                     Surplus
+                                       RE             DC@rural        Computation
+
+                             We need very expensive         We transfer          We transfer
+                              power transmission           computational       valuable results
+                                 infrastructure              demands
+
+
+
+                      Demands:       Electric         Computation
+
+
+
+
+                                    Surplus           DC@rural         Computation
+                                      RE
+                                                      DC RE Micro-Grid
+
+【資料】 ビットメディア 代表取締役社長 高野 雅晴 氏
+ 第４回イベント (2022年9月28日)
+ 「データセンターの地域エネルギー貢献」                                                                              33
+We need “Global”
+collaboration and
+   cooperation
+       Impacts on optical fiber
+• G.654 Subsea cable goes to Land cable ?
+  – ROADM: Wet ➔ Dry ?
+• 多芯ファイバー : 2, 4
+  – ファイバー通路の面積を 1/2, 1/4 に
+• 空孔コア(Hollow core)ファイバー
+  – リージョン物理距離の長距離化
+                                            36
+   重要で明白な私の観察(3/3)
+• NVIDIAの独占は続くのか?
+
+• 強い理由は、半導体ではなく、ユーザへ提供す
+  るソフトウェア環境(Intel に似ている?)
+
+• 中国との関係がとても重要。 半導体(HW) と ソ
+  フトウェア(e.g., DeepSeek)
+• Amazon Web Service、SoftBank-Gの半導体
+                                      37
+                                    特別編 半導体最前線 2024
+                                                               ①NVIDEAの次は?
+                                                               ②円安で日本は大チャンス
+                                                      ④人類は火星に行き
+                                                               ③ 車は実は5％しか仕事をしていない
+                                                               ましょ
+                                                                 う
+
+
+
+
+https://corporate.quick.co.jp/fut
+ure-forecast/
+                                                               ④人類は火星に行きましょう
+
+
+
+
+                          特別編 AI最新情報セミナー 2025
+                                                  ①チャットAIの次は フィジカルAIの時代
+                                                  ②AIはなぜ嘘をつくのか
+                                                  ③次はワットビット連携＋シャルの時代
+                                                  ④人が減る時代： AIに何を任せる !?
+                                                  ⑤DeepSeekは何がスゴいのか？
+                                                  ⑥10年後に価値が跳ね上がる意外な資産とは
+         What happened
+in Data Center Infrastructure
+
+
+
+
+                                39
+What happened in Data Center Infrastructure
+0. Global system with the Internet {from private facilities}
+1. IoF, Internet of Function(=VM) ➔ VM/GPU may physically move on the ground
+2. Implosion(＝high density of heat & power)
+    a. Optical technologies(electron ➔ photon/quantum), e.g., IOWN by NTT
+    b. New computing components and platform, e.g., Data Flow Machine
+    c. DLC, Direct-to-Chip Liquid Cooling, (Air ➔ Liquid)
+    d. AC ➔ DC power supply, ± 400V（＝800V） by OCP
+3. WhiteBox (customization with common technologies)
+    ✓ Design in CA@USA, manufacture & assemble in Taiwan/China, and ship to globe
+    ✓ Open system (not only IT, but also OT)
+    ✓ Including modulization and pre-fabric  ①Labor shortage、②Digital Twin
+4. Massive scale & energy saving with DC-LLM and by SW/HW robots
+5. Renewal (&Non-fossil fuel)energy source, e.g., 西算東数@cn
+6. Embodied carbon (scope 3 supply chain)
+7. Networking DCs with very fat & dry (power and commutation) pipes
+8. Hybrid and diverse of DC profiles (e.g., Return of Private Cloud)
+9. Growth of new demands (IT ➔ AI ➔ HPC/Digital Twin with Onsite HW/SW robots)
+10. Splinternet & Sovereign, and NTN(Non-Terristiral Network)/Space
+What happened in Data Center Infrastructure
+0. Global system with the Internet {from private facilities}
+1. IoF, Internet of Function(=VM) ➔ VM/GPU may physically move on the ground
+2. Implosion(＝high density of heat & power)
+    a. Optical technologies(electron ➔ photon/quantum), e.g., IOWN by NTT
+    b. New computing components and platform, e.g., Data Flow Machine
+    c. DLC, Direct-to-Chip Liquid Cooling, (Air ➔ Liquid)
+    d. AC ➔ DC power supply, ± 400V（＝800V） by OCP
+3. WhiteBox (customization with common technologies)
+    ✓ Design in CA@USA, manufacture & assemble in Taiwan/China, and ship to globe
+    ✓ Open system (not only IT, but also OT)① DLC for Server
+                                            ② DC
+    ✓ Including modulization and pre-fabric  ①Labor(直流)
+                                                     shortage、②Digital Twin
+                                                     for Servers & Facilities
+4. Massive scale & energy saving with DC-LLM and by SW/HW robots
+5. Renewal (&Non-fossil fuel)energy source, e.g., 西算東数@cn
+                                        冷やす ➔ 熱を移動さす
+6. Embodied carbon (scope 3 supply chain)
+7. Networking DCs with very fat & dry (power and commutation) pipes
+                                        低温稼働 ➔ “高”温稼働
+8. Hybrid and diverse of DC profiles (e.g., Return of Private Cloud)
+9. Growth of new demands (IT ➔ AI ➔ HPC/Digital Twin with Onsite HW/SW robots)
+10. Splinternet & Sovereign, and NTN(Non-Terristiral Network)/Space
+          {some} New directions
+1. Modulization and pre-fabric
+2. DLC, Direct-to-Chip Liquid Cooling, (Air ➔ Liquid)
+3. Optical, e.g., APN(All Photonic Network, e.g., IOWN)
+4. Storage/memory: Semiconductor, Disk, Tape
+5. Computation:
+   i. GPU for AI : Dense matrix ➔ Sparse matrix
+                (image/video bitmap) (semantic data, e.g., LLM)
+  ii.  Quantum as accelerator
+  iii. Computing as a Service (CAS)
+6. From Public AI to Private AI with Agentic AI
+7. Embodied carbon (Scope 3 supply chain)
+さらに、
+
+ワット・ビット ＋ シェル(躯体) 連携
+Watt, Bits and Shell
+modulization & pre-fabric
+
+   ①引き込み電力(特別高圧)線不足
+   ②工事人工不足
+   ③デジタルツイン化(施工)
+   ④Scalability
+   ⑤縮退力・再構成
+                  モジュール型DCのコンセプト
+土地の形状等に応じて様々な組み合わせ方が可能。最低300㎡の土地から設置可能
+
+
+        標準モデル                    (例)平面拡張モデル               (例)2段構成モデル
+
+
+                                       エントランスユニット
+                                      サーバーユニット                         屋外ユニット
+  エントランスユニット        屋外ユニット
+  サーバーユニット
+                                  電気室ユニット
+
+               電気室ユニット
+                                                     電気室ユニット
+
+
+
+
+                                            屋外ユニット               サーバーユニット
+
+
+
+
+                             ©2024 MICHIBIKI Corp.
+   空きがある&安価   時間がかかる & 高価
+
+
+
+  こちらは、            こちらは、
+少数モジュールで、      {新}モジュール追加で
+新技術に”随時“対応     時間軸に順次&柔軟に
+                  “拡張“対応
+                           Thanks
+                                                   2025/11/13 出版
+
+             Hiroshi Esaki, Ph.D.,
+       Professor, The University of Tokyo
+           Founder, MICHIBIKI Corp.
+Vice President, Japan Data Center Council (JDCC)
+     Director, Green Univ. of Tokyo (GUTP)
+                                                             47
+

@@ -1,0 +1,387 @@
+University of Birmingham
+
+
+The “Eastern Data and Western Computing” Initiative in
+China Contributes to Its Net-Zero Target
+Zhang, Ning; Duan, Huabo; Guan, Yuru; Mao, Ruichang; Song, Guanghan; Yang, Jiakuan;
+Shan, Yuli
+DOI:
+10.1016/j.eng.2024.08.010
+License:
+Creative Commons: Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)
+
+
+Document Version
+Publisher's PDF, also known as Version of record
+
+Citation for published version (Harvard):
+Zhang, N, Duan, H, Guan, Y, Mao, R, Song, G, Yang, J & Shan, Y 2025, 'The “Eastern Data and Western
+Computing” Initiative in China Contributes to Its Net-Zero Target', Engineering.
+https://doi.org/10.1016/j.eng.2024.08.010
+
+
+
+
+Link to publication on Research at Birmingham portal
+
+
+
+
+General rights
+Unless a licence is specified above, all rights (including copyright and moral rights) in this document are retained by the authors and/or the
+copyright holders. The express permission of the copyright holder must be obtained for any use of this material other than for purposes
+permitted by law.
+
+•Users may freely distribute the URL that is used to identify this publication.
+•Users may download and/or print one copy of the publication from the University of Birmingham research portal for the purpose of private
+study or non-commercial research.
+•User may use extracts from the document in line with the concept of ‘fair dealing’ under the Copyright, Designs and Patents Act 1988 (?)
+•Users may not further distribute the material nor use it for the purposes of commercial gain.
+
+Where a licence is displayed above, please note the terms and conditions of the licence govern your use of this document.
+
+When citing, please reference the published version.
+Take down policy
+While the University of Birmingham exercises care and attention in making items available there are rare occasions when an item has been
+uploaded in error or has been deemed to be commercially or otherwise sensitive.
+
+If you believe that this is the case for this document, please contact UBIRA@lists.bham.ac.uk providing details and we will remove access to
+the work immediately and investigate.
+
+
+
+
+Download date: 25. May. 2026
+                                                                         Engineering xxx (xxxx) xxx
+
+
+
+                                                              Contents lists available at ScienceDirect
+
+
+                                                                          Engineering
+                                                 journal homepage: www.elsevier.com/locate/eng
+
+
+Research
+Environmental Engineering—Perspective
+
+The ‘‘Eastern Data and Western Computing” Initiative in China
+Contributes to Its Net-Zero Target
+                                            ⁎                                                                                                                             ⁎
+Ning Zhang a, Huabo Duan , Yuru Guan c, Ruichang Mao d, Guanghan Song e, Jiakuan Yang b, Yuli Shan f,
+a
+  Leibniz Institute of Ecological Urban and Regional Development, Dresden 01217, Germany
+b
+  School of Environmental Science & Engineering, Huazhong University of Science and Technology, Wuhan 430074, China
+c
+  Integrated Research on Energy, Environment and Society, Energy and Sustainability Research Institute Groningen, University of Groningen, Groningen 9747 AG, the Netherlands
+d
+  DTU Sustain, Department of Environmental and Resource Engineering, Technical University of Denmark, Kgs Lyngby 2800, Denmark
+e
+  College of Civil Engineering, Tongji University, Shanghai 200092, China
+f
+  School of Geography, Earth and Environmental Sciences, University of Birmingham, Birmingham B15 2TT, UK
+
+
+
+
+a r t i c l e         i n f o                          a b s t r a c t
+
+Article history:                                       As the world’s largest digital economy, China has a significant demand for data centers, which are energy-
+Received 11 January 2024                               intensive. With an annual growth rate of 28% in installed capacity, these centers are primarily located in
+Revised 24 July 2024                                   the developed eastern region, where land and energy resources are limited. This localization poses a
+Accepted 16 August 2024
+                                                       major challenge to the industry’s net-zero goal. To address this, China has launched a bold initiative to
+                                                       relocate data centers to the western region, leveraging natural cooling, clean energy, and cost-effective
+                                                       resources. By 2030, this move is expected to reduce emissions from the data center sector by 16%–
+                                                       20%, generating direct economic benefits of approximately 53 billion USD. The success of this initiative
+Keywords:                                              can serve as a model for other countries to develop their internet infrastructure.
+Data center                                                © 2024 THE AUTHORS. Published by Elsevier LTD on behalf of Chinese Academy of Engineering and
+Renewable energy
+                                                         Higher Education Press Limited Company. This is an open access article under the CC BY-NC-ND license
+Carbon neutrality
+                                                                                                             (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Resource allocation
+
+
+
+
+1. Huge computing capacity requirements of national data                                  includes intermediate targets for power usage effectiveness (PUE)
+centers                                                                                   and carbon-neutral energy for 2025 [7].
+                                                                                              In 2021, China had approximately 5.2 million data center server
+   In the digital economy era, mobile technology and services have                        racks, which stored 10% of the world’s data and provided 33% of the
+created an impressive global economic value of 4.5 trillion USD,                          global computing capacity [8]. During the same year, data centers
+representing 5% of the annual global gross domestic product                               across China consumed a total of 237 billion kilowatt hour of elec-
+(GDP) [1]. In addition to traditional production factors, data have                       tricity, accounting for 3% of the nation’s total social electricity con-
+emerged as a crucial element, with computing power driving eco-                           sumption and generating nearly 160 million tonnes (Mt) of CO2
+nomic advancement [2]. The global data volume is growing at an                            emissions (CO2e) [9]. By 2030, the number of data center racks is
+average annual rate of 40%; thus, efficient data acquisition, storage,                    expected to increase by 110% compared to 2021, potentially
+and analysis are required, which highlights the importance of                             increasing their electricity consumption by over 5%. This growth
+robust data management [3]. Data centers are crucial to computing                         poses significant challenges to China’s targets of achieving a carbon
+and storage infrastructures, driving digital transformation across                        peak by 2030 and net-zero emissions by 2060 [9].
+various industries. However, data centers are highly energy-
+intensive. Individual centers can consume up to 100 million kilo-                         2. Resource allocation initiative for national data centers
+watt hour per year [4], collectively accounting for 1%–1.5% of glo-
+bal electricity consumption, raising significant concerns [5,6]. Data                        To reduce transmission distances and meet the needs of end
+center operators and industry associations in Europe launched the                         users, China’s leading information technology (IT) companies and
+Climate Neutral Data Center Pact in January 2021. This pact com-                          65% of its data centers are concentrated in the eastern provinces.
+mits to achieving climate-neutral data centers by 2030 and                                These regions offer various internet access functions, cloud com-
+                                                                                          puting, big data, and artificial intelligence services, requiring
+    ⁎ Corresponding authors.                                                              numerous data centers for adequate storage and operations
+      E-mail addresses: huabo@hust.edu.cn (H. Duan), y.shan@bham.ac.uk (Y. Shan)..        (Fig. 1). Although eastern China accounts for only 11% of the total
+
+https://doi.org/10.1016/j.eng.2024.08.010
+2095-8099/© 2024 THE AUTHORS. Published by Elsevier LTD on behalf of Chinese Academy of Engineering and Higher Education Press Limited Company.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+Please cite this article as: N. Zhang, H. Duan, Y. Guan et al., The ‘‘Eastern Data and Western Computing” Initiative in China Contributes to Its Net-Zero Tar-
+get, Engineering, https://doi.org/10.1016/j.eng.2024.08.010
+N. Zhang, H. Duan, Y. Guan et al.                                                                                                                Engineering xxx (xxxx) xxx
+
+
+
+
+Fig. 1. Distribution of the eight computing hubs and ten clusters planned by the ‘‘Eastern Data and Western Computing” initiative and the number of data center projects in
+the first year of planning.
+
+
+land area of China, it accommodates 43% of the national population                      depend solely on one type of hard drive, and considering the
+and generates 55% of the total GDP. Consequently, the digital                           absence of specifications regarding the choice of hard drives in
+industry in eastern China faces significant resource challenges,                        the mentioned initiative, energy consumption variations based
+including limited land availability, high electricity costs, and high                   on the differences in data types are not considered. The project
+energy intensity, coupled with a substantial carbon mitigation bur-                     involves creating eight computing hubs to distribute the resource
+den. This concentration of resources poses a dilemma: balancing                         burden between east and west China. The successful relocation
+economic development with the need to reduce emissions.                                 of Apple’s data center to an area with wind and solar energy
+    To address these challenges, the ‘‘Eastern Data and Western                         sources fully powered by 100% renewables, achieving a 54% reduc-
+Computing” initiative was launched in 2022 as a national project.                       tion in emissions, highlights the viability of such projects and rein-
+This initiative aims to leverage the advantages of land, energy,                        forces confidence in China’s strategic plan [14]. Within a year of
+and lower mean annual air temperature in the western regions                            implementation, more than 112 new data centers have either been
+to build a robust computing infrastructure [10]. The western                            authorized, under construction, or completed across the planned
+region, with its vast land and lower population density, offers 9.5                     computing hubs (Fig. 1) [15]. This initiative mainly focuses on
+times the land area per capita compared to the eastern region                           future data center planning because the decommissioning of exist-
+and has four times the capacity to incorporate renewable energy                         ing data centers in the eastern region is rare.
+into the grid [11]. The project aims to store offline and backup data                       In addition to geographical redistribution, the Chinese govern-
+(70% of the total data), which has lower network demands, in the                        ment is making efforts to improve PUE in data centers. PUE is
+western region, thereby optimizing the distribution of data cen-                        the ratio of the total facility (i.e., data center hardware, power
+ters. The western regions of China, including southwest China,                          delivery components, cooling systems, and lighting systems)
+are abundant in water resources, while northwest China boasts                           energy consumption to IT equipment (i.e., servers, storage devices,
+substantial solar and wind energy resources, making these areas                         and networking gear) energy consumption, with overall efficiency
+ideal for harnessing renewable energy to power local grids. In addi-                    improvement as the quotient decreases toward 1.0 (Eq. (1)) [9]. IT
+tion, these regions experience longer cool seasons with an average                      equipment and cooling systems are the major energy consumers in
+temperature of 11.4 °C, which facilitates efficient heat dissipation                    data centers, accounting for 85% of the total energy consumption
+in the data centers [12]. This initiative is expected to accommodate                    [16]. Currently, China’s PUE value is 1.49 [17]. As part of these ini-
+up to 95% of China’s digital data needs through this reorganization.                    tiatives, efforts are being made to reduce the energy intensity of
+Data are classified based on their latency requirements into three                      cooling systems and associated emissions by approximately 30%
+categories: ‘‘warm data” (60%, such as office automation), which                        (Fig. 2(a) [9,15,23,24]).
+is used frequently; ‘‘subwarm data” (25%, such as disaster recov-
+                                                                                              Energy used for total facility
+ery), which is less sensitive to latency; and ‘‘cold data” (10%, such
+                                                                                          Energy used for IT equipment energy
+as backup data), characterized by low read/write frequency
+requirements [13]. The remaining 5% (e.g., financial transactions),                            Energy used for non — IT equipment
+                                                                                            ¼                                     þ 1 ¼ PUE                            ð1Þ
+comprising latency-sensitive ‘‘hot data,” will be placed based on                             Energy used for IT equipment energy
+business needs (i.e., the data are stored in locations for immediate                       Driven by the increasing use of intelligent computing applica-
+utilization and not integrated into the plan). Due to the practical                     tions, power emissions from information and communications
+limitations in China, where various data storage types cannot                           technology devices have increased sharply, especially in eastern
+                                                                                    2
+N. Zhang, H. Duan, Y. Guan et al.                                                                                                                      Engineering xxx (xxxx) xxx
+
+
+
+
+Fig. 2. Power consumption and supply optimization potential of data centers in China. (a) Electricity consumption of data centers and their proportions of the total national
+electricity consumption; (b) curtailment rates of solar and wind power in 2019 in the eight computing hub regions (indicating an inability to consume and idle power that can
+be used by data centers, particularly in the West) and the industrial tariffs (bubble size represents average industrial floor area price); (c) energy consumption of data centers
+under the initiative. Data for 2014–2025 are from official reports and publications, and data between 2025 and 2030 are estimated by cubic spline interpolation [9,15,23,24].
+Data inventory and approaches can be found in the Appendix A (Tables S1–S3 and S35, and Method section in Appendix A).
+
+China. To reduce these emissions, it is crucial to improve energy                               To achieve the maximum reduction in emissions, it is essential
+efficiency and switch to low-carbon electricity sources. The reloca-                        to increase the proportion of data transferred to the western
+tion of data centers to the western region provides a promising                             region, which is currently less than 50%, and to focus on developing
+solution that will enable increased use of renewable energy and                             and promoting technologies that reduce PUE. Failure to address
+climate resources.                                                                          PUE alongside spatial distribution adjustments can lead to a poten-
+    If the initiative is successfully implemented by 2030 and the                           tial loss of 278 Mt of CO2e reductions. Thus, efforts to improve the
+data volume is evenly distributed across the western hub centers,                           adoption and implementation of energy-efficient technologies
+we can estimate the energy consumption of the eight hubs (Fig. 2                            across the data center industry are critical.
+(b)). The energy consumption in the eastern region, particularly in                             In summary, this initiative is expected to meet at least the
+the economically developed Yangtze River Delta region, will grad-                           interim ‘‘net-zero objective” by 2025, which involves reducing
+ually decrease, whereas the western area will take on industries                            the carbon intensity of GDP across industries by 18% compared
+that have shifted from the eastern region and will assume most                              to 2020 levels. In addition, it can reduce the industry’s emission
+of the new data in the future. Although the relatively small local                          intensity by 52%.
+market size in the western region may limit the effective consump-
+tion of renewable energy, this challenge can be addressed by lever-                         3.2. Economic efficiency
+aging the availability of affordable industrial electricity and
+industrial land in the western region (Fig. 2(c)).                                              The economic benefits of this initiative are substantial, as elec-
+                                                                                            tricity costs in data centers account for a significant 70% of opera-
+3. Environmental and economic benefit evaluation                                            tional expenses [18]. Improving energy utilization in the western
+                                                                                            region can result in favorable economic outcomes. By leveraging
+3.1. Contribution to net-zero emissions                                                     affordable resources available in the West, the initiative can foster
+                                                                                            collaboration between companies and governmental entities in
+   Estimations based on different scenarios involving PUE opti-                             data center projects (Fig. 2(c)). Based on China’s stable commercial
+mization and data center relocation represent a potential cumula-                           electricity grid structure (Fig. 3), the fixed industrial electricity
+tive reduction of 361 Mt of CO2e by 2030. If the plan’s goals are                           prices offered by local power companies can be harnessed to opti-
+achieved by 2025 (ahead of schedule), an additional 77 Mt reduc-                            mize spatial location and enhance energy efficiency, resulting in
+tion could be achieved, resulting in a total reduction equivalent to                        significant power cost reductions estimated to amount to 53 USD
+16%–20% of the business-as-usual emissions.                                                 billion between 2022 and 2030 (Fig. 3(c)). Given the significant
+
+                                                                                        3
+N. Zhang, H. Duan, Y. Guan et al.                                                                                                                       Engineering xxx (xxxx) xxx
+
+
+
+
+Fig. 3. Environmental and economic benefits from the initiative. (a) CO2e estimation; (b) spatial distribution of CO2e in the initiative; (c) power cost estimation; (c-i) indirect
+economic benefits in the western region; (d) spatial distribution of power cost in the initiative. The energy consumption data were obtained from the China Electricity Council
+and cubic spline interpolation. Regional grid emission factors are estimated based on the power sources obtained from the annual electricity statistics provided by the China
+Electricity Yearbook for each region over the years (nuclear, hydroelectric, coal, solar, wind, and other). The emission computation for the business-as-usual (BAU) scenario
+considers the regional distribution of data centers before implementing the initiative. In the scenario analysis, S1 and S2 are set based on the objectives of the initiative. S1
+assumes no change in PUE (1.49), whereas S2 assumes the migration goal is achieved by 2025. Scenario estimates are derived from analysis of national project plans. Indirect
+economic benefit estimates are generated from an environmentally extended multi-regional input–output model and assumed fixed production coefficients following the
+Leontief framework (estimations and methods can be found in Economic data, Environmental data, and Method sheets in Appendix A).
+
+
+
+
+changes in electricity costs and investments in communication                               rently, data centers in the western region mainly provide limited
+equipment, computers, and other electronic equipment, we                                    market appeal services such as server leasing and hosting, which
+explored the potential for increasing value-added along supply                              does not fully capitalize on the potential value of data centers.
+chains. We used an environmentally extended multi-regional                                     To implement the initiative, the government is likely to intro-
+input–output model for Chinese provinces and assumed fixed pro-                             duce mandatory measures to require state-owned enterprises to
+duction coefficients based on the Leontief framework [19]. In this                          operate their new data centers in the western region or relocate
+context, we can evaluate the impacts of sector-specific changes                             existing ones. However, persuading non-state-owned IT companies
+in final demand on the economic benefits for all upstream sectors.                          with large data volumes to restructure their industrial chains will
+Our results indicate that during this period, cumulative indirect                           require efficient economic incentives. Although experts have pro-
+economic gains could peak between 117 billion and 172 billion                               posed attractive solutions such as tax reductions and electricity
+USD (Fig. 3(c-i)).                                                                          subsidies, these measures have yet to be implemented nationwide.
+                                                                                            In addition, attracting skilled talent is a significant challenge for
+4. Challenges of the initiative in China                                                    developing the industrial chain in the western region, which lags
+                                                                                            behind the eastern region in terms of development. Data prepro-
+    The implementation of the proposed initiative in China presents                         cessing is labor-intensive, and data storage, computing, and mining
+various economic and technological uncertainties and challenges.                            require specialized hardware, software, and services.
+It is essential to address the limitations and considerations related
+to its execution.                                                                           4.2. Technical requirements
+
+4.1. Immediate economic effects                                                                Careful attention must be given to managing long-distance data
+                                                                                            transfers and PUE control. Even minimal packet loss during data
+   Compared with the eastern region, the western region lacks a                             transfer from eastern to western regions can lead to substantial
+well-developed big data industrial chain. Establishing and main-                            waste of computing power and increased energy consumption.
+taining data centers involves significant financial investments,                            Furthermore, achieving the low PUE targets set by China requires
+including infrastructure development, hardware procurement,                                 adhering to rigorous technical standards. Numerous existing data
+and talent development. Due to the high costs and extended pay-                             centers in the country currently have PUE values exceeding 1.8
+back periods, depending solely on fiscal subsidies could strain local                       or even 2.0 [12]. To meet the low PUE requirements, the initiative
+government finances and be unsustainable in the long term. Cur-                             aims to leverage the cool climate conditions in the western region
+                                                                                        4
+N. Zhang, H. Duan, Y. Guan et al.                                                                                                       Engineering xxx (xxxx) xxx
+
+
+and use liquid cooling technology to achieve PUE values below 1.2             contributed to drawing the figures. JK.Y., HB.D., and GH.S con-
+or even closer to 1, leading to energy savings of 30%–50% [20].               tributed to review and comment. All authors contributed to editing
+Although this technology can be easily integrated into newly con-             the text and discussed the scientific questions.
+structed data centers, retrofitting older data centers in the eastern
+region poses challenges due to variations in building height, load-           Declaration of competing interest
+bearing capacity, and power distribution.
+                                                                                  The authors declare that they have no known competing finan-
+4.3. Regional imbalances still exist
+                                                                              cial interests or personal relationships that could have appeared
+                                                                              to influence the work reported in this paper.
+    The initiative aims to reorganize offline and backup storage to
+the western regions. However, the potential for emission reduc-
+                                                                              Acknowledgments
+tions in spatial planning exhibits a peak rather than a gradual
+increase due to constraints related to data volume. Data transfer
+                                                                                 This work was supported by the Joint Research Project for the
+is heavily dependent on network infrastructure, and efficient trans-
+                                                                              Yangtze River Conservation (Phase II), China (2022-LHYJ-02-0401).
+mission of large volumes of digital data is dependent on network
+speeds. Researchers have conducted comparisons and concluded
+                                                                              Appendix A. Supplementary data
+that using vehicles for physical transportation in short-distance
+transfers can be more efficient for ultra-large file transfers, leading
+                                                                                 Supplementary data to this article can be found online at
+to reduced packet loss rates [21]. Nevertheless, this approach could
+                                                                              https://doi.org/10.1016/j.eng.2024.08.010.
+pose initial challenges. In the initial phases, the straight-line dis-
+tance of data transfer is 400–1600 km. If physical transfer using
+                                                                              References
+vehicles with consideration for time savings and data security is
+used for large data volumes, additional investment and increased               [1] The World Bank. Digital development [Internet]. Washington, DC: The World
+transportation emissions could be realized.                                        Bank; [cited 2023 May 30]. Available from: https://www.worldbank.org/
+    Our projections indicate that the initiative can help meet mid-                en/topic/digitaldevelopment/overview.
+                                                                               [2] Hilbert M, López P. The World’s technological capacity to store, communicate,
+term net-zero targets by 2025. However, achieving comprehensive                    and compute information. Science 2011;332(6025):60–5.
+carbon neutrality in the data center industry by 2060 depends on               [3] Wang J, Deng H, Liu Y, Guo Z, Wang Y. Coordinated optimal scheduling of
+China’s ability to enhance access to renewable energy. The country                 integrated energy system for data center based on computing load shifting.
+                                                                                   Energy 2023;267:126585.
+has outlined plans for transitioning to renewable energy, focusing
+                                                                               [4] Li J, Wu M. Data centres, from ‘‘electricity tank” to ‘‘digital economy engine”.
+heavily on power generation in the western regions. Nevertheless,                  Report. Beijing: National Development and Reform Commission (NDRC) of the
+the densely populated eastern regions, constrained by limited land                 People’s Republic of China; 2021. Chinese.
+                                                                               [5] Li X, Zhang C, Dong J, Han Z, Wang S. Feasibility investigation on a novel rack-
+resources, face challenges in the widespread implementation of
+                                                                                   level cooling system for energy-saving retrofit of medium-and-small data
+photovoltaic, wind power, and energy storage hydroelectric pro-                    centers. Appl Therm Eng 2023;229:120644.
+jects. Addressing these challenges is essential for data centers in            [6] Zhang Y, Shan K, Li X, Li H, Wang S. Research and technologies for next-
+the eastern region to achieve carbon neutrality. Strengthening                     generation high-temperature data centers-state-of-the-arts and future
+                                                                                   perspectives. Renew Sustain Energy Rev 2023;171:112991.
+emission reduction efforts requires addressing existing spatial dis-           [7] International Energy Agency. Data centres and data transmission networks.
+parities and investigating opportunities for renewable energy                      Paris: International Energy Agency; 2022.
+development in the eastern region while also promoting economic                [8] Cyberspace Administration of China. Digital China development report 2021.
+                                                                                   Report. Beijing: Cyberspace Administration of China; 2022. Chinese.
+growth in the western region.                                                  [9] Jiang H, Li B, Zhang W. Driving green and low carbon development in data
+                                                                                   centres [Internet]. Beijing: China Environ News; 2022 Feb 10 [cited 2023 May
+5. Conclusion and lessons from China                                               30]. Available from: http://epaper.cenews.com.cn/html/2022-02/10/content_
+                                                                                   73778.htm. Chinese.
+                                                                              [10] Ling J. Optimization of computing power resources by ‘‘Eastern Data and
+    Internet usage frequency in a region generally reflects its popu-              Western Computing” project Report. Beijing: Xinhua News Agency; 2023.
+lation density and economic development, leading to intense com-                   Chinese.
+                                                                              [11] China Electric Power Press. China electricity statistical yearbook. Report.
+petition for land and energy resources in the development of data                  Beijing: China Electric Power Press; 2013. Chinese.
+centers, both in China and globally. Emerging economies such as               [12] Shan Z, He B, Zhang Y. Research report on the development of new computing
+India and Brazil together, with over 1 billion internet users, have                infrastructure in the context of ‘‘Eastern Data and Western Computing”
+                                                                                   project. Report. Beijing: State Information Center of China; 2022. Chinese.
+also set net-zero targets. However, they have yet to fully recognize
+                                                                              [13] China Unicom. Thematic study for ‘‘Eastern Data and Western Computing”
+the high energy consumption associated with data centers [22].                     project. Report. Beijing: China Unicom Research Institute; 2022. Chinese.
+This initiative in China could benefit net-zero and regional develop-         [14] Rostirolla G, Grange L, Minh-Thuyen T, Stolf P, Pierson JM, Da Costa G, et al. A
+                                                                                   survey of challenges and solutions for the integration of renewable energy in
+ment. We strongly encourage countries that are experiencing sim-
+                                                                                   datacenters. Renew Sustain Energy Rev 2022;155:111787.
+ilar development trends as China to recognize the unsustainable               [15] Li R, Guo M. The first anniversary of the ‘‘Eastern Data and Western
+path of current digitization practices and implement measures to                   Computing” project. Report. Guangzhou: 21st Century Business Herald;
+address it gradually. Since not all countries have the same invest-                2023. Chinese.
+                                                                              [16] Dayarathna M, Wen Y, Fan R. Data center energy consumption modeling: a
+ment capacity for spatial reorganization, we recommend focusing                    survey. IEEE Commun Surv Tutor 2016;18(1):732–94.
+on integrating data centers with renewable energy through grid                [17] Tang W, Lu W, Tan Q, Ma J, Liu Z. Research on the status and development
+reforms and small-scale relocation. These strategies can contribute                trend of the data center from the perspective of energy and power. In:
+                                                                                   Proceedings of the 2022 International Conference on Advances in Electrical
+to global carbon neutrality and reduce the environmental impact of                 Engineering and Computer Applications (AEECA); 2022 Aug 20–21; Dalian,
+data center operations. Prioritizing the sustainable development of                China. New York City: IEEE; 2022. p. 562–5.
+digital infrastructure and the adoption of renewable energy is cru-           [18] Zaloumis C. Are your data centers keeping you from sustainability [Internet]?
+                                                                                   Armonk: IBM; [cited 2023 May 30]. Available from: https://www.
+cial for the long-term well-being of the planet.                                   ibm.com/cloud/blog/are-your-data-centers-keeping-you-from-sustainability.
+                                                                              [19] Zheng H, Bai Y, Wei W, Meng J, Zhang Z, Song M, et al. Chinese provincial
+CRediT authorship contribution statement                                           multi-regional input-output database for 2012, 2015, and 2017. Sci Data
+                                                                                   2021;8(1):244.
+                                                                              [20] Zhang Y, Zhao Y, Dai S, Nie B, Ma H, Li J, et al. Cooling technologies for data
+   N.Z., YL.S., and HB.D. designed the research and wrote the paper.               centres and telecommunication base stations—a comprehensive review. J
+N.Z., YL.S., and YR.G., contributed to methodology. N.Z and RC.M                   Clean Prod 2022;334:130280.
+
+                                                                          5
+N. Zhang, H. Duan, Y. Guan et al.                                                                                                                    Engineering xxx (xxxx) xxx
+
+
+[21] Paladino N. Things faster than the Internet: you in your car [Internet]? Online:       [23] China Electricity Council. China data center industry analysis and development
+     Noah Paladino; 2020 Jun 30 [cited 2023 Jun 20]. Available from: https://www.                strategy consulting report. Report. Beijing: China Electricity Council; 2020.
+     noahpaladino.com/blog/2020/06/30/transfer.html.                                             Chinese.
+[22] World Bank. Individuals using the Internet (% of population) [Internet].               [24] Liu J, Wang Q, Song Z, Fang F. Bottlenecks and countermeasures of high-
+     Washington: The World Bank Group; [cited 2024 Jul 5]. Available from:                       penetration renewable energy development in China. Engineering 2021;7
+     https://data.worldbank.org/indicator/IT.NET.USER.ZS.                                        (11):1611–22.
+
+
+
+
+                                                                                        6
+

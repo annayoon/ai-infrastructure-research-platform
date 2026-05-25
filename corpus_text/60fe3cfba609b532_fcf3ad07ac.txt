@@ -1,0 +1,1787 @@
+Port MacKenzie Master Plan Update
+
+
+
+
+     Loading Coal on a Super Panamax Ship (June 2010)
+
+                           By
+
+      Matanuska-Susitna Borough
+
+
+
+   Planning and Land Use Department
+                                                       Table of Contents
+
+    1. Introduction ...................................................................................................... 1
+         1.1       Overview ........................................................................................................ 1
+         1.2       Land Area ...................................................................................................... 2
+         1.3       Port MacKenzie Master Plan Update ............................................................ 3
+         1.4       Vision ............................................................................................................. 3
+         1.5       Port Commission ............................................................................................ 5
+         1.6       Planning Efforts ............................................................................................. 5
+         1.7       Public Participation ....................................................................................... 6
+         1.8       Mission and Goals .......................................................................................... 7
+         1.9       Key Development Needs For Port MacKenzie ............................................... 7
+    2. Port Operations ................................................................................................. 9
+         2.1       Security .......................................................................................................... 9
+         2.2       Fire Protection and Emergency Services ....................................................... 9
+         2.3       Cargo Operations ........................................................................................... 9
+         2.4       Future Cargo Operations ............................................................................. 10
+                   2.4.1      Coal.................................................................................................................... 10
+                   2.4.2      Petroleum Products ............................................................................................ 11
+                   2.4.3      Oil and Gas Field Modules ................................................................................ 12
+                   2.4.4      Forest Product Exports....................................................................................... 12
+                   2.4.5      Natural Gas Pipeline Logistics .......................................................................... 12
+                   2.4.6      Value-Added Natural Gas Processing ............................................................... 13
+                   2.4.7      Limestone Products ........................................................................................... 14
+                   2.4.8      Other Minerals ................................................................................................... 14
+         2.5       The Cook Inlet Ferry System ....................................................................... 14
+    3. Land Use......................................................................................................... 16
+         3.1       Existing Conditions ...................................................................................... 16
+         3.2       Waterfront Dependant District (WDD) ....................................................... 17
+         3.3       Port Industrial District - I (PID-I) ............................................................... 20
+                   3.3.1      Rail Loop Subunit ............................................................................................... 21
+                   3.3.2      Rail Yard Subunit ................................................................................................ 24
+                   3.3.3      Northern Subunit ............................................................................................... 25
+         3.4       Port Industrial District - II (PID-II) ............................................................ 25
+         3.5       Port Commercial District (PCD) .................................................................. 26
+         3.6       Port Conservation District (PCVD) ............................................................. 26
+    4. Transportation ................................................................................................ 27
+         4.1       Introduction ................................................................................................. 27
+                   4.1.1      Existing Conditions............................................................................................. 27
+         4.2       Transportation Trends ................................................................................. 27
+         4.3       Multi-Modal Opportunities.......................................................................... 28
+         4.4       Rail Service .................................................................................................. 29
+         4.5       Truck Service ............................................................................................... 29
+         4.6       Traffic Circulation ....................................................................................... 29
+         4.7       Ferry Landing .............................................................................................. 30
+         4.8       On-Site Circulation ...................................................................................... 30
+         4.9       Future Transportation Improvements ......................................................... 31
+    5. Facilities/Utilities ............................................................................................ 32
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                                                                               i
+         5.1       Introduction ................................................................................................. 32
+         5.2       Ferry Terminal Building .............................................................................. 32
+         5.3       Security Posts ............................................................................................... 32
+         5.4       Deep-Draft Dock .......................................................................................... 32
+         5.5       Barge Dock ................................................................................................... 32
+         5.6       Conveyors .................................................................................................... 33
+         5.7       Pipelines ....................................................................................................... 33
+         5.8       Potable Water .............................................................................................. 33
+         5.9       Wastewater Management............................................................................. 33
+         5.10      Storm Water Management........................................................................... 33
+         5.11      Electric ......................................................................................................... 34
+         5.12      Natural Gas .................................................................................................. 35
+         5.13      Communications .......................................................................................... 35
+    6. Recommendations ........................................................................................... 36
+         6.1       Administrative ............................................................................................. 36
+         6.2       Infrastructure .............................................................................................. 37
+         6.3       Environmental Studies ................................................................................. 37
+         6.4       Port Land Management ............................................................................... 38
+    7. Bibliography ................................................................................................... 39
+    8. Glossary of Terms ........................................................................................... 40
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                                                              ii
+                                                NOTICE
+This plan and the information contained herein does not constitute, nor shall it be construed as, a
+waiver of any right, title or interest, including sovereign interest, in any lands owned by or under
+the jurisdiction of the Matanuska-Susitna Borough or any grantee in trust of Borough lands.
+
+The maps included in the report are for illustrative purposes only and are not intended to accurately
+depict ownership boundaries.
+
+
+
+                                    ACKNOWLEDGEMENTS
+The Borough owes a debt of gratitude to the Port Commissioners, Professionals, and Interested
+Parties for their insight, dedication and helpful comments on this update of the Port MacKenzie
+Master Plan. In particular, the Borough would like to acknowledge the following people for their
+contributions of time, energy, and support toward the success of this update:
+
+                   The Borough Port Commission
+                        o Bish Buckle;
+                        o Dave Cruz;
+                        o Greg Bell;
+                        o Jay Nolfi;
+                        o John Riggs;
+                        o Paul Campbell;
+                        o Paul Duclos;
+                   Marc Van Dongen, Director, Port MacKenzie
+                   Mari Montgomery, University of Alaska Land Management Director
+                   Rick Hoggan, P.E. Mill Creek Engineering Company
+                   Mike Pochop, P.E. Hanson Alaska L.L.C.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                      iii
+1.        Introduction
+
+          1.1      Overview
+
+Port MacKenzie is located in South Central Alaska at the head of Cook Inlet along the Knik Arm
+across from the Municipality of Anchorage (see Figure 1 below).1 The Port is located in, owned,
+and operated by the Matanuska-Susitna Borough. The other key landowner in the Port District is
+the University of Alaska.
+
+                                Figure 1. Port MacKenzie Location
+
+
+
+
+1
+    Latitude: 61° 16' 6" N Longitude: 149° 54' 52" W
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                           Page 1
+Port MacKenzie is ideally suited for handling bulk materials, serving the local communities and
+providing critical tide water access to the interior of Alaska. Port MacKenzie provides the ability
+to easily facilitate substantial growth in Alaskan export capacity to complement existing port
+operations that may be limited by local land, capacity or public restrictions.
+
+Port MacKenzie provides large upland areas of currently undeveloped land that are adjacent or in
+close proximity to the existing deep draft dock and barge dock. As such, bulk materials can be
+offloaded, stored, reclaimed and shipped via rail, truck, pipeline, barge and ship without
+prohibitive constraints and growth limitations.
+
+The Borough is constructing a rail link (estimated for completion in 2013) that will connect the
+Port to the Alaska Railroad System. When complete, the rail line will provide the gateway tide
+water access to Interior Alaska via the existing rail corridor. The Port will provide the ability to
+efficiently move materials between ship, rail, truck and barge as needed. An existing bulk
+material handling conveyor, ship loader and deep water mooring system provide the ability to load
+any size ship with wood chips, coal, limestone, cement, bulk fuel, mineral concentrates and other
+commodities. This master plan provides utility corridors with additional conveyor, piping, rail
+and truck access between the dock and upland areas. This plan accommodates mineral,
+petrochemical, forest products, fabrication, power generation, and manufacturing industries in a
+productive and economic manner.
+
+The Matanuska-Susitna Borough (Borough) has prepared this master plan as an update to the 1998
+Point MacKenzie Port Master Plan. The plan updates land use designations for future land
+development and use. It also provides guidelines for future port improvements and development to
+meet cargo demand, community acceptance and environmental compatibility that will
+complement other modes of local, state and international transportation through 2031.
+
+        1.2     Land Area
+
+The Port District is comprised of approximately 8,940 acres of uplands and 1,238 acres of
+tidelands. The uplands include 7,621 acres of land and 1,319 acres of waterbodies and wetlands
+(see Figure 2). The other landowner in the Port District is the University of Alaska, which owns
+about 830 acres of land within the District.
+
+Public Access to the Shoreline
+The Borough has been granted approximately 1.9 square miles of tidelands with a shoreline
+frontage approaching 2.2 linear miles. This master plan makes provision for physical and visual
+access to the shoreline in a manner that is consistent with the activities being conducted on the land
+and water areas involved, and the proprietary interests of the private land owners, lessees, and
+public rights and needs. Restricted access to the shoreline within the Port District is necessary for
+security and public safety factors.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 2
+        1.3     Port MacKenzie Master Plan Update
+
+An overall master planning study of Port facilities has not been completed since 1998. This
+document provides a framework to guide the orderly growth and development of the Port over the
+next 20 years.
+
+This plan contains three primary sections: a land use section, a transportation section and a
+facilities/utilities section.
+
+This document is intended to provide the layout for the physical development and use of the land,
+waterbodies and wetlands, tidelands, and submerged lands within the Port District.
+
+The usefulness of this plan relates directly to its status as an official statement of public policy
+adopted by the Matanuska-Susitna Borough Assembly. It serves a number of useful purposes,
+which include use by the Port Commission as a reference indicating needed policy changes and as
+a guide for policy decisions; by the Port staff as a basis for land use decisions, capital
+improvements programming and for rendering services; by other governmental agencies as
+necessary information leading to coordinated efforts; and to individuals as an accurate source of
+information, regarding public land use opportunities for private use and investment, and as a basis
+for protecting existing development.
+
+        1.4     Vision
+
+                                                 VISION
+        To develop and maintain waterfront assets in a manner that generates long-term
+        economic benefits for the residents of the Borough, without permanently depleting
+        the usefulness of these assets. Port MacKenzie is envisioned to be an economic
+        engine for resource development throughout Alaska.
+
+This Master Plan is structured to implement this vision in a timely and organized manner, and
+polices and regulations must be developed to ensure that the integrity of the strategic vision is
+never compromised.
+
+Port MacKenzie will clearly define its development and investment objectives, publish policies
+and guidelines for activities and investments that are to be permitted in the Port District, and
+entertain only those proposals that are consistent with its development objectives, guidelines,
+Master Plan, and vision:
+
+       Create new employment opportunities;
+       Stimulate economic development in the Port District, Borough, and State through capital
+        investment for industrial facilities by private enterprises; and
+       Establish a transportation link for exporting natural resources from the State of Alaska.
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 3
+                                      Figure 2. Port District
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011   Page 4
+        1.5     Port Commission
+
+The Port Commission serves as an advisory body to the assembly and the manager on Port
+development matters and provides advisory input to the Port District’s operational and
+administrative staff. The Port Commission was involved in the update process through a series of
+personal interviews and work sessions as well as considering the plan and providing
+recommendations at Port Commission meetings.
+
+        1.6     Planning Efforts
+This Port MacKenzie Master Plan Update was developed as a standalone master plan superseding
+the Point MacKenzie Port Master Plan, as amended (1998). This Master Plan is a living document
+and should be updated again following significant port development or significant changes to the
+economy.
+
+This Plan was prepared with input from the Borough Port Commission, Port Director, Economic
+Development Director, planning staff, land owners, potential users, neighbors, and various stake
+holders. The intent of this Plan is to provide a flexible guide for present use, short-term
+infrastructure needs, and near, intermediate and long-term future use of the Port. While fully aware
+that it is impossible to predict the future, the master plan must anticipate the future and provide a
+plan that will best prepare the Port to maximize the use of the land and current facilities, promote
+sensible and desired growth and facilitate presentation and marketing of the Port’s potential. Due
+to the amount of activity that is happening within the Port District and the many different forms of
+inquiry and information, a Port District Leasing and Land Use Permit Committee was established.
+The committee includes borough staff from the departments involved with Port Development. The
+committee is tasked with reviewing applications for leases, Land Use Permits, and other forms of
+use in the Port District.
+
+In order to update the master plan, the current and potential future users of the Port, along with the
+landowners within and adjacent to the Port, were interviewed. The purpose of the interviews was
+to identify anticipated future development of the Port and associated industrial complex as well as
+the siting constraints for each development. Previous studies and reports on the Port were reviewed
+for background information (listed in Appendix B).
+
+A consultant was engaged to assist with review of the layout and future operations to ensure
+functionality, efficiency, compatibility, and safety. A mechanical and mining engineer
+specializing in bulk material handling projects including Port facilities, mining, power generation,
+cement and various industrial mineral, petroleum and chemical plants provided input to the plan
+and assisted with interviewing Port Commissioners, Borough staff, and potential future Port users.
+The layout drawings are primarily based on the engineer’s experience and knowledge, Port
+Commission review, as well as the information provided in the studies and interviews.
+
+This Port Master Plan Update was developed in three phases. The first phase, known as the
+observations phase, included the collection of data and the assembly of extensive outreach
+meetings to gather input from external and internal Port constituents. The second phase involved
+the review and documentation of the information gathered in phase one to identify siting and
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 5
+infrastructure constraints for existing and future uses. Based on this review and the input and data
+collected in the observations phase, recommended updates to the master plan were developed and
+presented to the Port Commission for feedback. In the final phase of the process, that feedback was
+incorporated into a draft of the final master plan update which was then presented for public
+review, planning commission review, and assembly approval.
+
+Industry sectors projected to have the greatest growth potential, and which Port MacKenzie could
+attract by virtue of its geographical location and facilities, were short listed as the most likely to
+locate at Port MacKenzie.
+
+The nature and growth potential of current business activities at Port MacKenzie were confirmed
+through discussions with current tenants of the Port, Borough staff, the Port Commission and
+Administration. In addition, potential business leads provided by the Borough were investigated
+through personal and telephone interviews.
+
+Cargo projections were updated based on the most recent studies, information provided by current
+and potential Port MacKenzie tenants, and from expected future project and construction activity
+in the region.
+
+        1.7     Public Participation
+The public planning process is concerned with identifying land use concerns and finding solutions
+for problems that have arisen or may arise from land use situations. The process of seeking
+solutions to public problems on a long range and comprehensive basis involved public hearings
+and public participation in Port District planning and development decisions. The public review
+period for this plan was 30 days long. Copies of the draft were made available to the public in a
+number of locations, including the Dorothy Swanda Jones Borough Building in Palmer, the Point
+MacKenzie General Store and the Borough webpage.
+
+Public notice and review of this master plan update occurred the month of November, 2010. Some
+involvement, such as telephone calls, visits, and informal contacts, were not recorded yet added
+substantially to the decision making process.
+
+On-going public information programs dealing on a daily basis with Port District activities and
+projects are conducted through the Port District staff. The Borough Public Affairs Director
+informs local citizens through several programs and several thousand copies of a comprehensive
+report are published and distributed throughout the Borough annually.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 6
+        1.8     Mission and Goals
+
+                                                 Mission
+        To develop a world class Alaskan deep-water port capable of safely and efficiently
+        transporting people and commodities.
+
+
+                                                  Goals
+        1) To complete utilities (natural gas, wastewater treatment) to service the Port.
+        2) To complete docks (barge dock expansion, ferry landing, deep-draft dock expansion).
+        3) To complete road improvements (Pt. MacKenzie Road, Port Access Road, Burma
+           Road).
+        4) To develop a year-round Cook Inlet ferry system.
+        5) To complete a rail line from the existing Alaska Railroad to the Port.
+        6) To construct rail and vessel loading/unloading facilities at the Port.
+        7) To construct petroleum product storage and processing facilities including a
+           connection to Anchorage via pipeline.
+        8) To promote the creation of a natural gas liquids (NGL) processing facility,
+           petrochemical facility, refinery, power plant, LNG plant, or other value-added gas
+           processing facility at Port MacKenzie.
+        9) As port development occurs, ensure the public trust and establish a system of
+           transparency, accountability, public participation, and collaboration.
+
+        1.9     Key Development Needs For Port MacKenzie
+The following are some of the major needs of the Port for successful operations:
+
+Road connection to Parks Highway
+Upgrading Point MacKenzie Road and Burma Road to controlled access, four-lane arterials as
+well as construction of a Big Lake bypass will provide the level of service necessary for the
+commercial and industrial activities of the Port.
+
+Rail connection to Alaska Railroad
+A connection to the railbelt is the essential component to facilitate natural resource exports. The
+Port is about 40 miles from the railbelt. The efficiency of transporting bulk commodities to
+tidewater over a rail extension will lead to new natural resource extraction activities.
+
+Natural gas supply
+Distribution and high pressure transmission natural gas pipelines must be extended to the Port
+District for domestic and industrial use. Natural gas has been extended to Alsop Road, nine miles
+to the north to service the Goose Creek Correctional Center and surrounding area.
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                Page 7
+Ferry logistics
+Coordination of ferry operations with Port operations must occur to ensure safety and efficiency.
+Ferry operations must complement Port activities.
+
+Deep-draft dock expansion, adding a second trestle
+A second trestle connecting the barge dock to the deep draft dock will increase the efficiency of
+loading and unloading vessels. Eventually, the deep-draft dock will need to be expanded to
+accommodate two vessels.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                             Page 8
+2.      Port Operations
+
+        2.1     Security
+The Port Physical Security Plan was recently updated and approved by the Coast Guard. The next
+update to the security plan will be required in 2015. Port security inquiries should be forwarded to
+the Port Director.
+
+        2.2     Fire Protection and Emergency Services
+The Borough’s 20-year plan for Port Emergency Services is in Appendix D.
+
+Fire protection within the Port District is currently a responsibility of the existing leasees. Fire
+protection consists of a fire hydrant at the barge dock connected to two 20,000-gallon water tanks
+located up the bluff. The Port District is not within a designated fire service area. The closest fire
+service area to the Port is the Wasilla-Lakes Fire Service Area No. 130 with Fire Station 6-4 at
+Mile 3.2 Point MacKenzie Road, about 18 miles away.
+
+The Central Mat-Su Fire Department (CMSFD) will provide fire, rescue, and EMS services to Port
+MacKenzie to protect the critical infrastructure of the Mat-Su Borough. The area is currently
+within the response area of Emergency Services District 1 for EMS and rescue responses. A
+realistic response time, given that responders are not assigned to a major incident, would be 40 to
+50 minutes for a chief officer and 45 to 60 minutes for fire apparatus, a rescue, or an ambulance. A
+Borough-owned 32-foot airboat was acquired to assist with water rescue options; however, a boat
+house is required in order to stage it near the barge dock. For management and timeliness, an
+Emergency Services District covering the Port District should be established with costs shared by
+tenants.
+
+In the near term, leasees should install adequate fire suppression systems to control the fire hazards
+associated with their operations (i.e., natural resource storage with adequate water delivery
+systems). Structures should have sprinkler systems and fire hose connections at a minimum.
+
+In the mid-term, a 20-acre parcel north of Point MacKenzie Road, illustrated on the layout
+drawings in Appendix A, should be developed to include a three-bay fire station that will house an
+aerial rig, a hazardous materials response vehicle, a heavy rescue vehicle and three command
+vehicles. This facility should be collocated with a five to ten bed emergency medical clinic, an
+Alaskan State Trooper substation, general administrative offices, and a FAA-certified helipad.
+
+
+        2.3     Cargo Operations
+Port MacKenzie is currently developing the berths and infrastructure for handling commercial
+cargo for export. The Port presently has two tenants. Alutiiq Manufacturing Contractors (AMC)
+constructs modular homes and ships around 50 homes a year to rural communities in Alaska, both
+by road and across Port MacKenzie’s docks. AMC is expected to continue to manufacture and
+ship a similar number of homes each year for the next five years and its growth beyond five years
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 9
+is anticipated to be consistent with the rate of growth of the projected economic and construction
+activity in Alaska (Kane, 2010). NPI leases land primarily for bulk commodity export operations
+at the Port. Wood chips and saw logs have been exported to Asia.
+
+In 2008, the Port exported 451 thousand tons of construction-quality gravel for the Port of
+Anchorage expansion project. Additional material is available for export to projects at the Ted
+Stevens Anchorage International Airport and possibly the Knik Arm Bridge.
+
+Importation of cement began in 2009 with two vessels each carrying 17,000 short tons. The cement
+was bagged and warehoused. About 3,700-pounds of rebar were also imported on vessels. A third
+vessel brought an additional 13,360 short tons of cement in 2010.
+
+Scrap metal export also began in 2009.
+
+Coal export began in 2010 with a test run of a Super Panamax vessel, loaded with 76,000 tons of
+coal in Seward. The vessel docked at Port MacKenzie to be topped off with coal trucked down
+from Healy.
+
+There has been a significant increase in the number of local and national business entities
+expressing interest in establishing various business operations in the Port District but not
+necessarily using the Port’s docks. These proposals include a bulk fuel storage facility, a timber
+curing facility, a power generation and solid waste disposal plant, a sewage treatment plant, a peat
+processing and ore reprocessing facilities.
+
+        2.4     Future Cargo Operations
+Future cargo operations at the Port were evaluated based on a two-phase economic analysis
+completed by Dr. Paul Metz, a registered professional geologist (Metz, 2007a&b), other studies, as
+well as information provided by local entrepreneurs, the Port Director, and other Borough staff.
+Port MacKenzie is being developed as a bulk commodities export and import center. The type of
+bulk natural resources and other cargo expected to be part of the future operations include coal,
+petroleum products, oil and gas field modules, natural gas pipeline construction, forest products,
+limestone products, and other minerals.
+
+Completion of the rail extension linking Port MacKenzie to the Railbelt will result in a dramatic
+increase in bulk commodity exports. The following potential future commodities are listed in order
+of priority for Port development based on if the commodity is anticipated in the next five years and
+the duration the commodity is expected to be handled at the Port:
+
+                2.4.1 Coal
+
+Port MacKenzie is well positioned to provide rail transport and Port facilities for the export of coal
+from the Usibelli Coal Mine in Healy. The Usibelli Coal Mine is the only active coal mine and
+current source of coal for export from Alaska. The exports from the mine have fluctuated
+significantly in recent years, with a peak market of approximately one million tons to
+approximately 400,000 tons, with an intermediate term annual average of 750,000 tons (Denton,
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 10
+2010). Currently, up to one million tons of coal is exported through the Port of Seward using a coal
+loading facility owned by the Alaska Railroad Corporation and currently operated by Usibelli Coal
+Mines, Inc. The Usibelli Mine at Healy alone has over 250 million short tons of proven coal
+reserves. In addition, the Chulitna Basin in the Upper Susitna Valley contains several billion tons
+of coal that are also provided access to tide water by the rail extension. Usibelli Coal Mine, Inc. is
+currently exploring alternatives to mine coal at Wishbone Hill near Sutton and ship it out of Port
+MacKenzie. If successful, this venture may ship up to 500,000 tons of coal per year out of Port
+MacKenzie.
+
+With rapid increases in the demand for coal in China, there is a strong market for coal in the Pacific
+Rim. The market for the sub-bituminous and low sulfur coals from Alaska is primarily for the
+power generation industries in South America and Asia (Brown, 2010). In addition, the
+construction of a coal fired power plant at the Port could lead to the need for an additional million
+tons per year of coal. Due to transportation savings associated with the rail extension and Port
+MacKenzie, it is expected that it will be economic to export a significantly greater amount.
+
+During the first five years, after completion of the rail extension, it is highly probable that at least
+an additional one million tons of coal could be transported annually over the rail extension and
+exported through Port MacKenzie. Due to the design of this relatively high speed freight rail
+extension, and the inherent transportation cost savings, the amount of coal transported over the
+extension during the second five years could be up to four million tons (Metz, 2007a).
+
+                2.4.2   Petroleum Products
+
+The development of petroleum storage facilities at Port MacKenzie to accommodate both the
+export and import of petroleum products will add additional transportation and storage capacity to
+the Cook Inlet area, as well as facilitate the transfer of fuels to and from Southwest, Interior and
+Northern Alaska.
+
+There is a growing demand for low sulfur diesel fuel in Interior and Southwest Alaska, as a
+function of mineral and energy development. This demand is associated with federally mandated
+low sulfur fuel specifications that went into effect in 2009. The new regulations require off-road
+equipment (i.e. mining operations) to only use low sulfur fuel. Flint Hills Refineries does not
+produce low sulfur diesel fuel in its North Pole refinery, and Conoco-Philips has not completed a
+low sulfur fuel refinery addition on the North Slope. Low sulfur fuel will need to be imported. It is
+expected that the rail extension will be used to transport low sulfur diesel fuel to meet Interior and
+North Slope demands. Fuel suppliers have discussed the possibilities of establishing tank farms at
+Port MacKenzie and then shipping the fuel north by rail and truck.
+
+It is estimated that at least 60,000 tons of low sulfur diesel fuel will be transported north from Port
+MacKenzie to Interior Alaska, and a similar amount to Southwest Alaska, for a total of 120,000
+tons of low sulfur fuel each year. This will begin during the first five years of operations and will
+continue to grow as more and more diesel fuel is sent north. In addition, fuel suppliers are
+considering setting up tank farms at Port MacKenzie and annually transporting 80,000 to 90,000
+tons of fuel via the rail extension to North Slope markets.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 11
+The increasing demand for petroleum products in South Central Alaska, coupled with the apparent
+lack of space for expansion of the tank farms at the Port of Anchorage, indicate that development
+of a tank farm at Port MacKenzie is likely.
+
+                2.4.3   Oil and Gas Field Modules
+
+Several corporations have discussed using Port MacKenzie to build oil and gas industry modules,
+specifically sea-lift modules. These corporations include oil companies as well as oilfield service
+industries. For example, one oilfield service company expects to supply about 24 8,000-ton gas
+compression modules for the gas pipeline project over a period of 5 years, commencing around
+2012. According to the company, these modules will be manufactured at several locations around
+the world as no single location has the resources to build all of them. The company would like to
+manufacture and ship about six of these modules out of Port MacKenzie, over a period of three to
+four years.
+
+                2.4.4   Forest Product Exports
+
+Forest product exports have been a major business activity at Port MacKenzie. The primary
+product has been wood chips for Japanese, Korean, and Taiwanese markets. This low unit value
+commodity is very sensitive to the cost of transportation from the standing forest to the Port
+facility. Transport has been by truck with economic haulage distances limited to the Susitna Valley
+region. Large timber resources occur on State of Alaska lands, Alaska Mental Health Trust lands
+and Native Corporate lands in the Tanana Basin (see Fairbanks Economic Development
+Corporation (FEDC) Prospectus, March 2007). These Tanana Basin resources will become
+economic for export through Port MacKenzie by rail, once the rail extension is complete. Total
+available resources for harvest in the Susitna Valley and Tanana Basin exceed 1.6 billion board
+feet with an estimated sustainable yield of 30 million board feet per year. It is estimated that a
+minimum of 60,000 tons per year of forest products could be exported during the first five years
+following rail extension completion (Metz, 2007b).
+
+                2.4.5   Natural Gas Pipeline Logistics
+
+Three natural gas pipeline alternatives are being considered:
+    1) TransCanada (AGIA) Denali Project – The Alaska Gas Pipeline: This 1,700-mile pipeline
+       would run from the North Slope to Calgary in Alberta, Canada with a potential 1,500-mile
+       extension to Chicago.
+    2) Alaska Gasline Project: The pipeline would be 800-miles long stretching from Prudhoe
+       Bay to Valdez, paralleling the Trans-Alaska Oil Pipeline. The project could include a spur
+       from Glenallen to the Southcentral gas grid.
+    3) Alaska Stand Alone Gas Pipeline: This 750-mile pipeline would run from the North Slope
+       along either the Parks or Richardson-Glen Highways to the Cook Inlet.
+
+Regardless which project is successful, it will be necessary to transport pipe, compressor station
+construction materials, compressor components, construction equipment, fuel, construction camps
+and camp supplies from tidewater to inland locations. The most cost effective way to transport
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                              Page 12
+these construction materials to the construction areas is by rail, as far as possible, and then by truck
+the rest of the way. In March 2007, Northern Economics completed a comparative study that
+assessed the ability of Southcentral ports to transport pipe for the proposed Alaska Highway
+natural gas line project (Burden, 2007). The study assumed an Alaskan port would be used to
+transport construction materials for the portions of the pipeline running from Prudhoe Bay, 950
+miles to Burwash Landing, Yukon Territory. Assuming the Port MacKenzie rail extension is built,
+the study concluded that Port MacKenzie would be the most cost effective port for transporting
+pipeline materials. Accordingly, Port MacKenzie and the rail extension would be used to transport
+pipeline sections and materials north.
+
+The proposed natural gas pipelines are predicated on 35 trillion cubic feet (TCF) of proven
+conventional natural gas on the Alaska North Slope. Estimated conventional resources of natural
+gas in the region exceed 200 TCF. Unconventional natural gas resources are estimated to be
+several times greater (Metz, 2007b).
+
+The market size for this Port MacKenzie business activity will vary pending the final pipeline
+route selection. However, if the Alaska Highway route is used, the Northern Economics study
+determined that 122,760 forty-foot long segments of pipe (joints), weighing 12.3 tons per joint,
+would need to be transported through Port MacKenzie during a two-year period. In addition,
+appropriate support materials, structures, fuel and supplies would also be transported on this route.
+Assuming the Alaska Highway route is used, the Prudhoe Bay to Burwash Landing pipeline
+segment alone would account for about 1.6 million tons of rail freight over the first two years of
+pipeline construction. Additional freight tonnage of 320,000 tons would be accounted for by other
+construction materials, fuel and supplies.
+
+                2.4.6   Value-Added Natural Gas Processing
+
+When a natural gas pipeline is built, the possibility of a natural gas fractionation plant at Port
+MacKenzie has been discussed. This would provide an anchor industry for the Port. Natural gas
+would continue to be transported to the port and products from the fractionation plant would be
+exported as well as used in Alaska.
+
+It is also possible that petrochemical facilities could be built at Port MacKenzie. The products from
+a world-class petrochemical complex would include methanol, ethylene, polyethylene,
+ethylbenzene, ethylene glycol, Styrofoam, alpha olefins, ethylene dichloride, ammonia, urea and
+caustic soda. In addition to the gas liquids from the Alaska natural gas pipeline, benzene and water
+are necessary inputs. Benzene could be produced at the Flint Hills Refinery in Fairbanks and
+transported by rail to the Port.
+
+Meeting the energy requirements for petrochemical production would necessitate a large power
+generation plant. Production rates of a petrochemical plant would depend on the volume of natural
+gas transported via pipeline from the North Slope. A proposed 4.5 billion cubic feet per day
+pipeline would result in about 13 million tons of petrochemical products that would require 450
+vessels a year to export (Metz, et. al., 2004).
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                  Page 13
+                2.4.7   Limestone Products
+
+The Globe Creek limestone deposit, located approximately 38 miles north of Fairbanks, is the
+largest known high-quality limestone deposit in Alaska and contains an estimated 1.6 billion tons
+of high-purity limestone.
+
+Limestone contains the essential materials for the production of lime (calcium oxide) and Portland
+cement (hydrated calcium and aluminum silicates). The economy of scale of lime production is as
+small as 100 tons per day, while the economy of scale of Portland cement is at least 10 times larger.
+Neither of these products is produced in Alaska, thus local needs are met with imports from either
+the contiguous states or other countries. Current markets for lime in Alaska include: metal mining,
+water and wastewater treatment, and oil well completions.
+
+Lime transported by rail from north of Fairbanks could be more economical to barge from Port
+MacKenzie to Southwest and Northwest Alaska than lime currently imported from British
+Columbia. It is possible that lime will be produced in kilns 10 miles north of Fairbanks and
+transported through Port MacKenzie during the first five years of rail operations.
+
+It is expected that eventually cement will also be manufactured at the limestone site and exported
+through Port MacKenzie. The export of cement would involve the transport of much larger
+tonnages. Limestone products are used to help maintain water quality for waters associated with
+mining operations. Limestone products will be exported across the rail extension through Port
+MacKenzie for use in Southwest Alaska, in villages and cities, and major mining operations such
+as Pebble, Red Dog, or Donnelly Creek (Metz, 2007a). Though the current market for Portland
+cement in Alaska is small compared to the minimum economic sized operation, Alaskan produced
+cement would primarily be for export.
+
+                2.4.8   Other Minerals
+
+The rail corridor from Port MacKenzie to the Fairbanks area transects several mining districts and
+metal-rich geologic provinces (Metz, 2007a). Mineral deposits and mineral occurrences are found
+as clusters of mineralization referred to as mining districts. These mineralized clusters include
+copper, molybdenum, antimony, and lead that are generally transported as mineral concentrates
+rather than as intermediately refined metals such as dore bars of gold. Metallic minerals that will
+likely be transported by rail through Port MacKenzie include antimony, copper, lead,
+molybdenum, silver, tin, tungsten, and zinc. The 2007 Economic Analysis of Rail Link (Metz),
+includes estimates of the freight associated with the future mines. The annual expected rail freight
+load ranges from 9 to 21 million tons. Thus, it is expected that mineral concentrates will eventually
+be the largest commodity export.
+
+        2.5     The Cook Inlet Ferry System and other Passenger Ships
+The Borough expects to commence daily ferry services soon utilizing the Borough-owned M/V
+Susitna. The ferry is capable of carrying 20 vehicles and 114 passengers. While not directly
+affecting cargo operations at Port MacKenzie, the primary benefit of the ferry service would be to
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                Page 14
+significantly reduce the travel time from Anchorage to the Port District, and provide potential
+entrepreneurs and industrialists an economic incentive to establish offices in the Commercial
+District at the Port. The Borough’s tourism industry could benefit from small and large ships
+docking at Port MacKenzie.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                          Page 15
+3.      Land Use
+
+        3.1     Existing Conditions
+Port MacKenzie is divided by the east-west trending Point MacKenzie Road. This division has
+generally been used to separate heavy industrial uses to the south from the commercial and light
+industrial uses that will locate north of the road.
+
+The Knik Arm Bluff runs north-south along the waterfront with average bluff elevations over 100
+feet. West of the bluff is a ridge that runs north-northwest. Lu Young Lane is on the east side of the
+ridge at the top of the bluff. Rail service will be available south of Point MacKenzie Road west of
+the ridge and docks. Land at the top of the bluff, closest to the docks, is reserved for marine/rail
+industry including bulk material processing, storage, and transfer. Marine/rail-related industry
+requires sites within close proximity to water bodies due to functional dependencies on the
+industrial activity for direct access or for linkages to waterborne products or processes.
+
+A major ridge system occurs north, east, and west of Lake Lorraine.
+
+The Port District is currently comprised of four zoning districts per MSB 17.23:
+    Waterfront Dependant District (WDD);
+    Port Industrial District-I (PID-I);
+    Port Industrial District-II (PID-II); and the
+    Port Industrial District - Interim Materials District (PID-IMD).
+
+This plan replaces the Port Industrial District – Interim Materials District with Port Industrial
+District – I. The primary land use in this district consists of clearing, grading and excavating in
+preparation for the bi-modal road project. This temporary district includes 320 acres of land that
+will revert back to PID-I when material extraction activities have ceased. Earth material extraction
+should be an allowed use with standards in the Port District.
+
+Near term infrastructure development has led to re-evaluation of the layout of the existing districts.
+
+This plan also incorporates two new districts:
+    Port Commercial District (PCD)
+    Port Conservation District (PCVD).
+
+The updated districts are illustrated on Figure 3. The Port District encompasses land use districts
+(zoning) some of which are further divided into subunits. The locations of the different land use
+districts within the Port District are described below.
+
+WDD occupies the southeast corner of the Port District and includes tidelands and the docks.
+PID-I includes the uplands closest to the docks, the land along rail, and two areas north of Point
+MacKenzie Road reserved for future heavy industrial uses. PID-II lies back from the existing roads
+and the railway and includes land identified for industrial activities not directly dependant on the
+rail or docks that still benefit from the proximity to tidewater and the railroad. PCD occurs around
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 16
+Lake Lorraine and includes land north and east of the lake. Existing and future land uses within
+each land use district are described below.
+
+                              Figure 3. Future Land Use Districts
+
+
+
+
+        3.2     Waterfront Dependant District (WDD)
+The Waterfront Dependant District includes 1,239 acres of tidelands and submerged lands owned
+by the Borough.
+
+The plan for this area is to locate those waterfront uses that are necessary to operate a
+commercial/industrial port. Land activities in this area shall be directly related to a water activity
+and require navigable channels and specialized facilities at the land-water interface.
+
+Land Use
+This district includes the 16-acre open-cell barge dock with a 500-foot bulkhead barge dock and a
+1,200-foot trestle pier deep-draft dock extending offshore (see Figure 4 below). The barge dock is
+available for temporary uses such as staging of material during import or export or final assembly
+of modules. The deep-draft dock can accommodate both Panamax and cape-sized vessels. Due to
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 17
+the limited space available this asset must be managed carefully to maximize its water-dependant
+utility. A transportation route from the deep-draft dock across the barge dock to Lu Young Lane
+must be reserved for truck traffic transporting freight on and off vessels.
+
+Dock Design and Expansion
+Plans are in place for the expansion of the deep draft dock that includes a new trestle. An additional
+trestle will allow for more rapid transport of cargo on and off vessels. The current dock design and
+plans for expansion are illustrated on Figure 4. Expansion of the docks will be necessary as use
+increases.
+
+Small Ship Repair and Inspection
+The addition of a future ship repair and inspection facility can easily be added as an addition to the
+existing dock areas. A single berth dry dock rack can be added south or north of the barge dock.
+However, the south side of the barge dock has been identified as essential for loading sea-lift
+modules onto barges.
+
+Cook Inlet Ferry System
+The Cook Inlet Ferry System will connect the communities of Cook Inlet via water.
+Matanuska-Susitna Borough residents will have an alternative to driving to Anchorage. Anchorage
+residents will quickly access Port MacKenzie and the State’s new medium-security prison. The
+ferry is also expected to provide transportation for the Port workforce as well as freight, vehicle
+transport, and passenger service to the village of Tyonek and the City of Kenai. The ferry system
+will greatly enhance the Borough’s efforts to develop the marine port and industrial complex at
+Port MacKenzie.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 18
+                                    Figure 4. Dock Expansion
+
+
+
+
+In the near term, ferry traffic arriving to board at Port MacKenzie will be routed to a queuing area
+where Don Young Road turns south along the bluff. The Port MacKenzie Layout Drawings in
+Appendix A show the ferry traffic queuing area. The general public and ferry traffic will be
+directed by signage to a security post where Point MacKenzie Road ends and Don Young road
+begins. The Security Gate will prevent traffic from proceeding along Don Young Road to the
+dock. At the security gate public traffic will be directed to a parking and ferry vehicle queue area.
+At the parking area, visitors can utilize a scenic viewing area located at the top of the bluff that
+provides a panoramic view of the Port MacKenzie docks, Knik Arm and the City of Anchorage.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                Page 19
+Ferry Terminal and Dock
+A 7,000-square foot ferry terminal building was constructed
+at the southeast end of the barge dock. The terminal will be
+used for ferry passenger ticketing and office space for Port
+business. Design for a ferry dock is complete. This project
+will consist of a fender barge and a support barge with a
+bridge connecting to the barge dock (inset to the right).
+
+
+
+
+        3.3     Port Industrial District - I (PID-I)
+The Port Industrial District – I is a largely undeveloped rail and marine industrial area of great
+importance to the region’s economic base. This Port Master Plan seeks to preserve and protect this
+unique coastal resource by limiting uses to strictly marine/rail-oriented industrial ones. This plan
+continues the existing marine/rail-oriented industrial uses and supports the development of
+available vacant land with similar uses in order to provide a homogenous industrial climate with an
+assured, reasonable long-term growth potential.
+
+The Port Industrial District – I is reserved for industrial uses that require close proximity to the
+marine terminal and railroad.
+
+Port Industrial District – I Planning District Subunits
+The Port Industrial District – I consists of 3,047 acres of land. The plan for this area is to retain and
+continue marine/rail-related industrial uses. To facilitate description of the existing and future
+uses, portions of this planning district have been divided into the following subunits illustrated on
+Figure 5:
+
+       Rail Loop Subunit;
+
+       Rail Corridor Subunit; and the
+
+       Northern Subunit.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                   Page 20
+                                     Figure 5. PID-I Subunits
+
+
+
+
+                3.3.1 Rail Loop Subunit
+
+This subunit is comprised of 1,573 acres around a future rail loop and will contain the various
+industries that relate to the rail loop and marine terminal (see Figure 6).
+A 30-acre area has been cleared at the end of S. Lu Young Lane, uphill from the dock. The area
+includes two 20,000-square foot storage warehouses, a paved, five-acre bulk material storage and
+loading area, and a 60-inch wide, 3,000-foot long privately owned conveyor system. The elevated
+conveyor system extends from the bulk material stockpile area down to the docks.
+
+A modular facility construction plant is located on a sixteen-acre cleared area, south of Point
+MacKenzie Road across from Lake Lorraine. Approximately 30 acres west of the modular
+construction plant has been cleared and used as a sand and gravel source.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                           Page 21
+                             Figure 6. PID-I: Rail Loop Subunit
+
+
+
+
+The rail loop is designed to handle 100-car unit trains hauling bulk materials. The interior of the
+rail loop contains about 80 acres reserved for bulk material handling. Expanded rail facilities are
+anticipated to serve bulk fuel storage, value added gas processing and storage, and other future
+industrial uses in the area. Bulk commodities will be off loaded and stored within and adjacent to
+the rail loop. Multiple car unloaders are anticipated to accommodate a variety of commodities.
+
+The Port MacKenzie Layout Drawings in Appendix A illustrate the anticipated future layout of
+land uses, utilities, and the surface transportation network.
+
+Cargo operations in this subunit are expected to continue and expand with additional area used for
+staging exports and providing for imported commodity storage. Water linked uses should be
+located in this subunit along the material handling corridor or road system. Expected uses are
+noted below:
+
+Coal
+An area suitable for the projected volume of coal delivered via truck has been identified adjacent to
+the rail loop nearest the marine terminal. A similar area within the rail loop has been identified for
+the projected volume of coal to arrive by train. The size and location of both areas were developed
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 22
+based on discussions with several representatives from Usibelli Coal (Denton, 2010) and the
+recommendations of an engineer specializing in bulk material movement (Hoggan, 2010).
+Expansion of the conveyor corridor to service the interior of the rail loop as well as the area
+identified for truck coal will include additional conveyor belts.
+
+Mineral Concentrates and Other Bulk Commodities
+Multiple commodities can be off-loaded from trains and stored inside the rail loop. Area within the
+rail loop has also been identified as future stockpiling areas for coal, limestone products, mineral
+concentrates or other bulk commodities yet to be identified. Land immediately northeast of the rail
+loop has been identified for additional bulk package/material storage to serve the existing and
+anticipated mines in Interior Alaska (see Appendix A). This area is for ore concentrate containers
+such as copper, zinc and lead.2 This area can be used for expanded petrochemical product
+handling and storage, truck coal, cement, gravel or other products that are associated with truck or
+rail.
+
+Petroleum Products
+Tank farm area has been identified for bulk petroleum product storage immediately north of the
+rail loop3. Locations for pipeline, valve yards, truck, rail, and vessel loading racks are illustrated
+on the Port MacKenzie Layout Drawings in Appendix A. It is anticipated that both deep-draft
+vessels and barges will be loaded and unloaded with petroleum products and the location is close
+enough to meet this need. The proximity of the tank farm to the rail loop also allows for the loading
+or unloading of a unit train with petroleum products.
+
+Two areas are identified for future value-added natural gas processing facilities. One is north and
+east of the tank farm area. This area is suitable for a natural gas processing and liquefaction plant
+that would require about 60 acres.
+
+A large petrochemical complex, which could process the natural gas into a host of industrial
+chemicals, would require about 100 acres. This area has been identified at the western edge of this
+planning subunit.
+
+Pipeline Logistics
+Several lease areas have been identified as suitable for import and processing of the pipe and
+associated materials required to construct a natural gas pipeline. The lease area labeled
+fabrication on the Port MacKenzie Layout Drawings in Appendix A is tentatively identified as the
+location for pipeline logistical support. Prior to pipeline construction use, the fabrication area
+could be used for initial sea-lift module fabrication before final assembly on the barge dock.
+
+
+
+
+2
+  An engineer specializing in bulk material handling from mines to tidewater assisted in determining the acreage
+necessary to support the anticipated volume of future cargo, which is reflected in the areas set aside for bulk material
+storage.
+3
+  Tank farm location was based on interviews with potential future port users as well as an evaluation of the Port of
+Anchorage operations.
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                                 Page 23
+Transportation and Logistical Support
+The area adjacent to the eastern boundary of the potential pipeline logistics site has been identified
+as suitable for transportation and logistical support.
+
+Ferry Queuing
+A scenic outlook at the beginning of the hill down to the marine terminal has been identified for
+ferry traffic queuing.
+
+                3.3.2 Rail Yard Subunit
+
+This subunit, shown to the right, is comprised of about 215 acres which are currently undeveloped
+except for Point MacKenzie Road and the electric and telephone utilities. Rail-dependent
+development is anticipated in this subunit. This area will be occupied by a large number of
+transportation related uses
+such as roads and railroad
+switching     yards.    This
+Master Plan calls for
+continuing the rail-oriented
+activities. The anticipated
+primary land use will be an
+Alaska Railroad rail yard.
+An alternate location is
+under consideration for the
+Rail Yard subunit which is
+shown in the surface
+transportation         board
+environmental        impact
+statement for the rail
+extension.
+
+A parking lot south of Point MacKenzie Road is currently used for winter access to Figure Eight
+Lake as well as private property south of the Port District. The parking lot may be relocated so it
+does not conflict with the marine/rail-industrial uses of the Port.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 24
+                3.3.3 Northern Subunit
+
+This subunit is comprised of
+356 acres and is bisected by
+high-tension             power
+transmission lines (inset to the
+right). The remaining land
+with     this    subunit       is
+undeveloped. The southern
+portion of the subunit (~100
+acres)    north     of    Point
+MacKenzie Road and south of
+the Knik Arm Bridge
+easement has been identified
+as suitable for a power
+generation plant. Other heavy
+and light industrial uses that
+do not require direct access to
+docks should locate here. A
+rail spur may be developed
+into this area. The easement
+for the Knik Arm Bridge
+passes through the northern
+half of this subunit. In
+addition, a quarter mile noise
+and lighting buffer exists
+along the inside of the western
+boundary of this subunit. The
+remainder of this subunit is suitable for other industrial processes.
+
+        3.4     Port Industrial District - II (PID-II)
+The Port Industrial District – II consists of 3,095 acres of land in three separate areas. About 624
+acres lie along the bluff including the Knik Arm Bridge up to the northern boundary of the Port
+District. About 2,390 acres encompass the southwest corner of the Port District. About 140 acres
+of this district contain the intersection of Point MacKenzie Road and the Knik Arm Bridge Road.
+The plan for these areas is to locate commercial and industrial uses that do not require close
+proximity to the docks or railroad, such as general manufacturing. An area within this district has
+been identified as suitable for a large petrochemical storage and processing facility, directly west
+of the rail loop. Transient commodity storage is anticipated to occur south of Point MacKenzie
+Road just inside the Port District Boundary. A quarter-mile noise and lighting buffer along the
+inside of the northern and northwestern boundaries of the Port is also included in this land use
+district.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                               Page 25
+        3.5     Port Commercial District (PCD)
+The Port Commercial District includes about 1021acres around Lake Lorraine, extending to the
+northeast. The plan for this area is to locate commercial and light industrial uses not related to the
+marine terminal or railroad, incineration or transient storage. The boundaries of this district are
+shown on Figure 3. Land in this district is primarily undeveloped. A loop road is planned around
+Lake Lorraine to service the commercial district. Land use within the loop will be restricted those
+uses commonly found in a business/industrial park. Commercial and light industrial uses are
+allowed within this district.
+
+Commercial Offices
+Commercial office uses are tentatively planned for the land surrounding Lake Lorraine. Lake
+Lorraine is an ideal area for employee open space to be incorporated with offices. Corporate and
+general lease office space will serve as a picturesque setting for Port related businesses. The
+construction of the Knik Arm Bridge will further enhance the value Port Commercial District.
+Though this is set aside for Port-related commercial business and office uses, it is openly
+acknowledged that it is in close proximity to heavy industrial activities and that off-site effects of
+the industrial activities such as noise are an accepted component of the area. A 200-foot, no
+development, buffer zone around the circumference of the entire lake ensures that the water’s edge
+will be maintained in its natural state.
+
+Foreign Trade Zone
+A tax free industrial and manufacturing area is identified northeast of Lake Lorrain to provide a
+secure area that businesses can bring materials into the ‘Free Port’, provide assembly and value
+added services, and then export the finished items through the Port without incurring value added
+taxes. The Point MacKenzie Freeport Center would provide manufacturing, warehousing and
+distributing facilities to serve the Pacific Rim. As a separately controlled security area, the
+Freeport center will meet all necessary customs and quarantine requirements.
+
+        3.6     Port Conservation District (PCVD)
+The boundaries of this district are shown on Figure 3. The 1,753 acres of land in this district are
+primarily wetlands with little or no development at this time. The intent is to preserve, maintain
+and enhance natural habitat areas so that biological productivity will be sustained. The primary
+feature of this area is Mule Creek in the northern most portion of the district. Mule Creek is listed
+in the Alaska Department of Fish and Game Catalog of Waters Important for the Spawning,
+Rearing or Migration of Anadromous Fishes as a salmon-bearing stream used by Coho for
+spawning and rearing. The intent of this district is to set aside high-value wetlands to be used as
+mitigation for Port-related development projects.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 26
+4.      Transportation
+
+        4.1     Introduction
+This chapter addresses the existing and future transportation facilities and traffic to integrate the
+transportation needs of the Port District into a regional context.
+
+The Port, as an intermodal facility, requires unimpeded access to the surface transportation system
+beyond the Port District. Port traffic is largely industrial with a subset of public traffic utilizing
+the Cook Inlet Ferry System or accessing nearby private property.
+
+                4.1.1   Existing Conditions
+
+West Point MacKenzie Road, as a major arterial, is the primary access road for the Port entering
+the Port District from the west and heading east for about three miles. The route becomes Don
+Young Road at a four-way intersection and continues 1.5 miles to the docks.
+
+South Lu Young Lane, a minor collector, provides access to lease lots on the land above the
+docks. The roadway is about one mile long and heads south from the four-way intersection
+terminating at a private gate to the south of the NPI lease area. This roadway is currently used by
+industrial truck traffic to transport bulk materials to a 22-acre bulk material storage area.
+
+South Grain Terminal Access Road, a minor collector, extends about three-quarters of a mile
+northeast from the four-way intersection ending just outside the Port District at the Knik Dock, a
+privately owned parcel.
+
+The Bi-Modal Bulk Facility (BMBF), a minor collector, located approximately one mile
+northwest of the docks, includes a 1.7-mile-long roadway and an adjacent bulk material storage
+pad of approximately 82 acres. The road provides connectivity between Point MacKenzie Road
+and South Lu Young Lane and segregates heavy inbound trucks from traffic to the docks.
+
+        4.2     Transportation Trends
+Significant growth and development are anticipated over the next ten years in the Point
+MacKenzie community. While less than 300 people are currently estimated to live in the
+community, the development of the Cook Inlet Ferry system, construction and operation of the
+Goose Creek Correctional Center, and connecting the Port to the Alaska Railroad will continue to
+create and sustain jobs which will lead to a local population boom. A conservative annual
+population growth rate used in the MSB build-out analysis for the Point MacKenzie community is
+eight percent.
+
+The primary mode of travel in Point MacKenzie is by road. In the next five to ten years, bus and
+share-a-ride van pools will be used for transit services to and from the Port and area businesses.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 27
+Traffic count data was available for two points along Point MacKenzie Road: one south of the
+intersection with Holstein Avenue, the other south of Alsop Road. Table 4.1 lists the traffic data
+(1999-2009) for Point MacKenzie Road south of the intersections with Ayrshire Avenue, Holstein
+Avenue and Alsop Road. The data indicate traffic is growing on Point MacKenzie Road. The
+significant increases in traffic volume are related to development projects at the Port.
+
+                               Table 4.1. Traffic Count Data
+                       Pt MacKenzie Road Traffic Counts
+                       Location        1999 2000 2003 2009
+                       S. of Holstein 53        65     211    -
+                       S. of Alsop        -      -      -    323
+                     - means no data available
+
+Increasing local population, increasing industrial traffic, operation of the correctional center and
+ferry traffic are all expected to result in an increased number of vehicles using Point MacKenzie
+Road. Insufficient data exists to project traffic growth rates on Point MacKenzie Road.
+
+Additional data is required to determine the average daily traffic count for the Port District.
+
+        4.3     Multi-Modal Opportunities
+The Port MacKenzie transportation network is designed to incorporate multiple modes of travel
+and freight/bulk material transportation. Upgrades to existing conditions, an understanding of
+regional transportation trends, and infrastructure requirements of future industrial activities assist
+in facilitating multi-modal transportation opportunities. The transportation system is designed to
+be multi-modal, containing roads, rail, marine, and pipeline/conveyor transportation elements.
+
+The Bi-Modal Bulk Facility (BMBF) is critical in providing multi-modal transportation
+opportunities to aid the development of Port MacKenzie as a major exporter of bulk commodities.
+The BMBF includes 82 acres of bulk material storage. Aggregate storage pads will be serviced
+primarily by truck during the initial stages of operation. The facility has 1.7 miles of roadway that
+provide connectivity with Point MacKenzie Road and South Lu Young Lane.
+
+As a world-class export facility, shipping operations are more dependent on rail as the principal
+bulk materials delivery method. The element of the Port MacKenzie transportation system that
+stitches together multi-modal opportunities are the intermodal transfer connections. These
+intermodal transfer connections consist of internal roadways, rail lines, pipelines and conveyor
+systems for bulk commodities and liquid products, a barge dock, and a deep-draft dock to import
+and export materials from Port MacKenzie. A fully-developed multi-modal port will serve as a key
+transportation asset for the state of Alaska and positions the Port District to attract significant new
+private investment and employment opportunities.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 28
+        4.4     Rail Service
+The forthcoming Port MacKenzie Rail Extension connects the Port District to the Alaska Railroad
+Corporation mainline system. With about 40 miles of new rail, the rail extension will terminate in
+a loop enclosing approximately 78 acres for storage of bulk commodities, such as coal, limestone,
+aggregates, and other minerals resulting in greatly increased industrial activity.
+
+The loop was designed to accommodate storage of multiple bulk commodities. At least two bulk
+material car unloaders will be needed: one for coal and one for limestone. A location for a bulk fuel
+loading and unloading system has been identified adjacent to the tank farm located along the rail
+loop. This facility will provide piping, pumps and discharge equipment to fill rolling stock tank
+cars for fuel delivery. The location is designed to supply a 100-car train with bulk fuel without
+having split to the train load.
+
+Parcels ideal for industrial manufacturing and fabrication operations which are not dependant on
+proximity to tidelands will be serviced by a combination of rail and roadway elements. As the Port
+develops, various rail spurs will be constructed as offshoots of the rail extension project. These
+spurs are anticipated to service industries largely dependent on rail as a primary mode of
+transporting material and products. Areas identified as fabrication, modular fabrication, bulk
+aggregate storage, tank farm, and gas-derived products can be served with multiple rail spur
+extensions. An alternative rail configuration is shown on the layout drawing for the 15+ year time
+interval labeled Option B. The Option B rail configuration includes a larger, second rail loop to the
+north of the small, teardrop loop. Actual configuration of rail within the Port may be a combination
+of both spurs and a second loop.
+
+        4.5     Truck Service
+In the near term, trucking will serve as the primary method for moving bulk commodities and other
+materials in and out of the Port District. The Port offers various routes to facilitate efficient
+transport. Heavy industrial vehicle trips are distributed depending on the type of material being
+transported and the delivery schedules of such materials. Shipments scheduled to be directly
+loaded on a barge or staged on the barge dock access the docks by traveling on Don Young Lane.
+An additional 22 acres has been identified as suitable for coal storage transported by trucks that are
+accessed by South Lu Young Lane. This route will offer direct access to bulk commodity storage
+areas where material will be stored and delivered to ships by conveyor.
+
+        4.6     Traffic Circulation
+Efficient and safe traffic circulation is predicated on an understanding of the trips generated from
+overall Port activities. The Bi-Modal Bulk Facility serves as an initial conduit for distributing bulk
+commodity truck traffic from other industrial material shipments accessing the docks.
+
+Ferry traffic bypasses the BMBF and continues on Port MacKenzie Road to the ferry traffic
+queuing area. While some industrial traffic will continue to utilize Port MacKenzie Road as a
+means to access the docks, industrial traffic will be controlled to mitigate conflict between private
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 29
+vehicles and heavy industrial traffic. Traffic signals at the ferry queuing area and ferry terminal
+will be installed when necessary.
+
+This Master Plan recognizes the existing section line easements that occur in the Port District as
+legal access to privately owned land in and around the District. Any vacations of section line
+easement will require provision of adequate alternate access and Borough support.
+
+As land around Lake Lorraine develops as a commercial district, traffic generated from various
+professional, commercial and office-related land uses will also be distributed prior to entering the
+industrial districts. A road network is designed to surround Lake Lorraine which will be accessed
+from Point MacKenzie Road. This second-tier road network will provide on-site circulation to
+individual lease lots within the Port District.
+
+The Knik Arm Bridge and Toll Authority (KABATA) easement was used for planning purposes to
+design a roadway that conveniently and efficiently bypasses the commercial and industrial
+districts of the Port. Although heavy industrial, light commercial and recreational traffic will
+access Port MacKenzie Road, trips generated from the Kink Arm Bridge will be redirected prior to
+entering both the commercial and industrial boundaries of the Port (Frazier, 2010).
+
+        4.7     Ferry Landing
+The Ferry Landing and Ferry Dock will be accessed from Don Young Lane. The M/V Susitna has
+the capacity to hold 20 vehicles per one-way trip. A scenic outlook at the beginning of the hill on
+Don Young Lane has been identified for ferry traffic queuing. A pilot car may be used to
+efficiently distribute traffic to and from the ferry. A south port access road may be developed to
+provide an alternative access for ferry and recreational traffic to bypass the industrial land uses of
+the Port District.
+
+        4.8     On-Site Circulation
+On-site circulation focuses on the design of access connections serving site development and the
+relationship between site circulation and access to the abutting roadway. Roadway functions,
+access hierarchy and the principles of safe and efficient access should be considered to promote
+well-organized transportation development of the Port District. Level of Service (LOS)
+classifications for the road network will determine the right-of-way required to design a circulation
+system capable of establishing safe and efficient on-site circulation patterns. Guidelines should be
+drafted to include driveway operations for various commercial and industrial activities, including
+ingress/egress maneuverability and speed, throat length and driveway geometrics.
+
+Proper on-site circulation design is achieved when three major elements – access location and
+design, site circulation and parking, building footprint and location – are integrated into the overall
+development plan. Site circulation directly affects the safety, traffic operations and the assigned
+LOS functional of the street system. Good site circulation is necessary to protect the integrity of
+the public streets. Driveways should allow for sufficient stacking distances to meet the needs of
+tenant operators. Leasees shall provide adequate on-site parking and adequate space for loading
+and unloading at all times.
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 30
+        4.9     Future Transportation Improvements
+Future transportation improvements will be necessary to facilitate efficient and safe multi-modal
+surface transportation of vehicles, people, and commodities. The Borough will pursue geometric
+roadway improvements such as widening for anticipated roadway and utility expansion,
+potentially adding roundabouts or signals to high volume intersections, and/or adding turning
+lanes. These improvements will be required to mitigate the traffic impacts from homogenizing
+industrial, commercial, and recreational traffic usage and maintain required Level of Service
+(LOS) grades for Port MacKenzie roadways. Roadway LOS is a measure of roadway congestion
+ranging from LOS A (least congested) to LOS F (most congested). The LOS grading structure is a
+qualitative assessment heavily based on rate of speed and travel distances. LOS is one of the most
+common terms used to describe how "good" or how "bad" traffic is projected to be along a
+particular roadway in a defined geographical area. LOS serves as a benchmark to determine
+whether transportation improvements for Port MacKenzie will comply with existing LOS grades.
+
+Future transportation improvements should also consider Volume to Capacity (V/C) ratio in
+conjunction with LOS grades to develop an appropriate and proficient surface transportation
+system. The V/C ratio is a measure of traffic demand on a facility (expressed as volume) compared
+to its traffic-carrying capacity. Traffic volumes of a particular roadway are generally expressed as
+average daily traffic (ADT) or vehicle per hour (VPH) for a specific street segment. Potential
+choke points due to future rail service, transportation of modular products via heavy trucks and
+peak ferry traffic may indicate that a roadway facility is operating at or near capacity. Port traffic
+moving at an acceptable rate of speed will perform at suitable LOS grades. However, segments of
+the transportation system may indicate the facility is operating at or near capacity despite
+acceptable LOS grades. In-road traffic counting loops should be installed to provide long-term
+data for use in determining need for future improvements.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 31
+5.      Facilities/Utilities
+
+        5.1     Introduction
+This chapter addresses the existing and future facility and utility needs for development of Port
+MacKenzie. Utilities, as a group, include emergency/fire suppression, potable water, wastewater,
+storm water systems, electrical service, pipelines, conveyors, and natural gas. The availability of
+such utilities and facilities will encourage the development of Port MacKenzie for large-scaled
+industrial, manufacturing and commercial uses. Utility layout is shown in the Port MacKenzie
+Layout Drawings in Appendix A. All utilities should be buried when crossing public roads and
+railways to allow for unfettered movement of tall freight.
+
+An important consideration for future utility and facility requirements is the estimation of potential
+industrial, manufacturing and commercial activity. Utility and facility needs can be estimated by
+the overall utility usage of certain land uses and the distribution and intensity of these uses.
+
+        5.2     Ferry Terminal Building
+A 7,000-square foot ferry terminal building was constructed in 2006 at the southeast end of the
+barge dock. The ferry terminal building includes ticketing counters, waiting areas, office space,
+storage, restroom areas, and will offer a fast commute for contractors working at Port MacKenzie.
+
+        5.3     Security Posts
+A security post has been identified at the termination of Port Mackenzie Road. The general public
+and ferry traffic will be directed by signage to a security post at the beginning of Don Young Road.
+The Security Gate will control traffic proceeding along Don Young Road to and from the dock.
+At the security gate, public traffic will be directed to a parking and ferry vehicle queuing area. A
+pilot car may be used to direct ferry traffic from the queuing area to the M/V Susitna. Locations for
+future security posts are illustrated on the Port layout drawings in Appendix A.
+
+        5.4     Deep-Draft Dock
+Port MacKenzie contains a fully integrated and operational deep-water marine port with a 1,200’
+deep-draft dock. The deep-draft dock, with -60 MLLW, is capable of handling the world’s largest
+vessels. The deep-draft dock is equipped with a conveyor system capable of loading bulk
+commodities at up to 2,000 tons/hour. An additional trestle will allow for more rapid transport of
+cargo on and off vessels. The design will also allow for roll-on/roll-off containers. Future
+development of the deep-draft dock must accommodate fuel and cement loading and unloading.
+
+        5.5     Barge Dock
+The 16-acre open-cell barge dock has a 500-foot bulkhead barge dock with a Depth to MLLW at of
+-20. Expansion of the barge dock to the south should occur to assist with loading large modules.
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 32
+Space for loading and unloading racks for liquid petroleum and liquefied natural gas should be
+established in the near term.
+
+        5.6     Conveyors
+A 3,000-foot long, 5-foot wide, privately owned elevated conveyor system extends from the
+22-acre bulk material stockpile area down to the deep-draft dock. Expansion of the conveyor
+corridor to service the interior of the rail loop as well as the area identified for truck coal will
+include additional conveyor belts. This expansion will allow bulk commodities to be loaded at a
+higher volume per hour. The existing conveyor was designed to accommodate a second conveyor
+on the same support structures.
+
+        5.7     Pipelines
+Pipelines are a necessary component of Port infrastructure. Pipelines will be constructed on the
+east and south sides of the tank farm to facilitate the loading and unloading of bulk fuel shipments
+onto both rail tankers and tanker trucks. The pipeline corridor is designed to follow the rail loop
+and continue eastward on the south side of the bulk material storage area. Pipelines will follow the
+conveyor utility corridors and access the barge dock and deep-draft dock to allow for loading and
+unloading of fuel onto ships. Multiple pipelines will be constructed to permit the loading and
+unloading of not only bulk liquid products but also bulk cement, liquefied natural gas and other
+liquid petroleum products.
+
+        5.8     Potable Water
+In the near term, incremental development of industrial land uses will require the construction of
+onsite well systems for potable water. As the Port develops into a world class export facility,
+placement of storage tanks, treatment facilities, pumping stations and piping need to be carefully
+considered in the overall facility and utility evaluation. The demand for potable water will be
+evaluated based on the composition of commercial and industrial land uses compared to the
+consumption of each type of use. Placement of potable water systems will be evaluated based on
+industrial density, soil composition and the topographical features of the Port District.
+
+        5.9     Wastewater Management
+Development of industrial land uses will utilize onsite septic facilities for wastewater
+management. Continuous development of industrial and commercial uses will require the
+construction of large-scale treatment facilities to efficiently manage wastewater. Location of
+treatment plants, pumping stations, and possibly irrigation land (to meet federally mandated
+tertiary treatment standards) must be identified and planned to meet local demand.
+
+        5.10 Storm Water Management
+Storm water is the surface runoff that results from rain and snowmelt that flows over land or
+impervious surfaces. Development at Port MacKenzie will alter the land’s natural retention and
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                               Page 33
+absorption capabilities. An increase in industrial and commercial activity will introduce a host of
+pollutants (i.e., sediment, oil, grease, metals, salt, pathogens and/or other toxins). These pollutants
+can accumulate on impervious surfaces such as rooftops, roads, storage areas and parking lots
+which can be picked up by storm water runoff as it moves across these surfaces. Uncontrolled
+storm water discharges from Port activities can negatively affect water quality, elevate pollutant
+concentrations and change natural hydrologic patterns.
+
+The state’s approved program is called the Alaska Pollutant Discharge Elimination System
+(APDES) Program. The APDES storm water permit requirements are based largely on a
+pollution-prevention approach. The most effective storm water management techniques
+emphasize preventing rain and snowmelt from coming into contact with pollutants and preventing
+discharges directly to nearby receiving waters. APDES storm water permits require operators of
+permitted activities or systems to use best management practices (BMPs) designed to effectively
+protect water quality for their particular site conditions and activity. BMPs include ditches, curbs,
+gutters, man-made channels, storm drains, storm sewers and similar means of collecting or
+conveying runoff that do not connect with a wastewater collection system or treatment plant.
+Development of the Port District shall utilize BMPs for the facilitation of storm water management
+systems.
+
+        5.11 Electric
+Two high-voltage electric transmission lines (230 kilovolt) enter the Port District from the
+southwest heading northeast. The lines turn north after crossing Point MacKenzie Road and
+branch once to the east where a buried transmission line crosses the Knik Arm to Elmendorf Air
+Force Base.
+
+Three-phase electric power is available along Point MacKenzie Road to the barge dock. The lines
+are buried the last 2.3 miles. Matanuska Electric Association currently supplies electric power to
+the Port District via a substation and multiple 13.8 kV overhead lines. Although this power output
+is sufficient for the demands of current operators, incremental development will require additional
+electrical power loads. Electric service requirements will be determined by the electrical demand
+of future land uses. The location for future substation development and easement is illustrated in
+Figure 7.
+
+Lake Lorraine Sub-Station
+As development occurs, electric power use will need to maintain capacity to power individual
+industrial and commercial uses within the Port District. A substation should be pursued as a top
+priority to encourage the development of industrial and commercial land uses. An ideal location is
+north of Lake Lorraine, where dense commercial development is encouraged. The area west of
+Lake Lorraine and Port MacKenzie Road has been identified as suitable for a power generation
+facility.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 34
+                                  Figure 7: Electrical Substations
+
+
+
+
+        5.12 Natural Gas
+Planning for a Port MacKenzie power plant is prudent given the anticipated capacity of industrial,
+manufacturing and commercial uses. Natural gas delivery will be developed to sustain large-scale
+industrial and commercial activity at Port MacKenzie. Currently plans call for a 10-inch,
+high-pressure gas transmission line to be extended from Mile 39 Beluga pipeline located
+approximately 14 miles away for near-term natural gas usage. Distribution lines within the Port
+District will be developed in multiple grid patterns.
+
+        5.13 Communications
+A telephone-microwave-relay facility was constructed by Matanuska Telephone Association to
+receive signals from another tower in Eagle River. Telephone lines are also buried within the
+utility easement. Internet service was upgraded to high speed DSL in 2007.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                             Page 35
+6.      Recommendations
+
+The following recommendations are the result of issues that arose during the master plan
+development that were not addressed in depth in the plan because of timing or other appropriate
+reasons. They include suggestions of future assessments, reviews and studies to meet or enhance
+specific actions to support the business of a successful Port District. The recommendations are
+not listed in priority order.
+
+        6.1     Administrative
+
+                1)      The Master should continue to be a living document with updates after
+                        significant Port development activities.
+                2)      A Port Management Code should be developed to serve as guidance for
+                        items such as:
+                                administrative operating procedures;
+                                leasing procedures and requirements, including timing of
+                                 environmental audits before, during, and after leasing;
+                                standards and special permit and lease stipulations unique to the
+                                 Port; and
+                                tenant responsibilities.
+                3)      Review of Borough Code 17.23, Point Mackenzie Port Special Use District,
+                        18, Port, and others to offer changes which will make management of the
+                        Port District more efficient.
+                4)      Create a more informative, interactive web presence, both as a marketing
+                        tool and as a means for public access to information about the port.
+                5)      Develop a forward-thinking marketing plan for the Port that examines
+                        potential positioning strategies best suited for the Port.
+                6)      Develop options for leasing practices. Evaluate if competition for leases,
+                        rights or franchises will be effective in sustaining competition and
+                        maintaining incentives for Port improvements. The evaluation should
+                        include consideration of:
+                                Availability of private funding for investment in the Port.
+                                Which categories of port assets should private investors be at risk
+                                 for providing, maintaining and repairing versus those for which the
+                                 public sector will be responsible
+                                On what basis should user fees or subsidies be used to cover the cost
+                                 of long-lived port assets?
+                7)      Designate the Port District as a Fire Service District.
+                8)      As the Port develops, designate the Port District as an Enhanced Service
+                        District that includes roads, water and sewer.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 36
+        6.2     Infrastructure
+
+                1)      Develop a Transportation Plan for the Port District which in part considers
+                        and addresses the following:
+
+                        a.       Guidelines for driveway operations for various commercial and
+                                 industrial activities, including ingress/egress maneuverability and
+                                 speed, throat length and driveway geometrics, etc.;
+                        b.       Increasing the load capacity and width of the roads within the Port;
+                        c.       A Road Corridor Access strategy for Point MacKenzie Road
+                                 through Burma Road to the Parks Highway ;
+                        d.       d. Relocating the parking lot south of Point MacKenzie Road used
+                                 to access Figure Eight Lake and private property south of the Port
+                                 District so it does not conflict with the marine/rail industrial uses of
+                                 the Port;
+                        e.       Assessing the need and location of permanent access through the
+                                 Port District to property south of the Port District; and
+                        f.       Water flowing along Don Young Road suggests that a perched
+                                 aquifer surfaces along the bluff above the road. Develop a bluff
+                                 slope stability strategy that recommends appropriate dewatering
+                                 and water control methods.
+
+                2)      The Port Commission should determine what additional facilities will be
+                        necessary to accommodate and support Port tenants and users. Evaluate
+                        the need for facilities such as transient housing (motel/hotel/temporary
+                        trailer, etc.), office space, commercial space for restaurants, gas stations,
+                        office space , ATV sales and maintenance, etc.
+                3)      Develop a utilities plan that identifies sources and corridors for water,
+                        sewer, power, communication, and gas utilities to meet Port and tenant
+                        needs. The plan should include designation of the Water and Wastewater
+                        treatment facilities.
+
+
+        6.3     Environmental Studies
+
+                1)      A study on the Hydrology and Hydraulic Environment of Knik Arm
+                        included information on the sedimentation effects of the proposed Knik
+                        Arm Bridge embankments on sediment deposition, but no details about how
+                        far to the south that sedimentation extends (i.e. how it would affect the
+                        Port). Additional analysis is necessary to determine the effects of the
+                        proposed Knik Arm Bridge on Port Operations. Extent and magnitude of
+                        sedimentation resulting from the proposed causeways should be a focus of
+                        the analysis.
+                2)      A hydrologic study of the Port district should be conducted to determine
+                        where future potable and industrial water supplies should be developed.
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                   Page 37
+                3)      A regional wetland assessment was conducted in 2006. The assessment did
+                        not include a classification of the wetlands. Additional wetland mapping
+                        and classification should be completed for the Port District.
+                4)      Conduct a noise study as the port develops. Include a description of the
+                        buffering necessary to mitigate identified potential negative effects of
+                        noise.
+        6.4     Port Land Management
+                1)      Additional cultural resource inventory transects must be conducted in
+                        advance of port development. Inventories should be conducted according to
+                        the anticipated development schedule illustrated in Appendix A. Cultural
+                        resource inventory transects that have been completed, and that need to be
+                        completed, are shown in Appendix B.
+                2)      A strategic land acquisition study should be conducted to determine if and
+                        how the land base of the Port District should be expanded. The study should
+                        provide guidance for future acquisition of strategically located parcels
+                        within and outside the Port District to meet land use needs or to avoid
+                        negative impacts on wetlands. Include consideration of adding the 7-mile
+                        lake area to the District to accommodate the recommendation of the MSB
+                        Regional Aviation Systems Plan Airport Location Study for development
+                        of a land/seaplane airport at 7-Mile Lake.
+                3)      Develop a landscaping plan for the Port District that utilizes the benefits of
+                        vegetative cover in buffering roadside views, or providing small rest and
+                        outdoor lunch areas, etc.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                                 Page 38
+7.      Bibliography
+
+Bell, Greg. 2010. Port Commissioner. Personal Interview.
+Brown, Rob. 2010. Project Manager, Usibelli Coal Mine Inc. Personal Interview.
+Buckle, Bish. 2010. Port Commissioner. Personal Interview.
+Burden, P. and others, 2007. Comparative port use study for gas line pipe materials. Northern
+        Economics Inc.
+Campbell, Paul. 2010. Port Commissioner. Personal Interview.
+Cruz, Dave. 2010. Port Commissioner. Personal Interview.
+Flores, R.M., Striker, G.D., and Kinney, S.A., 2003, Alaska coal resources and coalbed
+        methane potentia. U.S. Geol. Survey Bull. 2198, 4 p.
+
+Denton, Steve. 2010. Vice President, Business Development, Usibelli Coal Mine, Inc. Personal
+        Interview.
+DuClos, Paul. 2010. Port Commissioner. Personal Interview.
+Hoggan, Rick. 2010. Professional Engineer, Millcreek Engineering. Personal Interview.
+Kane, William. 2010. Plant Manager. Alutiiq Manufacturing Contractors. Personal Interview
+Lacher, Robert. 2010. VP Business Development Energy & Chemicals, CH2M Hill. Personal
+        Interview.
+Metz, Paul, and others, 2004. Petrochemical industry would have big economic impact on Alaska.
+        Petroleum News, Vol. 9, No. 29. July 18.
+Metz, Paul. 2007a. Economic Analysis of Rail Link Port MacKenzie to Willow, Alaska.
+Metz, Paul. 2007b. Economic Analysis of Rail Link Port MacKenzie to Willow, Alaska Phase II -
+        Possible Rail Extension Users Analysis.
+Nolfi, Jay. 2010. Port Commissioner. Personal Interview.
+Riggs, John. 2010. Port Commissioner. Personal Interview.
+VanDongen, Marc. 2010. Port Director. Personal Interviews.
+World Bank. 2007. Port Reform Toolkit. Accessed at the following Website September 2010:
+        http://www.ppiaf.org/ppiaf/sites/ppiaf.org/files/documents/toolkits/Portoolkit/Toolkit/ind
+        ex.html.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                              Page 39
+8.      Glossary of Terms
+
+     “Commodity” means an economic good, such as a product of agriculture or mining or an
+     article of commerce, especially when delivered for shipment.
+
+     "Tidelands," properly speaking, are lands between the lines of mean high tide and mean low
+     tide, whereas "submerged lands" are those seaward of mean low tide and not uncovered in the
+     ordinary ebb and flow of the tide. For literary convenience the term "tidelands" will refer to
+     both types of property in the plan.
+
+
+
+
+Port MacKenzie Master Plan Update - Adopted: February 1, 2011                              Page 40
+Appendix A – Port MacKenzie Layout Drawings
+
+    1) Master Plan Layout Option A
+    2) Master Plan Layout Option B
+    3) Facilities Layout Years 1 – 5
+    4) Facilities Layout Years 5 – 10
+    5) Facilities Layout Years 10 – 15
+    6) Facilities Layout Years 15+ Option A
+    7) Master Plan Utility Corridors Option A
+    8) Facilities Layout Years 15+ Option B
+    9) Master Plan Utility Corridors Option B
+
+
+
+
+Port MacKenzie Master Plan Update – Adopted: February 1, 2011   Appendix A
+Appendix B – Previous Studies and Reports
+
+Preliminary Feasibility Report, Point MacKenzie Seaport. Planning Department, MSB. April
+       1972.
+
+Point MacKenzie Marine Port Development Plan. Development Services Department, MSB.
+       January 1988.
+
+Point MaKenzie Transportation Corridor Study. Peratrovich, Nottingham & Drange, Inc. March
+       1992.
+
+Southcentral Ports Development Projects, Peratrovich, Nottingham & Drange, Inc. January 1993.
+
+Point MacKenzie Area Which Merits Special Attention Plan. Alaska Department of Community
+       and Regional Affairs, Municipal and Regional Assistance Division. May 1993.
+
+Point MacKenzie Port Development, Overview of Planning and Permitting Requirements. Jon
+       Issacs and Linda Perry Dwight. June 1993.
+
+
+Port MacKenzie Development Project Prefeasibility Study. Peratrovich, Nottingham & Drange,
+      Inc. Northern Economics. May 1998.
+
+Concepts to Maximize Development Potential of Port MacKenzie and Upland Areas. The
+      Cornell Group, Inc. August 2001.
+
+Geotechnical Report, Knik Arm Ferry. Shannon and Wilson, Inc. February 2003.
+
+Sand and Gravel Assessment: Elmendorf Moraine, Port MacKenzie. Shannon and Wilson, Inc.
+       October 2003.
+
+Geotechnical Engineering Report, Knik Arm Ferry, Terminal Building. Shannon and Wilson.
+      September 2005.
+
+Point MacKenzie Regional Wetland Assessment. Critical Habitats, Inc. January 2006.
+
+Point MacKenzie Road Borrow Source Evaluations, Shannon and Wilson Inc. February 2008.
+
+Geotechnical Engineering Report. Port MacKenzie Bi-Modal Bulk Facility. Shannon and Wilson
+      Inc. May 2009.
+
+
+
+
+Port MacKenzie Master Plan Update – Adopted: February 1, 2011                        B1 of B2
+    PORT MACKENZIE                                                                                                                                                                      R4W R3W
+1 CULTURAL6 RESOURCE                               5                             4                             3                         2                                         1                  6                                      5
+      INVENTORY
+                                                                                                     Port District Boundary
+  AREAS & TRANSECTS
+                                                                                                                                                                                                                        B2 of B2
+
+         Cultural Resource Inventory Transects
+         Cultural Resource Inventory Needed
+                                                                Rd
+         Cultural Resource Inventory Complete
+                                                            zi e
+ 2       Port District 7Boundary                   8                             9                             10                         11                                       12                 7                                       8
+                                                         Ke
+                                                            n
+                         0         0.25    0.5
+                                                 Po                   TWIN
+                                                   in                ISLAND
+                                                     tM
+                                   Miles               ac             LAKE
+     MSB Information Technology Dept./GIS
+               September 2010
+                                                                                                                                                                                                            RM
+                                                                                                                                                                                                      I   KA
+                                                                                                                                                                                                   KN
+13                                                                                                                                                                                 13                18                                 17
+                    18                             17                            16                            15                        14
+                                                        Port District Boundary
+                                                                                                                                LAKE
+                                                                                                                                                             Ac ai n
+                                                                                                                              LORRAINE
+                                                                                                                                                                     Te rmi na                                BO
+                                                                                                                                                               ce
+                                                                                                                                                                               l                             MO UN
+                                                                                                                                                                  ss
+                                                                                                                                                                                                               A DAR
+24                  19                             20                            21                            22                        23                                        24                19                                  20
+                                                                                                                                                                                                                        Port MacKenzie Master Plan Update - Adopted February 1, 2011
+
+
+
+
+                                                                                                                                                                     Rd
+                                                                                                                                                              r
+                                                                                                                                                             G                                                      Y
+                                                                                                                                                                                                           MS
+                                                                                                                                                                                                              B
+                                                                                                                                               Lu Young Ln     Don Young Rd
+25                  30                             29                            28                            27                        26                                        25                30                                   29
+                                                                                      Port District Boundary
+36                   31                            32                            33                            34                        35                                        36                 31                                   32
+                                                                                                                                                                                            T14N
+1                    6                             5                             4                              3                        2                                         1        T13N      6                                           5
+ 1   Appendix C - History of Port MacKenzie
+
+ 2   Port MacKenzie began in 1983 when a committee was formed to begin planning port
+ 3   development. A port development district and port commission were established in 1988.
+ 4   Construction of the port access road was accomplished in phases from 1990 to 1991. The Point
+ 5   MacKenzie Area which Merits Special Attention Plan (AMSA) was approved by the State in
+ 6   1993 and adopted by the Borough (Nolfi, 2010).
+
+ 7   The Borough applied to the Alaska Department of Natural Resources for title to the tidelands
+ 8   that would lie under and extend from the docks. Title to the land was transferred to the
+ 9   Matanuska - Susitna Borough on August 8, 1996. In 1999 the borough selected additional tide
+10   and submerged lands adjacent to tidelands acquired in 1996. These additional tide and
+11   submerged lands are necessary for future moorage, berthing areas and dock expansion (Riggs,
+12   2010).
+13
+14   Initial construction of the barge dock
+15   took place from 1999 to 2003 and
+16   resulted in an eight-acre staging area
+17   with 500 feet of bulkhead barge dock
+18   at -20 feet mean lower low water.
+19
+20
+                                                   21     A plant specializing in building manufactured
+                                                   22     facilities was constructed on a 15-acre lease in
+                                                   23     2000. Modular homes, constructed at the plant,
+                                                   24     began being shipped on barges to rural Alaska in
+                                                   25     2001. The plant was used in 2005 for
+                                                   26     constructing pump and electrical modules
+                                                   27     destined for the North Slope (King, 2010). The
+                                                   28     plant has also constructed bunkers and range
+29   buildings for the military, prefabricated houses that are trucked to the Interior, and a building for
+30   the Alyeska ski area.
+
+
+     Port MacKenzie Master Plan Update – Adopted: February 1, 2011                                  C1 of C2
+31
+32   In 2004, construction of woodchip handling facilities began on the bluff directly above the barge
+33   dock.
+
+34   Three-phase electrical power was extended to the Port in 2003. A design for extension of natural
+35   gas service has also been
+36   completed.
+
+37   Construction of a 1,200-foot long
+38   deep-draft dock and installation
+39   of a 3,000-foot conveyor system
+40   took place in 2004. In January of
+41   2005, the first major export
+42   vessel was loaded with 84
+43   million pounds of wood chips.
+
+44   A storage warehouse was constructed from 2007-2008 within the lease area where the conveyor
+45   begins. In 2009, the warehouse was used to store imported super sacks of cement. In 2008, about
+46   451,000 tons of sand and gravel were loaded onto barges by the conveyor for use across the Knik
+47   Arm in the Port of Anchorage Expansion Project (Van Dongen, 2010).
+48
+49   Approximately 13 miles of the Point MacKenzie Road, which leads to the Port, was improved
+50   and paved from 2008 to 2009. The remaining two miles to the docks was paved after the Don
+51   Young Road hill reduction project in 2011.
+52
+53   Reports on and studies of the Port MacKenzie area are listed in Appendix B.
+54
+55
+
+
+
+
+     Port MacKenzie Master Plan Update – Adopted: February 1, 2011                            C2 of C2
+Appendix D
+

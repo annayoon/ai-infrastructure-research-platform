@@ -1,0 +1,99 @@
+category|region|language|mkt|query
+global_market|global|en|en-US|global AI data center market trends 2025 report filetype:pdf
+global_market|global|en|en-US|AI data center electricity demand forecast 2030 report filetype:pdf
+global_market|global|en|en-US|site:iea.org data centers AI electricity demand 2030 filetype:pdf
+global_market|global|en|en-US|hyperscale data center market outlook AI power demand filetype:pdf
+global_market|global|en|en-US|GPU cluster data center power demand report filetype:pdf
+us_power|US|en|en-US|site:energy.gov data center energy usage report 2024 LBNL filetype:pdf
+us_power|US|en|en-US|site:lbl.gov data center electricity usage report AI 2024 filetype:pdf
+us_power|US|en|en-US|site:eia.gov Alaska industrial electricity price data center filetype:pdf
+us_power|US|en|en-US|site:ferc.gov large load data center interconnection filetype:pdf
+us_power|US|en|en-US|site:nerc.com data center large load reliability filetype:pdf
+us_policy|US|en|en-US|site:sam.gov AFCEC-26-R-0006 AI Data Center Alaska filetype:pdf
+us_policy|US|en|en-US|Department of the Air Force AI Data Center Alaska RFLP filetype:pdf
+us_policy|US|en|en-US|Joint Base Elmendorf Richardson AI data center lease filetype:pdf
+us_policy|US|en|en-US|Eielson Air Force Base AI data center lease filetype:pdf
+us_policy|US|en|en-US|Clear Space Force Station AI data center lease filetype:pdf
+alaska_energy|Alaska|en|en-US|site:akenergyauthority.org Railbelt transmission plan Alaska data center filetype:pdf
+alaska_energy|Alaska|en|en-US|site:rca.alaska.gov data center power Alaska filetype:pdf
+alaska_energy|Alaska|en|en-US|Alaska Railbelt transmission data center power demand filetype:pdf
+alaska_energy|Alaska|en|en-US|Alaska Energy Authority Railbelt transmission large load filetype:pdf
+alaska_site|Alaska|en|en-US|site:matsugov.us Port MacKenzie industrial land data center filetype:pdf
+alaska_site|Alaska|en|en-US|Matanuska Susitna Borough industrial land Port MacKenzie data center filetype:pdf
+alaska_site|Alaska|en|en-US|Alaska data center permitting NEPA wetlands water filetype:pdf
+alaska_climate|Alaska|en|en-US|site:noaa.gov Anchorage climate data wet bulb data center cooling filetype:pdf
+alaska_risk|Alaska|en|en-US|site:usgs.gov Cascadia fault submarine cable Alaska filetype:pdf
+alaska_risk|Alaska|en|en-US|site:usgs.gov Alaska Aleutian subduction zone submarine cable filetype:pdf
+alaska_fiber|Alaska|en|en-US|site:ntia.gov Alaska broadband fiber filetype:pdf
+alaska_fiber|Alaska|en|en-US|site:fcc.gov Alaska submarine cable landing license filetype:pdf
+alaska_fiber|Alaska|en|en-US|Alaska subsea cable capacity GCI ACS MTA filetype:pdf
+alaska_fiber|Alaska|en|en-US|AlCan ONE Alaska Canada overland fiber filetype:pdf
+alaska_fiber|Alaska|en|en-US|Alaska Washington subsea fiber cable 240 Tbps filetype:pdf
+transpacific_fiber|APAC|en|en-US|Arctic fiber optic cable Alaska Japan Korea filetype:pdf
+transpacific_fiber|APAC|en|en-US|Far North Fiber Alaska Japan Europe filetype:pdf
+transpacific_fiber|APAC|en|en-US|subsea cable latency Seoul Tokyo Anchorage Seattle filetype:pdf
+transpacific_fiber|APAC|en|en-US|trans-Pacific fiber Alaska Japan Korea data center filetype:pdf
+korea_policy|Korea|ko|ko-KR|site:msit.go.kr 국가 AI 컴퓨팅 센터 filetype:pdf
+korea_policy|Korea|ko|ko-KR|site:msit.go.kr AI 컴퓨팅 인프라 데이터센터 filetype:pdf
+korea_policy|Korea|ko|ko-KR|site:motie.go.kr 데이터센터 전력 수요 filetype:pdf
+korea_power|Korea|ko|ko-KR|site:kpx.or.kr 데이터센터 전력 수요 filetype:pdf
+korea_power|Korea|ko|ko-KR|site:kepco.co.kr 데이터센터 전력 공급 filetype:pdf
+korea_investment|Korea|ko|ko-KR|site:kotra.or.kr 미국 데이터센터 투자 filetype:pdf
+korea_investment|Korea|ko|ko-KR|site:kdb.co.kr 인프라 투자 AI 데이터센터 filetype:pdf
+korea_market|Korea|ko|ko-KR|한국 데이터센터 전력 수요 2028 filetype:pdf
+korea_market|Korea|ko|ko-KR|국내 데이터센터 수도권 집중 전력 인허가 filetype:pdf
+korea_market|Korea|ko|ko-KR|AI 데이터센터 국내 수요 GPU 클라우드 filetype:pdf
+japan_policy|Japan|en|ja-JP|site:meti.go.jp data center digital infrastructure interim report filetype:pdf
+japan_policy|Japan|en|ja-JP|site:meti.go.jp Watt-Bit collaboration data center power filetype:pdf
+japan_policy|Japan|ja|ja-JP|site:soumu.go.jp データセンター 地方分散 政策 filetype:pdf
+japan_policy|Japan|ja|ja-JP|site:digital.go.jp データセンター AI 基盤 filetype:pdf
+japan_market|Japan|ja|ja-JP|北海道 データセンター 冷却 再生可能エネルギー filetype:pdf
+japan_market|Japan|ja|ja-JP|日本 北米 海底ケーブル データセンター filetype:pdf
+japan_market|Japan|ja|ja-JP|生成AI 計算資源 日本 データセンター filetype:pdf
+japan_customer|Japan|en|ja-JP|NTT AI data center investment filetype:pdf
+japan_customer|Japan|en|ja-JP|KDDI AI data center investment filetype:pdf
+japan_customer|Japan|en|ja-JP|SoftBank AI computing infrastructure data center filetype:pdf
+japan_customer|Japan|en|ja-JP|Sakura Internet GPU cloud data center filetype:pdf
+taiwan_policy|Taiwan|en|zh-TW|site:ndc.gov.tw AI infrastructure data center Taiwan filetype:pdf
+taiwan_policy|Taiwan|en|zh-TW|site:moea.gov.tw AI server industry Taiwan filetype:pdf
+taiwan_policy|Taiwan|zh|zh-TW|site:moda.gov.tw AI 資料中心 台灣 filetype:pdf
+taiwan_market|Taiwan|zh|zh-TW|台灣 AI 資料中心 電力 供應 filetype:pdf
+taiwan_market|Taiwan|zh|zh-TW|台灣 AI 伺服器 產業 北美 投資 filetype:pdf
+taiwan_customer|Taiwan|en|zh-TW|TSMC AI infrastructure data center demand filetype:pdf
+taiwan_customer|Taiwan|en|zh-TW|Foxconn AI server North America data center filetype:pdf
+taiwan_customer|Taiwan|en|zh-TW|Quanta AI server data center demand filetype:pdf
+taiwan_customer|Taiwan|en|zh-TW|Wiwynn hyperscale AI server infrastructure filetype:pdf
+china_policy|China|zh|zh-CN|site:ndrc.gov.cn 东数西算 数据中心 政策 filetype:pdf
+china_policy|China|zh|zh-CN|site:gov.cn 绿色数据中心 PUE 行动计划 filetype:pdf
+china_policy|China|zh|zh-CN|site:miit.gov.cn 数据中心 绿色低碳 行动计划 filetype:pdf
+china_policy|China|zh|zh-CN|全国一体化算力网络 数据中心 政策 filetype:pdf
+china_policy|China|en|zh-CN|China Eastern Data Western Computing project data center filetype:pdf
+eu_policy|EU|en|en-GB|site:europa.eu data centres energy efficiency directive PUE WUE filetype:pdf
+eu_policy|EU|en|en-GB|site:ec.europa.eu data centre reporting scheme energy performance filetype:pdf
+eu_policy|EU|en|en-GB|site:op.europa.eu data centres sustainability reporting PUE WUE filetype:pdf
+eu_grid|EU|en|en-GB|site:entsoe.eu data center grid connection demand filetype:pdf
+eu_policy|EU|de|de-DE|Rechenzentrum Energieeffizienz PUE WUE Strombedarf filetype:pdf
+eu_policy|EU|fr|fr-FR|centre de données efficacité énergétique consommation électrique filetype:pdf
+nordic_cooling|Nordic|en|en-GB|Nordic data center natural cooling hydropower report filetype:pdf
+nordic_cooling|Nordic|en|en-GB|Finland data center seawater cooling Hamina filetype:pdf
+nordic_cooling|Nordic|en|en-GB|Norway data center hydropower cooling government filetype:pdf
+nordic_cooling|Nordic|en|en-GB|Sweden data center waste heat recovery policy filetype:pdf
+cooling|global|en|en-US|cold climate data center PUE natural cooling filetype:pdf
+cooling|global|en|en-US|data center WUE water usage AI liquid cooling filetype:pdf
+cooling|global|en|en-US|hyperscale data center liquid cooling PUE WUE filetype:pdf
+cooling|global|en|en-US|data center economizer cooling cold climate report filetype:pdf
+customer_korea|Korea|ko|ko-KR|네이버클라우드 GPU 클라우드 AI 데이터센터 filetype:pdf
+customer_korea|Korea|ko|ko-KR|KT 클라우드 AI 데이터센터 GPU filetype:pdf
+customer_korea|Korea|ko|ko-KR|삼성전자 AI 인프라 미국 데이터센터 filetype:pdf
+customer_korea|Korea|ko|ko-KR|SK텔레콤 AI 데이터센터 투자 filetype:pdf
+customer_korea|Korea|ko|ko-KR|카카오 AI 인프라 데이터센터 filetype:pdf
+finance|global|en|en-US|data center construction cost per MW 2025 hyperscale filetype:pdf
+finance|global|en|en-US|wholesale data center lease rate kW month filetype:pdf
+finance|global|en|en-US|powered land data center lease model filetype:pdf
+finance|global|en|en-US|AI compute offtake agreement data center filetype:pdf
+finance|global|en|en-US|data center financial pro forma assumptions filetype:pdf
+risk|global|en|en-US|data center power supply risk grid constraint filetype:pdf
+risk|global|en|en-US|large load interconnection data center risk filetype:pdf
+risk|global|en|en-US|submarine cable outage Alaska Cascadia filetype:pdf
+risk|global|en|en-US|CFIUS data center foreign ownership telecom security filetype:pdf
+risk|global|en|en-US|US government prohibited telecom equipment data center filetype:pdf

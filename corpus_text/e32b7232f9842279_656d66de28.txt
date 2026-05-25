@@ -1,0 +1,1526 @@
+                United States Government Accountability Office
+                Report to Congressional Committees
+
+
+
+
+                COAST GUARD
+August 2024
+
+
+
+
+                Complete
+                Performance and
+                Operational Data
+                Would Better Clarify
+                Arctic Resource
+                Needs
+
+
+
+
+GAO-24-106491
+                                             August 2024
+
+                                             COAST GUARD
+                                             Complete Performance and Operational Data Would
+                                             Better Clarify Arctic Resource Needs
+Highlights of GAO-24-106491, a report to
+congressional committees
+
+
+
+
+Why GAO Did This Study                       What GAO Found
+The United States, by virtue of Alaska,      The Coast Guard has assessed risks, such as from climate change and
+is an Arctic nation with substantial         increased maritime activity, that affect its ability to carry out its missions in the
+regional interests. Increasing Arctic        U.S. Arctic region. It has also identified these risks in various planning
+activity, risks, and geopolitical tensions   documents, including the Coast Guard Arctic strategy.
+mean that the Coast Guard and its key
+federal partners, such as DOD, face          The Coast Guard manages Arctic risks like responding to maritime incidents by
+growing responsibilities. These include      forward deploying cutter and aviation assets into the U.S. Arctic region to reduce
+assessing and managing risks to              its transit and response times. The Coast Guard also deploys assets to provide a
+maritime safety, security, and               presence there but has not always been able to meet its planned deployment
+environment, as well as to non-              commitments recently. Coast Guard reports for the region that document asset
+maritime national security.                  resource use and mission performance for operational planning did not have
+The James M. Inhofe National Defense         complete information from fiscal year 2016 through fiscal year 2021. For
+Authorization Act for Fiscal Year 2023       example, some years did not include targets for key missions (e.g., maritime law
+includes a provision for GAO to review       enforcement). Reports were also unavailable for fiscal years 2022 and 2023.
+Coast Guard Arctic operations and            Collecting and reporting complete information would better position the Coast
+infrastructure. This report addresses        Guard to make more informed operational planning decisions for the region.
+(1) the extent to which the Coast            Additionally, the Coast Guard Arctic implementation plan outlines initiatives and
+Guard has assessed and planned for
+                                             actions that it intends to take to execute strategic objectives identified in its Arctic
+its Arctic risks, and identified the
+                                             strategy and to support the national Arctic strategy. However, the plan generally
+resources needed to do so, and (2)
+how the Coast Guard has collaborated
+                                             does not include key metrics such as performance measures, targets, or time
+with DOD to assess and manage Arctic         frames for action items. This may make it difficult for the Coast Guard to plan
+risks. GAO reviewed and analyzed             activities, determine resource needs, assess its progress toward strategic
+Coast Guard risk assessment and              objectives, and ensure its efforts are aligned with national efforts.
+management and performance
+                                             Coast Guard Polar Icebreaker Healy
+documents and interviewed officials
+from the Coast Guard, DOD, and other
+relevant Arctic stakeholders, including
+White House, State of Alaska, and
+Alaska Native officials.
+
+What GAO Recommends
+GAO is recommending that Coast
+Guard ensure that (1) it collects and
+reports complete information about
+resource use and mission
+performance, and (2) its Arctic
+implementation plan includes
+performance measures with associated
+targets and timeframes for action
+items. The Department of Homeland
+Security concurred with both                 The Coast Guard and Department of Defense (DOD) described collaborating in
+recommendations and identified               the Arctic to assess and manage risks in several ways, including sharing relevant
+planned actions to address them.             information and expertise and providing operational assistance. For example,
+                                             both agencies collaborated on the development of their Arctic strategies and
+View GAO-24-106491. For more information,    collaborate to improve domain awareness in the Arctic. They also provide
+contact Heather MacLeod at (202) 512-8777    operational support to each other, such as the Coast Guard providing search and
+or macleodh@gao.gov.
+                                             rescue coverage for DOD during a biennial exercise.
+                                                                                        United States Government Accountability Office
+Contents
+
+
+Letter                                                                                 1
+              Background                                                               4
+              Coast Guard Has Assessed and Planned for Arctic Risks, but Has
+                Incomplete Information for Determining Resources Needs                 9
+              Coast Guard and the Department of Defense Collaborate on
+                Arctic Issues in Various Ways                                        22
+              Conclusions                                                            26
+              Recommendations for Executive Action                                   27
+              Agency Comments and Our Evaluation                                     27
+
+Appendix I    Comments from the Department of Homeland Security                      30
+
+
+
+Appendix II   GAO Contact and Staff Acknowledgments                                  32
+
+
+Tables
+              Table 1: Coast Guard Planning Documents, Descriptions, and
+                      Participants                                                   10
+              Table 2: Completeness of Coast Guard District 17 Performance
+                      Report Elements                                                17
+
+Figures
+              Figure 1: Map of Coast Guard District 17 Area of Operations and
+                       Associated Arctic Boundary                                     5
+              Figure 2: Coast Guard Polar Icebreaker Healy                            7
+              Figure 3: Air and Sea Travel Distances in Alaska                       12
+              Figure 4: Coast Guard Strategic Commitments and Cutter
+                       Deployment Days to the U.S. Arctic Region, fiscal years
+                       2016–2023                                                     14
+              Figure 5: Analysis of Coast Guard Arctic Implementation Plan
+                       Action Items                                                  20
+
+
+
+
+              Page i                                            GAO-24-106491 Coast Guard
+Abbreviations
+
+DHS               Department of Homeland Security
+DOD               Department of Defense
+FY                fiscal year
+
+
+
+
+This is a work of the U.S. government and is not subject to copyright protection in the
+United States. The published product may be reproduced and distributed in its entirety
+without further permission from GAO. However, because this work may contain
+copyrighted images or other material, permission from the copyright holder may be
+necessary if you wish to reproduce this material separately.
+
+
+
+
+Page ii                                                        GAO-24-106491 Coast Guard
+                       Letter
+
+
+
+
+441 G St. N.W.
+Washington, DC 20548
+
+
+
+
+                       August 13, 2024
+
+                       The Honorable Maria Cantwell
+                       Chair
+                       The Honorable Ted Cruz
+                       Ranking Member
+                       Committee on Commerce, Science, and Transportation
+                       United States Senate
+
+                       The Honorable Sam Graves
+                       Chairman
+                       The Honorable Rick Larsen
+                       Ranking Member
+                       Committee on Transportation and Infrastructure
+                       House of Representatives
+
+                       The United States, by virtue of Alaska, is an Arctic nation with substantial
+                       security and economic interests in the region. 1 In recent years, there has
+                       been an escalation of great power competition among the United States,
+                       Russia, and China, which has introduced tension into the Arctic’s
+                       geopolitical environment. The effects of climate change, technological
+                       advancements, and economic opportunities have driven increasing
+                       interest and activity in the Arctic region, including increased maritime
+                       activity. This has also driven increasing risks.
+
+                       Since the Arctic is largely a maritime domain, the U.S. Coast Guard
+                       (Coast Guard), a multimission military service within the Department of
+                       Homeland Security (DHS), plays a key role in Arctic policy
+                       implementation and enforcement. 2 As more navigable ocean water has
+                       emerged in the Arctic region and human activity increases, the Coast
+                       Guard and key federal partners such as the Department of Defense
+
+                       1The Arctic Research and Policy Act of 1984 defined the Arctic as “all United States and
+                       foreign territory north of the Arctic Circle and all United States territory north and west of
+                       the boundary formed by the Porcupine, Yukon, and Kuskokwim Rivers; all contiguous
+                       seas, including the Arctic Ocean and the Beaufort, Bering, and Chukchi Seas; and the
+                       Aleutian chain.” Pub. L. No. 98-373, tit. I, § 112, 98 Stat. 1242, 1248 (codified at 15 U.S.C.
+                       § 4111).
+                       2For the purposes of this report, we are focusing on the Coast Guard’s area of
+                       responsibility and operations around the State of Alaska. This area includes a portion of
+                       the Arctic (as defined by the Arctic Research and Policy Act of 1984) as well as the region
+                       below the Arctic that includes the rest of the State of Alaska, its shoreline, and the
+                       surrounding seas. See figure 1.
+
+
+
+                       Page 1                                                           GAO-24-106491 Coast Guard
+(DOD) face growing responsibilities to assess and manage risks,
+including those to maritime safety, security, and the environment, as well
+as to nonmaritime aspects of national security. 3
+
+We were asked to review Coast Guard Arctic operations. 4 This report
+addresses (1) the extent to which the Coast Guard has assessed and
+planned for its Arctic risks, and identified the resources needed to do so,
+and (2) how the Coast Guard has collaborated with DOD to assess and
+manage Arctic risks.
+
+To address the first objective, we reviewed and analyzed Coast Guard
+documents from 2016 through 2023 related to Arctic risk assessment and
+management as well as planned actions, including the Coast Guard’s
+2019 Arctic Strategic Outlook (Coast Guard Arctic strategy), and its 2023
+Arctic Strategic Outlook Implementation Plan (Coast Guard Arctic
+implementation plan). 5 We also reviewed Contingency Response
+Concept Plans, Operational Planning Direction documents, and
+Operational Performance Assessment Reports (performance reports),
+which included data on Coast Guard mission resource hours and mission
+performance targets, for Coast Guard Pacific Area, Atlantic Area, and
+District 17 in Alaska. 6 We assessed the reliability of the data used in the
+Coast Guard performance reports by reviewing related documentation as
+well as through interviews and written responses from knowledgeable
+
+
+3Federal agencies participating in national Arctic efforts include DHS and some of its
+components, such as the Federal Emergency Management Agency, the Transportation
+Security Administration, U.S. Customs and Border Protection, and the Cybersecurity and
+Infrastructure Security Agency. Non-DHS entities include DOD, the National Oceanic and
+Atmospheric Administration, the Department of Energy, and the Environmental Protection
+Agency, among others. For more information, see The White House, Implementation Plan
+for the 2022 National Strategy for the Arctic Region (Washington, D.C.: Oct. 18, 2023).
+4The James M. Inhofe National Defense Authorization Act for Fiscal Year 2023 includes a
+provision for us to study Coast Guard Arctic operations and infrastructure and to submit a
+report on the findings of the study to the Committee on Commerce, Science, and
+Transportation of the Senate and the Committee on Transportation and Infrastructure of
+the House of Representatives. See Pub. L. No. 117-263, div. K, tit. CXII, subtit. C,
+§ 11220(c), 136 Stat. 2395, 4020.
+5We selected 2016 as our starting point because our last report on Coast Guard Arctic
+operations was issued in 2016. See GAO, Coast Guard: Arctic Strategy Is Underway, but
+Agency Could Better Assess How Its Actions Mitigate Known Arctic Capability Gaps,
+GAO-16-453 (Washington, D.C.: June 15, 2016); United States Coast Guard, Arctic
+Strategic Outlook (Washington, D.C.: Apr. 2019); and United States Coast Guard, Arctic
+Strategic Outlook Implementation Plan (Washington, D.C.: Oct. 3, 2023).
+6Pacific Area and District 17 are described in the background of this report.
+
+
+
+
+Page 2                                                          GAO-24-106491 Coast Guard
+officials. We determined that the data were sufficiently reliable for
+reporting on Coast Guard performance information.
+
+We evaluated the Coast Guard Arctic implementation plan and the
+performance reports against the Coast Guard’s Framework for Strategic
+Mission Management, Enterprise Risk Stewardship, and Internal Control
+to determine Coast Guard criteria for implementing and tracking progress
+toward strategic objectives. 7 We reviewed Coast Guard guidance on
+standard operational planning and global force management to determine
+requirements for developing performance reports. 8 We also interviewed
+Coast Guard officials about how they assess, manage, and mitigate risks
+to Coast Guard operations and infrastructure, commercial maritime
+operations, and the maritime environment in the Arctic region. We
+conducted a site visit to Juneau, Alaska, to interview officials from Coast
+Guard District 17 and the Marine Exchange of Alaska.
+
+To address the second objective, we reviewed Coast Guard and DOD
+collaboration efforts in the Arctic region. These included Arctic risk
+assessment documents and interagency agreements with DOD, including
+the DOD service branches and relevant combatant commands—Northern
+Command, European Command, and Indo-Pacific Command. We also
+reviewed Arctic strategies from DOD, Air Force, Navy, and Army. 9 We
+interviewed DOD officials from headquarters, Northern Command, and
+Navy about how they collaborate with the Coast Guard on Arctic risk
+assessments. We also interviewed Coast Guard officials from
+headquarters and the field about how they collaborate with DOD.
+
+
+
+
+7United States Coast Guard, Deputy Commandant for Operations, Framework for
+Strategic Mission Management, Enterprise Risk Stewardship, and Internal Control
+(Washington, D.C.: July 2020).
+8United States Coast Guard, Commandant Instruction 3120.4B: Coast Guard Standard
+Operational Planning Process/Global Force Management (Washington, D.C.: Dec. 9,
+2021) and United States Coast Guard, Global Force Management (GFM) 2.0 Process
+Guide (Washington, D.C.: Aug. 2023).
+9Department of Defense, Report to Congress: Department of Defense Arctic Strategy
+(Washington, D.C.: June 2019), Department of the Air Force, The Department of the Air
+Force Arctic Strategy: Ensuring a Stable Arctic Through Vigilance, Power Projection,
+Cooperation, and Preparation (Washington, D.C.: July 21, 2020), Department of the Navy,
+a Blue Arctic: A Strategic Blueprint for the Arctic (Washington, D.C., Jan. 5, 2021), and
+Department of the Army, Regaining Arctic Dominance: The U.S. Army in the Arctic
+(Washington, D.C., Jan. 19, 2021).
+
+
+
+
+Page 3                                                       GAO-24-106491 Coast Guard
+                        To address both objectives, we reviewed the National Strategy for the
+                        Arctic Region (national Arctic strategy) to identify Arctic risks. 10 We
+                        reviewed and analyzed the Implementation Plan for the National Strategy
+                        for the Arctic Region (national Arctic implementation plan) to identify
+                        planned actions relevant to the Coast Guard. 11 We interviewed officials
+                        from the Arctic Executive Steering Committee about their coordination
+                        with federal agencies on risk assessment, risk management, and agency
+                        progress on completing assigned actions from the national Arctic
+                        implementation plan. 12 Finally, we interviewed other relevant stakeholders
+                        who have knowledge of or a role in federal Arctic efforts to gain their
+                        perspectives. This included officials from the National Oceanic and
+                        Atmospheric Administration, the Ted Stevens Center for Arctic Security
+                        Studies, the Polar Institute at the Wilson Center, the State of Alaska, the
+                        Alaska Federation of Natives, and the Marine Exchange of Alaska.
+
+                        We conducted this performance audit from January 2023 to August 2024
+                        in accordance with generally accepted government auditing standards.
+                        Those standards require that we plan and perform the audit to obtain
+                        sufficient, appropriate evidence to provide a reasonable basis for our
+                        findings and conclusions based on our audit objectives. We believe that
+                        the evidence obtained provides a reasonable basis for our findings and
+                        conclusions based on our audit objectives.
+
+
+Background
+Coast Guard Roles and   The Coast Guard is responsible for protecting and defending more than
+Responsibilities        100,000 miles of U.S. coastline and inland waterways. Of these, over
+                        47,300 miles is shoreline throughout Alaska and the U.S. Arctic region.
+                        To carry out its missions, the Coast Guard is organized into two
+                        commands, Pacific Area and Atlantic Area. Each area oversees multiple
+                        districts, and each district oversees multiple sectors, which conduct
+                        missions at the local and port level. 13 The Coast Guard’s District 17,
+
+
+                        10The White House, National Strategy for the Arctic Region (Washington, D.C.: Oct.
+                        2022).
+                        11The White House, Implementation Plan for the 2022 National Strategy for the Arctic
+                        Region.
+                        12We discuss the Arctic Executive Steering Committee later in this report.
+
+                        13According to Coast Guard officials, as of October 2023, the area commanders have
+                        implemented a unified command and control structure called Coast Guard Task Force-
+                        Arctic to carry out Arctic missions that are not specific missions of their districts or sectors.
+
+
+
+
+                        Page 4                                                             GAO-24-106491 Coast Guard
+within Pacific Area, has responsibility for over 3.85 million square miles of
+territory throughout Alaska and the U.S. Arctic region. 14 For the purposes
+of this report, when we refer to the U.S. Arctic region we are referring to
+the area that includes the State of Alaska, its shoreline, and the
+surrounding seas that generally align with Coast Guard District 17’s area
+of responsibility and operations. 15 See figure 1 below for District 17’s area
+of operations, including key locations within it, and the associated Arctic
+boundary line.
+
+Figure 1: Map of Coast Guard District 17 Area of Operations and Associated Arctic
+Boundary
+
+
+
+
+14The Pacific Area geographic area of responsibility ranges from the U.S. western states
+to Asia and from the Arctic to Antarctica.
+15The Coast Guard also has responsibilities and conducts Arctic missions outside the U.S.
+Arctic region, including in the European Arctic, Canadian Arctic, and north of the Russian
+Arctic. For example, Coast Guard aircraft conduct reconnaissance flights to locate
+icebergs in support of the International Ice Patrol, and it also participates in the Arctic
+Coast Guard Forum, an organization made up of Arctic countries dedicated to fostering
+safe, secure, and environmentally responsible maritime activity in the Arctic.
+
+
+
+
+Page 5                                                        GAO-24-106491 Coast Guard
+Coast Guard Arctic Assets   The Coast Guard’s mission responsibilities for the U.S. Arctic region
+and Operations              include marine safety, marine environmental protection, search and
+                            rescue, aids to navigation, ice operations, and living marine resources,
+                            among others. 16 It carries out its missions and other operations in the
+                            Arctic region using various types of assets and personnel, including polar
+                            icebreakers, as well as large ships and aircraft that can operate in harsh
+                            conditions.
+
+                            The Coast Guard polar icebreaker Healy deploys annually to the Arctic
+                            region in support of national objectives and research efforts for several
+                            federal agencies (see fig. 2 below). 17 The other large Coast Guard cutters
+                            conducting missions in the region are based both within and outside of
+                            District 17’s area of responsibility, and they deploy to multiple locations
+                            around Alaska and the U.S. Arctic region. 18 The aircraft operating in this
+                            region are mostly long-range fixed wing aircraft and medium-range
+                            helicopters. 19 They are mostly based within District 17 at Air Station
+                            Kodiak and Air Station Sitka, which are located below the U.S. Arctic
+                            region (see fig. 1 above).
+
+
+
+
+                            16See Homeland Security Act of 2002, Pub. L. No. 107-296, tit. VIII, subtit. H, § 888, 116
+                            Stat. 2135, 2249 (codified at 6 U.S.C. § 468). The Coast Guard’s other five missions, also
+                            conducted in the U.S. Arctic, include ports, waterways, and coastal security; drug
+                            interdiction; migrant interdiction; defense readiness; and other law enforcement.
+                            17In addition to the Healy, the Coast Guard operates the polar icebreaker Polar Star,
+                            which usually conducts operations in Antarctica. For further information, see GAO, Coast
+                            Guard: Observations on Arctic Requirements, Icebreakers, and Coordination with
+                            Stakeholders, GAO-12-254T (Washington, D.C.: Dec. 1, 2011). See also 6 U.S.C
+                            § 468(a)(1)(F) (providing for ice operations as one of Coast Guard’s missions); Coast
+                            Guard and Maritime Transportation Act of 2012, Pub. L. No. 112-213, tit. II, § 217(1), 126
+                            Stat. 1540, 1556 (codified at 14 U.S.C. § 102(4)) (providing for the development,
+                            establishment, maintenance, and operation of ice facilities as one of Coast Guard’s
+                            primary duties).
+                            18According to the Coast Guard, its cutters are vessels 65 feet in length or greater with
+                            accommodations for crew to live aboard, and the ability to carry multiple types of smaller
+                            craft. Most cutters of more than 200 feet in length are capable of accommodating
+                            helicopters.
+                            19HC-130 fixed wing aircraft and MH-60 helicopters deploy year-round for response
+                            missions. MH-60s are also deployed from July through October each year to a forward
+                            operating location in Kotzebue, Alaska, to enhance search and rescue capability during
+                            periods of increased vessel traffic.
+
+
+
+
+                            Page 6                                                         GAO-24-106491 Coast Guard
+                       Figure 2: Coast Guard Polar Icebreaker Healy
+
+
+
+
+Coast Guard Planning   To communicate strategic commitments to operational commanders and
+Process, Resource      allocate resources by asset type throughout its chain of command, the
+                       Coast Guard uses its Standard Operational Planning Process. 20 As part
+Allocation, and
+                       of this process, Coast Guard headquarters develops an annual Strategic
+Performance Reports    Planning Direction, which is the primary mechanism for allocating
+                       resources and providing strategic direction to operational commanders.
+                       One of the inputs used to develop the Strategic Planning Direction are
+                       quarterly performance reports submitted by areas and districts.
+
+                       According to Coast Guard guidance, the performance reports are
+                       quarterly summaries of Coast Guard operations and provide quantitative
+                       and qualitative information on mission performance and resource hours
+                       expended. These reports are used to identify capability gaps and ways
+                       that the Coast Guard can improve its operational effectiveness.
+
+
+
+
+                       20Strategic commitments are resource allocations that Coast Guard headquarters deems
+                       critical to the implementation of national, DHS, and Coast Guard strategic priorities.
+
+
+
+
+                       Page 7                                                      GAO-24-106491 Coast Guard
+National Arctic Strategy   The Arctic Executive Steering Committee was created by executive order
+and Planning for Federal   in 2015 to provide guidance to executive departments and agencies and
+                           enhance coordination of federal Arctic policies across agencies; offices;
+Efforts
+                           state, local, and Alaska Native Tribal governments; and other
+                           stakeholders. 21 In October 2022, the White House issued an updated
+                           national Arctic strategy which describes the U.S. agenda and policy in the
+                           region over the next 10 years. 22
+
+                           In October 2023, the White House issued the national Arctic
+                           implementation plan to describe the methodology, process, and approach
+                           for executing the national Arctic strategy, including steps for federal
+                           agencies to implement. 23 According to the Executive Director of the Arctic
+                           Executive Steering Committee, the National Security Council and the
+                           Arctic Executive Steering Committee co-led the development of the
+                           national Arctic implementation plan, which involved over 40 federal
+                           entities. Other interagency groups such as the Interagency Arctic
+                           Research Policy Committee and the U.S. Committee on the Marine
+                           Transportation System have Arctic functions, and the U.S. Department of
+                           State serves as the overall lead for U.S. Arctic diplomatic efforts. 24 The
+                           Executive Director of the Arctic Executive Steering Committee stated that
+                           the level of participation from across the federal government was a key
+                           influence on the scope and level of detail in the implementation plan.
+
+                           To monitor agencies’ progress, the Executive Director of the Arctic
+                           Executive Steering Committee stated that the committee expects
+                           agencies to report on the implementation of their respective action items.
+                           According to the Executive Director, the committee intends to monitor
+
+
+                           21See Exec. Order No. 13689, Enhancing Coordination of National Efforts in the Arctic, 80
+                           Fed. Reg. 4191 (Jan. 26, 2015). The Arctic Executive Steering Committee includes the
+                           Deputy Secretary or equivalent officer from a range of federal agencies, including DHS. It
+                           can also include other agencies or offices as determined appropriate by the Chair. The
+                           Coast Guard is involved in Arctic Executive Steering Committee activities.
+                           22The White House, National Strategy for the Arctic Region. According to the Executive
+                           Director of the Arctic Executive Steering Committee, the National Security Council led
+                           development of the national Arctic strategy.
+                           23The White House, Implementation Plan for the 2022 National Strategy for the Arctic
+                           Region.
+                           24The Department of State leads U.S. participation in the Arctic Council and coordinates
+                           with the other federal agencies in the U.S. delegation. For more information on U.S.
+                           priorities in the Arctic and interactions with foreign partners on Arctic issues, see GAO,
+                           Arctic Region: Factors That Facilitate and Hinder the Advancement of U.S. Priorities,
+                           GAO-23-106002 (Washington, D.C.: Sept. 6, 2023).
+
+
+
+
+                           Page 8                                                           GAO-24-106491 Coast Guard
+                            agency progress through a tracking tool that includes action items from
+                            the national Arctic implementation plan as well as periodically updating
+                            the plan to create greater uniformity. Meeting minutes indicate that the
+                            status of agency results was discussed at the March 2024 Arctic
+                            Executive Steering Committee quarterly meeting. The Executive Director
+                            stated that the committee would like to adopt standardized goals with time
+                            frames in future updates to the national Arctic implementation plan. The
+                            committee plans to start these updates in the summer of 2024 and
+                            complete them by early fiscal year 2025.
+
+
+Coast Guard Has
+Assessed and
+Planned for Arctic
+Risks, but Has
+Incomplete
+Information for
+Determining
+Resources Needs
+Coast Guard Has             The Coast Guard has identified and assessed risks—such as from
+Identified and Assessed     climate change and increased maritime activity—that affect its ability to
+                            carry out its missions in the Arctic region and included this information in
+Arctic Risks and Included   various planning documents. 25 These include the Coast Guard’s Arctic
+Them in Various Planning    strategy and region-specific documents, such as all-hazards concept
+Documents                   plans for Pacific Area and District 17, which identify risks specific to their
+                            operations. Maritime stakeholder committees have also worked in
+                            conjunction with the Coast Guard to identify security and marine
+
+
+
+
+                            25We focused on Arctic-specific risks that could affect the Coast Guard’s operations in that
+                            region. We have previously reported on broader challenges to Coast Guard operations
+                            such as workforce planning issues, which could affect its Arctic operations, but we do not
+                            address these issues in this report. For more information on workforce planning, see
+                            GAO, Coast Guard: Actions Needed to Evaluate the Effectiveness of Organizational
+                            Changes and Determine Workforce Needs, GAO-20-223 (Washington, D.C.: Feb. 26,
+                            2020), GAO, Coast Guard: Increasing Mission Demands Highlight Importance of
+                            Assessing Its Workforce Needs, GAO-22-106135 (Washington, D.C.: July 27, 2022); and
+                            GAO, Coast Guard: Deployable Operations Group Achieving Organizational Benefits, but
+                            Challenges Remain, GAO-10-433R (Washington, D.C.: Apr. 7, 2010).
+
+
+
+
+                            Page 9                                                         GAO-24-106491 Coast Guard
+                                                               environmental risks in planning documents specific to their areas of
+                                                               operation (see table 1).
+
+Table 1: Coast Guard Planning Documents, Descriptions, and Participants
+
+ Planning Document                                                Description of Document
+ Coast Guard Arctic Strategy                                      Identifies a range of risks, including security risks from increased militarization of the
+ (Participants: Coast Guard)                                      Arctic region and potential conflict with Russia or China; and safety risks from more
+                                                                  frequent and intense winter storms and greater shipping traffic that raise the risk of
+                                                                  potential mass rescue operations. This strategy also identifies environmental risks,
+                                                                  such as coastal and river erosion, marine oil spills and other pollution, and damage to
+                                                                  the marine ecosystem from illegal, unreported, and unregulated fishing. It also
+                                                                  identifies risks to regional communities due to changing availability of and access to
+                                                                  subsistence resources.
+ Coast Guard Arctic Implementation Plan                           Consists of 14 interconnected initiatives for carrying out the Coast Guard Arctic
+ (Participants: Coast Guard)                                      strategy with the lead organizations/offices responsible for overseeing implementation,
+                                                                  and action items that represent next steps to advance the Coast Guard Arctic strategy.
+                                                                  According to Coast Guard officials, the plan is scalable to adapt to the dynamic nature
+                                                                  of Arctic challenges and to the U.S. Coast Guard’s available resources.
+ All-Hazards Concept Plans                                        Describe a range of hazards and contingences, including natural and manmade
+ (Participants: Coast Guard)                                      disasters, assumptions about and potential impacts of an incident, pre-incident
+                                                                  preparedness activities by the Coast Guard, and support to and from other agencies.
+                                                                  Examples of contingencies include maritime mass rescue operations, maritime
+                                                                  transportation system disruptions, and maritime homeland defense.
+ Area Maritime Security Plans                                     Identify critical port infrastructure, operations, and security risks, and determine
+ Area Maritime Security Committees                                mitigation strategies and implementation methods. According to Coast Guard officials,
+                                                                  this is a primary risk assessment that uses a risk analysis model to evaluate the
+ (Participants: federal, state, territorial or                    likelihood of security risks. These risks are evaluated by Coast Guard officials and
+ Tribal government; local public safety, crisis                   used to conduct Area Maritime Security Assessments and to inform Area Maritime
+ management, and emergency response                               Security Plans.
+ agencies; the maritime industry; and other
+ port stakeholders)
+ Area Contingency Plans                                           Identify plans for oil and hazardous substance spill response, incident management,
+ Area Committees                                                  and all-hazards preparedness. The plans serve as a primary risk assessment for
+                                                                  marine environmental risks and include more qualitative scenarios and stakeholder
+ (Participants: federal, Tribal, state, and local                 involvement to identify emerging risks and prepare responses.
+ government agencies; as well as
+ representatives from industry, environmental,
+ and non-governmental organizations, and oil
+ spill removal organizations)
+Sources: GAO analysis of Coast Guard documents and interviews with Coast Guard officials. | GAO-24-106491
+
+
+
+
+                                                               Page 10                                                           GAO-24-106491 Coast Guard
+Coast Guard Has Taken
+Steps to Manage Arctic
+Risks but Limited Asset
+Availability and Incomplete
+Data Hinder These Efforts
+Coast Guard Has Two Key           The Coast Guard mitigates operational risks in the Arctic region by
+Approaches for Mitigating         forward deploying assets to the area and by participating in exercises with
+Operational Risks in the Arctic   its partners. To help plan its risk mitigation efforts, the Coast Guard has
+Region                            established strategic commitments for maintaining a presence in the
+                                  Arctic region (including and beyond the U.S. Arctic region) using its
+                                  various assets, including its personnel, cutters, and aircraft. To help meet
+                                  these commitments and better manage its operations, given the region’s
+                                  vast geographic area and often harsh weather conditions, the Coast
+                                  Guard forward deploys assets to key locations in the U.S. Arctic region.
+                                  See figure 3 for a depiction of the long air and sea distances required to
+                                  reach the north Alaska coastline. These assets are forward deployed to
+                                  the Arctic from other locations—such as California, Hawaii, Washington,
+                                  and elsewhere in Alaska—reducing transit times for carrying out its
+                                  missions in the summer and fall when maritime activity peaks in the
+                                  region. According to Coast Guard officials, this annual effort—known as
+                                  Operation Arctic Shield—allows the Coast Guard to allocate resources,
+                                  support communities in the Arctic, conduct missions, and identify areas
+                                  where the Coast Guard needs support from partners. 26 The Coast Guard
+                                  also forward deploys Maritime Safety and Security Teams to support
+                                  Operation Arctic Shield. 27
+
+
+
+
+                                  26Operation Arctic Shield is intended to provide the Coast Guard with the opportunity to
+                                  conduct its missions and activities, broaden partnerships in support of its Arctic
+                                  operations, and enhance and improve its preparedness, prevention, and response
+                                  capabilities in the Arctic. See GAO, Arctic Capabilities: Coast Guard is Taking Steps to
+                                  Address Key Challenges, but Additional Work Remains, GAO-20-374t (Washington, D.C.:
+                                  Feb. 5, 2020).
+                                  27The Coast Guard Maritime Safety and Security Teams are maritime security
+                                  antiterrorism forces that are managed as national deployable units responsible for
+                                  safeguarding the public and protecting vessels, harbors, ports, facilities, and cargo in U.S.
+                                  territorial waters. The teams are one component of the Coast Guard’s Deployable
+                                  Specialized Forces, which deploy from their home locations, such as major U.S. port
+                                  areas, to conduct operations in U.S. coastal waters and internationally. For more
+                                  information, see GAO, Coast Guard: Assessing Deployable Specialized Forces’
+                                  Workforce Needs Could Improve Efficiency and Reduce Potential Overlap or Gaps in
+                                  Capabilities, GAO-20-33 (Washington, D.C.: Nov. 21, 2019).
+
+
+
+
+                                  Page 11                                                         GAO-24-106491 Coast Guard
+Figure 3: Air and Sea Travel Distances in Alaska
+
+
+
+
+                                         The Coast Guard also manages operational risk by participating in
+                                         exercises in the U.S. Arctic with DOD, other federal agencies, and
+                                         international partners. For example, according to Coast Guard officials,
+                                         the Coast Guard provides standby search and rescue support for
+                                         Operation Arctic Edge, DOD’s joint biennial exercise with the Canadian
+                                         Armed Forces. The Coast Guard also helps plan for and participates in
+                                         the Alaska National Guard’s recurring Arctic Eagle-Patriot exercise to
+                                         train for homeland security and emergency response missions in and
+                                         around the Arctic.
+
+                                         The Coast Guard, DOD, and international partners also conduct
+                                         exercises outside the U.S. Arctic. For example, Exercise Argus is an
+                                         annual international training event for Arctic search and rescue and
+
+
+
+                                         Page 12                                            GAO-24-106491 Coast Guard
+                               marine environmental incidents. In 2023, this training exercise included
+                               Greenland, Denmark, and France. Another training exercise, Operation
+                               Nanook, is an annual Canadian Armed Forces Arctic exercise with
+                               international partners, including the U.S. Navy and Coast Guard.
+
+Limited Asset Availability     The Coast Guard has multiple strategic commitments for operations in the
+Hinders Efforts to Meet U.S.   U.S. Arctic region but has been unable to meet all of them in recent years
+Arctic Region Strategic        for a variety of reasons. For example, the Coast Guard has maintained a
+Commitments                    strategic commitment to have a 365-day major cutter presence in U.S.
+                               Arctic waters, specifically the Bering Sea, but it has not always been able
+                               to meet this commitment recently due to asset availability challenges.
+                               Specifically, in fiscal year (FY) 2022, mechanical problems prevented the
+                               Coast Guard from deploying a major cutter to the Bering Sea as planned,
+                               resulting in a 27-day coverage gap.
+
+                               The Coast Guard has a separate strategic commitment to provide a
+                               seasonal major cutter presence in U.S. Arctic waters north of the Bering
+                               Strait, 28 which the Coast Guard was also unable to meet in FY 2016 and
+                               from FY 2019 through FY 2023. 29 See figure 4 below for Coast Guard
+                               cutter deployment days in the U.S. Arctic region. Coast Guard officials
+                               told us that the agency was unable to meet its strategic commitments in
+                               the U.S. Arctic region at various times because of the COVID-19
+                               pandemic, mechanical problems, and a lack of reserve major cutters.
+                               Separately, Coast Guard documents identified competing demands for
+                               major cutters in other areas, such as the Indo-Pacific region. In addition,
+                               Coast Guard officials told us that environmental factors such as the
+                               presence of sea ice can limit the ability of major cutters to access areas
+                               north of the Bering Strait, which may result in reduced deployment days in
+                               the region.
+
+                               The Coast Guard polar icebreaker Healy has also been deployed to,
+                               among other missions, help manage risks in the Arctic by providing a
+                               seasonal Coast Guard presence in the region (see fig. 4). 30 However, this
+                               ship’s ability to carry out its planned deployments has varied. For
+
+                               28The Bering Strait, within the Bering Sea, is located between Alaska and Russia and is a
+                               key convergence point for trans-Arctic routes that connect the Northwest Passage and the
+                               Northern Sea Route to the Pacific Ocean.
+                               29In FY 2016, the Coast Guard deployed a cutter to this region for 86 days, just missing its
+                               strategic commitment of 90 days.
+                               30The Healy primarily supports the research efforts of several federal agencies in the
+                               Arctic but can also carry out Coast Guard missions, such as search and rescue.
+
+
+
+
+                               Page 13                                                        GAO-24-106491 Coast Guard
+                                        instance, in FY 2019, the Healy helped to manage risk north of the Bering
+                                        Strait by deploying to the U.S. Arctic region for 124 days, according to
+                                        Coast Guard planning documents. However, its FY 2020 deployment was
+                                        shortened from a planned 105 days to 26 days due to a propulsion motor
+                                        fire. As a result, the Coast Guard deployed its other polar icebreaker, the
+                                        Polar Star, to the U.S Arctic region for 78 days between December 2020
+                                        and February 2021. 31
+
+Figure 4: Coast Guard Strategic Commitments and Cutter Deployment Days to the U.S. Arctic Region, fiscal years 2016–2023
+
+
+
+
+                                        Notes: Days deployed exceeds 365 days in some fiscal years because multiple cutters were
+                                        deployed to the region and their combined days deployed are cumulative. “No data” means that the
+                                        Coast Guard was unable to provide information on the number of days its cutters or icebreaker were
+                                        deployed during that fiscal year. “North of the Bering Strait” refers to the Chukchi, Barents, and
+                                        Beaufort Seas. Strategic commitments are resource allocations that Coast Guard deems critical to
+                                        the implementation of national, Department of Homeland Security, and Coast Guard strategic
+                                        priorities. The Coast Guard did not establish a strategic commitment for Arctic icebreaker
+                                        deployments until fiscal year 2019. Pacific Area is one of two Coast Guard commands, and its
+
+                                        31Coast Guard officials stated that the agency was able to deploy the Polar Star to the
+                                        Arctic to cover for the Healy because the Polar Star’s annual Antarctic mission for FY
+                                        2020 was canceled due to the COVID-19 pandemic.
+
+
+
+
+                                        Page 14                                                             GAO-24-106491 Coast Guard
+geographic area of responsibility ranges from the U.S. western states to Asia and from the Arctic to
+Antarctica.
+a
+ The polar icebreaker Healy deploys annually to the Arctic region in support of national objectives and
+research efforts for several federal agencies. The Healy’s fiscal year 2020 deployment was shortened
+from a planned 105 days to 26 days due to a motor fire. The Coast Guard’s other polar icebreaker,
+Polar Star, typically conducts annual Antarctic missions. It was deployed to the Arctic for 78 days in
+fiscal year 2021 when its Antarctic mission was canceled. This deployment is not included in the
+figure above.
+
+
+Coast Guard officials noted that the agency’s operational challenges in
+the U.S. Arctic region are amplified by limited infrastructure and logistics
+capabilities in Alaska. In addition to major cutters and icebreakers, the
+Coast Guard also forward deploys helicopters to the U.S. Arctic region as
+part of Operation Arctic Shield. The Coast Guard operates these
+helicopters from a leased Alaska National Guard aircraft hangar in
+Kotzebue, Alaska, because it lacks such infrastructure in the Arctic
+region. Coast Guard officials also told us that it can take weeks to
+transport large spare parts, such as helicopter rotor blades, to their
+destinations in the region because they must be shipped by barge over
+long distances. These logistical challenges can further limit Coast Guard
+assets’ availability to conduct missions.
+
+To address operational challenges in this and other regions, the Coast
+Guard plans to acquire 28 new cutters, 32 including at least three new
+icebreakers. 33 However, in the interim, the Coast Guard has projected it
+will have a reduced number of ships available for operations through FY
+
+
+
+
+32GAO has an ongoing review about the planned new Polar Security Cutters. GAO
+expects to issue a report on the results of its review in fall 2024.
+33In addition to these three new icebreakers, the James M. Inhofe National Defense
+Authorization Act for Fiscal Year 2023 includes a provision that authorized $150 million for
+the acquisition or procurement of a United States built available icebreaker. See Pub. L.
+No. 117-263, div. K, tit. CXI, § 11104(a)(5), tit. CXII, subtit. C, § 11223(a), 136 Stat. at
+4004, 4021. The Further Consolidated Appropriations Act, 2024 includes a provision
+appropriating over $1.41 billion for necessary expenses of the Coast Guard for
+procurement, construction, and improvements, including vessels and aircraft. See Pub. L.
+No. 118-47, div. C, tit II, 138 Stat. 460, 600. The joint explanatory statement for the act
+includes a provision specifying that $125 million is provided for procurement of a
+commercially available polar icebreaker. See Staff of H.R. Comm. on App., 118th Cong.,
+Joint Explanatory Statement for Division C—Department of Homeland Security
+Appropriations Act 31 (Comm. Print 2024).
+
+
+
+
+Page 15                                                                GAO-24-106491 Coast Guard
+                               2039. 34 Until these new ships enter service, cutter and icebreaker
+                               shortages may continue to challenge the Coast Guard’s ability to meet its
+                               strategic commitments in the U.S. Arctic region and other regions.
+
+Key District 17 Resource and   Key Coast Guard operational performance reports for FY 2016 through
+Performance Information is     FY 2021 that identify resource hour use and mission performance
+Incomplete or Missing          information for District 17 were partially complete or incomplete. 35 Further,
+                               Coast Guard officials said they could not locate District 17’s performance
+                               report for FY 2022 and were not able to create one for FY 2023. See
+                               table 2 below. Coast Guard guidance requires field units to complete
+                               these reports, which are used as part of its annual planning process. This
+                               process is the Coast Guard’s primary mechanism for allocating resources
+                               and providing strategic direction to operational commanders.
+
+                               Coast Guard documentation for FY 2016 through FY 2020 had complete
+                               information on resource hour use by mission. However, the
+                               documentation had either incomplete or partially complete information on
+                               mission performance for these years. 36 For example, these reports did not
+                               consistently include mission performance targets for key District 17
+                               missions, such as maritime law enforcement. 37
+
+                               District 17 performance reports also identified data system limitations that
+                               may have affected the accuracy of resource hour use and mission
+
+                               34Both the Offshore Patrol Cutter and the Polar Security Cutter acquisitions programs
+                               have been delayed. For more information, see GAO, Coast Guard Acquisitions: Offshore
+                               Patrol Cutter Program Needs to Mature Technology and Design [Reissued with revisions
+                               on Aug. 1, 2023], GAO-23-105805 (Washington, D.C.: June 20, 2023) and GAO, Coast
+                               Guard Acquisitions: Polar Security Cutter Needs to Stabilize Design Before Starting
+                               Construction and Improve Schedule Oversight, GAO-23-105949 (Washington, D.C.: July
+                               27, 2023).
+                               35Resource hour use is the amount of time that Coast Guard aircraft, cutters, and small
+                               boats spent conducting missions and exercises during the fiscal year. Mission
+                               performance information is quantitative targets and results for different Coast Guard
+                               missions.
+                               36When we evaluated the reports, “complete” meant that elements of the performance
+                               reports contained complete resource hour or mission performance data for all missions
+                               executed in District 17. “Partially complete” meant that elements of the performance
+                               reports contained data for some missions but not others. “Incomplete” meant that
+                               elements of the performance reports lacked data for all missions. “Unavailable” meant that
+                               we could not evaluate performance reports because Coast Guard could not provide those
+                               reports.
+                               37Quantitative targets for Coast Guard’s maritime law enforcement missions include, for
+                               example, the interdiction rate of foreign fishing vessels violating U.S. waters, and the
+                               percent of federal fisheries found to be in compliance with laws and regulations.
+
+
+
+
+                               Page 16                                                          GAO-24-106491 Coast Guard
+performance data. For instance, the reports described data system
+malfunctions and miscategorized multimission cutter patrol hours. These
+reports stated that District 17 officials were working to correct erroneous
+records. 38
+
+Table 2: Completeness of Coast Guard District 17 Performance Report Elements
+
+Fiscal Year                      Resource Hour Use              Mission Performance Targets
+2016                             Complete                       Incomplete
+2017                             Complete                       Partially Complete
+2018                             Complete                       Partially Complete
+2019                             Complete                       Partially Complete
+2020                             Complete                       Partially Complete
+2021                             Incomplete                     Incomplete
+2022                             Unavailable                    Unavailable
+2023                             Unavailable                    Unavailable
+Source: GAO analysis of Coast Guard data | GAO-24-106491
+
+Note: Coast Guard District 17 is responsible for over 3.85 million square miles of territory throughout
+Alaska and the U.S. Arctic region, including over 47,300 miles of shoreline. Resource hour use refers
+to the amount of time that Coast Guard aircraft, ships, and small boats spent conducting missions
+and exercises. Mission performance targets refer to Coast Guard’s quantitative goals for its various
+missions. “Complete” means that elements of the performance reports contained complete resource
+hour or mission performance data for all missions executed in District 17. “Partially Complete” means
+that elements of the performance reports contained data for some missions but not others.
+“Incomplete” means that elements of the performance reports lacked data for all missions.
+“Unavailable” indicates that we could not evaluate performance reports because Coast Guard could
+not provide those reports. According to Coast Guard officials, District 17’s fiscal year 2022
+performance report was lost during a data migration. Additionally, District 17 stated it could not
+produce a performance report for fiscal year 2023 due to a shortage of qualified personnel.
+
+
+
+
+38We previously reviewed a key Coast Guard data system that it uses to track and report
+results for nearly all of its missions and identified several data issues in Coast Guard
+records including data errors, incomplete or missing records, and inconsistent data entry
+practices. We made four recommendations to the Coast Guard, including a
+recommendation to assess and address the causes of data errors and inconsistent data
+entry. In January 2021, Coast Guard told us that it completed its review of data errors and
+planned to carry out a project to merge duplicate records. Coast Guard said that that it
+would reassess data errors and inconsistent entries after completing this project. In June
+2023, Coast Guard officials stated that they expected to complete this project in fiscal year
+2024. We continue to monitor actions the Coast Guard takes to fully implement all four of
+our recommendations. GAO, Coast Guard: Actions Needed to Ensure Investments in Key
+Data System Meet Mission and Used Needs, GAO-20-562 (Washington, D.C.: July 16,
+2020).
+
+
+
+
+Page 17                                                                GAO-24-106491 Coast Guard
+Coast Guard guidance specifies area and district responsibilities. 39
+Specifically, Coast Guard guidance states that district commanders are
+responsible for consolidating, developing, and submitting required
+performance report products. 40 Other Coast Guard guidance further
+states that reliable performance measures provide baselines and
+benchmarks for assessing progress toward achieving mission purposes
+and program objectives. 41
+
+The Coast Guard informed us that there were several reasons for why
+District 17 performance reports were unavailable or incomplete.
+Specifically, Coast Guard officials stated that District 17’s FY 2022 report
+was lost during a data migration, and that District 17 was unable to
+produce a performance report for FY 2023 due to a shortage of qualified
+personnel. They further stated that personnel shortages also contributed
+to the incomplete and partially complete performance reports in earlier
+fiscal years. Coast Guard headquarters officials also said that preparing
+performance reports is a collateral duty and that personnel routinely
+rotate positions across the Coast Guard making the tracking of
+performance information more difficult. These factors may have
+contributed to the deficiencies in District 17’s performance reports. Coast
+Guard officials from District 17 told us in April 2024 that they filled vacant
+District 17 positions in August 2023 to carry out the performance report
+oversight process and prevent future issues. 42
+
+The Coast Guard’s performance reports are a key input in its operational
+planning process because they enable the agency to quantitatively
+assess its mission performance, identify capability gaps, and forecast
+future operational requirements. Filling vacant positions in District 17 may
+help address the reasons that performance reports were unavailable or
+incomplete. However, these issues were present for multiple years from
+
+39United States Coast Guard, Commandant Instruction 3120.4B: Coast Guard Standard
+Operational Planning Process/Global Force Management. This document was developed
+in response to GAO recommendations. See GAO, Coast Guard: Actions Needed to
+Improve Strategic Allocation of Assets and Determine Workforce Requirements,
+GAO-16-379 (Washington, D.C.: May 24, 2016). This instruction replaced Commandant
+Instruction 3120.4A, which was originally published in December 2009.
+40United States Coast Guard, Global Force Management (GFM) 2.0 Process Guide.
+
+41United States Coast Guard, Deputy Commandant for Operations, Framework for
+Strategic Mission Management, Enterprise Risk Stewardship, and Internal Control.
+42We have previously testified on Coast Guard recruitment and retention challenges. See
+GAO, Coast Guard: Recruitment and Retention Challenges Persist, GAO-23-106750
+(Washington, D.C.: May 11, 2023).
+
+
+
+
+Page 18                                                     GAO-24-106491 Coast Guard
+                              FY 2016 through FY 2023, even though the performance reports indicate
+                              that the same staff member was completing the documents for at least 3
+                              of these years. Collecting and reporting complete information from District
+                              17 about resource use and mission performance in accordance with
+                              Coast Guard guidance would better position the agency to monitor its
+                              activity and make more informed operational planning decisions for the
+                              Arctic region.
+
+Coast Guard Has               The Coast Guard’s Arctic implementation plan outlines initiatives and
+Developed an Arctic           actions intended to execute Coast Guard strategic objectives and to
+                              support national Arctic efforts. These actions include efforts to manage
+Implementation Plan, but It
+                              and mitigate risks, such as risks from climate change and increased
+Does Not Include Key          maritime activity. Coast Guard officials stated that they have examined
+Metrics                       the national Arctic strategy and the Coast Guard Arctic strategy to ensure
+                              alignment between both strategies and the Coast Guard implementation
+                              plan. 43 Coast Guard officials also noted that full execution of the plan is
+                              contingent upon additional Coast Guard and whole-of-government
+                              investments in technologies, capabilities, resources, and personnel.
+
+                              While the Coast Guard Arctic implementation plan includes numerous
+                              action items, the items generally do not include key metrics. Specifically,
+                              of the 97 action items, none have associated quantitative performance
+                              measures and targets. 44 Three have time frame descriptions, two have
+                              partial time frame descriptions, and the remaining 92 do not have time
+                              frame descriptions (see fig. 5 below). 45 Other action items refer to time
+                              frames for part of an action item, but not for all of it. For example, one
+
+                              43The Executive Director of the Arctic Executive Steering Committee separately noted that
+                              the national Arctic implementation plan and the Coast Guard Arctic implementation plan
+                              were aligned because they were developed at the same time. Coast Guard officials stated
+                              that they have completed a document mapping the national Arctic strategy to the Coast
+                              Guard Arctic strategy. The Coast Guard provided documentation showing high-level
+                              alignment between the national Arctic strategy objectives and the Coast Guard Arctic
+                              strategy initiatives.
+                              44For example, one initiative describes the Coast Guard’s involvement in joint Arctic
+                              operations and exercises along with planned action items to develop and implement a
+                              unified Pacific Area and Atlantic Area campaign plan to increase operations, coordination,
+                              and exercises across the region. However, the initiative does not include metrics for doing
+                              so.
+                              45For example, some action items included partial time frames, such as conducting
+                              bilateral/regional exercises and annual communication drills as necessary. Coast Guard
+                              officials stated that some action items do not include time frames because they are
+                              ongoing actions. For example, one action item describes enhancing Coast Guard
+                              engagement with federally recognized Tribes and Alaska Native Claims Settlement Act
+                              corporations to build relationships and gain knowledge.
+
+
+
+
+                              Page 19                                                        GAO-24-106491 Coast Guard
+action item describes coordinating with DHS and the U.S. Department of
+State to: 1) implement, strengthen, exercise, and update Arctic-Specific
+Joint Contingency Plans and Arctic Letters of Intent, 2) conduct
+bilateral/regional exercises, and 3) conduct annual communication drills.
+In this case, only annual communication drills included a time frame.
+
+Figure 5: Analysis of Coast Guard Arctic Implementation Plan Action Items
+
+
+
+
+a
+ Initiatives describe how the Coast Guard intends to accomplish its strategic objectives in the Coast
+Guard Arctic strategy.
+b
+ Action items describe what the Coast Guard considers to be critical next steps to advance efforts in
+the Coast Guard Arctic strategy.
+c
+  Performance measures and targets provide baselines and benchmarks for assessing progress
+toward objectives. “None” means that an action item did not include performance measures or
+targets.
+d
+ Time frame descriptions identify when actions will be taken. “Full” means that an action item included
+time frames. “Partial” means that an action item included some mention of time frames, such as for
+one element of the item, but not for all elements. “None” means that there was no mention of time
+frames.
+
+
+The Coast Guard’s Framework for Strategic Mission Management,
+Enterprise Risk Stewardship, and Internal Control states that an
+appropriate metric system makes setting performance standards and
+gauging progress toward achievement possible. 46 It draws from federal
+
+
+
+
+46United States Coast Guard, Deputy Commandant for Operations, Framework for
+Strategic Mission Management, Enterprise Risk Stewardship, and Internal Control.
+
+
+
+
+Page 20                                                                GAO-24-106491 Coast Guard
+guidance and international standards. 47 It also describes development of
+strategic initiatives and states that a thorough scoping of implementation
+requirements is important. This guidance further states this should include
+identifying major steps and tasks, corresponding schedules, timelines,
+and critical paths as well as developing suitable measures, controls,
+targets, milestones, and feedback mechanisms. Past GAO work has also
+highlighted the use of milestones as a way to assess performance and
+progress, especially when using quantitative assessments is not
+feasible. 48
+
+Coast Guard officials stated that the agency plans to coordinate with the
+Arctic Executive Steering Committee to ensure alignment between the
+Coast Guard Arctic implementation plan and the national Arctic
+implementation plan while measuring and reporting progress. 49 According
+to these officials, the Coast Guard’s new Polar Coordination Office will be
+responsible for carrying out these efforts. 50 Coast Guard officials also
+stated that they wrote the Coast Guard Arctic implementation plan as a
+general planning document. Specifically, the plan articulates action items
+to advance the Coast Guard and national Arctic strategies. These officials
+also said that they intend to conduct annual internal assessments that will
+inform Coast Guard leadership about what the Coast Guard was and was
+not able to accomplish. The assessments will then form the basis for
+future resource proposals. The officials added that once they obtain
+
+
+
+
+47The framework states that it incorporates best practices and the latest direction drawn
+from federal guidance and the international standards from which the federal guidelines
+are established, including GAO’s Standards for Internal Control in the Federal
+Government, and the Office of Management and Budget Circular No. A-11 and No. A-123,
+among others.
+48GAO, Managing For Results: Agencies Should More Fully Develop Priority Goals under
+the GPRA Modernization Act, GAO-13-174 (Washington, D.C.: Apr. 19, 2013).
+49Regarding agency plan alignment with the national Arctic implementation plan, the
+Executive Director of the Arctic Executive Steering Committee stated that the committee
+does not approve federal agencies’ Arctic strategies or implementation plans. However, if
+the committee noticed a significant issue with one, it would raise the issue with the
+relevant agency.
+50The Coast Guard Arctic implementation plan includes action items under Initiative 14:
+Formalize the U.S. Coast Guard Polar Enterprise, which states that the Coast Guard will
+“develop a framework to inform U.S. Coast Guard leadership on progress in advancing the
+2019 Arctic Strategic Outlook and this Implementation Plan” as well as “conduct annual
+assessments of the initiatives and brief U.S. Coast Guard leadership on future goals.”
+
+
+
+
+Page 21                                                        GAO-24-106491 Coast Guard
+                         dedicated funding for applicable action items, they would be able to
+                         identify completion dates and performance measures. 51
+
+                         The Coast Guard Arctic implementation plan is intended to outline
+                         planned actions to execute its strategic objectives and support national
+                         Arctic efforts. However, if its action items do not include an appropriate
+                         metric system, such as performance measures, targets, and time frames,
+                         it will be difficult for the Coast Guard to effectively align its activities in the
+                         region with its strategic objectives. This includes determining its resource
+                         needs for both the near and long term, assessing its progress toward
+                         achieving Coast Guard strategic objectives, and ensuring that its efforts
+                         are aligned with the national Arctic implementation plan.
+
+                         Coast Guard officials stated that they intend to track their efforts through
+                         annual internal assessments, which they would use to inform Coast
+                         Guard leadership of what they were and were not able to accomplish.
+                         However, this approach does not provide a high-level roadmap that could
+                         help the Coast Guard more effectively plan for its near- and longer-term
+                         Arctic priorities, determine the type and timing of its Arctic-related
+                         resource needs, and help ensure that the Coast Guard is both making
+                         progress toward achieving its strategic objectives and remaining aligned
+                         with the national Arctic efforts.
+
+                         Coast Guard and DOD documents and officials described collaborating in
+Coast Guard and the      several ways to assess and manage risks in the Arctic region. For
+Department of            example, the Coast Guard and DOD have an interagency agreement that
+                         specifies how the two agencies will collaborate to address marine salvage
+Defense Collaborate      and pollution incidents, such as oil spills. Officials described having a
+on Arctic Issues in      generally collaborative working relationship where they share relevant
+                         information and expertise, provide operational and exercise assistance,
+Various Ways             and coordinate on joint projects.
+
+Shared Information and   Arctic strategy input. Both Coast Guard and DOD officials stated that
+Expertise                they collaborated on the development of their Arctic strategies. DOD
+
+                         51In 2016, we recommended that the Coast Guard develop measures for gauging how its
+                         actions helped to mitigate Arctic capability gaps and to design and implement a process to
+                         systematically assess the extent to which actions taken agency-wide have helped mitigate
+                         the gaps for which it has responsibility. Although DHS agreed with our two
+                         recommendations, to date, the Coast Guard has not addressed them. To fully address
+                         these recommendations, the Coast Guard will need to finalize the development of
+                         measures that would enable it to gauge how its actions have helped to mitigate Arctic
+                         capability gaps and then use these measures to assess how its actions have helped to
+                         mitigate Arctic capability gaps. See GAO-16-453.
+
+
+
+
+                         Page 22                                                       GAO-24-106491 Coast Guard
+officials told us that the Coast Guard was part of a collaborative working
+group that helped DOD develop its 2019 Arctic strategy. 52 According to
+DOD officials, the Navy, Air Force, and Coast Guard formed a
+collaborative working group to facilitate development of each of their most
+recent Arctic strategies, which were issued between 2019 and 2021. The
+Coast Guard also provided input into the development of the Army’s
+Arctic strategy. 53
+
+Risk information sharing. Coast Guard officials stated that they
+regularly evaluate Arctic risks and work with federal, state, and local
+partners to conduct risk assessments, although not all of these
+assessments result in formal reports. For example, officials stated that
+District 17 conducts daily and seasonal risk assessments, and the
+intelligence community, which includes Coast Guard and DOD entities,
+completes detailed threat assessments. A Coast Guard liaison officer with
+the Navy stated that risk assessment collaboration between the Coast
+Guard and DOD occurs more commonly at the operational and tactical
+levels, and for the Coast Guard it is carried out by districts and sectors.
+
+Arctic domain awareness. According to the national Arctic
+implementation plan, DHS, through the Coast Guard, will collaborate with
+DOD to improve domain awareness in the Arctic. 54 Specifically, DOD is to
+lead efforts to modernize systems that detect and track potential airborne
+and maritime threats, and the Coast Guard is to support DOD’s efforts.
+The Coast Guard is to provide effective maritime security, law
+
+
+
+
+52In August 2023, DOD officials told us that they are reviewing and developing an update
+to this Arctic strategy. According to the officials, the Coast Guard received a draft of the
+updated DOD Arctic strategy and had an opportunity to provide informal input. Department
+of Defense, Report to Congress Department of Defense Arctic Strategy, (Washington,
+D.C.: June 2019).
+53United States Coast Guard, Arctic Strategic Outlook. Department of the Air Force, The
+Department of the Air Force Arctic Strategy (Washington, D.C.: July 21, 2020).
+Department of the Army, Regaining Arctic Dominance: The U.S. Army in the Arctic
+(Washington, D.C: Jan. 19, 2021). Department of the Navy, a Blue Arctic: A Strategic
+Blueprint for the Arctic (Washington, D.C.: Jan. 5, 2021).
+54Elements of domain awareness include maritime and air, among others. According to
+Coast Guard, maritime domain awareness is the effective understanding of anything
+associated with the maritime domain that could impact the security, safety, economy, or
+environment of the United States. According to DHS, air domain awareness is the
+understanding of everything in the air, including the detection, tracking, and identification
+of manned and unmanned aircraft.
+
+
+
+
+Page 23                                                          GAO-24-106491 Coast Guard
+enforcement, search and rescue, and emergency response. 55 According
+to the national Arctic implementation plan, Coast Guard efforts are to
+include expanding its icebreaker fleet to support increased presence in
+the Arctic, and DOD is to support these efforts.
+
+One way that the Coast Guard and DOD have collaborated on domain
+awareness in the Arctic region is through the U.S. National Ice Center.
+This multiagency organization is composed of officials from the Coast
+Guard, Navy, and the National Oceanic and Atmospheric Administration,
+and provides sea ice forecasts and other environmental intelligence
+products to government agencies. According to U.S. National Ice Center
+officials, these products can be tailored to meet the mission needs of
+federal agencies. For instance, when the Coast Guard polar icebreaker
+Healy conducts operations in the Arctic region, the ship’s commander
+obtains information about sea ice conditions from the National Ice Center.
+
+Another domain awareness collaboration between Coast Guard and DOD
+involves their efforts to monitor foreign naval exercises that are regularly
+conducted in the Arctic region. 56 To ensure that communications are
+maintained between Coast Guard and DOD, Coast Guard officials stated
+that they meet quarterly with DOD officials and plan to change this to
+monthly meetings in the future. 57
+
+
+
+
+55To inform these missions, Coast Guard contracts with the Marine Exchange of Alaska,
+which enables the Coast Guard to access the Marine Exchange of Alaska’s data showing
+the location of vessels along with other vessel status information that enables the Coast
+Guard to better monitor vessels in the region.
+56In addition, the James M. Inhofe National Defense Authorization Act for Fiscal Year
+2023 directed the Commandant of the Coast Guard, in consultation with the Secretaries of
+Defense and State as well as commercial fishing industry participants, to “develop and
+publish on a publicly available website a plan for notifying United States mariners and the
+operators of United States fishing vessels in advance of” (1) military exercises in the
+exclusive economic zone, or (2) other military activities that will impact recreational or
+commercial activities. See Pub. L. No. 117-263, div. K, tit. CXIII, subtit. D, § 11323, 136
+Stat. at 4094 (codified at 14 U.S.C. § 504 note). The term exclusive economic zone refers
+to an area up to 200 nautical miles from the territorial sea baseline where a country has
+sovereign rights to natural resources such as fishing and energy production.
+57Coast Guard officials said that there was an incident in 2020 where Russia conducted
+an exercise within the U.S.’s exclusive economic zone in the Bering Sea and the Coast
+Guard did not inform U.S. mariners operating in the region ahead of time. The Coast
+Guard stated that this was not a result of failed communication between Coast Guard and
+DOD officials. After the incident, communication between Coast Guard and DOD
+improved, and they began meeting quarterly.
+
+
+
+
+Page 24                                                        GAO-24-106491 Coast Guard
+                           Shared strategic expertise. According to the national Arctic strategy, the
+                           Ted Stevens Center for Arctic Security Studies (Stevens Center) is an
+                           institution that will advance expertise and cooperation in the Arctic. 58
+                           According to the Stevens Center, it was established in 2021 to promote
+                           integrated, collaborative responses to transnational threats; foster
+                           common perspectives on regional security challenges; and strengthen
+                           binational and multinational institutional relationships. Stevens Center
+                           officials we interviewed in July 2023 stated that the center has worked to
+                           build in Coast Guard requirements and requests into its roadmap of
+                           programmatic and planning decisions. However, at that time the center
+                           had not yet reached its full operating capacity and was still developing its
+                           programs.
+
+Operational and Exercise   Operational support. The Coast Guard and DOD assist each other by
+Assistance                 leveraging their specialized expertise and unique operational capabilities.
+                           According to District 17 officials, the Coast Guard assists DOD with
+                           transportation, can assist Navy ships if needed, and shares its subject
+                           matter expertise about Arctic operations with DOD. DOD has assisted the
+                           Coast Guard by, for example, providing parachute-trained medics to help
+                           deliver medical care to people in the Aleutian Islands.
+
+                           Search and rescue coordination. Both Coast Guard and DOD play
+                           unique roles in the federal government’s plan for coordinating domestic
+                           and international search and rescue operations. The National Search and
+                           Rescue Plan of the United States describes the roles and responsibilities
+                           of Coast Guard and DOD, as well as other agencies, in different search
+                           and rescue situations. 59 According to this plan, the Coast Guard has
+                           overall responsibility for coordinating, establishing, and providing maritime
+                           search and rescue services. For example, Coast Guard officials told us
+                           that they provide search and rescue coverage during Operation Arctic
+                           Edge, a biennial exercise DOD conducts with the Canadian Armed
+                           Forces. Additionally, the plan states that DOD can provide unique search
+
+
+
+
+                           58The Stevens Center is one of DOD’s Regional Centers for Security Studies and is
+                           located in Anchorage, Alaska. These centers are operated by DOD as international
+                           venues for bilateral and multilateral research, communication, exchange of ideas, and
+                           training involving military and civilian participants. See generally Floyd D. Spence National
+                           Defense Authorization for Fiscal Year 2001, Pub. L. No. 106-398, tit. IX, subtit. B, § 912,
+                           114 Stat. 1654, 1654A-228-30 (codified as amended at 10 U.S.C. § 342).
+                           59National Search and Rescue Committee, National Search and Rescue Plan of the
+                           United States, (Washington, D.C.: 2016).
+
+
+
+
+                           Page 25                                                         GAO-24-106491 Coast Guard
+                       and rescue capabilities, specialized expertise, and facilities to support a
+                       wide variety of search and rescue operations.
+
+                       Oil spill response. The Coast Guard and Navy have an interagency
+                       agreement that facilitates their collaboration on marine salvage and
+                       pollution incidents, including oil spill response. According to DOD officials,
+                       the U.S. Navy Supervisor of Salvage and Diving maintains equipment in
+                       Alaska that is made available to the Coast Guard when needed to
+                       respond to an oil spill or to conduct exercises. The Coast Guard and Navy
+                       also collaborate, along with other federal, state, and local partners, and
+                       industry, to conduct oil spill response exercises in Alaska. 60
+
+Project Coordination   Polar Security Cutter acquisition program. The Coast Guard and the
+                       Navy are jointly managing the Coast Guard’s Polar Security Cutter
+                       acquisition program. As we reported in July 2023, the Coast Guard plans
+                       to invest at least $11.6 billion for the acquisition, operations, and
+                       maintenance of these cutters. 61 Navy officials provide acquisition,
+                       contracting, engineering and design, cost-estimating, and executive
+                       support to the program.
+
+                       The Coast Guard has a key role in Arctic policy implementation and
+Conclusions            enforcement and faces growing responsibilities to assess and manage
+                       risks to maritime safety and security, national security, and the maritime
+                       environment as regional conditions continue to change. The Coast Guard
+                       has taken actions to manage these risks by deploying cutters and aircraft
+                       into the U.S. Arctic region during peak maritime activity. It has also
+                       initiated plans to acquire new major cutters and polar icebreakers to
+                       enhance its capabilities in the region.
+
+                       However, the new assets will not be available for years and major cutter
+                       deployments north of the Bering Strait have been limited in recent
+                       years—an indicator of the resource constraints that affect the Coast
+                       Guard’s ability to meet its strategic commitments in the U.S. Arctic region.
+                       In addition, most District 17 performance reports—essential to the Coast
+                       Guard’s strategic planning process—are not complete, which affects the
+
+                       60Coast Guard and Navy have a 2015 memorandum of agreement regarding interservice
+                       cooperation in oil spill response and salvage operations. The agreement outlines
+                       procedures for requesting each other’s assistance, reimbursing associated costs, and
+                       specific responsibilities.
+                       61For more information on the Polar Security Cutter program, see GAO, Coast Guard
+                       Acquisitions: Polar Security Cutter Needs to Stabilize Design Before Starting Construction
+                       and Improve Schedule Oversight, GAO-23-105949 (Washington, D.C.: July 27, 2023).
+
+
+
+
+                       Page 26                                                       GAO-24-106491 Coast Guard
+                      Coast Guard’s ability to allocate resources and provide direction to
+                      operational commanders. Ensuring that District 17 collects and reports
+                      complete information would enable the Coast Guard to better monitor its
+                      resource use and mission performance in the U.S. Arctic. This, in turn,
+                      would enable better operational planning decisions and more accurate
+                      assessments of the Coast Guard’s future resource needs to meet its
+                      strategic commitments.
+
+                      The Coast Guard’s Arctic implementation plan also has limitations that
+                      can affect the Coast Guard’s ability to plan for its strategic objectives in
+                      the Arctic region, carry them out, and support national Arctic efforts.
+                      Coast Guard officials stated that its Arctic implementation plan is not
+                      where they intend to track progress on Arctic efforts. Instead, they intend
+                      to track their efforts through annual internal assessments, which they
+                      would use to inform Coast Guard leadership of what they were and were
+                      not able to accomplish, and to support future resource proposals. Annual
+                      assessments and reporting on results have value. However, this
+                      approach does not provide a high-level roadmap with performance
+                      measures, targets, and time frames that could help the Coast Guard more
+                      effectively plan for its near- and longer-term Arctic priorities, determine
+                      the type and timing of its Arctic-related resource needs, and help ensure
+                      that the Coast Guard is both making progress toward achieving its
+                      strategic objectives and remaining aligned with the national Arctic efforts.
+
+                      We are making two recommendations to the Coast Guard:
+Recommendations for
+Executive Action      The Commandant of the Coast Guard should ensure that District 17
+                      collects and reports complete information about resource use and mission
+                      performance in accordance with Coast Guard guidance.
+                      (Recommendation 1)
+
+                      The Commandant of the Coast Guard should ensure that the Coast
+                      Guard’s Arctic implementation plan includes performance measures with
+                      associated targets and time frames for the action items described in the
+                      plan in accordance with Coast Guard guidance. (Recommendation 2)
+
+                      We provided a draft of this report to DHS, DOD, NOAA, and the AESC for
+Agency Comments       review and comment. DOD, NOAA, and the AESC did not have
+and Our Evaluation    comments on the report. DHS concurred with our recommendations, and
+                      its response is reproduced in appendix I.
+
+                      In response to our first recommendation that the Coast Guard ensure that
+                      District 17 collects and reports complete information about resource use
+
+
+                      Page 27                                             GAO-24-106491 Coast Guard
+and mission performance in accordance with Coast Guard guidance,
+DHS stated that District 17 has integrated the practice of reviewing
+Operational Assessment Report statuses and deadlines during bi-weekly
+leadership meetings to ensure cross-department visibility and
+collaboration. DHS’s response further stated that guidance contained in
+the Operation Planning Direction will be condensed and distributed to
+subordinate operational units on a quarterly basis. According to DHS, this
+will better enable the collection and reporting of complete information
+about resource use and mission performance in accordance with Coast
+Guard guidance.
+
+In response to our second recommendation that the Coast Guard ensure
+its Arctic implementation plan includes performance measures with
+associated targets and time frames for action items described in the plan,
+DHS stated that the Coast Guard’s Polar Coordination Office will
+coordinate action to address this recommendation by incorporating
+milestones into the program and project execution plans associated with
+action items described in its Arctic implementation plan as they are
+developed. DHS also stated that the Polar Coordination Office will
+capture the advancement of Arctic strategic objectives, which will be
+tracked and shared with Coast Guard leadership, as appropriate. We
+maintain that including performance measures with associated targets
+and time frames for its Arctic implementation plan action items could help
+the Coast Guard coordinate its Arctic efforts more effectively and better
+inform related resource requests.
+
+DHS also provided technical comments on our report, which we have
+incorporated as appropriate.
+
+We are sending copies of this report to appropriate congressional
+committees; the Departments of Homeland Security, Defense, and
+Commerce; the Office of Science and Technology Policy; and other
+interested parties. In addition, the report is available at no charge on the
+GAO website at https://www.gao.gov.
+
+If you or your staff have any questions about this report, please contact
+me at (202) 512-8777 or macleodh@gao.gov. Contact points for our
+Offices of Congressional Relations and Public Affairs may be found on
+
+
+
+
+Page 28                                              GAO-24-106491 Coast Guard
+the last page of this report. GAO staff who made key contributions to this
+report are listed in appendix II.
+
+
+
+
+Heather MacLeod, Director,
+Homeland Security and Justice
+
+
+
+
+Page 29                                             GAO-24-106491 Coast Guard
+Appendix I: Comments from the Department
+             Appendix I: Comments from the Department of
+             Homeland Security
+
+
+of Homeland Security
+
+
+
+
+             Page 30                                       GAO-24-106491 Coast Guard
+Appendix I: Comments from the Department of
+Homeland Security
+
+
+
+
+Page 31                                       GAO-24-106491 Coast Guard
+Appendix II: GAO Contact and Staff
+                   Appendix II: GAO Contact and Staff
+                   Acknowledgments
+
+
+Acknowledgments
+
+                   Heather MacLeod, (202) 512-8777 or macleodh@gao.gov
+GAO Contact
+                   In addition to the contact named above, Dawn Hoff (Assistant Director);
+Staff              Steve Komadina (Analyst-in-Charge); Nasreen Badat; Pete Haderlein;
+Acknowledgments:   Eric Hauswirth; Samantha Lyew; Amanda Miller; Janet Temko-Blinder;
+                   and Haley Wall made key contributions to this report.
+
+
+
+
+                   Page 32                                           GAO-24-106491 Coast Guard
+                         The Government Accountability Office, the audit, evaluation, and investigative
+GAO’s Mission            arm of Congress, exists to support Congress in meeting its constitutional
+                         responsibilities and to help improve the performance and accountability of the
+                         federal government for the American people. GAO examines the use of public
+                         funds; evaluates federal programs and policies; and provides analyses,
+                         recommendations, and other assistance to help Congress make informed
+                         oversight, policy, and funding decisions. GAO’s commitment to good government
+                         is reflected in its core values of accountability, integrity, and reliability.
+
+                         The fastest and easiest way to obtain copies of GAO documents at no cost is
+Obtaining Copies of      through our website. Each weekday afternoon, GAO posts on its website newly
+GAO Reports and          released reports, testimony, and correspondence. You can also subscribe to
+                         GAO’s email updates to receive notification of newly posted products.
+Testimony
+Order by Phone           The price of each GAO publication reflects GAO’s actual cost of production and
+                         distribution and depends on the number of pages in the publication and whether
+                         the publication is printed in color or black and white. Pricing and ordering
+                         information is posted on GAO’s website, https://www.gao.gov/ordering.htm.
+                         Place orders by calling (202) 512-6000, toll free (866) 801-7077, or
+                         TDD (202) 512-2537.
+                         Orders may be paid for using American Express, Discover Card, MasterCard,
+                         Visa, check, or money order. Call for additional information.
+
+                         Connect with GAO on Facebook, Flickr, Twitter, and YouTube.
+Connect with GAO         Subscribe to our RSS Feeds or Email Updates. Listen to our Podcasts.
+                         Visit GAO on the web at https://www.gao.gov.
+
+                         Contact FraudNet:
+To Report Fraud,
+                         Website: https://www.gao.gov/about/what-gao-does/fraudnet
+Waste, and Abuse in
+                         Automated answering system: (800) 424-5454 or (202) 512-7700
+Federal Programs
+                         A. Nicole Clowers, Managing Director, ClowersA@gao.gov, (202) 512-4400, U.S.
+Congressional            Government Accountability Office, 441 G Street NW, Room 7125, Washington,
+Relations                DC 20548
+
+                         Sarah Kaczmarek, Acting Managing Director, KaczmarekS@gao.gov, (202) 512-
+Public Affairs           4800, U.S. Government Accountability Office, 441 G Street NW, Room 7149
+                         Washington, DC 20548
+
+                         Stephen J. Sanford, Managing Director, spel@gao.gov, (202) 512-4707
+Strategic Planning and   U.S. Government Accountability Office, 441 G Street NW, Room 7814,
+External Liaison         Washington, DC 20548
+

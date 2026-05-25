@@ -1,0 +1,107 @@
+                                                                                                    July 7, 2025
+ Press Release
+
+
+                                                                        Electric Power Development Co., Ltd.
+                                                                                                    Hitachi, Ltd.
+
+
+J-POWER and Hitachi to Collaborate in Exploring the Construction of
+J-POWER AI Data Centers
+Targeting Construction of Sustainable Data Centers That Are Carbon Neutral
+and Feature Highly Reliable and Secure Environments
+
+
+Electric Power Development Co., Ltd. (“J-POWER”) and Hitachi, Ltd. (“Hitachi”) have concluded a
+memorandum of understanding (MOU) for the construction of AI data centers (“AI-DCs”) for operators of
+critical social infrastructure such as electricity, gas, railways, water and sewerage.
+  Japan is increasingly looking to AI as a technology that can resolve social issues such as a declining
+birthrate, an aging population and a shrinking workforce. Social infrastructure operators therefore have a
+growing need for reliable and secure AI-DCs to handle vast amounts of highly confidential data. J-
+POWER is involved in critical social infrastructure businesses, and will work with Hitachi to address
+industry needs by constructing and operating AI-DCs. The two companies will leverage J-POWER’s
+carbon-neutral energy sources throughout Japan, which encompass hydroelectric, wind, geothermal and
+solar, and the advanced knowledge Hitachi has gained in integrating AI into its operation technology (OT)
+for monitoring and controlling physical equipment and processes.
+  Based on the MOU, the two companies will set requirements and verify technologies for AI-DCs with
+reference to AI use cases in critical social infrastructure projects as well as the AI lifecycle, including
+training and inference. For example, the companies will explore the use of carbon-neutral, regionally
+decentralized power sources to sustainably meet the massive energy requirements of AI-DC operation,
+and the use of AI to support and optimize the operation of power plants.
+  These initiatives will contribute to the Watt-Bit Collaboration1 policy that promotes the decentralization
+of data centers, and will also help achieve green transformation (GX) and digital transformation (DX) in
+support of regional coexistence.
+
+
+Division of Responsibilities
+This initiative will combine J-POWER’s carbon-neutral energy sources with Hitachi’s expertise in data
+center IT equipment and operation and its extensive AI use cases that include Lumada2 to explore AI-
+DCs in critical social infrastructure projects.
+
+
+
+
+1/3
+ J-POWER       Provision of land, buildings and electricity for AI-DCs, and provision of data required for
+               technology verification
+ Hitachi       Provision of IT equipment such as servers and storage for AI-DCs, and provision of AI and
+               digital technologies
+
+
+Exploration Themes
+(1) Energy optimization achieved through decentralization of AI-DCs
+The AI lifecycle requires a training environment for building generative AI models and an inference
+environment for executing them. The two companies envision AI-DCs for the training and inference
+environment in separate locations. This will enable the use of carbon-neutral power sources such as
+renewable energy and transitional thermal power plants, and we will explore energy optimization at AI-
+DCs. We will also explore the use of technology that enables large-volume, low-latency, low-power data
+transmission between DCs to enable the decentralization of AI-DCs.
+
+
+(2) Creation of a highly reliable and secure environment
+We will build a secure AI-DC environment using a private cloud to establish the highly reliable, high-
+quality digital infrastructure required for critical social infrastructure. Critical social infrastructure
+operations that underpin society handle highly confidential data in the OT domain, so a secure operating
+environment is essential in the use of generative AI. Therefore, we plan to use generative AI at J-
+POWER’s power plants to create an environment with features such as strict access restrictions that
+enable secure use among a diverse range of companies.
+
+
+
+
+2/3
+1.     Watt-Bit Collaboration: A coined term combining watt, a unit of electricity; with bit, a unit of information and communications. It is a concept
+       for building a sustainable and efficient social foundation by promoting the integrated development of electricity, information and
+       communications infrastructure through public-private collaboration.
+2.     Lumada: Hitachi’s advanced digital solutions, services and technologies for creating value from customer data and accelerating digital
+       innovation.
+
+
+
+About J-POWER
+J-POWER is an electric power company established in 1952. The J-POWER Group’s mission is to provide the energy people
+need and contribute to the sustainable development of Japan and the world. In pursuit of this mission, the Group has been
+engaged in hydroelectric, thermal, wind, geothermal and solar power generation, as well as transmission and other projects in
+and outside Japan.
+     To achieve this mission, we announced J-POWER BLUE MISSION 2050 in February 2021, and are working to make our power
+generation business carbon neutral by 2050. We have set targets to reduce CO2 emissions by 9.2 million tons in FY2025,3 22.5
+million tons in 2030,3 and virtually zero in 2050 by accelerating the development of CO2-free power sources, upcycling existing
+thermal power plants and promoting initiatives to generate, produce and supply CO2 free hydrogen.
+3.     J-POWER's power generation business in Japan. All figures are in comparison with FY2013.
+
+
+
+About Hitachi
+Hitachi contributes to the realization of a society in which the environment, happiness and economic growth are in harmony
+through its social innovation business (SIB) that employs IT, OT and products. Its Strategic SIB Business Unit, which creates
+new growth businesses, operates globally to complement the four segments of Digital Systems & Services, Energy, Mobility and
+Connective Industries. Hitachi focuses on the utilization of Lumada in creating value from data to resolve the issues facing
+customers and society. Revenues for the fiscal year ended March 2025 were ¥9,783.3 billion. As of March 31, 2025, the Hitachi
+Group had 618 consolidated subsidiaries and approximately 280,000 employees worldwide. Please visit
+https://www.hitachi.com/en/ for more details.
+
+
+
+
+3/3
+

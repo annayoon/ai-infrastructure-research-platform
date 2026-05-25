@@ -1,0 +1,1974 @@
+
+
+
+
+
+
+ 
+
+<!doctype html>
+
+<html lang="ko">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+	<meta name="author" content="통계데이터센터">
+	<meta name="copyright" content="[35208] 대전광역시 서구 청사로 189 (둔산동, 정부대전청사 3동)">
+	<meta name="description" content="통계데이터센터 서비스, 주문형분석서비스 등 안내.">
+	
+	<script src="/sbchome/js/responsive/jquery-1.12.4.min.js"></script>
+
+	<title>통계데이터센터</title>
+	
+	<script>
+
+		var contextRoot = '/sbchome';
+		var contextPath = contextRoot;
+
+		// START 2024. 05. 13 SseOk 메인화면 전체센터 좌석수 표출
+		$(document).ready(function () {
+			$.ajax({
+				type: "POST",
+				url : "/sbchome/getAllCenterSeatCnt.do",
+				dataType : "json",
+				success: function(result) {
+					// 2024. 05. 23 SseOk 이희정 과장님 요청으로 로그인 후에만 정보 보이도록 수정
+					if(result.isAuthenticated) {
+						var tot_cnt = result.resultList[0].totCnt;
+						var use_cnt = result.resultList[0].useCnt;
+						var remain_cnt = result.resultList[0].remainCnt;
+						
+						var text_val = '◆&nbsp;SDC 전체 센터 좌석 현황</br>';
+						text_val += '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 전체 ' + tot_cnt + '개(사용 중 ' + use_cnt + '개, 대기 ' + remain_cnt + '개) /';
+						var popup_link = 
+							'&nbsp;<a id="main_seat_info_detail" href="javascript:fnSeatPopupOpen(); "style="cursor: pointer; color: white;">자세히보기<img id="main_seat_info_ico" src="/sbchome/images/responsive/common/ico_winopen_w.png" /></a>';
+						$("#main_seat_info_text").html(text_val + popup_link);
+						
+						$("#main_seat_info_detail").mouseover(function() {
+							$("#main_seat_info_ico").attr("src", "/sbchome/images/responsive/common/ico_winopen_b.png");
+							$("#main_seat_info_detail").css("color", "black");
+						});
+						
+						$("#main_seat_info_detail").mouseout(function() {
+							$("#main_seat_info_ico").attr("src", "/sbchome/images/responsive/common/ico_winopen_w.png");
+							$("#main_seat_info_detail").css("color", "white");
+						});
+					}
+				},
+				error: function(err)  {
+					console.log(err);
+				}
+			});
+		});
+		
+		function fnSeatPopupOpen() {
+			window.open("/sbchome/popup/sdc_center_seat_status.html", "PopupWin", "width=500, height=600");
+		}
+		
+		// END 2024. 05. 13 SseOk 메인화면 전체센터 좌석수 표출
+	</script>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <link type="text/css" rel="stylesheet" href="/sbchome/css/responsive/style.css" />
+    <link rel="apple-touch-icon" href="/sbchome/images/responsive/common/favicon_ios.png">
+    <link rel="icon" href="/sbchome/images/responsive/common/n_favicon.png">
+    <link rel="shortcut icon" href="/sbchome/images/responsive/common/favicon_android.ico">
+    <link type="text/css" rel="stylesheet" href="/sbchome/innorix/innorix.css" />
+    
+
+    <style>
+        .sbcsCustomGridClickedRow {
+    
+            cursor:pointer;
+            background:#fef4cb !important;
+        }
+
+        .sbcsCustomGridBtnDisabled{
+            
+            color:#fff;
+            text-decoration:underline;
+            background:#c7cacc
+        }
+    </style>
+
+
+    
+<script>
+var COMMON_MSG = {
+		infMsg_comn_00001 : "test00001",  
+		infMsg_comn_00002 : "test00002", 
+		infMsg_comn_00003 : "test00003",
+        comnMsgTable : {
+			 ko : {
+				infMsg_comn_00001 : "test00001",
+				infMsg_comn_00002 : "test00002",	
+				infMsg_comn_00003 : "test00003",	 
+			},
+			en : {
+				infMsg_comn_00001 : "test00001", //locale="en" property 삭제, 3.2.4대응
+				infMsg_comn_00002 : "test00002",	 
+				infMsg_comn_00003 : "test00003",	
+			} 
+			
+		}
+     };
+</script>
+
+
+	<script src="/sbchome/js/responsive/html5.js"></script>
+    <script src="/sbchome/js/responsive/jquery-1.12.4.min.js"></script>
+    <script src="/sbchome/js/responsive/jquery.cookie.js"></script>
+    <script src="/sbchome/js/responsive/jquery.bxslider.min.js"></script>
+    
+    <script src="/sbchome/js/responsive/common.js"></script>
+    <script src="/sbchome/js/responsive/menu.js"></script>
+
+    <script src="/sbchome/js/sbcsCustomGrid.js"></script>
+
+    <script src="/sbchome/js/modernizr.min.js"></script>
+    <script src="/sbchome/js/jquery-ui.min.js"></script>
+    <script src="/sbchome/js/jquery.placeholder.min.js"></script>
+    <script src="/sbchome/js/common/common.js"></script>
+    <script src="/sbchome/js/ui.js"></script>
+    <script src="/sbchome/js/swiper.min.js"></script>
+    <script src="/sbchome/js/common/jquery.form.min.js"></script>
+    <script src="/sbchome/js/common/jquery.blockUI.js"></script>
+    
+    <script src="/sbchome/css/dext/js/prettify/prettify.js"></script>
+    <script src="/sbchome/css/dext/js/common.js"></script>
+    <script src="/sbchome/js/dext/dx5/dextuploadx5-configuration.js?version=2.0.2"></script>
+    <script src="/sbchome/js/dext/dx5/dextuploadx5.js?version=2.0.2"></script>
+
+    <script src="/sbchome/js/comn/fw/comn.fw.fn.common.js"></script>
+    <script src="/sbchome/js/comn/fw/comn.fw.js.common.js"></script>
+    <script src="/sbchome/js/comn/fw/comn.fw.ajax.js"></script>
+    <script src="/sbchome/js/comn/fw/comn.fw.dext.js"></script>
+    <script src="/sbchome/js/comn/fw/comn.fw.dx.common.js"></script>
+    <script src="/sbchome/js/comn/fw/comn.fw.innorix.js"></script>
+    
+    <script src="/sbchome/js/rsa/jsbn.js"></script>
+    <script src="/sbchome/js/rsa/rsa.js"></script>
+    <script src="/sbchome/js/rsa/prng4.js"></script>
+    <script src="/sbchome/js/rsa/rng.js"></script>
+
+    <script src="/sbchome/innorix/innorix.js"></script>
+    <script>
+    
+        $(document).ajaxStart(function() {
+            $.blockUI({message:'<img src="/sbchome/images/common/loading.gif" width="294" height="90" alt="처리중입니다."/>', css:{border:'1px solid #fff'}});
+        });
+    
+        $(document).ajaxStop(function() {
+            $.unblockUI();
+        });
+
+
+        $(function () {
+            
+            $(".introMove").click( function( p_ev ) {
+
+                gfn_dynamicFormSubmit("https://data.kostat.go.kr/sbchome/intro2.do", {});
+            } );
+
+
+            
+            $(".util .kosisOneIdLogin").click( function( p_ev ) {
+
+                var location = "https://data.kostat.go.kr/sbchome";
+                
+                //도메인 변경에따른 접속 분기처리
+                if(location.includes("kostat")){
+                    
+                    /* var oneIdObj = {}, retUri = "https://data.kostat.go.kr/sbchome/index.do?";
+
+                    oneIdObj["SYS_CD"] = "DD";
+                    //oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/usr/actionLoginSSO.do";
+                    oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/oneid/actionLoginKSSO.do";
+                    
+                    // 2024. 05. 23 SseOk 로그인 후 메인화면으로 이동하도록 수정
+                    oneIdObj["CUR_URL"] = "https://data.kostat.go.kr/sbchome/index.do";
+
+                    gfn_dynamicFormSubmit("https://kosis.kr/oneid/cmmn/login/LoginView.do", oneIdObj); */
+                    
+                    alert('국가데이터처 메인 URL 변경에 따른 변경된 주소로 이동합니다');
+                    top.location.href = "https://data.mods.go.kr";
+                    
+                } else {
+
+                    var oneIdObj = {}, retUri = "https://data.kostat.go.kr/sbchome/index.do?";
+
+                    oneIdObj["SYS_CD"] = "D";
+                    //oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/usr/actionLoginSSO.do";
+                    oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/oneid/actionLoginKSSO.do";
+                    
+                    // 2024. 05. 23 SseOk 로그인 후 메인화면으로 이동하도록 수정
+                    oneIdObj["CUR_URL"] = "https://data.kostat.go.kr/sbchome/index.do";
+
+                    gfn_dynamicFormSubmit("https://kosis.kr/oneid/cmmn/login/LoginView.do", oneIdObj);
+                }
+            } );
+
+
+
+            $(".util .kosisOneIdUsrJoin").click( function( p_ev ) {
+
+                var oneIdObj = {}, retUri = "https://data.kostat.go.kr/sbchome/index.do?";
+                
+                oneIdObj["SYS_CD"] = "D";
+                //oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/usr/actionLoginSSO.do";
+                oneIdObj["SYS_URL"] = "https://data.kostat.go.kr/sbchome/oneid/actionLoginKSSO.do";
+                
+                // 2024. 05. 23 SseOk 로그인 후 메인화면으로 이동하도록 수정
+                oneIdObj["CUR_URL"] = "https://data.kostat.go.kr/sbchome/index.do";
+
+                gfn_dynamicFormSubmit("https://kosis.kr/oneid/cmmn/login/MemberType.do", oneIdObj);
+            } );
+
+            /* $(".util .tmpLogin").click( function( p_ev ) {
+
+                var oneIdObj = {};
+                gfn_dynamicFormSubmit("usr/tmpLoginUsr.do", oneIdObj);
+            } ); */
+            
+            
+            
+            
+            
+
+
+
+
+
+            if( typeof(pageOnLoadFun) === "function" ) {
+
+                pageOnLoadFun();
+            }
+        });
+        
+        //자동로그아웃(30분 미사용시)
+        
+    
+    </script>
+
+
+</head>
+
+
+<body>
+
+	<div id="wrap">
+		<ul class="skip">
+		    <li><a href="#visual">본문 바로가기</a></li>
+		    <li><a href="#gnb">주메뉴 바로가기</a></li>
+		</ul>	
+		
+
+
+
+
+
+
+
+
+
+
+<script>
+
+	$(function () {
+
+		//gfn_iframeSubmit("https://kosis.kr/oneid/cmmn/login/ConnectStatItgrSvr.do", {SYS_CD:"D",SYS_URL:"https://data.kostat.go.kr/sbchome/usr/itgrAuthRet.do"}, "ifrmItgrAuthConnRet");
+	});
+	
+
+	
+	//통합인증접속 후 콜백
+	function fnItgrAuthConnCallback(reloadYn) {
+
+		if (reloadYn != 'Y' || false) return;
+
+		top.document.location.href = top.document.location.href;
+	}
+
+</script>
+
+<div>
+   <div class="gov_top">
+        <div class="cl_b_aftr">
+             <p class="hn_alert">
+                <img src="/sbchome/images/responsive/common/top_ban_ico_flag.png" alt="태극기"> 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+             </p>
+             <p class="btn_intro"><a href="javascript:void(0);" class="introMove">INTRO</a></p>
+     </div>
+
+
+
+
+    </div>
+	<div style="position: relative;">
+	    
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+<script>
+    function fn_Emp_List(a){
+        if(a == 1){
+            showlayer({ href : "#emp_list1" },'.modal_pop');
+        } else if(a == 2){
+            showlayer({ href : "#emp_list2" },'.modal_pop');
+        }
+    }
+    
+    function fnDescFileDownload(fileId, fileSn){
+        window.open("/sbchome/bbs/BbsFileDownload.do?atchFileId="+fileId+"&fileSn="+fileSn);
+    }
+
+    // 모바일 메뉴 토글
+    document.addEventListener('DOMContentLoaded', function() {
+        const btnNaviAll = document.querySelector('.btn-navi.all');
+        const mobileNav = document.getElementById('mobile-nav');
+        const closeNav = document.getElementById('close-nav');
+
+        if (btnNaviAll && mobileNav) {
+            btnNaviAll.addEventListener('click', function() {
+                mobileNav.classList.add('is-open');
+                mobileNav.classList.add('is-backdrop');
+                document.body.style.overflow = 'hidden'; // 스크롤 방지
+                
+             /*    var activeEl = mobileNav.querySelector('.active');
+                if(activeEl){
+                    var el = activeEl.closest('li');
+                    while (el && el !== mobileNav){
+                        el.classList.add('is-open');
+                        el = el.parentElement.closest('li');
+                    }
+                }  */
+            });
+        }
+
+        if (closeNav && mobileNav) {
+            closeNav.addEventListener('click', function() {
+                mobileNav.classList.remove('is-open');
+                mobileNav.classList.remove('is-backdrop');
+                document.body.style.overflow = ''; // 스크롤 복원
+            });
+        }
+        
+        
+
+        // 모바일 메뉴 탭 클릭 시 스크롤 및 active 처리 
+        document.querySelectorAll('.menu-wrap .gnb-main-trigger').forEach(function(trigger) {
+            trigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetId = this.getAttribute('href').substring(1); // #mGnb-anchor1 -> mGnb-anchor1
+                var targetElement = document.getElementById(targetId);
+                var gnbBody = document.querySelector('.gnb-body');
+                var parentLi = this.parentElement;
+
+                if (targetElement && gnbBody) {
+                    // gnb-body 영역 스크롤
+                    gnbBody.scrollTop = targetElement.offsetTop;
+                }
+
+                // active 클래스 처리
+                /* document.querySelectorAll('.menu-wrap .gnb-main-trigger').forEach(function(el) {
+                    el.classList.remove('active');
+                    el.setAttribute('aria-selected', 'false');
+                }); */
+                document.querySelectorAll('.menu-wrap > ul > li').forEach(function(li) {
+                    li.classList.remove('active');
+                    var trig = li.querySelector('.gnb-main-trigger');
+                    if (trig) trig.setAttribute('aria-selected', 'false');
+                });
+                
+                /* this.classList.add('active'); */
+                parentLi.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
+            });
+        });
+
+        // 첫 번째 탭 기본 active 설정
+        /* var firstTrigger = document.querySelector('.menu-wrap .gnb-main-trigger');
+        if (firstTrigger) {
+            firstTrigger.classList.add('active');
+            firstTrigger.setAttribute('aria-selected', 'true');
+        } */
+        var activeLi = document.querySelector('.menu-wrap > ul > li.active');
+        if(!activeLi){
+            var firstLi = document.querySelector('.menu-wrap > ul > li:first-child');
+            if (firstLi){
+                firstLi.classList.add('active');
+                var firstTrigger = firstLi.querySelector('.gnb-main-trigger');
+                if(firstTrigger) firstTrigger.setAttribute('aria-selected', 'true');
+                }
+        }
+
+        // 3뎁스 메뉴 토글 기능
+        const subTriggers = document.querySelectorAll('.gnb-sub-trigger');
+        subTriggers.forEach(function(trigger) {
+            const depth3Wrap = trigger.nextElementSibling;
+
+            // 3뎁스가 있는 경우 has-depth3 클래스 추가
+            if (depth3Wrap && depth3Wrap.classList.contains('depth3-wrap')) {
+                trigger.classList.add('has-depth3');
+
+                // 초기 상태: 닫힘 (is-open 제거)
+                //depth3Wrap.classList.remove('is-open');
+
+                // 클릭 이벤트: 링크 자체를 클릭하면 토글
+                trigger.addEventListener('click', function(e) {
+                    const isOpen = depth3Wrap.classList.contains('is-open');
+
+                    // 다른 열린 depth3 메뉴 닫기
+                    document.querySelectorAll('.depth3-wrap.is-open').forEach(function(openWrap) {
+                        if (openWrap !== depth3Wrap) {
+                            openWrap.classList.remove('is-open');
+                            openWrap.previousElementSibling.classList.remove('active');
+                        }
+                    });
+
+                    // 현재 메뉴 토글
+                    if (isOpen) {
+                        depth3Wrap.classList.remove('is-open');
+                        trigger.classList.remove('active');
+                    } else {
+                        depth3Wrap.classList.add('is-open');
+                        trigger.classList.add('active');
+                    }
+
+                    e.preventDefault();
+                    e.stopPropagation();
+                });
+            }
+        });
+    });
+</script>
+
+<header id="header">
+    <div class="wrap_header" var="">
+        
+            
+             
+                <h1>
+                    <a  href="/sbchome/index.do">
+                        <img src="/sbchome/images/newmain/common/logo_sdc.png" alt="SDC 통계데이터센터 Statistics Data Center">
+                    </a>
+                </h1>
+            
+        
+        
+        <div class="utill_wrap" style="display:block ;">
+            <ul class="util">
+            
+                 
+                <li class="login"><a href="javascript:void(0);" class="kosisOneIdLogin">로그인</a></li>
+                <li class="mypage"><a href="javascript:void(0);" class="border_no_left kosisOneIdUsrJoin">회원가입</a></li>                
+                
+            
+            
+            </ul>
+            <button type="button" class="btn-navi all" aria-controls="mobile-nav">전체메뉴</button><!-- 반응형 주가 -->
+        </div>
+    </div>
+</header>
+
+<div class="gnb_total"><a href="#" id="gnb_total" onclick="showlayer2(this,'.gnb_total_pop')">전체메뉴</a></div>
+<!-- 메인메뉴 : 데스크탑 -->
+<div class="gnb_total_pop">
+    <div style="text-wrap-mode: nowrap;">
+        <ul class="ul_area">
+            <li>SDC 소개</li>
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000106&amp;curMenuNo=OPT_20_01_00_0">통계데이터센터</a></li>
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001075&amp;curMenuNo=OPT_20_03_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">소개영상</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001075&amp;curMenuNo=OPT_20_03_04_0">SDC 통계데이터센터</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001095&amp;curMenuNo=OPT_20_03_05_0">데이터가 모여서 한눈에 보이는 통계</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000935&amp;curMenuNo=OPT_20_03_01_0">SDC MDIS 소개영상</a></li>
+<!--                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000955&amp;curMenuNo=OPT_20_03_02_0">도대체 통계데이터란 무엇일까?</a></li> -->
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000956&amp;curMenuNo=OPT_20_03_03_0">개인정보는 왜 중요할까?</a></li>        
+                </ul>
+            </li>
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000107&amp;curMenuNo=OPT_20_02_00_0">센터현황</a></li>
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000976&amp;curMenuNo=OPT_20_04_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">찾아오시는길</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000936&amp;curMenuNo=OPT_20_04_01_0">국가데이터처 경인지방데이터청</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000957&amp;curMenuNo=OPT_20_04_02_0">국가데이터처 동북지방데이터청</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001315&amp;curMenuNo=OPT_20_04_06_0">국가데이터처 강원지방데이터지청</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000937&amp;curMenuNo=OPT_20_04_03_0">국가데이터처 호남지방데이터청</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000958&amp;curMenuNo=OPT_20_04_04_0">국가데이터처 동남지방데이터청</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000959&amp;curMenuNo=OPT_20_04_05_0">국가데이터처 충청지방데이터청</a></li>
+                </ul>
+            </li>
+        </ul>
+    
+        <ul class="ul_area">
+            <li>제공자료</li>
+            <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_01_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">자료목록</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_01_0">행정통계자료</a></li>
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_02_0">민간자료</a></li>
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_04_0">마이크로데이터</a></li>
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_03_0">SGIS 소지역통계자료</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000982&amp;curMenuNo=OPT_21_01_05_0">DOI란?</a></li>
+                </ul>
+            </li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000016000&amp;curMenuNo=OPT_21_02_00_0">자료 서비스 알림</a></li>
+            
+        </ul>
+        
+        <ul class="ul_area">
+            <li>서비스이용</li>    
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">이용절차</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_01_0">분석센터 이용절차</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000961&amp;curMenuNo=OPT_22_01_02_0">주문형분석서비스 이용절차</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000962&amp;curMenuNo=OPT_22_01_03_0">명부서비스 이용절차</a></li>
+                </ul>
+            </li>    
+            <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=N&amp;curMenuNo=OPT_22_02_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">신청</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=N&amp;curMenuNo=OPT_22_02_01_0">분석센터 이용신청</a></li>
+                    <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=Y&amp;curMenuNo=OPT_22_02_02_0">주문형분석서비스 신청</a></li>
+                    <li><a href="/sbchome/ltnmSvc/ltnmSvcRequestWriter.do?curMenuNo=OPT_22_02_03_0">명부서비스 신청</a></li>
+                </ul>
+            </li>    
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000963&amp;curMenuNo=OPT_22_03_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">분석센터 이용방법</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000963&amp;curMenuNo=OPT_22_03_01_0">분석센터이용</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000964&amp;curMenuNo=OPT_22_03_02_0">주문형분석서비스</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000965&amp;curMenuNo=OPT_22_03_03_0">기간연장</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000966&amp;curMenuNo=OPT_22_03_04_0">자료반입/반출</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000967&amp;curMenuNo=OPT_22_03_05_0">장비반입/반출</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000968&amp;curMenuNo=OPT_22_03_06_0">분석사례</a></li>
+                </ul>
+            </li>
+            <li><a href="/sbchome/extract/calculateChargeInit.do?curMenuNo=OPT_22_04_00_0">서비스 이용료</a></li>
+        </ul>
+                   
+        <ul class="ul_area">
+            <li>이용자지원</li>    
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001000&amp;curMenuNo=OPT_23_01_00_0">공지사항</a></li>    
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001001&amp;curMenuNo=OPT_23_02_00_0">자주묻는질문</a></li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001002&amp;curMenuNo=OPT_23_03_00_0">묻고답하기</a></li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001006&amp;curMenuNo=OPT_23_04_00_0">자료실</a></li>
+            
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001005&amp;curMenuNo=OPT_23_05_00_0">활용사례</a></li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000028000&amp;curMenuNo=OPT_23_06_00_0">가명정보 카탈로그</a></li>
+           <!--  <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000027000&amp;curMenuNo=OPT_23_07_00_0">개인정보 이노베이션 존<br>이용결과</a></li> -->
+        </ul>
+                
+        <ul class="ul_area">
+            <li>활용대회</li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017000&amp;curMenuNo=OPT_24_03_00_0">대회공지</a></li>    
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">국가데이터활용대회 소개</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_01_0">대회소개</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000277&amp;curMenuNo=OPT_24_01_02_0">데이터분석 보고서란?</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000278&amp;curMenuNo=OPT_24_01_03_0">데이터분석 포스터란?</a></li>
+                    <li><a href="/sbchome/conference/conferenceUtilData.do?curMenuNo=OPT_24_01_04_0">활용데이터</a></li>
+                </ul>
+            </li>
+            <li><a href="/sbchome/conference/goConferenceRequestAgreement.do?curMenuNo=OPT_24_02_00_0" class="ov" onclick="showTotal(this,'.ul_sub_area');return false;">참가신청</a>
+                <ul class="ul_sub_area" style="display: none;">
+                    <li><a href="/sbchome/conference/goConferenceRequestAgreement.do?curMenuNo=OPT_24_02_01_0">활용대회 신청</a></li>
+                    <li><a href="/sbchome/conference/conferenceSeatAllt.do?curMenuNo=OPT_24_02_02_0">활용대회 일정선택</a></li>
+                </ul>
+            </li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017002&amp;curMenuNo=OPT_24_05_00_0">수상작</a></li>
+            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017003&amp;curMenuNo=OPT_24_06_00_0">Q&A</a></li>
+        </ul>
+                
+        <ul class="ul_area">
+            <li>정책 및 약관</li>    
+            <li><a href="/sbchome/contents/privacy_policy.do?curMenuNo=OPT_26_01_00_0" target="_top">개인정보처리방침</a></li>
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000111&amp;curMenuNo=OPT_26_02_00_0">이메일 무단수집거부</a></li>
+            <!-- <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000112&amp;curMenuNo=OPT_26_03_00_0">뷰어프로그램</a></li> -->
+            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000113&amp;curMenuNo=OPT_26_04_00_0">이용약관</a></li>
+        </ul>
+        
+    </div>
+    <a href="#none" class="gnb_total_close"><span>닫기</span></a>
+</div>
+
+<!-- 메인메뉴 : 모바일 -->
+    <div id="mobile-nav" class="main-menu-mobile">
+        <div class="gnb-wrap">
+            <!-- gnb-header -->
+            <div class="gnb-header">
+                <!-- gnb-login -->
+                <div class="gnb-login">
+                <ul class="util">
+                    
+                    <!-- <li class="login"><a href="javascript:void(0);" class="kosisOneIdLogin">로그인</a></li>  -->
+                    <!-- <li class="mypage"><a href="javascript:void(0);" class="border_no_left kosisOneIdUsrJoin">회원가입</a></li> -->
+                       <a href="javascript:void(0);" class="btn medium text kosisOneIdLogin"><i class="svg-icon ico-log"></i>로그인</a>
+                       <a href="javascript:void(0);" class="btn medium text kosisOneIdUsrJoin"><i class="svg-icon ico-join"></i>회원가입</a>
+                    
+                    
+                </ul>
+                </div>
+                <!-- //gnb-login -->
+            </div>
+            <!-- //gnb-header -->
+
+            <!-- gnb-body -->
+            <div class="gnb-body">
+                <!-- gnb-menu -->
+                <div class="gnb-menu">
+                    <div class="menu-wrap">
+                        <ul>
+                            <!-- SDC 소개 -->
+                            <li class=" active">
+                                <a href="#mGnb-anchor1" class="gnb-main-trigger">SDC 소개</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor1">
+                                        <h2 class="sub-title">SDC 소개</h2>
+                                        <ul>
+                                        <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000106&amp;curMenuNo=OPT_20_01_00_0" class="gnb-sub-trigger">통계데이터센터</a></li>
+                                        <li>
+                                            <a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001075&amp;curMenuNo=OPT_20_03_04_0" class="gnb-sub-trigger">소개영상</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001075&amp;curMenuNo=OPT_20_03_04_0" class="depth3-trigger">SDC 통계데이터센터</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001095&amp;curMenuNo=OPT_20_03_05_0" class="depth3-trigger">데이터가 모여서 한눈에 보이는 통계</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000935&amp;curMenuNo=OPT_20_03_01_0" class="depth3-trigger">SDC MDIS 소개영상</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000956&amp;curMenuNo=OPT_20_03_03_0" class="depth3-trigger">개인정보는 왜 중요할까?</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000107&amp;curMenuNo=OPT_20_02_00_0" class="gnb-sub-trigger">센터현황</a></li>
+                                        <li>
+                                            <a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000976&amp;curMenuNo=OPT_20_04_00_0" class="gnb-sub-trigger">찾아오시는길</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000936&amp;curMenuNo=OPT_20_04_01_0" class="depth3-trigger">국가데이터처 경인지방데이터청</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000957&amp;curMenuNo=OPT_20_04_02_0" class="depth3-trigger">국가데이터처 동북지방데이터청</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001315&amp;curMenuNo=OPT_20_04_06_0" class="depth3-trigger">국가데이터처 강원지방데이터지청</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000937&amp;curMenuNo=OPT_20_04_03_0" class="depth3-trigger">국가데이터처 호남지방데이터청</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000958&amp;curMenuNo=OPT_20_04_04_0" class="depth3-trigger">국가데이터처 동남지방데이터청</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000959&amp;curMenuNo=OPT_20_04_05_0" class="depth3-trigger">국가데이터처 충청지방데이터청</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 제공자료 -->
+                            <li class="">
+                                <a href="#mGnb-anchor2" class="gnb-main-trigger">제공자료</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor2">
+                                        <h2 class="sub-title">제공자료</h2>
+                                        <ul>
+                                            <li>
+                                                <a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_00_0" class="gnb-sub-trigger">자료목록</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_01_0" class="depth3-trigger">행정통계자료</a></li>
+                                                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_02_0" class="depth3-trigger">민간자료</a></li>
+                                                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_04_0" class="depth3-trigger">마이크로데이터</a></li>
+                                                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_03_0" class="depth3-trigger">SGIS 소지역통계자료</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000982&amp;curMenuNo=OPT_21_01_05_0" class="depth3-trigger">DOI란?</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000016000&amp;curMenuNo=OPT_21_02_00_0" class="gnb-sub-trigger">자료 서비스 알림</a></li>
+                                        
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 서비스이용 -->
+                            <li class="">
+                                <a href="#mGnb-anchor3" class="gnb-main-trigger">서비스이용</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor3">
+                                        <h2 class="sub-title">서비스이용</h2>
+                                        <ul>
+                                            <li>
+                                                <a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_00_0" class="gnb-sub-trigger">이용절차</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_01_0" class="depth3-trigger">분석센터 이용절차</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000961&amp;curMenuNo=OPT_22_01_02_0" class="depth3-trigger">주문형분석서비스 이용절차</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000962&amp;curMenuNo=OPT_22_01_03_0" class="depth3-trigger">명부서비스 이용절차</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=N&amp;curMenuNo=OPT_22_02_00_0" class="gnb-sub-trigger">신청</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=N&amp;curMenuNo=OPT_22_02_01_0" class="depth3-trigger">분석센터 이용신청</a></li>
+                                                    <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=Y&amp;curMenuNo=OPT_22_02_02_0" class="depth3-trigger">주문형분석서비스 신청</a></li>
+                                                    <li><a href="/sbchome/ltnmSvc/ltnmSvcRequestWriter.do?curMenuNo=OPT_22_02_03_0" class="depth3-trigger">명부서비스 신청</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000963&amp;curMenuNo=OPT_22_03_00_0" class="gnb-sub-trigger">분석센터 이용방법</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000963&amp;curMenuNo=OPT_22_03_01_0" class="depth3-trigger">분석센터이용</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000964&amp;curMenuNo=OPT_22_03_02_0" class="depth3-trigger">주문형분석서비스</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000965&amp;curMenuNo=OPT_22_03_03_0" class="depth3-trigger">기간연장</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000966&amp;curMenuNo=OPT_22_03_04_0" class="depth3-trigger">자료반입/반출</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000967&amp;curMenuNo=OPT_22_03_05_0" class="depth3-trigger">장비반입/반출</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000968&amp;curMenuNo=OPT_22_03_06_0" class="depth3-trigger">분석사례</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="/sbchome/extract/calculateChargeInit.do?curMenuNo=OPT_22_04_00_0" class="gnb-sub-trigger">서비스 이용료</a></li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 이용자지원 -->
+                            <li class="">
+                                <a href="#mGnb-anchor4" class="gnb-main-trigger">이용자지원</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor4">
+                                        <h2 class="sub-title">이용자지원</h2>
+                                        <ul>
+                                            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001000&amp;curMenuNo=OPT_23_01_00_0" class="gnb-sub-trigger">공지사항</a></li>
+                                            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001001&amp;curMenuNo=OPT_23_02_00_0" class="gnb-sub-trigger">자주묻는질문</a></li>
+                                            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001002&amp;curMenuNo=OPT_23_03_00_0" class="gnb-sub-trigger">묻고답하기</a></li>
+                                            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001006&amp;curMenuNo=OPT_23_04_00_0" class="gnb-sub-trigger">자료실</a></li>
+                                        
+                                        <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001005&amp;curMenuNo=OPT_23_05_00_0" class="gnb-sub-trigger">활용사례</a></li>
+                                        <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000028000&amp;curMenuNo=OPT_23_06_00_0" class="gnb-sub-trigger">가명정보 카탈로그</a></li>
+                                       <!--  <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000027000&amp;curMenuNo=OPT_23_07_00_0" class="gnb-sub-trigger">개인정보 이노베이션 존<br>이용결과</a></li> -->
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 활용대회 -->
+                            <li class="">
+                                <a href="#mGnb-anchor5" class="gnb-main-trigger">활용대회</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor5">
+                                        <h2 class="sub-title">활용대회</h2>
+                                        <ul>
+                                            <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017000&amp;curMenuNo=OPT_24_03_00_0" class="gnb-sub-trigger">대회공지</a></li>
+                                        <li>
+                                            <a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_00_0" class="gnb-sub-trigger">국가데이터활용대회 소개</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_01_0" class="depth3-trigger">대회소개</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000277&amp;curMenuNo=OPT_24_01_02_0" class="depth3-trigger">데이터분석 보고서란?</a></li>
+                                                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000278&amp;curMenuNo=OPT_24_01_03_0" class="depth3-trigger">데이터분석 포스터란?</a></li>
+                                                    <li><a href="/sbchome/conference/conferenceUtilData.do?curMenuNo=OPT_24_01_04_0" class="depth3-trigger">활용데이터</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="/sbchome/conference/goConferenceRequestAgreement.do?curMenuNo=OPT_24_02_00_0" class="gnb-sub-trigger">참가신청</a>
+                                            <div class="depth3-wrap">
+                                                <ul>
+                                                    <li><a href="/sbchome/conference/goConferenceRequestAgreement.do?curMenuNo=OPT_24_02_01_0" class="depth3-trigger">활용대회 신청</a></li>
+                                                    <li><a href="/sbchome/conference/conferenceSeatAllt.do?curMenuNo=OPT_24_02_02_0" class="depth3-trigger">활용대회 일정선택</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017002&amp;curMenuNo=OPT_24_05_00_0" class="gnb-sub-trigger">수상작</a></li>
+                                        <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017003&amp;curMenuNo=OPT_24_06_00_0" class="gnb-sub-trigger">Q&A</a></li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 정책 및 약관 -->
+                            <li class="">
+                                <a href="#mGnb-anchor6" class="gnb-main-trigger">정책및 약관</a>
+                                <div class="submenu-wrap">
+                                    <div class="gnb-sub-list" id="mGnb-anchor6">
+                                        <h2 class="sub-title">정책 및 약관</h2>
+                                        <ul>
+                                            <li><a href="/sbchome/contents/privacy_policy.do?curMenuNo=OPT_26_01_00_0" target="_top" class="gnb-sub-trigger">개인정보처리방침</a></li>
+                                            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000111&amp;curMenuNo=OPT_26_02_00_0" class="gnb-sub-trigger">이메일 무단수집거부</a></li>
+                                            <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000113&amp;curMenuNo=OPT_26_04_00_0" class="gnb-sub-trigger">이용약관</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //gnb-menu -->                                                 
+            </div>
+            <!-- //gnb-body -->
+
+            <!-- gnb-close -->
+            <button type="button" class="btn medium icon" id="close-nav">
+                <span class="sr-only">전체메뉴 닫기</span>
+                <i class="svg-icon ico-popup-close"></i>
+            </button>
+            <!-- //gnb-close -->
+        </div>
+    </div>
+    <!-- //메인메뉴 : 모바일 -->
+
+<div class="modal_pop max-width680px" id="emp_list1" style="overflow-y: auto;">
+    <strong class="layer_title">데이터 전문기관</strong>
+    <div class="layer_content" style="overflow: hidden;">
+            <table>
+                <tbody style="text-align:center">
+                    <tr>
+                        <span style="font-weight:bold; line-height:1.5;">데이터전문기관 이용신청을 위해서는 담당자들과 사전협의하시기 바랍니다.</span><br>
+                        <br>
+                        <span style="font-weight:bold; line-height:1.5;">이용신청 문의 :</span><br> 
+                        <span style="line-height:1;"> 마이크로데이터과 담당 (042-481-2350, 042-381-7222)</span><br>                        
+                        <span style="font-weight:bold; line-height:1.5;">제출 :</span>
+                        <span style="line-height:1;"> sbigdata@korea.kr</span><br>
+                        <br>
+                        <button type="button" onclick="javascript:fnDescFileDownload('FILE_100000000099999', '8')" class="icon_hwp">정보집합물 결합 신청서 다운로드</button><br/>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn_area">
+            <button type="button" id="pop_btn_close" class="btn_close bg_white" style="position: relative; left: 46%; top: 92%;">닫기</button>
+        </div>
+    </div>
+    <button class="modal_close">팝업 닫기</button>
+</div>
+
+<div class="modal_pop max-width480px" id="emp_list2" style="overflow-y: auto;">
+    <strong class="layer_title">개인정보이노베이션존</strong>
+    <div class="layer_content" style="width:680px;overflow: hidden;">
+            <table>
+                <tbody style="text-align:center">
+                    <tr>
+                        <span style="font-weight:bold; line-height:1.5;">데이터 활용 문의 :</span><br> 
+                        <span style="line-height:1;">통계데이터기획과 담당 (042-481-2412)</span><br>
+                        <br>
+                        <span style="font-weight:bold; line-height:1.5;">개인정보 이노베이션 존 이용관련 문의 :</span><br> 
+                        <span style="line-height:1;">마이크로데이터과 담당 (042-481-2350, 042-381-7222)</span><br>                        
+                        <br>
+                        <button type="button" onclick="javascript:fnDescFileDownload('FILE_100000000099999', '1')" class="icon_hwp">개인정보이노베이션존 매뉴얼 다운로드</button><br/>
+                        <button type="button" onclick="javascript:fnDescFileDownload('FILE_100000000099999', '0')" class="icon_hwp">개인정보이노베이션존 이용신청서 다운로드</button>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn_area">
+            <button type="button" id="pop_btn_close" class="btn_close bg_white" style="position: relative; left: 46%; top: 92%;">닫기</button>
+        </div>
+    </div>
+    <button class="modal_close">팝업 닫기</button>
+</div>
+
+<nav id="nav">
+    <div id="gnb">
+      <ul class="length6">
+            <li class="num1"><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000106&amp;curMenuNo=OPT_20_01_00_0" class="ov"><span>SDC 소개</span></a>
+                <ul style="opacity: 0; display: none;">
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000106&amp;curMenuNo=OPT_20_01_00_0">통계데이터센터</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000001075&amp;curMenuNo=OPT_20_03_04_0">소개영상</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000107&amp;curMenuNo=OPT_20_02_00_0">센터현황</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000976&amp;curMenuNo=OPT_20_04_00_0">찾아오시는길</a></li>
+                </ul>
+            </li>
+            <li class="num2"><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_01_0"><span>제공자료</span></a>
+                <ul style="opacity: 0; display: none;">
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_00_0">자료목록</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000016000&amp;curMenuNo=OPT_21_02_00_0">자료 서비스 알림</a></li>
+                    
+                </ul>
+            </li>
+            <li class="num3"><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_01_0" class="ov"><span>서비스이용</span></a>
+                <ul style="opacity: 0; display: none;">      
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_00_0">이용절차</a></li>    
+                    <li><a href="/sbchome/bigDataCenter/bigDataCenterRequestWriterAgreement.do?orderYn=N&amp;curMenuNo=OPT_22_02_00_0">신청</a></li>    
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000963&amp;curMenuNo=OPT_22_03_00_0">분석센터 이용방법</a></li>
+                    <li><a href="/sbchome/extract/calculateChargeInit.do?curMenuNo=OPT_22_04_00_0">서비스 이용료</a></li>
+                </ul>
+            </li>
+            <li class="num4"><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001000&amp;curMenuNo=OPT_23_01_00_0" class="ov"><span>이용자지원</span></a>
+                <ul style="opacity: 0; display: none;">
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001000&amp;curMenuNo=OPT_23_01_00_0">공지사항</a></li>    
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001001&amp;curMenuNo=OPT_23_02_00_0">자주묻는질문</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001002&amp;curMenuNo=OPT_23_03_00_0">묻고답하기</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001006&amp;curMenuNo=OPT_23_04_00_0">자료실</a></li>
+                    
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001005&amp;curMenuNo=OPT_23_05_00_0">활용사례</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000028000&amp;curMenuNo=OPT_23_06_00_0">가명정보 카탈로그</a></li>
+                    <!-- <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000027000&amp;curMenuNo=OPT_23_07_00_0">개인정보 이노베이션 존<br>이용결과</a></li> -->
+                </ul>
+            </li>
+            <li class="num5"><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_00_0" class="ov"><span>활용대회</span></a></a>
+                <ul style="opacity: 0; display: none;">
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017000&amp;curMenuNo=OPT_24_03_00_0">대회공지</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000276&amp;curMenuNo=OPT_24_01_00_0">활용대회 소개</a></li>
+                    <li><a href="/sbchome/conference/goConferenceRequestAgreement.do?curMenuNo=OPT_24_02_00_0">참가신청</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017002&amp;curMenuNo=OPT_24_05_00_0">수상작</a></li>
+                    <li><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000017003&amp;curMenuNo=OPT_24_06_00_0">Q&A</a></li>
+                </ul>
+            </li>
+            <li class="num7"><a href="/sbchome/contents/privacy_policy.do?curMenuNo=OPT_26_01_00_0"><span>정책 및 약관</span></a></a>
+                <ul style="opacity: 0; display: none;">   
+                    <li><a href="/sbchome/contents/privacy_policy.do?curMenuNo=OPT_26_01_00_0" target="_top">개인정보처리방침</a></li>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000111&amp;curMenuNo=OPT_26_02_00_0">이메일 무단수집거부</a></li>
+                    <!-- <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000112&amp;curMenuNo=OPT_26_03_00_0">뷰어프로그램</a></li> -->
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000113&amp;curMenuNo=OPT_26_04_00_0">이용약관</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<form id="social_link_private_form" name="social_link_private_form" class="hide"></form>
+
+
+	</div>
+</div>
+
+
+
+<iframe name="ifrmItgrAuthConnRet" id="ifrmItgrAuthConnRet" src="about:blank" width="0" height="0" style="display:none;" title="빈프레임"></iframe>
+
+		
+		
+		
+		<!-- 긴급공지 영역 -->
+    <div class="main-urgent-wrap" style="display : none">
+        <ul class="critical-alerts">          
+         <!--  <li>
+            <div class="critical-ban">
+              <span class="critical-badge info">안내</span>
+              <p class="critical-txt">통계데이터센터 운영 일시 중단 안내</p>
+              <a href="#" class="btn medium link basic">
+                <span class="m-hide">자세히 보기</span>
+                <i class="svg-icon ico-angle right"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="critical-ban">
+              <span class="critical-badge danger">긴급</span>
+              <p class="critical-txt">통계데이터센터 운영 일시 중단 안내</p>
+              <a href="#" class="btn medium link basic">
+                <span class="m-hide">자세히 보기</span>
+                <i class="svg-icon ico-angle right"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="critical-ban">
+              <span class="critical-badge ok">안전</span>
+              <p class="critical-txt">통계데이터센터 운영 일시 중단 안내</p>
+              <a href="#" class="btn medium link basic">
+                <span class="m-hide">자세히 보기</span>
+                <i class="svg-icon ico-angle right"></i>
+              </a>
+            </div>
+          </li> -->
+        </ul>
+        <div class="critical-btn">
+            <button type="button" class="btn xsmall primary">오늘 하루 그만 보기</button>
+            <button type="button" class="btn xsmall tertiary">닫기</button>
+        </div>
+    </div>
+    <!-- //긴급공지 영역 -->  
+    
+    
+
+<article class="main_section01" id="visual">
+    <div class="main_inner">
+       
+        <div class="section01_1">
+            <div class="section01_1_tit">
+                <p class="main_tit01 main_move_txt" style="animation-delay:0.1s;"><strong><span>행정</span>통계자료</strong>와 민간자료를 한곳에!</p>
+                <p class="main_tit02 main_move_txt" style="animation-delay:0.6s;">통계데이터센터가 새로운 서비스로 정보화 사회를 선도합니다.</p>
+            </div>
+       
+            <ul class="section01_1_slogan">
+                <!-- <li class="main_move_txt" style="animation-delay:0.96s;"><a href="#" onclick="javascript:fn_Emp_List('001'); return false;"><strong>데이터</strong><span>전문기관</span></a></li> -->
+                <li class="main_move_txt" style="animation-delay:0.96s;"><a href="https://da.mods.go.kr" target="_blank"><strong>데이터</strong><span>전문기관</span></a></li>
+                <li class="main_move_txt" style="animation-delay:1.6s;"><a href="https://data.mods.go.kr/datalink/" target="_blank"><strong>결합</strong><span>전문기관</span></a></li>
+                <li class="main_move_txt" style="animation-delay:2.3s;"><a href="https://data.mods.go.kr/pizone/" target="_blank"><strong>개인정보</strong><span>이노베이션 존</span></a></li>
+                <!-- <li class="main_move_txt" style="animation-delay:1.6s;"><a href="https://dataprivacy.go.kr" target="_blank"><strong>결합</strong><span>전문기관</span></a></li>
+                <li class="main_move_txt" style="animation-delay:2.3s;"><a href="#" onclick="javascript:fn_Emp_List('002'); return false;"><strong>개인정보</strong><span>이노베이션 존</span></a></li> -->
+            </ul>
+        </div>
+
+        <div class="section01_2">
+           <div class="main_visual"><img src="/sbchome/images/responsive/main/main_visual.png" alt="통계데이터센터에서는 통계자료,행정자료,민간자료를 제공하고,공공기관,민간기관,일반이용자,통계작성기관에서 편리하게 이용하도록 구축된 플랫폼입니다."></div>
+        </div>
+
+    </div>
+</article>
+		
+	
+		<!-- container s -->
+		<section class="container main" id="content">
+			<h2 style="height:0px;">&nbsp;</h2>
+			
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            /*  */
+
+            var contents = document.querySelectorAll(".news_content");
+            contents.forEach(function(content){
+                var orginalHtml = content.innerHTML;
+                var plainText = stripHtml(orginalHtml);
+                content.textContent = plainText;
+            });
+            
+            // 팝업존
+            var popZone = $(".popupZone ul").bxSlider({
+                /*nextText:"다음",
+                prevText:"이전",*/
+                startText:"재생",
+                stopText:"일시정지",
+                /* 팝업 이미지 1개일 경우 슬라이드 제거 > true > false */
+                auto:true,
+                controls:true,
+                pause:5000,
+                speed:500,
+                autoControls:true,
+                stopAutoOnClick:true,
+                pager:true,
+                onSlideAfter:function(){
+                    var current = popZone.getCurrentSlide();
+                    $(".active-slide").removeClass("active-slide");
+                    $(".popupZone ul li").eq(current+1).addClass("active-slide");
+                    $(".popupZone ul li a").attr("tabindex","-1");
+                    $(".popupZone ul li.active-slide a").attr("tabindex","0");
+                },
+                onSliderLoad:function(){
+                    $(".popupZone ul li").eq(1).addClass("active-slide");
+                    $(".popupZone ul li a").attr("tabindex","-1");
+                    $(".popupZone ul li.active-slide a").attr("tabindex","0");
+                }
+            });
+
+            // 비주얼롤링존
+            var rolling = $(".rolling ul").bxSlider({
+                mode:"vertical",
+                startText:"재생",
+                stopText:"일시정지",
+                /* 팝업 이미지 1개일 경우 슬라이드 제거 > true > false */
+                auto:false,
+                controls:false,
+                pause:5000,
+                speed:500,
+                autoControls:true,
+                stopAutoOnClick:true,
+                pager:true,
+                onSlideAfter:function(){
+                    var current = rolling.getCurrentSlide();
+                    $(".active-slide").removeClass("active-slide");
+                    $(".rolling ul li").eq(current+1).addClass("active-slide");
+                    $(".rolling ul li a").attr("tabindex","-1");
+                    $(".rolling ul li.active-slide a").attr("tabindex","0");
+                },
+                onSliderLoad:function(){
+                    $(".rolling ul li").eq(1).addClass("active-slide");
+                    $(".rolling ul li a").attr("tabindex","-1");
+                    $(".rolling ul li.active-slide a").attr("tabindex","0");
+                }
+            });
+            
+            //레이어 팝업 load  -- 설문조사 기간에만 실행
+            /*
+            $('#surveyPopup').on('click', function(){
+                //날짜 조건을 먼저 체크하여 설문 기간이 아니면 아무것도 하지 않음
+                if(getToday() >= "2025-06-02" && getToday() <= "2025-06-18"){
+                    return;
+                }
+                var newPopup;
+                var nu = navigator.userAgent.toLowerCase();
+                if(nu.indexOf("chrome") > -1 && nu.indexOf('edg') == -1){
+
+                    //빈 화면 호출(팝업)
+                    newPopup = window.open('', '_self');
+                } else {
+                    //빈 화면 호출(팝업)
+                    newPopup = window.open('', '_blank');
+                }
+                
+                //팝업 차단 여부 확인
+                if(!newPopup || newPopup.closed || typeof newPopup.closed === 'undefined'){
+                    alert('팝업이 차단되어 있습니다. 팝업 차단을 해제해주세요.');
+                    return;
+                }
+                
+                    gfn_commonAjaxTrans( "/conference/chkSurveyYn.do", { survey : "sdc" }, function(p_result){
+                        if(p_result.resultCnt == "N"){
+                            //MDIS설문조사
+                            fnPopup(contextRoot+"/conference/conferenceQustnrRespondInfoRegist.do?qestnrId=QMANAGE_000000001120&qestnrTmplatId=QTMPLA_0000000000000&qestnrTrget=2&rqsdId="+"", "surveyPop", 720, 800, "yes", "no");
+                        } else{
+                            if(!(nu.indexOf("chrome") > -1 && nu.indexOf('edg') == -1)) newPopup.close();
+                        }
+                    });
+            });
+            $('#surveyPopup').trigger('click');
+            */
+            //기존 레이어 팝업
+            $("#dailyPopup").load("/sbchome/popup/dailyPopup.html");
+        });
+
+        function fn_movePlay() {
+            open_window( "/sbchome/mov/mov01.html", "movPlay", 1000, 800 );
+        }
+        
+        //tab
+        function mainShowTab(obj, other){
+            var target = $(obj).attr("href");   
+            $(target).show().siblings(other).hide();
+            $(obj).parent().siblings("li").removeClass("on");
+            $(obj).parent().addClass("on");
+        };
+        
+        //게시글 내용 html 렌더링
+        function stripHtml(html){
+            var tempDiv = document.createElement("div");
+            tempDiv.innerHTML = html;
+            return tempDiv.textContent || tempDiv.innerText || "";
+        }
+
+    </script>
+ 
+    <!-- 레이어 팝업 -->
+    <button id="surveyPopup" style="display: none;"></button>
+    <div id="dailyPopup"></div>
+    <div id="dailyPopupMdis"></div>
+
+    <article class="main_section02">
+        <div class="main_inner">
+            <!-- area_left s -->
+            <div class="section02_1">
+                <ul class="main_news">
+                    <li class="on"><a href=".news1" onclick="mainShowTab(this,'.news_cont');return false">공지사항</a></li>
+                    <li><a href=".news2" onclick="mainShowTab(this,'.news_cont');return false">통계데이터 <br>활용사례</a></li><!-- 반응형 추가 -->
+                    <li><a href=".news3" onclick="mainShowTab(this,'.news_cont');return false">자료서비스 <br>알림</a></li><!-- 반응형 추가 -->
+                </ul>
+
+                <div class="news_cont news1" style="display: block;">
+                    <ul class="newswrap">
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001000&postId=BI_00000000000104364&amp;curMenuNo=OPT_23_01_00_0';">
+                                    <span class="news_head">통계데이터센터 데이터 분석 소프트웨어 현황(&#039;26년 5월 18일 기준)</span>
+                                    <span class="news_content">통계데이터센터에서 제공중인 데이터 분석 소프트웨어 현황을 알려 드립니다.(&#39;26년 5월 18일 기준)<br /><br /><img alt="" src="/sbchome/svcRequest/ckFileSubmit.do?fileName=/sdc_data/sbcs/upload/ckFiles/a4681263-ebec-42d3-8d63-0957fe56ad62" /><br /><br />통계데이터센터 이용시 참고하여 활용해주시기 바랍니다.&nbsp;<br /><br />해당내용과 관련하여 궁금하신점은 각 지역센터 및 QNA등을 활용해 주시기 바랍니다.&nbsp;<br /><br />감사합니다.&nbsp;<br />&nbsp;</span>
+                                    <span class="news_day">2026-05-18</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001000&postId=BI_00000000000091797&amp;curMenuNo=OPT_23_01_00_0';">
+                                    <span class="news_head">[명부서비스] 명부제공 서비스(사업체) 제공 이용 안내</span>
+                                    <span class="news_content"><p>명부자료는 통계작성기관이 다음에 해당하는 조사의 표본으로 사용하기 위하여 요청하는 경우에 사업체 정보를 식별된 상태로 제공합니다.<br />&nbsp;가. 통계법 제18조제1항에 따라 승인을 받았거나 제20조제1항에 따라 협의를 거친 통계조사<br />&nbsp;나.&nbsp;통계법 제18조제1항에 따른 승인을 신청하거나 제20조제1항에 따라 협의를 거친 후 예비적으로 실시할 필요가 있다고 통계청의 협의를 받은&nbsp;통계조사<br /><br /><br />붙임자료는 통계데이터센터에서 제공하는 사업체&nbsp;<strong>표본명부 제공 서비스 이용안내</strong>입니다.<br />서비스 이용에 참고하시기 바랍니다.<br /><br /><br />* 명부서비스 요청 공문 시행 필요(국가데이터처 국가데이터기획협력과&nbsp;및 자료담당과로&nbsp;발송) *<br /><br />----------------------------------------------------------------------------------------------------------------------------------------<br /><br />&#39;25.9.19. 기준 명부서비스(사업체) 이용 안내문이 수정되었습니다. (모집단으로 승인받은 DB만 제공등)<br /><br />----------------------------------------------------------------------------------------------------------------------------------------<br /><br />&#39;26.3.19. 기준 명부서비스(사업체) 이용 안내문이 수정되었습니다. (기업통계등록부과 전국사업체조사 별도 제공, 공문접수부서 변경(국가데이터기획협력과)등)<br />&nbsp;</p></span>
+                                    <span class="news_day">2020-06-04</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001000&postId=BI_00000000000099643&amp;curMenuNo=OPT_23_01_00_0';">
+                                    <span class="news_head">통계데이터센터 행정통계자료 DB간 연계키 안내</span>
+                                    <span class="news_content">통계데이터센터 DB간 연계키에 대한 안내입니다.<br /><br />센터 제공 행정통계자료 DB간 연계가 필요할 시 첨부파일 참고부탁드리며, 민간자료는 행정구역으로 연계가능합니다.<br />(6/11 : 표준화 항목명으로 수정한 파일 첨부합니다)<br /><br />감사합니다.</span>
+                                    <span class="news_day">2024-08-20</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                    <div class="more_wrap"><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001000&amp;curMenuNo=OPT_23_01_00_0" class="more_btn"><span>공지사항 더보기</span></a></div>
+                </div>
+
+                <div class="news_cont news2">
+                    <ul class="newswrap">
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001005&postId=BI_00000000000102175&amp;curMenuNo=OPT_23_05_00_0';">
+                                    <span class="news_head">2024년 통계데이터센터 활용사례집</span>
+                                    <span class="news_content">2024년 통계데이터센터 활용사례집을 첨부와 같이 게시합니다.&nbsp;</span>
+                                    <span class="news_day">2025-11-21</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001005&postId=BI_00000000000095521&amp;curMenuNo=OPT_23_05_00_0';">
+                                    <span class="news_head">통계데이터센터 기술노트 제출 안내</span>
+                                    <span class="news_content"><br />통계데이터센터 데이터의 질 향상과 향후 활용방안에 대한 안내 및 홍보를 통한 활성화를 위해 기술노트 제출 제도를 시행하고 있습니다.<br /><br />통계데이터센터를 이용한 이용자들을 대상으로 기술노트를 제출 받고 있으며, 기술노트는 필수적으로 제출해주셔야 합니다.<br /><br />자세한 사항은 &#39;데이터센터 기술노트 제출 안내문(배포용)&#39;을 확인하시기 바랍니다.<br /><br />감사합니다.</span>
+                                    <span class="news_day">2022-02-23</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000001005&postId=BI_00000000000099900&amp;curMenuNo=OPT_23_05_00_0';">
+                                    <span class="news_head">2023년 통계데이터센터 기술노트 모음집</span>
+                                    <span class="news_content"><strong>통계데이터센터 데이터의 질 향상과 향후 활용방안에 대한 안내 및 홍보를 통한 활성화를 위해 기술노트 제출 제도를 시행하고 있습니다.</strong><br /><br />통계데이터센터는 이용자들의 다양한 데이터 활용사례를 수집하여 관리하고 있으며,<br /><br />2023년에 수집한 기술노트 사례들 중 일부 사례를 선별하여 2023년 기술노트 모음집을 발간하였습니다.&nbsp;<br /><br />기술노트 제출에 협조해주신 이용자분들께 감사의 말씀을 드리며, 통계데이터센터 이용에 많은 도움이 되길 바랍니다.</span>
+                                    <span class="news_day">2024-10-11</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                    <div class="more_wrap"><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000001005&amp;curMenuNo=OPT_23_05_00_0" class="more_btn"><span>통계데이터 활용사례 더보기</span></a></div>
+                </div>
+
+                <div class="news_cont news3">
+                    <ul class="newswrap">
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000016000&postId=BI_00000000000104099&amp;curMenuNo=OPT_21_02_00_0';">
+                                    <span class="news_head">[행정통계자료] 기업통계등록부(월간)의 2026년 3월 자료 제공 알림</span>
+                                    <span class="news_content">기업통계등록부(월간)의 2026년 3월 자료 서비스를 시작합니다.<br /><br />- 서비스 시작 일자: 2026. 4. 30.<br />- 자료 주기: 월간<br />- 제공 시계열: 2022년 1월 ~ 2026년 3월<br /><br />※ &nbsp;&quot;제공자료 &gt; 자료목록 &gt; 행정통계자료&quot;에서 해당자료에 대한 메타데이터 확인이 가능합니다.</span>
+                                    <span class="news_day">2026-05-04</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000016000&postId=BI_00000000000104047&amp;curMenuNo=OPT_21_02_00_0';">
+                                    <span class="news_head">[민간자료] 농협카드의 카드매출 자료 6종 자료 최초 서비스 알림</span>
+                                    <span class="news_content">0. 서비스 완료: 2026. 4.29.<br />0. 자료 출처: 농협카드<br />0. 제공 시계열: 2023.01.~2025.12.<br />&nbsp;&nbsp;- 내국인국내카드소비(농협카드)<br />&nbsp;&nbsp;- 내국인해외카드소비(농협카드)<br />&nbsp;&nbsp;- 외국인카드소비(농협카드)<br />&nbsp;&nbsp;- 배달앱매출(농협카드)<br />&nbsp;&nbsp;- 아파트단지별소비(농협카드)<br />&nbsp;&nbsp;- 온라인서비스소비(농협카드)<br /><br />※ &nbsp;&quot;제공자료 &gt; 자료목록 &gt; 민간자료&quot;에서 해당자료에 대한 메타데이터 확인이 가능합니다.</span>
+                                    <span class="news_day">2026-04-29</span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="javascript:location.href='/sbchome/bbs/boardDetail.do?boardId=SBCSBBS_000000016000&postId=BI_00000000000104053&amp;curMenuNo=OPT_21_02_00_0';">
+                                    <span class="news_head">[행정통계자료] 기업통계등록부(연간)의 2024년 자료 제공 알림</span>
+                                    <span class="news_content">기업통계등록부(연간)의 2024년 자료 서비스를 시작합니다.<br /><br />- 서비스 시작 일자: 2026. 4.23.<br />- 자료 주기: 연간<br />- 제공 시계열: 2010년 ~ 2024년<br /><br />※ &nbsp;&quot;제공자료 &gt; 자료목록 &gt; 행정통계자료&quot;에서 해당자료에 대한 메타데이터 확인이 가능합니다.</span>
+                                    <span class="news_day">2026-04-27</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                    <div class="more_wrap"><a href="/sbchome/bbs/boardList.do?boardId=SBCSBBS_000000016000&amp;curMenuNo=OPT_21_02_00_0" class="more_btn"><span>자료서비스 알림 더보기</span></a></div>
+                </div>
+            </div>
+            
+            <div class="section02_2">
+            <div class="title"><p>알림판</p></div>
+                <!-- popupZone s -->
+                <div class="popupZone">
+                    <ul>
+                        
+                            
+                                
+                                
+                                    <li><a href="https://data.mods.go.kr/nowcast/survey/index.do?hType=1"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000219778&fs=0" alt="빅데이터통계시스템 설문 이벤트"  /></a></li>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    <li><a href="https://epeople.go.kr/index.jsp"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000216940&fs=0" alt="국민제안과제발굴"  /></a></li>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    <li><a href="https://www.index.go.kr/unity/potal/Event.do"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000216034&fs=0" alt="2026년 상반기(5월) 지표누리 퀴즈 이벤트"  /></a></li>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    <li><a href="https://data.mods.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000106&curMenuNo=OPT_20_01_00_0"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000135799&fs=0" alt="통계데이터센터 소개 바로가기"  /></a></li>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    <li><a href="https://data.mods.go.kr/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000936&curMenuNo=OPT_20_04_00_0"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000144074&fs=0" alt="통계데이터센터 위치 안내 서울, 세종, 대전, 전북, 광주, 대구, 부산, 제주에 총 128석 규모의 데이터 분석 공간 운영"  /></a></li>
+                                
+                            
+                        
+                            
+                                
+                                
+                                    <li><a href="https://data.mods.go.kr/sbchome/extract/calculateChargeInit.do?curMenuNo=OPT_22_04_00_0"><img src="/sbchome/common/getImageFile.do?fd=FILE_000000000135797&fs=0" alt="서비스 이용료는 얼마일까? 서비스 이용료 안내 자세히보기"  /></a></li>
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <!-- popupZone e -->
+            </div>    
+        </div>
+    </article>
+    
+    <article class="main_section03">            
+        <div class="main_inner">
+            <div class="main_section03_1">
+                <div class="title"><p>통계데이터센터</p><p>제공자료</p></div>
+                
+            
+            
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+            
+            
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+            
+            <!-- START 2023. 05. 23 석진혁 격자통계 추가 -->
+            
+            
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+                
+                    
+                    
+                
+            
+            <!-- END 2023. 05. 23 석진혁 격자통계 추가 -->
+            
+                <ul class="ul_section03_1">
+                    
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_01_0"><p class="type01"><span>22</span><span>종</span></p><p class="type02">행정통계자료</p></a></li>
+                    
+                    
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_02_0"><p class="type01"><span>73</span><span>종</span></p><p class="type02">민간자료</p></a></li>
+                    
+                    
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_03_0"><p class="type01"><span>7</span><span>종</span></p><p class="type02">SGIS 소지역통계<br>자료</p></a></li>
+                    
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_04_0"><p class="type01"><span>50</span><span>종</span></p><p class="type02 mini">마이크로데이터</p></a></li>
+                </ul>
+            </div>      
+            <div class="main_section03_2">
+                <ul>
+                    <li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000960&amp;curMenuNo=OPT_22_01_00_0" class="sec_ico_1"><span>서비스 이용안내</span></a></li>
+                    <li><a href="/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_00_0" class="sec_ico_2"><span>제공자료안내</span></a></li>
+                    <li><a href="https://data.mods.go.kr/eduhome/" target="_blank" class="sec_ico_3"><span>이용자교육</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <!-- <iframe id="sessionOneidCheck" name="sessionOneidCheck" class="ifrmhidden" title="sessionOneidCheck"></iframe> -->
+
+	
+			<footer id="footer">
+				
+
+ 
+
+<div class="topMove hide"><a href="#none" title="클릭시 상단으로 이동"><span>TOP</span></a></div>
+
+<!-- wrap_footer_menu s -->
+<div class="wrap_footer_menu">
+	<div class="wrap_footer">	
+		<div class="wrap_footer_left">
+          <p class="sdc_logo"><span class="txthide">SDC 통계데이터센터 Statistics Data Center</span></p>
+          <address>(35220) 대전광역시 서구 한밭대로 713(월평동), 통계센터  13층  <strong>안내전화</strong> 042)381-7220</address>      
+        </div> 
+		 <ul class="bt_menu_site">
+			<li>
+				<span class="site_txt">관련사이트 바로가기</span>
+				<a href="#site" class="site_btn_more" title="관련사이트 목록열기"><span>관련사이트 바로가기</span></a>
+				<div class="link_box">
+					<ul>
+						<li><a href="http://mods.go.kr" target="_blank" title="새창으로 이동">국가데이터처</a></li>
+						<li><a href="http://mdis.mods.go.kr" target="_blank" title="새창으로 이동">마이크로데이터통합서비스</a></li>
+						<li><a href="http://kosis.kr" target="_blank" title="새창으로 이동">국가통계포털</a></li>
+						<li><a href="http://www.index.go.kr" target="_blank" title="새창으로 이동">지표누리</a></li>
+						<li><a href="http://sgis.mods.go.kr" target="_blank" title="새창으로 이동">통계지리정보시스템</a></li>
+						<li><a href="http://kssc.mods.go.kr" target="_blank" title="새창으로 이동">통계분류포털</a></li>
+						<li><a href="http://www.k-stat.go.kr/metasvc" target="_blank" title="새창으로 이동">통계설명자료</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>		 
+	</div>
+</div>
+<!-- wrap_footer_menu e -->
+<!-- wrap_footer_info s -->
+<div class="wrap_footer_info">
+	<div class="wrap_footer">
+	
+		<ul class="bt_menu_guide">
+			<li><a href="/sbchome/contents/privacy_policy.do?curMenuNo=OPT_26_01_00_0" class="guide_info" style="text-decoration: underline;">개인정보처리방침</a></li>
+			<li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000111&amp;curMenuNo=OPT_26_02_00_0" >이메일무단수집거부</a></li>
+			
+			<li><a href="/sbchome/contents/cntPage.do?cntntsId=CNTS_000000000000113&amp;curMenuNo=OPT_26_04_00_0" >이용약관</a></li>
+		</ul>
+		<p class="copy">Copyright Ministry of Data and Statistics Korea. All rights reserved since 2018.</p>
+	
+		
+	</div>
+</div>
+<div class="wrap_footer_logo">
+	<div class="wrap_footer">
+	 <p class="kostat_logo"><span class="txthide">국가데이터처</span></p><p class="nuri">이 누리집은 국가데이터처 누리집입니다</P>
+	</div>
+
+</div>
+<!-- wrap_footer_info e -->
+
+			<!-- wrap_footer_info e -->
+			</footer>
+			<div class="modal_bg_cont"></div>
+			
+		</section>
+		<!--  container e -->
+	</div>
+</body>
+</html>

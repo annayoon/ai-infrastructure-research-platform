@@ -1,0 +1,162 @@
+Digital Infrastructure Development
+              Plan 2030
+
+
+
+            June 11, 2025
+                       Digital Infrastructure Development Plan 2030                                                                              1
+
+ In order to cope with the diversification and complexity of regional and social issues and to maintain Japan's growth potential under a declining
+  population, it is essential to fully utilize digital technologies, such as generative AI, and digital infrastructure must be developed to
+  support this.
+ Preparing for future disasters, etc., enhancing the strength and flexibility of communications infrastructure is another issue.
+ In order to address these issues, the “Digital Infrastructure Development Plan 2030” has been formulated to promote the development of
+  Japan's digital infrastructure in an integrated and efficient manner by identifying the policies and specific measures for the development
+  of digital infrastructure that will be necessary by around 2030.
+         Direction for realization
+                                                                                                        Strengthening international
+      Regional development                                 National Resilience
+                                                   Secure communication capabilities through                 competitiveness
+     Improve the lives of residents                                                                   Ensure autonomy of core technologies and
+                                                    multi-layered infrastructure development
+      through data utilization, etc.                       and decentralized locations                  systems, leading to capture of global
+                                                                                                                     markets.
+
+
+         Promote necessary initiatives in nine priority areas linked to the following three pillars
+    Approach to infrastructure development
+    ●Develop infrastructure in anticipation of future demand ●Ensure options with a variety of providers and systems
+                               ●Develop infrastructure flexibly in response to local needs
+1 Promote new digital infrastructure development in the age of AI
+  (1) Integrated development of data centers and submarine cables, (2) All-optical networks (APN), (3) Next-generation information and
+  communications infrastructure (Beyond 5G) and quantum key distribution
+
+2 Establish a network environment that supports the use of new digital infrastructure and digital technologies
+ (1) Optical fiber, (2) Mobile networks, (3) Non-terrestrial networks (NTN)
+
+3 Issues that should be considered and addressed across the board, beyond specific digital infrastructure areas
+  (1) Strengthen communications infrastructure, (2) Promote infrastructure development and solution creation/dissemination in an integrated
+  manner, (3) Division of roles between the public and private sectors
+                  Promote new digital infrastructure development in the age of AI                                                                 2
+
+                                                                                                          Next-generation info-communication
+  Data centers and submarine cables                     All-optical networks (APN)                    infrastructure and quantum key distribution
+
+        Development policies
+ Promote AI use in rural areas by encouraging      Position it as the next-generation core           Promote R&D and social implementation
+  regional decentralization through efficient        infrastructure;                                    toward the full-scale introduction around 2030
+  development of data centers and submarine          establish the necessary technology; and            of a low-latency, high-reliability, low-power-
+  cables with the Watt-Bit collaboration                                                                consumption, next-generation info-
+                                                     begin full-scale deployment
+                                                                                                        communication infrastructure, centered on
+ Distribute data centers to areas with spare       Establish APN interconnection technology           APN technology, which is the digital
+  power capacity by using APN technology to          by FY2028, and make APNs available                 infrastructure that supports an AI society
+  meet the current demand for data centers by        across multiple operators at a variety of
+  around 2030                                                                                          Aim to realize the social implementation of
+                                                     user locations in metropolitan areas by            quantum key distribution around 2030; and
+ Promote further decentralization with workload     around 2030                                        strengthen international collaboration
+  shifting in mind, and develop an environment
+  where advanced AI services are provided by
+  around 2035 at the latest
+            Specific initiatives
+(1) Promote integrated development of digital      (1) Establish interconnection and                   (1) Accelerate the realization of next-
+    infrastructure through the Watt-Bit                collaboration technologies among multiple           generation info-communication
+    collaboration                                      businesses                                          infrastructure (Beyond 5G)
+   Support regional distribution of data centers     Establish a common infrastructure technology         Provide integrated support for R&D of wired
+   and submarine cables, as well as APN              that enables APNs operated by multiple               and wireless technologies needed to realize
+   development in data centers, etc.                 operators to be interconnected and linked            Beyond 5G
+(2) Examine technologies that contribute to        (2) Establish an environment to verify use          (2) Promote social implementation of quantum
+    further regional decentralization                  cases, etc.                                         key distribution
+・Implement technology demonstrations that          ・Gradually develop testbeds to verify use cases,    ・Create use cases by expanding and upgrading
+ contribute     to      data center regional        etc.                                                the quantum key distribution testbeds
+ decentralization, etc.                            ・Promote demonstrations of APN connections          ・Promote R&D of innovative quantum
+                                                    between data centers                               communication technologies
+  Establish networks that support the use of new digital infrastructure and                                                                                                                                  3
+                            digital technologies
+                  Optical fiber                                              Mobile networks                                                    Non-terrestrial networks
+
+        Development policies
+ Complete the development of underserved                  Expand the use of high-quality                                            Realize a stable environment for satellite
+  areas as a physical foundation for enjoying               telecommunication services with 5G-only                                    communications, especially high-speed, high-
+  the benefits of digital technology, and                   experience
+                                                                                                                                       capacity satellite communications using low
+  maintain the networks already in place by all            Sub-6*1 deployment rate: 95% at the end of FY2030
+                                                           70,000 millimeter wave base stations at the end of FY2030
+                                                                                                                                       Earth orbit satellites (satellite constellations)
+  political means                                          5G SA*2 In principle, all base stations will support SA                    Accelerate implementation of HAPS*3 in Japan,
+ Aim to achieve a 99.9% nationwide                        Ensure communications environments that                                    aiming for 2026. Establish an environment by
+  household coverage rate by the end of                     cover non-residential areas                                                around 2030 in which multiple devices are used
+  FY2027                                                     Highways and national roads coverage:                                     to provide services that can be provided
+                                                             99% at the end of FY2030
+ Assist municipalities that wish to transfer                                                                                          promptly in target areas in the event of natural
+                                                           Ensure good radio wave usage environments                                  disasters, etc.
+  public facilities to the private sector so that           to fully utilize 5G features
+  they can ensure early and smooth transitions            *1 Frequencies above 3.6 and below 6 GHz will be allocated for 5G.
+                                                          *2 Abbreviation for 5G Stand Alone By using a dedicated 5G core network,
+                                                                                                                                     *3 Abbreviation for High Altitude Platform Stations. These are unmanned
+                                                                                                                                        aerial vehicles flying in the stratosphere equipped with mobile phone base
+                                                                                                                                        stations.
+                                                            this method can provide services that take advantage of 5G features.
+
+
+         Specific initiatives
+(1) Eliminate underdeveloped fiber-optic                  (1) Expand the use of high-quality                                          (1) Promote advanced satellite communication
+    networks                                                  communication services that take advantage                                  services
+   Promote optical fiber installation in municipalities       of 5G features                                                          ・Establish necessary systems for the smooth
+   that want it                                           Promote the development of mobile networks, such as                          introduction of satellite communication services in
+                                                          5G base stations, based on development goals                                 Japan
+(2) Support maintenance and management of
+                                                          (2) Ensure communications environments in                                   ・Provide support for improving the autonomy of low
+    optical fiber
+                                                              non-residential areas                                                    Earth orbit satellites (satellite constellations)
+ ・Operationalize the grants for broadband services
+                                                          ・Consider systems to promote the use of portable base                       (2) Support the domestic introduction of HAPS
+  Establish a system in line with the assigned
+                                                           stations, etc., and promote their development                              ・Promote institutional development for domestic
+  responsibility to provide final protection
+                                                          ・Examine how to secure communications in the future                          introduction in 2026
+ ・Enhance support for the transition of public
+  facilities to the private sector                        (3) Reinforce the system for monitoring radio                               ・Continuously support technological development,
+                                                              waves                                                                    etc. aimed at expanding social implementation, etc.
+(3) Utilize regional councils, etc.
+                                                      Cross-sectional issues                                                                                         4
+
+     Strengthen the communications infrastructure                                     Promote infrastructure development and solution
+                                                                                       creation/dissemination in an integrated manner
+   Policies for initiatives
+                                                                                       Policies for initiatives
+ Aim to attain a certain level of disaster independence in communication
+                                                                                    It is necessary to develop suitable digital infrastructure in accordance with
+  systems by around 2030 in preparation for future large-scale disasters, such
+                                                                                     the characteristics, as well as to promote the use of solutions that are
+  as a Nankai Trough earthquake and a Tokyo metropolitan earthquake,
+                                                                                     convenient for users
+  which are expected to occur in the future
+                                                                                    By around 2035, promote initiatives to solve local issues using digital
+ Strengthen cyber security measures through public-private partnerships in
+                                                                                     technology, including AI, by leveraging the digital infrastructure developed
+  normal times in order to ensure the safety and reliability of info-
+                                                                                     across the country
+  communication networks that support cyberspace
+     Specific initiatives                                                                 Specific initiatives
+                                                                                    (1) Promote projects to solve regional issues with a view to deployment
+(1) Promote strengthening the communications infrastructure
+                                                                                        in the whole region
+・Promote measures to strengthen cell phone base stations                            ・Promote projects to solve regional issues in collaboration with related
+・Promote initiatives related to data centers and NTNs that will contribute to a       ministries and agencies
+  more resilient society                                                            ・Match region-specific needs with effective solutions, etc.
+(2) Reinforce disaster recovery systems                                             (2) Secure the communication environment in preparation for the social
+Plan a study and trial implementation of the Communications Recovery                    implementation of automated driving
+Support Team (tentative name)                                                       ・Establish an environment for verification in cooperation with projects that
+(3) Ensure cybersecurity                                                              promote automated driving and for the early adoption of 5.9 GHz band V2X
+・Promote comprehensive IoT security measures                                          communications
+・Secure and train cybersecurity personnel                                           (3) Conduct model demonstrations to expand the use of edge AI
+
+
+
+Division of roles between the public and private sectors
+      Basic concept
+   In promoting the development of digital infrastructure, the government sets the direction and goals for development, and the private sector takes the
+    initiative in developing and investing in infrastructure to support its services. In addition, there are cases where both sectors work together to develop
+    infrastructure, and the basic approach regarding this will be outlined.
+

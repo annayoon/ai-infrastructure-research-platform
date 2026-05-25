@@ -1,0 +1,564 @@
+Oracle Cloud
+and Technology
+Ecosystem
+Comparison of Oracle service providers’ portfolio
+attractiveness and competitive differentiators
+
+
+BROCHURE —| —AUGUST 2025 —| —U.S., EUROPE, BRAZIL AND APAC
+   Table of Contents
+
+
+
+
+Introduction                           03        Contacts for this
+                                                 Study                                12
+
+About the Study
+Quadrants Research                     04        Advisor Involvement
+Definition                             05
+                                                 Advisor Involvement - Program
+Quadrants by Regions                   08
+                                                 Description                          13
+Schedule                               09
+
+
+
+Client Feedback                                  Invited Companies                    14
+
+Nominations                            10
+
+                                                 About our Company
+Methodology &                                    & Research        16
+
+Team                                    11
+
+
+
+
+                       © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.        ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   2
+    Introduction
+
+
+
+
+Over the past year, Oracle has solidified its        Oracle is positioning itself as an enabler for
+position as a leading player in AI and cloud         enterprises looking to leverage their own
+infrastructure. This transformation is driven        data and AI models. This commitment is
+by its strategic focus on AI-centric application     underscored by significant partnerships and
+and platform innovations, which has resulted         deals with industry giants such as OpenAI,
+in record-breaking contract wins. Substantial        Meta and Nvidia. These collaborations highlight
+infrastructure investments, including the            Oracle’s role in advancing its AI capabilities
+pivotal Stargate deal, have positioned Oracle        across various sectors.
+for notable revenue and market growth.
+                                                     Oracle is also actively redefining its Oracle
+Oracle Cloud Infrastructure (OCI) has                PartnerNetwork (OPN) to enable, incentivize
+demonstrated significant growth, with                and align partners with delivering customer
+consumption revenue soaring by 62 percent            success across its SaaS and OCI offerings.
+in Q4 FY25. The company anticipates an even          The ISG Provider Lens Oracle Cloud and
+more accelerated growth trajectory for OCI           Technology Ecosystem 2025 study analyzes
+in FY26, with plans to triple the number of          these partners helping enterprises capitalize
+multicloud data centers, further expanding           on this shift with a broad range of services
+its reach and capabilities.                          and deep Oracle expertise.
+
+Oracle continues to prioritize innovation and
+investment in its Fusion Applications SaaS
+suite, which includes ERP, HCM, SCM and CX.
+It remains one of the few providers offering
+a complete suite of integrated business
+applications at scale, catering to diverse
+enterprise needs.
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.               ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   3
+      Quadrants Research
+
+
+
+
+                                                                                                   Definition
+
+                                                                                                   The ISG Provider Lens® Oracle Cloud and
+The Oracle Cloud                                                                                   Technology Ecosystem 2025 study offers the
+                                                                                                   following to business and IT decision makers:
+and Technology                                                                                     • Transparency on the strengths and
+
+Ecosystem 2025                                                                                       weaknesses of relevant providers.
+                                                                                                   • A differentiated positioning of providers by
+study evaluates                                               Professional Services
+                                                                                                     segments on their competitive strengths and
+
+the service
+                                                                                                     portfolio attractiveness.
+                                                                                                   • Focus on the markets in the U.S., Europe,
+maturity level                                                Managed Services
+                                                                                                     Brazil and Asia Pacific (APAC).
+                                                                                                   Our study serves as an important decision-
+and technical                                                                                      making basis for positioning, key relationships
+
+competence
+                                                                                                   and go-to-market considerations. ISG advisors
+                                                                                                   and enterprise clients also use information from
+                                                              OCI Solutions and Capabilities
+of Oracle’s top-                                                                                   these reports to evaluate their current vendor
+                                                                                                   relationships and potential engagements.
+performing
+partners.
+Simplified Illustration Source: ISG 2025
+
+
+
+
+                                    © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                              ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   4
+    Professional Services
+
+
+
+
+Definition
+
+In this quadrant, ISG evaluates providers that                                             Eligibility Criteria                          4.   Technical expertise: Skilled
+offer an end-to-end approach to supporting                                                                                                    in deploying Oracle stack
+                                                                                           1.   Strategic advisory: Offer
+organizations in leveraging Oracle solutions,                                                                                                 using prebuilt solutions
+                                                                                                strategic consultancy and
+including OCI and Fusion Applications. These                                                                                                  and accelerators.
+providers deliver a suite of consulting and
+                                                                                                recommendations through
+implementation services aimed at evaluating                                                     assessment models, road maps             5.   Industry expertise: Showcase
+current technology landscapes, identifying                                                      and frameworks to ensure                      industry knowledge through
+opportunities for improvement and developing                                                    alignment with IT strategy.                   domain-specific best practices.
+strategic plans tailored to address challenges                                                                                           6.   Enabling technologies: Expertise
+                                                                                           2.   Migration and integration
+and capitalize on emerging trends.
+                                                                                                services: Show proficiency                    in APIs, automation, data science,
+Focusing on operational efficiency and                                                          in application development,                   AI and ML, generative AI (GenAI)
+innovation, these providers help organizations                                                                                                and agentic AI for integrations
+                                                                                                database migration and
+implement and adopt Oracle solutions that
+                                                                                                modernization, with capabilities              with major hyperscalers.
+align with business objectives. They bring
+industry expertise and a certified talent pool,
+                                                                                                for workload and platform                7.   Technology enablement:
+ensuring seamless integration within complex                                                    integration.                                  Drive the adoption of modern
+IT environments.                                                                           3.   Comprehensive cloud advisory:                 technologies by designing
+Providers’ capabilities in process assessment,                                                  Implement Oracle cloud                        capability-building workshops,
+strategic planning, change management and                                                       services framework through                    governance models, and training
+in-depth implementation services are also                                                       cloud readiness assessments,                  programs, supported by proof-
+assessed in this quadrant.                                                                      strategic road map creation and               of-concept implementations and
+                                                                                                architectural advice.                         change-management tools.
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                          ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM    AUGUST 2025   5
+    Managed Services
+
+
+
+
+Definition
+
+In this quadrant, ISG evaluates MSPs based                                                 Eligibility Criteria                          4.   Operation and cost
+on their Oracle portfolio specializations. These                                                                                              optimization: Leverages
+                                                                                           1.   Service level agreement: Capable
+MSPs transcend basic IT support, becoming                                                                                                     automation, AI and ML, GenAI
+                                                                                                of defining clear, documented
+strategic partners that deliver specific business                                                                                             and Agentic AI to optimize
+                                                                                                service levels with performance
+outcomes for enterprises.                                                                                                                     resources, streamline operations
+                                                                                                metrics such as uptime, incident
+They ensure efficient, secure and reliable IT                                                                                                 and reduce costs.
+                                                                                                response and resolution times.
+operations by leveraging AI and automation and
+                                                                                                                                         5.   Security and
+established best practices in service delivery to                                          2.   Innovative pricing
+                                                                                                                                              compliance: Adheres to
+optimize IT operations, enhance productivity,                                                   models: Provides fixed-fee or
+reduce costs and enable digital transformation.                                                                                               industry and regional
+                                                                                                outcome-based options, offering
+                                                                                                                                              compliance standards and
+Leading Oracle MSPs offer flexible solutions                                                    clients diverse pricing models
+                                                                                                                                              regulatory requirements.
+and transparent, outcome-based pricing                                                          for a competitive advantage.
+models and integrate the same with internal                                                                                              6.   Change management: Drives
+IT teams. They rigorously prioritize robust                                                3.   Application, database and
+                                                                                                                                              transformation through
+security strategies against cyberthreats and                                                    infrastructure support: Proficient
+                                                                                                                                              strategic change management
+service disruptions, ensuring data integrity                                                    in maintaining Oracle
+                                                                                                                                              initiatives in people, processes
+and availability.                                                                               applications; developing
+                                                                                                                                              and technologies.
+Furthermore, these MSPs possess deep                                                            technical solutions; ensuring
+expertise in Oracle technologies, supported by                                                  operational integrity; upgrading         7.   Business continuity and disaster
+a diverse pool of certified talent. Their strong                                                and optimizing databases; and                 recovery: Skilled in implementing
+alignment with Oracle and other key partners                                                    managing infrastructure through               robust continuity and disaster
+enables them to effectively manage complex                                                      monitoring, planning and scaling.             recovery plans, ensuring minimal
+and evolving client environments at scale.                                                                                                    disruption and data protection.
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                          ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM    AUGUST 2025   6
+    OCI Solutions and Capabilities
+
+
+
+
+Definition
+
+In this quadrant, ISG evaluates service providers        Eligibility Criteria                        3.   Seamless integration: Ability          7.   Expertise in cost optimization:
+specializing in OCI and offering support                                                                  to integrate OCI with existing              Ability to offer FinOps capabilities
+                                                         1.   Multicloud strategy:
+through IaaS and PaaS models. Key assessment                                                              enterprise systems and third-               and cost management strategies
+                                                              Demonstrate expertise in
+areas include modernizing IT environments,                                                                party solutions.                            to maximize cloud investment
+                                                              multicloud strategies to enhance
+optimizing cloud operations and driving digital                                                                                                       value.
+transformation through OCI services.                          flexibility and redundancy that        4.   Security and compliance
+                                                              include leveraging diverse                  assurance: Expertise in                8.   Leveraging OCI GenAI:
+Providers are assessed on their experience
+                                                              cloud environments to ensure                maintaining security,                       Demonstrate the ability to
+with cloud migrations, including multicloud
+and hybrid deployments, system integration                    interoperability, resource                  governance and compliance                   effectively leverage OCI GenAI
+capabilities and adherence to security and                    optimization and regulatory                 in OCI environments.                        services to drive measurable and
+governance best practices.                                    compliance.                                                                             impactful customer outcomes.
+                                                                                                     5.   Innovation with OCI: Expertise
+Furthermore, their proficiency in OCI data               2.   Hybrid cloud strategy: Skilled              in designing, developing
+management, particularly in leveraging                        in integrating on-premises and              and deploying cloud-native
+autonomous services and advanced                              cloud environments for hybrid               applications using OCI’s
+analytics to generate actionable insights,                                                                microservices, Kubernetes and
+                                                              cloud setups; optimizing workload
+is also considered.
+                                                              distribution; and combining                 serverless computing.
+Additionally, providers are evaluated on their                scalability with security to support
+experience with OCI’s native Generative AI                                                           6.   Industry-specific solutions:
+                                                              data security, improved latency             Capable of delivering tailored
+services, focusing on their capabilities in
+                                                              and transformation.                         OCI solutions for industry-
+fine-tuning large language models (LLMs)
+and developing AI-powered applications that                                                               specific needs.
+enhance enterprise efficiency.
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                    ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM    AUGUST 2025   7
+t
+
+
+
+
+        Quadrants by Region
+
+
+
+
+    As a part of this ISG Provider Lens® quadrant study, we are introducing the following three quadrants in the Oracle Cloud and Technology Ecosystem 2025 reports:
+
+
+
+       Quadrant                                         U.S.                           Europe                    Brazil                       APAC
+
+
+
+       Professional Services                             f                               f                        f                             f
+       Managed Services                                  f                               f                        f                             f
+       OCI Solutions and Capabilities                    f                               f                        f                             f
+
+
+
+
+                               © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                         ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   8
+    Schedule
+
+
+
+
+The research phase falls in the period between August and September 2025, during which survey,        Buyers Guide
+evaluation, analysis and validation will take place. The results will be presented to the media in
+November 2025.                                                                                        ISG Software Research, formerly “Ventana Research,” offers market insights by evaluating
+                                                                                                      technology providers and products through its Buyers Guides. The findings are drawn from the
+                                                                                                      research-based analysis of product and customer experience categories, ranking and rating
+Milestones                                    Beginning                     End                       software providers and products to help facilitate informed decision-making and selection
+                                                                                                      processes for technology.
+Survey Launch                                 August 6, 2025
+                                                                                                      In the course of the Oracle Cloud and Technology Ecosystem IPL launch, we want to take
+Survey Phase                                  August 6, 2025                Sept 12, 2025             advantage of the opportunity to draw your attention to related research and insights that ISG
+                                                                                                      Research will publish in 2025. For more information, refer to the Buyers Guide research schedule.
+Sneak Preview                                 November 24, 2025
+
+Press Release & Publication                   January 2026                                            Research Production Disclaimer:
+
+                                                                                                      ISG collects data for the purposes of conducting research and creating provider/vendor profiles.
+                                                                                                      The profiles and supporting data are used by ISG advisors to make recommendations and inform
+Collecting client testimonials via the Star of Excellence™ Program requires early client referrals    their clients of the experience and qualifications of any applicable provider/vendor for outsourcing
+(no official reference needed) because CX scores have a direct influence on the provider’s position   the work identified by clients. This data is collected as part of the ISG FutureSource™ process and
+in the IPL quadrant and the awards.                                                                   the Candidate Provider Qualification (CPQ) process. ISG may choose to only utilize this collected
+                                                                                                      data pertaining to certain countries or regions for the education and purposes of its advisors and
+Please refer to the link to view/download the ISG Provider Lens® 2025 research agenda.
+                                                                                                      not produce ISG Provider Lens® reports. These decisions will be made based on the level and
+Access to Online Portal                                                                               completeness of the information received directly from providers/vendors and the availability of
+                                                                                                      experienced analysts for those countries or regions. Submitted information may also be used for
+You can view/download the questionnaire from here using the credentials you have already              individual research projects or for briefing notes that will be written by the lead analysts.
+created or refer to instructions provided in the invitation email to generate a new password.
+We look forward to your participation!
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                         ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM         AUGUST 2025     9
+    Client Feedback Nominations
+
+
+
+
+ISG Star of Excellence™ – Call for nominations
+
+The Star of Excellence™ is an independent            Providers are invited to nominate their clients   We have set up an email where you can direct
+recognition of excellent service delivery based      to participate. Once the nomination has been      any questions or provide comments. This email
+on the Voice of the Customer concept. ISG            submitted, ISG sends out a mail confirmation      will be checked daily. Please allow up to 24
+has designed the Star of Excellence™ program         to both sides. It is self-evident that ISG        hours for a reply.
+to collect client feedback about service             anonymizes all customer data and does not
+providers’ success in demonstrating the highest      share it with third parties.                      Here is the email address:
+standards of client service excellence and                                                             ISG.star@isg-one.com
+customer centricity.                                 Our vision for the Star of Excellence™ is to
+                                                     become acknowledged as the leading industry
+The global survey is all about services that are     recognition for client service excellence and
+associated with IPL studies. In consequence,         serve as the benchmark for measuring client
+all ISG Analysts are continuously provided with      sentiments.
+information on the customer experience of all
+relevant service providers. This information         To ensure your selected clients complete the
+comes on top of existing first-hand advisor          feedback for your nominated engagement,
+feedback that IPL leverages in its practitioner-     please use the “Nominate (for Providers)”
+led consulting approach.                             section on the Star of Excellence™ website.
+
+                                                                                                                                                                 ISG Star of Excellence
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                            ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   10
+    Methodology & Team
+
+
+
+
+The ISG Provider Lens® 2025 – Oracle Cloud          Information Services Group Inc. is solely
+and Technology Ecosystem research study             responsible for the content of this report.
+analyzes the relevant software vendors/service      Unless otherwise cited, all content, including
+providers in the global market, based on a          illustrations, research, conclusions, assertions
+multi-phased research and analysis process,         and positions contained in this report were
+and positions these providers based on the          developed by, and are the sole property of
+ISG Research methodology.                           Information Services Group Inc.
+
+Study Sponsor:                                      The research and analysis presented in this
+Aman Munglani                                       study will include data from the ISG Provider
+                                                    Lens® program, ongoing ISG Research
+Lead Author:
+                                                    programs, interviews with ISG advisors,
+Roman Pelzel, Siddharth Idnani,
+                                                    briefings with service providers and analysis
+Maharshi Pandya, Sonam Vijay Chawla
+                                                    of publicly available market information from
+and Cristiane Tarricone
+                                                    multiple sources. ISG recognizes the time
+Editor:                                             lapse and possible market developments
+Padma Mohapatra                                     between research and publishing, in terms of
+                                                    mergers and acquisitions, and acknowledges
+Research Analysts:
+                                                    that those changes will not reflect in the
+Rafael Rigotti and Gabriel Sobanski
+                                                    reports for this study.
+Data Analyst:
+                                                    All revenue references are in U.S. dollars ($US)
+Pooja Rani Nayak
+                                                    unless noted.
+Project Manager:
+Akshaya Hegde
+
+
+
+
+                           © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   11
+   Contacts For This Study
+
+
+
+Study Sponsor
+                Aman                                                Roman                   Siddharth                                    Maharshi
+                Munglani                                            Pelzel                  Idnani                                       Pandya
+
+                Study Sponsor                                       Lead Analyst - Europe   Lead Analyst - U.S.                          Lead Analyst - APAC
+
+
+
+
+                Sonam Vijay                                         Cristiane               Gabriel                                      Rafael
+                Chawla                                              Tarricone               Sobanski                                     Rigotti
+
+                Lead Analyst - APAC                                 Lead Analyst - Brazil   Research Analyst -                           Research Analyst -
+                                                                                            U.S. and Europe                              Brazil
+
+
+
+                Pooja Rani                                          Akshaya
+                Nayak                                               Hegde
+
+                Data Analyst                                        Project Manager
+
+
+
+
+                     © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   12
+    Advisor Involvement - Program Description
+
+
+
+
+ISG Provider Lens® Advisors Involvement              The consultant advisors:
+Program
+                                                     • Help define and validate quadrants
+ISG Provider Lens® offers market assessments           and questionnaires
+incorporating practitioner insights, reflecting
+regional focus and independent research. ISG         • Advise on service provider inclusion,
+ensures advisor involvement in each study to           participate in briefing calls
+cover the appropriate market details aligned
+                                                     • Give their perspectives on service provider
+to the respective service lines/technology
+                                                       ratings and review report drafts
+trends, service provider presence and
+enterprise context.
+
+In each region, ISG has expert thought leaders
+and respected advisors who know the provider
+portfolios and offerings as well as enterprise
+requirements and market trends. On average,
+three consultant advisors participate as part
+of each study’s quality and consistency review
+process. The consultant advisors ensure each
+study reflects ISG advisors’ experience in the
+field, which complements the primary and
+secondary research the analysts conduct. ISG
+advisors participate in each study as part of the
+consultant advisors’ group and contribute at
+different levels depending on their availability
+and expertise.
+
+
+
+
+                            © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.             ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM   AUGUST 2025   13
+    Invited Companies
+
+
+
+
+If your company is listed on this page or you feel your company should be listed, please contact ISG                                          * Rated in previous iteration
+to ensure we have the correct contact person(s) to actively participate in this research.
+
+
+
+ 4i Apps*                                          DXC Technology*                              KPMG*                                          SkyOne*
+
+ Accenture*                                        DBACorp*                                     Kyndryl*                                       SOMMA-IT*
+
+ ADIN*                                             EBS-IT Consultoria Em Informatica Ltda*      Lanlink*                                       Steltix*
+
+ Amber*                                            Fujitsu*                                     LTIMindtree*                                   Stratview*
+
+ Aspire Systems*                                   G&P*                                         Mastek*                                        Sutherland*
+
+ Astute*                                           HCLTech*                                     Mphasis*                                       Synchro*
+
+ Birlasoft*                                        Hexaware*                                    MPL*                                           Syntax*
+
+ Capgemini*                                        Hitachi Digital Services*                    Ninecon*                                       T.O. Brasil*
+
+ Centroid*                                         Huron*                                       Path Infotech*                                 Taking*
+
+ Clover Infotech*                                  IBM*                                         Peloton*                                       TCS*
+
+ Cognizant*                                        ilegra*                                      PrimeDB*                                       Tech Mahindra*
+
+ Compass UOL*                                      Infolob Global*                              PROMATIS software*                             ThinkIT*
+
+ Dedalus*                                          Infosys*                                     PwC*                                           Timestamp Group*
+
+ Deloitte*                                         inlumi*                                      Quistor Enterprises*                           TIVIT*
+
+ DSP*                                              JBQ.Global*                                  Service IT*                                    Trinamix*
+
+
+
+
+                         © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                  ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM       AUGUST 2025   14
+    Invited Companies
+
+
+
+
+If your company is listed on this page or you feel your company should be listed, please contact ISG                          * Rated in previous iteration
+to ensure we have the correct contact person(s) to actively participate in this research.
+
+
+
+ V8.Tech*
+
+ Version 1*
+
+ Wipro*
+
+ Zensar Technologies*
+
+
+
+
+                         © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                  ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM       AUGUST 2025   15
+ About
+ Methodology
+       Our Company
+             & Team& Research
+
+
+
+
+The ISG Provider Lens® Quadrant research                  ISG Research™ provides subscription         ISG (Nasdaq: III) is a global AI-centered       The firm, founded in 2006, is known for
+series is the only service provider evaluation            research, advisory consulting and           technology research and advisory firm.          its proprietary market data, in-depth
+of its kind to combine empirical, data-driven             executive event services focused            A trusted partner to more than 900              knowledge of provider ecosystems, and
+research and market analysis with the                     on market trends and disruptive             clients, including 75 of the world’s top 100    the expertise of its 1,600 professionals
+real-world experience and observations                    technologies driving change in business     enterprises, ISG is a long-time leader in       worldwide working together to help clients
+of ISG’s global advisory team. Enterprises                computing. ISG Research™ delivers           technology and business services sourcing       maximize the value of their technology
+will find a wealth of detailed data and                   guidance that helps businesses              that is now at the forefront of leveraging AI   investments.
+market analysis to help guide their selection             accelerate growth and create                to help organizations achieve operational       For more information, visit isg-one.com.
+of appropriate sourcing partners, while                   more value.                                 excellence and faster growth.
+ISG advisors use the reports to validate                  ISG offers research specifically
+their own market knowledge and make                       about providers to state and local
+recommendations to ISG’s enterprise                       governments (including counties, cities)
+clients. The research currently covers                    as well as higher education institutions.
+providers offering their services across                  Visit: Public Sector.
+multiple geographies globally.
+                                                          For more information about ISG
+For more information about                                Research™ subscriptions, please
+ISG Provider Lens® research,                              email contact@isg-one.com,
+please visit this webpage.                                call +1.203.454.3900, or visit
+                                                          research.isg-one.com.
+
+
+
+
+                         © 2025 INFORMATION SERVICES GROUP, INC. ALL RIGHTS RESERVED.                                       ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM        AUGUST 2025    16
+AUGUST, 2025
+
+
+BROCHURE: ORACLE CLOUD AND TECHNOLOGY ECOSYSTEM
+
+
+
+
+© 2025 Information Services Group, Inc.
+All Rights Reserved
+

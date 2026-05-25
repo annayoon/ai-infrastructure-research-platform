@@ -1,0 +1,613 @@
+                                       Executive Summary
+                         Alaska’s Railbelt Electric System:
+                       Decarbonization Scenarios For 2050
+Phylicia Cicilio1 , Jeremy VanderMeer1 , Steve Colt1 , Alexis Francisco1 , Emilia Sakai
+    Hernandez1 , Cameron Morelli1 , Michelle Wilber1 , Chris Pike1 , Derek Stenclik2 ,
+     Matthew Richwine2 , Christopher Cox2 , Isabela Anselmo2 , and Kelsey Ciemny2
+              1 Alaska Center for Energy and Power, University of Alaska, Fairbanks
+                                                                        2 Telos Energy
+Technical Report
+UAF/ACEP/TP-01-0003
+January 2024
+
+Suggested Citation:
+P. Cicilio et al., "Alaska’s Railbelt Electric System: Decarbonization Scenarios for 2050," Alaska
+Center for Energy and Power, University of Alaska, Fairbanks, 2023. UAF/ACEP/TP-01-0003.
+AddLink.edu
+DOI:10.5281/zenodo.10520544
+
+
+
+
+                                                2
+                                                          Notice
+The University of Alaska Fairbanks is an affirmative action/equal opportunity employer and educational institu-
+tion. UAF does not discriminate on the basis of race, religion, color, national origin, citizenship, age, sex, physical
+or mental disability, status as a protected veteran, marital status, changes in marital status, pregnancy, childbirth or
+related medical conditions, parenthood, sexual orientation, gender identity, political affiliation or belief, genetic in-
+formation, or other legally protected status. The University’s commitment to nondiscrimination, including against
+sex discrimination, applies to students, employees, and applicants for admission and employment. Contact informa-
+tion, applicable laws, and complaint procedures are included on UA’s statement of nondiscrimination available at
+www.alaska.edu/nondiscrimination/.
+This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at the University of Alaska,
+Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php.
+This template is based off of the National Renewable Energy Laboratory Report Template, which is available at no
+cost at www.nrel.gov/comm-standards/editorial/report-template.html.
+Cover Photo courtesy of Golden Valley Electric Association.
+
+
+
+
+                                                             iii
+
+                  This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                   the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+Acknowledgments
+This work was made possible with support from numerous organizations and individuals through collaboration,
+input, data, and review as part of our technical advisory group. The analyses and interpretations presented in this
+report are the authors’ alone. The reviewers provided ongoing feedback throughout the project but the views in the
+report are solely those of the authors and do not represent the views of reviewers or their employers.
+    • Alaska Energy Authority: Bryan Carey
+    • Chugach Electric Association: Dustin Highers, Hans Thompson, Mark Henspeter
+    • Golden Valley Electric Association: Dan Bishop
+    • Homer Electric Association: Larry Jorgensen, David Thomas
+    • Matanuska Electric Association
+    • Bradley Lake Project Management Committee: Brian Hickey
+The authors also thank the following organization and individuals for their contributions through input, data, and
+comments:
+    • Information Insights Inc.: Jamie Hansen, Frana Burtness-Adams, and Lisa Baraff
+    • Alaska Microgrid Group: Brian Rogers
+    • Alaska Renewables LLC: Matthew Perkins and Andrew McDonnell
+    • Analysis North: Alan Mitchell
+    • Mark A. Foster, MAFA
+    • David Lockard
+    • Those who contributed at the Stakeholder Workshop and completed the Stakeholder Survey
+    • City of Seward, Alaska: Rob Montgomery
+The following individuals from the Alaska Center for Energy and Power are also thanked and acknowledged for their
+comments and review throughout the process: Glen Woodworth, Ian MacDougall, Mariko Shirazi, Erin Trochim,
+Mohammad Heidari Kapourchali, Vanessa Raymond, Andrew Miles, Gwen Holdmann, Jeremy Kasper, and Peter
+Asmus. We are grateful to Fran Pedersen for her enthusiastic offer of editing and were saddened that she could not
+see the study to its end.
+This project is part of the Arctic Regional Collaboration for Technology Innovation and Commercialization II Pro-
+gram - Innovation Network, an initiative supported by the Office of Naval Research (ONR) Award N00014-22-1-
+2049. This project is funded by state of Alaska fiscal year 2023 economic development capital funding. Additionally,
+this project has been supported by the Hawai’i Natural Energy Institute.
+
+
+
+
+                                                            iv
+
+                 This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                  the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+Table of Contents
+    Acknowledgments       . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   iv
+1   Executive Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        1
+    1.1  Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      1
+    1.2  Overview of Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           1
+    1.3  Methodology Limitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           4
+    1.4  Key Findings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        5
+         1.4.1 Transmission Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           6
+         1.4.2 Economic Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             7
+   1.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .          7
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      11
+
+
+
+
+List of Figures
+Figure 1.1    Alaska Railbelt transmission, load regions, and electric utility territories . . . . . . . . . . . . . .    2
+Figure 1.2    Project components flowchart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        3
+Figure 1.3    Scenario overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       5
+Figure 1.4 Summary of the cost of service, by component and scenario, under four sensitivity cases, in 2023
+     $ per MWh generated. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         8
+
+
+
+
+List of Tables
+Table 1.1    Summary of generation and transmission cost of service relative to Business-as-Usual scenario . .            7
+Table 1.2    Summary of Resources in the Current System and the Scenarios developed in this Study . . . . . .             9
+
+
+
+
+                                                             v
+
+                  This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                   the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+1    Executive Summary
+1.1 Introduction
+The Railbelt is the largest regional electric grid in Alaska, spanning approximately 700 miles from Fairbanks to
+Homer, as seen in Figure 1.1.
+
+The goal of this study is to explore and quantify decarbonization scenarios of Alaska’s Railbelt electric grid by the
+year 2050. This study evaluates these decarbonization scenarios for reliability and affordability. These decarboniza-
+tion scenarios are designed to be illustrative of potential 2050 decarbonized futures, and are not predictions of the
+future or suggestions of optimal pathways. This project has the scope of a pre-feasibility study, which is an early
+stage of analysis valuable for evaluating the technical viability of the decarbonization scenarios proposed.
+
+This project aims to provide valuable information to the Alaskan public and decision makers on the economic and re-
+liability implications of several decarbonization scenarios and to demonstrate methods for evaluating Railbelt energy
+transitions. Additionally, a key intention of this work has been to build capacity within Alaska to perform the types
+of analyses needed to evaluate energy transitions. The information generated from this study includes general infor-
+mation such as resource availability and load forecasts, and information specific to the developed decarbonization
+scenarios such as stability and reliability of the system, and the impact to rates.
+
+The outcomes of this study include:
+
+    • Evaluate various resource mixes and quantities necessary to meet high-decarbonization objectives in the
+      Railbelt,
+
+    • Quantify the electric load impacts of electrification, including high electric vehicle and heat pump adoption,
+
+    • Characterize the operational and reliability implications of decarbonization scenarios,
+
+    • Quantify the potential capital costs and operational costs of a decarbonized power system,
+
+    • Create information for Railbelt planning discussions and future studies, such as an Integrated Resource Plan,
+
+    • Train students, staff, and faculty at the University of Alaska Fairbanks in the tools and methods to study energy
+      transitions, including through the mentorship and collaboration of national and local industry experts.
+
+1.2 Overview of Methods
+To evaluate the changes to power system operations and grid stability with increasing renewable energy and elec-
+trification, this analysis leveraged detailed power system simulation and modeling software. In total, four scenarios
+were evaluated, identified in Section 3, to represent potential future power systems with increased clean energy. Grid
+configurations were evaluated with additions of wind, solar, tidal, battery energy storage, hydro, and nuclear tech-
+nologies as well as corresponding fossil-fuel generator retirements and additions and increased electrification from
+vehicles and heat pumps. The software tools used in this analysis are available from third-party software vendors
+heavily used throughout the industry, and are the same ones leveraged by the Railbelt utilities and other global utili-
+ties. These grid planning tools allow for evaluation and simulation of a future power system using the same methods
+and processes used to operate and control today’s grid to isolate the effects of integrating renewable energy, new
+technology, and operational changes. When it comes to power system modeling, no one tool can provide a com-
+prehensive analysis across the generation, transmission, and distribution segments of utility planning. In addition,
+no one tool can properly evaluate all the timescales of planning, which range from sub-seconds to an entire year,
+or years, of operation. To overcome this limitation, this study leveraged multiple power system planning tools with
+tight coupling between the different stages. This allows for each tool to properly evaluate its domain, while linking
+inputs, assumptions, and outputs between the tools to overcome seams in the analysis typically found between the
+generation and transmission analyses.
+
+
+
+
+                                                            1
+
+                 This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                  the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+    Figure 1.1. Alaska Railbelt transmission, load regions, and electric utility territories
+
+
+
+
+                                               2
+
+This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+ the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+                                                 Figure 1.2. Project components flowchart
+
+The study utilized a six-step, interconnected process, as outlined in Figure 1.2:
+
+   1. Scenario Development: Several scenarios were identified that highlighted different energy resources while
+      including significant integration of wind and solar energy, to illustrate unique pathways to decarbonization.
+      These scenarios were refined through public engagement and feedback during the early stages of the project.
+
+   2. Resource Assessment: The energy resources considered in this study were identified by high resource avail-
+      ability near the existing Railbelt transmission system. The hourly availability of each new energy resource was
+      collected for many locations of new generation.
+
+   3. Load Forecasting and Electrification: The Alaska Center for Energy and Power project team developed
+      a load forecast for the Alaska Railbelt following current trends for electric load growth and the impact of
+      electrification of other energy sectors, namely transportation and heating. Following best industry practice,
+      the load forecast was developed for multiple layers, including an underlying economic forecast, rooftop solar
+      photovoltaics, electric vehicles, and heat pump adoption. This allowed for multiple forecasts to be developed
+      to represent different levels of end use electrification.
+
+   4. Generation Analysis: Generation analysis involves both portfolio optimization and production cost analysis.
+
+           • Portfolio Optimization: Using the load forecast developed in Step 1, future generation portfolios were
+             developed with a custom-built portfolio optimization tool that selected resource combinations of wind,
+             solar, battery storage, tidal and nuclear resources to meet future demand.
+
+           • Production Cost Analysis: The analysis utilized Energy Exemplar’s PLEXOS production cost model
+             to quantify hour-to-hour operation of the grid to match load and generation in a least cost manner while
+             meeting reliability constraints like regulation reserves, contingency reserves, and transmission constraints
+             based on the initial economic capacity sizing, load forecasts, and energy resource information including
+             availability and operating costs. The model incorporated reserves requirements specified in the Alaska
+             Reliability Standards1 which were modified to account for high penetrations of variable renewable
+             resources based on methods employed in other regions of the United States that currently have greater
+             penetrations of variable renewable energy resources.2 The output from the model used in this study is an
+    1 The Intertie Management Committees’ Railbelt Operating and Reliability Standards. Oct. 2017. URL : https://www.akenergyauthority.org/
+
+Portals/0/Programs/Railbelt%20Energy/Alaska%20Inertie/RailbeltOpratingRlbilityStndardsFinal2017.pdf?ver=2019-06-19-135947-740 (visited
+on 10/29/2023).
+    2 Bartlett, Drake and Parks, Keith. 2020 Study of the Levels of Flex Reserve and Regulating Reserve Necessary for Reliable System Operation
+
+
+
+
+                                                                       3
+                     This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                      the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+             hourly time series of the dispatch of existing and new generation resources in the system. It is important
+             to note that the generation dispatch created assumed a single load balancing entity or transmission system
+             operator, resulting in optimal dispatch for the system as a whole.
+
+   5. Transmission Stability Analysis: The analysis utilized Siemens’ Power System Simulator for Engineering
+      (PSS®E) power flow modeling software to evaluate steady-state and dynamic stability on the transmission
+      network (from 69 kV to 230 kV voltage levels). This was built from the current PSS®E model of the Rail-
+      belt, representing the present-day system. The existing PSS®E model was adapted to represent each of the
+      scenarios using the resource sizes and locations, load forecasts, and economic dispatch generated in earlier
+      steps. Stability and reliability analyses were performed in PSS®Efollowing key provisions of the Alaska Reli-
+      ability Standard AKTPL-001-2. Grid upgrades, including transmission, grid-forming inverter batteries, shunt
+      capacitors, and synchronous condensers were identified to maintain voltage and frequency stability.
+
+   6. Economic Analysis: The cost of service to provide electricity on the Railbelt was determined for the system
+      build for each scenario based on 1) the capital cost of new generation, transmission upgrades, and additional
+      equipment or system upgrades necessary for system stability; and 2) the operating costs (fuel, variable and
+      fixed operations and maintenance) of executing the hourly dispatch determined by the PLEXOS production
+      cost model. The average cost per MWh of distribution and general and administrative was assumed to remain
+      constant at current levels. Margins were included as an element of the cost of service to determine average
+      revenue requirements per MWh.
+
+1.3 Methodology Limitations
+The analysis performed in this study has several methodology limitations discussed here. These kinds of limitations
+are inherent to a pre-feasibility study, which is only as good as the input assumptions and simplifications.
+
+    • Load Forecast and Cost Assumptions: The load forecast is generated using the best available data and
+      information at the time of this study. Similarly, the generation analysis and rate analysis are performed using
+      cost assumptions based on the best available data and information at the time of this study. The assumptions
+      made in this study are outlined throughout the report and appendices. However, as policies change and new
+      data becomes available both the load forecast and cost assumptions will be out of date. Future work will need
+      to reevaluate and generate a new load forecast and cost assumptions.
+
+    • Stability Analysis Tool (PSS®E): The power system simulation tool used in this study is PSS®E. This is
+      a common type of a power system simulator for evaluating large power systems at the level of detail for a
+      planning study. This tool can accurately identify key stability challenges that are likely to create issues and
+      that will require mitigation. For detailed implementation studies and for small sections of electric grids with
+      high amounts of inverter-based resources, electromagnetic transient simulations are necessary, such simula-
+      tions were beyond the scope of this report. For the level of analysis needed for this study, the simulation tool
+      PSS®Eprovides informative results that identify key stability challenges. Additional details on the limitations
+      and uses of the analysis tools and models employed are provided in Section 6.
+
+
+
+
+while Accommodating the Uncertainty of Wind and Solar Generation at Varying Levels of Installed Wind and Solar Generation Capacity within
+the Public Service Company of Colorado Balancing Area Authority. en. Tech. rep. Public Service Company of Colorado, May 2022, p. 26. URL:
+https://www.xcelenergy.com/staticfiles/xe- responsive/Company/Rates%20&%20Regulations/Resource%20Plans/Clean%20Energy%20Plan/
+HE_114-KLS-3-Flex_Reserve_Study.pdf; Paul Denholm et al. “Summary of Market Opportunities for Electric Vehicles and Dispatchable Load in
+Electrolyzers”. In: (May 2015). DOI: 10.2172/1215243. URL: https://www.osti.gov/biblio/1215243.
+
+
+                                                                   4
+
+                    This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                     the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+Scenarios
+This study evaluated four scenarios, each of which considers large, fundamentally different resource mixes to
+achieve similar decarbonization objectives. Scenarios are based on a target 2050 study year and are summarized
+in Figure 1.3.
+
+
+
+
+                                               Figure 1.3. Scenario overview
+
+1.4 Key Findings
+The key findings from each type of analysis, as outlined in Figure 1.2, are provided below.
+
+Generation Analysis
+
+    • Wind and solar are the cheapest sources of energy, but the cost of curtailment and energy storage lim-
+      ited their installed capacity. For the range of costs considered in the system sizing sensitivity analysis, wind
+      and solar resources provided the lowest cost energy. However, they were not able to supply the full load and
+      reliability needs of the system. In all scenarios, some amount of curtailment of wind and solar energy was
+      necessary. In cases with high levels of curtailment the capital costs of wind and solar generation become pro-
+      hibitively expensive. While lithium-ion batteries can mitigate some curtailment for use later, it is a relatively
+      expensive upgrade.
+
+    • Fossil-fuel and hydro power generation are more flexible and operate alongside variable wind and solar
+      generation, while nuclear generation is better suited to supply baseload power. Our analysis showed that
+      the system could not be decarbonized using only variable renewable resources, such as wind and solar power.
+      Some amount of a firm source of generation is still required for sufficient generation to be available. With the
+      technologies considered in this study, fossil-fuel and hydro power generation were the most cost effective firm
+      sources to pair with variable renewables. When nuclear generation was built into system sizing sensitivity
+      analysis scenarios, it displaced both renewable and fossil-fuel sources of generation and was more expensive.
+
+    • Inclusion of nuclear or tidal generation in system sizing sensitivity analysis scenarios depended on their
+      cost projections. Nuclear and tidal generation were not built in all system sizing sensitivity analysis scenarios
+      due to their projected costs. There is significant uncertainty in the projected costs and future commercial
+      availability of these technologies.
+
+    • In the low-carbon scenarios, 70 - 96% of generation came from zero-carbon sources. The rest came from
+      fossil-fuel sources of generation. With the technologies and cost projections considered in this study, achieving
+      100% fossil-free generation would have been more expensive than the low-carbon scenarios. Carbon capture
+      and storage are not 100% effective, and including it would still not result in 100% decarbonization. Other
+      potential options for this could include repowering with hydrogen, biofuels, synthetic fuels, or using direct air
+      capture all of which have similar challenges.
+
+    • The low-carbon scenarios represent a significant change in system operation compared to the Business-
+      as-Usual scenario and current day operation. Due to the variable nature of wind, solar, and tidal energy,
+
+
+                                                            5
+
+                 This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                  the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+        a high degree of flexibility must be readily available from firm sources of power. Fossil-fuel, hydropower,
+        battery storage, and nuclear sources are leveraged to various degrees to meet this need. This results in a signifi-
+        cant increase in the flexibility required from fossil-fuel sources to be able to serve unscheduled load compared
+        to the Business-as-Usual scenario and what is possible in the current system. This flexibility from thermal
+        generators will also increase the flexibility needed from natural gas fuel production and transportation. The
+        flexibility to be expected from a liquefied natural gas import scenario in 2050 is not known and may be more
+        than is in the current gas system on the Railbelt. This flexibility in natural gas production and transportation
+        does not exist under current natural gas tariffs.
+
+    • Increased transmission capacity allows greater power sharing between regions. The capacities of the
+      Alaska and Kenai Interties were increased to allow 300 MW in the low-carbon scenarios from 140 MW and
+      78 MW in the Business-as-Usual scenario. The increased transmission allowed large projects such as Susitna-
+      Watana hydro, nuclear power plants, and Cook Inlet tidal to power loads across the Railbelt. It also allowed
+      variable wind, solar, and tidal resource sites of wind, solar, and tidal, spread over the hundreds of miles of the
+      Railbelt grid, to help balance each other and deliver net generation with a lower degree of variability in each
+      region. However, the economic value of transmission upgrades was not analyzed in this study to determine if
+      they resulted in a lower cost system compared to a low-carbon scenario without the upgrades.
+
+1.4.1   Transmission Analysis
+
+    • Grid reliability services must be provided by inverter-based resources as well as the remaining syn-
+      chronous machinery. The reliability services like inertia and grid strength that have historically been supplied
+      by online synchronous machinery must still be provided for the grid to be stable and reliable. With inverter-
+      based resources displacing the synchronous resources for thousands of hours each year in the future scenarios,
+      it is critical that inverter-based resources provide sufficient levels of these services to enable the decommitment
+      and/or retirement of fossil-fuel plants. Section 6 analyzes how to use battery storage and other resources to
+      maintain system stability during different contingencies.
+
+    • Improvements in inverter algorithms used on the Railbelt grid will be essential for future grid stability.
+      The grid-forming inverter technology applied to battery energy storage system resources plays a critical role
+      in the stability of the future system. It is important that the grid-forming inverter battery energy storage sys-
+      tem resources are sized and distributed appropriately throughout the future system. The use of grid-forming
+      inverter technology on battery energy storage systems in combination with the most advanced grid-following
+      inverter technology for utility-scale wind and solar plants is instrumental in providing stability to the grid.
+      These technologies enable the system to survive not only separation events, but also to reduce reliance on the
+      under-frequency load-shedding scheme, resulting in a more resilient grid. Grid-forming inverter technology
+      is an emerging technology and more deployments, testing, and incremental grid-forming inverter technology
+      additions would need to be made to enable the successful broad deployment of this technology in the Railbelt
+      as simulated in this study.
+
+    • System stability is more difficult to achieve in low-carbon scenarios. This is due to the displacement of
+      much of the thermal synchronous generators by inverter-based resources and/or the addition of particularly
+      large plants that could constitute a new most severe single contingency, such as Susitna-Watana hydro.
+
+    • The losses of the interties were the most severe contingencies. This is because the losses of the interties
+      results in either the Northern or Southern regions being synchronously or fully isolated from the rest of the
+      system, with all generation in the isolated region being required to respond fast enough and with enough
+      system strength for the region to operate independently. The high-voltage direct current line allows power
+      transfer between the Central and Southern regions, but does not synchronously connect the two regions.
+      Therefore, when the Kenai Intertie is lost, only the high voltage direct current line connects the Southern and
+      Central regions, and that does not transfer the inertia or system strength from the Central region to the South
+      region. The ability of the Northern and Southern regions to operate isolated from the rest of the system is
+      critical, and is limited by the inertia and system strength available in those regions.
+
+    • Significant steady-state voltage issues in low-carbon scenarios. These voltage violations were due to 1)
+
+
+                                                              6
+
+                   This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                    the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+        an increased load, 2) new locations of large resources (such as wind, hydro, and/or nuclear) increasing power
+        flows across the two main interties and other transmission lines across the system, and 3) reduction in power
+        generation from fossil-fuel generators near load centers reducing the available reactive power injection. These
+        voltage violations were mitigated with the addition of shunt capacitors and batteries to provide reactive power;
+        however other measures could be considered to reduce the demand for reactive power and voltage support, for
+        instance, reducing the size of Homer Wind or distributing it to two different points of interconnection.
+
+     • Stability considerations must be included when siting new generation. For example, the large wind facility
+       at Homer Wind was the main cause of the voltage and thermal violations in the Southern region for all low-
+       carbon scenarios. Reducing the size of Homer Wind or locating the wind facility in the Southern region closer
+       to the 230kV Kenai Intertie could have resolved or reduced this issue.
+
+1.4.2   Economic Analysis
+
+     • The required capital investment to implement the low-carbon scenarios, after application of allowed
+       investment tax credit amounts, ranges from about 8 billion to about 12 billion in 2023 dollars under
+       base case assumptions. These are large amounts, in part because significantly higher Alaska-specific capital
+       and operations and maintenance costs were assumed, and in part because some specific high-cost projects
+       were added to scenarios without first passing an economic screening test. These high up-front costs would be
+       repaid through rates over the economic life of each project. For example, the annualized capital cost of the
+       most capital-intensive scenario (Wind/Solar/Hydro) in 2050 would be about $630 million (for generation). By
+       comparison, the annual fuel expense in 2050 under the Business-as-Usual scenario is $745 million.
+
+     • The cost of service for the low-carbon scenarios, after application of allowed investment tax credit subsi-
+       dies, differs by -5% to 25% from the Business-as-Usual scenario depending on varying fuel costs, hydro
+       and nuclear capital costs, and interest rates. Table 1.1 provides a numerical summary of the economic
+       analysis. Under base case assumptions, which include a year 2050 natural gas price of $14/MMBtu (in 2023
+       dollars) and Alaska-specific (thus relatively high) capital and fixed operations and maintenance costs, the gen-
+       eration and transmission cost of service for the low-carbon scenarios ranges from 7% to 12% higher than for
+       the Business-as-Usual scenario. However, if fuel prices were 20% higher (case S2), the low-carbon scenarios
+       would cost from 5% less to the same as Business-as-Usual, all else being equal. Similarly, if the interest rate
+       and capital costs of the hydro, tidal, and nuclear projects were 20% lower (case S4), the low-carbon scenarios
+       would cost from 3% less to 1% more than the Business-as-Usual scenario.
+              Table 1.1. Summary of generation and transmission cost of service relative to Business-as-Usual scenario
+
+             Cost Sensitivity Scenario            Wind/Solar/Hydro             Wind/Solar/Tidal            Wind/Solar/Nuclear
+             Base                                 12%                          8%                          7%
+             S1 High Fuel                         0%                           -1%                         -5%
+             S2 High interest                     18%                          10%                         12%
+             S3 High-cost renewables              25%                          14%                         18%
+             S4 Low-cost renewables               1%                           1%                          -3%
+
+        However, if interest rates and/or the capital costs of renewables were 20% higher than base case levels, the
+        generation and transmission cost of the low-carbon scenarios could exceed that of Business-as-Usual by 18%
+        to 25%3 .
+
+1.5 Conclusion
+This study evaluates several decarbonization scenarios of the Railbelt electric grid in Alaska for the year 2050.
+The scenarios are meant to be illustrative examples as a pre-feasibility study, highlighting the ability of certain
+resources and resource mixes to create a low-carbon electric grid for evaluation based on affordability and reliability.
+   3 When considering these percentages, it is important to remember that a 25% percent increase in the cost of generation and transmission
+
+would not result in a 25% increase in the overall cost of service, because other cost components (distribution, customer accounts, administration)
+would likely remain constant across all four scenarios).
+
+
+
+
+                                                                         7
+
+                      This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                       the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+Additional analysis is necessary for implementation of new resources, technologies, and transmission. What is
+presented in this work is neither a prediction of the future or a suggestion of an optimal low-carbon future.
+
+This project provides valuable information to the Alaskan public and decision makers on the economic and reliability
+implications of several decarbonization scenarios and to demonstrate methods for evaluation of Railbelt energy tran-
+sitions. Additionally, a key intention of this work has been to build capacity within Alaska to perform the types of
+analysis needed to evaluate energy transitions. The information generated from this study includes general informa-
+tion such as resource availability and load forecasts, information specific to the developed decarbonization scenarios
+such as stability and reliability of the system, and the impact to rates.
+
+Through a multi-stage analysis process the project performed resource analysis to determine availability and sizing,
+load forecasting, economic dispatch of generation, stability analysis, and economic analysis. The accumulation
+of this analysis results in a set of resources for each scenario. The complete collection of resources in each of the
+scenarios is compiled in Table 1.2.
+
+Economic analysis, including the assessment of capital costs, fuel costs, operations and maintenance costs, and fi-
+nancing, provides insight into the potential cost implications of these scenarios. The cost of service for each scenario
+was calculated, and is presented in Figure 1.4.
+
+
+
+
+Figure 1.4. Summary of the cost of service, by component and scenario, under four sensitivity cases, in 2023 $ per MWh generated.
+
+
+                                                               8
+
+                  This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                   the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+             Table 1.2. Summary of Resources in the Current System and the Scenarios developed in this Study
+
+                                                        Current               Wind/Solar/      Wind/Solar/     Wind/Solar/
+Resource Type                  Resource                              BAU
+                                                        System                  Hydro            Tidal          Nuclear*
+                                                                               459-608
+                    Susitna-Watana                          –          –                              –            –
+                                                                                 ****
+                 Grant Lake                                 –          –           5                 5               5
+Hydro
+                 Bradley Lake                             120         120         120               120            120
+                 Eklutna Lake                              40          40          40               40              40
+                 Cooper Lake                              19.4        19.4       19.4              19.4            19.4
+                 Delta                                     1.9        1.9          50                7              50
+                 Eva Creek                                24.6        24.6         74               132            160
+                 Fire Island                               18          18          36               18              36
+Wind             Homer                                      –          –          213               231            285
+                 Houston                                    –          –          185               165             49
+                 Little Mount Susitna                       –          30         315               214            265
+                 Shovel Creek                               –          –          223               231            285
+                 Fairbanks                                0.56         1           1                 1               1
+                 Houston                                   8.5        8.5          45               33              30
+                 Nenana                                     –          –           45               66              60
+Solar PV
+                 Point Mackenzie                            –          –           90               33              30
+                 Sterling                                   –          –          255               33              96
+                 Willow                                   1.20         –           45               33              30
+                 Northern                                ∼5**         43.3       43.3              43.3            43.3
+Residential
+                 Central                                 ∼10**       139.9      139.9              139.9          139.9
+Solar PV
+                 Southern                                ∼4**         44.3       44.3              44.3            44.3
+Tidal            Cook Inlet                                 –          –           –                400              –
+                 Healy                                      –          –           –                 –             231
+Nuclear
+                 Beluga                                     –          –           –                 –             308
+                 Coal                                     114          54           -                -               -
+                 Natural Gas/Naphtha powered
+                                                           495       1,095         495               495          495
+Fossil-Fuel      Combined Cycle (CC)
+                 Natural Gas powered
+                                                           171        171          171               171          171
+                 internal combustion (IC)
+                 Natural Gas powered
+                                                           468        568          468               872          468
+                 combustion turbines (CT)
+                 Oil power generation                     198         198          198               198           198
+                 30-minute                                 27          50          808               390          1,117
+                 2-hr                                     46.5       146.5         282               227           287
+Li-ion Batteries
+                 4-hr                                       -          70           70               70             70
+                 6-hr                                       -           -          300               280           261
+Synchronous Condensers                                    ***           -            -               358            90
+Shunt Capacitors                                          ***           -           91               75            185
+* The Wind/Solar/Nuclear scenario assumes that naphtha, or an equivalent priced fuel, replaces natural gas.
+** Estimated by the 2020 number of net meter customers and scaled by estimated growth from U.S. Energy Information
+
+ Agency Form 861.
+*** Reactive power compensation equipment such as shunt capacitors exist in the current system, but are not tabulated
+
+  in this study. The scenarios in the study list the synchronous condensers and shunts added to the system, in addition to
+  what is already present.
+**** The Susitna-Watana hydro maximum power capability depends on the level of water in its reservoir.
+
+
+
+
+                                                           9
+
+                This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                 the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+Inspection of the charts in Figure 1.4 reveal the many ways in which the scenarios differ and how their differing
+reliance on fuel, operations and maintenance, and capital inputs translate into changes in the cost of service.
+
+These results are specific to the scenarios studied in this project, for the year 2050. These scenarios are illustra-
+tive and do not attempt to identify the lowest cost scenario for 2050. Additionally, this study did not evaluate the
+cost-effectiveness of near-term renewable additions. Instead it evaluated illustrative future high-decarbonization port-
+folios. The cumulative cost of achieving high levels of renewable penetration is non-linear, due to increased trans-
+mission and storage requirements. Additionally, from now until at least 2030, low-carbon projects will qualify for
+investment tax credits of 40-50%4 of project capital costs. This creates an additional incentive to install renewable
+energy projects early. The values estimated here for 2050 should not be used to quantify the cost effectiveness of
+near-term wind and solar resource additions.
+
+This study provides value through demonstrating the process of evaluating decarbonization scenarios, illustrating
+the types of stability challenges and mitigations that can arise with the integration of inverter-based resources such
+as wind, solar, and tidal energy, providing an example of how scenarios can be quantified in terms of cost of service,
+and developing valuable information that can be used by Railbelt stakeholders in future studies of real implementa-
+tions of new resources and technologies.
+
+
+
+
+     4 All of Alaska qualifies as an energy community as defined by the US Department of Energy, which increases the investment tax credit from
+
+30% to 40%. Projects that use domestically produced products qualify for an additional 10% for a total of 50%. The major wind manufacturers
+are producing enough components in the US to qualify for domestic content. Major solar and battery manufacturers are also qualifying for
+domestic content.
+
+
+                                                                      10
+
+                     This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                      the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+References
+Bartlett, Drake and Parks, Keith. 2020 Study of the Levels of Flex Reserve and Regulating Reserve Necessary for
+  Reliable System Operation while Accommodating the Uncertainty of Wind and Solar Generation at Varying Levels
+  of Installed Wind and Solar Generation Capacity within the Public Service Company of Colorado Balancing Area
+  Authority. en. Tech. rep. Public Service Company of Colorado, May 2022, p. 26. URL: https://www.xcelenergy.
+  com/staticfiles/xe- responsive/Company/Rates%20&%20Regulations/Resource%20Plans/Clean%20Energy%
+  20Plan/HE_114-KLS-3-Flex_Reserve_Study.pdf.
+Denholm, Paul et al. “Summary of Market Opportunities for Electric Vehicles and Dispatchable Load in Electrolyz-
+  ers”. In: (May 2015). DOI: 10.2172/1215243. URL: https://www.osti.gov/biblio/1215243.
+The Intertie Management Committees’ Railbelt Operating and Reliability Standards. Oct. 2017. URL: https://www.
+  akenergyauthority.org/Portals/0/Programs/Railbelt%20Energy/Alaska%20Inertie/RailbeltOpratingRlbilityStndardsFinal2017.
+  pdf?ver=2019-06-19-135947-740 (visited on 10/29/2023).
+
+
+
+
+                                                           11
+
+                This report is available at no cost from the Alaska Center for Energy and Power (ACEP) at
+                 the University of Alaska, Fairbanks (UAF) at www.uaf.edu/acep/our-resources/index.php
+

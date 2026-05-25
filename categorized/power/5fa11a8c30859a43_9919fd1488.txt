@@ -1,0 +1,204 @@
+                                                     Advanced Data Center
+                                                     Energy Opportunities:
+                                                     Cloud and Infrastructure CoP—
+                                                     Data Center Energy and
+                                                     Efficiency With AI Adoption
+                                                     Otto Van Geet, PE
+                                                     National Renewable Energy Laboratory
+                                                     September 3, 2025
+
+This presentation was produced when the laboratory
+operated as the National Renewable Energy
+Laboratory (NREL). The laboratory is now the
+National Laboratory of the Rockies (NLR).
+     Photo from Getty-181828180
+                                                Data Center Energy Demand
+A recent Lawrence Berkeley National Laboratory (LBNL) study, incorporating changes observed in the data center
+sector in recent years, indicates “that the electricity consumption of U.S. data centers is currently growing at an
+accelerating rate” (Shehabi et al. 2024).
+                                                                                                 Figure ES-1 from the LBNL data center energy use report shows a
+                                                                                                 compound annual growth rate of approximately 13% to 27%
+                                                                                                 between 2023 and 2028 (from approximately 200 TWh to a range
+                                                                                                 of 325 TWh to 580 TWh. Note: This surge in demand should be
+                                                                                                 understood within the context of a much larger electricity demand
+                                                                                                 expected from other factors (e.g., increase in electric vehicle
+                                                                                                 adoption). The report provides details on energy use by data center
+                                                                                                 type and industry trends.
+
+
+
+
+ Source: Shehabi, A., S. J. Smith, A. Hubbard, A. Newkirk, N. Lei, M. A. B. Siddik, B. Holecek, J. Koomey, E. Masanet, and D. Sartor. 2024. 2024 United States Data Center Energy Usage Report.
+ Berkeley, CA: Lawrence Berkeley National Laboratory. LBNL-2001637. doi.org/10.71468/P1WC7Q.
+                                                                                                                                                                                                  NREL | 2
+Source: Roberts, B. 2025. Data Center Infrastructure in the United States, 2025 (map). docs.nrel.gov/docs/gen/fy25/94502.jpg.
+            Follow Recommendations in Best Practices Guide
+            for Energy-Efficient Data Center Design, ASHRAE
+
+
+
+
+                                                                                             Source: ASHRAE. 2025. “Data Center Resource Page.” https://www.ashrae.org/technical-
+                                                                                                                     resources/bookstore/datacom-series.
+                                                                                           (TC 9.9 Datacom Encyclopedia subscription includes access to PDFs of all prior TC 9.9 books.)
+
+
+
+Source: DOE. 2025. “Best Practices Guide for Energy-Efficient Data Center Design.” FEMP.
+                                                                                                                                                                                           NREL | 4
+www.energy.gov/femp/articles/best-practices-guide-energy-efficient-data-center-design
+      Isolate Cold and Hot Aisles
+
+95º–105ºF vs. 60º–70ºF
+
+
+
+
+                             70º–80ºF vs. 45º–55ºF
+
+             Source: www.energy.gov/sites/prod/files/2013/10/f3/eedatacenterbestpractices.pdf
+
+
+
+
+                                                                                                NREL | 5
+                               Increasing CPU Power
+                         Transition to Warm Water Cooling
+
+
+
+                                                                                                             *Source: ASHRAE. 2021. Thermal Guidelines for Data Processing
+                                                                                                             Environments.
+
+
+
+
+Air cooling versus liquid cooling, transitions, and temperatures.
+Source: Figure 4 from ASHRAE 2021 white paper “Emergence and Expansion of Liquid Cooling in Mainstream Data Centers,”                                                   NREL | 6
+tpc.ashrae.org/Documents?cmtKey=fd4a4ee6-96a3-4f61-8b85-43418dfa988d.
+                                                                            Data Center Metrics
+Data Center Metrics: The Green Grid PUE “Family”
+
+Energy:
+                 "𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"+"𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"              "𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+      𝑃𝑃𝑃𝑃𝑃𝑃 =                                                               =
+                                   "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"                               "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+
+                                               "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 (𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑓𝑓𝑓𝑓𝑓𝑓𝑓𝑓,𝐶𝐶𝐶𝐶𝐶𝐶,𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝 𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐𝑐)"
+                   𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 =
+                                    𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑡𝑡𝑡𝑡𝑡 "𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪𝑪 𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄𝒄 (𝐶𝐶𝐶𝐶𝐶𝐶, 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚, 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠)"
+
+
+                   𝑇𝑇𝑇𝑇𝑇𝑇 = 𝑃𝑃𝑃𝑃𝑃𝑃 𝑥𝑥 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼
+                 "𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"+"𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒" − "𝑹𝑹𝑹𝑹𝑹𝑹𝑹𝑹𝑹𝑹 𝒆𝒆𝒆𝒆𝒆𝒆𝒆𝒆𝒆𝒆𝒆𝒆"
+      𝐸𝐸𝐸𝐸𝐸𝐸 =
+                                                 "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+
+
+Sustainability (water):
+                   "𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤 𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢                         𝐿𝐿
+      𝑊𝑊𝑊𝑊𝑊𝑊 =                                                            𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢
+                               "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"                                     𝑘𝑘𝑘𝑘𝑘
+
+                                             "𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤 𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢" + "𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤 𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢𝑢"
+                   𝑊𝑊𝑊𝑊𝐸𝐸𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠 =
+                                                                                           "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+
+
+
+
+Utilization (based on industry):
+       𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺, 𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑝𝑝𝑝𝑝𝑝𝑝 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤                                                                                                   NREL | 7
+                  Fanless Direct-Liquid-Cooled Server Options
+                                        Data Center Metrics: PUE “Family”
+       Cold Plates
+                                        Energy
+                                                        "𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"+"𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"              "𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+                                             𝑃𝑃𝑃𝑃𝑃𝑃 =                                                               =
+                                                                          "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"                               "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+
+                                                                                                       "𝐼𝐼𝐼𝐼 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒"
+                                                         I𝑇𝑇𝑇𝑇𝑇𝑇 = 𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑡𝑡𝑡𝑡𝑡 "𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑐𝑐𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜"
+
+                                                         𝑇𝑇𝑇𝑇𝑇𝑇 = 𝑃𝑃𝑃𝑃𝑃𝑃 𝑥𝑥 𝐼𝐼𝑇𝑇𝑇𝑇𝑇𝑇
+
+                                       Direct Immersion
+
+
+
+
+                                             Single Phase                                                       Two Phase
+                                                                                                         Image from Liquid Stack
+Images from HPE
+                                                                                                                                                     NREL | 8
+    Advanced Liquid Cooling
+                                                                               Production Liquid Cooling                                                Modular Data Center Design
+    Enabling Heat Reuse                                                                                                                                     Expanded from 2.5, 5 and 7.5 MW
+                                                                                                                                                            Upgrades while systems are in production. Controls augmentation, lessons learned
+      NREL has been directly involved in a number of independent
+      tests of new cold plates, immersion and was awarded the
+      testing and evaluation funding for the ARPA-E COOLERCHIPS
+      program.
+                                                                                                                                                        Energy Measurements
+                                                                               Three generations of HPC systems: Generation 1 was prototype
+                                                                               hardware, generation 2 added hybrid cooling, and generation 3
+                                                                               extreme high density all DLC.
+
+                                                                               Decade of lessons learned:
+                                                                               •    Production liquid cooling                                                Measuring computing energy/carbon intensity for user visibility, forecasting,
+                                                                               •    Recommissioning                                                          and system cross-comparison:
+•   CHIP-level thermal resistance: ACO, Georgia Tech, and APEEM group          •    Live upgrades.
+                                                                                                                                                             •     Workload profiling across different application types
+    collaborating to measure thermal resistance at the chip level
+                                                                                                                                                             •     Accounting standardization for carbon intensity accounting.
+•   Server-level efficiency measurement: Developing testing protocols for
+    measuring server-level efficiency, providing guidance to measure iTUE      Data Center Modeling
+•   Data center-scale effects based on server measurement: Scale up
+    from detailed server testing to macro effects on data center efficiency.
+                                                                               Developing integrated co-simulation software: Optimize design of         Water Usage
+                                                                               data centers including their data, power, and thermal management
+                                                                               systems for lowering cooling energy demand, lowering CO2 footprint,
+                                                                               and lowering cost while maintaining reliability and availability.
+
+                                                                               To facilitate the adoption of the tool to achieve transformational and
+                                                                               disruptive design advances first for COOLERCHIPS and then by the
+                                                                               larger data center design community.
+
+
+                                                                                                                                                        •        Water usage: Direct reduction in water usage through application of advanced
+                                                                                                                                                                 dry coolers (Sandia National Labs and Johnson Controls)
+
+                                                                                                                                                        •        Heat reuse: Comparing and contrasting methods for carbon intensity
+                                                                                                                                                                 accounting across industry and public sector.
+                                                                                                                                                                                                                                      NREL | 9
+     NREL’s Key Approach to Optimize Data Centers
+
+1.   Power usage effectiveness (PUE): Reduce energy use by making systems as efficient
+     as possible:
+     – Maximize compute entering temperature to maximize energy efficiency!
+     – “Free” cooling to reduce or eliminate compressor (chiller, DX)-based cooling:
+         a)   Install direct liquid-cooled computers that use warm water.
+         b)   Capture as much heat as possible directly to the liquid cooling system.
+   – Optimize fan/pump speeds and uninterruptible power supply.
+2. Energy reuse effectiveness (ERE): Heat reuse—achieve as low an ERE as possible:
+   – Maximize compute leaving temperature to maximize energy reuse!
+3. Water usage effectiveness (WUE): Reject as much remaining heat to dry coolers as
+   possible:
+   – Maximize compute leaving temperature to maximize heat-rejected dry!
+                                                                                        NREL | 10
+                                                                          Questions?
+                                                                          www.nrel.gov
+
+                                                                          NLR/PR-6A40-96792
+
+
+
+
+This work was authored by NREL for the U.S. Department of Energy (DOE), operated under Contract No.
+DE-AC36-08GO28308. Funding provided by U.S. Department of Energy Office of Federal Energy
+Management Program. The views expressed in the article do not necessarily represent the views of the
+DOE or the U.S. Government. The U.S. Government retains and the publisher, by accepting the article for
+publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable,
+worldwide license to publish or reproduce the published form of this work, or allow others to do so, for
+U.S. Government purposes.
+

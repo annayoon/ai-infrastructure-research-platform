@@ -1,0 +1,823 @@
+Secure and Resilient
+Cloud Computing for the
+Department of Defense
+Nabil A. Schear, Patrick T. Cable, Robert K. Cunningham, Vijay N. Gadepally,
+
+Thomas M. Moyer, and Arkady B. Yerukhimovich
+
+
+
+
+Cloud computing offers substantial benefits
+to its users: the ability to store and access
+                                                             »       Imagine a military commander who
+                                                                     urgently needs a specialized computing
+                                                                     capability to analyze new intelligence, sur-
+massive amounts of data, on-demand delivery
+                                                                     veillance, and reconnaissance (ISR) data
+of computing services, the capability to widely      and integrate those data with existing ISR information.
+share information, and the scalability of resource   The commander directs his information technology
+                                                     (IT) staff and developers to design this capability. The
+usage. Lincoln Laboratory is developing
+                                                     staff quickly provision computing hardware from a
+technology that will strengthen the security         Department of Defense (DoD) cloud and compose the
+and resilience of cloud computing so that the        software and services needed to ingest, enrich, create, and
+Department of Defense can confidently deploy         share knowledge from the data while ensuring that the
+                                                     resulting capability remains secure and resilient (i.e., able
+cloud services for its critical missions.
+                                                     to continue operations after a disruption). Within days, the
+                                                     staff has an initial system for analyzing the ISR data up and
+                                                     running. In the following weeks, they enhance the system
+                                                     by creating new features and adding capacity for even more
+                                                     data. This vision for agile, inexpensive cloud computing
+                                                     could revolutionize the way the DoD operates, and Lincoln
+                                                     Laboratory is building the next-generation secure cloud
+                                                     computing systems that could enable that vision.
+                                                          Marketers have made the term cloud synonymous
+                                                     with ubiquitous, convenient computing. Digging below
+                                                     this simplified description, we find that cloud computing
+                                                     is a model for deploying software and hardware resources
+                                                     at lower cost and with greater flexibility than deploying
+                                                     typical enterprise computing resources. The defining
+                                                     attributes of cloud computing include on-demand
+                                                     self-service, broad network access, resource pooling,
+                                                     rapid elasticity (i.e., ability to adapt quickly to changing
+
+                                                           VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL    123
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+      computational demands), and measured service (i.e.,             that addresses that threat model, and (3) integrate the
+      accounting and billing of resource usage) [1]. In cloud         technology into a usable, secure, resilient cloud test bed.
+      computing, computation and software capabilities are            Underpinning this work is the semitrusted cloud threat
+      outsourced to a provider that delivers services to a cloud      model, which is built on the assumption that some of the
+      user (also called a tenant).                                    cloud infrastructure or resources will be under the control
+           The DoD is looking to the cloud computing model as a       of an adversary, but that there remains a portion of the
+      means for lowering the costs and improving the flexibility of   cloud that can be inspected and trusted.
+      computing systems while delivering more capable services.            Our research and prototyping efforts are focused
+      But, the process of moving to the cloud is not without peril.   on four key components needed for a secure and resil-
+      The 2013 Defense Science Board (DSB) Report of the Task         ient cloud: communication, storage, processing, and a
+      Force on Cyber Security and Reliability in a Digital Cloud      high-assurance architecture that holds them together. In
+      recommended that the “DoD should pursue private cloud           each area, our goal is to achieve security and resilience
+      computing to enhance mission capabilities, provided that        in the semitrusted cloud threat model. The vision for
+      strong security measures are in place” [2]. The DSB study       this technology is to create an ecosystem of services and
+      team, including experts from Lincoln Laboratory, the DoD,       capabilities that allows the DoD to build secure, resilient
+      commercial cloud providers (e.g., Google and Amazon),           cloud mission applications. We are developing services
+      and leading universities, found shortcomings in the             and interfaces that can be recomposed to meet mission
+      security and resilience of clouds. The DSB report further       needs. Finally, we are combining these prototypes and
+      highlighted the need for research addressing conditions of      services in a cloud test bed that reduces the risks for the
+      interest to a warfighter, whose computing resources may         DoD’s acquisition of secure, resilient cloud technology by
+      face an active cyber adversary, intermittent connectivity,      providing proofs of concept, technology maturity, integra-
+      and physical attacks on computing hardware.                     tion demonstrations, and security evaluations.
+           Today’s cloud providers and the technology that
+      underpins their clouds are focused on the availability and      Cloud: A Primer
+      scalability of services and not on DoD-specific security        Cloud computing changes how information services can
+      needs. Commercial cloud security is typically proprietary       be created and implemented. Before the cloud era, pro-
+      and thus opaque to tenants. For example, tenants have           viding a new computing service (e.g., a large website or
+      no visibility into cloud network security or data access.       a file server) meant substantial capital expenses for data
+      The prevailing cloud computing model is based on users          center space, network connectivity, and servers. After
+      trusting their cloud providers; data are stored unencrypted     the capital investment, companies needed large teams of
+      inside the cloud and all processing is done on unprotected      IT personnel and developers to manually build, install,
+      data. The only enforceable guarantees that tenants have are     configure, and maintain the supporting infrastructure.
+      through legal service-level agreements that loosely define      It took months for the teams to field the new service and
+      the security responsibilities of both providers and users.      considerable expense to operate and maintain it. In the
+      This legal model does not provide tenants with timely and       cloud model, computing resources can be created on
+      controllable mechanisms with which to respond when              demand and composed into applications quickly.
+      adversaries strike. As the DoD seeks to utilize commer-               The National Institute of Standards and Technology
+      cial cloud technology, current cloud security will leave the    (NIST) defines the cloud as a “model for enabling ubiqui-
+      DoD unable to protect their cloud resources from external       tous, convenient, on-demand network access to a shared
+      attack, their cloud provider, insiders, or malicious tenants.   pool of configurable computing resources (e.g., networks,
+           To address these shortcomings in cloud security,           servers, storage, applications, and services) that can be
+      Lincoln Laboratory has undertaken the Lincoln                   rapidly provisioned and released with minimal man-
+      Laboratory Secure and Resilient Cloud (LLSRC) effort            agement effort or service provider interaction” [1].
+      to shore up the technology behind the cloud. The LLSRC          NIST’s five essential characteristics of a cloud service are
+      approach is to (1) define a more accurate threat model for      contrasted in Table 1 with those from the “old way” of
+      DoD cloud computing, (2) research and build technology          enterprise computing .
+
+124   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                      NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                   THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+    Table 1. Cloud versus Enterprise Computing Characteristics
+           CLOUD COMPUTING                                      ENTERPRISE COMPUTING
+
+          On-demand self-service               User request and long implementation to provide services
+
+          Broad network access                 Limited to local area/company networks only
+
+          Resource pooling                     Dedicated resources; expensive resilient hardware
+
+          Rapid elasticity                     Fixed, over-provisioned capacity; expensive to scale up or down
+
+          Measured service                     Poor metrics; unmeasurable guarantees
+
+
+
+
+    Table 2. Cloud Service Models
+    SERVICE
+                     WHAT’S PROVIDED            FLEXIBILITY                         EXAMPLES
+     MODEL
+
+                                                                  Amazon Elastic Compute Cloud (EC2), DISA
+                   Compute, storage, and
+       IaaS                                          High         milCloud, Google Compute Engine, Microsoft
+                   network services
+                                                                  Azure
+
+                   Application program
+                                                                  Amazon Elastic MapReduce, MathWorks Cloud,
+       PaaS        interfaces (API) and            Medium
+                                                                  Red Hat OpenShift
+                   services
+
+       SaaS        Full-fledged applications         Low          Google Gmail, Microsoft Office 365, Facebook
+
+
+
+
+     Cloud offerings fit into three different service        availability, and network failure. Similarly, cloud devel-
+models—infrastructure as a service (IaaS), platform as       opers and system administrators need to resolve how
+a service (PaaS), and software as a service (SaaS)—that      to automate the deployment and how to monitor the
+target system administrators, developers, and end users,     availability of an elastic distributed system. These issues
+respectively (see Table 2). NIST identifies four environ-    represent a considerable departure from the vast majority
+ments in which cloud services exist: public, community,      of enterprise computing patterns. Indeed, many DoD cloud
+private, and hybrid. Public clouds allow anyone to use       initiatives thus far have not broken the mold of enterprise
+them. Community clouds may share tenants across a par-       computing; they are simply performing virtualization at
+ticular community of users (e.g., a cloud managed by the     a distant data center. Solving the challenges presented by
+Defense Information Systems Agency [DISA]). Private          distributed systems will benefit the future of DoD software
+clouds are generally limited within an organization (and     by providing increased resiliency to the end users’ missions.
+their broad network access may be more limited). Hybrid
+clouds allow the mixing of private and/or community          Semitrusted Cloud Threat Model
+clouds with public ones. Some organizations have a private   Cloud services are attractive options for computing. They
+cloud for general use but may need to scale to broader       are easy to create, are usually straightforward to use, and
+cloud services for specific needs during certain periods.    offer flexibility and low cost; however, they carry signifi-
+     When building cloud applications for these service      cant security risks. Consider the example of Code Spaces
+models and environments, developers and designers must       [3]. In June 2014, attackers stole the credentials to the
+consider distributed systems issues, such as consistency,    company’s Amazon Web Services cloud account and
+
+                                                                   VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL    125
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+      proceeded to destroy all Code Spaces’ virtual machines                    A further problem with the prevailing security model
+      and customer data. Unable to recover, the company                    for clouds is that of mismatched priorities and control.
+      ceased operations shortly thereafter.                                Because cloud service providers require their users to out-
+           The first steps toward combating threats to the                 source security to the providers, users must also give up
+      cloud are to understand and to codify assumptions about              control of how to respond to an attack, thereby allowing
+      attacks and risk by examining the prevailing threat model.           providers to both prioritize and formulate the responses.
+      The dominant commercial cloud threat model is based                  With only vague security service-level agreements in place
+      on trusting the cloud providers and their system admin-              as leverage, cloud users are at the providers’ mercy when
+      istrators. The layered service model of infrastructure,              an attack happens.
+      platform, and software as services allows a buyer of cloud                An alternate threat model is one in which cloud pro-
+      services to abstract away the details of the lower layers.           viders are not trusted at all because they are a third party
+      This model often results in security that is opaque to the           to users’ resources. This conservative approach is taken
+      end-user. For a number of reasons, security opacity is ben-          by some users in the DoD who are engaged in sensitive
+      eficial to providers. First, the providers’ infrastructure and       missions and also by many academic researchers, espe-
+      associated mechanisms for the security of their offerings            cially those working in cryptography. The assumption that
+      are their critical intellectual property that the providers          the cloud is completely insecure leads to the use of very
+      are not incentivized to share. Second, by not specifying             inflexible solutions (e.g., encrypting data and not pro-
+      the details of their security implementations, providers             cessing them at all in the cloud) or extremely expensive
+      are free to change the details as needed without violating           operations (e.g., using fully homomorphic encryption that
+      any service-level agreement. Last, providers can espouse             performs computation without decrypting data [4]). As a
+      a shared security responsibility model in which attacks              result of confining technology to this threat model, many
+      and vulnerabilities occurring at or below the level of the           of the benefits of cloud computing are lost. Furthermore,
+      providers’ services are the providers’ responsibility, and           a conservative user may avoid using the cloud at all and
+      attacks and vulnerabilities above the providers’ services            fall back to single-tenant enterprise computing.
+      are the responsibility of the cloud users. Rarely are sophis-             We choose neither of these extremes for the LLSRC
+      ticated real-world attacks so cleanly separated across the           threat model. Instead, we use a trust model that we call
+      layers of a computing stack; therefore, cloud providers              the semitrusted cloud threat model (see Figure 1). In the
+      can indemnify themselves of liability and blame the users            semitrusted model, we assume that some fraction of the
+      for any security breaches that arise.                                cloud resources is under the control of adversaries. We
+
+
+
+               Computing cost: $$$$                         Computing cost: $$                            Computing cost: $
+
+
+
+
+                                                                       Tenant 1
+
+
+                        ✗
+                   Assume nothing
+                                                       Tenant 2
+                                                                                  Tenant 3
+                                                                                                               ✓
+                                                                                                         Trust me, it’s secure
+                                                                  Provider
+
+
+               Conservative approach                       MIT Lincoln Laboratory                    Dominant commercial cloud
+                                                          semitrusted cloud model                           approach
+
+
+      FIGURE 1. This comparison of cloud threat models shows how the semitrusted threat model Lincoln Laboratory advo-
+      cates accepts a reasonable amount of risk to maintain the cloud computing benefits of low computational costs and flexible,
+      scalable services.
+
+
+126   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                        NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                      THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+neither distinguish between external or insider attackers                            Mission applications
+nor assume that we can always precisely identify which
+                                                                       Cyber              ISR               C2             ...
+nodes are corrupted and which are unaffected. Applying
+this threat model, we expect and design for cloud com-                LLSRC ecosystem of services, libraries, and tools
+promise, but we assume that some trustworthy base of
+resources remains on which we can build secure and
+                                                                   Communication           Storage             Processing
+resilient systems.
+
+Secure and Resilient Cloud Architecture                                          High-assurance architecture
+Building a secure and resilient cloud system for the
+                                                                          Commodity hardware                   Root of trust
+DoD necessitates some changes and additions to the
+standard cloud architecture. The LLSRC architecture
+                                                                FIGURE 2. At the base of the stack for the Lincoln
+stack (Figure 2) begins at the bottom with the same             Laboratory Secure and Resilient Cloud (LLSRC) are
+commodity, low-cost hardware present in today’s clouds          commercially available hardware and a root of trust. The
+but with the addition a hardware root of trust, (i.e., a        high-assurance architecture allows the three core capa-
+                                                                bilities to take advantage of its security measures. The
+specialized cryptographic coprocessor that is trusted by
+                                                                LLSRC application interfaces and the applications at the
+the operating system). Atop that layer is a high-assur-         higher layers allow developers to design software for specific
+ance trusted computing architecture that allows us to           missions, such as intelligence, surveillance, and reconnais-
+bootstrap (initiate) trusted cryptographic keys that will       sance (ISR) or command and control (C2).
+underpin higher layers. Because this layer also supports
+bidirectional control and visibility of the cloud infra-
+structure below, cloud tenants can obtain actionable            High-Assurance Architecture
+situational awareness of the resources they are using.          Today’s cloud service providers do not furnish the building
+Above that trusted architecture, we build systems that          blocks necessary to establish a trusted environment for
+enable the three core capabilities needed for cloud com-        hosting mission-critical applications and data. Tenants
+puting: communication, storage, and processing. We              have limited ability to verify the underlying platform when
+aim to develop systems that maintain security and resil-        they deploy their software and data to the cloud provider
+ience in the face of adversaries who control some of the        and to ensure that the platform remains in a good state for
+cloud resources.                                                the duration of their computation. Additionally, current
+     The LLSRC architecture fits both beneath and along-        practices restrict tenants’ ability to establish unique,
+side existing insecure cloud software. As a result, we need     unforgeable identities for individual nodes that are tied
+a strategy for integrating LLSRC technology with the            to a hardware root of trust. Often, identity is based solely
+cloud services and applications that need to be secured.        on a software-based cryptographic solution or unverified
+The LLSRC integration strategy is to utilize a suite of         trust in the provider. What is needed are mechanisms to
+services and tools at various levels of the cloud stack. This   establish trusted cloud identities, rooted in hardware,
+strategy provides a tiered approach to integration that         and to maintain appropriate situational awareness and
+starts with limited-invasiveness, compatible solutions          control over cloud nodes.
+that can be deployed transparently to the applications.              To establish a cryptographic node identity with a
+The next integration point is the security application          hardware root of trust, nodes validate their environment
+program interfaces (API) and services that developers           and, in turn, are validated by the environment before
+can compose. The final integration point consists of            being issued a long-term identity. The hardware that is
+full replacements for end-user software. These integra-         often used to establish a trusted environment in com-
+tions plug in roughly at the infrastructure, platform, and      modity systems is the Trusted Platform Module (TPM), a
+software layers to afford cloud tenants the maximum flex-       small cryptographic processor that provides a hardware
+ibility to design and compose appropriate solutions for         root of trust. Figure 3 shows the process by which a
+their missions’ needs.                                          system with a TPM will boot. This process, known as
+
+                                                                      VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL     127
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+      secure boot, ensures that no files have been modified
+                                                                               Applications
+      and halts the system when any unexpected changes are                                              Measure/
+                                                                                                        validate
+      detected. The basic input/output system (BIOS) starts the
+                                                                             Operating system
+      process by measuring (or validating) the firmware within                                          Measure/
+      the system. The firmware then validates the boot loader,                                          validate           Trusted
+                                                                                Bootloader                                 Platform
+      which in turn validates the operating system (OS). The                                            Measure/           Module
+      OS then monitors the applications running on the system.                                          validate
+                                                                                 Firmware
+           During normal operation, these collected measure-                                            Measure/
+      ments can be provided to remote systems as a means of                                             validate
+                                                                         Basic input/output system
+      proving, or attesting, the system’s integrity state, through a
+      process known as integrity measurement. The TPM forms            FIGURE 3. A trusted computing architecture validates the
+      the hardware root of trust for secure boot and integrity         current environment during system boot to allow the system
+      measurement. This root of trust is expected to function          to generate proofs that show the current integrity state of the
+      correctly, and from this assumption, we can validate the         system. The validation is enabled by the Trusted Platform
+                                                                       Module and sequences through all layers of the stack.
+      entire set of applications running on the system, using the
+      chained validation described in the preceding paragraph
+      and Figure 3. These techniques ensure that any devia-
+      tion from a known-good state can be detected so that             performance of the application’s communication. While
+      appropriate responses can then be taken. This chained            centralizing the integrity measurement reduces the time-
+      validation approach increases the difficulty for an adver-       liness of detecting violations of a system’s integrity, the
+      sary who is attempting to compromise a system while              number of systems that can be attested is more scalable.
+      avoiding detection.                                                    Using hardware-rooted node identities and the mea-
+           The first challenge to extending trusted computing          surements collected by their individual cloud verifiers,
+      to the cloud is virtualization. Because virtual machines         tenants can now create and maintain their own individu-
+      are by definition separated from and unaware of the              alized trusted membership lists. The long-term identities
+      underlying hardware (e.g., the hardware of the virtual           (i.e., public/private key pairs) in the trusted membership
+      machine monitor, or hypervisor) on which they run, we            list bootstrap both long-term identity and ephemeral keys
+      need a way to tie the virtual environment to one rooted          (temporary keys generated for each key establishment
+      in hardware. The software Virtual Trusted Platform               process) for higher-level services. Changes to a trusted
+      Module (vTPM) solves this problem by linking its                 membership list inform higher-level services of the trust
+      attestations of the virtual environment to that of the           level of each node in tenants’ environments. The trusted
+      underlying hardware [5].                                         membership list forms the foundation and interface
+           The second challenge to trusted computing is effec-         that enables secure communication, information flow
+      tively scaling the techniques to the thousands of nodes          tracking, and storage.
+      in the cloud. The sheer number of machines and limita-                 To demonstrate a method that allows applications on
+      tions of the performance of hardware TPMs (e.g., a single        a cloud node to bootstrap trust, we created the Keylime
+      digital signature, which is a fundamental building block         library, a collection of services and an API for providing
+      in trusted computing, can take ~1 second to produce)             the cloud verifier (CV) service and the cloud node service
+      make it infeasible to have each virtual machine attest to        that runs on each compute node. The ability to maintain a
+      all other hosts with which it communicates directly. We          trusted list of cloud compute nodes depends on Keylime’s
+      propose using a cloud verifier to alleviate this problem         ability to continuously verify TPM quotes, i.e., cryp-
+      by centralizing integrity measurement to a dedicated             tographically signed measurements of system integrity.
+      software service that verifies all the nodes belonging to        To test the scalability of our library, we developed an
+      a particular entity (tenant or provider) [6]. This integ-        automated test platform to create new virtual “compute
+      rity measurement asynchronously occurs separately from           nodes” and verify their integrity. Figure 4 shows that we
+      the communication channel and has no impact on the               were able to reach a rate of 2500 verifications (quotes) per
+
+128   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                                      NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                                  THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+                                                                                 Brokered publish/subscribe services offer a way to
+                      2500
+                                                                            broadcast messages to multiple nodes. When nodes first
+                      2000                                                  join the service, they specify to a broker a list of topics in
+
+
+
+    Rate (quotes/s)
+                                                                            which they are interested. When nodes send broadcast
+                      1500
+                                                                            messages related to those topics to the broker, the broker
+                      1000                                                  sends the messages to all the nodes that have subscribed
+                                                                            to that topic. To enhance scalability and elasticity, tenants
+                       500                                                  can leverage a broker operated by the cloud provider to
+                        0
+                                                                            multiplex multiple tenants’ messages across the cloud effi-
+                         0     50     100     150   200     250       300   ciently [7]. While this practice has many advantages, the
+                             Number of cloud verification processes
+                                                                            broker presents adversaries or malicious cloud insiders
+FIGURE 4. Lincoln Laboratory’s Keylime cloud verifier                       with an easy target to attack.
+(CV) can quickly detect compromised cloud nodes and scale                        To address the insecurity of brokered cloud messaging
+to continuously monitor 1000s of nodes. By increasing the
+                                                                            systems, we are building a cryptographic overlay that
+parallelism of the CV (thus increasing the number of pro-
+cesses performed), we observed a sustained rate of 2500                     protects data passing over an untrusted broker. The system
+quotes verified per second.                                                 works by running a proxy on each cloud node that either
+                                                                            publishes or receives messages from the cloud broker.
+                                                                            These proxies use dynamic group keying to establish and
+second. These results indicate that our system can scale                    distribute a cryptographic key that tenants can control
+to handle 1000s of nodes with low-latency detection of                      for each topic [8]. The proxies then encrypt all data that
+integrity violations.                                                       transit the broker and subsequently remove any encryption
+                                                                            before delivering the data to the destination application.
+Secure Communication                                                        The trusted membership list provides the keys needed to
+Cloud providers, malicious insiders, or other tenants                       securely distribute the topic keys and the cues for when
+mounting a side-channel attack1 may eavesdrop on                            to rekey as the membership list changes. This solution is
+cloud networks. To protect data in transit, we can rely                     transparent to existing cloud applications (requiring only
+on well-known techniques, such as Internet protocol                         a configuration change to redirect the application to the
+security (IPsec) or transport layer security (TLS), which                   proxy rather than to the real broker), and it maintains the
+can provide both confidentiality and integrity of network                   elasticity and scalability of the cloud broker.
+traffic. In LLSRC, we use the long-term identity keys
+provided by the architecture to bootstrap the creation of                   Secure Cloud Storage
+ephemeral cryptographic keys for use with IPsec. By using                   The ability to store and access data securely is core to
+this technique, we can secure communications without                        developing a protected cloud infrastructure. Threats
+presharing keys to all nodes, and we do not need each                       to data storage security abound in the cloud. Examples
+node to be provisioned with the same keys. Each system                      include insiders maliciously accessing physical disks,
+has an agent that monitors changes to the trusted mea-                      malware modifying critical files, providers improperly
+surement list and can terminate IPsec tunnels when                          sanitizing reused media, and services providing insuffi-
+nodes are removed. This solution can be preconfigured                       cient access control. Again, we turn to cryptography and
+as part of the cloud offering and transparently protects                    key management to simplify the trust assumptions we
+all inter-tenant cloud communications to provide an easy                    must make to ensure critical data are protected.
+mechanism by which all point-to-point cloud network                              The simplest storage media to protect in the cloud
+traffic can be encrypted. However, one limitation of this                   is the local storage attached directly to a cloud compute
+approach is the need for point-to-multipoint traffic.                       node. While commercial products from HyTrust and
+                                                                            SafeNet exist to transparently encrypt these volumes,
+1
+ A side-channel attack is one that exploits nontextual information, such    these products fall short because they rely on soft-
+as timing information or power consumption statistics, generated by an
+encryption device.                                                          ware-based or password-based trust with no linkage to
+
+                                                                                  VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL     129
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+      a hardware root of trust or to the integrity state of the             The final and most complex storage application to
+      system. Using the LLSRC high-assurance architecture,             secure is that of databases supporting complex queries.
+      we can mitigate this shortcoming. As with the communi-           Databases are critical to cloud computing because they
+      cation component of cloud computing, long-term identity          allow applications to efficiently access small portions of
+      keys can be used to unlock cryptographic keys that protect       large datasets. The standard sets of cryptographic algo-
+      local storage, and agents monitoring the tenant’s trusted        rithms (e.g., block ciphers, cryptographic hash functions,
+      membership list can revoke access to encrypted volumes           and public key cryptography) are insufficient for use with
+      as the cloud node integrity state changes. By leveraging         databases because these algorithms do not allow search
+      hardware acceleration and the bootstrapping capabili-            operations on ciphertext. We need new cryptographic
+      ties of the trusted membership list, this solution can be        techniques, such as deterministic, order-preserving, and
+      deployed transparently to applications with minimal per-         searchable encryption [10–12]. These cryptographic
+      formance overhead.                                               techniques have proven to be both secure and practical
+            Often, local cloud node storage is not used to store       for relational or SQL-style2 databases. These protections
+      persistent state because nodes may come and go as the            can be deployed with approximately a 10-fold decrease in
+      storage load varies. When persistent state is not stored in      processing overhead compared to the overhead involved in
+      a cloud node, that state must be stored elsewhere and is         plaintext operations for a wide variety of advanced queries,
+      typically shared with other cloud nodes. Object storage          including substring matching and ranges [13, 14].
+      systems (e.g., Amazon Simple Storage Service, OpenStack               Many cloud applications are moving to a schema
+      Swift) or distributed file systems (e.g., Lustre, Ceph) often    and storage pattern that relaxes some of the constraints
+      fill this need. These systems typically rely on access control   of SQL to create massively scalable databases. To address
+      lists that are enforced by the system. For example, file         this shift, we have developed the Computing on Masked
+      systems compliant with POSIX (a set of standards known           Data (CMD) toolbox, which employs the aforemen-
+      as Portable Operating System Interface for UNIX) will            tioned encryption primitives (i.e., low-level algorithms)
+      offer owner, group, and other read-and-write permissions.        to provide a high-performance framework for securing
+            To move this reference monitor model of access             data in NoSQL databases like Apache Accumulo [15, 16].
+      control to one based in cryptography, we need both               Specifically, to allow users to securely mask data stored
+      dynamic group keying and long-term identity keys                 in a database, the CMD toolbox makes use of encryption
+      provided by the architecture. Lincoln Laboratory has             techniques such as semantically secure encryption (often
+      developed a prototype system that encrypts data in an            called randomized encryption and shortened to RND,
+      object storage system and mediates access to shared              which only supports data retrieval), deterministic encryp-
+      resources by employing key management [9]. Using                 tion (DET, which supports database matching queries),
+      a method similar to the protection of topic keys with a          and order-preserving encryption (OPE, which supports
+      secure publish/subscribe proxy, our system creates a             database range and match operations).
+      randomly generated key, called the content key, for each              When data are inserted into the cloud database, they
+      object (i.e., piece of data) in the system and encrypts the      are first converted to sparse representations known as
+      object with the content key. The system then encrypts the        associative arrays (sparse matrices with text-labeled rows,
+      content key using the long-term identity key of each entity      columns, and values). Prior to inserting data into the cloud,
+      that has permission to read the object. These encrypted          users select the appropriate level of masking (i.e., encryp-
+      keys, or key wraps, along with the encrypted object, are         tion with a secret key) that they will apply to support the
+      stored in the object storage system. The owner of the            security and functionality goals of their application.
+      object can add permissions later and can revoke access                To retrieve the masked data, users submit a masked
+      by re-encrypting the object under a new key or encrypting        query (with the same key used when they inserted data) or
+      under a new key only when new data are written to the            an analytic (such as correlation or thresholding). To view
+      object. An asynchronous agent running in the cloud
+      manages when permissions should be updated to reflect            2
+                                                                         SQL is short for Structured Query Language, a widely used program-
+      changes to the membership list.                                  ing language for managing databases.
+
+
+130   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                       NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                                   THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+the results, users unmask their data by using the same key                        101
+
+
+
+
+                                                               Compute time (s)
+they used to mask the data. The CMD prototype, which                                         CLR
+                                                                                  100        OPE
+has been applied to healthcare data, network logs, and                                       DET
+social media datasets, adds no more than twice the relative
+                                                                                  10–1
+computational overhead. For example, Figure 5 describes
+the computational time taken to perform a correlation on
+                                                                                  10–2 0
+masked data (DET and OPE) and plaintext data (CLR,                                   10       101       102      103       104       105
+                                                                                                     Number of entries
+for unencrypted data “in the clear”). We found the time
+required to perform masked correlation (represented by        FIGURE 5. Computing on Masked Data (CMD) provides
+the red OPE line and blue DET line) is within a factor or     support for a number of encryption techniques. In this plot,
+two of the time taken to perform the correlation on plain-    we show that the time to perform a computation on data
+                                                              masked by using an order-preserving encryption technique
+text data (represented by the black CLR line).
+                                                              (OPE, red line) or a deterministic encryption technique
+     To address the integrity of data stored in cloud         (DET, blue line) is either comparable to or acceptably close
+databases, we are developing a system to automatically        to the time to perform a computation on unencrypted data
+and transparently append digital signatures to all data       (CLR, black line).
+items in the NoSQL Accumulo database. In addition to
+developing techniques for protecting data integrity, we
+are developing a system that uses tools like Merkle hash      unknown or malicious state, these techniques still leave
+trees to safeguard the soundness of results returned by the   the data vulnerable as they are being processed and
+database [17, 18]. This system will ensure that a database    stored in memory on a cloud system.
+cannot suppress or falsify results without detection. Both         Consider the proposed semitrusted cloud threat
+these systems are implemented in the software the client      model presented earlier. In this model, we explicitly
+uses to access the database. If database clients reside in    assumed that some fraction of cloud machines is under
+other cloud nodes (that are powering other applications),     adversarial control at any given time. Under this threat
+we can leverage the identity keys from the trusted mem-       model, we cannot rely on trusting the entire cloud, and
+bership list to authenticate nodes and distribute keys for    additional protections are necessary to keep data confi-
+signing and verifying data in the database.                   dential during processing and to ensure correctness of
+                                                              computation results. A number of cryptographic tech-
+Secure Processing                                             niques, such as homomorphic encryption, verifiable
+The most challenging problem in cloud security is             computation, and multiparty computation (see [19] for a
+the protection of data while they are being processed.        brief survey), have been proposed by the academic com-
+Because it may often be desirable for users to perform        munity to protect data during processing in a semitrusted
+computations, such as statistical analyses, over data         computing environment; however, more research is nec-
+stored in the cloud, it is important for cloud providers to   essary for developers to understand the applicability and
+ensure that the data are secured throughout the compu-        practicality of these techniques in a cloud setting.
+tation. However, most clouds today only allow processing           To achieve secure processing on a semitrusted cloud,
+over unencrypted data to give the cloud the access neces-     we are investigating the feasibility of secure multiparty
+sary to perform the computation. This approach requires       computation (MPC) in the cloud. Secure MPC allows
+data owners to give up control over their data and trust      multiple parties to work together to compute a joint
+the cloud to do the right thing. If even a single one of a    function on their private data without revealing those data
+tenant’s cloud nodes is compromised by an adversary,          to each other or any external parties and while ensuring
+either through malware or the presence of a malicious         that correct results are obtained even if a small number of
+insider, then both the confidentiality of the data and        the parties misbehave. The MPC arrangement is an effec-
+the integrity of the computed results may be compro-          tive substitute for a scenario in which a perfectly trusted
+mised. Although the trusted computing techniques we           third party would be needed (Figure 6). Distributed com-
+have described can detect when the system reaches an          putation like MPC arises quite naturally in a cloud setting
+
+                                                                                   VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL   131
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+                               Trusted                                                                        MPC
+                             third-party                                                                     protocol
+
+
+
+
+      FIGURE 6. Multiparty computation (MPC) on the right emulates a trusted third-party scenario (on left) to achieve compa-
+      rable security.
+
+
+
+
+      where data may be distributed over multiple cloud nodes        Reducing this communication locality is critical in a
+      or may belong to different cloud tenants. Using MPC,           cloud network because the reduction lowers the total
+      cloud tenants can perform computation over distributed         communication bandwidth necessary for MPC to run
+      sensitive data while protecting the confidentiality and        with many cloud nodes. Additionally, we are identifying
+      integrity of the input data and the results, even if some      and building MPC protocols for cloud-specific compu-
+      fraction of the machines involved in the computation is        tations, such as shared cyber situational awareness and
+      corrupted. In fact, this security guarantee does not even      graph anomaly detection [26].
+      require that the identities of corrupted parties be known.          To better understand the usability and utility of MPC
+           The academic cryptography community origi-                for such applications, we have developed an initial proto-
+      nally developed secure MPC in the mid-1980s [20–23].           type of MPC for graph anomaly detection. Figure 7 shows
+      However, for more than 20 years, the computing com-            the performance of both the unoptimized and optimized
+      munity considered MPC protocols purely theoretical             versions of our prototype. For the optimized prototype, we
+      novelties and explored few, if any, real-world applications
+      of the protocols. This perception that MPC is impracti-
+
+
+
+
+                                                                      Time per 5 iterations (s)
+      cable has been shattered in the past few years as multiple                                  105
+      efficient protocols have been implemented and used for                                      104    Unoptimized
+                                                                                                                                     6.5 hours
+      applications such as secure auctions [24] and private sta-                                  103    Optimized
+
+      tistical analysis [25]. These demonstrated uses of MPC                                      102
+      protocols have confirmed that MPC is nearing readiness                                      10                                86 seconds
+      for real-world applications; however, much work remains                                      1
+      before these protocols can be employed in a cloud setting.                                        10              100           1000
+                                                                                                                  Number of nodes
+      Specifically, it is necessary to build protocols that can
+      perform efficiently for computations that are distributed      FIGURE 7. Running times of multiparty computation
+      over a large number of cloud nodes and that are optimized      (MPC) are shown for graph anomaly detection. The blue
+      for the computations typically performed in cloud settings.    line represents an unoptimized initial prototype directly
+                                                                     translating the algorithm into its MPC implementation. The
+           Lincoln Laboratory is currently addressing both of
+                                                                     red line represents an MPC implementation of the same
+      these requirements for cloud MPC. First, we are inves-
+                                                                     protocol that uses several MPC-specific optimizations (e.g.,
+      tigating ways to decrease the number of nodes that             fixed-point arithmetic, sparse matrices) to significantly
+      must communicate to each other in an MPC protocol.             improve performance.
+
+
+132   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                      NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                    THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+considered both the mathematics of the graph anomaly         References
+detection algorithm and the overhead of those mathe-         1. P.M. Mell and T. Grance, “The NIST Definition of Cloud
+                                                                 Computing,” Technical Report SP 800-145. Gaithersburg,
+matical operations in MPC. We designed special-purpose
+                                                                 Md.: National Institute of Standards and Technology, 2011.
+optimizations that minimize the use of expensive MPC         2. Defense Science Board, Report of the Task Force on Cyber
+operations and increased the use of parallelism. Our             Security and Reliability in a Digital Cloud. Washington, D.C.:
+results demonstrate that we can achieve improvements             Office of the Under Secretary of Defense for Acquisition,
+of several orders of magnitude by applying MPC-specific          Technology, and Logistics, 2013, available at http://www.acq.
+                                                                 osd. mil/dsb/reports/CyberCloud.pdf.
+optimizations that transform existing algorithms into an
+                                                             3. D. Goodin, “AWS Console Breach Leads to Demise of
+appropriate form for secure computation. Efficient MPC           Service with ‘Proven’ Backup Plan,” ars technica, June 2014,
+for such computations will demonstrate its applicability         available at http://arstechnica.com/security/2014/06/
+in a cloud environment and will open the path to adding          aws-console-breach-leads-to-demise-of-service-with-proven-
+                                                                 backup-plan.
+strong security to cloud processing.
+                                                             4. C. Gentry, “Fully Homomorphic Encryption Using Ideal
+                                                                 Lattices,” Proceedings of the 41st Annual ACM Symposium on
+Achieving the LLSRC Vision                                       Theory of Computing, 2009, pp. 169–178.
+Developing the architecture and components discussed         5. S. Berger, R. Cáceres, K.A. Goldman, R. Perez, R. Sailer, and
+in this article represents a broad and sizable research          L. van Doorn, “vTPM: Virtualizing the Trusted Platform
+                                                                 Module,” Proceedings of the 15th Conference on USENIX
+agenda. Lincoln Laboratory is working on specific
+                                                                 Security Symposium, vol.15, article 21, 2006.
+research and development (R&D) challenges within this        6. J. Schiffman, T. Moyer, C. Shal, T. Jaeger, and P. McDaniel,
+space; however, we do not expect to solve all of them.           “Justifying Integrity Using a Virtual Machine Verifier,”
+We are leveraging promising R&D technology coming                Proceedings of the 2009 Computer Security Applications
+from academia, commercial companies, and other gov-              Conference, 2009, pp. 83–92.
+                                                             7. Amazon Web Services, Simple Notification Service (SNS),
+ernment labs and agencies. We are combining both our
+                                                                 available at http://aws.amazon.com/sns/.
+own technologies and those from other sources into an        8. R. Khazan and D. Utin, “Lincoln Open Cryptographic Key
+integration test bed.                                            Management Architecture,” Tech Note. Lexington, Mass.:
+      Using the test bed as a platform for technology            MIT Lincoln Laboratory, 2012, available at http://www.
+                                                                 ll.mit.edu/publications/technotes/TechNote_LOCKMA.pdf.
+demonstration and evaluation, we hope to evangelize the
+                                                             9. G. Itkis, V. Chandar, B. Fuller, J. Campbell, and R.K.
+semitrusted cloud security model. By showing that tech-          Cunningham, “Iris Biometric Security Challenges and
+nology can achieve stronger security guarantees than those       Possible Solutions,” IEEE Signal Processing Magazine,
+achievable with the current trust models in which trust is       vol. 32, no. 5, 2015, pp. 42–53.
+full, unverified, and absolute, we may drive the adoption    10. M. Bellare, A. Boldyreva, and A. O’Neill, “Deterministic and
+                                                                 Efficiently Searchable Encryption,” chapter in Advances in
+of technology that employs the semitrusted threat model,
+                                                                 Cryptology—CRYPTO 2007. Berlin, Heidelberg: Springer-
+and we may influence changes in commercial offerings.            Verlag, 2007, pp. 535–552.
+                                                             11. A. Boldyreva, N. Chenette, Y. Lee, and A. O’Neill, “Order-
+Acknowledgments                                                  Preserving Symmetric Encryption,” Proceedings of the 28th
+                                                                 Annual International Conference on Advances in Cryptology:
+We appreciate the support of the following individuals who
+                                                                 The Theory and Applications of Cryptographic Techniques.
+are researching and developing secure, resilient systems         Berlin, Heidelberg: Springer-Verlag, 2009, pp. 224–241.
+and who have advised us on our work and this paper:          12. R. Curtmola, J. Garay, S. Kamara, and R. Ostrovsky,
+Mayank Varia, Jeremy Kepner, Emily Shen, Eric Evans,             “Searchable Symmetric Encryption: Improved Definitions
+David Martinez, Albert Reuther, Bryan Richard, Sasha             and Efficient Constructions,” Proceedings of the 13th ACM
+                                                                 Conference on Computer and Communications Security,
+Berkoff, Sophia Yakoubov, Ben Fuller, Andrew Prout, Matt
+                                                                 2006, pp. 79–88.
+Hubbell, Roop Ganguly, Anna Simpson, Braden Hancock,         13. M. Varia, B. Price, N. Hwang, A. Hamlin, J. Herzog, J.
+Mike Calder, Chris Botaish, and Gene Itkis.                     Poland, M. Reschly, S. Yakoubov, and R.K. Cunningham,
+                                                                 “Automated Assessment of Secure Search Systems,”
+                                                                 Operating Systems Review, vol. 49, no. 1, 2015, pp. 22–30,
+                                                                 published by the ACM Special Interest Group on Operating
+                                                                 Systems.
+
+
+
+                                                                   VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL         133
+      SECURE AND RESILIENT CLOUD COMPUTING FOR THE DEPARTMENT OF DEFENSE
+
+
+
+
+      14. R.A. Popa, C.M.S. Redfield, N. Zeldovich, and H.                26. K.M. Carter, N. Idika, and W.W. Streilein, “Probabilistic
+          Balakrishnan, “CryptDB: Protecting Confidentiality with             Threat Propagation for Network Security,” IEEE
+          Encrypted Query Processing,” Proceedings of the 23rd ACM            Transactions on Information Forensics and Security, vol. 9,
+          Symposium on Operating Systems Principles, 2011, pp.                no. 9, 2014, pp. 1394–1405.
+          85–100.
+      15. J. Kepner, V. Gadepally, P. Michaleas, N. Schear, M. Varia,
+          A. Yerukhimovich, and R.K. Cunningham, “Computing on            About the Authors
+          Masked Data: A High Performance Method for Improving                                       Nabil A. Schear is a senior staff member
+          Big Data Veracity,” Proceedings of the 2014 High Performance                               in the Secure Resilient Systems and
+          Extreme Computing Conference, 2014, pp. 1–6.                                               Technology Group at Lincoln Laboratory,
+      16. V. Gadepally, B. Hancock, B. Kaiser, J. Kepner, P. Michaleas,                              where he leads efforts to create secure
+          M. Varia, and A. Yerukhimovich, “Computing on Masked                                       cloud computing environments for the
+          Data to Improve Big Data Security,” IEEE International                                     Department of Defense and the federal
+          Symposium on Technologies for Homeland Security, 2015,                                     government. His research interests
+          available at http://arxiv.org/abs/1504.01287.                                              include intrusion tolerance and prevention,
+      17. P.T. Devanbu, M. Gertz, C.U. Martel, and S.G. Stubblebine,      network traffic analysis, data tracking and isolation, and anony-
+          “Authentic Third-Party Data Publication,” Fourteenth            mous and covert communications systems. Prior to joining the
+          Annual Working Conference on Database Security: Data and        Laboratory in 2011, he was a member of the technical staff at Los
+          Application Security, Development and Directions, 2001, pp.     Alamos National Laboratory, performing research and development
+          101–112.                                                        in vulnerability analysis, Internet privacy, high-speed network traffic
+      18. M. Goodrich and R. Tamassia, “Efficient Authenticated           monitoring, sensor networking, and secure sanitization. He holds
+          Dictionaries with Skip Lists and Commutative Hashing,”          a bachelor’s degree from the Georgia Institute of Technology, a
+          Technical Report, Johns Hopkins Information Security            master’s degree from the University of California at San Diego, and
+          Institute. Baltimore: Johns Hopkins, 2001.                      a doctorate from the University of Illinois at Urbana-Champaign, all
+      19. S. Yakoubov, V. Gadepally, N. Schear, E. Shen, and A.           in computer science.
+          Yerukhimovich, “A Survey of Cryptographic Approaches to
+          Securing Big-Data Analytics in the Cloud,” Proceedings of
+                                                                                                   Patrick T. Cable is a member of the tech-
+          the 2014 High Performance Extreme Computing Conference,
+                                                                                                   nical staff in the Secure Resilient Systems
+          2014, pp. 1–6.
+                                                                                                   and Technology Group. His interests
+      20. M. Ben-Or, S. Goldwasser, and A. Wigderson, “Completeness
+                                                                                                   include cloud computing and the imple-
+          Theorems for Non-cryptographic Fault-Tolerant Distributed
+                                                                                                   mentation of distributed systems in cloud
+          Computation,” Proceedings of the 20th Annual ACM
+                                                                                                   environments. Prior to joining the group in
+          Symposium on Theory of Computing, 1988, pp. 1–10.
+                                                                                                   2014, he architected and managed com-
+      21. D. Chaum, C. Crépeau, and I. Damgård, “Multiparty
+                                                                                                   puting resources for a network used in the
+          Unconditionally Secure Protocols,” Proceedings of the 20th
+                                                                          creation of novel hardware. He has also worked on various free-
+          Annual ACM Symposium on Theory of Computing, 1988, pp.
+                                                                          space optical programs at Lincoln Laboratory. For the USENIX
+          11–19.
+                                                                          Large Installation System Administration Conference, he served
+      22. O. Goldreich, S. Micali, and A. Wigderson, “How to Play Any
+                                                                          on the program committee and was the chairperson for invited
+          Mental Game or A Completeness Theorem for Protocols
+                                                                          talks. He holds a bachelor’s degree in computer network and
+          with Honest Majority,” Proceedings of the 19th Annual ACM
+                                                                          information systems from Wentworth Institute of Technology and
+          Symposium on Theory of Computing, 1987, pp. 218–229.
+                                                                          a master’s degree in system and network administration from the
+      23. A.C. Yao, “How to Generate and Exchange Secrets,”
+                                                                          Rochester Institute of Technology. His graduate project focused on
+          Proceedings of the 27th Annual Symposium on Foundations
+                                                                          the safe use of containers on bastion hosts for remote access to
+          of Computer Science, 1986, pp. 162–167.
+                                                                          sensitive networks.
+      24. P. Bogetoft, D.L. Christensen, I. Damgård, M. Geisler,
+          T.P. Jakobsen, M. Krøigaard, J.D. Nielsen, J.B. Nielsen,
+          K. Nielsen, J. Pagter, M. Schwartzbach, and T. Toft,
+          “Secure Multiparty Computation Goes Live,” in Financial
+          Cryptography and Data Security. Berlin, Heidelberg:
+          Springer-Verlag, 2009, pp. 325–343.
+      25. D. Bogdanov, L. Kamm, S. Laur, and V. Sokk, “Rmind:
+          A Tool for Cryptographically Secure Statistical Analysis,”
+          International Association for Cryptologic Research,
+          Cryptology ePrint Archive no. 2014-25525, 2014.
+
+
+
+
+134   LINCOLN LABORATORY JOURNAL n VOLUME 22, NUMBER 1, 2016
+                                              NABIL A. SCHEAR, PATRICK T. CABLE, ROBERT K. CUNNINGHAM, VIJAY N. GADEPALLY,
+
+                                                                                THOMAS M. MOYER, AND ARKADY B. YERUKHIMOVICH
+
+
+
+
+                           Robert K. Cunningham is the leader                                     Thomas M. Moyer is a member of the
+                           of the Secure Resilient Systems and                                    technical staff in the Secure Resilient
+                           Technology Group. He is responsible for                                Systems and Technology Group. His
+                           initiating and managing research and devel-                            current research addresses the devel-
+                           opment programs in information assurance                               opment of secure infrastructures for
+                           and computer and platform security. His                                cyber systems through the application
+                           early research at Lincoln Laboratory                                   of trusted computing technologies and
+                           focused on machine learning, digital                                   secure data provenance. Prior to joining
+image processing, and image and video understanding. As part of          Lincoln Laboratory in 2011, he worked as a research assistant at
+this effort, he contributed to early drafts of the real-time message     the Pennsylvania State University, investigating problems in cyber
+passing interface (MPI/RT) specification. Later, as a member of          security, including secure cloud computing infrastructures and
+the technical staff in the Information Systems Technology Group, he      storage security. He holds a bachelor’s degree in computer engi-
+pursued system security research and development, initially inves-       neering and master’s and doctoral degrees in computer science
+tigating intrusion-detection systems that do not require advance         and engineering, all from the Pennsylvania State University. His
+knowledge of the method of attack, then moving on to consider            graduate research focused on high-integrity web applications using
+detection and analysis of malicious software. He has patented secu-      commodity trusted hardware.
+rity-related technology, presented and published widely, and served
+as general chair or program chair for many conferences and work-
+                                                                                                 Arkady B. Yerukhimovich is a member
+shops. He has also served on several national panels, such as the
+                                                                                                 of the technical staff in the Secure Resilient
+U.S. Army Cyber Materiel Development Strategy Review Panel, and
+                                                                                                 Systems and Technology Group. His
+led national teams, such as the National Security Agency’s working
+                                                                                                 research interests include theoretical
+group for computer network defense research and technology tran-
+                                                                                                 cryptography and the application of cryp-
+sition. He holds a bachelor’s degree in computer engineering from
+                                                                                                 tography to securing real-world systems
+Brown University, a master’s degree in electrical engineering from
+                                                                                                 and applications. His current projects at
+Boston University, and a doctorate in cognitive and neural systems
+                                                                                                 Lincoln Laboratory involve developing
+from Boston University.
+                                                                         cryptographic techniques for securing data and processing in large
+                                                                         netcentric systems. He holds a bachelor’s degree in computer
+                          Vijay N. Gadepally is a member of the          science from Brown University and master’s and doctoral degrees
+                          technical staff in the Secure Resilient        in computer science from the University of Maryland. His graduate
+                          Systems and Technology Group and a             research focused on understanding the limitations of standard
+                          researcher at the MIT Computer Science         cryptographic techniques and assumptions.
+                          and Artificial Intelligence Laboratory.
+                          His research is focused on big data and
+                          the Internet of Things systems, machine
+                          learning, high-performance computing,
+advanced database technologies, and pattern recognition. Prior
+to joining Lincoln Laboratory in 2013, he worked as a postgrad-
+uate intern with the Raytheon Company, a visiting scholar with
+the Rensselaer Polytechnic Institute, and a student intern with
+the Indian Institute of Technology. He holds a bachelor’s degree
+in electrical engineering from the Indian Institute of Technology
+in Kanpur, and master’s and doctoral degrees in electrical and
+computer engineering from The Ohio State University. His doctoral
+dissertation on signal processing focused on developing mathemat-
+ical models to accurately estimate and predict driver behavior for
+autonomous vehicle applications.
+
+
+
+
+                                                                                VOLUME 22, NUMBER 1, 2016 n LINCOLN LABORATORY JOURNAL            135
+
