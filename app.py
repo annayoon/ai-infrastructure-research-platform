@@ -21,8 +21,45 @@ st.title("AI Infrastructure Research Portal")
 st.header("Source Index")
 
 try:
+
     df = pd.read_csv("metadata/source_index.csv")
-    st.dataframe(df)
+
+    # URL 컬럼 없으면 생성
+    if "url" not in df.columns:
+        df["url"] = ""
+
+    # 보기 좋은 컬럼만
+    display_cols = []
+
+    for c in [
+        "readable_title",
+        "organization",
+        "category",
+        "url"
+    ]:
+        if c in df.columns:
+            display_cols.append(c)
+
+    display_df = df[display_cols]
+
+    st.dataframe(display_df)
+
+    st.subheader("Open Source Documents")
+
+    for idx, row in df.iterrows():
+
+        title = row.get(
+            "readable_title",
+            row.get("title", "document")
+        )
+
+        url = row.get("url", "")
+
+        if isinstance(url, str) and url.startswith("http"):
+
+            st.markdown(
+                f"- [{title}]({url})"
+            )
 
 except Exception as e:
     st.error(e)
