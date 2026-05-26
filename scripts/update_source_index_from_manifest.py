@@ -47,6 +47,7 @@ def main():
         "added_at",
         "update_batch",
         "is_new",
+        "is_latest_update",
     ]
 
     for col in required_cols:
@@ -55,7 +56,8 @@ def main():
 
     if not source.empty:
         source["is_new"] = "no"
-
+        source["is_latest_update"] = "no"
+        
     existing_keys = set()
 
     if not source.empty:
@@ -94,8 +96,8 @@ def main():
             "added_at": today,
             "update_batch": update_batch,
             "is_new": is_new,
-        })
-
+            "is_latest_update":"yes",
+        })    
     new_df = pd.DataFrame(new_rows, columns=required_cols)
 
     existing_added_at = {}
