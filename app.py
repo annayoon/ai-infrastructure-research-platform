@@ -1,5 +1,6 @@
-import os
 from pathlib import Path
+from datetime import datetime
+import re
 
 import pandas as pd
 import streamlit as st
@@ -45,11 +46,10 @@ st.markdown(
         font-size: 0.9rem;
     }
 
-    .metric-card {
-        padding: 1rem;
-        border-radius: 0.75rem;
-        background-color: #161b22;
-        border: 1px solid #30363d;
+    .status-caption {
+        color: #9ca3af;
+        font-size: 0.85rem;
+        line-height: 1.5;
     }
     </style>
     """,
@@ -63,8 +63,7 @@ st.markdown(
 
 def normalize_empty(value):
     """
-    Convert NaN, None, 'None', 'nan' values to empty string.
-    This prevents the UI from showing ugly 'None' text.
+    Convert NaN, None, 'None', 'nan', 'null' values to empty string.
     """
     if pd.isna(value):
         return ""
@@ -80,7 +79,6 @@ def normalize_empty(value):
 def load_source_index():
     """
     Load metadata/source_index.csv safely.
-    If the file does not exist, return an empty DataFrame.
     """
     if not SOURCE_INDEX_PATH.exists():
         return pd.DataFrame()
@@ -91,28 +89,31 @@ def load_source_index():
         st.error(f"Failed to read source index: {e}")
         return pd.DataFrame()
 
-    # Normalize column names
     df.columns = [str(col).strip() for col in df.columns]
 
-    # Ensure expected columns exist
     expected_columns = [
+        "source_id",
         "title",
+        "domain",
+        "country",
         "category",
-        "source",
-        "publisher",
-        "url",
+        "subcategory",
+        "file_type",
         "file_path",
-        "local_path",
-        "query",
-        "date",
-        "notes",
+        "url",
+        "summary",
+        "keywords",
+        "insights",
+        "added_at",
+        "update_batch",
+        "is_new",
+        "is_latest_update",
     ]
 
     for col in expected_columns:
         if col not in df.columns:
             df[col] = ""
 
-    # Clean empty-looking values
     for col in df.columns:
         df[col] = df[col].apply(normalize_empty)
 
@@ -196,27 +197,17 @@ def search_corpus(keyword, max_results=100):
     return matches
 
 
-def resolve_local_file_path(row):
-    """
-    Resolve local file path from source index row.
-    Supports file_path and local_path.
-    """
-    for col in ["local_path", "file_path"]:
-        value = row.get(col, "")
-        value = normalize_empty(value)
+def to_yes_no(value):
+    value = normalize_empty(value).lower()
+    if value in ["yes", "true", "1", "y"]:
+        return "yes"
+    return "no"
 
-        if not value:
-            continue
 
-        candidate = Path(value)
-
-        if not candidate.is_absolute():
-            candidate = BASE_DIR / candidate
-
-        if candidate.exists():
-            return candidate
-
-    return None
+def clean_keyword_text(text):
+    text = normalize_empty(text)
+    text = re.sub(r"\s+", " ", text)
+    return text
 
 
 # =========================================================
@@ -229,7 +220,8 @@ st.markdown(
     """
     <div class="small-caption">
     Research portal for AI infrastructure, data center, power generation,
-    advanced technology campus, Alaska market validation, and public-source evidence tracking.
+    advanced technology campus, Alaska market validation, Arctic connectivity,
+    cooling advantage, and public-source evidence tracking.
     </div>
     """,
     unsafe_allow_html=True,
@@ -287,28 +279,67 @@ if page == "Overview":
         url_count = source_df["url"].astype(str).str.strip().ne("").sum()
         category_count = source_df["category"].astype(str).str.strip().ne("").sum()
         corpus_count = len(list_corpus_files())
+
+        new_count = source_df["is_new"].astype(str).str.lower().eq("yes").sum()
+        latest_update_count = source_df["is_latest_update"].astype(str).str.lower().eq("yes").sum()
     else:
         url_count = 0
         category_count = 0
         corpus_count = len(list_corpus_files())
+        new_count = 0
+        latest_update_count = 0
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
 
     col1.metric("Sources", total_sources)
     col2.metric("Original URLs", int(url_count))
     col3.metric("Categorized Rows", int(category_count))
-    col4.metric("Corpus Files", corpus_count)
+    col4.metric("New Sources", int(new_count))
+    col5.metric("Latest Updated", int(latest_update_count))
+    col6.metric("Corpus Files", corpus_count)
 
     st.subheader("Recommended Workflow")
 
     st.markdown(
         """
         1. Use **Source Index** to check collected sources and open original URLs.
-        2. Use **Corpus Search** to find evidence paragraphs inside collected text.
-        3. Use **File Preview** to inspect downloaded or extracted local files.
-        4. Use **Data Health Check** to identify missing URLs, missing titles, or incomplete metadata.
+        2. Use **Only rows with URL** when selecting evidence for formal reports.
+        3. Use **Only latest update** to review sources processed in the most recent update batch.
+        4. Use **Corpus Search** to find supporting paragraphs inside extracted local text files.
+        5. Use **Data Health Check** to identify missing URLs, missing titles, or incomplete metadata.
         """
     )
+
+    st.subheader("Data Load Status")
+
+    if SOURCE_INDEX_PATH.exists():
+        modified_time = datetime.fromtimestamp(SOURCE_INDEX_PATH.stat().st_mtime)
+        st.caption(f"Source index path: {SOURCE_INDEX_PATH}")
+        st.caption(f"Source index last modified: {modified_time}")
+        st.caption(f"Loaded source_index rows: {len(source_df)}")
+
+        if "url" in source_df.columns:
+            loaded_url_count = source_df["url"].astype(str).str.strip().ne("").sum()
+            st.caption(f"Loaded source_index URLs: {loaded_url_count}")
+    else:
+        st.warning("metadata/source_index.csv was not found.")
+
+    if not source_df.empty:
+        st.subheader("Category Snapshot")
+
+        category_counts = (
+            source_df["category"]
+            .replace("", "uncategorized")
+            .value_counts()
+            .reset_index()
+        )
+        category_counts.columns = ["Category", "Count"]
+
+        st.dataframe(
+            category_counts,
+            use_container_width=True,
+            hide_index=True,
+        )
 
     if source_df.empty:
         st.warning(
@@ -329,11 +360,11 @@ elif page == "Source Index":
         st.stop()
 
     st.caption(
-        "Collected source metadata. The Original Source column opens the source URL when available."
+        "Collected source metadata. Use the Original Source column to open source URLs when available."
     )
 
     # Filters
-    filter_col1, filter_col2, filter_col3 = st.columns([1, 1, 2])
+    filter_col1, filter_col2, filter_col3, filter_col4, filter_col5 = st.columns([1, 1, 1, 1, 2])
 
     categories = sorted(
         [
@@ -350,9 +381,13 @@ elif page == "Source Index":
 
     only_with_url = filter_col2.checkbox("Only rows with URL", value=False)
 
-    keyword = filter_col3.text_input(
+    only_new = filter_col3.checkbox("Only new sources", value=False)
+
+    only_latest_update = filter_col4.checkbox("Only latest update", value=False)
+
+    keyword = filter_col5.text_input(
         "Keyword filter",
-        placeholder="Search title, source, publisher, category, notes...",
+        placeholder="Search title, domain, category, summary, keywords, insights...",
     )
 
     view_df = source_df.copy()
@@ -363,21 +398,33 @@ elif page == "Source Index":
     if only_with_url:
         view_df = view_df[view_df["url"].astype(str).str.strip().ne("")]
 
+    if only_new and "is_new" in view_df.columns:
+        view_df = view_df[view_df["is_new"].astype(str).str.lower().eq("yes")]
+
+    if only_latest_update and "is_latest_update" in view_df.columns:
+        view_df = view_df[view_df["is_latest_update"].astype(str).str.lower().eq("yes")]
+
     if keyword.strip():
         keyword_lower = keyword.strip().lower()
 
         searchable_cols = [
             col
             for col in [
+                "source_id",
                 "title",
+                "domain",
+                "country",
                 "category",
-                "source",
-                "publisher",
+                "subcategory",
                 "url",
-                "query",
-                "notes",
+                "summary",
+                "keywords",
+                "insights",
                 "file_path",
-                "local_path",
+                "added_at",
+                "update_batch",
+                "is_new",
+                "is_latest_update",
             ]
             if col in view_df.columns
         ]
@@ -392,39 +439,46 @@ elif page == "Source Index":
     st.write(f"Showing **{len(view_df)}** of **{len(source_df)}** rows.")
 
     preferred_columns = [
-    "source_id",
-    "title",
-    "domain",
-    "country",
-    "category",
-    "subcategory",
-    "file_type",
-    "url",
-    "file_path",
-    "summary",
-    "keywords",
-    "insights",
+        "source_id",
+        "title",
+        "domain",
+        "country",
+        "category",
+        "subcategory",
+        "file_type",
+        "url",
+        "file_path",
+        "added_at",
+        "update_batch",
+        "is_new",
+        "is_latest_update",
+        "summary",
+        "keywords",
+        "insights",
     ]
 
     display_columns = get_available_columns(view_df, preferred_columns)
 
     display_df = view_df[display_columns].copy()
 
-    # Rename only for display clarity
     display_df = display_df.rename(
         columns={
-        "source_id": "Source ID",
-        "title": "Title",
-        "domain": "Domain",
-        "country": "Country",
-        "category": "Category",
-        "subcategory": "Subcategory",
-        "file_type": "File Type",
-        "url": "Original Source",
-        "file_path": "File Path",
-        "summary": "Summary",
-        "keywords": "Keywords",
-        "insights": "Insights",
+            "source_id": "Source ID",
+            "title": "Title",
+            "domain": "Domain",
+            "country": "Country",
+            "category": "Category",
+            "subcategory": "Subcategory",
+            "file_type": "File Type",
+            "url": "Original Source",
+            "file_path": "File Path",
+            "added_at": "Added At",
+            "update_batch": "Update Batch",
+            "is_new": "New",
+            "is_latest_update": "Latest Update",
+            "summary": "Summary",
+            "keywords": "Keywords",
+            "insights": "Insights",
         }
     )
 
@@ -448,6 +502,24 @@ elif page == "Source Index":
             "Category",
             width="small",
         )
+
+    if "Summary" in display_df.columns:
+        column_config["Summary"] = st.column_config.TextColumn(
+            "Summary",
+            width="large",
+        )
+
+    if "Insights" in display_df.columns:
+        column_config["Insights"] = st.column_config.TextColumn(
+            "Insights",
+            width="large",
+        )
+
+    if "New" in display_df.columns:
+        column_config["New"] = st.column_config.TextColumn("New", width="small")
+
+    if "Latest Update" in display_df.columns:
+        column_config["Latest Update"] = st.column_config.TextColumn("Latest Update", width="small")
 
     st.dataframe(
         display_df,
@@ -478,7 +550,7 @@ elif page == "Corpus Search":
 
     keyword = st.text_input(
         "Search keyword",
-        placeholder="Example: Alaska power generation, data center, fiber, AI infrastructure...",
+        placeholder="Example: Alaska power generation, cold climate cooling, Arctic fiber, data center electricity demand...",
     )
 
     max_results = st.slider(
@@ -590,12 +662,33 @@ elif page == "Data Health Check":
     missing_title = source_df["title"].astype(str).str.strip().eq("").sum()
     missing_category = source_df["category"].astype(str).str.strip().eq("").sum()
 
-    col1, col2, col3, col4 = st.columns(4)
+    new_count = source_df["is_new"].astype(str).str.lower().eq("yes").sum()
+    latest_update_count = source_df["is_latest_update"].astype(str).str.lower().eq("yes").sum()
+
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     col1.metric("Total Rows", total_rows)
     col2.metric("Missing URLs", int(missing_url))
     col3.metric("Missing Titles", int(missing_title))
     col4.metric("Missing Categories", int(missing_category))
+    col5.metric("Latest Updated", int(latest_update_count))
+
+    st.subheader("Update Batch Summary")
+
+    if "update_batch" in source_df.columns:
+        batch_df = (
+            source_df["update_batch"]
+            .replace("", "unknown")
+            .value_counts()
+            .reset_index()
+        )
+        batch_df.columns = ["Update Batch", "Count"]
+
+        st.dataframe(
+            batch_df,
+            use_container_width=True,
+            hide_index=True,
+        )
 
     st.subheader("Rows Missing Original URL")
 
@@ -607,26 +700,34 @@ elif page == "Data Health Check":
         health_columns = get_available_columns(
             missing_url_df,
             [
+                "source_id",
                 "title",
+                "domain",
+                "country",
                 "category",
-                "source",
-                "publisher",
-                "query",
+                "subcategory",
                 "file_path",
-                "local_path",
-                "notes",
+                "added_at",
+                "update_batch",
+                "is_new",
+                "is_latest_update",
+                "summary",
+                "keywords",
+                "insights",
             ],
         )
 
+        health_display_df = missing_url_df[health_columns].copy()
+
         st.dataframe(
-            missing_url_df[health_columns],
+            health_display_df,
             use_container_width=True,
             hide_index=True,
         )
 
         st.download_button(
             label="Download rows missing URLs",
-            data=missing_url_df[health_columns].to_csv(index=False).encode("utf-8-sig"),
+            data=health_display_df.to_csv(index=False).encode("utf-8-sig"),
             file_name="rows_missing_urls.csv",
             mime="text/csv",
         )
