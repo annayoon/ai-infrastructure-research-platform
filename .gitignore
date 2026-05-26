@@ -11,3 +11,4 @@ metadata/*.backup.csv
 *.docx
 *.docx
 *.docx
+*.backup.py
