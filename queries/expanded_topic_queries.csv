@@ -38,3 +38,44 @@ liquid_cooling,US,"direct to chip cooling GPU data center",medium
 workload_positioning,US,"AI training workload data center location power latency",high
 workload_positioning,US,"batch AI compute infrastructure data center",medium
 workload_positioning,US,"AI training vs inference data center requirements",medium
+category,country,query,priority
+asia_direct_service,US-Alaska,"Alaska data center direct service Asia latency",high
+asia_direct_service,US-Alaska,"Alaska Japan Korea data center latency",high
+asia_direct_service,US-Alaska,"transpacific subsea cable latency Alaska Asia",high
+asia_direct_service,Global,"AI training workload latency tolerance data center",medium
+asia_direct_service,Global,"batch AI compute data center location latency",medium
+latency_workload_fit,Global,"AI training vs inference latency data center",high
+latency_workload_fit,Global,"latency sensitive workloads data center location",high
+latency_workload_fit,Global,"edge data center low latency manufacturing robotics",medium
+latency_workload_fit,Global,"industrial IoT data center latency requirements",medium
+asia_enterprise_na_expansion,Korea,"Korean manufacturers North America expansion cloud data center",high
+asia_enterprise_na_expansion,Japan,"Japanese manufacturers North America data center cloud infrastructure",medium
+asia_enterprise_na_expansion,Taiwan,"Taiwan semiconductor North America data center infrastructure",medium
+manufacturing_data_workload,Global,"manufacturing sensor data analytics cloud data center",high
+manufacturing_data_workload,Global,"industrial IoT data storage analytics data center",medium
+manufacturing_data_workload,Global,"manufacturing quality data AI analytics cloud",medium
+hyperscaler_partnership,US,"hyperscale data center site selection power availability",high
+hyperscaler_partnership,US,"AI data center power purchase agreement hyperscaler",high
+hyperscaler_partnership,US,"behind the meter data center power hyperscale",high
+hyperscaler_partnership,US,"GPU cloud provider data center power infrastructure",high
+hyperscaler_partnership,US,"hyperscaler renewable energy procurement data center",medium
+subsea_telecom_partnership,Arctic,"Arctic subsea cable investment data center",high
+subsea_telecom_partnership,Arctic,"subsea cable consortium hyperscaler telecom",high
+subsea_telecom_partnership,US-Alaska,"transpacific fiber route Alaska data center",high
+subsea_telecom_partnership,Global,"subsea cable route diversity cloud infrastructure",medium
+subsea_telecom_partnership,Global,"subsea cable landing station regulation national security",medium
+cloud_interconnect,Global,"data center direct cloud connection latency cost",medium
+cloud_interconnect,Global,"AWS Direct Connect data center colocation",medium
+cloud_interconnect,Global,"Azure ExpressRoute data center colocation",medium
+cloud_interconnect,Global,"Google Cloud Interconnect data center colocation",medium
+offtake_financing,Global,"data center anchor tenant take or pay agreement",high
+offtake_financing,Global,"hyperscale data center long term lease power agreement",high
+offtake_financing,Global,"data center power purchase agreement financing",medium
+regulatory_security,US,"Team Telecom subsea cable national security agreement",high
+regulatory_security,Global,"subsea cable security data sovereignty cloud",medium
+regulatory_security,Asia,"Asia data center data sovereignty regulation cloud",medium
+apac_customer_target,Korea,"Naver Cloud GPU AI infrastructure data center",medium
+apac_customer_target,Korea,"KT Cloud AI data center GPU infrastructure",medium
+apac_customer_target,Japan,"Sakura Internet GPU cloud data center Japan",medium
+apac_customer_target,Japan,"SoftBank AI data center GPU infrastructure",medium
+apac_customer_target,Taiwan,"Taiwan semiconductor AI server data center demand",medium
