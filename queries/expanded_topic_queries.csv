@@ -79,3 +79,28 @@ apac_customer_target,Korea,"KT Cloud AI data center GPU infrastructure",medium
 apac_customer_target,Japan,"Sakura Internet GPU cloud data center Japan",medium
 apac_customer_target,Japan,"SoftBank AI data center GPU infrastructure",medium
 apac_customer_target,Taiwan,"Taiwan semiconductor AI server data center demand",medium
+category,country,query,priority
+korea_customer_benefit,Korea,"Korean customers benefits Alaska data center AI infrastructure",high
+korea_ai_demand,Korea,"Korea AI infrastructure GPU cloud data center demand",high
+korea_ai_demand,Korea,"NVIDIA South Korea AI infrastructure GPU",high
+korea_ai_demand,Korea,"Korea sovereign AI infrastructure data center",high
+korea_gpu_cloud,Korea,"Naver Cloud GPU infrastructure data center",medium
+korea_gpu_cloud,Korea,"KT Cloud GPU cloud data center",medium
+korea_gpu_cloud,Korea,"NHN Cloud GPU AI infrastructure",medium
+korea_data_center_constraints,Korea,"South Korea data center power constraints Seoul",high
+korea_data_center_constraints,Korea,"Korea data center power shortage AI",high
+korea_data_center_constraints,Korea,"Korea data center market Seoul concentration",medium
+korea_energy_cost,Korea,"Korea data center electricity cost AI infrastructure",medium
+korea_energy_cost,Korea,"Korea data center cooling cost GPU AI",medium
+korea_manufacturing_na_expansion,Korea,"Korean manufacturers North America expansion data infrastructure",high
+korea_manufacturing_na_expansion,Korea,"Samsung US semiconductor plant data infrastructure",medium
+korea_manufacturing_na_expansion,Korea,"Hyundai US EV plant manufacturing data analytics",medium
+korea_manufacturing_na_expansion,Korea,"LG Energy Solution US battery plant data center",medium
+korea_manufacturing_na_expansion,Korea,"SK On US battery manufacturing data analytics",medium
+korea_semiconductor_ai,Korea,"Korean semiconductor AI infrastructure data center demand",high
+korea_semiconductor_ai,Korea,"Samsung SK Hynix AI memory data center demand",high
+korea_dr_backup,Korea,"Korea enterprise disaster recovery cloud data center",medium
+korea_dr_backup,Korea,"geo redundant data center disaster recovery Asia US",medium
+korea_latency_fit,Korea,"AI training workload latency tolerance Korea data center",medium
+korea_latency_fit,Korea,"Korea AI training vs inference data center latency",medium
+korea_latency_fit,Korea,"batch AI compute data center location Korea",medium
