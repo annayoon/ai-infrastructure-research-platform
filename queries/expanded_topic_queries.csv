@@ -104,3 +104,21 @@ korea_dr_backup,Korea,"geo redundant data center disaster recovery Asia US",medi
 korea_latency_fit,Korea,"AI training workload latency tolerance Korea data center",medium
 korea_latency_fit,Korea,"Korea AI training vs inference data center latency",medium
 korea_latency_fit,Korea,"batch AI compute data center location Korea",medium
+category,country,query,priority
+korea_public_customer,Korea,"Korean public enterprises AI data center infrastructure",high
+korea_public_ai,Korea,"NIA Korea public AI infrastructure data cloud",high
+korea_public_ai,Korea,"Korea AI Hub public AI data infrastructure",high
+korea_public_dr,Korea,"Korea government data center disaster recovery backup",high
+korea_public_dr,Korea,"National Information Resources Service Korea data center disaster recovery",high
+korea_public_energy,Korea,"KEPCO AI grid data center power demand",high
+korea_public_energy,Korea,"Korea Hydro Nuclear Power AI data center SMR",medium
+korea_public_energy,Korea,"Korea public power companies data center PPA AI infrastructure",medium
+korea_energy_investment,Korea,"KOGAS Alaska LNG investment Korea data center power",medium
+korea_public_security,Korea,"KISA cloud security data center Korea",medium
+korea_public_security,Korea,"Korea public cloud security certification data center",medium
+korea_public_infra_data,Korea,"Korea public infrastructure data AI cloud disaster recovery",medium
+korea_public_infra_data,Korea,"K-water AI data platform cloud infrastructure",medium
+korea_public_industrial,Korea,"Korea Industrial Complex digital transformation data infrastructure",medium
+korea_public_trade,Korea,"KOTRA North America Korean companies digital infrastructure",medium
+korea_public_finance,Korea,"KEXIM overseas infrastructure project financing data center",medium
+korea_public_finance,Korea,"K-SURE overseas infrastructure investment insurance data center",medium
