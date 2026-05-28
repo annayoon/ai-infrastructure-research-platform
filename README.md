@@ -250,19 +250,52 @@ URL 다운로드 결과를 기록합니다.
 
 ---
 
-## 7. 로컬 실행 방법 / Local Run
+## 7. 실행 및 배포 방식 / Run and Deployment Modes
+
+이 포털은 다음 세 가지 방식으로 운영됩니다.
+
+This portal is operated in three different modes.
+
+### 7.1 Local Run / 로컬 실행
+
+로컬 실행은 개발, 기능 확인, 데이터 반영 전 테스트를 위한 용도입니다.
+
+Local run is used for development, feature testing, and validating data updates before deployment.
 
 ```bash
 cd ~/alaska_aidc_research
 source .venv/bin/activate
 streamlit run app.py
-```
 
-Open:
+브라우저에서 다음 주소로 접속합니다.
 
-```text
+Open the following URL in your browser.
+
 http://localhost:8501
-```
+
+로컬 실행은 사용자의 PC에서 실행되므로, PC가 꺼지거나 Streamlit 프로세스가 종료되면 접속할 수 없습니다.
+
+Local run depends on the user’s machine. If the PC is turned off or the Streamlit process stops, the local portal will no longer be accessible.
+
+**### Render Web Deployment / Render 웹 배포**
+
+전사 공유용 포털은 Render에 배포된 웹 서비스를 사용합니다.
+
+The company-wide shared portal is deployed as a Render web service.
+
+https://ai-infrastructure-research-platform.onrender.com/
+
+Render 배포본은 로컬 PC가 꺼져도 접속할 수 있습니다.
+단, Render Free 인스턴스의 경우 일정 시간 사용이 없으면 sleep 상태가 될 수 있으며, 첫 접속 시 로딩이 지연될 수 있습니다.
+
+The Render-deployed portal remains accessible even when the local PC is turned off.
+However, if the service runs on a Render Free instance, it may sleep after inactivity, which can cause a delay on the first request.
+
+Render는 main 브랜치를 기준으로 배포됩니다.
+따라서 포털에 변경사항을 반영하려면 로컬에서 작업한 뒤 main 브랜치에 merge/push해야 합니다.
+
+Render deploys from the main branch.
+To update the live portal, changes must be merged and pushed to the main branch.
 
 ---
 
