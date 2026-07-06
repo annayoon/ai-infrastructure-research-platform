@@ -1,0 +1,28 @@
+# /etc/systemd/system/research-portal.service
+#
+# Install:
+#   sudo cp deploy/research-portal.service /etc/systemd/system/research-portal.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now research-portal
+#
+# Logs:
+#   sudo journalctl -u research-portal -f
+#
+# Replace <SERVER_USER> and /opt/ai-infrastructure-research-platform below
+# with the actual service account and install path on the server.
+
+[Unit]
+Description=AI Infrastructure Research Portal (Streamlit)
+After=network.target
+
+[Service]
+Type=simple
+User=<SERVER_USER>
+WorkingDirectory=/opt/ai-infrastructure-research-platform
+Environment="PATH=/opt/ai-infrastructure-research-platform/.venv/bin"
+ExecStart=/opt/ai-infrastructure-research-platform/.venv/bin/streamlit run app.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

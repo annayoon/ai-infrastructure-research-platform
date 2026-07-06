@@ -20,7 +20,7 @@
 - 보고서 작성용 Evidence Matrix 기반 근거 관리
 - Original Source URL 기반 원문 확인
 
-현재 포털은 Streamlit 기반으로 구현되어 있으며, Render를 통해 웹 서비스로 배포됩니다.
+현재 포털은 Streamlit 기반으로 구현되어 있으며, 회사 서버에 상시 구동되는 웹 서비스로 배포됩니다.
 
 ### English
 
@@ -35,7 +35,7 @@ The portal collects, classifies, and organizes public-source research materials 
 - Evidence Matrix-based report writing
 - Original source URL tracking
 
-The portal is built with Streamlit and deployed as a web service on Render.
+The portal is built with Streamlit and deployed as an always-on web service on the company server.
 
 ---
 
@@ -277,25 +277,111 @@ http://localhost:8501
 
 Local run depends on the user’s machine. If the PC is turned off or the Streamlit process stops, the local portal will no longer be accessible.
 
-**### Render Web Deployment / Render 웹 배포**
+### 7.2 Company Server Deployment / 회사 서버 배포
 
-전사 공유용 포털은 Render에 배포된 웹 서비스를 사용합니다.
+전사 공유용 포털은 회사 Linux 서버에서 systemd 서비스로 상시 구동되며,
+서버에 이미 운영 중인 nginx에 경로(`/research-portal/`)를 추가하는 방식으로
+외부에서 접속할 수 있게 합니다. 별도 도메인이나 신규 방화벽 포트 오픈은 필요하지 않습니다.
 
-The company-wide shared portal is deployed as a Render web service.
+The company-wide shared portal runs as an always-on systemd service on a
+company Linux server, exposed externally by adding a path
+(`/research-portal/`) to the nginx instance already running on that server.
+No dedicated domain or new firewall port is required.
+
+**최초 설치 / Initial setup (on the server, via SSH):**
+
+```bash
+sudo mkdir -p /opt/ai-infrastructure-research-platform
+sudo chown $USER /opt/ai-infrastructure-research-platform
+git clone https://github.com/annayoon/ai-infrastructure-research-platform /opt/ai-infrastructure-research-platform
+cd /opt/ai-infrastructure-research-platform
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+`.streamlit/config.toml`은 저장소에 이미 포함되어 있으며, 포트(8501)와
+`baseUrlPath`(`research-portal`)를 nginx 경로와 맞춰 설정합니다.
+
+`.streamlit/config.toml` is already committed to the repo and configures the
+port (8501) and `baseUrlPath` (`research-portal`) to match the nginx path.
+
+**systemd 서비스 등록 / Register the systemd service:**
+
+```bash
+# deploy/research-portal.service의 <SERVER_USER>와 설치 경로를 먼저 확인/수정
+sudo cp deploy/research-portal.service /etc/systemd/system/research-portal.service
+sudo systemctl daemon-reload
+sudo systemctl enable --now research-portal
+sudo systemctl status research-portal
+```
+
+서버가 재부팅되거나 프로세스가 죽어도 자동으로 재시작됩니다.
+
+The service restarts automatically on crash or server reboot.
+
+**nginx 경로 추가 / Add the nginx location:**
+
+`deploy/nginx-research-portal.conf.example` 내용을 서버에서 이미 운영 중인
+nginx `server { ... }` 블록 안에 추가한 뒤 반영합니다.
+
+Add the contents of `deploy/nginx-research-portal.conf.example` inside the
+existing nginx `server { ... }` block on the server, then apply it.
+
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+접속 주소 / Access URL:
+
+```text
+http://<서버 IP 또는 기존 도메인>/research-portal/
+```
+
+**데이터 동기화 / Data sync:**
+
+`downloads/`, `corpus_text/`, `vector_db/`는 `.gitignore`에 포함되어 있어
+git push로는 서버에 반영되지 않습니다. 로컬에서 `daily_update.sh` 실행 후
+`deploy/sync_data.sh`로 서버에 동기화합니다 (스크립트 내 `SERVER_HOST`,
+`SERVER_PATH`를 먼저 수정하세요).
+
+`downloads/`, `corpus_text/`, and `vector_db/` are gitignored, so `git push`
+alone will not update them on the server. After running `daily_update.sh`
+locally, sync them with `deploy/sync_data.sh` (edit `SERVER_HOST` and
+`SERVER_PATH` in the script first).
+
+```bash
+./deploy/sync_data.sh
+```
+
+**업데이트 반영 / Deploying code updates:**
+
+```bash
+ssh <user>@<server-ip>
+cd /opt/ai-infrastructure-research-platform
+git pull origin main
+source .venv/bin/activate
+pip install -r requirements.txt
+sudo systemctl restart research-portal
+```
+
+### 7.3 Render Web Deployment (legacy) / Render 웹 배포 (이전 방식)
+
+이전에는 Render에 배포된 웹 서비스를 사용했습니다. 회사 서버 배포로 전환한
+이후에는 필요 시에만 유지하며, 이 경우에도 두 배포본의 소스 데이터가
+어긋나지 않도록 주의합니다.
+
+The portal was previously deployed as a Render web service. After moving to
+the company server, keep the Render deployment only if still needed, and
+take care to avoid divergence between the two deployments' source data.
 
 https://ai-infrastructure-research-platform.onrender.com/
 
-Render 배포본은 로컬 PC가 꺼져도 접속할 수 있습니다.
-단, Render Free 인스턴스의 경우 일정 시간 사용이 없으면 sleep 상태가 될 수 있으며, 첫 접속 시 로딩이 지연될 수 있습니다.
-
-The Render-deployed portal remains accessible even when the local PC is turned off.
-However, if the service runs on a Render Free instance, it may sleep after inactivity, which can cause a delay on the first request.
-
 Render는 main 브랜치를 기준으로 배포됩니다.
-따라서 포털에 변경사항을 반영하려면 로컬에서 작업한 뒤 main 브랜치에 merge/push해야 합니다.
 
 Render deploys from the main branch.
-To update the live portal, changes must be merged and pushed to the main branch.
 
 ---
 
@@ -369,7 +455,7 @@ git push origin main
 
 ---
 
-## 10. Render 배포 / Render Deployment
+## 10. Render 배포 (이전 방식) / Render Deployment (legacy)
 
 Render는 `main` 브랜치 기준으로 자동 배포됩니다.
 
@@ -440,12 +526,12 @@ The portal currently supports:
 
 - 일부 자료는 자동 다운로드 시 `403`, `404`, `failed`가 발생할 수 있습니다.
 - `Original Source`가 있는 자료를 보고서 근거로 우선 활용하는 것을 권장합니다.
-- `downloads/`와 `corpus_text/`는 배포 환경에 포함되지 않을 수 있으므로 Render에서는 Source Index와 Original URL 중심으로 사용하는 것이 안정적입니다.
+- 회사 서버 배포 시에는 `deploy/sync_data.sh`로 `downloads/`와 `corpus_text/`를 함께 동기화하면 Corpus Search, File Preview 기능도 정상 동작합니다. (Render 등 `downloads/`, `corpus_text/`가 없는 환경에서는 Source Index와 Original URL 중심으로 사용하는 것이 안정적입니다.)
 - 포털은 실시간 검색 엔진이 아니라, 검토된 URL 기반 리서치 아카이브입니다.
 
 - Some sources may return `403`, `404`, or `failed` during automated download.
 - Sources with `Original Source` URLs should be prioritized for formal report evidence.
-- `downloads/` and `corpus_text/` may not be included in the deployment environment, so the Render version is best used as a source index and original URL portal.
+- On the company server deployment, sync `downloads/` and `corpus_text/` with `deploy/sync_data.sh` so Corpus Search and File Preview also work. (On environments without these directories, such as Render, the portal is best used as a source index and original URL portal.)
 - This portal is not a real-time search engine; it is a curated research archive based on reviewed URLs.
 
 ---
