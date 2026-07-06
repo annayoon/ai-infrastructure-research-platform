@@ -282,11 +282,19 @@ Local run depends on the user’s machine. If the PC is turned off or the Stream
 전사 공유용 포털은 회사 Linux 서버에서 systemd 서비스로 상시 구동되며,
 서버에 이미 운영 중인 nginx에 경로(`/research-portal/`)를 추가하는 방식으로
 외부에서 접속할 수 있게 합니다. 별도 도메인이나 신규 방화벽 포트 오픈은 필요하지 않습니다.
+(2026-07-06 기준 사내 서버로 이전 완료, 정상 운영 중.)
 
 The company-wide shared portal runs as an always-on systemd service on a
 company Linux server, exposed externally by adding a path
 (`/research-portal/`) to the nginx instance already running on that server.
 No dedicated domain or new firewall port is required.
+(Migrated to the company server and verified live as of 2026-07-06.)
+
+> 실제 서버 IP/SSH 접속 정보는 공개 저장소인 이 README에 기록하지 않습니다.
+> 사내 채널로 문의하세요.
+>
+> The actual server IP and SSH access details are intentionally not recorded
+> in this README, since this repository is public. Ask internally for access.
 
 **최초 설치 / Initial setup (on the server, via SSH):**
 
@@ -296,10 +304,18 @@ sudo chown $USER /opt/ai-infrastructure-research-platform
 git clone https://github.com/annayoon/ai-infrastructure-research-platform /opt/ai-infrastructure-research-platform
 cd /opt/ai-infrastructure-research-platform
 
-python3 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+> `requirements.txt`의 numpy/torch 등은 Python 3.11 이상이 필요합니다.
+> 서버 기본 `python3`가 3.10 미만이면 `dnf install -y python3.12` 등으로
+> 먼저 설치하세요.
+>
+> Packages in `requirements.txt` (numpy, torch, etc.) require Python 3.11+.
+> If the server's default `python3` is older, install a newer one first
+> (e.g. `dnf install -y python3.12` on RHEL/Rocky).
 
 `.streamlit/config.toml`은 저장소에 이미 포함되어 있으며, 포트(8501)와
 `baseUrlPath`(`research-portal`)를 nginx 경로와 맞춰 설정합니다.
