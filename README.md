@@ -383,17 +383,18 @@ pip install -r requirements.txt
 sudo systemctl restart research-portal
 ```
 
-### 7.3 Render Web Deployment (legacy) / Render 웹 배포 (이전 방식)
+### 7.3 Render Web Deployment (suspended) / Render 웹 배포 (중지됨)
 
-이전에는 Render에 배포된 웹 서비스를 사용했습니다. 회사 서버 배포로 전환한
-이후에는 필요 시에만 유지하며, 이 경우에도 두 배포본의 소스 데이터가
-어긋나지 않도록 주의합니다.
+이전에는 Render에 배포된 웹 서비스를 사용했으나, 회사 서버 배포로 전환 완료 후
+2026-07-06부로 Render 서비스를 Suspend 처리했습니다. 설정과 배포 이력은 남아있어
+필요 시 재개(Resume)하거나 완전 삭제할 수 있습니다.
 
-The portal was previously deployed as a Render web service. After moving to
-the company server, keep the Render deployment only if still needed, and
-take care to avoid divergence between the two deployments' source data.
+The portal was previously deployed as a Render web service. It was suspended
+on 2026-07-06 after the company server migration was completed and verified.
+Configuration and deploy history remain on Render, so it can be resumed or
+deleted later if needed.
 
-https://ai-infrastructure-research-platform.onrender.com/
+https://ai-infrastructure-research-platform.onrender.com/ (suspended)
 
 Render는 main 브랜치를 기준으로 배포됩니다.
 
@@ -471,7 +472,7 @@ git push origin main
 
 ---
 
-## 10. Render 배포 (이전 방식) / Render Deployment (legacy)
+## 10. Render 배포 (중지됨) / Render Deployment (suspended)
 
 Render는 `main` 브랜치 기준으로 자동 배포됩니다.
 
