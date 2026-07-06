@@ -1,12 +1,21 @@
 # Add this location block inside the EXISTING server { ... } block that
 # already answers on port 80/443 for this machine (find it under
-# /etc/nginx/sites-enabled/ or via `sudo nginx -T`). Do not create a new
-# server block — this reuses the existing one so no new firewall port
-# needs to be opened.
+# /etc/nginx/sites-enabled/ or /etc/nginx/conf.d/, or via `sudo nginx -T`).
+# Do not create a new server block — this reuses the existing one so no new
+# firewall port needs to be opened.
+#
+# IMPORTANT: use the `^~` modifier, not a plain prefix location. If the
+# existing server block already has a regex location (e.g.
+# `location ~ \.(js|css|png|svg|ico)$ { ... }` proxying to a different
+# backend), nginx checks regex locations AFTER finding the longest matching
+# prefix — so without `^~`, Streamlit's own .js/.css/.svg assets under
+# /research-portal/ would get hijacked by that other regex location instead
+# of reaching Streamlit. `^~` tells nginx "if this prefix matches, stop —
+# do not evaluate regex locations."
 #
 # Result: http://<server-ip-or-domain>/research-portal/
 
-location /research-portal/ {
+location ^~ /research-portal/ {
     proxy_pass http://127.0.0.1:8501/research-portal/;
     proxy_http_version 1.1;
 
